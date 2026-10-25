@@ -2,7 +2,12 @@
 var ACHIEVEMENTS=[
  {id:"countries",name:"Countries",desc:"Visit 10 different countries."},
  {id:"continents",name:"Continents",desc:"Visit 5 of the 6 inhabited continents."},
- {id:"pinpoint",name:"Pinpoint accuracy",desc:"Land a checkpoint guess within 500 m."},
+ {id:"pinpoint",name:"Pinpoint accuracy",desc:"Lock in a destination guess that is 0 km off."},
+ {id:"checkout",name:"Check It Out",desc:"Lose 0 minutes on a checkpoint challenge."},
+ {id:"history",name:"History Buff",desc:"Get full marks in a City Timeline."},
+ {id:"globe",name:"Globe Trotter",desc:"Visit all six continents."},
+ {id:"welltraveled",name:"Well Traveled",desc:"Visit every country in the game."},
+ {id:"completer",name:"Completer Finisher",desc:"Visit every main destination."},
  {id:"profiteer",name:"Profiteering",desc:"Sell a good for at least double what you paid."},
  {id:"timewaster",name:"Time waster",desc:"Spend 12 hours waiting for services in one campaign."},
  {id:"late",name:"Better late than never",desc:"Finish a leg after the target time."}
@@ -15,7 +20,7 @@ var CONTINENT_OF={"uk":"Europe","fr":"Europe","benelux":"Europe","de":"Europe","
  "canada":"North America","usa":"North America","mexico":"North America","central-america":"North America","caribbean-greater":"North America","caribbean-lesser":"North America",
  "sa-north":"South America","brazil":"South America","southern-cone":"South America"};
 // Campaign achievement state, created when first needed (so older saves still load)
-function campAch(){if(!S||!S.camp)return null;var c=S.camp;c.ach=c.ach||{};c.countries=c.countries||[];c.continents=c.continents||[];c.waited=c.waited||0;return c}
+function campAch(){if(!S||!S.camp)return null;var c=S.camp;c.ach=c.ach||{};c.countries=c.countries||[];c.continents=c.continents||[];c.waited=c.waited||0;c.visited=c.visited||[];return c}
 function unlockAch(id){
  var c=campAch();if(!c||c.ach[id])return;
  var a=ACHIEVEMENTS.filter(function(x){return x.id===id})[0];if(!a)return;
@@ -28,9 +33,22 @@ function trackPlace(id){
  var c=campAch();if(!c||!N[id])return;
  var cc=N[id].c;if(cc&&c.countries.indexOf(cc)<0)c.countries.push(cc);
  var cont=CONTINENT_OF[regionOf(id)];if(cont&&c.continents.indexOf(cont)<0)c.continents.push(cont);
+ if(c.visited.indexOf(id)<0)c.visited.push(id);
  if(c.countries.length>=10)unlockAch("countries");
  if(c.continents.length>=5)unlockAch("continents");
+ checkCollections(c);
 }
+// Collection achievements: every continent, every country in the data, every main destination
+function checkCollections(c){
+ var conts={};Object.keys(CONTINENT_OF).forEach(function(r){conts[CONTINENT_OF[r]]=1});
+ if(Object.keys(conts).every(function(k){return c.continents.indexOf(k)>=0}))unlockAch("globe");
+ var all={};Object.keys(N).forEach(function(id){if(N[id].c)all[N[id].c]=1});
+ if(Object.keys(all).every(function(k){return c.countries.indexOf(k)>=0}))unlockAch("welltraveled");
+ var mains=gazetteer().filter(gzCity).map(function(g){return g.id});
+ if(mains.length&&mains.every(function(id){return c.visited.indexOf(id)>=0}))unlockAch("completer");
+}
+// Full marks in a City Timeline: every card placed correctly first time
+function timelineFullMarks(pts,max){var c=campAch();if(c&&max&&pts>=max)unlockAch("history")}
 function achToast(name){
  var el=document.createElement("div");el.className="toast";el.setAttribute("role","status");el.textContent="Achievement unlocked: "+name;
  document.body.appendChild(el);setTimeout(function(){el.remove()},4000);

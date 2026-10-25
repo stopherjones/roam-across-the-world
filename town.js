@@ -236,11 +236,12 @@ function mountTimeline(){
  var el=document.getElementById("tl-inline");
  if(!el||el.dataset.mounted)return;
  el.dataset.mounted="1";
- timelineActivity(el,mkCity(),closeTimeline,function(pts){return awardTimeline(mkCity(),pts)});
+ timelineActivity(el,mkCity(),closeTimeline,function(pts,max){return awardTimeline(mkCity(),pts,max)});
 }
 
 // Points from the City Timeline are paid as pounds, once for each town in each leg
-function awardTimeline(city,pts){
+function awardTimeline(city,pts,max){
+ timelineFullMarks(pts,max);
  S.camp.timelinePaid=S.camp.timelinePaid||{};
  if(S.camp.timelinePaid[city])return "You have already earned from "+city+" this leg.";
  S.camp.timelinePaid[city]=1;

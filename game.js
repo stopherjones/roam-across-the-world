@@ -237,7 +237,7 @@ function planResHtml(){var p=S.plan;return"<p>You were "+Math.round(p.km)+" km o
 function planGuess(){
  if(S.phase!="plan"||S.plan||!PL.guess)return;
  var t=ll(S.goal),km=kmc(PL.guess,t);
- S.plan={km:km,lost:planLost(km)};
+ S.plan={km:km,lost:planLost(km)};if(Math.round(km)===0)unlockAch("pinpoint");
  if(document.getElementById("planguess"))document.getElementById("planguess").hidden=true;document.getElementById("planres").innerHTML=planResHtml();
  var g=PL.guess;
  MJ.p&&MJ.p.then(function(map){if(!map)return;PL.truth=new maplibregl.Marker({color:"#2e9e4f"}).setLngLat(t).addTo(map);
@@ -680,7 +680,7 @@ function nextLeg(){
  if(!S||!S.camp)return;
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
  var log=(S.camp.log||[]).concat([{leg:S.camp.legs,to:N[from].n,arrived:stamp(S.arrH||0),stranded:!!S.stranded}]),start=(arrDay()+1)*24;
- var camp={ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},nextUid:S.camp.nextUid||0};
+ var camp={ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},nextUid:S.camp.nextUid||0};
  var st=S.setup||{air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}},tries=0;
  var attempt=function(){
   var to=pickDest(from,dirs);
@@ -760,7 +760,7 @@ function arriveContinue(){
 function startLM(){MJ.resetView=true;
  var g=N[S.goal];if(MJ.p)MJ.p.then(function(m){if(m)jvis(m,false)});
  MAPX.setLabels(true);LM.start({name:g.n,lat:g.la,lon:g.lo,landmark:g.l,level:S.lmLevel||"mixed",clueMode:"off"},function(r){
-  LM.reset();S.lm=r;S.h+=r.lost;S.arrH=S.h;if(!r.skipped&&r.distM<=500)unlockAch("pinpoint");settleBonus();S.over="done";S.phase="move";
+  LM.reset();S.lm=r;S.h+=r.lost;S.arrH=S.h;if(!r.skipped&&Math.round(r.lost*60)===0)unlockAch("checkout");settleBonus();S.over="done";S.phase="move";
   say(clk(S.h)+": Checkpoint: "+(r.skipped?"skipped.":r.title+", "+r.distText+" off, "+mins(r.lost)+" lost."));render()})
 }
 // Stranded: nothing at this stop can be paid for, including a cheaper change of terminal
@@ -892,7 +892,7 @@ function render(msg){
  document.body.classList.toggle("map-min",mapped&&MAPVIEW==="min");
  document.body.classList.toggle("map-full",mapped&&MAPVIEW==="full");
  var st=status();
- h+="<div class='hdr'><div class='r1'><span><b>"+clockHtml(clockText())+"</b>"+(S.phase==="rest"?"":"<small class='rv'>Target "+stamp(S.target||0)+"</small>")+"</span><span><b>\u00a3"+Math.round(S.cash)+"</b></span><span class='st'><span aria-hidden='true'>"+st[0]+"</span> "+st[1]+"</span></div><div class='r2'><div class='cur'><small>Now</small>"+N[S.loc].n+"</div><div><small>To</small>"+(S.phase==="rest"?"?":S.phase=="plan"&&!S.plan||S.phase=="routes"&&!S.route?"?":arrow(S.loc,S.goal))+" "+(S.phase==="rest"?"Next leg":N[S.goal].n)+"</div></div><nav class='panel-nav' aria-label='Game panels'><button type='button' data-panel-target='play'>Game</button><button type='button' data-panel-target='journal'>Journal</button><button type='button' data-panel-target='inventory'>Inventory</button></nav></div>";
+ h+="<div class='hdr'><div class='r1'><span><b>"+clockHtml(clockText())+"</b>"+(S.phase==="rest"?"":"<small class='rv'>Target "+stamp(S.target||0)+"</small>")+"</span><span><b>\u00a3"+Math.round(S.cash)+"</b></span><span class='st'><span aria-hidden='true'>"+st[0]+"</span> "+st[1]+"</span></div><div class='r2'><div class='cur'><small>Now</small>"+N[S.loc].n+" <span id='wx-now'>"+WX.html()+"</span></div><div><small>To</small>"+(S.phase==="rest"?"?":S.phase=="plan"&&!S.plan||S.phase=="routes"&&!S.route?"?":arrow(S.loc,S.goal))+" "+(S.phase==="rest"?"Next leg":N[S.goal].n)+"</div></div><nav class='panel-nav' aria-label='Game panels'><button type='button' data-panel-target='play'>Game</button><button type='button' data-panel-target='journal'>Journal</button><button type='button' data-panel-target='inventory'>Inventory</button></nav></div>";
  h+=mapped?mapDockHtml()+"<div class='actions'>":"";
  h+="<div class='game-panels' id='panel-track'><section class='game-panel' data-game-panel='play' aria-label='Game'>";
  if(S&&S.phase=="plan")h+=planIntro();

@@ -78,8 +78,7 @@ function timelineActivity(container, city, onClose, onFinish) {
   var hint = el("p", "tl-hint");
   var result = el("div", "tl-result"); result.hidden = true;
   var final = el("p", "tl-final"), finalNote = el("p", "tl-note"), breakdown = el("ol", "tl-breakdown");
-  var again = el("button", "", "Play again");
-  result.append(final, finalNote, breakdown, again);
+  result.append(final, finalNote, breakdown);
   board.append(bar, message, track, hand, hint, result);
   container.append(board);
 
@@ -194,7 +193,7 @@ function timelineActivity(container, city, onClose, onFinish) {
     var total = totalPoints();
     final.textContent = "Round over: " + total + " of " + maxPoints() + " points.";
     var perfect = placed.filter(function (i) { return i !== deck[0] && !wrong[i]; }).length;
-    var payout = onFinish ? onFinish(total) : "";
+    var payout = onFinish ? onFinish(total, maxPoints()) : "";
   finalNote.textContent = perfect + " of " + (events.length - 1) + " cards placed correctly first time." + (payout ? " " + payout : "");
     breakdown.replaceChildren();
     placed.forEach(function (idx) {
@@ -205,10 +204,7 @@ function timelineActivity(container, city, onClose, onFinish) {
     result.hidden = false;
     hand.hidden = true; hint.textContent = "";
     say("Round over.", "good");
-    again.focus();
   }
-
-  again.onclick = function () { if (events.length) startRound(); };
 
   function begin(list) {
     events = list;
