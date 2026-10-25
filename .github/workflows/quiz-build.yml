@@ -1,0 +1,27 @@
+name: Build timeline quiz
+
+# Run by hand from the Actions tab. Writes data/quiz/<city>.json and uploads it as an artifact to review.
+on:
+  workflow_dispatch:
+    inputs:
+      city:
+        description: "Wikipedia article title, e.g. Gothenburg"
+        required: true
+        default: "Gothenburg"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build the quiz
+        run: node tools/quiz-build.mjs "${{ github.event.inputs.city }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: quiz-${{ github.event.inputs.city }}
+          path: data/quiz/
