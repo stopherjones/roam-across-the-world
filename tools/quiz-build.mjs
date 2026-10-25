@@ -20,6 +20,21 @@ export function norm(s) {
 export function sentences(text) {
   return text.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(s => s.length > 20);
 }
+// Only sentences that mention a year can become events, so only those are sent to the model.
+export function yearSentences(text) {
+  return sentences(text).filter(s => /\b1\d{3}\b|\b20[0-2]\d\b/.test(s));
+}
+// Splits sentences into groups that fit comfortably in one request.
+export function batches(items, maxChars = 12000) {
+  const out = [];
+  let cur = [], size = 0;
+  for (const s of items) {
+    if (cur.length && size + s.length > maxChars) { out.push(cur.join(" ")); cur = []; size = 0; }
+    cur.push(s); size += s.length + 1;
+  }
+  if (cur.length) out.push(cur.join(" "));
+  return out;
+}
 export function parseJsonLoose(s) {
   const m = s.match(/```(?:json)?\s*([\s\S]*?)```/);
   return JSON.parse((m ? m[1] : s).trim());
@@ -41,11 +56,11 @@ export function checkCandidate(c, articleText) {
 // ---- model calls ----
 export function candidatesPrompt(city, articleText) {
   return [
-    `You are building a timeline quiz about ${city}. Use ONLY the article text below. Do not use outside knowledge.`,
+    `You are building a timeline quiz about ${city}. Use ONLY the sentences below, which come from the article. Do not use outside knowledge.`,
     `Return a JSON array of up to 15 events. Each item: {"year": whole number, "theme": one of ${THEMES.join(", ")}, "event": a short description of 10 to 15 words, "quote": the exact sentence from the text that states the event and year}.`,
     `Cover a mix of themes, including power and conflict, civic development, commerce and industry, and popular culture. Do not invent events or years. If the text does not support an event, leave it out.`,
     `Return only the JSON array, with no commentary.`,
-    `ARTICLE:\n${articleText}`
+    `SENTENCES:\n${articleText}`
   ].join("\n\n");
 }
 export function verifyPrompt(c) {
@@ -61,7 +76,7 @@ async function askModel(prompt, fetchFn = fetch) {
     method: "POST", headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ model: MODEL, messages: [{ role: "user", content: prompt }], temperature: 0.2 })
   });
-  if (!r.ok) throw new Error("model call failed: " + r.status);
+  if (!r.ok) throw new Error("model call failed: " + r.status + " " + (await r.text()).slice(0, 300));
   const j = await r.json();
   return j.choices[0].message.content;
 }
@@ -85,7 +100,14 @@ export function select(accepted, n = 10) {
 // ---- the pipeline, with the model and the article passed in so it can be tested ----
 export async function build({ city, title, articleText, sourceUrl, askFn }) {
   const rejects = [], accepted = [];
-  const raw = parseJsonLoose(await askFn(candidatesPrompt(city, articleText)));
+  // Candidates come from the year sentences, batch by batch, and are de-duplicated by year and quote
+  const seen = new Set(), raw = [];
+  for (const batch of batches(yearSentences(articleText))) {
+    for (const c of parseJsonLoose(await askFn(candidatesPrompt(city, batch)))) {
+      const key = c.year + "|" + norm(String(c.quote || ""));
+      if (!seen.has(key)) { seen.add(key); raw.push(c); }
+    }
+  }
   for (const c of raw) {
     const why = checkCandidate(c, articleText);
     if (why) { rejects.push({ ...c, stage: "code check", why }); continue; }
@@ -129,6 +151,10 @@ async function selftest() {
   ok("accepted events carry the article link", out.events.every(e => e.source === "https://en.wikipedia.org/wiki/Gothenburg"));
   ok("accepted events are in date order", out.events.every((e, i, a) => i === 0 || a[i - 1].year <= e.year));
   ok("events cover more than one theme", new Set(out.events.map(e => e.theme)).size >= 2);
+  const big = Array.from({ length: 400 }, (_, i) => "Event number " + i + " happened in " + (1000 + i) + " and was recorded in full.");
+  ok("a long article is split into several requests", batches(big).length > 1 && batches(big).every(b => b.length <= 12000 + 200));
+  const mixed = text + " The harbour is busy with ships from many countries.";
+  ok("only year sentences are sent", yearSentences(mixed).every(s => /\b1\d{3}\b|\b20\d\d\b/.test(s)) && yearSentences(mixed).length < sentences(mixed).length);
   console.log(out.events.length + " accepted, " + out.rejects.length + " rejected");
   process.exit(0);
 }
