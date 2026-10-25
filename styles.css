@@ -334,3 +334,7 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 
 /* Weather for the current stop (weather.js) */
 .wx{margin-left:6px;font-weight:400;white-space:nowrap}
+
+/* Ways to make money: market and City Timeline grouped (town.js) */
+.earn .panel{background:none;border:0;box-shadow:none;padding:0;margin:0 0 12px}
+.earn-sep{border-top:1px solid var(--line);margin:14px 0}

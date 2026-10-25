@@ -141,7 +141,7 @@ function restPage(){
  var arr=arrDay(),city=mkCity();
  var tl="<div class='tl'><div><b>Arrived</b>day "+arr+"</div><div class='now'><b>Rest day</b>day "+(arr+1)+"</div><div><b>Leave 8am</b>day "+(arr+2)+"</div></div>";
  var h=S.stranded?"<div class='panel'><h2>Stranded in "+esc(city)+"</h2><p class='mute mb6'>No onward fare is affordable. Sell what you carry at the market, then leave at 8am. You receive \u00a3"+STRANDED_INCOME+" when you set off, which covers most onward fares, but flights and fast trains will be out of reach for a while.</p>"+tl+"</div>":"<div class='panel'><h2>Rest day in "+esc(city)+"</h2><p class='mute mb6'>A free day. Visit the market to trade, earn income by correctly placing events on the City Timeline, or just use the buttons below to learn more about the town. Your next leg starts at 8am tomorrow.</p>"+tl+"</div>";
- h+=S.camp.marketOpen?marketHtml():"<div class='panel'><h2>Market</h2><p class='mute mb10'>Sell what you carry and buy local goods to take on the next leg.</p><button class='btn' onclick='restVisit()'>Visit the market</button></div>";
+ h+=earnHtml();
  h+=thingsHtml();
  h+="<div class='panel'><button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button><p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
  return h
@@ -181,17 +181,22 @@ function packSellHtml(){
  }).join("")+"</div>";
 }
 
+// Ways to make money on a rest day or while waiting: the market and the City Timeline, grouped
+function earnHtml(){
+ var market=S.camp.marketOpen?marketHtml():"<p class='mute mb10'>Sell what you carry and buy local goods to take on the next leg.</p><button class='btn' onclick='restVisit()'>Visit the market</button>";
+ var tl=S.timelineOpen?"<div id='tl-inline'></div>":"<p class='mute mb10'>Ten events about this town. Place each one on the timeline to earn income for this town. It costs no time.</p><button class='btn' onclick='openTimeline()'>City Timeline</button>";
+ return "<div class='panel earn'><h2>Ways to make money</h2>"+market+"<div class='earn-sep'></div>"+tl+"</div>";
+}
+
 // Things to do on a rest day: search links for the town
 function thingsHtml(){
- if(S.timelineOpen)return "<div class='panel'><div id='tl-inline'></div></div>";
  var q=function(s){return encodeURIComponent(s).replace(/%20/g,"+")},c=q(N[S.loc].n);
  var items=[
   ["Discover the local music scene","Acts across traditional, mainstream and experimental music.","https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+of+acts+covering+traditional%2C+mainstream+and+contemporary+%2F+experimental+music"],
-  ["Paint a local street scene","Painting inspiration from the town.","https://www.google.com/search?q=give+me+painting+inspiration+from+"+c+""],
-  ["Visit unusual or quirky museums","Odd collections and offbeat local exhibits.","https://www.google.com/search?q=unusual+or+quirky+museums+in+"+c],
-  ["Watch a short documentary","Films about the town and its surroundings.","https://www.google.com/search?q=short+documentary+about+"+c+"&udm=7"],
+  ["Discover the local sports scene","Traditional, mainstream and local sports.","https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"],
+  ["Paint a local street scene","Painting inspiration from the town.","https://www.google.com/search?q=give+me+painting+inspiration+from+"+c+""]
  ];
- return "<div class='panel'><h2>Things to do</h2><div class='tl-entry'><button class='btn' onclick='openTimeline()'>City Timeline</button><p class='mute note'>Ten events about this town. Place each one on the timeline to earn income for this town. It costs no time.</p></div>"+items.map(function(i){return"<a class='btn' href='"+i[2]+"' target='_blank' rel='noopener'>"+esc(i[0])+"</a><p class='mute note'>"+esc(i[1])+"</p>"}).join("")+"</div>";
+ return "<div class='panel'><h2>Things to do</h2>"+items.map(function(i){return"<a class='btn' href='"+i[2]+"' target='_blank' rel='noopener'>"+esc(i[0])+"</a><p class='mute note'>"+esc(i[1])+"</p>"}).join("")+"</div>";
 }
 
 // While you wait: the market and things to do cost no time, so the service still leaves on schedule
@@ -199,7 +204,7 @@ function waitHtml(){
  var o=opts()[S.pend],v=vehicleName(o.m),to=N[o.to].n;
  var h="<div class='panel'><h2>Waiting for the "+esc(v)+" to "+esc(to)+"</h2><p class='mute mb10'>It leaves at "+esc(clk(S.waitDep))+", "+mins(S.waitDep-S.h)+" from now. Explore "+esc(N[S.loc].n)+" while you wait. The market and the things to do cost no time.</p>"+
   "<div class='row'><button class='btn' onclick='boardWaiting()'>Board the "+esc(v)+" at "+esc(clk(S.waitDep))+"</button><button class='link' onclick='cancelWait()'>Choose a different option</button></div></div>";
- h+=S.camp.marketOpen?marketHtml():"<div class='panel'><h2>Market</h2><p class='mute mb10'>Sell what you carry and buy local goods.</p><button class='btn alt' onclick='restVisit()'>Visit the market</button></div>";
+ h+=earnHtml();
  h+=thingsHtml();
  return h
 }
