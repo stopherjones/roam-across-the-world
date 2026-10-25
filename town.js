@@ -11,7 +11,7 @@ var MK_BAND_NEUTRAL={character:"No clear character, so buyers want things in the
 var MK_CAP=6;
 
 // Stranded: no onward fare is affordable and no checkpoint work is open. The leg ends here as a rest day, and the next income is smaller
-var STRANDED_INCOME=250;
+var STRANDED_INCOME=200;
 
 function mkRand(){var parts=Array.prototype.slice.call(arguments),a=mkHash(parts.join("|"));a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}
 
@@ -33,7 +33,8 @@ function mkPips(n){var h="<span class='pips'>";for(var i=1;i<=10;i++)h+="<i"+(i<
 
 function mkGbp(n){return "\u00a3"+Math.round(n).toLocaleString("en-GB")}
 
-function mkCity(){return N[S.goal]?N[S.goal].n:""}
+// The town you are in: the market, prices and the rest day all belong to where you are standing
+function mkCity(){return N[S.loc]?N[S.loc].n:""}
 
 function mkDayNo(){return arrDay()+1}
 
@@ -139,7 +140,7 @@ function restCloseMarket(){S.camp.marketOpen=false;render()}
 function restPage(){
  var arr=arrDay(),city=mkCity();
  var tl="<div class='tl'><div><b>Arrived</b>day "+arr+"</div><div class='now'><b>Rest day</b>day "+(arr+1)+"</div><div><b>Leave 8am</b>day "+(arr+2)+"</div></div>";
- var h=S.stranded?"<div class='panel'><h2>Stranded in "+esc(city)+"</h2><p class='mute mb6'>No onward fare is affordable. Sell what you carry at the market, then leave at 8am. You receive \u00a3"+STRANDED_INCOME+" when you set off, which covers most onward fares, but flights and fast trains will be out of reach for a while.</p>"+tl+"</div>":"<div class='panel'><h2>Rest day in "+esc(city)+"</h2><p class='mute mb6'>A free day. Visit the market to trade, explore the town, then leave at 8am.</p>"+tl+"</div>";
+ var h=S.stranded?"<div class='panel'><h2>Stranded in "+esc(city)+"</h2><p class='mute mb6'>No onward fare is affordable. Sell what you carry at the market, then leave at 8am. You receive \u00a3"+STRANDED_INCOME+" when you set off, which covers most onward fares, but flights and fast trains will be out of reach for a while.</p>"+tl+"</div>":"<div class='panel'><h2>Rest day in "+esc(city)+"</h2><p class='mute mb6'>A free day. Visit the market to trade, earn income by correctly placing events on the City Timeline, or just use the buttons below to learn more about the town. Your next leg starts at 8am tomorrow.</p>"+tl+"</div>";
  h+=S.camp.marketOpen?marketHtml():"<div class='panel'><h2>Market</h2><p class='mute mb10'>Sell what you carry and buy local goods to take on the next leg.</p><button class='btn' onclick='restVisit()'>Visit the market</button></div>";
  h+=thingsHtml();
  h+="<div class='panel'><button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button><p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
@@ -182,15 +183,15 @@ function packSellHtml(){
 
 // Things to do on a rest day: search links for the town
 function thingsHtml(){
+ if(S.timelineOpen)return "<div class='panel'><div id='tl-inline'></div></div>";
  var q=function(s){return encodeURIComponent(s).replace(/%20/g,"+")},c=q(N[S.loc].n);
  var items=[
   ["Discover the local music scene","Acts across traditional, mainstream and experimental music.","https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+of+acts+covering+traditional%2C+mainstream+and+contemporary+%2F+experimental+music"],
   ["Paint a local street scene","Painting inspiration from the town.","https://www.google.com/search?q=give+me+painting+inspiration+from+"+c+""],
   ["Visit unusual or quirky museums","Odd collections and offbeat local exhibits.","https://www.google.com/search?q=unusual+or+quirky+museums+in+"+c],
   ["Watch a short documentary","Films about the town and its surroundings.","https://www.google.com/search?q=short+documentary+about+"+c+"&udm=7"],
-  ["Learn the town's history","Key events and places from its past.","https://www.google.com/search?q=history+of+"+c]
  ];
- return "<div class='panel'><h2>Things to do</h2>"+items.map(function(i){return"<a class='btn' href='"+i[2]+"' target='_blank' rel='noopener'>"+esc(i[0])+"</a><p class='mute note'>"+esc(i[1])+"</p>"}).join("")+"</div>";
+ return "<div class='panel'><h2>Things to do</h2><div class='tl-entry'><button class='btn' onclick='openTimeline()'>City Timeline</button><p class='mute note'>Ten events about this town. Place each one on the timeline to earn income for this town. It costs no time.</p></div>"+items.map(function(i){return"<a class='btn' href='"+i[2]+"' target='_blank' rel='noopener'>"+esc(i[0])+"</a><p class='mute note'>"+esc(i[1])+"</p>"}).join("")+"</div>";
 }
 
 // While you wait: the market and things to do cost no time, so the service still leaves on schedule
@@ -204,13 +205,14 @@ function waitHtml(){
 }
 
 function boardWaiting(){
+ S.timelineOpen=false;
  if(S.phase!=="wait")return;
  var i=S.pend,dep=S.waitDep,c=campAch();if(c){c.waited+=Math.max(0,dep-S.h);if(c.waited>=12)unlockAch("timewaster")}
  S.pend=null;S.waitDep=null;S.camp.marketOpen=false;S.phase="move";
  hop(i,dep);
 }
 
-function cancelWait(){S.phase="move";S.pend=null;S.waitDep=null;S.camp.marketOpen=false;render()}
+function cancelWait(){S.timelineOpen=false;S.phase="move";S.pend=null;S.waitDep=null;S.camp.marketOpen=false;render()}
 
 var MK_PRE=null;
 
@@ -224,3 +226,27 @@ function prefetchMarket(){
  entry.promise.catch(function(){if(MK_PRE===entry)MK_PRE=null});
 }
 
+
+// Opens the timeline activity over the page, for the town you are in. Closing returns to where you were.
+// The timeline opens in place of the things-to-do list, the way the market does. Back returns to the list.
+function openTimeline(){ S.timelineOpen=true; render() }
+function closeTimeline(){ S.timelineOpen=false; render() }
+// Called after each render: starts the activity in its place on the page
+function mountTimeline(){
+ var el=document.getElementById("tl-inline");
+ if(!el||el.dataset.mounted)return;
+ el.dataset.mounted="1";
+ timelineActivity(el,mkCity(),closeTimeline,function(pts){return awardTimeline(mkCity(),pts)});
+}
+
+// Points from the City Timeline are paid as pounds, once for each town in each leg
+function awardTimeline(city,pts){
+ S.camp.timelinePaid=S.camp.timelinePaid||{};
+ if(S.camp.timelinePaid[city])return "You have already earned from "+city+" this leg.";
+ S.camp.timelinePaid[city]=1;
+ S.cash+=pts;
+ say(clk(S.h)+": City Timeline in "+city+": +\u00a3"+pts+".");
+ save();
+ var b=document.querySelector(".hdr .r1>span:nth-child(2) b");if(b)b.textContent="\u00a3"+Math.round(S.cash);
+ return "You earn \u00a3"+pts+" for "+city+".";
+}

@@ -296,26 +296,15 @@ function inventoryPanelHtml(){
 }
 var activePanel="play",panelScrollTimer=null;
 function bindPanels(){
- if(panelScrollTimer){clearTimeout(panelScrollTimer);panelScrollTimer=null}
- var track=document.getElementById("panel-track");if(!track)return;
- var selected=track.querySelector("[data-game-panel='"+activePanel+"']");
- if(selected&&window.matchMedia("(max-width: 1099px)").matches)track.scrollLeft=selected.offsetLeft-track.offsetLeft;
  document.querySelectorAll("[data-panel-target]").forEach(function(b){
-  b.onclick=function(){
-   var name=b.getAttribute("data-panel-target"),panel=track.querySelector("[data-game-panel='"+name+"']");
-   if(panel)track.scrollLeft=panel.offsetLeft-track.offsetLeft;
-   activePanel=name;updatePanelNav()
-  }
+  b.onclick=function(){activePanel=b.getAttribute("data-panel-target");showPanel()};
  });
- track.onscroll=function(){
-  if(panelScrollTimer)clearTimeout(panelScrollTimer);
-  panelScrollTimer=setTimeout(function(){
-   var panels=track.querySelectorAll("[data-game-panel]"),best=null,distance=Infinity;
-   panels.forEach(function(panel){var d=Math.abs(panel.offsetLeft-track.offsetLeft-track.scrollLeft);if(d<distance){distance=d;best=panel}});
-   if(best){activePanel=best.getAttribute("data-game-panel");updatePanelNav()}
-  },100)
- };
- updatePanelNav()
+ showPanel();
+}
+// Only the chosen panel is shown: the buttons in the header switch between them
+function showPanel(){
+ document.querySelectorAll("[data-game-panel]").forEach(function(p){p.hidden=p.getAttribute("data-game-panel")!==activePanel});
+ updatePanelNav();
 }
 function updatePanelNav(){
  document.querySelectorAll("[data-panel-target]").forEach(function(b){
@@ -366,7 +355,7 @@ function run(steps){
 }
 function newJourney(a,b,air,evn,lm){
  var camp=NEXT_CAMP||{money:0,legs:1,start:0,log:[],pack:[],seed:(Math.random()*1e9)|0,sales:{},nextUid:0};NEXT_CAMP=null;
- S={legNotes:[],start:a,goal:b,air:air,ev:evn,camp:camp,setup:{air:air,evn:evn,lm:lm},lmOn:!!(lm&&lm.on),planOn:!!(lm&&lm.plan),lmClue:lm&&lm.clue,lmLevel:lm&&lm.level,rooms:[],wait:0,tired:false,pend:null,loc:a,h:0,spent:0,path:[a],times:[0],modes:[],nights:[],rev:{},log:["Begin your journey from "+(a=="lon"?"Trafalgar Square":N[a].n)+" to "+N[b].n+"."],phase:(lm&&lm.plan)?"plan":"routes",draft:[],over:null};
+ S={legHazards:0,legNotes:[],start:a,goal:b,air:air,ev:evn,camp:camp,setup:{air:air,evn:evn,lm:lm},lmOn:!!(lm&&lm.on),planOn:!!(lm&&lm.plan),lmClue:lm&&lm.clue,lmLevel:lm&&lm.level,rooms:[],wait:0,tired:false,pend:null,loc:a,h:0,spent:0,path:[a],times:[0],modes:[],nights:[],rev:{},log:["Begin your journey from "+(a=="lon"?"Trafalgar Square":N[a].n)+" to "+N[b].n+"."],phase:(lm&&lm.plan)?"plan":"routes",draft:[],over:null};
  S.term=terms(a)[0];S.arr=0;var B=camp.money+(camp.income||INCOME),p=plan(0,B),t=0;
  while(!p&&t++<4){B=Math.round(B*1.5);p=plan(0,B)}
  if(!p){S=null;return false}
@@ -413,20 +402,25 @@ function travelFlavour(o){var p=FLAVOUR[o.m]||FLAVOUR.bus,pool=o.h<=3?p.s:p.l,li
 var SLIGHT={bus:["A queue at a level crossing holds the bus up for a while.","The bus stops twice while bags are loaded onto the roof."],coach:["A lorry shedding its load slows the coach for a few miles.","The coach waits at a barrier while the road is checked."],rail:["A signal check holds the train at a junction for a few minutes.","The train waits at a station for a late connection from another line."],hsr:["A speed restriction on the line means the train eases off for a while.","The train holds at a junction while a freight train clears the track."],ferry:["The ferry lingers at the quay while a late vehicle is loaded.","Choppy water means a slower approach to the harbour."],air:["The flight waits on the taxiway for a busy runway slot.","A short holding pattern over the city before landing."],tube:["A signal failure means a short wait between stations.","The train is held in a tunnel while the line is cleared."],shared:["The minibus stops at a market for produce to be loaded.","The driver takes a detour round a flooded dip in the road."]};
 var SAVED=["The connection was waiting, so you were away a little sooner.","The driver found a clear road and made up some time.","Everything lined up, and the crossing went faster than planned."];
 // Travel events, per mode. One d6 per hop: 1 breakdown or failure (+20% of the hop's time), 2 bad weather (+10%), 3 to 5 nothing, 6 a papers problem (fee of 50% of the fare, or +10% time on a free hop)
-function eventFor(o,r){
+function eventFor(o,r,from){
  var m=o.m,name=(m=="shared"?"minibus":(MODE[m]||"vehicle")).toLowerCase();
- // Shared minibuses break down on a 2 as well as a 1
- if(r==1||(m=="shared"&&r==2)){var d=o.h*0.2,air=m=="air",ferry=m=="ferry";
-  return{kind:"hazard",h:d,c:0,title:ferry?"Mechanical failure":air?"Technical fault":"Breakdown",label:"Breakdown",
-   t:"The "+name+" "+(ferry?"suffers a mechanical failure":air?"suffers a technical fault":"breaks down")+": +"+mins(d)+"."}}
- if(r==2){var w=o.h*0.1;
-  return{kind:"hazard",h:w,c:0,title:"Bad weather",label:"Bad weather",t:(m=="ferry"?"Rough seas slow the crossing":"Bad weather slows the journey")+": +"+mins(w)+"."}}
- if(r==3){var fee=Math.round(o.c*0.5);
-  if(fee>0)return{kind:"hazard",h:0,c:fee,title:"Problem with your papers",label:"Papers",t:"Problem with your papers: a fee of \u00a3"+fee+"."};
-  var dl=o.h*0.1;return{kind:"hazard",h:dl,c:0,title:"Problem with your papers",label:"Papers",t:"Problem with your papers: +"+mins(dl)+" (no fare to take a fee from)."}}
- if(r>=4&&r<=6){var sd=o.h*(r==4?0.03:0.05),pool=SLIGHT[m]||SLIGHT.bus;
+ // A border is a change of country. Papers problems only happen there.
+ var border=from!=null&&N[from]&&N[o.to]&&N[from].c!==N[o.to].c;
+ var serious=r==1||r==2||(r==3&&border);
+ // At most one serious problem per leg: any further one is only a slight delay
+ var capped=serious&&S&&S.legHazards>0;
+ if(serious&&!capped){
+  if(r==1){var d=o.h*0.2,air=m=="air",ferry=m=="ferry";
+   return{kind:"hazard",h:d,c:0,title:ferry?"Mechanical failure":air?"Technical fault":"Breakdown",label:"Breakdown",
+    t:"The "+name+" "+(ferry?"suffers a mechanical failure":air?"suffers a technical fault":"breaks down")+": +"+mins(d)+"."}}
+  if(r==2){var w=o.h*0.1;
+   return{kind:"hazard",h:w,c:0,title:"Bad weather",label:"Bad weather",t:(m=="ferry"?"Rough seas slow the crossing":"Bad weather slows the journey")+": +"+mins(w)+"."}}
+  var fee=Math.round(o.c*0.5);
+  if(fee>0)return{kind:"hazard",h:0,c:fee,title:"Problem with your papers",label:"Papers",t:"Problem with your papers at the border: a fee of \u00a3"+fee+"."};
+  var dl=o.h*0.1;return{kind:"hazard",h:dl,c:0,title:"Problem with your papers",label:"Papers",t:"Problem with your papers at the border: +"+mins(dl)+" (no fare to take a fee from)."}}
+ if(capped||r==4||r==5){var sd=o.h*(capped?0.05:(r==4?0.03:0.05)),pool=SLIGHT[m]||SLIGHT.bus;
   return{kind:"slight",h:sd,c:0,title:"Slight delay",label:"Slight delay",t:pool[Math.floor(Math.random()*pool.length)]+" +"+mins(sd)+"."}}
- if(r==7){var sv=o.h*0.05;
+ if(r==6){var sv=o.h*0.05;
   return{kind:"saving",h:-sv,c:0,title:"Quicker than planned",label:"Quicker",t:SAVED[Math.floor(Math.random()*SAVED.length)]+" "+mins(sv)+" saved."}}
  var fl=travelFlavour(o);return{kind:"none",h:0,c:0,title:fl.title,label:fl.title,t:fl.t};
 }
@@ -456,6 +450,7 @@ function settleHop(o,x){
  trackPlace(S.loc);
  S.h=Math.max(0,S.h+x.h);S.cash=Math.max(0,S.cash-x.c);S.spent+=x.c;
  if(x.kind!="none")S.legNotes.push(x.t);
+ if(x.kind=="hazard")S.legHazards=(S.legHazards||0)+1;
  say(clk(S.h)+": "+(o.m=="shared"?sharedName(S.loc):MODE[o.m])+" to "+N[o.to].n+" ("+o.h+" h, \u00a3"+o.c+"). "+x.t);
  if(S.loc==S.goal){S.arrH=S.h;arrivalPrefetch();S.phase="arrive";return render()}
  S.arr=S.h;S.term=grp(o.m);
@@ -469,7 +464,7 @@ function hop(i,dep){
  if(tr){say("Tired after a poor night: 1 h lost.");S.legNotes.push("Tired after a poor night: 1 h lost.")}
  S.h=dep+o.h+tr;S.cash-=o.c;S.spent+=o.c;S.loc=o.to;S.path.push(o.to);S.modes.push(o.m);
  (S.times=S.times||[0]).push(S.h);S.nights.push(S.slept?1:0);S.slept=0;
- var r=S.ev?roll():null,x=eventFor(o,r||3);
+ var r=S.ev?roll():null,x=eventFor(o,r||12,from);
  hopAnimate(from,o.to,o,r,x,function(){settleHop(o,x)});
  render();
 }
@@ -483,7 +478,7 @@ function stay(k){
 }
 function look(){S.h+=.3;S.rev[S.loc+S.term]=1;say(clk(S.h)+": You ask around and check timetables at "+N[S.loc].n+".");render()}
 // Campaign: each new leg gives a fixed income on top of any money carried over from the last leg. Tune here.
-var INCOME=350,BONUS=150,PLAN_ALLOW=1.5,LM_ALLOW=1.5,NEXT_CAMP=null;
+var INCOME=250,BONUS=150,PLAN_ALLOW=1.5,LM_ALLOW=1.5,NEXT_CAMP=null;
 // Target: the median of the reasonable routes plus a planning allowance. Arriving by then earns BONUS on top of INCOME.
 // Interim checkpoint work: at a culture-4+ city you can stop for a photo challenge. It costs 2 hours whatever the result.
 // Payout: £100 for a spot-on guess, falling to £50 at 2 km out. A city pays out once per campaign, and only one stop per leg.
@@ -897,9 +892,9 @@ function render(msg){
  document.body.classList.toggle("map-min",mapped&&MAPVIEW==="min");
  document.body.classList.toggle("map-full",mapped&&MAPVIEW==="full");
  var st=status();
- h+="<div class='hdr'><div class='r1'><span><b>"+clockHtml(clockText())+"</b>"+(S.phase==="rest"?"":"<small class='rv'>Target "+stamp(S.target||0)+"</small>")+"</span><span><b>\u00a3"+Math.round(S.cash)+"</b></span><span class='st'><span aria-hidden='true'>"+st[0]+"</span> "+st[1]+"</span></div><div class='r2'><div class='cur'><small>Now</small>"+N[S.loc].n+"</div><div><small>To</small>"+(S.phase==="rest"?"?":S.phase=="plan"&&!S.plan||S.phase=="routes"&&!S.route?"?":arrow(S.loc,S.goal))+" "+(S.phase==="rest"?"Next leg":N[S.goal].n)+"</div></div></div>";
+ h+="<div class='hdr'><div class='r1'><span><b>"+clockHtml(clockText())+"</b>"+(S.phase==="rest"?"":"<small class='rv'>Target "+stamp(S.target||0)+"</small>")+"</span><span><b>\u00a3"+Math.round(S.cash)+"</b></span><span class='st'><span aria-hidden='true'>"+st[0]+"</span> "+st[1]+"</span></div><div class='r2'><div class='cur'><small>Now</small>"+N[S.loc].n+"</div><div><small>To</small>"+(S.phase==="rest"?"?":S.phase=="plan"&&!S.plan||S.phase=="routes"&&!S.route?"?":arrow(S.loc,S.goal))+" "+(S.phase==="rest"?"Next leg":N[S.goal].n)+"</div></div><nav class='panel-nav' aria-label='Game panels'><button type='button' data-panel-target='play'>Game</button><button type='button' data-panel-target='journal'>Journal</button><button type='button' data-panel-target='inventory'>Inventory</button></nav></div>";
  h+=mapped?mapDockHtml()+"<div class='actions'>":"";
- h+="<nav class='panel-nav' aria-label='Game panels'><button type='button' data-panel-target='play'>Game</button><button type='button' data-panel-target='journal'>Journal</button><button type='button' data-panel-target='inventory'>Inventory</button></nav><p class='panel-hint'>Swipe between panels or choose a section</p><div class='game-panels' id='panel-track'><section class='game-panel' data-game-panel='play' aria-label='Game'>";
+ h+="<div class='game-panels' id='panel-track'><section class='game-panel' data-game-panel='play' aria-label='Game'>";
  if(S&&S.phase=="plan")h+=planIntro();
  if(S.phase==="rest"){h+=restPage();}else if(S.over){
   var m=S.over=="broke"?"Stranded: you can't afford any onward fare from "+N[S.loc].n+".":(S.bonus?"You arrived on time.":"You arrived after the target time.");
@@ -920,7 +915,7 @@ function render(msg){
  }
  h+="</section><section class='game-panel' data-game-panel='journal' aria-label='Travel journal'>"+journalPanelHtml()+"</section><section class='game-panel' data-game-panel='inventory' aria-label='Money and inventory'>"+inventoryPanelHtml()+"</section></div>";
  if(mapped)h+="</div>";
- var app=document.getElementById("app");app.classList.add("wide");app.innerHTML=h;setHdrVar();animateClock(LAST_CLOCK,clockText());LAST_CLOCK=clockText();drawMap();bindPanels();bindModes();fillFlavour();fillRouteFlavour();if(S&&(S.phase=="lastmile"||S.phase=="interim")&&!S.over)LM.attach(document.getElementById("lm"))
+ var app=document.getElementById("app");app.classList.add("wide");app.innerHTML=h;setHdrVar();mountTimeline();animateClock(LAST_CLOCK,clockText());LAST_CLOCK=clockText();drawMap();bindPanels();bindModes();fillFlavour();fillRouteFlavour();if(S&&(S.phase=="lastmile"||S.phase=="interim")&&!S.over)LM.attach(document.getElementById("lm"))
 }
 // Startup: show the start screen straight away; if a campaign is saved, load its regions first, then resume it
 load();

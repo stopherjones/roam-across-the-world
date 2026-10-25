@@ -104,8 +104,8 @@ label{display:block;font-size:.9rem;color:var(--mute);margin-bottom:4px}
 .modebar .modes{flex-wrap:nowrap;gap:6px}
 .modebar .btn{padding:6px 8px;font-size:.8rem;white-space:nowrap;line-height:1.3}
 
-.panel-nav{display:none}
-.game-panels{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.9fr) minmax(0,.9fr);gap:14px;align-items:start}
+.panel-nav{display:flex;gap:6px;margin:0}
+.game-panels{display:block;min-width:0;max-width:100%}
 .game-panel{min-width:0}
 .game-panel>.panel{margin-bottom:10px}
 .panel-hint{display:none}
@@ -115,19 +115,15 @@ label{display:block;font-size:.9rem;color:var(--mute);margin-bottom:4px}
 .inventory-stats small,.inventory-stats b{display:block}
 .inventory-stats small{color:var(--mute)}
 .inventory-stats b{font:700 1.2rem Georgia,serif}
-.panel-nav button{flex:1;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:9px 10px;font:600 .9rem system-ui,sans-serif}
+.panel-nav button{flex:1;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:4px 8px;font:600 .8rem system-ui,sans-serif;line-height:1.3}
 .panel-nav button.on{background:var(--acc);border-color:var(--acc);color:var(--accfg)}
 
 @media(max-width:1099px){
  main.wide{max-width:720px}
- .panel-nav{display:flex;gap:8px;margin:0 0 10px}
  .panel-hint{display:block;color:var(--mute);font-size:.8rem;text-align:center;margin:0 0 8px}
- .game-panels{display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:thin;padding-bottom:8px}
- .game-panel{flex:0 0 100%;scroll-snap-align:start;scroll-snap-stop:always}
 }
 @media(min-width:600px) and (max-width:1099px){
  main.wide{max-width:900px}
- .game-panel{flex-basis:88%}
 }
 
 /* Opening screen */
@@ -167,7 +163,6 @@ body.mapscreen .smap{height:100%;min-height:0;margin:0}
 .mapbtns .btn{background:color-mix(in srgb,var(--card) 92%,transparent);box-shadow:0 1px 4px rgba(0,0,0,.25)}
 .mapbtns .btn.on{background:var(--acc);color:var(--accfg)}
 .actions{flex:1 1 0;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:16px}
-body.mapscreen .actions .panel-nav{position:sticky;top:0;z-index:2;background:var(--bg);padding:4px 0 6px}
 
 /* Visually hidden, but still read by screen readers */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -207,10 +202,7 @@ body.map-full .smap{border-radius:0;border:0}
  body.mapscreen .hdr{grid-column:1/-1}
  body.mapscreen .mapdock{grid-column:1;grid-row:2;flex:none;aspect-ratio:auto;max-height:none;width:auto;height:100%;margin:0 0 8px}
  body.mapscreen .actions{grid-column:2;grid-row:2;min-height:0;overflow-y:auto;padding-bottom:16px}
- body.mapscreen .panel-nav{display:flex;gap:8px;margin:0 0 10px}
  body.mapscreen .panel-hint{display:block;color:var(--mute);font-size:.8rem;text-align:center;margin:0 0 8px}
- body.mapscreen .game-panels{display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:thin;padding-bottom:8px}
- body.mapscreen .game-panel{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
  body.map-min .mapdock{align-self:start;height:auto}
 }
 
@@ -289,3 +281,53 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .spin.inline{display:inline-block;width:12px;height:12px;border-width:2px;vertical-align:-1px;margin-right:6px}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion: reduce){.spin{animation-duration:2.4s}}
+
+/* Timeline activity (timeline.js). Uses the game's colour variables, with fallbacks. */
+.tl-activity { font:16px/1.45 system-ui,sans-serif; color:var(--ink); }
+.tl-activity * { box-sizing:border-box; }
+.tl-head { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+.tl-title { font:700 1.4rem Georgia,serif; margin:0; color:var(--ink); }
+.tl-close { font:inherit; padding:6px 12px; border-radius:8px; border:1px solid var(--acc); background:var(--card); color:var(--acc); cursor:pointer; }
+.tl-sub { color:var(--mute); margin:4px 0 12px; font-size:.95rem; }
+.tl-status { color:var(--mute); min-height:1.4em; }
+.tl-spin { display:inline-block; width:12px; height:12px; border:2px solid var(--line); border-top-color:var(--acc); border-radius:50%; animation:tl-spin .8s linear infinite; vertical-align:-1px; margin-right:6px; }
+@keyframes tl-spin { to { transform:rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .tl-spin { animation-duration:2.4s; } }
+.tl-scorebar { display:flex; justify-content:space-between; align-items:baseline; margin:4px 0 8px; }
+.tl-points { font:700 1.2rem Georgia,serif; color:var(--acc); }
+.tl-progress { color:var(--mute); font-size:.9rem; }
+.tl-message { min-height:2.6em; padding:6px 10px; border-radius:8px; font-weight:600; }
+.tl-message.good { color:var(--good,#2d6a3e); background:rgba(45,106,62,.1); }
+.tl-message.bad { color:var(--bad,#a74436); background:rgba(167,68,54,.1); }
+.tl-track { display:flex; align-items:stretch; overflow-x:auto; padding:10px 2px 14px; scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch; }
+.tl-slot { flex:0 0 auto; display:flex; align-items:center; }
+.tl-gap { width:44px; height:var(--tl-h,190px); border:1px dashed var(--acc); background:transparent; color:var(--acc); border-radius:10px; padding:0; font:inherit; font-size:1.3rem; cursor:pointer; }
+.tl-gap.bad { border-style:solid; border-color:var(--bad,#a74436); color:var(--bad,#a74436); background:rgba(167,68,54,.12); cursor:default; }
+.tl-gap:focus-visible, .tl-activity button:focus-visible { outline:3px solid var(--acc); outline-offset:2px; }
+.tl-card { width:var(--tl-w,160px); height:var(--tl-h,190px); overflow:hidden; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 12px; display:flex; flex-direction:column; gap:4px; scroll-snap-align:center; }
+.tl-year { font:700 1rem Georgia,serif; color:var(--acc); }
+.tl-text { font-size:.82rem; line-height:1.3; }
+.tl-src { font-size:.72rem; color:var(--acc); }
+.tl-card.anchor { border-color:var(--acc); }
+.tl-card.final-right { border-color:var(--good,#2d6a3e); }
+.tl-card.final-wrong { border-color:var(--bad,#a74436); }
+.tl-hand { margin:14px auto 0; width:var(--tl-w,160px); height:var(--tl-h,190px); overflow:hidden; background:var(--card); border:2px solid var(--acc); border-radius:12px; padding:10px 12px; }
+.tl-label { font-size:.8rem; color:var(--mute); text-transform:uppercase; letter-spacing:.06em; margin:0 0 4px; }
+.tl-hand .tl-text { font-size:.82rem; margin:0; }
+.tl-hint { text-align:center; color:var(--mute); font-size:.9rem; margin:8px 0 0; }
+.tl-final { font-size:1.1rem; font-weight:700; margin:14px 0 4px; }
+.tl-note { font-size:.9rem; color:var(--mute); margin:0 0 10px; }
+.tl-breakdown { list-style:none; padding:0; margin:8px 0; }
+.tl-breakdown li { padding:6px 0; border-bottom:1px solid var(--line); font-size:.95rem; }
+.tl-activity button { font:inherit; padding:9px 14px; border-radius:8px; border:1px solid var(--acc); background:var(--acc); color:#fff; cursor:pointer; }
+.tl-activity button.alt { background:var(--card); color:var(--acc); }
+.tl-activity button:disabled { opacity:.45; cursor:not-allowed; }
+
+/* The activity over the page */
+.tl-box { background:var(--card); color:var(--ink); border:1px solid var(--line); border-radius:14px; width:min(760px,100%); max-height:92vh; overflow-y:auto; padding:16px; box-shadow:0 12px 32px rgba(0,0,0,.3); }
+.tl-entry { margin:0 0 12px; }
+.tl-entry .note { margin:6px 0 0; }
+
+/* The activity stays inside the screen width */
+.tl-activity{min-width:0;max-width:100%}
+.tl-activity .tl-track{max-width:100%}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timeline prototype</title>
+<link rel="stylesheet" href="timeline.css">
+<style>
+  :root { --bg:#f3f1ea; --card:#fff; --ink:#1f2a24; --mute:#66706a; --line:#d9d4c7; --acc:#315b45; --bad:#a74436; --good:#2d6a3e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161a17; --card:#1f2521; --ink:#eef2ec; --mute:#9aa59c; --line:#34403a; --acc:#7fb394; --bad:#e08a7a; --good:#8fd1a0; } }
+  body { margin:0; font:16px/1.45 system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+  main { max-width:720px; margin:0 auto; padding:16px 14px 32px; }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script src="timeline.js"></script>
+<script>
+  // The city comes from the address, e.g. timeline-prototype.html?city=Lisbon
+  var city = new URLSearchParams(location.search).get("city") || "Gothenburg";
+  timelineActivity(document.getElementById("app"), city);
+</script>
+</body>
+</html>
