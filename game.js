@@ -202,7 +202,7 @@ function flavourFor(c){
 function fillFlavour(){
  var el=document.getElementById("flavour-text");if(!el||!S||S.phase!=="plan")return;
  var key=S.goal,c=N[key].n;
- flavourFor(c).then(function(t){var cur=document.getElementById("flavour-text");if(cur&&S&&S.goal===key)cur.textContent=t},function(){var cur=document.getElementById("flavour-text");if(cur&&S&&S.goal===key)cur.textContent="An introduction isn't available right now."})
+ flavourFor(c).then(function(t){if(S&&S.goal===key)setIntro(t)},function(){if(S&&S.goal===key)setIntro("An introduction isn't available right now.")})
 }
 // One combined sentence for the journey, built from the modes on offer. No place names beyond the start and finish.
 function routeFlavourFallback(from,to,options){
@@ -226,9 +226,56 @@ function fillRouteFlavour(){
  var current=document.getElementById("route-flavour");if(current)current.textContent=routeFlavourFallback(from,to,S.opts)
 }
 function mkHash(str){var h=2166136261;for(var i=0;i<str.length;i++){h^=str.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
+// Destination reveal: a split-flap board that clicks the name into place, shown in the destination panel.
+// Timing is stateless: each tile's letter depends only on the time since the reveal began, so a re-render never restarts it.
+var FLAP_SEQ=" ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-'&.,/";
+var FLAP={goal:null,start:0,timer:null,finished:{}};
+var FLAP_STEP=30,FLAP_STAGGER=35; // ms per letter, ms between tiles
+function flapText(name){return name.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toUpperCase().split("").filter(function(c){return FLAP_SEQ.indexOf(c)>=0}).join("")}
+function flapStart(goal,reduce){
+ if(FLAP.goal!==goal){
+  FLAP.goal=goal;
+  FLAP.start=(reduce||FLAP.finished[goal])?-1e9:Date.now();
+ }
+ if(!FLAP.timer)FLAP.timer=setInterval(flapTick,FLAP_STEP);
+}
+function flapTick(){
+ var el=document.getElementById("flap-board"),cells=el?el.querySelectorAll(".flap-c"):[];
+ if(!cells.length||FLAP.goal==null)return;
+ var t=Date.now()-FLAP.start,all=true;
+ for(var i=0;i<cells.length;i++){
+  var tgt=+cells[i].getAttribute("data-t"),k=Math.floor((t-i*FLAP_STAGGER)/FLAP_STEP);
+  var shown=k<0?"":FLAP_SEQ.charAt(Math.min(k,tgt));
+  if(cells[i].textContent!==shown)cells[i].textContent=shown;
+  if(k<tgt)all=false;
+ }
+ if(all&&!FLAP.finished[FLAP.goal]){
+  FLAP.finished[FLAP.goal]=true;
+  clearInterval(FLAP.timer);FLAP.timer=null;
+  showIntro();
+ }
+}
+function flapSkip(){if(FLAP.goal!=null&&!FLAP.finished[FLAP.goal]){FLAP.start=-1e9;flapTick()}}
+// The introduction is shown only once the board has finished and the text has arrived
+function setIntro(text){
+ var el=document.getElementById("flavour-text");if(!el)return;
+ el.textContent=text;el.setAttribute("data-ready","1");showIntro();
+}
+function showIntro(){
+ var el=document.getElementById("flavour-text");
+ if(el&&el.getAttribute("data-ready")&&FLAP.finished[FLAP.goal])el.style.display="";
+}
 function planIntro(){
- var n=N[S.goal].n;
- return"<div class='panel'><h2>Destination: "+esc(n)+"</h2><p class='flavour' id='flavour-text'>Loading an introduction to "+esc(n)+"…</p>"+"</div>"
+ var n=N[S.goal].n,target=flapText(n),len=target.length||1;
+ var reduce=typeof matchMedia==="function"&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+ flapStart(S.goal,reduce);
+ var cells=target.split("").map(function(ch){
+  return "<span class='flap-c' data-t='"+FLAP_SEQ.indexOf(ch)+"' style='width:min(26px,calc((100% - "+(len-1)*3+"px)/"+len+"))'></span>";
+ }).join("");
+ var done=!!FLAP.finished[S.goal];
+ return "<div class='panel'><p class='flap-label'>Destination</p>"+
+  "<div class='flap-board' id='flap-board' role='img' aria-label='Destination: "+esc(n)+"' onclick='flapSkip()'><div class='flap-row'>"+cells+"</div></div>"+
+  "<p class='flavour' id='flavour-text' style='display:none'></p></div>";
 }
 function planPanelBase(){
  return"<div class='panel'>"+(S.plan?"":"<div class='guessbox'><p class='guessprompt'>Where is "+esc(N[S.goal].n)+"? Tap the map to drop a pin. The further off you are, the more time you lose working out how to get there.</p><div class='row m0'><button class='btn' id='planguess' onclick='planGuess()'"+(PL.guess?"":" disabled")+">Lock in guess</button></div></div>")+"<div id='planres'>"+(S.plan?planResHtml():"")+"</div><div id='planfail' hidden><p class='mute'>The map couldn't load.</p><button class='btn alt' onclick='planDone(1)'>Skip planning</button></div></div>"

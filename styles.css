@@ -338,3 +338,10 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 /* Ways to make money: market and City Timeline grouped (town.js) */
 .earn .panel{background:none;border:0;box-shadow:none;padding:0;margin:0 0 12px}
 .earn-sep{border-top:1px solid var(--line);margin:14px 0}
+
+/* Destination reveal board (game.js planIntro) */
+.flap-label{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin:0 0 8px}
+.flap-board{background:#15191c;border-radius:10px;padding:12px;cursor:pointer}
+.flap-row{display:flex;gap:3px;justify-content:center}
+.flap-c{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:0.72;min-width:0;background:#23292d;color:#f3c64a;border-radius:4px;font:700 clamp(.8rem,4.2vw,1.1rem)/1 ui-monospace,Menlo,monospace}
+.flap-c::after{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:#0b0e10}
