@@ -76,11 +76,13 @@ function buildLinks(){
 }
 
 // Berth lanes are links for route planning. They are offered as options only once heard of (see berthOpts).
+// Added directly, not through mk(), so two lanes between the same ports (cargo and cruise) both count
 function addBerthEdges(){
  BERTH_LANES.forEach(function(l){
   if(!N[l.from]||!N[l.to])return;
-  var j=E.length;mk(l.from,l.to,"ferry",0,l.hours,l.fare);
-  if(E.length>j){E[j].berth=l.id;E[j].kind=l.kind;E[j].via=l.via;E[j].rest=!!l.rest}
+  var j=E.length;
+  E.push({a:l.from,b:l.to,m:"ferry",h:l.hours,c:l.fare,lg:0,dp:undefined,ev:undefined,hw:0,berth:l.id,kind:l.kind,via:l.via,rest:!!l.rest});
+  (ADJ[l.from]=ADJ[l.from]||[]).push(j);(ADJ[l.to]=ADJ[l.to]||[]).push(j);
  });
 }
 // Sailings are heard of on arriving at a town with a travel agent: any port, or a town within the agent radius of one
