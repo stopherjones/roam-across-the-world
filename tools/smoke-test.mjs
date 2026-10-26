@@ -76,18 +76,34 @@ setTimeout(async () => {
 
   // Berths: a sailing heard of at a port appears as a route option, leaves at a fixed time, and is paid for at boarding
   w.S.phase = "move"; w.S.cash = 1000; w.S.loc = "por"; w.S.ev = false;
-  w.S.camp.heard = { "por-mia-cruise": w.absH(w.S.h) };
+  w.S.camp.heard = { "por-mia-cargo": w.absH(w.S.h) };
   w.S.camp.agentOpen = true;
   await w.loadRegion("usa"); w.rebuildWorld();   // as opening the travel agent does
-  const berthOpt = w.opts(1).find(o => o.berth === "por-mia-cruise");
-  ok("heard sailing is a route option at its port", !!berthOpt && berthOpt.m === "ferry" && berthOpt.c === 900);
+  const berthOpt = w.opts(1).find(o => o.berth === "por-mia-cargo");
+  ok("heard sailing is a route option at its port", !!berthOpt && berthOpt.m === "ferry" && berthOpt.c === 340);
   if (berthOpt) {
-    const before = w.S.cash, idx = w.opts().findIndex(o => o.berth === "por-mia-cruise");
+    const before = w.S.cash, idx = w.opts().findIndex(o => o.berth === "por-mia-cargo");
     w.hop(idx, w.S.h);
-    ok("berth pays the fare and arrives at Miami", w.S.cash === before - 900 && w.S.loc === "mia");
+    ok("berth pays the fare and arrives at Miami", w.S.cash === before - 340 && w.S.loc === "mia");
   }
   // Ordinary routes never use a berth
   ok("plan avoids berth lanes", (w.plan(0, 1e9, { from: "lon", to: "par" }) || []).every(s => !w.E[s.j].berth));
+  // Test picker: a chosen starting money is used exactly
+  await w.beginTo("lon", "par", 600); await wait(1500);
+  ok("test journey starts with the chosen money", !!w.S && w.S.cash === 600);
+  // Arriving at Dakar hears of the Cape Verde cruise, and loads Cape Verde so it can be listed
+  w.S.loc = "dak"; w.S.camp.heard = {}; w.render(); await wait(1500);
+  ok("cruise heard on arrival at Dakar", w.S.camp.heard["dak-pia-cruise"] != null && !!w.LOADED_REGIONS["atlantic-islands"]);
+  // Test picker search: the id is read from the bracketed part of the chosen suggestion
+  ok("test picker reads the place id", w.testIdOf("Valencia [val]") === "val" && w.testIdOf("Valencia") === null && w.testIdOf("Naples [nap]  ") === "nap");
+  // A designated port is always an agent town, even if the loaded links do not show it
+  ok("Dakar always has a travel agent", w.berthAgentIn([], "dak") === true);
+  // A cruise returns to its start as a rest day, with no checkpoint
+  w.S.phase = "rest"; w.S.loc = "pia"; w.S.camp.cruise = { back: "dak", to: "pia", hours: 60 }; w.render();
+  w.cruiseContinue(); await wait(4000);
+  ok("cruise returns to its start on the arrival card", w.S.loc === "dak" && w.S.phase === "arrive" && w.S.berthArrival === true && !w.S.camp.cruise);
+  w.arriveContinue();
+  ok("arrival card continues to a rest day, with no checkpoint", w.S.phase === "rest" && w.S.loc === "dak");
   console.log("runtime errors: " + (errs.length ? errs.join(" | ") : "none"));
   if (errs.length) failed++;
   console.log(failed ? "\nSMOKE TEST FAILED" : "\nSmoke test passed");

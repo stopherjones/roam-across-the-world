@@ -124,7 +124,18 @@ function restSell(uid){
  say("Sold "+x.name+" in "+mkCity()+" to "+(x.buyer?x.buyer.name:"a buyer")+" for "+mkGbp(price)+" (paid "+mkGbp(x.ask)+").");render();
 }
 
-function restLeave(){REST_MAP=false;if(S.camp)S.camp.agentOpen=false;nextLeg()}
+function restLeave(){REST_MAP=false;if(S.camp){S.camp.agentOpen=false;S.camp.berthNote=null;S.camp.cruise=null}nextLeg()}
+// Continue a cruise back to where it started: a rest day there, no checkpoint
+function cruiseContinue(){
+ var i=opts().findIndex(function(o){return o.cruiseReturn});
+ if(i<0)return;
+ takeBerth(i);
+}
+// A short arrival note for the rest page after a crossing
+function berthNoteHtml(){
+ if(!S.camp.berthNote)return"";
+ return "<div class='panel'><p>"+esc(S.camp.berthNote)+"</p></div>";
+}
 
 function restStart(){
  S.phase="rest";S.camp.market=null;S.camp.marketOpen=false;say("Rest day in "+mkCity()+".");render();
@@ -178,13 +189,10 @@ function boardBerth(id){
  function sail(){
   var now=absH(S.h),chk=berthCheck(s,now,S.cash);
   if(!chk.ok){say(chk.reason);render();return}
-  var trip=berthTrip(s);
-  if(now<s.dep)S.h=s.dep-S.camp.start;
-  S.cash-=s.lane.fare;
-  S.h=trip.arriveAt-S.camp.start;
-  S.loc=s.lane.to;S.arrH=S.h;S.phase="rest";S.camp.agentOpen=false;
-  say(clk(S.h)+": Boarded the "+s.lane.kind+" sailing to "+berthName(s.lane.to)+(trip.calls.length?", calling at "+trip.calls.map(berthName).join(", "):"")+".");
-  render();
+  var i=opts().findIndex(function(o){return o.berth===id&&o.fix!=null});
+  if(i<0){say("That sailing is no longer listed.");render();return}
+  S.camp.agentOpen=false;
+  takeBerth(i);
  }
  var need=berthRegions(s.lane).filter(function(r){return!LOADED_REGIONS[r]});
  if(!need.length)return sail();
@@ -196,10 +204,10 @@ function restPage(){
  var arr=arrDay(),city=mkCity();
  var tl="<div class='tl'><div><b>Arrived</b>day "+arr+"</div><div class='now'><b>Rest day</b>day "+(arr+1)+"</div><div><b>Leave 8am</b>day "+(arr+2)+"</div></div>";
  var h=S.stranded?"<div class='panel'><h2>Stranded in "+esc(city)+"</h2><p class='mute mb6'>No onward fare is affordable. Sell what you carry at the market, then leave at 8am. You receive \u00a3"+STRANDED_INCOME+" when you set off, which covers most onward fares, but flights and fast trains will be out of reach for a while.</p>"+tl+"</div>":"<div class='panel'><h2>Rest day in "+esc(city)+"</h2><p class='mute mb6'>A free day. Visit the market to trade, earn income by correctly placing events on the City Timeline, or just use the buttons below to learn more about the town. Your next leg starts at 8am tomorrow.</p>"+tl+"</div>";
- h+=agentHtml();
+ h=h+agentHtml();
  h+=earnHtml();
  h+=thingsHtml();
- h+="<div class='panel'><button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button><p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
+ h+="<div class='panel'>"+(S.camp.cruise?"<button class='btn' onclick='cruiseContinue()'>Continue the cruise to "+esc(berthName(S.camp.cruise.back))+"</button>":"<button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button>")+"<p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
  return h
 }
 

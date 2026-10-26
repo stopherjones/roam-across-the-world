@@ -113,8 +113,11 @@ function berthOpts(){
   var l=s.lane;
   if(!N[l.from]||!N[l.to]||!l.via.every(function(c){return N[c]}))return;
   out.push({to:l.to,m:"ferry",h:l.hours,c:l.fare,lg:0,dp:undefined,fix:s.dep-S.camp.start,
-   berth:l.id,kind:l.kind,via:l.via,rest:!!l.rest,noev:true});
+   berth:l.id,kind:l.kind,via:l.via,rest:!!l.rest,noev:true,back:l.from});
  });
+ // A cruise you are on returns to where it started, from its stop, at no extra fare
+ if(S.camp.cruise&&S.loc===S.camp.cruise.to&&N[S.camp.cruise.back])
+  out.push({to:S.camp.cruise.back,m:"ferry",h:S.camp.cruise.hours,c:0,lg:0,dp:undefined,fix:S.h,berth:"cruise-return",kind:"cruise",via:[],rest:true,noev:true,cruiseReturn:true});
  return out;
 }
 // Choose which long-distance links to show at this stop: toward, sideways, a diversion, and red herrings, with a spread of departure times.
@@ -465,7 +468,7 @@ function run(steps){
 function newJourney(a,b,air,evn,lm){
  var camp=NEXT_CAMP||{money:0,legs:1,start:0,log:[],pack:[],seed:(Math.random()*1e9)|0,sales:{},nextUid:0};NEXT_CAMP=null;
  S={legHazards:0,legNotes:[],start:a,goal:b,air:air,ev:evn,camp:camp,setup:{air:air,evn:evn,lm:lm},lmOn:!!(lm&&lm.on),planOn:!!(lm&&lm.plan),lmClue:lm&&lm.clue,lmLevel:lm&&lm.level,rooms:[],wait:0,tired:false,pend:null,loc:a,h:0,spent:0,path:[a],times:[0],modes:[],nights:[],rev:{},log:["Begin your journey from "+(a=="lon"?"Trafalgar Square":N[a].n)+" to "+N[b].n+"."],phase:(lm&&lm.plan)?"plan":"routes",draft:[],over:null};
- S.term=terms(a)[0];S.arr=0;var B=camp.money+(camp.income||INCOME),p=plan(0,B),t=0;
+ S.term=terms(a)[0];S.arr=0;var B=camp.money+(camp.income!=null?camp.income:INCOME),p=plan(0,B),t=0;
  while(!p&&t++<4){B=Math.round(B*1.5);p=plan(0,B)}
  if(!p){S=null;return false}
  S.budget=B;S.cash=B;S.opt=run(p);S.opts=routeOptions(S.budget);S.target=targetFor(routePool(S.budget),S.opt);trackPlace(a);return true
@@ -561,10 +564,29 @@ function settleHop(o,x){
  if(x.kind!="none")S.legNotes.push(x.t);
  if(x.kind=="hazard")S.legHazards=(S.legHazards||0)+1;
  say(clk(S.h)+": "+(o.berth?(o.kind=="cargo"?"cargo berth":"cruise berth"):(o.m=="shared"?sharedName(S.loc):MODE[o.m]))+" to "+N[o.to].n+" ("+o.h+" h, \u00a3"+o.c+")."+(o.via&&o.via.length?" Called at "+o.via.map(function(c){return N[c].n}).join(", ")+".":"")+" "+x.t);
+ if(o.berth){
+  // A crossing ends on a rest day at its stop, never a checkpoint. A cruise remembers where to return.
+  if(o.cruiseReturn)S.camp.cruise=null;
+  else if(o.kind==="cruise")S.camp.cruise={back:o.back,to:o.to,hours:o.h};
+  S.camp.berthNote=(o.cruiseReturn?"The cruise returns to ":(o.kind==="cruise"?"The cruise docks in ":"The ship docks in "))+N[o.to].n+". You arrive rested.";
+  S.arrH=S.h;S.arr=S.h;S.phase="arrive";S.berthArrival=true;S.term=grp(o.m);
+  return render();
+ }
  if(S.loc==S.goal){S.arrH=S.h;arrivalPrefetch();S.phase="arrive";return render()}
  if(o.rest){S.phase="rest";S.arrH=S.h;S.arr=S.h;S.term=grp(o.m);return render()}
  S.arr=S.h;S.term=grp(o.m);
   render();
+}
+// Take a berth or a cruise return from the agent or a rest day: the route option path, without the list visibility check
+function takeBerth(i){
+ var o=opts()[i];
+ if(!o)return render();
+ if(o.c>S.cash){say("Not enough cash for that crossing.");return render()}
+ S.over=null;S.berthArrival=false;S.phase="move";S.term=grp("ferry");
+ var sc=sched(o,S.loc,S.h);
+ if(sc.night){S.pend=i;S.rooms=mkRooms();S.phase="stay";return render()}
+ if(sc.dep-S.h>=WAIT_MIN){S.pend=i;S.waitDep=sc.dep;S.phase="wait";return render()}
+ hop(i,sc.dep);
 }
 function hop(i,dep){
  if(MJ.anim)return;
@@ -747,27 +769,40 @@ function busyEnd(){
  if(!BUSY){var el=document.getElementById("busy");if(el)el.style.display="none"}
 }
 function startJourney(a,b,air,evn,lm,camp){
- busyStart(camp?"Planning the next leg\u2026":"Planning your journey\u2026");
+ busyStart(camp&&camp.legs>1?"Planning the next leg\u2026":"Planning your journey\u2026");
  return journeyReady(a,b).then(function(){NEXT_CAMP=camp||null;return newJourney(a,b,air,evn,lm)}).then(function(r){busyEnd();return r},function(e){busyEnd();throw e});
 }
-// Testing: pick any start and destination, grouped by region, to reach a place without waiting for a random draw
+// Testing: pick any start and destination. Type to search; suggestions show the region.
+// A chosen place is written as "Name [id]", so places with the same name are told apart.
+function testPlaces(){
+ return GAZETTEER.split(";").filter(Boolean).map(function(r){var p=r.split("|");return{id:p[0],name:p[1],reg:p[5]}})
+  .sort(function(a,b){return a.name.localeCompare(b.name)});
+}
+function testLabel(id){var p=testPlaces().filter(function(c){return c.id===id})[0];return p?p.name+" ["+p.id+"]":id}
 function testPickerHtml(){
- var byRegion={};
- GAZETTEER.split(";").filter(Boolean).forEach(function(r){var p=r.split("|");(byRegion[p[5]]=byRegion[p[5]]||[]).push({id:p[0],name:p[1]})});
- var opts=function(sel){return Object.keys(byRegion).sort().map(function(reg){
-  return "<optgroup label='"+esc(reg)+"'>"+byRegion[reg].sort(function(a,b){return a.name<b.name?-1:1}).map(function(c){return "<option value='"+c.id+"'"+(c.id===sel?" selected":"")+">"+esc(c.name)+"</option>"}).join("")+"</optgroup>"
- }).join("")};
- return "<details class='mt14'><summary class='mute'>Testing: choose a start and destination</summary>"+
-  "<div class='row mt10'><label class='mute tfield'>From<select id='testFrom'>"+opts("lon")+"</select></label>"+
-  "<label class='mute tfield'>To<select id='testTo'>"+opts("rom")+"</select></label></div>"+
+ var list=testPlaces();
+ var dl="<datalist id='testPlaces'>"+list.map(function(c){return "<option value='"+esc(c.name)+" ["+esc(c.id)+"]'>"+esc(c.reg)+"</option>"}).join("")+"</datalist>";
+ return "<details class='mt14'><summary class='mute'>Testing: choose a start and destination</summary>"+dl+
+  "<div class='row mt10'><label class='mute tfield'>From<input id='testFrom' list='testPlaces' autocomplete='off' value='"+esc(testLabel('lon'))+"'></label>"+
+  "<label class='mute tfield'>To<input id='testTo' list='testPlaces' autocomplete='off' value='"+esc(testLabel('rom'))+"'></label></div>"+
+  "<div class='row mt10'><label class='mute tfield'>Starting money (£)<input id='testMoney' type='number' min='0' step='10' value='250'></label></div>"+
   "<div class='row mt10'><button class='secondary' onclick='beginTestPick()'>Start this journey</button></div></details>"
 }
-function beginTestPick(){beginTo(document.getElementById('testFrom').value,document.getElementById('testTo').value)}
-function beginTo(from,to){
+// The id is the last [bracketed] part of what was typed
+function testIdOf(s){var m=/\[([^\]]+)\]\s*$/.exec(s||"");return m?m[1]:null}
+function beginTestPick(){
+ var from=testIdOf(document.getElementById('testFrom').value),to=testIdOf(document.getElementById('testTo').value);
+ if(!from||!to||!testPlaces().some(function(c){return c.id===from})||!testPlaces().some(function(c){return c.id===to}))
+  return render("Pick both places from the suggestions.");
+ var m=parseFloat(document.getElementById('testMoney').value);
+ beginTo(from,to,isNaN(m)?null:Math.max(0,m));
+}
+function beginTo(from,to,money){
  if(!from||!to||from===to){S=null;return render("Choose two different places.")}
  activePanel="play";
  var lm={on:true,clue:"off",level:"mixed",plan:true};
- return startJourney(from,to,false,true,lm).then(function(ok){if(ok)return render();S=null;return render("No route found between those places.")},function(err){S=null;return render("Could not load the map: "+(err&&err.message||err))})
+ var camp=money==null?null:{money:money,income:0,legs:1,start:0,log:[],pack:[],seed:(Math.random()*1e9)|0,sales:{},nextUid:0};
+ return startJourney(from,to,false,true,lm,camp).then(function(ok){if(ok)return render();S=null;return render("No route found between those places.")},function(err){S=null;return render("Could not load the map: "+(err&&err.message||err))})
 }
 // Draw a start hub by weight from START_HUBS (config.js)
 function pickHub(){var t=0;START_HUBS.forEach(function(h){t+=h.w});var r=Math.random()*t;for(var i=0;i<START_HUBS.length;i++){r-=START_HUBS[i].w;if(r<0)return START_HUBS[i].id}return START_HUBS[0].id}
@@ -848,7 +883,15 @@ function arrivalPrefetch(){
  if(S.lmOn&&g.l&&window.LM&&LM.prefetch)LM.prefetch({name:g.n,lat:g.la,lon:g.lo,landmark:g.l});
  prefetchMarket();
 }
+// Arriving by berth: the usual arrival card, with the crossing note in place of the on-time line and no checkpoint
+function berthArriveHtml(){
+ var g=N[S.loc].n,notes=S.legNotes||[];
+ var h="<div class='panel arrive'><p class='kicker'>Arrived "+esc(clk(S.h))+"</p><h2 class='arrive-h'>Welcome to "+esc(g)+"</h2><p class='big'>"+esc(S.camp.berthNote||"You arrive rested.")+"</p>";
+ if(notes.length)h+="<h3>On the way</h3><ul class='log'>"+notes.map(function(t){return"<li>"+esc(t)+"</li>"}).join("")+"</ul>";
+ return h+"<button class='btn' onclick='arriveContinue()'>Continue</button></div>";
+}
 function arriveHtml(){
+ if(S.berthArrival)return berthArriveHtml();
  var g=N[S.goal].n,on=S.h<=S.target+1e-9,notes=S.legNotes||[];
  var status=on?"You arrive on time":"You arrive "+mins(S.h-S.target)+" late";
  var slept=notes.some(function(t){return /slept badly|Tired/.test(t)});
@@ -864,6 +907,7 @@ function arriveHtml(){
 }
 function arriveContinue(){
  if(S.phase!=="arrive")return;
+ if(S.berthArrival){S.berthArrival=false;S.camp.berthNote=null;S.phase="rest";return render()}
  if(S.lmOn){S.phase="lastmile";startLM();return render()}
  settleBonus();S.over="done";S.phase="move";render();
 }
@@ -996,6 +1040,7 @@ function welcomeHtml(msg){
  testPickerHtml();
 }
 function render(msg){
+ if(S&&S.camp)berthHearHere();   // hearing of sailings happens wherever the player is, not only on a rest day
  if(stranded()&&!canInterim())strandLeg();
  save();
  if(!S){
