@@ -76,4 +76,12 @@ function berthTrip(sailing){
  return{arriveAt:sailing.dep+l.hours,calls:l.via.slice(),fare:l.fare,restOnBoard:l.via.length>0||l.rest===true};
 }
 
+// Cargo crossings run both ways: each cargo lane gets a return lane with the same time, fare and rest setting.
+// Calls are made in reverse order on the way back. Cruises already return on their own route.
+BERTH_LANES.slice().forEach(function(l){
+  if(l.kind!=="cargo")return;
+  BERTH_LANES.push({id:l.id+"-return",kind:"cargo",from:l.to,to:l.from,via:l.via.slice().reverse(),
+    hours:l.hours,fare:l.fare,window:l.window,rest:l.rest});
+});
+
 if(typeof module!=="undefined")module.exports={BERTH_LANES,BERTH_PORTS,BERTH_AGENT_HOPS,berthHops,berthAgentIn,berthListing,berthCheck,berthTrip};
