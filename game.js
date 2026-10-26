@@ -37,14 +37,37 @@ function near(a,r,raw){
  return raw?out:out.sort(function(x,y){return IX[x]-IX[y]})
 }
 function nn(a,f,k,mx){return near(a,mx).filter(function(b){return!N[b].l&&G(b)==G(a)&&f(b)}).sort(function(x,y){return hav(a,x)-hav(a,y)}).slice(0,k)}
+// Sea barrier for automatic road and rail links. A pair of country letters listed here has no practical land
+// route, so no automatic link is made between them. Ferries and hand-set crossings still apply.
+// Pairs that do have a practical land route (Italy to Slovenia and Croatia, Greece to Albania, Turkey to Bulgaria,
+// the Arab Gulf states to each other, Denmark to Germany) are left open. A letter can cover more than one country.
+var SEA_BLOCK={"D|EE":1,"D|LV":1,"D|LT":1,"D|FI":1,"FI|EE":1,"FI|LV":1,"FI|LT":1,"FI|E":1,
+ "T|H":1,"T|M":1,"T|L":1,"T|J":1,"H|M":1,"H|L":1,"H|J":1,
+ "V|UA":1,"V|RU":1,"V|J":1,"V|L":1,"V|IL":1,
+ "AZ|TM":1,"AZ|KZ":1,"KZ|IR":1,"KZ|TM":1,
+ "IR|AE":1,"IR|QA":1,"IR|BH":1,"IR|SA":1,"IR|OM":1,
+ "SA|X":1,"YE|X":1,"SA|J":1,
+ "S|M":1,"M|PT":1,"JP|KR":1,"JP|CN":1,"KR|CN":1};
+// Bari and Naples have no land route to the Balkans, Greece or North Africa, only ferries
+var SOUTH_IT={bar:1,nap:1};
+// Izmir and Antalya are on the Aegean coast: Greece is reached by ferry, not by the land route through Istanbul
+var AEGEAN_TR={izm:1,ayt:1};
+function landBlocked(a,b){
+ var ca=N[a].c,cb=N[b].c;
+ if(SOUTH_IT[a]&&cb!=="T")return true;
+ if(SOUTH_IT[b]&&ca!=="T")return true;
+ if(AEGEAN_TR[a]&&cb==="H")return true;
+ if(AEGEAN_TR[b]&&ca==="H")return true;
+ return!!(SEA_BLOCK[ca+"|"+cb]||SEA_BLOCK[cb+"|"+ca]);
+}
 function buildLinks(){
  E.length=0;ADJ={};seen={};gridBuild();
  ids.forEach(function(a){
   if(N[a].l){nn(a,function(){return 1},2,150).forEach(function(b){mk(a,b,hav(a,b)<12?"tube":"bus",0)});return}
-  nn(a,function(){return 1},3,120).forEach(function(b){mk(a,b,"bus",0)});
-  if(N[a].r)nn(a,function(b){return N[b].r},3,250).forEach(function(b){mk(a,b,"rail",0)})});
+  nn(a,function(b){return!landBlocked(a,b)},3,120).forEach(function(b){mk(a,b,"bus",0)});
+  if(N[a].r)nn(a,function(b){return N[b].r&&!landBlocked(a,b)},3,250).forEach(function(b){mk(a,b,"rail",0)})});
  ids.forEach(function(a){if(N[a].l)return;var A0=N[a],rr=Math.max(A0.s>1?650:0,A0.h?1000:0,A0.s==3?320:0,A0.a?1500:0);if(!rr)return;near(a,rr,1).forEach(function(b){
-  if(N[b].l)return;var d=hav(a,b),A=N[a],B=N[b],same=G(a)==G(b);
+  if(N[b].l)return;var d=hav(a,b),A=N[a],B=N[b],same=G(a)==G(b)&&!landBlocked(a,b);
   if(same&&A.r&&B.r&&A.s>1&&B.s>1&&d<650&&!(A.h&&B.h))mk(a,b,"rail",1);
   if(same&&A.h&&B.h&&d<1000)mk(a,b,"hsr",1);
   if(same&&((A.s==3||B.s==3)&&d<320||A.s>1&&B.s>1&&d<650))mk(a,b,"bus",1);
