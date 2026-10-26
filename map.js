@@ -43,7 +43,7 @@ function buildStyle(st){
    if(container)container.appendChild(el);
    map=new maplibregl.Map({container:el,style:built.style,center:[10,50],zoom:3,minZoom:0,maxZoom:19.5,attributionControl:{compact:true}});
    map.addControl(new maplibregl.NavigationControl({showCompass:false}),"top-right");
-   return new Promise(function(res){map.on("load",function(){setMode(mode);res(map)})})
+   return new Promise(function(res){map.on("load",function(){setMode(mode);var a=el.querySelector(".maplibregl-ctrl-attrib");if(a)a.classList.remove("maplibregl-compact-show");res(map)})})
   }).catch(function(e){initP=null;throw e});
   return initP
  }

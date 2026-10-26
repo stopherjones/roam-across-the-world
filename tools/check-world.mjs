@@ -81,10 +81,22 @@ else{
 const adjText=read("data/adjacency.js");
 const adj=JSON.parse(adjText.match(/REGION_ADJ=(\{.*?\});/s)[1]);
 
+// Berth lanes (berths.js) also link regions for reachability. Their ports must be real places.
+const BERTH=Function(read("berths.js")+";return BERTH_LANES;")();
+const regOf={};rows.forEach(r=>regOf[r.id]=r.region);
+const berthAdj={};
+BERTH.forEach(l=>{
+  const a=regOf[l.from],b=regOf[l.to];
+  if(!a)err(`berth lane "${l.id}": "${l.from}" is not a known place`);
+  if(!b)err(`berth lane "${l.id}": "${l.to}" is not a known place`);
+  l.via.forEach(v=>{if(!regOf[v])err(`berth lane "${l.id}": call "${v}" is not a known place`)});
+  if(a&&b){(berthAdj[a]=berthAdj[a]||[]).push(b);(berthAdj[b]=berthAdj[b]||[]).push(a)}
+});
+
 // 7. Every region can be reached from every other region (through the border table)
 const names=Object.keys(regions);
 const reach=new Set([names[0]]),queue=[names[0]];
-while(queue.length){const r=queue.shift();(adj[r]||[]).forEach(n=>{if(!reach.has(n)){reach.add(n);queue.push(n)}})}
+while(queue.length){const r=queue.shift();[...(adj[r]||[]),...(berthAdj[r]||[])].forEach(n=>{if(!reach.has(n)){reach.add(n);queue.push(n)}})}
 names.forEach(n=>{if(!reach.has(n))err(`region "${n}" cannot be reached from the other regions: add a crossing or a nearby place across a border`)});
 
 // 8. Regions with no places

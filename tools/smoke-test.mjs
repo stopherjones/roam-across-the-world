@@ -74,6 +74,20 @@ setTimeout(async () => {
   ok("stranded ends the leg as a rest day", w.S.phase === "rest" && w.S.stranded === 1);
   ok("stranded page renders", /Stranded in/.test(D.getElementById("app").textContent));
 
+  // Berths: a sailing heard of at a port appears as a route option, leaves at a fixed time, and is paid for at boarding
+  w.S.phase = "move"; w.S.cash = 1000; w.S.loc = "por"; w.S.ev = false;
+  w.S.camp.heard = { "por-mia-cruise": w.absH(w.S.h) };
+  w.S.camp.agentOpen = true;
+  await w.loadRegion("usa"); w.rebuildWorld();   // as opening the travel agent does
+  const berthOpt = w.opts(1).find(o => o.berth === "por-mia-cruise");
+  ok("heard sailing is a route option at its port", !!berthOpt && berthOpt.m === "ferry" && berthOpt.c === 900);
+  if (berthOpt) {
+    const before = w.S.cash, idx = w.opts().findIndex(o => o.berth === "por-mia-cruise");
+    w.hop(idx, w.S.h);
+    ok("berth pays the fare and arrives at Miami", w.S.cash === before - 900 && w.S.loc === "mia");
+  }
+  // Ordinary routes never use a berth
+  ok("plan avoids berth lanes", (w.plan(0, 1e9, { from: "lon", to: "par" }) || []).every(s => !w.E[s.j].berth));
   console.log("runtime errors: " + (errs.length ? errs.join(" | ") : "none"));
   if (errs.length) failed++;
   console.log(failed ? "\nSMOKE TEST FAILED" : "\nSmoke test passed");

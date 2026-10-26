@@ -15,6 +15,7 @@ const run = f => { try { vm.runInContext(fs.readFileSync(f, "utf8"), ctx, { file
 fs.readdirSync("data/regions").filter(f => f.endsWith(".js") && f !== "index.js").forEach(f => run("data/regions/" + f));
 run("game.js");
 
+run("berths.js");
 const data = vm.runInContext(`(function(){
   var rows = [];
   Object.keys(REGION_VARS).forEach(function(k){ var v = window[REGION_VARS[k]]; if (v) rows = rows.concat(v.split(";").filter(Boolean)); });
@@ -33,6 +34,7 @@ const data = vm.runInContext(`(function(){
     if (seen[key]) return; seen[key] = 1;
     links.push({ a: e.a, b: e.b, m: e.m, km: Math.round(hav(e.a, e.b)), h: e.h, c: e.c });
   });
+  BERTH_LANES.forEach(function(l){ links.push({ a: l.from, b: l.to, m: l.kind, km: Math.round(hav(l.from, l.to)), h: l.hours, c: l.fare }); });
   return JSON.stringify({ places: places, links: links });
 })()`, ctx);
 

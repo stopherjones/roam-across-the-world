@@ -18,6 +18,9 @@ for(let i=0;i<places.length;i++)for(let j=i+1;j<places.length;j++){
   if(a.region===b.region||km(a,b)>RING_KM)continue;
   link(a.region,b.region);
 }
+// Berth lanes also join regions, so a leg that needs one loads the far region
+const BERTH_LANES=new Function(fs.readFileSync("berths.js","utf8")+";return BERTH_LANES;")();
+BERTH_LANES.forEach(l=>{const a=regionOf[l.from],b=regionOf[l.to];if(a&&b)link(a,b)});
 const out={};Object.keys(adj).sort().forEach(k=>out[k]=[...adj[k]].sort());
 fs.writeFileSync("data/adjacency.js","// Regions that border each other: a place in one is within "+RING_KM+" km of a place in the other, or a hand-set crossing joins them\nvar REGION_ADJ="+JSON.stringify(out)+";\n");
 console.log(JSON.stringify(out));

@@ -124,7 +124,7 @@ function restSell(uid){
  say("Sold "+x.name+" in "+mkCity()+" to "+(x.buyer?x.buyer.name:"a buyer")+" for "+mkGbp(price)+" (paid "+mkGbp(x.ask)+").");render();
 }
 
-function restLeave(){nextLeg()}
+function restLeave(){REST_MAP=false;if(S.camp)S.camp.agentOpen=false;nextLeg()}
 
 function restStart(){
  S.phase="rest";S.camp.market=null;S.camp.marketOpen=false;say("Rest day in "+mkCity()+".");render();
@@ -137,10 +137,66 @@ function strandLeg(){
 
 function restCloseMarket(){S.camp.marketOpen=false;render()}
 
+// Names and regions come from the whole gazetteer, so a sailing shows even when its far end is not loaded yet
+function berthName(id){var g=placeOf(id);return g?g.n:id}
+function berthRegions(l){return [l.from,l.to].concat(l.via).map(regionOf).filter(function(r,i,a){return r&&a.indexOf(r)===i})}
+
+// Travel agent: a button opens it. Opening it is how you hear about sailings from the ports near here.
+function agentOpen(){
+ var now=absH(S.h),heard=S.camp.heard=S.camp.heard||{},near=berthHops(E,S.loc,BERTH_AGENT_HOPS);
+ BERTH_LANES.forEach(function(l){if(near[l.from]!=null&&heard[l.id]==null)heard[l.id]=now});
+ S.camp.agentOpen=true;
+ var need=[];BERTH_LANES.forEach(function(l){if(heard[l.id]!=null)berthRegions(l).forEach(function(r){if(!LOADED_REGIONS[r]&&need.indexOf(r)<0)need.push(r)})});
+ if(!need.length){render();return}
+ Promise.all(need.map(loadRegion)).then(function(){rebuildWorld();render()},function(){render()});
+}
+function agentClose(){S.camp.agentOpen=false;render()}
+function agentHtml(){
+ if(!berthAgentIn(E,S.loc))return"";
+ if(!S.camp.agentOpen)return "<div class='panel'><h2>Travel agent</h2><p class='mute mb6'>Ask about sailings from the ports near here.</p><button class='btn' onclick='agentOpen()'>Visit the travel agent</button></div>";
+ var now=absH(S.h),heard=S.camp.heard||{},near=berthHops(E,S.loc,BERTH_AGENT_HOPS);
+ var rows=[];BERTH_PORTS.forEach(function(p){if(near[p]!=null)berthListing(p,heard,now).forEach(function(s){rows.push(s)})});
+ var h="<div class='panel'><div class='row' style='justify-content:space-between;align-items:center'><h2>Travel agent</h2><button class='alt' onclick='agentClose()'>Close</button></div>";
+ if(!rows.length)return h+"<p class='mute'>Nothing you know about is still sailing from the ports near here.</p></div>";
+ h+=rows.map(function(s){
+  var l=s.lane,via=l.via.length?" Calls at "+l.via.map(function(c){return esc(berthName(c))}).join(", ")+".":"";
+  var rest=l.rest?" Rest day on board.":"";
+  var here=S.loc===l.from;
+  return "<div class='opt'><b>"+esc(berthName(l.from))+" to "+esc(berthName(l.to))+"</b> <small>("+l.kind+")</small>"+
+   "<p class='mute mb6'>Leaves in "+Math.max(0,Math.round(s.dep-now))+" h. Crossing "+l.hours+" h. Fare £"+l.fare+"."+via+rest+"</p>"+
+   (here?(function(){var c=berthCheck(s,now,S.cash);return c.ok?"<button class='btn' onclick='boardBerth(\""+l.id+"\")'>Board for £"+l.fare+"</button>":"<p class='no'>"+esc(c.reason)+"</p>"})():
+   "<p class='mute'>Get to "+esc(berthName(l.from))+" before it leaves.</p>")+"</div>";
+ }).join("");
+ return h+"</div>";
+}
+
+// Board a sailing at the port: wait for departure if early, pay the fare, arrive after the crossing
+function boardBerth(id){
+ var heard=S.camp.heard||{},s=null;
+ berthListing(S.loc,heard,absH(S.h)).forEach(function(x){if(x.lane.id===id)s=x});
+ if(!s){say("That sailing is no longer listed.");render();return}
+ function sail(){
+  var now=absH(S.h),chk=berthCheck(s,now,S.cash);
+  if(!chk.ok){say(chk.reason);render();return}
+  var trip=berthTrip(s);
+  if(now<s.dep)S.h=s.dep-S.camp.start;
+  S.cash-=s.lane.fare;
+  S.h=trip.arriveAt-S.camp.start;
+  S.loc=s.lane.to;S.arrH=S.h;S.phase="rest";S.camp.agentOpen=false;
+  say(clk(S.h)+": Boarded the "+s.lane.kind+" sailing to "+berthName(s.lane.to)+(trip.calls.length?", calling at "+trip.calls.map(berthName).join(", "):"")+".");
+  render();
+ }
+ var need=berthRegions(s.lane).filter(function(r){return!LOADED_REGIONS[r]});
+ if(!need.length)return sail();
+ Promise.all(need.map(loadRegion)).then(function(){rebuildWorld();sail()},function(){say("Could not load the map for that crossing.");render()});
+}
+
 function restPage(){
+ berthHearHere();
  var arr=arrDay(),city=mkCity();
  var tl="<div class='tl'><div><b>Arrived</b>day "+arr+"</div><div class='now'><b>Rest day</b>day "+(arr+1)+"</div><div><b>Leave 8am</b>day "+(arr+2)+"</div></div>";
  var h=S.stranded?"<div class='panel'><h2>Stranded in "+esc(city)+"</h2><p class='mute mb6'>No onward fare is affordable. Sell what you carry at the market, then leave at 8am. You receive \u00a3"+STRANDED_INCOME+" when you set off, which covers most onward fares, but flights and fast trains will be out of reach for a while.</p>"+tl+"</div>":"<div class='panel'><h2>Rest day in "+esc(city)+"</h2><p class='mute mb6'>A free day. Visit the market to trade, earn income by correctly placing events on the City Timeline, or just use the buttons below to learn more about the town. Your next leg starts at 8am tomorrow.</p>"+tl+"</div>";
+ h+=agentHtml();
  h+=earnHtml();
  h+=thingsHtml();
  h+="<div class='panel'><button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button><p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
@@ -150,7 +206,7 @@ function restPage(){
 // Market view: goods to sell first, then the stock to buy
 function marketHtml(){
  var m=mkMarket(),busy=!!m.finding,unsold=S.camp.pack.some(function(x){return!x.buyer});
- var h="<div class='panel'><h2>Goods for trade ("+S.camp.pack.length+"/"+MK_CAP+")</h2>";
+ var h="<div class='panel'><div class='row' style='justify-content:space-between;align-items:center'><h2>Goods for trade ("+S.camp.pack.length+"/"+MK_CAP+")</h2><button class='alt' onclick='restCloseMarket()'>Close</button></div>";
  if(!S.camp.pack.length)h+="<p class='mute mb8'>Nothing to sell yet. Buy local goods below.</p>";
  else h+=packSellHtml();
  if(unsold&&!busy)h+="<div class='row mt10'><button class='btn alt' onclick='restVisit()'>Find buyers for my pack</button></div>";
@@ -166,7 +222,7 @@ function marketHtml(){
     "<div class='mrow'><b class='price'>"+mkGbp(x.ask)+"</b><button class='btn' "+(can?"":"disabled")+" onclick='restBuyAt("+i+")'>"+(owned?"In pack":full?"Pack full":S.cash<x.ask?"Too dear":"Buy")+"</button></div></div>"
   }).join("")+"</div>";
  }
- h+="<div class='row mt12'><button class='btn alt' onclick='restCloseMarket()'>Close market</button></div></div>";
+ h+="</div>";
  return h
 }
 

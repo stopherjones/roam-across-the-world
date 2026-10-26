@@ -1,6 +1,6 @@
 var VT=20,KEY="route-generator-v4",S=null,IDX={U:1.15,F:1,B:1.05,N:1.05,G:1.05,S:.85,T:.95,C:1.6,R:1.1,D:1.3,E:.7,K:.75,Y:.6,M:.7,V:.65,H:.8,Q:.6,Z:.6,J:.6,L:.75,P:.95,I:.9,O:.8,X:.6,W:.8,A:.7,a:.75,b:.85,c:.95,d:1.2,e:.7,f:.8,g:.7,h:.6,i:.6,j:1.1,k:1.2,l:1.2,m:.9,n:.95,o:.85,p:.85,q:.8,r:.8,s:.8,t:.85,u:.9,v:.8,w:.8,x:1,y:.75,z:1.2,CV:1,ST:1,KM:.8,MG:.6,MU:1.4,SC:1.8,GE:.85,AM:.9,AZ:.9,AL:.6,BA:.6,ME:.8,MK:.6,LU:1.3,MC:1.8,AD:1.2,LI:1.6,SM:1.3,VA:1.4,MT:1.1,CY:1.1,MV:1.5,SZ:.6,LS:.6,AG:1.4,DM:1.2,GD:1.3,KN:1.4,LC:1.4,VC:1.2,JO:.9,IL:1.4,LB:1.3,SY:.6,PS:.7,IQ:.8,IR:.8,SA:1.5,AE:1.6,QA:1.6,BH:1.4,KW:1.3,OM:1.1,YE:.6,KZ:.9,UZ:.6,TM:.9,KG:.6,TJ:.6,AF:.6,FI:1.5,EE:1,LV:.9,LT:.9,BY:.6,UA:.5,MD:.4,RO:.7,SK:.9,SI:1.1,RU:1,PT:.95,IS:1.6,FO:1.6,SH:1.4,PK:.6,IN:.5,NP:.5,BD:.5,LK:.8,MM:.5,TH:.8,LA:.5,KH:.5,VN:.5,BT:.8,CN:.6,HK:1.6,MO:1.5,TW:1.1,MN:.5,ID:.4,PH:.6,MY:.8,SG:1.5,BN:1.1,TL:.7,KP:1,KR:1.3,JP:1.6,PG:1.1,AU:1.8,NZ:1.8,FJ:.8,WS:.8,TO:.8,VU:.8,NC:1.5,SB:.9,TV:1.2,NR:1.5,PW:1.4,MH:1.2,FM:1.1,KI:1,US:2,CA:1.6,MX:1.2,GT:.8,BZ:1.6,HN:.7,SV:.8,NI:.6,CR:1.6,PA:1.2,CO:.8,VE:.6,EC:.7,PE:.7,BO:.6,BR:1,PY:.6,UY:1.4,AR:.9,CL:1.4,GY:1,SR:1,CU:.5,JM:.8,HT:.4,DO:.8,BS:2,TT:1.4,BB:1.8};
 var N={};
-function loadWorld(str){N={};str.split(";").forEach(function(s){var p=s.split("|"),f=p[5];N[p[0]]={n:p[1],la:+p[2],lo:+p[3],c:p[4],r:f.indexOf("r")>-1,a:f.indexOf("a")>-1,p:f.indexOf("p")>-1,h:f.indexOf("h")>-1,l:f.indexOf("l")>-1,s:+(f.match(/\d/)||[1])[0]}});ids=Object.keys(N);towns=ids.filter(function(i){return!N[i].l});E=[];ADJ={};seen={};buildLinks()}
+function loadWorld(str){N={};str.split(";").forEach(function(s){var p=s.split("|"),f=p[5];N[p[0]]={n:p[1],la:+p[2],lo:+p[3],c:p[4],r:f.indexOf("r")>-1,a:f.indexOf("a")>-1,p:f.indexOf("p")>-1,h:f.indexOf("h")>-1,l:f.indexOf("l")>-1,s:+(f.match(/\d/)||[1])[0]}});ids=Object.keys(N);towns=ids.filter(function(i){return!N[i].l});E=[];ADJ={};seen={};buildLinks();addBerthEdges()}
 var MODE={tube:"metro",bus:"bus",coach:"coach",rail:"train",hsr:"fast train",ferry:"ferry",air:"flight",shared:"shared minibus"},GRP={rail:"Trains",hsr:"Fast trains",coach:"Coaches",bus:"Buses",ferry:"Ferries",air:"Flights",tube:"Metro",shared:"Shared transport"},ORD=["rail","hsr","coach","bus","shared","ferry","air","tube"];
 
 function hav(a,b){var A=N[a],B=N[b],r=Math.PI/180,x=(B.lo-A.lo)*r*Math.cos((A.la+B.la)/2*r),y=(B.la-A.la)*r;return Math.sqrt(x*x+y*y)*6371}
@@ -75,10 +75,45 @@ function buildLinks(){
  CROSSINGS.split("|").forEach(function(s){var p=s.split(" ");mk(p[0],p[1],p[2],p[2]=="ferry"?0:1,+p[3],+p[4],p[5]?+p[5]:-1,p[6]?+p[6]:0)})
 }
 
+// Berth lanes are links for route planning. They are offered as options only once heard of (see berthOpts).
+function addBerthEdges(){
+ BERTH_LANES.forEach(function(l){
+  if(!N[l.from]||!N[l.to])return;
+  var j=E.length;mk(l.from,l.to,"ferry",0,l.hours,l.fare);
+  if(E.length>j){E[j].berth=l.id;E[j].kind=l.kind;E[j].via=l.via;E[j].rest=!!l.rest}
+ });
+}
+// Sailings are heard of on arriving at a town with a travel agent: any port, or a town within the agent radius of one
+var BERTH_LOADING=0;
+function berthHearHere(){
+ if(!S||!S.camp||!berthAgentIn(E,S.loc))return;
+ var heard=S.camp.heard=S.camp.heard||{},now=absH(S.h),near=berthHops(E,S.loc,BERTH_AGENT_HOPS),fresh=[];
+ BERTH_LANES.forEach(function(l){if(near[l.from]!=null&&heard[l.id]==null){heard[l.id]=now;fresh.push(l)}});
+ if(!fresh.length||BERTH_LOADING)return;
+ var need=[];fresh.forEach(function(l){berthRegions(l).forEach(function(r){if(!LOADED_REGIONS[r]&&need.indexOf(r)<0)need.push(r)})});
+ if(!need.length)return;
+ BERTH_LOADING=1;
+ Promise.all(need.map(loadRegion)).then(function(){BERTH_LOADING=0;rebuildWorld();render()},function(){BERTH_LOADING=0});
+}
 function opts(all){
- return(ADJ[S.loc]||[]).filter(function(j){return(S.air||E[j].m!="air")&&(all||grp(E[j].m)==S.term)}).map(function(j){
+ var base=(ADJ[S.loc]||[]).filter(function(j){return(S.air||E[j].m!="air")&&!E[j].berth&&(all||grp(E[j].m)==S.term)}).map(function(j){
   var e=E[j],h=e.h,c=e.c;
-  return{to:e.a==S.loc?e.b:e.a,m:e.m,h:h,c:c,lg:e.lg,dp:e.dp,ev:e.ev}})
+  return{to:e.a==S.loc?e.b:e.a,m:e.m,h:h,c:c,lg:e.lg,dp:e.dp,ev:e.ev}});
+ return base.concat(berthOpts());
+}
+// Berths from this port: sailings the player has heard of, still to leave. They route as ferries with a fixed departure.
+// They are listed only when both ends are loaded, so the option can always be shown and taken.
+function berthOpts(){
+ if(!S||!S.camp)return[];
+ berthHearHere();
+ var now=absH(S.h),out=[];
+ berthListing(S.loc,S.camp.heard,now).forEach(function(s){
+  var l=s.lane;
+  if(!N[l.from]||!N[l.to]||!l.via.every(function(c){return N[c]}))return;
+  out.push({to:l.to,m:"ferry",h:l.hours,c:l.fare,lg:0,dp:undefined,fix:s.dep-S.camp.start,
+   berth:l.id,kind:l.kind,via:l.via,rest:!!l.rest,noev:true});
+ });
+ return out;
 }
 // Choose which long-distance links to show at this stop: toward, sideways, a diversion, and red herrings, with a spread of departure times.
 // The choice is seeded by the journey, the place and the time, so refreshing the page or reloading a save shows the same list.
@@ -133,6 +168,8 @@ function sharedName(from){return SHARED_NAME[N[from]&&N[from].c]||"shared minibu
 // A wait is an overnight if it lasts more than 4 hours and is still going at 3 am on the clock: evening services will have left, and morning ones have not started
 function spansNight(t,d){if(d-t<=4)return false;for(var k=Math.floor((t-19)/24);k*24+19<d;k++){if(k*24+19>t)return true}return false}
 function sched(o,from,t){
+ // Berths leave at a fixed time; the player waits at the port if early
+ if(o.fix!=null){var d=Math.max(t,o.fix);return{dep:d,night:spansNight(t,d)?1:0,nn:Math.max(1,Math.floor((8+d)/24)-Math.floor((8+t)/24)),ns:0}}
  // Shared vehicles leave when full: the wait is an estimate, seeded so it is the same for everyone
  if(o.m=="shared"){var w=0.5+hsh(from+o.to+Math.floor(t))/333;return{dep:t+w,night:0,ns:0,nn:1}}
  // Timetabled crossings with a regular headway
@@ -385,7 +422,7 @@ function updatePanelNav(){
 function mfit(){if(MJ.p)MJ.p.then(function(map){if(map&&S)fitJourney(map)})}
 var TN={r:"train station",b:"bus station",f:"ferry terminal",a:"airport"},TV={r:"Train station",b:"Bus station",f:"Ferry terminal",a:"Airport"};
 function grp(m){return{tube:"r",rail:"r",hsr:"r",bus:"b",coach:"b",shared:"b",ferry:"f",air:"a"}[m]}
-function terms(n){var o={},r=[];(ADJ[n]||[]).forEach(function(j){var e=E[j];if(S.air||e.m!="air")o[grp(e.m)]=1});["r","b","f","a"].forEach(function(g){if(o[g])r.push(g)});return r}
+function terms(n){var o={},r=[];(ADJ[n]||[]).forEach(function(j){var e=E[j];if((S.air||e.m!="air")&&!e.berth)o[grp(e.m)]=1});["r","b","f","a"].forEach(function(g){if(o[g])r.push(g)});return r}
 function xf(n,a,b){if(a==b)return{h:0,c:0};var s=N[n].s,k=IDX[N[n].c],air=a=="a"||b=="a",fer=a=="f"||b=="f";return{h:air?[0,1.2,1.2,1.5][s]:fer?[0,.6,.7,.9][s]:[0,.25,.35,.5][s],c:Math.round((air?20:fer?6:2)*k)}}
 function xfer(g){if(S.over||S.phase!="move")return;var x=xf(S.loc,S.term,g);if(x.c>S.cash)return;S.h+=x.h;S.cash-=x.c;S.spent+=x.c;S.term=g;S.arr=S.h;say(clk(S.h)+": You make your way to the "+TN[g]+" in "+N[S.loc].n+" ("+x.h+" h, \u00a3"+x.c+").");render()}
 function xferHtml(){var t=terms(S.loc).filter(function(g){return g!=S.term});if(!t.length)return"";var s="<h3>Go somewhere else in "+N[S.loc].n+"</h3>";t.forEach(function(g){var x=xf(S.loc,S.term,g);s+="<button class='opt' onclick=\"xfer('"+g+"')\""+(x.c>S.cash?" disabled":"")+"><div class='to'>"+TV[g]+"</div><span>"+x.h+" h</span><span>\u00a3"+x.c+"</span></button>"});return s}
@@ -411,7 +448,7 @@ function plan(noise,B,X){X=X||{};var vt=X.vt||VT,st=X.from||S.start,gl=X.to||S.g
   if(done[k])continue;done[k]=1;
   if(s.n==gl)return s.e;
   (ADJ[s.n]||[]).forEach(function(j){
-   var e=E[j];if(!S.air&&e.m=="air"||X.ban&&X.ban[j])return;var g2=grp(e.m),x=xf(s.n,s.g,g2),to=e.a==s.n?e.b:e.a,c2=s.c+x.c+e.c*f[j].c;if(act&&!act[to])return;if(!X.nb&&c2>B)return;
+   var e=E[j];if(!S.air&&e.m=="air"||e.berth||X.ban&&X.ban[j])return;var g2=grp(e.m),x=xf(s.n,s.g,g2),to=e.a==s.n?e.b:e.a,c2=s.c+x.c+e.c*f[j].c;if(act&&!act[to])return;if(!X.nb&&c2>B)return;
    var w2=s.w+.6+x.h+x.c/vt+e.h*f[j].h+e.c*f[j].c/vt+(X.pen&&X.pen[j]||0),k2=to+g2+(X.nb?"":"|"+Math.round(c2/5));
    if(best[k2]!==undefined&&best[k2]<=w2)return;
    best[k2]=w2;hpush(open,{n:to,g:g2,c:c2,w:w2,f:w2+H(to),e:s.e.concat([{j:j,to:to}])})})
@@ -521,8 +558,9 @@ function settleHop(o,x){
  S.h=Math.max(0,S.h+x.h);S.cash=Math.max(0,S.cash-x.c);S.spent+=x.c;
  if(x.kind!="none")S.legNotes.push(x.t);
  if(x.kind=="hazard")S.legHazards=(S.legHazards||0)+1;
- say(clk(S.h)+": "+(o.m=="shared"?sharedName(S.loc):MODE[o.m])+" to "+N[o.to].n+" ("+o.h+" h, \u00a3"+o.c+"). "+x.t);
+ say(clk(S.h)+": "+(o.berth?(o.kind=="cargo"?"cargo berth":"cruise berth"):(o.m=="shared"?sharedName(S.loc):MODE[o.m]))+" to "+N[o.to].n+" ("+o.h+" h, \u00a3"+o.c+")."+(o.via&&o.via.length?" Called at "+o.via.map(function(c){return N[c].n}).join(", ")+".":"")+" "+x.t);
  if(S.loc==S.goal){S.arrH=S.h;arrivalPrefetch();S.phase="arrive";return render()}
+ if(o.rest){S.phase="rest";S.arrH=S.h;S.arr=S.h;S.term=grp(o.m);return render()}
  S.arr=S.h;S.term=grp(o.m);
   render();
 }
@@ -534,7 +572,7 @@ function hop(i,dep){
  if(tr){say("Tired after a poor night: 1 h lost.");S.legNotes.push("Tired after a poor night: 1 h lost.")}
  S.h=dep+o.h+tr;S.cash-=o.c;S.spent+=o.c;S.loc=o.to;S.path.push(o.to);S.modes.push(o.m);
  (S.times=S.times||[0]).push(S.h);S.nights.push(S.slept?1:0);S.slept=0;
- var r=S.ev?roll():null,x=eventFor(o,r||12,from);
+ var r=S.ev&&!o.noev?roll():null,x=eventFor(o,r||12,from);
  hopAnimate(from,o.to,o,r,x,function(){settleHop(o,x)});
  render();
 }
@@ -603,7 +641,7 @@ function regionOf(id){var g=gazetteer().filter(function(x){return x.id==id})[0];
 var GZ=null;
 function gazetteer(){
  if(GZ)return GZ;
- GZ=GAZETTEER.split(";").filter(Boolean).map(function(r){var p=r.split("|"),f=p[6]||"";return{id:p[0],la:+p[2],lo:+p[3],l:f.indexOf("l")>-1,s:+((f.match(/\d/)||[1])[0]),region:p[5]}});
+ GZ=GAZETTEER.split(";").filter(Boolean).map(function(r){var p=r.split("|"),f=p[6]||"";return{id:p[0],n:p[1],la:+p[2],lo:+p[3],l:f.indexOf("l")>-1,s:+((f.match(/\d/)||[1])[0]),region:p[5]}});
  var pos={};PLACE_ORDER.forEach(function(id,k){pos[id]=k});
  GZ.sort(function(a,b){return(pos[a.id]===undefined?1e9:pos[a.id])-(pos[b.id]===undefined?1e9:pos[b.id])});
  return GZ
@@ -750,7 +788,7 @@ function nextLeg(){
  if(!S||!S.camp)return;
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
  var log=(S.camp.log||[]).concat([{leg:S.camp.legs,to:N[from].n,arrived:stamp(S.arrH||0),stranded:!!S.stranded}]),start=(arrDay()+1)*24;
- var camp={ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},nextUid:S.camp.nextUid||0};
+ var camp={ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},nextUid:S.camp.nextUid||0};
  var st=S.setup||{air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}},tries=0;
  var attempt=function(){
   var to=pickDest(from,dirs);
@@ -840,7 +878,13 @@ function stranded(){
 }
 var MAPVIEW="std";
 // Switch the map between its default 4:3 size, minimised and full screen
-function mapView(v){MAPVIEW=(MAPVIEW===v)?"std":v;render()}
+// On a rest day the map starts minimised; REST_MAP opens it. Journey views keep their own setting.
+var REST_MAP=false;
+function mapMin(){if(S&&S.phase==="rest")return !REST_MAP&&MAPVIEW!=="full";return MAPVIEW==="min"}
+function mapView(v){
+ if(S&&S.phase==="rest"&&v==="min"){REST_MAP=!REST_MAP;render();return}
+ MAPVIEW=(MAPVIEW===v)?"std":v;render()
+}
 // Keep the header's height in a CSS variable, so a full-screen map can sit just below it
 // Clock: each digit sits in a column that rolls to its new value when the time moves on
 var LAST_CLOCK=null;
@@ -873,7 +917,7 @@ function animateClock(oldS,newS){
 function setHdrVar(){var h=document.querySelector(".hdr");document.documentElement.style.setProperty("--hdr-h",(h?h.getBoundingClientRect().bottom:0)+"px")}
 // Map dock: the map fills the top half of the screen, with its view buttons laid over it; the actions scroll below
 function mapDockHtml(){
- var min=MAPVIEW==="min",full=MAPVIEW==="full";
+ var min=mapMin(),full=MAPVIEW==="full";
  return "<div class='mapdock'><div id='sharedmap' class='smap'></div><div class='mapctl'><button class='btn alt' onclick='mapView(\"min\")'>"+(min?"Restore map":"Minimise")+"</button><button class='btn alt' onclick='mapView(\"full\")'>"+(full?"Exit full screen":"Full screen")+"</button></div><div class='modebar mapbtns'><div class='modes'><button class='btn alt' data-mode='streets'>Streets</button><button class='btn alt' data-mode='sat'>Satellite</button><button class='btn alt' data-mode='hybrid'>Hybrid</button></div><button class='btn alt' onclick='mfit()'>Fit journey</button></div></div>";
 }
 // Opening screen: title, introduction, and the sections for each way to play
@@ -957,9 +1001,9 @@ function render(msg){
   var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=welcomeHtml(msg);
   return}
  var h="<h1 class='sr-only'>Role Around the World</h1>";
- var mapped=S.phase!=="rest";
+ var mapped=true;
  document.body.classList.toggle("mapscreen",mapped);
- document.body.classList.toggle("map-min",mapped&&MAPVIEW==="min");
+ document.body.classList.toggle("map-min",mapped&&mapMin());
  document.body.classList.toggle("map-full",mapped&&MAPVIEW==="full");
  var st=status();
  h+="<div class='hdr'><div class='r1'><span><b>"+clockHtml(clockText())+"</b>"+(S.phase==="rest"?"":"<small class='rv'>Target "+stamp(S.target||0)+"</small>")+"</span><span><b>\u00a3"+Math.round(S.cash)+"</b></span><span class='st'><span aria-hidden='true'>"+st[0]+"</span> "+st[1]+"</span></div><div class='r2'><div class='cur'><small>Now</small>"+N[S.loc].n+" <span id='wx-now'>"+WX.html()+"</span></div><div><small>To</small>"+(S.phase==="rest"?"?":S.phase=="plan"&&!S.plan||S.phase=="routes"&&!S.route?"?":arrow(S.loc,S.goal))+" "+(S.phase==="rest"?"Next leg":N[S.goal].n)+"</div></div><nav class='panel-nav' aria-label='Game panels'><button type='button' data-panel-target='play'>Game</button><button type='button' data-panel-target='journal'>Journal</button><button type='button' data-panel-target='inventory'>Inventory</button></nav></div>";
@@ -979,7 +1023,7 @@ function render(msg){
    v.show.forEach(function(i){
     var o=all[i],sc=sched(o,S.loc,S.h);
     if(o.m!=last){h+="<h3>"+GRP[o.m]+"</h3>";last=o.m}
-    h+="<button class='opt' onclick='go("+i+")'"+(o.c>S.cash?" disabled":"")+"><div class='to'>"+N[o.to].n+"<small>heads "+dir(S.loc,o.to)+" · leaves "+clk(sc.dep)+" · arrives "+clk(sc.dep+o.h)+(sc.night?"<br>Overnight: hotel from about £"+stayCost(1,S.loc):sc.ns?"<br>Night service: sleep on board":"")+(S.path.indexOf(o.to)>-1?" · already visited":"")+"</small></div><span>"+o.h+" h</span><span>\u00a3"+o.c+"</span></button>"});
+    h+="<button class='opt' onclick='go("+i+")'"+(o.c>S.cash?" disabled":"")+"><div class='to'>"+N[o.to].n+(o.berth?" <small>("+o.kind+" berth"+(o.via&&o.via.length?", calls at "+o.via.map(function(c){return N[c]?N[c].n:c}).join(", "):"")+")</small>":"")+"<small>heads "+dir(S.loc,o.to)+" · leaves "+clk(sc.dep)+" · arrives "+clk(sc.dep+o.h)+(sc.night?"<br>Overnight: hotel from about £"+stayCost(1,S.loc):sc.ns?"<br>Night service: sleep on board":"")+(S.path.indexOf(o.to)>-1?" · already visited":"")+"</small></div><span>"+o.h+" h</span><span>\u00a3"+o.c+"</span></button>"});
    if(v.hid>0)h+="<p class='hand'>"+v.hid+" more long-distance links are not shown here.</p><button class='btn alt' onclick='look()'>Look for routes (0.3 h)</button>";h+=xferHtml();
    h+="</div>"}
  }
