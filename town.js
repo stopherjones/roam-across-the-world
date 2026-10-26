@@ -127,9 +127,14 @@ function restSell(uid){
 function restLeave(){REST_MAP=false;if(S.camp){S.camp.agentOpen=false;S.camp.berthNote=null;S.camp.cruise=null}nextLeg()}
 // Continue a cruise back to where it started: a rest day there, no checkpoint
 function cruiseContinue(){
- var i=opts().findIndex(function(o){return o.cruiseReturn});
+ var i=opts().findIndex(function(o){return o.cruiseNext});
  if(i<0)return;
  takeBerth(i);
+}
+// Greeting at a cruise stop: the ship is in port until the next leg of the cruise
+function cruiseWelcomeHtml(tl){
+ var c=S.camp.cruise,city=esc(N[S.loc].n),next=c.queue.length?esc(berthName(c.queue[0].to)):"";
+ return "<div class='panel'><h2>Welcome to "+city+"</h2><p class='mute mb6'>The ship is in port for the day. Go ashore, find a cafe on the quay and take a look around before the cruise carries on to "+next+".</p>"+tl+"</div>";
 }
 // A short arrival note for the rest page after a crossing
 function berthNoteHtml(){
@@ -203,11 +208,11 @@ function restPage(){
  berthHearHere();
  var arr=arrDay(),city=mkCity();
  var tl="<div class='tl'><div><b>Arrived</b>day "+arr+"</div><div class='now'><b>Rest day</b>day "+(arr+1)+"</div><div><b>Leave 8am</b>day "+(arr+2)+"</div></div>";
- var h=S.stranded?"<div class='panel'><h2>Stranded in "+esc(city)+"</h2><p class='mute mb6'>No onward fare is affordable. Sell what you carry at the market, then leave at 8am. You receive \u00a3"+STRANDED_INCOME+" when you set off, which covers most onward fares, but flights and fast trains will be out of reach for a while.</p>"+tl+"</div>":"<div class='panel'><h2>Rest day in "+esc(city)+"</h2><p class='mute mb6'>A free day. Visit the market to trade, earn income by correctly placing events on the City Timeline, or just use the buttons below to learn more about the town. Your next leg starts at 8am tomorrow.</p>"+tl+"</div>";
+ var h=S.camp.cruise?cruiseWelcomeHtml(tl):S.stranded?"<div class='panel'><h2>Stranded in "+esc(city)+"</h2><p class='mute mb6'>No onward fare is affordable. Sell what you carry at the market, then leave at 8am. You receive \u00a3"+STRANDED_INCOME+" when you set off, which covers most onward fares, but flights and fast trains will be out of reach for a while.</p>"+tl+"</div>":"<div class='panel'><h2>Rest day in "+esc(city)+"</h2><p class='mute mb6'>A free day. Visit the market to trade, earn income by correctly placing events on the City Timeline, or just use the buttons below to learn more about the town. Your next leg starts at 8am tomorrow.</p>"+tl+"</div>";
  h=h+agentHtml();
  h+=earnHtml();
  h+=thingsHtml();
- h+="<div class='panel'>"+(S.camp.cruise?"<button class='btn' onclick='cruiseContinue()'>Continue the cruise to "+esc(berthName(S.camp.cruise.back))+"</button>":"<button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button>")+"<p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
+ h+="<div class='panel'>"+(S.camp.cruise?"<button class='btn' onclick='cruiseContinue()'>Continue the cruise to "+esc(berthName(S.camp.cruise.queue[0].to))+"</button>":"<button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button>")+"<p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
  return h
 }
 
@@ -265,7 +270,7 @@ function thingsHtml(){
 
 // While you wait: the market and things to do cost no time, so the service still leaves on schedule
 function waitHtml(){
- var o=opts()[S.pend],v=vehicleName(o.m),to=N[o.to].n;
+ var o=S.pendOpt,v=vehicleName(o.m),to=N[o.to].n;
  var h="<div class='panel'><h2>Waiting for the "+esc(v)+" to "+esc(to)+"</h2><p class='mute mb10'>It leaves at "+esc(clk(S.waitDep))+", "+mins(S.waitDep-S.h)+" from now. Explore "+esc(N[S.loc].n)+" while you wait. The market and the things to do cost no time.</p>"+
   "<div class='row'><button class='btn' onclick='boardWaiting()'>Board the "+esc(v)+" at "+esc(clk(S.waitDep))+"</button><button class='link' onclick='cancelWait()'>Choose a different option</button></div></div>";
  h+=earnHtml();
@@ -277,11 +282,11 @@ function boardWaiting(){
  S.timelineOpen=false;
  if(S.phase!=="wait")return;
  var i=S.pend,dep=S.waitDep,c=campAch();if(c){c.waited+=Math.max(0,dep-S.h);if(c.waited>=12)unlockAch("timewaster")}
- S.pend=null;S.waitDep=null;S.camp.marketOpen=false;S.phase="move";
+ S.pend=null;S.pendOpt=null;S.waitDep=null;S.camp.marketOpen=false;S.phase="move";
  hop(i,dep);
 }
 
-function cancelWait(){S.timelineOpen=false;S.phase="move";S.pend=null;S.waitDep=null;S.camp.marketOpen=false;render()}
+function cancelWait(){S.timelineOpen=false;S.phase="move";S.pend=null;S.pendOpt=null;S.waitDep=null;S.camp.marketOpen=false;render()}
 
 var MK_PRE=null;
 

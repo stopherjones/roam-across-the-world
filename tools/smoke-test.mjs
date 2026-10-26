@@ -99,11 +99,16 @@ setTimeout(async () => {
   // A designated port is always an agent town, even if the loaded links do not show it
   ok("Dakar always has a travel agent", w.berthAgentIn([], "dak") === true);
   // A cruise returns to its start as a rest day, with no checkpoint
-  w.S.phase = "rest"; w.S.loc = "pia"; w.S.camp.cruise = { back: "dak", to: "pia", hours: 60 }; w.render();
+  w.S.phase = "rest"; w.S.loc = "pia"; w.S.camp.cruise = { back: "dak", at: "pia", queue: [{ to: "dak", h: 60 }] }; w.render();
   w.cruiseContinue(); await wait(4000);
   ok("cruise returns to its start on the arrival card", w.S.loc === "dak" && w.S.phase === "arrive" && w.S.berthArrival === true && !w.S.camp.cruise);
   w.arriveContinue();
   ok("arrival card continues to a rest day, with no checkpoint", w.S.phase === "rest" && w.S.loc === "dak");
+  // Multi-stop cruise: boards to the first stop and carries the rest of the route, out and back
+  w.S.phase = "move"; w.S.loc = "lis"; w.S.cash = 5000; w.S.camp.heard = { "lis-pia-cruise": w.absH(w.S.h) };
+  const lisCruise = w.opts(1).find(o => o.berth === "lis-pia-cruise");
+  ok("Lisbon cruise boards to its first stop", !!lisCruise && lisCruise.to === "pdl" && lisCruise.h === 40);
+  ok("Lisbon cruise carries the rest of its route, then returns straight to Lisbon", !!lisCruise && lisCruise.queue.map(q => q.to).join(",") === "fnc,pia,lis");
   console.log("runtime errors: " + (errs.length ? errs.join(" | ") : "none"));
   if (errs.length) failed++;
   console.log(failed ? "\nSMOKE TEST FAILED" : "\nSmoke test passed");
