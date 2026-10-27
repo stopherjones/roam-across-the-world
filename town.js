@@ -134,7 +134,7 @@ function cruiseContinue(){
 // Greeting at a cruise stop: the ship is in port until the next leg of the cruise
 function cruiseWelcomeHtml(tl){
  var c=S.camp.cruise,city=esc(N[S.loc].n),next=c.queue.length?esc(berthName(c.queue[0].to)):"";
- return "<div class='panel'><h2>Welcome to "+city+"</h2><p class='mute mb6'>The ship is in port for the day. Go ashore, find a cafe on the quay and take a look around before the cruise carries on to "+next+".</p>"+tl+"</div>";
+ return "<div class='panel'><h2>Welcome to "+city+"</h2><p class='mute mb6'>The ship is in port for the day. Go ashore, find a cafe on the quay and take a look around before the voyage carries on to "+next+".</p>"+tl+"</div>";
 }
 // A short arrival note for the rest page after a crossing
 function berthNoteHtml(){
@@ -212,7 +212,7 @@ function restPage(){
  h=h+agentHtml();
  h+=earnHtml();
  h+=thingsHtml();
- h+="<div class='panel'>"+(S.camp.cruise?"<button class='btn' onclick='cruiseContinue()'>Continue the cruise to "+esc(berthName(S.camp.cruise.queue[0].to))+"</button>":"<button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button>")+"<p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
+ h+="<div class='panel'>"+(S.camp.cruise?"<button class='btn' onclick='cruiseContinue()'>"+(S.camp.cruise.kind==="cargo"?"Continue to ":"Continue the cruise to ")+esc(berthName(S.camp.cruise.queue[0].to))+"</button>":"<button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button>")+"<p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
  return h
 }
 

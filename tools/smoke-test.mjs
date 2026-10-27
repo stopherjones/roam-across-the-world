@@ -109,6 +109,22 @@ setTimeout(async () => {
   const lisCruise = w.opts(1).find(o => o.berth === "lis-pia-cruise");
   ok("Lisbon cruise boards to its first stop", !!lisCruise && lisCruise.to === "pdl" && lisCruise.h === 40);
   ok("Lisbon cruise carries the rest of its route, then returns straight to Lisbon", !!lisCruise && lisCruise.queue.map(q => q.to).join(",") === "fnc,pia,lis");
+  // Honolulu is a stop on the Pacific cargo, in both directions
+  await w.loadRegion("japan"); await w.loadRegion("hawaii"); w.rebuildWorld();
+  w.S.phase = "move"; w.S.loc = "yok"; w.S.cash = 5000; w.S.camp.cruise = null; w.S.camp.heard = { "tyo-lax-cargo": w.absH(w.S.h) };
+  const outHnl = w.opts(1).find(o => o.berth === "tyo-lax-cargo");
+  ok("Yokohama to Los Angeles cargo stops at Honolulu first", !!outHnl && outHnl.to === "hnl" && outHnl.queue.map(q => q.to).join(",") === "lax");
+  w.S.loc = "lax"; w.S.camp.heard = { "tyo-lax-cargo-return": w.absH(w.S.h) };
+  const backHnl = w.opts(1).find(o => o.berth === "tyo-lax-cargo-return");
+  ok("Los Angeles to Yokohama cargo stops at Honolulu first", !!backHnl && backHnl.to === "hnl" && backHnl.queue.map(q => q.to).join(",") === "yok");
+  // Shortlist: three places in reach that the campaign has not visited, and the choice is kept for the next leg
+  w.S.loc = "lon"; w.S.camp.visited = ["lon"]; w.S.camp.shortlist = undefined; w.S.bonus = 1;
+  const list = w.shortlistFor("lon");
+  ok("shortlist offers up to three unvisited places", list.length <= 3 && list.every(i => i !== "lon" && w.S.camp.visited.indexOf(i) < 0));
+  w.chooseDest(list[0] || "par"); ok("chosen destination is kept for the next leg", w.S.camp.chosen === (list[0] || "par"));
+  w.S.bonus = 0;
+  // Shortlist cards show the country: each place has one
+  ok("places know their country", w.PLACE_COUNTRY.par === "France" && w.PLACE_COUNTRY.syd === "Australia" && w.PLACE_COUNTRY.osl === "Norway");
   console.log("runtime errors: " + (errs.length ? errs.join(" | ") : "none"));
   if (errs.length) failed++;
   console.log(failed ? "\nSMOKE TEST FAILED" : "\nSmoke test passed");

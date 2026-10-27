@@ -13,8 +13,8 @@ var BERTH_LANES=[
  {id:"kpg-drw-cargo", kind:"cargo", from:"kpg",to:"drw",via:[],hours:72,fare:110,window:36},
  {id:"pom-cns-cargo", kind:"cargo", from:"pom",to:"cns",via:[],hours:60,fare:100,window:36},
  // Pacific: Japan and China to Los Angeles, calling at Honolulu (a call, not a stop)
- {id:"tyo-lax-cargo", kind:"cargo", from:"yok",to:"lax",via:["hnl"],hours:300,fare:330,window:48},
- {id:"sha-lax-cargo", kind:"cargo", from:"sha",to:"lax",via:["hnl"],hours:330,fare:320,window:48},
+ {id:"tyo-lax-cargo", kind:"cargo", from:"yok",to:"lax",via:["hnl"],legH:[175,125],hours:300,fare:330,window:48},
+ {id:"sha-lax-cargo", kind:"cargo", from:"sha",to:"lax",via:["hnl"],legH:[205,125],hours:330,fare:320,window:48},
  // Honolulu to Majuro: berth only, acts as a rest day on board
  {id:"hnl-maj-cargo", kind:"cargo", from:"hnl",to:"maj",via:[],hours:72,fare:200,window:36,rest:true},
  // Atlantic: UK and Spain to the Americas
@@ -81,7 +81,7 @@ function berthTrip(sailing){
 BERTH_LANES.slice().forEach(function(l){
   if(l.kind!=="cargo")return;
   BERTH_LANES.push({id:l.id+"-return",kind:"cargo",from:l.to,to:l.from,via:l.via.slice().reverse(),
-    hours:l.hours,fare:l.fare,window:l.window,rest:l.rest});
+    hours:l.hours,fare:l.fare,window:l.window,rest:l.rest,legH:l.legH?l.legH.slice().reverse():undefined});
 });
 
 if(typeof module!=="undefined")module.exports={BERTH_LANES,BERTH_PORTS,BERTH_AGENT_HOPS,berthHops,berthAgentIn,berthListing,berthCheck,berthTrip};

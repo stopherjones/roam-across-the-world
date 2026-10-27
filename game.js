@@ -112,13 +112,12 @@ function berthOpts(){
  berthListing(S.loc,S.camp.heard,now).forEach(function(s){
   var l=s.lane;
   if(!N[l.from]||!N[l.to]||!l.via.every(function(c){return N[c]}))return;
-  if(l.kind==="cruise"){
-   // A cruise calls at each stop out, then returns the same way to where it started. Each leg is one step.
-   var stops=l.via.concat([l.to]),k=stops.length-1;
+  if(l.kind==="cruise"||l.via.length){
+   // Each stop is one step: a cruise then returns straight to its departure port; cargo that calls just carries on to its end
+   var stops=l.via.concat([l.to]);
    var legsOut=stops.map(function(st,j){return{to:st,h:l.legH[j]}});
-   var total=l.legH.reduce(function(a,b){return a+b},0);
-   var back=[{to:l.from,h:total}];   // straight back to the departure port
-   var queue=legsOut.slice(1).concat(back);
+   var queue=legsOut.slice(1);
+   if(l.kind==="cruise")queue=queue.concat([{to:l.from,h:l.legH.reduce(function(a,b){return a+b},0)}]);
    out.push({to:legsOut[0].to,m:"ferry",h:legsOut[0].h,c:l.fare,lg:0,dp:undefined,fix:s.dep-S.camp.start,
     berth:l.id,kind:l.kind,via:[],rest:true,noev:true,back:l.from,queue:queue});
    return;
@@ -129,7 +128,7 @@ function berthOpts(){
  // At a cruise stop with more of the route to go: the next leg, at no extra fare
  if(S.camp.cruise&&S.camp.cruise.queue.length&&S.loc===S.camp.cruise.at){
   var q=S.camp.cruise.queue[0];
-  if(N[q.to])out.push({to:q.to,m:"ferry",h:q.h,c:0,lg:0,dp:undefined,fix:S.h,berth:"cruise-next",kind:"cruise",via:[],rest:true,noev:true,cruiseNext:true});
+  if(N[q.to])out.push({to:q.to,m:"ferry",h:q.h,c:0,lg:0,dp:undefined,fix:S.h,berth:"cruise-next",kind:S.camp.cruise.kind||"cruise",via:[],rest:true,noev:true,cruiseNext:true});
  }
  return out;
 }
@@ -208,6 +207,9 @@ function hpush(a,x){a.push(x);var i=a.length-1;while(i>0){var p=(i-1)>>1;if((a[p
 function hpop(a){var t=a[0],l=a.pop();if(a.length){a[0]=l;var i=0,n=a.length;for(;;){var c=2*i+1;if(c>=n)break;if(c+1<n&&(a[c+1].f||a[c+1].w)<(a[c].f||a[c].w))c++;if((a[i].f||a[i].w)<=(a[c].f||a[c].w))break;var u=a[i];a[i]=a[c];a[c]=u;i=c}}return t}
 function mkRooms(){var n=N[S.loc],pav=[0,.5,.8,.95][n.s],base=45*IDX[n.c]*[0,.9,1.1,1.4][n.s];if(Math.random()>=pav)return[];var c=Math.round(base*(.5+Math.random()*1.5));return[{n:"Find a room",c:c,q:c>=base?1:0}]}
 function ll(n){return[N[n].lo,N[n].la]}
+// Longitude of a place, moved by whole turns so it sits nearest a reference point: lets a crossing go over the Pacific, not the long way round
+function llNear(n,ref){var p=ll(n),d=p[0]-ref[0];while(d>180){p[0]-=360;d=p[0]-ref[0]}while(d<-180){p[0]+=360;d=p[0]-ref[0]}return p}
+function pathCoords(ids){var out=[];ids.forEach(function(id,i){out.push(i?llNear(id,out[i-1]):ll(id))});return out}
 // ---- Journey map: overlay layers on the shared MapLibre map (map.js)
 var MJ={p:null,fit:""},JL=["j-ferry","j-nodes","j-opt","j-me","j-opts","j-optlab","j-pts","j-ptlab"];
 function fc(f){return{type:"FeatureCollection",features:f}}
@@ -238,7 +240,7 @@ function updateJourney(map){
  MJ.cur=map;
  jvis(map,true);
  var src=function(id,d){var s=map.getSource(id);if(s)s.setData(d)};
- src("j-me",MJ.anim?animLine():lnf(S.path.map(ll)));src("j-opt",S.over&&S.opt?lnf(S.opt.names.map(ll)):fc([]));
+ src("j-me",MJ.anim?animLine():lnf(pathCoords(S.path)));src("j-opt",S.over&&S.opt?lnf(pathCoords(S.opt.names)):fc([]));
  var o=[];if(!S.over&&S.phase=="move"){var all=opts();vis().show.forEach(function(i){o.push(ptf(ll(all[i].to),{name:N[all[i].to].n}))})}
  src("j-opts",fc(o));
  src("j-pts",fc([ptf(ll(S.start),{kind:"start",label:""}),ptf(ll(S.goal),{kind:"goal",label:N[S.goal].n}),ptf(ll(S.loc),{kind:"me",label:S.loc==S.goal?"":N[S.loc].n})]));
@@ -583,9 +585,9 @@ function settleHop(o,x){
   if(o.cruiseNext){
    var c=S.camp.cruise;c.at=o.to;c.queue=c.queue.slice(1);
    if(!c.queue.length)S.camp.cruise=null;
-  }else if(o.kind==="cruise")S.camp.cruise={back:o.back,at:o.to,queue:o.queue};
+  }else if(o.queue&&o.queue.length)S.camp.cruise={back:o.back,at:o.to,queue:o.queue,kind:o.kind};
   var still=!!S.camp.cruise;
-  S.camp.berthNote=(o.kind==="cruise"?(still?"The cruise docks in ":"The cruise returns to "):"The ship docks in ")+N[o.to].n+". You arrive rested.";
+  S.camp.berthNote=(o.kind==="cruise"?(still?"The cruise docks in ":"The cruise returns to "):"The ship docks in ")+N[o.to].n+". You arrive rested."+(o.via&&o.via.length?" The ship called at "+o.via.map(function(c){return N[c].n}).join(", ")+" on the way, and you rested on board.":"");
   S.arrH=S.h;S.arr=S.h;S.phase="arrive";S.berthArrival=true;S.term=grp(o.m);
   return render();
  }
@@ -711,6 +713,32 @@ function pickDest(from,dirs){
  }
  return c[Math.floor(Math.random()*c.length)]
 }
+
+// Destinations in the next leg's distance band that the campaign has not visited yet
+function destPool(from){
+ var F=placeOf(from),b=bandFor(regionOf(from));
+ return gazetteer().filter(function(g){if(g.id==from||!gzCity(g))return false;var d=kmBetween(F.la,F.lo,g.la,g.lo);return d>=b[0]&&d<=b[1]}).map(function(g){return g.id});
+}
+function shortlistFor(from){
+ var v=S.camp.visited||[],p=destPool(from).filter(function(i){return v.indexOf(i)<0});
+ for(var i=p.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=p[i];p[i]=p[j];p[j]=t}
+ return p.slice(0,3);
+}
+// The on-time reward: pick the next destination from three, or see the one already picked
+function shortlistHtml(){
+ if(!S.bonus)return"";
+ if(!S.camp.shortlist)S.camp.shortlist=shortlistFor(S.loc);
+ var h="<div class='panel'><h2>Choose your next destination</h2>";
+ if(S.camp.chosen){var c=placeOf(S.camp.chosen);return h+"<p>Next stop: <b>"+esc(c.n)+"</b>. The next leg starts there.</p></div>"}
+ var list=S.camp.shortlist;
+ if(!list.length)return h+"<p class='mute'>No new destinations are in reach, so the next leg will be drawn at random.</p></div>";
+ h+="<p class='mute'>Your reward for arriving on time. Pick one, and the next leg starts there.</p>";
+ var F=placeOf(S.loc);
+ list.forEach(function(id){var p=placeOf(id),km=Math.round(kmBetween(F.la,F.lo,p.la,p.lo)/10)*10,ctry=PLACE_COUNTRY[id]||"";
+  h+="<button class='card' onclick='chooseDest(\""+id+"\")'><b>"+esc(p.n)+(ctry?", "+esc(ctry):"")+"</b><span>About "+km.toLocaleString("en-GB")+" km away</span></button>"});
+ return h+"</div>";
+}
+function chooseDest(id){S.camp.chosen=id;render()}
 
 // ---- On-demand regions: a region's map data is loaded when a route needs it, then the world is rebuilt from what is loaded.
 // Regions are only added, never removed, so places already on screen stay valid.
@@ -845,7 +873,7 @@ function nextLeg(){
  var camp={ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},nextUid:S.camp.nextUid||0};
  var st=S.setup||{air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}},tries=0;
  var attempt=function(){
-  var to=pickDest(from,dirs);
+  var to=(tries===0&&S.camp.chosen)||pickDest(from,dirs);
   if(!to){S=null;return render("No destination found. Start a new journey.")}
   return startJourney(from,to,st.air,st.evn,st.lm,camp).then(function(ok){
    if(ok)return render();
@@ -877,8 +905,8 @@ function gcPoint(a,b,f){
 }
 // The journey so far, plus the new leg drawn part of the way along
 function animLine(){
- var A=MJ.anim,e=1-Math.pow(1-A.p,3),n=Math.max(2,Math.ceil(48*e)),pts=S.path.slice(0,-1).map(ll);
- for(var i=0;i<=n;i++)pts.push(gcPoint(ll(A.from),ll(A.to),e*i/n));
+ var A=MJ.anim,e=1-Math.pow(1-A.p,3),n=Math.max(2,Math.ceil(48*e)),pts=pathCoords(S.path.slice(0,-1)),f=llNear(A.from,pts.length?pts[pts.length-1]:ll(A.from)),t=llNear(A.to,f);
+ for(var i=0;i<=n;i++)pts.push(gcPoint(f,t,e*i/n));
  return lnf(pts);
 }
 function drawRoute(){var m=MJ.cur;if(m){var src=m.getSource&&m.getSource("j-me");if(src)src.setData(animLine())}}
@@ -916,7 +944,7 @@ function arriveHtml(){
  var nights=(S.nights||[]).reduce(function(a,b){return a+b},0);
  var lines=[slept?"You are tired after a poor night.":"You arrive rested."];
  if(nights)lines.push("You spent "+nights+(nights==1?" night":" nights")+" on the road.");
- var h="<div class='panel arrive'><p class='kicker'>Arrived "+esc(clk(S.h))+"</p><h2 class='arrive-h'>Welcome to "+esc(g)+"</h2><p class='big'>"+status+"</p>";
+ var h="<div class='panel arrive'><p class='kicker'>Arrived "+esc(clk(S.h))+"</p><h2 class='arrive-h'>Welcome to "+esc(g)+"</h2>"+(S.lmOn?"":"<p class='big'>"+status+"</p>");
  if(S.lmOn)h+="<p>You now need to find the checkpoint in "+esc(g)+".</p>";
  h+="<p>"+lines.join(" ")+"</p>";
  if(notes.length)h+="<h3>On the way</h3><ul class='log'>"+notes.map(function(t){return"<li>"+esc(t)+"</li>"}).join("")+"</ul>";
@@ -1078,7 +1106,7 @@ function render(msg){
  if(S&&S.phase=="plan")h+=planIntro();
  if(S.phase==="rest"){h+=restPage();}else if(S.over){
   var m=S.over=="broke"?"Stranded: you can't afford any onward fare from "+N[S.loc].n+".":(S.bonus?"You arrived on time.":"You arrived after the target time.");
-  h+="<div class='panel'><p class='big'>"+m+"</p><p class='mute'>Leg "+S.camp.legs+" complete. You carry \u00a3"+Math.max(0,Math.round(S.cash))+" into the next leg"+(S.bonus?", including the \u00a3"+BONUS+" on-time bonus":"")+". A further \u00a3"+INCOME+" income is paid at the start of the next leg, when you set off at 8am on Day "+(arrDay()+2)+".</p>"+restHtml()+"<div class='row'><button class='btn' onclick='restStart()'>Rest day</button></div></div>"
+  h+="<div class='panel'><p class='big'>"+m+"</p><p class='mute'>Leg "+S.camp.legs+" complete. You carry \u00a3"+Math.max(0,Math.round(S.cash))+" into the next leg"+(S.bonus?", including the \u00a3"+BONUS+" on-time bonus":"")+". A further \u00a3"+INCOME+" income is paid at the start of the next leg, when you set off at 8am on Day "+(arrDay()+2)+".</p>"+shortlistHtml()+restHtml()+"<div class='row'><button class='btn' onclick='restStart()'>Rest day</button></div></div>"
  }else{
 
   if(S.phase=="lastmile"||S.phase=="interim")h+="<div class='panel'><h2>"+(S.phase=="interim"?"Checkpoint work":"Checkpoint")+"</h2><div id='lm'></div></div>";else if(S.phase=="plan")h+=planPanel();else if(S.phase=="routes")h+=routesPanel();
