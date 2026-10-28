@@ -126,9 +126,9 @@ setTimeout(async () => {
   // Shortlist cards show the country: each place has one
   ok("places know their country", w.PLACE_COUNTRY.par === "France" && w.PLACE_COUNTRY.syd === "Australia" && w.PLACE_COUNTRY.osl === "Norway");
   // Teaser prompts from real route options (printed for review)
-  for (const [a, b, an, bn] of [["lon","mad","London","Madrid"],["osl","hel","Oslo","Helsinki"],["wlg","chc","Wellington","Christchurch"],["lag","dak","Lagos","Dakar"]]) {
+  for (const [a, b, an, bn] of [["lon","bil","London","Bilbao"],["lon","mad","London","Madrid"],["osl","hel","Oslo","Helsinki"],["wlg","chc","Wellington","Christchurch"],["lag","dak","Lagos","Dakar"]]) {
     await w.beginTo(a, b, 250); await wait(2500);
-    console.log("TEASER_PROMPT_START\n" + w.buildTeaserPrompt(an, bn, w.S && w.S.opts || []) + "\nTEASER_PROMPT_END");
+    console.log("TEASER_PROMPT_START\n" + w.buildTeaserBrief(an, bn, w.S && w.S.opts || []) + "\nTEASER_PROMPT_END");
   }
   console.log("runtime errors: " + (errs.length ? errs.join(" | ") : "none"));
   if (errs.length) failed++;

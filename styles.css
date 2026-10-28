@@ -345,3 +345,8 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .flap-row{display:flex;gap:3px;justify-content:center}
 .flap-c{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:0.72;min-width:0;background:#23292d;color:#f3c64a;border-radius:4px;font:700 clamp(.8rem,4.2vw,1.1rem)/1 ui-monospace,Menlo,monospace}
 .flap-c::after{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:#0b0e10}
+
+/* Route teaser: shaded like the travel options, with a discreet note (game.js routes panel) */
+.teaser-box{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:8px 0}
+.teaser-box .route-flavour{margin:0}
+.teaser-note{margin:8px 0 0;font-size:.72rem;color:var(--mute);font-style:italic}

@@ -307,7 +307,14 @@ function routeFlavourFallback(from,to,options){
 function fillRouteFlavour(){
  var el=document.getElementById("route-flavour");if(!el||!S||S.phase!=="routes")return;
  var from=S.start=="lon"?"London":N[S.start].n,to=N[S.goal].n,key=S.start+">"+S.goal;
- var current=document.getElementById("route-flavour");if(current)current.textContent=routeFlavourFallback(from,to,S.opts)
+ var current=document.getElementById("route-flavour");if(current)current.textContent=routeFlavourFallback(from,to,S.opts);
+ // Then the live teaser, if the model answers and the player is still on this route
+ if(typeof routeTeaserFor==="function"&&S.opts&&S.opts.length){
+  routeTeaserFor(from,to,S.opts).then(function(t){
+   var cur=document.getElementById("route-flavour");
+   if(cur&&S&&S.phase==="routes"&&S.start+">"+S.goal===key)cur.textContent=t;
+  },function(e){console.debug("Route teaser unavailable, showing fallback:",e&&e.message)});
+ }
 }
 function mkHash(str){var h=2166136261;for(var i=0;i<str.length;i++){h^=str.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
 // Destination reveal: a split-flap board that clicks the name into place, shown in the destination panel.
@@ -383,7 +390,7 @@ function planDone(skip){
 }
 function routesPanel(){
  var next=departNeeded()?departChoicesHtml():"<button class='btn' onclick='beginTravel()'>Begin journey</button>";
- return"<div class='panel'><h2>Where to?</h2><p class='mute'>Your journey begins in "+esc(N[S.start].n)+" and ends in "+esc(N[S.goal].n)+".</p><p class='route-flavour' id='route-flavour' aria-live='polite'>"+esc(routeFlavourFallback(S.start=="lon"?"London":N[S.start].n,N[S.goal].n,S.opts))+"</p><p class='mute'>Target: arrive by "+stamp(S.target||0)+" to earn the £"+BONUS+" bonus. Choose individual services as you travel.</p>"+next+"</div>"
+ return"<div class='panel'><h2>Where to?</h2><p class='mute'>Your journey begins in "+esc(N[S.start].n)+" and ends in "+esc(N[S.goal].n)+".</p><div class='teaser-box'><p class='route-flavour' id='route-flavour' aria-live='polite'>"+esc(routeFlavourFallback(S.start=="lon"?"London":N[S.start].n,N[S.goal].n,S.opts))+"</p><p class='teaser-note'>AI-generated, may not reflect in-game options.</p></div><p class='mute'>Target: arrive by "+stamp(S.target||0)+" to earn the £"+BONUS+" bonus. Choose individual services as you travel.</p>"+next+"</div>"
 }
 function bindModes(){
  document.querySelectorAll(".modebar [data-mode]").forEach(function(b){
