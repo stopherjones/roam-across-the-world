@@ -268,6 +268,8 @@ function thingsHtml(){
   ["Discover the local sports scene","Traditional, mainstream and local sports.","https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"],
   ["Paint a local street scene","Painting inspiration from the town.","https://www.google.com/search?q=give+me+painting+inspiration+from+"+c+""]
  ];
+ items=items.filter(function(i){return thingOn(i[0])}).concat(customLinks(N[S.loc].n));
+ if(!items.length)return "<div class='panel'><h2>Things to do</h2><p class='mute'>All the things to do links are turned off. Turn them back on in Settings.</p></div>";
  return "<div class='panel'><h2>Things to do</h2>"+items.map(function(i){return"<a class='btn' href='"+i[2]+"' target='_blank' rel='noopener'>"+esc(i[0])+"</a><p class='mute note'>"+esc(i[1])+"</p>"}).join("")+"</div>";
 }
 

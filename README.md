@@ -1,4 +1,4 @@
-# Role Around the World
+# Roam Across the World
 
 A solo travel RPG: travel from place to place, manage your time and money, discover new sights, and keep a journal of your journey. Choose services as you go, balancing timetables, terminals, fares and overnight stays.
 

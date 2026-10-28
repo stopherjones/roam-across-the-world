@@ -875,8 +875,8 @@ function begin(){
 // Days: the campaign clock runs across legs. Arriving on day x: rest and explore on day x+1, leave 8am on day x+2.
 function arrDay(){return Math.floor((absH(S.arrH||0)+8)/24)+1}
 function restHtml(){return"<p class='mute'>Arrived "+stamp(S.arrH||0)+". Rest and explore on Day "+(arrDay()+1)+", leave 8am Day "+(arrDay()+2)+".</p>"}
-function campLogHtml(){if(COUNTRIES_VIEW)return countriesPanelHtml();return campLogHtmlBase()+achHtml()}
-function campLogHtmlBase(){var l=(S.camp&&S.camp.log)||[];var save="<div class='row'><button class='btn alt' onclick='exportSave()'>Download save file</button><button class='link' onclick='if(confirm(\"End your campaign? Saved progress will be cleared.\"))reset()'>End campaign</button></div>";if(!l.length)return"<div class='panel'>"+save+"</div>";return"<div class='panel'><h2>Campaign so far</h2><ol class='log'>"+l.map(function(e){return"<li>Leg "+e.leg+": "+(e.stranded?"stranded in ":"arrived in ")+esc(e.to)+(e.stranded?"":" at "+esc(e.arrived))+"</li>"}).join("")+"</ol>"+save+"</div>"}
+function campLogHtml(){if(SETTINGS_OPEN)return settingsHtml();if(COUNTRIES_VIEW)return countriesPanelHtml();return campLogHtmlBase()+achHtml()}
+function campLogHtmlBase(){var l=(S.camp&&S.camp.log)||[];var save="<div class='row'><button class='btn alt' onclick='exportSave()'>Save file</button><button class='link' onclick='settingsToggle()'>Settings</button><button class='link' onclick='if(confirm(\"End your campaign? Saved progress will be cleared.\"))reset()'>End campaign</button></div>";if(!l.length)return"<div class='panel'>"+save+"</div>";return"<div class='panel'><h2>Campaign so far</h2><ol class='log'>"+l.map(function(e){return"<li>Leg "+e.leg+": "+(e.stranded?"stranded in ":"arrived in ")+esc(e.to)+(e.stranded?"":" at "+esc(e.arrived))+"</li>"}).join("")+"</ol>"+save+"</div>"}
 function nextLeg(){
  if(!S||!S.camp)return;
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
@@ -1032,9 +1032,19 @@ function saveIsValid(o){
 }
 function exportSave(){
  if(!S)return;
- var data={rtwSave:SAVE_VERSION,saved:new Date().toISOString(),state:S};
- var blob=new Blob([JSON.stringify(data)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");
- a.href=url;a.download="role-around-the-world-leg-"+(S.camp.legs)+".json";
+ var data={rtwSave:SAVE_VERSION,saved:new Date().toISOString(),settings:PREFS,state:S};
+ var text=JSON.stringify(data),name="roam-across-the-world-leg-"+(S.camp.legs)+".json";
+ var file=null;try{file=new File([text],name,{type:"application/json"})}catch(e){}
+ // Where the phone can share files (Android), open the share sheet so Drive or any other app can take the file
+ if(file&&navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+  navigator.share({files:[file],title:"Roam Across the World save"}).catch(function(e){if(e&&e.name==="AbortError")return;downloadText(text,name)});
+  return;
+ }
+ downloadText(text,name);
+}
+function downloadText(text,name){
+ var blob=new Blob([text],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");
+ a.href=url;a.download=name;
  document.body.appendChild(a);a.click();a.remove();
  setTimeout(function(){URL.revokeObjectURL(url)},1000);
 }
@@ -1048,9 +1058,11 @@ function importSave(file){
   var d;try{d=JSON.parse(r.result)}catch(e){return importFail("That file isn't a save file.")}
   if(d&&d.rtwSave&&d.rtwSave>SAVE_VERSION)return importFail("That save was made by a newer version of the game.");
   var o=d&&d.rtwSave?d.state:d;
-  if(!saveIsValid(o))return importFail("That file isn't a valid Role Around the World save.");
+  if(!saveIsValid(o))return importFail("That file isn't a valid Roam Across the World save.");
   if(!o.setup)o.setup={air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}};
   if(!o.camp.log)o.camp.log=[];
+  // Settings in the file replace this browser's settings, so the save's preferences come with it
+  if(d&&d.settings){PREFS=prefsMerge(d.settings);prefsSave()}
   busyStart("Loading your save\u2026");
   journeyReady(o.start,o.goal).then(function(){busyEnd();S=o;save();render()},function(err){busyEnd();importFail("Could not load the map for that save: "+(err&&err.message||err))});
  };
@@ -1067,7 +1079,7 @@ function welcomeHtml(msg){
   "<circle class='route-goal' cx='336' cy='44' r='7'/>"+
   "</svg>"+
   "<p class='kicker'>A solo travel RPG</p>"+
-  "<h1 class='wordmark'>Role Around<span>the World</span></h1>"+
+  "<h1 class='wordmark'>Roam Across<span>the World</span></h1>"+
  "</header>"+
  "<p class='intro'>Set out from Trafalgar Square with a budget, a clock and a destination you have never seen before. Each leg sends you somewhere new on the globe, and you choose how to get there: trains, coaches, ferries and whatever else the road offers. Arrive on time to earn a bonus, or spend freely and risk running late. When you land, try to pin where a photo was taken on an unlabelled map. Each leg starts where the last one ended, so the campaign carries you round the world.</p>"+
  "<section class='welcome-sec' aria-labelledby='sec-campaign'>"+
@@ -1079,7 +1091,7 @@ function welcomeHtml(msg){
    "<div class='row'><button class='btn' onclick='begin()'>Start journey</button><a class='link-btn' href='rules.html'>Rules and guide</a></div>"+
   "</div>"+
  "</section>"+
- "<section class='welcome-sec' aria-labelledby='sec-load'>"+
+ "<p><button class='link' onclick='settingsToggle()'>Settings</button></p>"+"<section class='welcome-sec' aria-labelledby='sec-load'>"+
   "<h2 id='sec-load'>Saved game</h2>"+
   "<div class='welcome-card'><h3>Load a save file</h3><p class='mute'>Open a file you downloaded earlier to carry on where you left off.</p>"+
   "<input type='file' id='saveFile' accept='.json,application/json' onchange='importSave(this.files[0])' aria-label='Choose a save file'></div>"+
@@ -1102,9 +1114,9 @@ function render(msg){
  save();
  if(!S){
   document.body.classList.remove("mapscreen","map-min","map-full");LAST_CLOCK=null;
-  var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=TOUR_PICK?tourHtml():welcomeHtml(msg);
+  var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=SETTINGS_OPEN?settingsHtml():TOUR_PICK?tourHtml():welcomeHtml(msg);
   return}
- var h="<h1 class='sr-only'>Role Around the World</h1>";
+ var h="<h1 class='sr-only'>Roam Across the World</h1>";
  var mapped=true;
  document.body.classList.toggle("mapscreen",mapped);
  document.body.classList.toggle("map-min",mapped&&mapMin());
