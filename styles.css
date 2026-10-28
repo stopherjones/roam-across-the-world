@@ -376,3 +376,5 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .route-map .rm-line{stroke:var(--acc);stroke-width:2;stroke-linejoin:round}
 .route-map .rm-stop{fill:var(--card);stroke:var(--acc);stroke-width:2}
 .route-map .rm-stop.rm-end{fill:var(--acc)}
+
+.route-map .rm-land{fill:var(--line);opacity:.85}

@@ -71,6 +71,14 @@ function tourPickToggle(){
 function tourCountry(id){return PLACE_COUNTRY[id]||N[id].n}
 function tourListText(a){return a.length<2?a.join(""):a.slice(0,-1).join(", ")+" and "+a[a.length-1]}
 // A small route map drawn from the stop coordinates. Routes over the date line are kept continuous.
+// The land outline is defined once in the page and reused by every route map
+function ensureLandDefs(){
+ if(document.getElementById('rm-land-defs'))return;
+ var s=document.createElementNS('http://www.w3.org/2000/svg','svg');
+ s.setAttribute('id','rm-land-defs');s.setAttribute('width','0');s.setAttribute('height','0');s.setAttribute('aria-hidden','true');s.style.position='absolute';
+ s.innerHTML="<defs><path id='rm-land' d='"+LAND_PATH+"'/></defs>";
+ document.body.appendChild(s);
+}
 function tourRouteSvg(ids,label){
  var pts=ids.map(function(id){return{la:N[id].la,lo:N[id].lo}});
  var lo0=Math.min.apply(null,pts.map(function(p){return p.lo})),lo1=Math.max.apply(null,pts.map(function(p){return p.lo}));
@@ -82,7 +90,10 @@ function tourRouteSvg(ids,label){
  function Y(p){return oy+(la1-p.la)*sc}
  var line=pts.map(function(p){return X(p).toFixed(1)+","+Y(p).toFixed(1)}).join(" ");
  var dots=pts.map(function(p,i){var end=i===0||i===pts.length-1;return"<circle cx='"+X(p).toFixed(1)+"' cy='"+Y(p).toFixed(1)+"' r='"+(end?4.5:3)+"' class='rm-stop"+(end?" rm-end":"")+"'/>"}).join("");
- return"<svg class='route-map' viewBox='0 0 "+W+" "+H+"' role='img' aria-label='Route map: "+esc(label)+"'><polyline points='"+line+"' fill='none' class='rm-line'/>"+dots+"</svg>";
+ // Land copies one world either side, so routes over the date line still show their coast
+ ensureLandDefs();
+ var land=[-360,0,360].map(function(k){return"<use href='#rm-land' class='rm-land' transform='translate("+(ox-lo0*sc+k*sc).toFixed(1)+" "+(oy+la1*sc).toFixed(1)+") scale("+sc.toFixed(4)+" -"+sc.toFixed(4)+")'/>"}).join("");
+ return"<svg class='route-map' viewBox='0 0 "+W+" "+H+"' role='img' aria-label='Route map: "+esc(label)+"'>"+land+"<polyline points='"+line+"' fill='none' class='rm-line'/>"+dots+"</svg>";
 }
 function tourPickHtml(){
  var rows=tourLanes().map(function(l){
