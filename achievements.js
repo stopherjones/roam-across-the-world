@@ -81,5 +81,5 @@ function countriesPanelHtml(){
  var c=campAch()||{countries:[]};
  var list=COUNTRY_LIST.slice().sort(function(x,y){var gx=ticked(c,x),gy=ticked(c,y);if(gx!==gy)return gx?-1:1;return x.localeCompare(y)});
  var n=countriesVisited(c);
- return"<div class='panel'><h2>Countries visited ("+n+"/"+COUNTRY_LIST.length+")</h2><p class='mute'>A country counts once you rest there, visit its market, finish its City Timeline, stop on a cruise, or start a campaign there. Passing through on a journey does not count.</p><ul class='ach'>"+list.map(function(k){var g=ticked(c,k);return"<li class='"+(g?"got":"")+"'>"+flagStamp(k,g)+"</li>"}).join("")+"</ul><button class='link' onclick='countriesToggle()'>Back to achievements</button></div>";
+ return"<div class='panel'><h2>Countries visited ("+n+"/"+COUNTRY_LIST.length+")</h2><p class='mute'>A country counts once you rest there, visit its market, finish its City Timeline, stop on a cruise, or start a campaign there. Passing through on a journey does not count.</p><ul class='ach'>"+list.map(function(k){var g=ticked(c,k);return"<li class='"+(g?"got":"")+"'>"+flagStamp(k,g)+"<span>"+esc(k)+"</span></li>"}).join("")+"</ul><button class='link' onclick='countriesToggle()'>Back to achievements</button></div>";
 }
