@@ -81,7 +81,8 @@ function berthAgentIn(links,city){
 // Sailings the player knows about at a port: lanes out of that port that they have heard of, not yet gone.
 // heard: {laneId: discoveredAtHour}. now: campaign hour.
 function berthListing(port,heard,now){
- var out=[];
+ var out=[],tl=S&&S.camp&&S.camp.tourLane;
+ if(tl){if(port!==tl.from||heard[tl.id]==null)return out;var d=heard[tl.id]+tl.window;if(now<=d)out.push({lane:tl,dep:d});return out}
  BERTH_LANES.forEach(function(l){
   if(l.from!==port||heard[l.id]==null)return;
   var dep=heard[l.id]+l.window;

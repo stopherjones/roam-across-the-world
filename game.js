@@ -1102,7 +1102,7 @@ function render(msg){
  save();
  if(!S){
   document.body.classList.remove("mapscreen","map-min","map-full");LAST_CLOCK=null;
-  var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=(TOUR||TOUR_PICK)?tourHtml():welcomeHtml(msg);
+  var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=TOUR_PICK?tourHtml():welcomeHtml(msg);
   return}
  var h="<h1 class='sr-only'>Role Around the World</h1>";
  var mapped=true;
@@ -1137,6 +1137,7 @@ function render(msg){
 }
 // Startup: show the start screen straight away; if a campaign is saved, load its regions first, then resume it
 load();
+if(S&&S.camp&&S.camp.tour)tourReady().then(function(){render()});
 if(S&&S.phase=="interim")S.phase="move";
 if(S){journeyReady(S.start,S.goal).then(function(){if(S&&S.phase=="lastmile"&&!S.over)startLM();render()},function(err){S=null;render("Could not load the saved map: "+(err&&err.message||err))})}
 else render();

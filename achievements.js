@@ -22,7 +22,7 @@ var CONTINENT_OF={"uk":"Europe","fr":"Europe","benelux":"Europe","de":"Europe","
 // Campaign achievement state, created when first needed (so older saves still load)
 function campAch(){if(!S||!S.camp)return null;var c=S.camp;c.ach=c.ach||{};c.countries=c.countries||[];c.continents=c.continents||[];c.waited=c.waited||0;c.visited=c.visited||[];return c}
 function unlockAch(id){
- var c=campAch();if(!c||c.ach[id])return;
+ var c=campAch();if(!c||c.tour||c.ach[id])return;
  var a=ACHIEVEMENTS.filter(function(x){return x.id===id})[0];if(!a)return;
  c.ach[id]={at:clk(S.h)};
  say("Achievement unlocked: "+a.name+".");
@@ -37,6 +37,7 @@ var VISIT_SOURCES={start:true,rest:true,cruise:true,merchant:true,timeline:true,
 // count. Passing through on a journey, including changing trains, does not.
 function visitPlace(id,src){
  var c=campAch();if(!c||!N[id]||!VISIT_SOURCES[src])return;
+ if(c.tour){tourVisit(id);return}
  var cc=PLACE_COUNTRY[id];if(cc&&COUNTRY_LIST.indexOf(cc)>=0&&c.countries.indexOf(cc)<0)c.countries.push(cc);
  var cont=CONTINENT_OF[regionOf(id)];if(cont&&c.continents.indexOf(cont)<0)c.continents.push(cont);
  if(c.visited.indexOf(id)<0)c.visited.push(id);

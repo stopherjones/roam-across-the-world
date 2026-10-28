@@ -1,13 +1,12 @@
-// Guided tours: a cruise schedule followed stop to stop, from the welcome screen.
-// Standalone: no budget, timers, checkpoints, rest-day clock or campaign achievements. It does not touch the campaign (S).
-// Countries visited on a tour are kept here, under their own key, and shown on the countries page alongside campaign ticks.
+// Guided tours: a cruise run as a campaign-style game with its own clock and cash, but no income, no achievements,
+// and the same travel agent, market, timeline, rest days and cruise stops. It ends at the last stop of the cruise.
+// Countries visited on a tour are kept under their own key and shown on the countries page.
 var TOUR_KEY="ratw-tour-v1";
-var TOUR=null;            // { lane, stops:[place ids], i, rt } while a tour is running
+var TOUR_MONEY=300;       // spending money at the start: for the market, built up with the timeline
 var TOUR_PICK=false;      // the list of tours is open
 var TOUR_COUNTRIES=[];    // countries ticked by tours
-function tourLoad(){try{var r=localStorage.getItem(TOUR_KEY);if(r){var o=JSON.parse(r);TOUR_COUNTRIES=o.countries||[];TOUR=o.tour||null}}catch(e){}}
-function tourSave(){try{localStorage.setItem(TOUR_KEY,JSON.stringify({countries:TOUR_COUNTRIES,tour:TOUR}))}catch(e){}}
-// Tours that can be followed: cruise lanes whose every stop is on the map
+function tourLoad(){try{var r=localStorage.getItem(TOUR_KEY);if(r){var o=JSON.parse(r);TOUR_COUNTRIES=o.countries||[]}}catch(e){}}
+function tourSave(){try{localStorage.setItem(TOUR_KEY,JSON.stringify({countries:TOUR_COUNTRIES}))}catch(e){}}
 // Regions holding any cruise stop. The world only has loaded regions, so these are loaded before a tour is listed or started.
 function tourRegions(){
  var out={};
@@ -20,35 +19,53 @@ function tourReady(){
  busyStart("Loading the cruise routes\u2026");
  return Promise.all(need.map(loadRegion)).then(function(){rebuildWorld()},function(){}).then(function(){busyEnd()});
 }
+// Cruise lanes that can be followed: every stop is on the map
 function tourLanes(){
  return BERTH_LANES.filter(function(l){return l.kind==="cruise"&&N[l.from]&&N[l.to]&&l.via.every(function(c){return N[c]})});
 }
-// Stops for a tour. A round trip uses the return lane's stops when there is one, otherwise it comes straight back.
-function tourStops(l,rt){
- var out=[l.from].concat(l.via,[l.to]);
- if(!rt)return out;
+// The lane a tour sails. A round trip follows the return schedule's stops when there is one, and otherwise comes straight back.
+// It is one-way from the start to the end, so the cruise ends at the last stop.
+function tourLane(l,rt){
+ var base={id:"tour-"+l.id,kind:"cruise",window:96,fare:0,hours:l.hours};
+ if(!rt)return Object.assign(base,{from:l.from,to:l.to,via:l.via.slice(),legH:l.legH.slice(),oneWay:true});
  var back=BERTH_LANES.filter(function(x){return x.kind==="cruise"&&x.from===l.to&&x.to===l.from})[0];
- return back&&back.via.every(function(c){return N[c]})?out.concat(back.via,[back.to]):out.concat([l.from]);
+ if(back&&back.via.every(function(c){return N[c]})){
+  return Object.assign(base,{from:l.from,to:l.from,via:l.via.concat([l.to],back.via),legH:l.legH.concat(back.legH),hours:l.hours+back.hours,oneWay:true});
+ }
+ var total=l.legH.reduce(function(a,b){return a+b},0);
+ return Object.assign(base,{from:l.from,to:l.from,via:l.via.concat([l.to]),legH:l.legH.concat([total]),hours:l.hours*2,oneWay:true});
 }
 function tourStart(id,rt){
  tourReady().then(function(){
-  var l=BERTH_LANES.filter(function(x){return x.id===id})[0];if(!l||!N[l.from]||!N[l.to])return render("That tour is not available.");
-  TOUR={lane:id,stops:tourStops(l,rt),i:0,rt:!!rt};
-  tourVisit(TOUR.stops[0]);
-  TOUR_PICK=false;tourSave();render();
+  var l=BERTH_LANES.filter(function(x){return x.id===id})[0];
+  if(!l||!N[l.from]||!N[l.to])return render("That tour is not available.");
+  var lane=tourLane(l,rt),stops=[lane.from].concat(lane.via,[lane.to]);
+  var camp={ach:{},countries:[],continents:[],waited:0,visited:[],heard:{},income:0,money:TOUR_MONEY,legs:1,start:0,log:[],dirs:[],paid:[],pack:[],seed:(Math.random()*1e9)|0,sales:{},seen:{},nextUid:0,
+   tour:{lane:id,rt:!!rt,stops:stops},tourLane:lane,
+   cruise:{back:lane.from,at:lane.from,queue:lane.via.concat([lane.to]).map(function(st,j){return{to:st,h:lane.legH[j]}}),kind:"cruise"}};
+  S={legHazards:0,legNotes:[],start:lane.from,goal:lane.to,air:false,ev:true,camp:camp,setup:{air:false,evn:true,lm:{on:false,clue:"off",level:"mixed",plan:false}},
+   lmOn:false,planOn:false,lmClue:"off",lmLevel:"mixed",rooms:[],wait:0,tired:false,pend:null,pendOpt:null,loc:lane.from,h:0,spent:0,
+   path:[lane.from],times:[0],modes:[],nights:[],rev:{},log:["Your tour begins in "+N[lane.from].n+". Book the cruise at the travel agent."],
+   phase:"rest",draft:[],over:null,term:null,arr:0,arrH:0,budget:TOUR_MONEY,cash:TOUR_MONEY,opt:null,opts:[],target:0,stranded:0};
+  S.term=grp("ferry");   // a cruise stop is in ferry mode, as takeBerth sets it, so the cruise option keeps its place in the list
+  tourVisit(lane.from);
+  activePanel="play";TOUR_PICK=false;tourSave();save();render();
  });
 }
-function tourContinue(){if(!TOUR||TOUR.i>=TOUR.stops.length-1)return;TOUR.i++;tourVisit(TOUR.stops[TOUR.i]);tourSave();render()}
-function tourFinish(){TOUR=null;tourSave();render()}
-function tourLeave(){TOUR=null;tourSave();render()}
+function tourEnd(){S=null;TOUR_PICK=false;save();render()}
+// Where the rest page leaves a tour: book the cruise first, then end at the last stop
+function restLeaveHtml(arr){
+ if(S&&S.camp&&S.camp.tour)return "<button class='btn' onclick='tourEnd()'>End the tour</button>";
+ return "<button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button>";
+}
+// A tour stop ticks its country on the countries page (the UN list and Taiwan, not territories)
+function tourVisit(id){
+ var cc=PLACE_COUNTRY[id];
+ if(cc&&COUNTRY_LIST.indexOf(cc)>=0&&TOUR_COUNTRIES.indexOf(cc)<0){TOUR_COUNTRIES.push(cc);tourSave()}
+}
 function tourPickToggle(){
  if(TOUR_PICK){TOUR_PICK=false;return render()}
  tourReady().then(function(){TOUR_PICK=true;render()});
-}
-// A tour stop is a cruise stop, so it ticks its country (UN list and Taiwan, not territories)
-function tourVisit(id){
- var cc=PLACE_COUNTRY[id];
- if(cc&&COUNTRY_LIST.indexOf(cc)>=0&&TOUR_COUNTRIES.indexOf(cc)<0)TOUR_COUNTRIES.push(cc);
 }
 function tourPickHtml(){
  var rows=tourLanes().map(function(l){
@@ -58,23 +75,7 @@ function tourPickHtml(){
    "<div class='row'><button class='btn' onclick='tourStart(\""+l.id+"\",false)'>One way</button>"+
    "<button class='btn alt' onclick='tourStart(\""+l.id+"\",true)'>Round trip</button></div></div>";
  }).join("");
- return "<div class='panel'><h2>Guided tours</h2><p class='mute mb10'>Follow a cruise from stop to stop. No budget, no clock, no checkpoints. Countries you stop in are ticked off.</p><button class='link' onclick='tourPickToggle()'>Back</button></div>"+rows;
+ return "<div class='panel'><h2>Guided tours</h2><p class='mute mb10'>Start at the travel agent, book a cruise and follow it stop by stop. You get £"+TOUR_MONEY+" to spend at the market. Achievements do not count on a tour.</p><button class='link' onclick='tourPickToggle()'>Back</button></div>"+rows;
 }
-function tourHtml(){
- if(TOUR_PICK&&!TOUR)return tourPickHtml();
- if(!TOUR)return "";
- var last=TOUR.i>=TOUR.stops.length-1;
- var here=N[TOUR.stops[TOUR.i]].n;
- var h="<div class='panel'><p class='kicker'>Guided tour · stop "+(TOUR.i+1)+" of "+TOUR.stops.length+(TOUR.rt?" · round trip":" · one way")+"</p>";
- if(last){
-  h+="<h2>Welcome to "+esc(here)+"</h2><p class='mute mb10'>The voyage ends here. Thank you for sailing.</p>"+
-   "<button class='btn' onclick='tourFinish()'>Finish tour</button>";
- }else{
-  var next=N[TOUR.stops[TOUR.i+1]].n;
-  h+="<h2>Welcome to "+esc(here)+"</h2><p class='mute mb10'>The ship is in port for the day. Go ashore and look around before the voyage carries on to "+esc(next)+".</p>"+
-   "<button class='btn' onclick='tourContinue()'>Continue to "+esc(next)+"</button>";
- }
- h+="<p><button class='link' onclick='tourLeave()'>Leave the tour</button></p></div>";
- return h;
-}
+function tourHtml(){return TOUR_PICK?tourPickHtml():""}
 tourLoad();

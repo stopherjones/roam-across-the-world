@@ -212,10 +212,10 @@ function restPage(){
  var arr=arrDay(),city=mkCity();
  var tl="<div class='tl'><div><b>Arrived</b>day "+arr+"</div><div class='now'><b>Rest day</b>day "+(arr+1)+"</div><div><b>Leave 8am</b>day "+(arr+2)+"</div></div>";
  var h=S.camp.cruise?cruiseWelcomeHtml(tl):S.stranded?"<div class='panel'><h2>Stranded in "+esc(city)+"</h2><p class='mute mb6'>No onward fare is affordable. Sell what you carry at the market, then leave at 8am. You receive \u00a3"+STRANDED_INCOME+" when you set off, which covers most onward fares, but flights and fast trains will be out of reach for a while.</p>"+tl+"</div>":"<div class='panel'><h2>Rest day in "+esc(city)+"</h2><p class='mute mb6'>A free day. Visit the market to trade, earn income by correctly placing events on the City Timeline, or just use the buttons below to learn more about the town. Your next leg starts at 8am tomorrow.</p>"+tl+"</div>";
- h=h+agentHtml();
+ h=h+(S.camp&&S.camp.tour?"":agentHtml());
  h+=earnHtml();
  h+=thingsHtml();
- h+="<div class='panel'>"+(S.camp.cruise?"<button class='btn' onclick='cruiseContinue()'>"+(S.camp.cruise.kind==="cargo"?"Continue to ":"Continue the cruise to ")+esc(berthName(S.camp.cruise.queue[0].to))+"</button>":"<button class='btn' onclick='restLeave()'>Leave for the next leg (8am, day "+(arr+2)+")</button>")+"<p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
+ h+="<div class='panel'>"+(S.camp.cruise?"<button class='btn' onclick='cruiseContinue()'>"+(S.camp.cruise.kind==="cargo"?"Continue to ":"Continue the cruise to ")+esc(berthName(S.camp.cruise.queue[0].to))+"</button>":restLeaveHtml(arr))+"<p class='mute mt8'>Items you're carrying come with you. Buyers are found afresh in each town.</p></div>";
  return h
 }
 
