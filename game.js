@@ -1102,7 +1102,7 @@ function welcomeHtml(msg){
     "<h3>Guided tours</h3><p class='mute'>Take the stress out of travelling with these luxury tours and cruises - relax and explore the stops as you hop from place to place without having to worry about times, connections or ticket prices.</p></button>"+
   "</div>"+
  "</section>"+
- testPickerHtml();
+ "";
 }
 function render(msg){
  if(S&&S.camp)berthHearHere();   // hearing of sailings happens wherever the player is, not only on a rest day
@@ -1146,6 +1146,17 @@ function render(msg){
 // Startup: show the start screen straight away; if a campaign is saved, load its regions first, then resume it
 load();
 if(S&&S.camp&&S.camp.tour)tourReady().then(function(){render()});
+// Opened from the dev map: start a journey straight away, e.g. index.html?from=lon&to=rom&money=250
+function testFromUrl(){
+ var q=new URLSearchParams(location.search),from=q.get("from"),to=q.get("to");
+ if(!from||!to)return;
+ var ids=testPlaces().map(function(c){return c.id});
+ if(ids.indexOf(from)<0||ids.indexOf(to)<0)return;
+ var m=parseFloat(q.get("money"));
+ beginTo(from,to,isNaN(m)?null:Math.max(0,m));
+ try{history.replaceState(null,"",location.pathname)}catch(e){}
+}
+testFromUrl();
 if(S&&S.phase=="interim")S.phase="move";
 if(S){journeyReady(S.start,S.goal).then(function(){if(S&&S.phase=="lastmile"&&!S.over)startLM();render()},function(err){S=null;render("Could not load the saved map: "+(err&&err.message||err))})}
 else render();

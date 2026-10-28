@@ -28,6 +28,12 @@
   <div class="muted" id="counts"></div>
   <input id="search" placeholder="Find a place" list="places">
   <datalist id="places"></datalist>
+  <div class="muted" style="margin-top:10px">Start a test journey in the game</div>
+  <input id="tFrom" placeholder="From (name or id)" list="places">
+  <input id="tTo" placeholder="To (name or id)" list="places">
+  <input id="tMoney" type="number" min="0" step="10" value="250" placeholder="Starting money">
+  <button id="tGo">Open game with this journey</button>
+  <div id="tMsg" class="muted"></div>
   <div id="layers"></div>
   <label><input type="checkbox" id="labels" checked> Place names</label>
   <div id="info" class="muted">Click a place to see its links.</div>
@@ -71,6 +77,14 @@ modeNames.forEach(m => {
   layersDiv.appendChild(row);
 });
 
+// Accepts a suggestion ('Name (id)') or a bare id
+function idOfPlace(s){var m=/\(([^)]+)\)\s*$/.exec(s||"");var id=m?m[1]:(s||"").trim();return placeById[id]?id:null}
+document.getElementById("tGo").onclick=function(){
+ var f=idOfPlace(document.getElementById("tFrom").value),t=idOfPlace(document.getElementById("tTo").value);
+ if(!f||!t){document.getElementById("tMsg").textContent="Pick both places from the list.";return}
+ var money=document.getElementById("tMoney").value;
+ window.open("index.html?from="+encodeURIComponent(f)+"&to="+encodeURIComponent(t)+"&money="+encodeURIComponent(money),"_blank");
+};
 const datalist = document.getElementById("places");
 DATA.places.slice().sort((a, b) => a.name.localeCompare(b.name)).forEach(p => {
   const o = document.createElement("option");
