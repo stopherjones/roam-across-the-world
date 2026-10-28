@@ -21,7 +21,7 @@ var E=[],ADJ={},seen={},ids=[],towns=[];
 // Landmass: each island is its own group, so no road or rail link is made across the sea. Cape Verde islands are split by place.
 var ISLAND_G={MG:4,KM:5,MU:6,SC:7,ST:9,FI:10,IS:11,SH:12,FO:13,LK:14,TW:15,AU:16,NZ:17,FJ:18,WS:19,TO:20,VU:21,NC:22,SB:23,TV:24,NR:25,PW:26,MH:27,FM:28,KI:29,US:30,CA:30,MX:30,GT:30,BZ:30,HN:30,SV:30,NI:30,CR:30,PA:30,CO:31,VE:31,EC:31,PE:31,BO:31,BR:31,PY:31,UY:31,AR:31,CL:31,GY:31,SR:31,CU:32,JM:33,HT:34,DO:34,BS:35,TT:36,BB:37,AG:38,DM:39,GD:40,KN:41,LC:42,VC:43,MV:44,CY:45,MT:46};
 // Landmass by place, for islands that share a country code: Java, Sumatra, etc. are separate, and Borneo is one landmass
-var PLACE_LANDMASS={fnc:"madeira",pdl:"azores",lpg:"canaries",tfs:"canaries",jkt:"java",bdo:"java",jog:"java",sub:"java",mdan:"sumatra",plm:"sumatra",mks:"sulawesi",den:"bali",ppt:"borneo",bpn:"borneo",kkb:"borneo",kch:"borneo",bsb:"borneo",sin:"singapore",mnl:"luzon",ceb:"cebu",dav:"mindanao",dil:"timor",kpg:"timor",tyo:"honshu",osa:"honshu",ngo:"honshu",spk:"hokkaido",fuk:"kyushu",oka:"okinawa",pom:"newguinea",lae:"newguinea",jyp:"newguinea",hnl:"hawaii"};
+var PLACE_LANDMASS={dzo:"mayotte",hmn:"bermuda",sju:"puertorico",akl:"nzn",wlg:"nzn",npr:"nzn",rtr:"nzn",pct:"nzs",chc:"nzs",dud:"nzs",zqn:"nzs",amb:"ambon",srg:"newguinea",fnc:"madeira",pdl:"azores",lpg:"canaries",tfs:"canaries",jkt:"java",bdo:"java",jog:"java",sub:"java",mdan:"sumatra",plm:"sumatra",mks:"sulawesi",den:"bali",ppt:"borneo",bpn:"borneo",kkb:"borneo",kch:"borneo",bsb:"borneo",sin:"singapore",mnl:"luzon",ceb:"cebu",dav:"mindanao",dil:"timor",kpg:"timor",tyo:"honshu",osa:"honshu",ngo:"honshu",spk:"hokkaido",fuk:"kyushu",oka:"okinawa",pom:"newguinea",lae:"newguinea",jyp:"newguinea",hnl:"hawaii"};
 function G(i){var c=N[i].c;if(PLACE_LANDMASS[i])return PLACE_LANDMASS[i];if(c=="CV")return"cv-"+i;if(ISLAND_G[c]!==undefined)return ISLAND_G[c];return c=="U"?1:c=="R"?3:2}
 function mk(a,b,m,lg,h,c,dp,ev){if(!N[a]||!N[b])return;
  var k=(a<b?a+b:b+a)+m;if(seen[k])return;seen[k]=1;
@@ -52,8 +52,11 @@ var SEA_BLOCK={"D|EE":1,"D|LV":1,"D|LT":1,"D|FI":1,"FI|EE":1,"FI|LV":1,"FI|LT":1
 var SOUTH_IT={bar:1,nap:1};
 // Izmir and Antalya are on the Aegean coast: Greece is reached by ferry, not by the land route through Istanbul
 var AEGEAN_TR={izm:1,ayt:1};
+// Pairs with no road between them, even on the same mainland: the ferry is the link
+var NO_LAND_PAIR={"dla|bta":1,"bta|dla":1};
 function landBlocked(a,b){
  var ca=N[a].c,cb=N[b].c;
+ if(NO_LAND_PAIR[a+"|"+b])return true;
  if(SOUTH_IT[a]&&cb!=="T")return true;
  if(SOUTH_IT[b]&&ca!=="T")return true;
  if(AEGEAN_TR[a]&&cb==="H")return true;
@@ -117,9 +120,9 @@ function berthOpts(){
    var stops=l.via.concat([l.to]);
    var legsOut=stops.map(function(st,j){return{to:st,h:l.legH[j]}});
    var queue=legsOut.slice(1);
-   if(l.kind==="cruise")queue=queue.concat([{to:l.from,h:l.legH.reduce(function(a,b){return a+b},0)}]);
+   if(l.kind==="cruise"&&!l.oneWay)queue=queue.concat([{to:l.from,h:l.legH.reduce(function(a,b){return a+b},0)}]);   // one-way cruises end at their last stop
    out.push({to:legsOut[0].to,m:"ferry",h:legsOut[0].h,c:l.fare,lg:0,dp:undefined,fix:s.dep-S.camp.start,
-    berth:l.id,kind:l.kind,via:[],rest:true,noev:true,back:l.from,queue:queue});
+    berth:l.id,kind:l.kind,via:[],rest:true,noev:true,back:l.from,queue:queue,oneWay:!!l.oneWay});
    return;
   }
   out.push({to:l.to,m:"ferry",h:l.hours,c:l.fare,lg:0,dp:undefined,fix:s.dep-S.camp.start,
@@ -587,7 +590,7 @@ function settleHop(o,x){
    if(!c.queue.length)S.camp.cruise=null;
   }else if(o.queue&&o.queue.length)S.camp.cruise={back:o.back,at:o.to,queue:o.queue,kind:o.kind};
   var still=!!S.camp.cruise;
-  S.camp.berthNote=(o.kind==="cruise"?(still?"The cruise docks in ":"The cruise returns to "):"The ship docks in ")+N[o.to].n+". You arrive rested."+(o.via&&o.via.length?" The ship called at "+o.via.map(function(c){return N[c].n}).join(", ")+" on the way, and you rested on board.":"");
+  S.camp.berthNote=(o.kind==="cruise"?(still||o.oneWay?"The cruise docks in ":"The cruise returns to "):"The ship docks in ")+N[o.to].n+". You arrive rested."+(o.via&&o.via.length?" The ship called at "+o.via.map(function(c){return N[c].n}).join(", ")+" on the way, and you rested on board.":"");
   S.arrH=S.h;S.arr=S.h;S.phase="arrive";S.berthArrival=true;S.term=grp(o.m);
   return render();
  }
