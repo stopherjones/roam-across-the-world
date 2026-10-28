@@ -28,22 +28,28 @@ function unlockAch(id){
  say("Achievement unlocked: "+a.name+".");
  achToast(a.name);
 }
-// Records the country and continent of a place. Called whenever you reach a place.
-function trackPlace(id){
- var c=campAch();if(!c||!N[id])return;
- var cc=N[id].c;if(cc&&c.countries.indexOf(cc)<0)c.countries.push(cc);
+// Countries that can be ticked off. Overseas territories (Mayotte, Puerto Rico, Hong Kong and so on) are left out.
+// Taiwan is included by choice, though it is not a UN member.
+var COUNTRY_LIST=["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo","Costa Rica","Croatia","Cuba","Cyprus","Czechia","Democratic Republic of the Congo","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Ivory Coast","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Korea","North Macedonia","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"];
+// Where a visit can come from. Set a source to false to stop it ticking a country. Travel agent visits never count.
+var VISIT_SOURCES={start:true,rest:true,cruise:true,merchant:true,timeline:true};
+// Records a visit to a place. Only a campaign start, a rest day, a cruise stop, the market or a finished City Timeline
+// count. Passing through on a journey, including changing trains, does not.
+function visitPlace(id,src){
+ var c=campAch();if(!c||!N[id]||!VISIT_SOURCES[src])return;
+ var cc=PLACE_COUNTRY[id];if(cc&&COUNTRY_LIST.indexOf(cc)>=0&&c.countries.indexOf(cc)<0)c.countries.push(cc);
  var cont=CONTINENT_OF[regionOf(id)];if(cont&&c.continents.indexOf(cont)<0)c.continents.push(cont);
  if(c.visited.indexOf(id)<0)c.visited.push(id);
- if(c.countries.length>=10)unlockAch("countries");
+ if(countriesVisited(c)>=10)unlockAch("countries");
  if(c.continents.length>=5)unlockAch("continents");
  checkCollections(c);
 }
+function countriesVisited(c){return COUNTRY_LIST.filter(function(k){return c.countries.indexOf(k)>=0}).length}
 // Collection achievements: every continent, every country in the data, every main destination
 function checkCollections(c){
  var conts={};Object.keys(CONTINENT_OF).forEach(function(r){conts[CONTINENT_OF[r]]=1});
  if(Object.keys(conts).every(function(k){return c.continents.indexOf(k)>=0}))unlockAch("globe");
- var all={};Object.keys(N).forEach(function(id){if(N[id].c)all[N[id].c]=1});
- if(Object.keys(all).every(function(k){return c.countries.indexOf(k)>=0}))unlockAch("welltraveled");
+ if(COUNTRY_LIST.every(function(k){return c.countries.indexOf(k)>=0}))unlockAch("welltraveled");
  var mains=gazetteer().filter(gzCity).map(function(g){return g.id});
  if(mains.length&&mains.every(function(id){return c.visited.indexOf(id)>=0}))unlockAch("completer");
 }
@@ -56,8 +62,18 @@ function achToast(name){
 function achHtml(){
  var c=campAch();if(!c)return"";
  var n=ACHIEVEMENTS.filter(function(a){return c.ach[a.id]}).length;
- return"<div class='panel'><h2>Achievements ("+n+"/"+ACHIEVEMENTS.length+")</h2><ul class='ach'>"+ACHIEVEMENTS.map(function(a){
+ return"<div class='panel'><h2>Achievements ("+n+"/"+ACHIEVEMENTS.length+")</h2><p><button class='btn alt' onclick='countriesToggle()'>Countries visited ("+countriesVisited(c)+"/"+COUNTRY_LIST.length+")</button></p><ul class='ach'>"+ACHIEVEMENTS.map(function(a){
   var got=c.ach[a.id];
   return"<li class='"+(got?"got":"")+"'><b>"+esc(a.name)+"</b> "+esc(a.desc)+(got?"<span class='mute'> Unlocked "+esc(got.at)+"</span>":"")+"</li>"
  }).join("")+"</ul></div>";
+}
+
+// Countries page: opened from the achievements button, in place of the journal
+var COUNTRIES_VIEW=false;
+function countriesToggle(){COUNTRIES_VIEW=!COUNTRIES_VIEW;render()}
+function countriesPanelHtml(){
+ var c=campAch()||{countries:[]};
+ var list=COUNTRY_LIST.slice().sort(function(x,y){var gx=c.countries.indexOf(x)>=0,gy=c.countries.indexOf(y)>=0;if(gx!==gy)return gx?-1:1;return x.localeCompare(y)});
+ var n=countriesVisited(c);
+ return"<div class='panel'><h2>Countries visited ("+n+"/"+COUNTRY_LIST.length+")</h2><p class='mute'>A country counts once you rest there, visit its market, finish its City Timeline, stop on a cruise, or start a campaign there. Passing through on a journey does not count.</p><ul class='ach'>"+list.map(function(k){var g=c.countries.indexOf(k)>=0;return"<li class='"+(g?"got":"")+"'>"+(g?"\\u2713 ":"")+esc(k)+"</li>"}).join("")+"</ul><button class='link' onclick='countriesToggle()'>Back to achievements</button></div>";
 }

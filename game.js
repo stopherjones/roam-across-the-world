@@ -497,7 +497,7 @@ function newJourney(a,b,air,evn,lm){
  S.term=terms(a)[0];S.arr=0;var B=camp.money+(camp.income!=null?camp.income:INCOME),p=plan(0,B),t=0;
  while(!p&&t++<4){B=Math.round(B*1.5);p=plan(0,B)}
  if(!p){S=null;return false}
- S.budget=B;S.cash=B;S.opt=run(p);S.opts=routeOptions(S.budget);S.target=targetFor(routePool(S.budget),S.opt);trackPlace(a);return true
+ S.budget=B;S.cash=B;S.opt=run(p);S.opts=routeOptions(S.budget);S.target=targetFor(routePool(S.budget),S.opt);visitPlace(a,"start");return true
 }
 function load(){try{var r=localStorage.getItem(KEY);if(r){var o=JSON.parse(r);if(o&&o.loc&&o.camp&&placeOf(o.start)&&placeOf(o.goal)){if(!o.camp)o.camp={money:0,legs:1,start:0,log:[]};if(!o.setup)o.setup={air:false,evn:false,lm:{on:true,clue:"off",level:"mixed",plan:true}};S=o}}}catch(e){}}
 function save(){try{if(S)localStorage.setItem(KEY,JSON.stringify(S));else localStorage.removeItem(KEY)}catch(e){}}
@@ -585,7 +585,8 @@ function hopAnimate(from,to,o,r,x,done){
 }
 // Applies the leg's outcome once the player has seen the roll
 function settleHop(o,x){
- trackPlace(S.loc);
+ // Cruise stops along the way count as rest days; ordinary travel legs do not
+ if(o.berth&&o.kind==="cruise")(o.via||[]).forEach(function(c){visitPlace(c,"cruise")});
  S.h=Math.max(0,S.h+x.h);S.cash=Math.max(0,S.cash-x.c);S.spent+=x.c;
  if(x.kind!="none")S.legNotes.push(x.t);
  if(x.kind=="hazard")S.legHazards=(S.legHazards||0)+1;
@@ -602,7 +603,7 @@ function settleHop(o,x){
   return render();
  }
  if(S.loc==S.goal){S.arrH=S.h;arrivalPrefetch();S.phase="arrive";return render()}
- if(o.rest){S.phase="rest";S.arrH=S.h;S.arr=S.h;S.term=grp(o.m);return render()}
+ if(o.rest){S.phase="rest";S.arrH=S.h;S.arr=S.h;S.term=grp(o.m);visitPlace(o.to,"rest");return render()}
  S.arr=S.h;S.term=grp(o.m);
   render();
 }
@@ -874,7 +875,7 @@ function begin(){
 // Days: the campaign clock runs across legs. Arriving on day x: rest and explore on day x+1, leave 8am on day x+2.
 function arrDay(){return Math.floor((absH(S.arrH||0)+8)/24)+1}
 function restHtml(){return"<p class='mute'>Arrived "+stamp(S.arrH||0)+". Rest and explore on Day "+(arrDay()+1)+", leave 8am Day "+(arrDay()+2)+".</p>"}
-function campLogHtml(){return campLogHtmlBase()+achHtml()}
+function campLogHtml(){if(COUNTRIES_VIEW)return countriesPanelHtml();return campLogHtmlBase()+achHtml()}
 function campLogHtmlBase(){var l=(S.camp&&S.camp.log)||[];var save="<div class='row'><button class='btn alt' onclick='exportSave()'>Download save file</button><button class='link' onclick='if(confirm(\"End your campaign? Saved progress will be cleared.\"))reset()'>End campaign</button></div>";if(!l.length)return"<div class='panel'>"+save+"</div>";return"<div class='panel'><h2>Campaign so far</h2><ol class='log'>"+l.map(function(e){return"<li>Leg "+e.leg+": "+(e.stranded?"stranded in ":"arrived in ")+esc(e.to)+(e.stranded?"":" at "+esc(e.arrived))+"</li>"}).join("")+"</ol>"+save+"</div>"}
 function nextLeg(){
  if(!S||!S.camp)return;
@@ -963,7 +964,7 @@ function arriveHtml(){
 }
 function arriveContinue(){
  if(S.phase!=="arrive")return;
- if(S.berthArrival){S.berthArrival=false;S.camp.berthNote=null;S.phase="rest";return render()}
+ if(S.berthArrival){S.berthArrival=false;S.camp.berthNote=null;S.phase="rest";visitPlace(S.loc,"rest");return render()}
  if(S.lmOn){S.phase="lastmile";startLM();return render()}
  settleBonus();S.over="done";S.phase="move";render();
 }
@@ -1120,7 +1121,7 @@ function render(msg){
  }else{
 
   if(S.phase=="lastmile"||S.phase=="interim")h+="<div class='panel'><h2>"+(S.phase=="interim"?"Checkpoint work":"Checkpoint")+"</h2><div id='lm'></div></div>";else if(S.phase=="plan")h+=planPanel();else if(S.phase=="routes")h+=routesPanel();
-  if(S.phase=="lastmile"||S.phase=="interim"||S.phase=="plan"||S.phase=="routes"){}else if(S.phase=="arrive"){h+=arriveHtml();}else if(S.phase=="wait"){h+=waitHtml();}else if(S.phase=="stay"){var po=opts()[S.pend],ss=sched(po,S.loc,S.h);h+="<div class='panel'><h2>No service until "+clk(ss.dep)+"</h2><p class='mb10'>Where will you sleep in "+N[S.loc].n+"?</p>";S.rooms.forEach(function(x,k){h+="<button class='card' onclick='stay("+k+")'"+(x.c>S.cash?" disabled":"")+"><b>"+x.n+", \u00a3"+x.c+"</b><span>"+(x.q?"A proper night's rest.":"Cheap, but you may sleep badly.")+"</span></button>"});h+="<button class='card' onclick='stay(-1)'><b>Spend the night at the station</b><span>Free, but you will be tired: 1 h lost on the next leg.</span></button>";if(!S.rooms.length)h+="<p class='mb10'>No rooms are free in town tonight.</p>";h+="<button class='link' onclick='S.phase=\"move\";S.pend=null;S.pendOpt=null;render()'>Choose a different option</button></div>"}else{
+  if(S.phase=="lastmile"||S.phase=="interim"||S.phase=="plan"||S.phase=="routes"){}else if(S.phase=="arrive"){h+=arriveHtml();}else if(S.phase=="wait"){h+=waitHtml();}else if(S.phase=="stay"){var po=opts()[S.pend],ss=sched(po,S.loc,S.h);h+="<div class='panel'><h2>No service until "+clk(ss.dep)+"</h2><p class='mb10'>Where will you sleep in "+N[S.loc].n+"?</p>";S.rooms.forEach(function(x,k){h+="<button class='card' onclick='stay("+k+")'"+(x.c>S.cash?" disabled":"")+"><b>"+x.n+", \u00a3"+x.c+"</b><span>"+(x.q?"A proper night's rest.":"Cheap, but you may sleep badly.")+"</span></button>"});h+="<button class='card' onclick='stay(-1)'><b>Spend the night at the station</b><span>Free, but you will be tired: 1 h lost on the next leg.</span></button>";if(!S.rooms.length)h+="<p class='mb10'>No rooms are free in town tonight.</p>";h+="<button class='link' onclick='S.phase=\"move\";S.pend=null;S.pendOpt=null;render()'>Choose a different option</button></div>";h+=earnHtml();h+=thingsHtml()}else{
    var all=opts(),v=vis(),last="";
    h+="<div class='panel'><h2>Where next?</h2>"+(canInterim()?"<button class='card' onclick='interimLM()'><b>"+(needsEmergencyWork()?"Earn money for the next fare":"Stop for checkpoint work")+"</b><span>Spend 2 hours on a photo challenge in "+esc(N[S.loc].n)+" and earn £"+PAY_MIN+" to £"+PAY_MAX+".</span></button>":"");
    v.show.sort(function(a,b){var x=ORD.indexOf(all[a].m)-ORD.indexOf(all[b].m);return x||all[a].h-all[b].h});

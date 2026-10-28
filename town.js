@@ -81,6 +81,7 @@ function mkFallback(needStall,todo){
 }
 
 function restVisit(){
+ visitPlace(S.loc,"merchant");
  var m=mkMarket();S.camp.marketOpen=true;
  var needStall=!m.stall,todo=S.camp.pack.filter(function(x){return!x.buyer});
  if(m.finding||(!needStall&&!todo.length)){render();return}
@@ -143,11 +144,11 @@ function berthNoteHtml(){
 }
 
 function restStart(){
- S.phase="rest";S.camp.market=null;S.camp.marketOpen=false;say("Rest day in "+mkCity()+".");render();
+ S.phase="rest";S.camp.market=null;S.camp.marketOpen=false;visitPlace(S.loc,"rest");say("Rest day in "+mkCity()+".");render();
 }
 
 function strandLeg(){
- S.stranded=1;S.arrH=S.h;S.phase="rest";S.camp.market=null;S.camp.marketOpen=false;
+ S.stranded=1;S.arrH=S.h;S.phase="rest";visitPlace(S.loc,"rest");S.camp.market=null;S.camp.marketOpen=false;
  say(clk(S.h)+": Stranded in "+N[S.loc].n+". No onward fare is affordable.");
 }
 
@@ -316,6 +317,7 @@ function mountTimeline(){
 // Points from the City Timeline are paid as pounds, once for each town in each leg
 function awardTimeline(city,pts,max){
  timelineFullMarks(pts,max);
+ visitPlace(S.loc,"timeline");
  S.camp.timelinePaid=S.camp.timelinePaid||{};
  if(S.camp.timelinePaid[city])return "You have already earned from "+city+" this leg.";
  S.camp.timelinePaid[city]=1;
