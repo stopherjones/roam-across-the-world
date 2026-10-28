@@ -875,8 +875,8 @@ function begin(){
 // Days: the campaign clock runs across legs. Arriving on day x: rest and explore on day x+1, leave 8am on day x+2.
 function arrDay(){return Math.floor((absH(S.arrH||0)+8)/24)+1}
 function restHtml(){return"<p class='mute'>Arrived "+stamp(S.arrH||0)+". Rest and explore on Day "+(arrDay()+1)+", leave 8am Day "+(arrDay()+2)+".</p>"}
-function campLogHtml(){if(SETTINGS_OPEN)return settingsHtml();if(COUNTRIES_VIEW)return countriesPanelHtml();return campLogHtmlBase()+achHtml()}
-function campLogHtmlBase(){var l=(S.camp&&S.camp.log)||[];var save="<div class='row'><button class='btn alt' onclick='exportSave()'>Save file</button><button class='link' onclick='settingsToggle()'>Settings</button><button class='link' onclick='if(confirm(\"End your campaign? Saved progress will be cleared.\"))reset()'>End campaign</button></div>";if(!l.length)return"<div class='panel'>"+save+"</div>";return"<div class='panel'><h2>Campaign so far</h2><ol class='log'>"+l.map(function(e){return"<li>Leg "+e.leg+": "+(e.stranded?"stranded in ":"arrived in ")+esc(e.to)+(e.stranded?"":" at "+esc(e.arrived))+"</li>"}).join("")+"</ol>"+save+"</div>"}
+function campLogHtml(){if(COUNTRIES_VIEW)return countriesPanelHtml();return campLogHtmlBase()+achHtml()}
+function campLogHtmlBase(){var l=(S.camp&&S.camp.log)||[];var save="<div class='row'><button class='btn alt' onclick='exportSave()'>Save file</button><button class='link' onclick='if(confirm(\"End your campaign? Saved progress will be cleared.\"))reset()'>End campaign</button></div>";if(!l.length)return"<div class='panel'>"+save+"</div>";return"<div class='panel'><h2>Campaign so far</h2><ol class='log'>"+l.map(function(e){return"<li>Leg "+e.leg+": "+(e.stranded?"stranded in ":"arrived in ")+esc(e.to)+(e.stranded?"":" at "+esc(e.arrived))+"</li>"}).join("")+"</ol>"+save+"</div>"}
 function nextLeg(){
  if(!S||!S.camp)return;
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
@@ -1081,21 +1081,17 @@ function welcomeHtml(msg){
   "<p class='kicker'>A solo travel RPG</p>"+
   "<h1 class='wordmark'>Roam Across<span>the World</span></h1>"+
  "</header>"+
- "<p class='intro'>Set out from Trafalgar Square with a budget, a clock and a destination you have never seen before. Each leg sends you somewhere new on the globe, and you choose how to get there: trains, coaches, ferries and whatever else the road offers. Arrive on time to earn a bonus, or spend freely and risk running late. When you land, try to pin where a photo was taken on an unlabelled map. Each leg starts where the last one ended, so the campaign carries you round the world.</p>"+
- "<section class='welcome-sec' aria-labelledby='sec-campaign'>"+
-  "<h2 id='sec-campaign'>Campaign</h2>"+
+ "<p class='intro'>Roam Across the World is a relaxed, solo travel game loosely based on the popular TV series, Race Across the World.</p><h3 class='intro-h'>What to expect</h3><p class='intro'>Draw a destination, find out where it is on the map, and make your way there using overland transport options and a limited budget. Once at the target location, make your way to the checkpoint to complete the leg and a well-earned rest day.</p><p class='intro'>Make money along the way by finding work and trading at local markets.</p><p class='intro'>There is no racing here, however. Get to the checkpoint by the target time to get a boost to your budget and a choice of where to go next.</p><p class='intro'>Roam Across the World invites you to fully explore the world by finding photos on a map, spending time researching your interests in the locality, and testing your knowledge about the city you are in.</p>"+
+ "<p><button class='link' onclick='settingsToggle()'>Settings</button></p>"+
+"<section class='welcome-sec' aria-labelledby='sec-campaign'>"+
+  "<h2 id='sec-campaign'>Campaign game</h2>"+
   "<div class='welcome-card featured'>"+
-   "<h3>Start a new campaign</h3>"+
-   "<p class='mute'>One continuing journey across the world. Your money, travel journal and legs carry over from one destination to the next.</p>"+
+   "<p class='mute'>An ongoing campaign starting in London. Your money, journal and achievements carry across from destination to destination. Can you visit every country in the world?</p>"+
    err+
-   "<div class='row'><button class='btn' onclick='begin()'>Start journey</button><a class='link-btn' href='rules.html'>Rules and guide</a></div>"+
+   "<div class='row'><button class='btn' onclick='begin()'>Start Journey</button><a class='link-btn' href='rules.html'>Rules and guides</a><label class='link-btn' for='saveFile'>Import your save file and preferences</label></div>"+
+   "<input type='file' id='saveFile' class='sr-only' accept='.json,application/json' onchange='importSave(this.files[0])' aria-label='Choose a save file'>"+
   "</div>"+
- "</section>"+
- "<p><button class='link' onclick='settingsToggle()'>Settings</button></p>"+"<section class='welcome-sec' aria-labelledby='sec-load'>"+
-  "<h2 id='sec-load'>Saved game</h2>"+
-  "<div class='welcome-card'><h3>Load a save file</h3><p class='mute'>Open a file you downloaded earlier to carry on where you left off.</p>"+
-  "<input type='file' id='saveFile' accept='.json,application/json' onchange='importSave(this.files[0])' aria-label='Choose a save file'></div>"+
- "</section>"+
+"</section>"+
  "<section class='welcome-sec' aria-labelledby='sec-more'>"+
   "<h2 id='sec-more'>More ways to play</h2>"+
   "<div class='welcome-grid'>"+
@@ -1103,7 +1099,7 @@ function welcomeHtml(msg){
     "<span class='badge'>Coming soon</span><h3>Classic itineraries</h3>"+
     "<p class='mute'>Shorter, set routes with a fixed start and finish, for a quick game.</p></div>"+
    "<button class='welcome-card' onclick='tourPickToggle()'>"+
-    "<h3>Guided tours</h3><p class='mute'>Follow a cruise from stop to stop, one way or round trip.</p></button>"+
+    "<h3>Guided tours</h3><p class='mute'>Take the stress out of travelling with these luxury tours and cruises - relax and explore the stops as you hop from place to place without having to worry about times, connections or ticket prices.</p></button>"+
   "</div>"+
  "</section>"+
  testPickerHtml();

@@ -46,8 +46,8 @@ function settingsHtml(){
   var on=PREFS.things[r[0]]!==false;
   return "<label class='pref'><input type='checkbox'"+(on?" checked":"")+" onclick=\"prefThing('"+r[0]+"')\"> "+esc(r[1])+"</label>";
  }).join("");
- return "<div class='panel'><h2>Settings</h2><p class='mute mb10'>These apply to every campaign until you change them, and are included in save files.</p>"+
-  "<h3>Things to do</h3><p class='mute mb8'>Choose which links appear on the things to do list in each town.</p>"+rows+
+ return "<div class='panel'><h2>Settings</h2><p class='mute mb10'>The game encourages you to spend time researching the local area while waiting for your next departure and during rest days. By default these are set to research local sports, music and painting inspiration, but you can remove these and replace them with subjects that you are more interested in.</p>"+
+  "<h3>Things to do</h3>"+rows+
   "<h3>Your own links</h3><p class='mute mb8'>Add up to "+CUSTOM_MAX+" search links of your own. Use {place} in the search to mean the town, for example: best cafes in {place}.</p>"+
   PREFS.custom.map(function(c,i){return"<div class='pref'>"+esc(c.label)+" <span class='mute'>("+esc(c.query)+")</span> <button class='link' onclick='customRemove("+i+")'>Remove</button></div>"}).join("")+
   (PREFS.custom.length<CUSTOM_MAX?"<div class='custom-form'><label>Button text<input id='customLabel' maxlength='"+CUSTOM_LABEL_MAX+"'></label><label>Search<input id='customQuery' maxlength='"+CUSTOM_QUERY_MAX+"' placeholder='best cafes in {place}'></label><button class='btn alt' onclick='customAdd()'>Add link</button></div>":"")+

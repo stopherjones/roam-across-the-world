@@ -39,7 +39,7 @@ const w = dom.window, D = w.document;
 
 setTimeout(async () => {
   ok("town functions are globals", typeof w.restPage === "function" && typeof w.waitHtml === "function");
-  ok("start screen", D.getElementById("app").textContent.includes("Start journey"));
+  ok("start screen", D.getElementById("app").textContent.toLowerCase().includes("start journey"));
 
   w.beginTo("lon", "rom"); await wait(4000);
   ok("journey plan renders", !!D.querySelector(".mapdock"));

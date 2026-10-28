@@ -67,15 +67,34 @@ function tourPickToggle(){
  if(TOUR_PICK){TOUR_PICK=false;return render()}
  tourReady().then(function(){TOUR_PICK=true;render()});
 }
+// Country names for a tour, without the countries it starts and ends in
+function tourCountry(id){return PLACE_COUNTRY[id]||N[id].n}
+function tourListText(a){return a.length<2?a.join(""):a.slice(0,-1).join(", ")+" and "+a[a.length-1]}
+// A small route map drawn from the stop coordinates. Routes over the date line are kept continuous.
+function tourRouteSvg(ids,label){
+ var pts=ids.map(function(id){return{la:N[id].la,lo:N[id].lo}});
+ var lo0=Math.min.apply(null,pts.map(function(p){return p.lo})),lo1=Math.max.apply(null,pts.map(function(p){return p.lo}));
+ if(lo1-lo0>180){pts.forEach(function(p){if(p.lo<0)p.lo+=360});lo0=Math.min.apply(null,pts.map(function(p){return p.lo}));lo1=Math.max.apply(null,pts.map(function(p){return p.lo}))}
+ var la0=Math.min.apply(null,pts.map(function(p){return p.la})),la1=Math.max.apply(null,pts.map(function(p){return p.la}));
+ var W=240,H=140,P=18,rx=Math.max(lo1-lo0,2),ry=Math.max(la1-la0,2);
+ var sc=Math.min((W-2*P)/rx,(H-2*P)/ry),ox=(W-rx*sc)/2,oy=(H-ry*sc)/2;
+ function X(p){return ox+(p.lo-lo0)*sc}
+ function Y(p){return oy+(la1-p.la)*sc}
+ var line=pts.map(function(p){return X(p).toFixed(1)+","+Y(p).toFixed(1)}).join(" ");
+ var dots=pts.map(function(p,i){var end=i===0||i===pts.length-1;return"<circle cx='"+X(p).toFixed(1)+"' cy='"+Y(p).toFixed(1)+"' r='"+(end?4.5:3)+"' class='rm-stop"+(end?" rm-end":"")+"'/>"}).join("");
+ return"<svg class='route-map' viewBox='0 0 "+W+" "+H+"' role='img' aria-label='Route map: "+esc(label)+"'><polyline points='"+line+"' fill='none' class='rm-line'/>"+dots+"</svg>";
+}
 function tourPickHtml(){
  var rows=tourLanes().map(function(l){
-  var name=esc(N[l.from].n)+" to "+esc(N[l.to].n);
-  var stops=l.via.length?"Calls at "+l.via.map(function(c){return esc(N[c].n)}).join(", ")+".":"Direct.";
-  return "<div class='panel'><h3>"+name+"</h3><p class='mute mb8'>"+stops+"</p>"+
+  var lane=tourLane(l,false),ids=[lane.from].concat(lane.via,[lane.to]);
+  var from=tourCountry(l.from),to=tourCountry(l.to);
+  var mid=[];lane.via.map(tourCountry).forEach(function(c){if(c!==from&&c!==to&&mid.indexOf(c)<0)mid.push(c)});
+  var stops=mid.length?"Calls at "+esc(tourListText(mid))+".":"Direct.";
+  return "<div class='panel'><h3>"+esc(from)+" to "+esc(to)+"</h3>"+tourRouteSvg(ids,from+" to "+to)+"<p class='mute mb8'>"+stops+"</p>"+
    "<div class='row'><button class='btn' onclick='tourStart(\""+l.id+"\",false)'>One way</button>"+
    "<button class='btn alt' onclick='tourStart(\""+l.id+"\",true)'>Round trip</button></div></div>";
  }).join("");
- return "<div class='panel'><h2>Guided tours</h2><p class='mute mb10'>Start at the travel agent, book a cruise and follow it stop by stop. You get £"+TOUR_MONEY+" to spend at the market. Achievements do not count on a tour.</p><button class='link' onclick='tourPickToggle()'>Back</button></div>"+rows;
+ return "<div class='panel'><h2>Guided tours</h2><p class='mute mb10'>Pick from our luxury tours and cruise itineraries below and simply follow along from stop by stop. You get £"+TOUR_MONEY+" spending money for the local markets, so just relax and enjoy the ride.</p><button class='link' onclick='tourPickToggle()'>Back</button></div>"+rows;
 }
 function tourHtml(){return TOUR_PICK?tourPickHtml():""}
 tourLoad();
