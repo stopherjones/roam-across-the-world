@@ -350,3 +350,18 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .teaser-box{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:8px 0}
 .teaser-box .route-flavour{margin:0}
 .teaser-note{margin:8px 0 0;font-size:.72rem;color:var(--mute);font-style:italic}
+
+.welcome-card{width:100%;text-align:left;cursor:pointer;font:inherit;color:inherit}
+
+/* Visited market and timeline: a muted green, still usable */
+.btn.done{background:color-mix(in srgb,var(--acc) 40%,var(--card));color:var(--ink);border:1px solid var(--acc)}
+/* Timeline: a clearly visible sideways scrollbar, always shown */
+.tl-track{overflow-x:scroll;padding-bottom:18px;scrollbar-width:auto;scrollbar-color:var(--acc) var(--line)}
+.tl-track::-webkit-scrollbar{height:12px}
+.tl-track::-webkit-scrollbar-track{background:var(--line);border-radius:6px}
+.tl-track::-webkit-scrollbar-thumb{background:var(--acc);border-radius:6px}
+
+/* Country stamps: a flag in a round stamp when visited, greyed out until then */
+.stamp{display:inline-flex;align-items:center;justify-content:center;width:2.1em;height:2.1em;border-radius:50%;border:2px solid var(--acc);font-size:1.2em;line-height:1;margin-right:10px;transform:rotate(-6deg);vertical-align:middle;flex:0 0 auto}
+.stamp.empty{border-color:var(--line);filter:grayscale(1);opacity:.35;transform:none}
+#app .ach li{display:flex;align-items:center}

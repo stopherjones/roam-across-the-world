@@ -152,7 +152,9 @@ function strandLeg(){
  say(clk(S.h)+": Stranded in "+N[S.loc].n+". No onward fare is affordable.");
 }
 
-function restCloseMarket(){S.camp.marketOpen=false;render()}
+function markSeen(k){if(!S||!S.camp)return;S.camp.seen=S.camp.seen||{};S.camp.seen[k+":"+S.loc]=1}
+function doneHere(k){return!!(S&&S.camp&&S.camp.seen&&S.camp.seen[k+":"+S.loc])}
+function restCloseMarket(){markSeen("m");S.camp.marketOpen=false;render()}
 
 // Names and regions come from the whole gazetteer, so a sailing shows even when its far end is not loaded yet
 function berthName(id){var g=placeOf(id);return g?g.n:id}
@@ -253,8 +255,8 @@ function packSellHtml(){
 
 // Ways to make money on a rest day or while waiting: the market and the City Timeline, grouped
 function earnHtml(){
- var market=S.camp.marketOpen?marketHtml():"<p class='mute mb10'>Sell what you carry and buy local goods to take on the next leg.</p><button class='btn' onclick='restVisit()'>Visit the market</button>";
- var tl=S.timelineOpen?"<div id='tl-inline'></div>":"<p class='mute mb10'>Ten events about this town. Place each one on the timeline to earn income for this town. It costs no time.</p><button class='btn' onclick='openTimeline()'>City Timeline</button>";
+ var market=S.camp.marketOpen?marketHtml():"<p class='mute mb10'>Sell what you carry and buy local goods to take on the next leg.</p><button class='btn"+(doneHere("m")?" done":"")+"' onclick='restVisit()'>Visit the market</button>";
+ var tl=S.timelineOpen?"<div id='tl-inline'></div>":"<p class='mute mb10'>Ten events about this town. Place each one on the timeline to earn income for this town. It costs no time.</p><button class='btn"+(doneHere("t")?" done":"")+"' onclick='openTimeline()'>City Timeline</button>";
  return "<div class='panel earn'><h2>Ways to make money</h2>"+market+"<div class='earn-sep'></div>"+tl+"</div>";
 }
 
@@ -305,7 +307,7 @@ function prefetchMarket(){
 // Opens the timeline activity over the page, for the town you are in. Closing returns to where you were.
 // The timeline opens in place of the things-to-do list, the way the market does. Back returns to the list.
 function openTimeline(){ S.timelineOpen=true; render() }
-function closeTimeline(){ S.timelineOpen=false; render() }
+function closeTimeline(){ markSeen("t");S.timelineOpen=false; render() }
 // Called after each render: starts the activity in its place on the page
 function mountTimeline(){
  var el=document.getElementById("tl-inline");

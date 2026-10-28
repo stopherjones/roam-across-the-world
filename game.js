@@ -661,7 +661,7 @@ function canAffordTerminalChange(){return terms(S.loc).some(function(g){return g
 function needsEmergencyWork(){return!canAffordOnward()&&canAffordTerminalChange()}
 function interimLM(){
  if(!canInterim())return;
- S.h+=INTERIM_HOURS;S.interimUsed=1;S.interimCity=S.loc;S.phase="interim";
+ S.h+=INTERIM_HOURS;S.interimUsed=1;S.interimCity=S.loc;S.phase="interim";visitPlace(S.loc,"checkpoint");
  say(clk(S.h)+": Stopped in "+N[S.loc].n+" for checkpoint work ("+INTERIM_HOURS+" h).");
  startInterimLM();render()
 }
@@ -881,7 +881,7 @@ function nextLeg(){
  if(!S||!S.camp)return;
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
  var log=(S.camp.log||[]).concat([{leg:S.camp.legs,to:N[from].n,arrived:stamp(S.arrH||0),stranded:!!S.stranded}]),start=(arrDay()+1)*24;
- var camp={ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},nextUid:S.camp.nextUid||0};
+ var camp={ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
  var st=S.setup||{air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}},tries=0;
  var attempt=function(){
   var to=(tries===0&&S.camp.chosen)||pickDest(from,dirs);
@@ -1090,9 +1090,8 @@ function welcomeHtml(msg){
    "<div class='welcome-card soon' aria-disabled='true'>"+
     "<span class='badge'>Coming soon</span><h3>Classic itineraries</h3>"+
     "<p class='mute'>Shorter, set routes with a fixed start and finish, for a quick game.</p></div>"+
-   "<div class='welcome-card soon' aria-disabled='true'>"+
-    "<span class='badge'>Coming soon</span><h3>Guided tours</h3>"+
-    "<p class='mute'>Themed journeys with stops chosen for you.</p></div>"+
+   "<button class='welcome-card' onclick='tourPickToggle()'>"+
+    "<h3>Guided tours</h3><p class='mute'>Follow a cruise from stop to stop, one way or round trip.</p></button>"+
   "</div>"+
  "</section>"+
  testPickerHtml();
@@ -1103,7 +1102,7 @@ function render(msg){
  save();
  if(!S){
   document.body.classList.remove("mapscreen","map-min","map-full");LAST_CLOCK=null;
-  var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=welcomeHtml(msg);
+  var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=(TOUR||TOUR_PICK)?tourHtml():welcomeHtml(msg);
   return}
  var h="<h1 class='sr-only'>Role Around the World</h1>";
  var mapped=true;
