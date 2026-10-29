@@ -134,7 +134,9 @@ label{display:block;font-size:.9rem;color:var(--mute);margin-bottom:4px}
 .route-goal{fill:var(--bad);stroke:var(--card);stroke-width:3}
 .kicker{margin:4px 0 2px;color:var(--acc);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
 .wordmark{font:700 2.1rem/1.05 Georgia,"Times New Roman",serif;letter-spacing:-.01em;margin:0}
-.wordmark span{display:block;font-style:italic;color:var(--acc);font-weight:400;font-size:1.6rem;margin-top:2px}
+.wordmark span{display:block}
+.wordmark .wm-roam{font-style:italic;font-weight:400;color:var(--ink)}
+.wordmark .wm-across{font-style:normal;font-weight:400;color:var(--acc);font-size:1.6rem;margin-top:2px}
 .intro{font-size:.98rem;color:var(--ink);margin:0 0 20px;line-height:1.55}
 .welcome-sec{margin-bottom:20px}
 .welcome-sec h2{font:600 .8rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--mute);margin:0 0 8px}

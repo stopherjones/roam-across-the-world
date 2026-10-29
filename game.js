@@ -1085,7 +1085,7 @@ function welcomeHtml(msg){
   "<circle class='route-goal' cx='336' cy='44' r='7'/>"+
   "</svg>"+
   "<p class='kicker'>A solo travel RPG</p>"+
-  "<h1 class='wordmark'>Roam Across<span>the World</span></h1>"+
+  "<h1 class='wordmark'><span class='wm-roam'>Roam</span><span class='wm-across'>Across the World</span></h1>"+
  "</header>"+
  "<p class='intro'>Roam Across the World is a relaxed, solo travel game loosely based on the popular TV series, Race Across the World.</p><h3 class='intro-h'>What to expect</h3><p class='intro'>Draw a destination, find out where it is on the map, and make your way there using overland transport options and a limited budget. Once at the target location, make your way to the checkpoint to complete the leg and a well-earned rest day.</p><p class='intro'>Make money along the way by finding work and trading at local markets.</p><p class='intro'>There is no racing here, however. Get to the checkpoint by the target time to get a boost to your budget and a choice of where to go next.</p><p class='intro'>Roam Across the World invites you to fully explore the world by finding photos on a map, spending time researching your interests in the locality, and testing your knowledge about the city you are in.</p>"+
  "<p><button class='link' onclick='settingsToggle()'>Settings</button></p>"+
