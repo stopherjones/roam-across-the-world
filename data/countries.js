@@ -3,7 +3,7 @@
 var PLACE_COUNTRY_LISTS={
 "Afghanistan":["kbl","hrt","mzr"],
 "Albania":["tia"],"Algeria":["alg"],"Andorra":["and"],"Angola":["lda"],"Antigua and Barbuda":["sjn"],
-"Argentina":["bue","cba","mdz"],"Armenia":["evn","gyu"],"Australia":["drw","cns","asp","bne","syd","cbr","mel","adl","per","hba"],
+"Argentina":["bue","cba","mdz","ush"],"Armenia":["evn","gyu"],"Australia":["drw","cns","asp","bne","syd","cbr","mel","adl","per","hba"],
 "Austria":["vie"],"Azerbaijan":["bak","gnj"],"Bahamas":["nas"],"Bermuda":["hmn"],"Bahrain":["bah"],"Bangladesh":["dac","cgp"],"Barbados":["bdt"],
 "Belarus":["mns"],"Belgium":["bru"],"Belize":["bze"],"Benin":["cot"],"Bhutan":["tim"],"Bolivia":["lpb","vvi"],
 "Bosnia and Herzegovina":["sjj"],"Botswana":["gbe","mau"],"Brazil":["sao","rio","bsa","ssa","mao","cnf","ftz","rec","blb","poa","cwb","goi","fln"],
@@ -12,7 +12,7 @@ var PLACE_COUNTRY_LISTS={
 "Cape Verde":["pia"],"Central African Republic":["bgi"],"Chad":["ndj"],"Chile":["scl","vap"],
 "China":["bjs","can","szx","ctu","ckg","wuh","xia","kmg","lxa","urc","kha","hrb","syx","xnn","nkg","hgh","tsn","tao","xmn","lhw","het","nng","csx","sha"],
 "Colombia":["bog","mde","clo","ctg"],"Comoros":["mor"],"Congo":["bzv","pnr"],"Costa Rica":["sjo","lim"],"Croatia":["zag","spl"],
-"Cuba":["hab","scu"],"Cyprus":["nco"],"Czechia":["pra"],"Democratic Republic of the Congo":["kin","lbs","gom","bkv","mta","mbm","fbm"],
+"Cuba":["hab","scu"],"Cyprus":["nco","lms","pfo","kyr"],"Czechia":["pra"],"Democratic Republic of the Congo":["kin","lbs","gom","bkv","mta","mbm","fbm"],
 "Denmark":["cph"],"Djibouti":["djb"],"Dominica":["rsu"],"Dominican Republic":["sdq","stj"],"Ecuador":["uio","gye"],
 "Egypt":["cai","alx","lxr","asw","pse","hrg"],"El Salvador":["ssv"],"Equatorial Guinea":["mlb","bta"],"Eritrea":["asm","msw"],
 "Estonia":["tll","tar"],"Eswatini":["mbe"],"Ethiopia":["add","gdr","dda","mqx","bjr"],"Faroe Islands":["tvn"],"Fiji":["suv","ndi"],
@@ -39,7 +39,7 @@ var PLACE_COUNTRY_LISTS={
 "Russia":["mkv","spb","kzn","rnd","kuf","ufa","pee","aer","mmk","svx","oms","ovb","krr","iks","ule","chi","khv","vvo","tof","yks"],
 "Rwanda":["kgl"],"Saint Kitts and Nevis":["bst"],"Saint Lucia":["cstr"],"Saint Vincent and the Grenadines":["kgs"],"Samoa":["apw"],
 "San Marino":["sma"],"Sao Tome and Principe":["sto"],"Saudi Arabia":["ryd","jed","dmm","mdn","mec"],"Senegal":["sli","dak"],
-"Serbia":["blg"],"Seychelles":["svc"],"Sierra Leone":["fnt"],"Singapore":["sin"],"Slovakia":["bts"],"Slovenia":["ljb"],
+"Kosovo":["pri"],"Serbia":["blg"],"Seychelles":["svc"],"Sierra Leone":["fnt"],"Singapore":["sin"],"Slovakia":["bts"],"Slovenia":["ljb"],
 "Solomon Islands":["hiu"],"Somalia":["mgd"],"South Africa":["bfn","jnb","cpt","dbn"],"South Korea":["sel","pus"],"South Sudan":["jub"],
 "Spain":["sev","gra","lpg","tfs","san","bil","mad","bcn","val","zar","alc"],"Sri Lanka":["cmb"],"Sudan":["khr","psd"],"Suriname":["pbm"],
 "Sweden":["sth","got","mal"],"Switzerland":["zrh","gva","bsl"],"Syria":["dam","alp","ltk"],"Taiwan":["tpe","khh"],"Tajikistan":["dus","kjd"],
@@ -47,7 +47,7 @@ var PLACE_COUNTRY_LISTS={
 "Trinidad and Tobago":["pos"],"Tunisia":["tun"],"Turkey":["ist","ank","izm","ayt","tzx","adz"],"Turkmenistan":["asb","tkb"],"Tuvalu":["fun"],
 "Uganda":["kmp"],"Ukraine":["kyi","lvv","ods","khk"],"United Arab Emirates":["dxb","auh"],
 "United Kingdom":["bel","lrw","lon","dov","nhv","sou","por","ply","sal","oxf","car","bir","man","liv","yor","edi","gla","cam","har","hly","abz","dnd"],
-"United States":["hnl","lax","nyc","dca","bos","chg","mia","atl","dal","hou","dnv","las","sfo","sea","msy","phx","tus","slc","pdx","msp","dtt","cle","pit","phl","bal","clt","bna","mem","mci","stl","okc","oma","abq","smf","sdg","mco","tpa","ind"],
+"United States":["hnl","lax","anc","nyc","dca","bos","chg","mia","atl","dal","hou","dnv","las","sfo","sea","msy","phx","tus","slc","pdx","msp","dtt","cle","pit","phl","bal","clt","bna","mem","mci","stl","okc","oma","abq","smf","sdg","mco","tpa","ind"],
 "Puerto Rico":["sju"],"Uruguay":["mvd"],"Uzbekistan":["tsh","smk","bkh","nuk"],"Vanuatu":["vli"],"Vatican City":["vad"],"Venezuela":["ccs","mcb","gur"],
 "Vietnam":["han","sgn","dad"],"Yemen":["sna","adn","mka"],"Zambia":["lsk","lvg"],"Zimbabwe":["hre","byo"]
 };

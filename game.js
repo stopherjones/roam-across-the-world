@@ -1,4 +1,4 @@
-var VT=20,KEY="route-generator-v4",S=null,IDX={U:1.15,F:1,B:1.05,N:1.05,G:1.05,S:.85,T:.95,C:1.6,R:1.1,D:1.3,E:.7,K:.75,Y:.6,M:.7,V:.65,H:.8,Q:.6,Z:.6,J:.6,L:.75,P:.95,I:.9,O:.8,X:.6,W:.8,A:.7,a:.75,b:.85,c:.95,d:1.2,e:.7,f:.8,g:.7,h:.6,i:.6,j:1.1,k:1.2,l:1.2,m:.9,n:.95,o:.85,p:.85,q:.8,r:.8,s:.8,t:.85,u:.9,v:.8,w:.8,x:1,y:.75,z:1.2,CV:1,ST:1,KM:.8,MG:.6,MU:1.4,SC:1.8,GE:.85,AM:.9,AZ:.9,AL:.6,BA:.6,ME:.8,MK:.6,LU:1.3,MC:1.8,AD:1.2,LI:1.6,SM:1.3,VA:1.4,MT:1.1,CY:1.1,MV:1.5,SZ:.6,LS:.6,AG:1.4,DM:1.2,GD:1.3,KN:1.4,LC:1.4,VC:1.2,JO:.9,IL:1.4,LB:1.3,SY:.6,PS:.7,IQ:.8,IR:.8,SA:1.5,AE:1.6,QA:1.6,BH:1.4,KW:1.3,OM:1.1,YE:.6,KZ:.9,UZ:.6,TM:.9,KG:.6,TJ:.6,AF:.6,FI:1.5,EE:1,LV:.9,LT:.9,BY:.6,UA:.5,MD:.4,RO:.7,SK:.9,SI:1.1,RU:1,PT:.95,IS:1.6,FO:1.6,SH:1.4,PK:.6,IN:.5,NP:.5,BD:.5,LK:.8,MM:.5,TH:.8,LA:.5,KH:.5,VN:.5,BT:.8,CN:.6,HK:1.6,MO:1.5,TW:1.1,MN:.5,ID:.4,PH:.6,MY:.8,SG:1.5,BN:1.1,TL:.7,KP:1,KR:1.3,JP:1.6,PG:1.1,AU:1.8,NZ:1.8,FJ:.8,WS:.8,TO:.8,VU:.8,NC:1.5,SB:.9,TV:1.2,NR:1.5,PW:1.4,MH:1.2,FM:1.1,KI:1,US:2,CA:1.6,MX:1.2,GT:.8,BZ:1.6,HN:.7,SV:.8,NI:.6,CR:1.6,PA:1.2,CO:.8,VE:.6,EC:.7,PE:.7,BO:.6,BR:1,PY:.6,UY:1.4,AR:.9,CL:1.4,GY:1,SR:1,CU:.5,JM:.8,HT:.4,DO:.8,BS:2,TT:1.4,BB:1.8};
+var VT=20,KEY="route-generator-v4",S=null,IDX={XK:.6,U:1.15,F:1,B:1.05,N:1.05,G:1.05,S:.85,T:.95,C:1.6,R:1.1,D:1.3,E:.7,K:.75,Y:.6,M:.7,V:.65,H:.8,Q:.6,Z:.6,J:.6,L:.75,P:.95,I:.9,O:.8,X:.6,W:.8,A:.7,a:.75,b:.85,c:.95,d:1.2,e:.7,f:.8,g:.7,h:.6,i:.6,j:1.1,k:1.2,l:1.2,m:.9,n:.95,o:.85,p:.85,q:.8,r:.8,s:.8,t:.85,u:.9,v:.8,w:.8,x:1,y:.75,z:1.2,CV:1,ST:1,KM:.8,MG:.6,MU:1.4,SC:1.8,GE:.85,AM:.9,AZ:.9,AL:.6,BA:.6,ME:.8,MK:.6,LU:1.3,MC:1.8,AD:1.2,LI:1.6,SM:1.3,VA:1.4,MT:1.1,CY:1.1,MV:1.5,SZ:.6,LS:.6,AG:1.4,DM:1.2,GD:1.3,KN:1.4,LC:1.4,VC:1.2,JO:.9,IL:1.4,LB:1.3,SY:.6,PS:.7,IQ:.8,IR:.8,SA:1.5,AE:1.6,QA:1.6,BH:1.4,KW:1.3,OM:1.1,YE:.6,KZ:.9,UZ:.6,TM:.9,KG:.6,TJ:.6,AF:.6,FI:1.5,EE:1,LV:.9,LT:.9,BY:.6,UA:.5,MD:.4,RO:.7,SK:.9,SI:1.1,RU:1,PT:.95,IS:1.6,FO:1.6,SH:1.4,PK:.6,IN:.5,NP:.5,BD:.5,LK:.8,MM:.5,TH:.8,LA:.5,KH:.5,VN:.5,BT:.8,CN:.6,HK:1.6,MO:1.5,TW:1.1,MN:.5,ID:.4,PH:.6,MY:.8,SG:1.5,BN:1.1,TL:.7,KP:1,KR:1.3,JP:1.6,PG:1.1,AU:1.8,NZ:1.8,FJ:.8,WS:.8,TO:.8,VU:.8,NC:1.5,SB:.9,TV:1.2,NR:1.5,PW:1.4,MH:1.2,FM:1.1,KI:1,US:2,CA:1.6,MX:1.2,GT:.8,BZ:1.6,HN:.7,SV:.8,NI:.6,CR:1.6,PA:1.2,CO:.8,VE:.6,EC:.7,PE:.7,BO:.6,BR:1,PY:.6,UY:1.4,AR:.9,CL:1.4,GY:1,SR:1,CU:.5,JM:.8,HT:.4,DO:.8,BS:2,TT:1.4,BB:1.8};
 var N={};
 function loadWorld(str){N={};str.split(";").forEach(function(s){var p=s.split("|"),f=p[5];N[p[0]]={n:p[1],la:+p[2],lo:+p[3],c:p[4],r:f.indexOf("r")>-1,a:f.indexOf("a")>-1,p:f.indexOf("p")>-1,h:f.indexOf("h")>-1,l:f.indexOf("l")>-1,s:+(f.match(/\d/)||[1])[0]}});ids=Object.keys(N);towns=ids.filter(function(i){return!N[i].l});E=[];ADJ={};seen={};buildLinks();addBerthEdges()}
 var MODE={tube:"metro",bus:"bus",coach:"coach",rail:"train",hsr:"fast train",ferry:"ferry",air:"flight",shared:"shared minibus"},GRP={rail:"Trains",hsr:"Fast trains",coach:"Coaches",bus:"Buses",ferry:"Ferries",air:"Flights",tube:"Metro",shared:"Shared transport"},ORD=["rail","hsr","coach","bus","shared","ferry","air","tube"];
@@ -731,6 +731,7 @@ function destPool(from){
  return gazetteer().filter(function(g){if(g.id==from||!gzCity(g))return false;var d=kmBetween(F.la,F.lo,g.la,g.lo);return d>=b[0]&&d<=b[1]}).map(function(g){return g.id});
 }
 function shortlistFor(from){
+ if(S.camp.itin&&S.camp.itin.left>0)return itinOptions(S.camp.itin,S.camp.visited||[]);
  var v=S.camp.visited||[],p=destPool(from).filter(function(i){return v.indexOf(i)<0});
  for(var i=p.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=p[i];p[i]=p[j];p[j]=t}
  return p.slice(0,3);
@@ -738,6 +739,7 @@ function shortlistFor(from){
 // The on-time reward: pick the next destination from three, or see the one already picked
 function shortlistHtml(){
  if(!S.bonus)return"";
+ if(S.camp.itin&&S.camp.itin.left===0&&S.camp.itin.s<S.camp.itin.stops.length){var nx=placeOf(S.camp.itin.stops[S.camp.itin.s]);return"<div class='panel'><h2>Next checkpoint</h2><p>Next stop: <b>"+esc(nx.n)+"</b>. The next leg starts there.</p></div>"}
  if(!S.camp.shortlist)S.camp.shortlist=shortlistFor(S.loc);
  var h="<div class='panel'><h2>Choose your next destination</h2>";
  if(S.camp.chosen){var c=placeOf(S.camp.chosen);return h+"<p>Next stop: <b>"+esc(c.n)+"</b>. The next leg starts there.</p></div>"}
@@ -881,10 +883,12 @@ function nextLeg(){
  if(!S||!S.camp)return;
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
  var log=(S.camp.log||[]).concat([{leg:S.camp.legs,to:N[from].n,arrived:stamp(S.arrH||0),stranded:!!S.stranded}]),start=(arrDay()+1)*24;
- var camp={ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
+ var camp={itin:S.camp.itin||null,ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
  var st=S.setup||{air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}},tries=0;
+ var fixedTo=null;
+ if(S.camp.itin){fixedTo=itinTake(S.camp.itin,from,S.camp.chosen,S.camp.visited||[]);S.camp.chosen=null;if(!fixedTo){S=null;return render("Your itinerary has no further stops.")}}
  var attempt=function(){
-  var to=(tries===0&&S.camp.chosen)||pickDest(from,dirs);
+  var to=fixedTo||(tries===0&&S.camp.chosen)||pickDest(from,dirs);
   if(!to){S=null;return render("No destination found. Start a new journey.")}
   return startJourney(from,to,st.air,st.evn,st.lm,camp).then(function(ok){
    if(ok)return render();
@@ -1095,9 +1099,8 @@ function welcomeHtml(msg){
  "<section class='welcome-sec' aria-labelledby='sec-more'>"+
   "<h2 id='sec-more'>More ways to play</h2>"+
   "<div class='welcome-grid'>"+
-   "<div class='welcome-card soon' aria-disabled='true'>"+
-    "<span class='badge'>Coming soon</span><h3>Classic itineraries</h3>"+
-    "<p class='mute'>Shorter, set routes with a fixed start and finish, for a quick game.</p></div>"+
+   "<button class='welcome-card' onclick='itinPickToggle()'>"+
+    "<h3>Classic itineraries</h3><p class='mute'>Shorter, set routes with a fixed start and finish, for a quick game.</p></button>"+
    "<button class='welcome-card' onclick='tourPickToggle()'>"+
     "<h3>Guided tours</h3><p class='mute'>Take the stress out of travelling with these luxury tours and cruises - relax and explore the stops as you hop from place to place without having to worry about times, connections or ticket prices.</p></button>"+
   "</div>"+
@@ -1110,7 +1113,7 @@ function render(msg){
  save();
  if(!S){
   document.body.classList.remove("mapscreen","map-min","map-full");LAST_CLOCK=null;
-  var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=SETTINGS_OPEN?settingsHtml():TOUR_PICK?tourHtml():welcomeHtml(msg);
+  var app=document.getElementById("app");app.classList.remove("wide");app.innerHTML=SETTINGS_OPEN?settingsHtml():TOUR_PICK?tourHtml():ITIN_PICK?itinPickHtml():welcomeHtml(msg);
   return}
  var h="<h1 class='sr-only'>Roam Across the World</h1>";
  var mapped=true;
