@@ -8,11 +8,14 @@ var MAPX=(function(){
   loadP=new Promise(function(res,rej){var l=document.createElement("link");l.rel="stylesheet";l.href=ML+"maplibre-gl.css";document.head.appendChild(l);var s=document.createElement("script");s.src=ML+"maplibre-gl.js";s.onload=res;s.onerror=function(){loadP=null;rej(new Error("MapLibre failed to load"))};document.head.appendChild(s)});
   return loadP
  }
+// Commercial points of interest hidden from the map: shops, food and drink, banks and services.
+// Transport, cultural, civic, health and hotel labels stay.
+var POI_COMMERCIAL=["shop","grocery","clothing_store","shoe_shop","florist","bakery","butcher","greengrocer","jeweller","hairdresser","beauty","optician","bicycle","car","car_repair","garden_centre","toy_shop","books","ice_cream","restaurant","fast_food","cafe","bar","pub","biergarten","bank","atm","laundry","fuel","market","marketplace"];
 function buildStyle(st){
  var out=JSON.parse(JSON.stringify(st)),names=[],base=[],labels=[];
  out.layers=out.layers.filter(function(l){
   if(l.type=="background")return true;
-  if(l.type=="symbol"){if(l["source-layer"]=="transportation_name"){names.push(l.id);return true}if(l["source-layer"]=="place"||l["source-layer"]=="water_name"||l["source-layer"]=="poi"){l.layout=l.layout||{};l.layout.visibility="none";if(l["source-layer"]=="poi"){l.minzoom=Math.max(l.minzoom||0,12)}else if(l["source-layer"]=="place"){l.minzoom=Math.min(l.minzoom===undefined?99:l.minzoom,6)}labels.push(l.id);return true}return false}
+  if(l.type=="symbol"){if(l["source-layer"]=="transportation_name"){names.push(l.id);return true}if(l["source-layer"]=="place"||l["source-layer"]=="water_name"||l["source-layer"]=="poi"){l.layout=l.layout||{};l.layout.visibility="none";if(l["source-layer"]=="poi"){l.minzoom=Math.max(l.minzoom||0,12);l.filter=["all"].concat(l.filter?[l.filter]:[],[["!",["in",["get","class"],["literal",POI_COMMERCIAL]]]])}else if(l["source-layer"]=="place"){l.minzoom=Math.min(l.minzoom===undefined?99:l.minzoom,6)}labels.push(l.id);return true}return false}
   base.push(l.id);return true});
  out.sources=out.sources||{};
  out.sources.sat={type:"raster",tiles:CONFIG.SAT.tiles,tileSize:256,maxzoom:CONFIG.SAT.maxzoom,attribution:CONFIG.SAT.attribution};
