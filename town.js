@@ -43,6 +43,8 @@ function mkMarket(){
  return c.market
 }
 
+// Each stall item gets an ID unique to its town and day, so two towns' items are never mistaken for the same item
+function mkItemId(i){return 'd'+mkDayNo()+'-'+mkCity().replace(/[^A-Za-z]/g,'')+'-'+i}
 function mkSeed(){return(S.camp&&S.camp.seed)||1}
 
 // One request for everything the market needs: the town's profile, its stock and a buyer for each unsold item
@@ -68,7 +70,7 @@ function mkApply(j,needStall,todo){
   var w=j.weights||{},weights={};MK_KINDS.forEach(function(k){weights[k]=Math.min(5,Math.max(1,Math.round(Number(w[k])||3)))});
   var list=(j.items||[]).slice(0,5);if(!list.length)throw new Error('no items');
   m.profile={character:String(j.character||'').slice(0,120),weights:weights};
-  m.stall=list.map(function(x,i){var id='d'+mkDayNo()+'i'+i;var item={name:String(x.name||'Unnamed').slice(0,60),craft:String(x.craft||'').slice(0,90),origin:String(x.origin_note||'').slice(0,120),value:mkClamp(x.value,5),supply:mkClamp(x.supply,5),kind:MK_KINDS.indexOf(x.kind)>=0?x.kind:'useful',id:id};item.ask=Math.round(mkBuy(item.value,item.supply)*mkRoll(0.95,1.05,mkSeed(),mkCity(),mkDayNo(),id,'ask'));return item});
+  m.stall=list.map(function(x,i){var id=mkItemId(i);var item={name:String(x.name||'Unnamed').slice(0,60),craft:String(x.craft||'').slice(0,90),origin:String(x.origin_note||'').slice(0,120),value:mkClamp(x.value,5),supply:mkClamp(x.supply,5),kind:MK_KINDS.indexOf(x.kind)>=0?x.kind:'useful',id:id};item.ask=Math.round(mkBuy(item.value,item.supply)*mkRoll(0.95,1.05,mkSeed(),mkCity(),mkDayNo(),id,'ask'));return item});
  }
  var byRef={};(j.buyers||[]).forEach(function(b){byRef[String(b.ref)]=b});
  todo.forEach(function(x){var b=byRef[String(x.uid)];x.buyer=b?mkBuyer(b):passingDealer()});
@@ -76,7 +78,7 @@ function mkApply(j,needStall,todo){
 
 function mkFallback(needStall,todo){
  var m=mkMarket();
- if(needStall){m.profile=MK_BAND_NEUTRAL;m.stall=mkDemoStock().map(function(x,i){var id='d'+mkDayNo()+'i'+i;return Object.assign({},x,{id:id,ask:Math.round(mkBuy(x.value,x.supply)*mkRoll(0.95,1.05,mkSeed(),mkCity(),mkDayNo(),id,'ask'))})})}
+ if(needStall){m.profile=MK_BAND_NEUTRAL;m.stall=mkDemoStock().map(function(x,i){var id=mkItemId(i);return Object.assign({},x,{id:id,ask:Math.round(mkBuy(x.value,x.supply)*mkRoll(0.95,1.05,mkSeed(),mkCity(),mkDayNo(),id,'ask'))})})}
  todo.forEach(function(x){if(!x.buyer)x.buyer=passingDealer()});
 }
 
