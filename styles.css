@@ -385,3 +385,10 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .about-note p{margin:0 0 8px;color:var(--mute)}
 footer{max-width:640px;margin:24px auto 16px;padding:0 16px;font-size:.9rem;color:var(--mute)}
 footer a{color:var(--acc)}
+
+/* Privacy note: a triangle reveal */
+.about-note summary{cursor:pointer;list-style:none;font:700 1.05rem Georgia,serif;color:var(--ink);display:flex;align-items:center;gap:8px;padding:6px 0}
+.about-note summary::-webkit-details-marker{display:none}
+.about-note summary::before{content:'';border-style:solid;border-width:6px 0 6px 9px;border-color:transparent transparent transparent var(--acc);transition:transform .15s}
+.about-note[open] summary::before{transform:rotate(90deg)}
+.about-note[open] summary{margin-bottom:6px}
