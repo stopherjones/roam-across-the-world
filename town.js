@@ -181,10 +181,10 @@ function agentHtml(){
   var l=s.lane,via=l.via.length?" Calls at "+l.via.map(function(c){return esc(berthName(c))}).join(", ")+".":"";
   var rest=l.rest?" Rest day on board.":"";
   var here=S.loc===l.from;
-  return "<div class='opt'><b>"+esc(berthName(l.from))+" to "+esc(berthName(l.to))+"</b> <small>("+l.kind+")</small>"+
+  return "<div class='opt agent-card'><span class='cruise-tag'>"+esc(l.kind)+"</span><h3 class='agent-route'>"+esc(berthName(l.from))+" to "+esc(berthName(l.to))+"</h3>"+
    "<p class='mute mb6'>Leaves in "+Math.max(0,Math.round(s.dep-now))+" h. Crossing "+l.hours+" h. Fare £"+l.fare+"."+via+rest+"</p>"+
-   (here?(function(){var c=berthCheck(s,now,S.cash);return c.ok?"<button class='btn' onclick='boardBerth(\""+l.id+"\")'>Board for £"+l.fare+"</button>":"<p class='no'>"+esc(c.reason)+"</p>"})():
-   "<p class='mute'>Get to "+esc(berthName(l.from))+" before it leaves.</p>")+"</div>";
+   "<div class='agent-foot'>"+(here?(function(){var c=berthCheck(s,now,S.cash);return c.ok?"<button class='btn' onclick='boardBerth(\""+l.id+"\")'>Board for £"+l.fare+"</button>":"<p class='no'>"+esc(c.reason)+"</p>"})():
+   "<p class='mute'>Get to "+esc(berthName(l.from))+" before it leaves.</p>")+"</div></div>";
  }).join("");
  return h+"</div>";
 }
@@ -276,13 +276,16 @@ function thingsHtml(){
 // While you wait: the market and things to do cost no time, so the service still leaves on schedule
 function waitHtml(){
  var o=S.pendOpt,v=vehicleName(o.m),to=N[o.to].n;
- var h="<div class='panel'><h2>Waiting for the "+esc(v)+" to "+esc(to)+"</h2><p class='mute mb10'>It leaves at "+esc(clk(S.waitDep))+", "+mins(S.waitDep-S.h)+" from now. Explore "+esc(N[S.loc].n)+" while you wait. The market and the things to do cost no time.</p>"+
-  "<div class='row'><button class='btn' onclick='boardWaiting()'>Board the "+esc(v)+" at "+esc(clk(S.waitDep))+"</button><button class='link' onclick='cancelWait()'>Choose a different option</button></div></div>";
+ var h="<div class='panel'><h2>Waiting for the "+esc(v)+" to "+esc(to)+"</h2>"+
+  "<p class='mute mb6'>It leaves at "+esc(clk(S.waitDep))+", "+mins(S.waitDep-S.h)+" from now.</p>"+
+  "<p class='mute mb10'>Why not explore "+esc(N[S.loc].n)+" while you wait? The market, timeline challenge and local activities cost no time, and you could make some money to help you along the way.</p>"+
+  "<p class='mute mb10'>When you're ready, continue your journey with the button below.</p></div>";
  h+=earnHtml();
  h+=thingsHtml();
+ h+="<div class='panel'><p class='mute mb10'>When you're ready, continue your journey with the button below.</p>"+
+  "<div class='row'><button class='btn' onclick='boardWaiting()'>Board the "+esc(v)+" at "+esc(clk(S.waitDep))+"</button><button class='link' onclick='cancelWait()'>Choose a different option</button></div></div>";
  return h
 }
-
 function boardWaiting(){
  S.timelineOpen=false;
  if(S.phase!=="wait")return;

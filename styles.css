@@ -394,3 +394,10 @@ footer a{color:var(--acc)}
 .about-note summary::before{content:'';border-style:solid;border-width:6px 0 6px 9px;border-color:transparent transparent transparent var(--acc);transition:transform .15s}
 .about-note[open] summary::before{transform:rotate(90deg)}
 .about-note[open] summary{margin-bottom:6px}
+
+/* Travel agent cards */
+.agent-card{position:relative;padding:12px 12px 10px;border:1px solid var(--line);border-radius:10px;margin-bottom:10px;background:var(--card)}
+.agent-card .cruise-tag{display:inline-block;font-size:.78rem;color:var(--mute);border:1px solid var(--line);border-radius:999px;padding:1px 9px;margin-bottom:6px;text-transform:capitalize}
+.agent-card .agent-route{font:700 1.05rem Georgia,serif;margin:0 0 6px;color:var(--ink)}
+.agent-card .agent-foot{display:flex;justify-content:flex-end;margin-top:8px}
+.agent-card .agent-foot p{margin:0;text-align:right}

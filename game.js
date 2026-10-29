@@ -249,7 +249,7 @@ function updateJourney(map){
  var o=[];if(!S.over&&S.phase=="move"){var all=opts();vis().show.forEach(function(i){o.push(ptf(ll(all[i].to),{name:N[all[i].to].n}))})}
  src("j-opts",fc(o));
  src("j-pts",fc([ptf(ll(S.start),{kind:"start",label:""}),ptf(ll(S.goal),{kind:"goal",label:N[S.goal].n}),ptf(ll(S.loc),{kind:"me",label:S.loc==S.goal?"":N[S.loc].n})]));
- var key=S.start+S.goal+(S.over?"o":"");if(MJ.fit!=key){MJ.fit=key;fitJourney(map)}
+ var key=S.start+S.goal+(S.over?"o":"")+(S.phase=="rest"?"r":"");if(MJ.fit!=key){MJ.fit=key;fitJourney(map)}
 }
 function drawMap(){
  var box=document.getElementById("sharedmap");if(!box||!S)return;
