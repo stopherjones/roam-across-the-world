@@ -235,7 +235,7 @@ function marketHtml(){
   h+="<p class='mute mb8'>"+esc(m.profile&&m.profile.character?m.profile.character:"")+"</p>";
   h+="<div class='mgrid'>"+m.stall.map(function(x,i){
    var owned=S.camp.pack.some(function(p){return p.id===x.id}),can=!owned&&!full&&S.cash>=x.ask;
-   return"<div class='mcard'><b>"+esc(x.name)+"</b><div class='mute fine'>"+esc(x.craft)+"</div><div class='mute fine'><em>"+esc(x.origin)+"</em></div>"+
+   return"<div class='mcard'><b><a href='https://www.google.com/search?q="+encodeURIComponent(x.name)+"' target='_blank' rel='noopener'>"+esc(x.name)+"</a></b><div class='mute fine'>"+esc(x.craft)+"</div><div class='mute fine'><em>"+esc(x.origin)+"</em></div>"+
     "<div class='mstats'>Value <b>"+x.value+"</b> "+mkPips(x.value)+" &nbsp; Supply <b>"+x.supply+"</b> "+mkPips(x.supply)+"</div>"+
     "<div class='mrow'><b class='price'>"+mkGbp(x.ask)+"</b><button class='btn' "+(can?"":"disabled")+" onclick='restBuyAt("+i+")'>"+(owned?"In pack":full?"Pack full":S.cash<x.ask?"Too dear":"Buy")+"</button></div></div>"
   }).join("")+"</div>";
@@ -268,7 +268,7 @@ function thingsHtml(){
  var items=[
   ["Discover the local music scene","Acts across traditional, mainstream and locally unique music.","https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"],
   ["Discover the local sports scene","Traditional, mainstream and local sports.","https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"],
-  ["Paint a local street scene","Folklore, myths and unusual histories.","https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"]
+  ["Explore local folklore and legends","Folklore, myths and unusual histories.","https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"]
  ];
  items=items.filter(function(i){return thingOn(i[0])}).concat(customLinks(N[S.loc].n));
  var pics=(typeof PAINTINGS!=="undefined"&&PAINTINGS[S.loc])||[];

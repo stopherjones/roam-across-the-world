@@ -4,8 +4,8 @@ var PREFS_KEY="ratw-prefs-v1";
 var PREFS_DEFAULT={things:{music:true,sport:true,art:true},custom:[]};
 var CUSTOM_MAX=5,CUSTOM_LABEL_MAX=40,CUSTOM_QUERY_MAX=120;
 var CUSTOM_MSG="";
-var THING_KEYS={"Discover the local music scene":"music","Discover the local sports scene":"sport","Paint a local street scene":"art"};
-var THING_LABELS=[["music","Discover the local music scene"],["sport","Discover the local sports scene"],["art","Paint a local street scene"]];
+var THING_KEYS={"Discover the local music scene":"music","Discover the local sports scene":"sport","Explore local folklore and legends":"art"};
+var THING_LABELS=[["music","Discover the local music scene"],["sport","Discover the local sports scene"],["art","Explore local folklore and legends"]];
 var PREFS=prefsMerge(null);
 var SETTINGS_OPEN=false;
 // Fills in any missing or invalid setting from the default, so older saves and partial files still work
