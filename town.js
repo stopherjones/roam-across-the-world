@@ -271,8 +271,10 @@ function thingsHtml(){
   ["Paint a local street scene","Folklore, myths and unusual histories.","https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"]
  ];
  items=items.filter(function(i){return thingOn(i[0])}).concat(customLinks(N[S.loc].n));
- if(!items.length)return "<div class='panel'><h2>Things to do</h2><p class='mute'>All the things to do links are turned off. Turn them back on in Settings.</p></div>";
- return "<div class='panel'><h2>Things to do</h2>"+items.map(function(i){return"<a class='btn' href='"+i[2]+"' target='_blank' rel='noopener'>"+esc(i[0])+"</a><p class='mute note'>"+esc(i[1])+"</p>"}).join("")+"</div>";
+ var pics=(typeof PAINTINGS!=="undefined"&&PAINTINGS[S.loc])||[];
+ var picIcon=pics.length?"<button type='button' class='paint-icon' title='Paintings of this town' aria-label='Paintings of this town' onclick=\"paintingsOpen('"+S.loc+"')\">🖼️</button>":"";
+ if(!items.length&&!pics.length)return "<div class='panel'><h2>Things to do</h2><p class='mute'>All the things to do links are turned off. Turn them back on in Settings.</p></div>";
+ return "<div class='panel'><h2 style='display:flex;align-items:center;justify-content:space-between'><span>Things to do</span>"+picIcon+"</h2>"+items.map(function(i){return"<a class='btn' href='"+i[2]+"' target='_blank' rel='noopener'>"+esc(i[0])+"</a><p class='mute note'>"+esc(i[1])+"</p>"}).join("")+"</div>";
 }
 
 // While you wait: the market and things to do cost no time, so the service still leaves on schedule
@@ -336,3 +338,24 @@ function awardTimeline(city,pts,max){
  var b=document.querySelector(".hdr .r1>span:nth-child(2) b");if(b)b.textContent="\u00a3"+Math.round(S.cash);
  return "You earn \u00a3"+pts+" for "+city+".";
 }
+
+function paintingsOpen(pid){
+ var list=(typeof PAINTINGS!=="undefined"&&PAINTINGS[pid])||[];
+ if(!list.length)return;
+ var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
+ paintingsClose();
+ if(!document.getElementById('paint-css')){
+  var st=document.createElement('style');st.id='paint-css';
+  st.textContent=".paint-back{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:999;display:flex;align-items:center;justify-content:center;padding:12px;box-sizing:border-box}.paint-box{background:#1b2630;color:#e8eef2;border-radius:10px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:16px;box-sizing:border-box}.paint-box img{max-width:100%;height:auto;border-radius:6px;display:block;margin:8px 0}.paint-item{border-top:1px solid #2c3a45;padding:12px 0}.paint-close{float:right;background:#7bbfae;color:#0d1419;border:0;border-radius:6px;padding:6px 12px;font-size:1em;cursor:pointer}.paint-credit{font-size:.8em;opacity:.7}.paint-icon{background:none;border:0;font-size:1.2em;cursor:pointer;padding:0 0 0 .4em;margin-left:auto}";
+  document.head.appendChild(st);
+ }
+ var items=list.map(function(p){
+  var img=p.image?"<img src='"+String(p.image).replace(/'/g,"%27")+"' alt='"+esc(p.title)+"' loading='lazy'><div class='paint-credit'>Image: "+esc(p.image_source||"")+"</div>":"";
+  return "<div class='paint-item'><strong>"+esc(p.title)+"</strong><br><span class='mute'>"+esc(p.artist)+"</span>"+img+"<p><a href='"+p.url+"' target='_blank' rel='noopener'>View on paintinglocations.com</a></p></div>";
+ }).join("");
+ var back=document.createElement('div');back.id='paint-modal';back.className='paint-back';
+ back.innerHTML="<div class='paint-box'><button type='button' class='paint-close' onclick='paintingsClose()'>Close</button><h2>Paintings of "+esc(name)+"</h2>"+items+"</div>";
+ back.addEventListener('click',function(e){if(e.target===back)paintingsClose();});
+ document.body.appendChild(back);
+}
+function paintingsClose(){var m=document.getElementById('paint-modal');if(m)m.remove();}

@@ -16,6 +16,7 @@ fs.readdirSync("data/regions").filter(f => f.endsWith(".js") && f !== "index.js"
 run("game.js");
 
 run("berths.js");
+run("data/paintings.js");
 const data = vm.runInContext(`(function(){
   var rows = [];
   Object.keys(REGION_VARS).forEach(function(k){ var v = window[REGION_VARS[k]]; if (v) rows = rows.concat(v.split(";").filter(Boolean)); });
@@ -35,7 +36,11 @@ const data = vm.runInContext(`(function(){
     links.push({ a: e.a, b: e.b, m: e.m, km: Math.round(hav(e.a, e.b)), h: e.h, c: e.c });
   });
   BERTH_LANES.forEach(function(l){ links.push({ a: l.from, b: l.to, m: l.kind, km: Math.round(hav(l.from, l.to)), h: l.hours, c: l.fare }); });
-  return JSON.stringify({ places: places, links: links });
+  var paintings = [];
+  if (typeof PAINTINGS !== "undefined") Object.keys(PAINTINGS).forEach(function(id){ PAINTINGS[id].forEach(function(p){ paintings.push({ status: "live", town: id, title: p.title, artist: p.artist, url: p.url, lat: p.lat, lon: p.lon, km: p.km, image: p.image || null }); }); });
+  if (typeof PAINTINGS_PENDING !== "undefined") Object.keys(PAINTINGS_PENDING).forEach(function(id){ PAINTINGS_PENDING[id].paintings.forEach(function(p){ paintings.push({ status: "pending", town: id, title: p.title, artist: p.artist, url: p.url, lat: p.lat, lon: p.lon, km: p.km, image: p.image || null }); }); });
+  if (typeof PAINTINGS_UNASSIGNED !== "undefined") PAINTINGS_UNASSIGNED.forEach(function(p){ paintings.push({ status: "unassigned", town: "", title: p.title, artist: p.artist, url: p.url, lat: p.lat, lon: p.lon, km: null, image: p.image || null }); });
+  return JSON.stringify({ places: places, links: links, paintings: paintings });
 })()`, ctx);
 
 const html = fs.readFileSync("tools/dev-map.template.html", "utf8").replace("/*DATA*/null", () => data);

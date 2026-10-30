@@ -1,2 +1,2 @@
 // Region: Belgium and the Netherlands. Places as id|name|lat|lon|country|flags, separated by ;
-var REGION_BENELUX="bru|Brussels|50.85|4.35|B|ra3h;ams|Amsterdam|52.37|4.9|N|ra3h;rot|Rotterdam|51.92|4.48|N|r2;hoh|Hook of Holland|51.98|4.13|N|rp;lux|Luxembourg|49.611|6.130|LU|r2";
+var REGION_BENELUX="bru|Brussels|50.85|4.35|B|ra3h;ams|Amsterdam|52.37|4.9|N|ra3h;rot|Rotterdam|51.92|4.48|N|r2;hoh|Hook of Holland|51.98|4.13|N|rp;lux|Luxembourg|49.611|6.130|LU|r2;brg|Bruges|51.2093|3.2247|B|r2;ant|Antwerp|51.2194|4.4025|B|rp3h;utr|Utrecht|52.0907|5.1214|N|rh3;ein|Eindhoven|51.4416|5.4697|N|ra3";
