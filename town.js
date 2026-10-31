@@ -235,7 +235,7 @@ function marketHtml(){
   h+="<p class='mute mb8'>"+esc(m.profile&&m.profile.character?m.profile.character:"")+"</p>";
   h+="<div class='mgrid'>"+m.stall.map(function(x,i){
    var owned=S.camp.pack.some(function(p){return p.id===x.id}),can=!owned&&!full&&S.cash>=x.ask;
-   return"<div class='mcard'><b><a href='https://www.google.com/search?q="+encodeURIComponent(x.name)+"' target='_blank' rel='noopener'>"+esc(x.name)+"</a></b><div class='mute fine'>"+esc(x.craft)+"</div><div class='mute fine'><em>"+esc(x.origin)+"</em></div>"+
+   return"<div class='mcard'><b><a class='mlink' href='https://www.google.com/search?q="+encodeURIComponent(x.name)+"' target='_blank' rel='noopener' style='color:inherit;text-decoration:none;border-bottom:1px dotted #5bc4ad'>"+esc(x.name)+"</a></b><div class='mute fine'>"+esc(x.craft)+"</div><div class='mute fine'><em>"+esc(x.origin)+"</em></div>"+
     "<div class='mstats'>Value <b>"+x.value+"</b> "+mkPips(x.value)+" &nbsp; Supply <b>"+x.supply+"</b> "+mkPips(x.supply)+"</div>"+
     "<div class='mrow'><b class='price'>"+mkGbp(x.ask)+"</b><button class='btn' "+(can?"":"disabled")+" onclick='restBuyAt("+i+")'>"+(owned?"In pack":full?"Pack full":S.cash<x.ask?"Too dear":"Buy")+"</button></div></div>"
   }).join("")+"</div>";
