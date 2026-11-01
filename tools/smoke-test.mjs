@@ -27,6 +27,7 @@ const dom = new JSDOM(fs.readFileSync(path.join(root, "index.html"), "utf8"), {
     w.onerror = e => errs.push(String(e).slice(0, 160));
     w.matchMedia = q => ({ matches: false, media: q, addListener() {}, removeListener() {}, addEventListener() {}, removeEventListener() {} });
     w.fetch = (url, opts) => {
+      if (!opts) return Promise.resolve({ ok: false, status: 404, json: () => Promise.resolve({}) }); // static files such as data/intros.json
       const p = JSON.parse(opts.body).messages[0].content;
       const r = JSON.parse(JSON.stringify(reply));
       const m = p.match(/Items: (\[.*\])\n?/);

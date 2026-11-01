@@ -285,10 +285,18 @@ function flavourFor(c){
   .catch(function(e){delete FLAV[c];throw e});
  return FLAV[c]
 }
+// Pre-written intros from data/intros.json (filled by the scheduled generator). Loaded once; missing or failed load means no pre-written text.
+var INTROS_READY=fetch("data/intros.json").then(function(r){if(!r.ok)throw new Error("intros "+r.status);return r.json()}).catch(function(){return {}});
 function fillFlavour(){
  var el=document.getElementById("flavour-text");if(!el||!S||S.phase!=="plan")return;
  var key=S.goal,c=N[key].n;
- flavourFor(c).then(function(t){if(S&&S.goal===key)setIntro(t)},function(){if(S&&S.goal===key)setIntro("An introduction isn't available right now.")})
+ INTROS_READY.then(function(map){
+  if(!S||S.goal!==key)return;
+  var e=map&&map[key];
+  if(e&&e.text){setIntro(e.text);return}
+  // No pre-written text for this town yet: fall back to the live call.
+  flavourFor(c).then(function(t){if(S&&S.goal===key)setIntro(t)},function(){if(S&&S.goal===key)setIntro("An introduction isn't available right now.")});
+ });
 }
 // One combined sentence for the journey, built from the modes on offer. No place names beyond the start and finish.
 function routeFlavourFallback(from,to,options){
