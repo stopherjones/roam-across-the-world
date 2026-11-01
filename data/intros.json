@@ -1,4 +1,18 @@
 {
+ "adz": {
+  "name": "Adana",
+  "text": "Adana, a major city in southern Turkey, sits on the banks of the Seyhan River about 70 kilometres inland from the Mediterranean coast. It has been an important centre since antiquity, serving as a key stop on the ancient trade routes of Cilicia and later becoming a thriving Ottoman provincial capital. Today the city is famous for its spicy kebabs, lively street markets and the impressive stone bridge of Taşköprü spanning the river. Visitors can explore the historic Great Mosque, wander the palm-lined riverfront promenade and enjoy the surrounding plains that produce some of the country’s finest citrus fruits.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
+ "ahw": {
+  "name": "Ahvaz",
+  "text": "Ahvaz sits on the banks of the Karun River in southwestern Iran, near the border with Iraq and the Persian Gulf. It is the capital of Khuzestan province and has long been a key centre for Iran’s oil industry, with the first oil well in the country drilled nearby in 1908. Today the city offers a striking mix of modern high-rises and traditional bazaars, while the wide river promenade provides a pleasant place to watch the flow of the Karun and enjoy local cafés serving spicy kebabs and sweet, rose-flavoured tea.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
  "amb": {
   "name": "Ambon",
   "text": "Ambon—nestled in the heart of Indonesia’s Maluku archipelago, this emerald‑green island sits at the crossroads of the Pacific and Indian Oceans, where sparkling bays meet volcanic hills. Once the prized “Spice Islands,” Ambon thrived as a bustling hub for Dutch, Portuguese and local traders, its forts and colonial streets echoing centuries of maritime adventure. Today, the city buzzes with vibrant markets, world‑class diving sites teeming with manta rays, and a lively blend of cultures reflected in music, cuisine and festivals. From its historic fortifications to its thriving creative scene, Ambon invites travelers to explore a living tapestry of history, nature and modern Indonesian spirit.",
@@ -6,11 +20,32 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "ayt": {
+  "name": "Antalya",
+  "text": "Antalya, a coastal city on Turkey’s southwestern Mediterranean shore, sits at the foot of the Taurus Mountains and enjoys a mild climate year-round. It has been a gateway to the ancient region of Pamphylia since Roman times, with the well-preserved ruins of Hadrian’s Gate marking the old city’s entrance. Today the promenade along Konyaaltı Beach is lined with cafés, boutique shops and lively street performers, while the historic Kaleiçi district offers winding lanes, Ottoman houses and rooftop terraces that overlook the sparkling sea, making a stroll feel both relaxed and full of discovery.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
  "bfn": {
   "name": "Bloemfontein",
   "text": "Bloemfontein, the judicial capital of South Africa and the heart of the Free State province, began as a British outpost in 1846 and soon became the capital of the Orange Free State republic in 1854. Today the city blends historic charm with a lively university atmosphere, boasting the University of the Free State, the National Museum and the famous rose gardens that give it the nickname “City of Roses”. Its wide avenues, bustling markets and nearby wildlife reserves make it a pleasant base for exploring the central plains and the surrounding Karoo.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
+  "generated": "2026-11-01"
+ },
+ "bjr": {
+  "name": "Bahir Dar",
+  "text": "Bahir Dar, perched on the southern shore of Lake Tana in north-west Ethiopia, serves as the capital of the Amhara Region and lies only a short drive from the spectacular Blue Nile Falls. The town grew in importance in the 19th century when it was made the administrative centre of the former Begemder province, and its lakeside promenade is now lined with cafés, hotels and colourful market stalls. Visitors can cruise among the lake’s many islands, explore ancient monasteries accessible only by boat, and enjoy the gentle buzz of daily life against a backdrop of papyrus reeds and bird-song.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
+ "bkv": {
+  "name": "Bukavu",
+  "text": "Bukavu sits on the southwestern shore of Lake Kivu in the eastern part of the Democratic Republic of the Congo, right on the border with Rwanda and a short drive from the Virunga volcanic range. The town was established by the Belgians in the early twentieth-century as Costermansville and was renamed Bukavu after independence, later becoming the capital of South Kivu province. Today visitors find a laid-back lakeside town with colourful markets, friendly cafés and easy access to boat trips on the lake, as well as hiking routes that lead into the surrounding mountains and the nearby national park.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
  "bnn": {
@@ -39,6 +74,13 @@
   "text": "Enugu, the “Coal City” of Nigeria, sits in the verdant hills of the southeast, perched at an altitude of 590 metres on the edge of the Udi Plateau. Founded in the early 1900s after rich coal seams were discovered, it quickly grew into a colonial mining hub and later became the capital of the former Eastern Region. Today, Enugu blends its storied past with vibrant urban energy—home to bustling markets, thriving universities, and a blossoming tech scene. Its warm hospitality, lively music, and lush gardens make it a gateway to Igbo culture and a rising centre of commerce in Nigeria.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "fbm": {
+  "name": "Kisangani",
+  "text": "Kisangani, the capital of Tshopo Province in the north-eastern Democratic Republic of the Congo, lies on the banks of the mighty Congo River where it meets the Lualaba tributary. Founded in the late 19th century as a trading post for the Belgian Congo, it later became an important military base during the Congo Crisis of the 1960s. Today the town offers a relaxed riverside atmosphere, with colourful markets selling fresh fish and local crafts, boat trips that showcase the impressive rapids of the Congo, and easy access to nearby rain-forest trails for adventurous visitors.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
  "fnc": {
@@ -76,11 +118,32 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "kgf": {
+  "name": "Karaganda",
+  "text": "Karaganda, a city in central Kazakhstan, lies on the steppe about 230 kilometres south-east of the capital Astana. It grew rapidly in the 1930s when Soviet authorities developed large coal mines in the region, turning the former settlement into an industrial centre. Today the city offers a mix of Soviet-era architecture and modern amenities: visitors can explore the striking Karaganda Regional Museum, stroll along the wide avenues lined with statues and fountains, and enjoy the nearby parklands that provide a pleasant contrast to the surrounding flat landscape. The friendly locals and hearty Kazakh cuisine make a stop here a memorable part of any Central Asian itinerary.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
  "lpg": {
   "name": "Las Palmas",
   "text": "Las Palmas, the sun‑kissed capital of Gran Canaria, sits on the island’s northeastern coast where the Atlantic meets volcanic hills and golden beaches. Founded in 1478 by Spanish conquistadors as “Real Villa de La Luz,” the city grew from a modest fishing port into a bustling entrepôt, its historic Vegueta district preserving cobblestone streets and Moorish‑influenced architecture. Today, Las Palmas is a vibrant cultural hub—home to lively markets, world‑class museums, and the famed Las Canteras promenade—while serving as a modern gateway for tourism, commerce, and renewable‑energy innovation across the Canary archipelago. Join us as we explore its timeless charm and forward‑looking spirit.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "mbm": {
+  "name": "Mbuji-Mayi",
+  "text": "Mbuji-Mayi, the capital of Kasai-Oriental province in the heart of the Democratic Republic of the Congo, lies on the Sankuru River about 300 km south-west of the national capital Kinshasa. Formerly called Bakwanga, the town grew rapidly after independence because it sits above one of the world’s richest diamond deposits and became the centre of the state-run Société Minière de Bakwanga. Today visitors find a city of wide avenues and colourful markets where traders sell fresh produce, fabrics and locally-cut diamonds; the pace is relaxed, the streets are lined with modest shops and cafés, and the surrounding countryside offers chances to see traditional Kasai villages and the rolling savannah beyond.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
+ "mqx": {
+  "name": "Mekelle",
+  "text": "Mekelle, the capital of Ethiopia’s Tigray Region, lies on the high plateau of northern Ethiopia at about 2,500 metres above sea level, roughly 780 km north-north-east of Addis Ababa. Historically it was the seat of Emperor Yohannes IV, who ruled the country from the late 19th century until his death in 1889, and it later became an important administrative centre during the Imperial era. Today the city offers a lively market where traders display woven textiles, spices and coffee",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
  "npr": {
@@ -90,6 +153,13 @@
   "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
+ "nuk": {
+  "name": "Nukus",
+  "text": "Nukus, the capital of Uzbekistan’s autonomous Republic of Karakalpakstan, lies on the banks of the Amu Darya in the far west of the country, close to the Turkmen border and the edge of the Kyzylkum desert. Founded in the late-19th century as a small settlement, it became the regional centre when the Karakalpak Autonomous Soviet Socialist Republic was created in 1932. Today the town is famous for the Savitsky Museum, which houses one of the world’s largest collections of Soviet-era avant-garde art, and its wide, tree-lined streets provide a surprisingly relaxed base for exploring nearby desert landscapes and the historic fortress of Khiva.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
  "pdl": {
   "name": "Ponta Delgada",
   "text": "Ponta Delgada – the vibrant capital of Portugal’s Azores archipelago, perched on the southern coast of São Miguel Island.  Nestled in the mid‑Atlantic, this charming town blends volcanic landscapes with sweeping ocean views, a natural gateway between Europe and the Americas.  Founded in the 15th century by Portuguese settlers, it grew from a modest fishing village into a key stopover for trans‑Atlantic whalers and explorers, its historic cobblestone streets still echoing centuries of maritime heritage.  Today, Ponta Delgada thrives as a cultural hub—buzzing cafés, lively festivals, and eco‑tourism adventures—while preserving its rich past amid stunning cliffs, geothermal springs and world‑class cuisine.",
@@ -97,11 +167,32 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "rak": {
+  "name": "Marrakech",
+  "text": "Marrakech, situated in the western foothills of the Atlas Mountains in southern Morocco, has been a centre of trade and culture since it was founded in the 11th century by the Almoravid dynasty. The city's historic medina, a UNESCO World-heritage site, still contains the famous Koutoubia Mosque and the lively Jemaa el-Fna square, where storytellers, musicians and food stalls create a sensory feast each evening. Today visitors can wander narrow souks selling spices, textiles and ceramics, enjoy rooftop cafés overlooking the red-sandstone walls, and take short trips to nearby gardens and desert landscapes, making it a memorable stop on any North-African itinerary.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
+ "rec": {
+  "name": "Recife",
+  "text": "Recife, the capital of Pernambuco on Brazil’s north-eastern Atlantic coast, sits where the Capibaribe River meets the sea and is criss-crossed by a network of historic waterways. In the 17th century the city was seized by the Dutch, who held it from 1630 until the Portuguese reconquest in 1654, leaving a legacy of forts and Dutch-style architecture in the neighbourhood of Recife Antigo. Today visitors can stroll along colourful colonial streets, watch the sunrise over Boa Viagem beach, sample lively frevo music in the streets, and enjoy riverside cafés while watching colourful boats glide through the canals.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
  "rtr": {
   "name": "Rotorua",
   "text": "Rotorua, situated in the heart of New Zealand’s North Island within the Bay of Plenty region and set on the southern shore of Lake Rotorua, has been a centre of Māori life for centuries, home to the Te Arawa iwi. European visitors arrived in the 1860s and the town was declared a tourist resort in 1882, recognising its dramatic geysers and sulphur springs. Today the city blends geothermal landscapes, thriving Māori cultural performances, lake-front cafés and adventure activities, making it a lively destination for travellers seeking natural wonder and authentic New Zealand hospitality.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
+  "generated": "2026-11-01"
+ },
+ "sbh": {
+  "name": "Sabha",
+  "text": "Sabha is a town in the far-south of Libya, sitting on the edge of the Sahara near the borders with Niger and Chad. It grew around a caravan stop on the historic trade routes that linked the Mediterranean coast with sub-Saharan Africa, and in the early twentieth century it became a centre for the trans-Saharan ivory and slave trade before those practices were outlawed. Today the town is a modest, sun-baked settlement where palm-shaded markets sell dates and textiles, the surrounding desert offers striking sand dunes for day-trips, and a small museum displays artefacts from its trading past.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
  "sev": {
@@ -132,11 +223,25 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "tzx": {
+  "name": "Trabzon",
+  "text": "Trabzon sits on the Black Sea coast of north-eastern Turkey, framed by lush hills and the Pontic Mountains. Founded as the Greek colony Trapezus in the 8th century BC, it later became an important stop on the Silk Road and the site of the famous Sumela Monastery, perched on a cliff overlooking the surrounding forest. Today the city offers a pleasant mix of sea-front promenades, lively fish markets and Ottoman-era tea houses where you can sample the local Black Sea tea. The backdrop of mist-y mountains and the scent of fresh seafood make a visit both relaxing and memorable.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
  "yok": {
   "name": "Yokohama",
   "text": "Yokohama, the bustling port city just a half‑hour train ride south of Tokyo, greets travelers with a perfect blend of sea‑sprayed charm and modern flair. Founded as a modest fishing village, it exploded onto the world stage in 1859 when the Treaty of Kanagawa opened its harbor to foreign trade, sparking the iconic Red Brick Warehouses and the lively foreign‑settlement vibe that still lingers today. Today, Yokohama is Japan’s second‑largest city, a hub of technology, fashion and gastronomy—home to the towering Landmark Tower, the serene Sankeien Garden, and a famed Chinatown that serves up some of the country’s best dumplings. Join us as we explore this dynamic gateway between tradition and tomorrow.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "yzd": {
+  "name": "Yazd",
+  "text": "Yazd, a desert city in central Iran about 250 km south-east of Tehran, sits on the edge of the Dasht-e Kavir plain. It is famous for its ancient mud-brick architecture and was a centre of Zoroastrian worship long before the Islamic era, with the historic Fahadan quarter preserving narrow alleys and wind-catchers that date back to the 12th century. Today the town feels calm and sun-warmed; you can wander its quiet bazaars, sip tea in a courtyard shaded by towering qanats, and watch the sunset turn the ochre roofs into a golden glow, while modern cafés and museums sit alongside the timeless adobe walls.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v3",
   "generated": "2026-11-01"
  }
 }
