@@ -1,1 +1,142 @@
-{}
+{
+ "amb": {
+  "name": "Ambon",
+  "text": "Ambon—nestled in the heart of Indonesia’s Maluku archipelago, this emerald‑green island sits at the crossroads of the Pacific and Indian Oceans, where sparkling bays meet volcanic hills. Once the prized “Spice Islands,” Ambon thrived as a bustling hub for Dutch, Portuguese and local traders, its forts and colonial streets echoing centuries of maritime adventure. Today, the city buzzes with vibrant markets, world‑class diving sites teeming with manta rays, and a lively blend of cultures reflected in music, cuisine and festivals. From its historic fortifications to its thriving creative scene, Ambon invites travelers to explore a living tapestry of history, nature and modern Indonesian spirit.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "bfn": {
+  "name": "Bloemfontein",
+  "text": "Bloemfontein, nestled in the heart of South Africa’s Free State province, sits at the crossroads of the Vaal and Modder rivers, earning its nickname “the City of Roses.” Founded in 1846 as a British outpost, it grew from a modest military camp into the nation’s judicial capital, housing the Supreme Court of Appeal. Today, Bloemfontein blends historic charm with modern vibrancy—its leafy avenues, thriving university scene, and cultural festivals draw visitors and scholars alike. From its iconic oak-lined streets to the bustling markets, the city remains a pivotal hub of law, education, and South African heritage.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "bnn": {
+  "name": "Benin City",
+  "text": "Benin City, nestled in southern Nigeria along the meandering banks of the Owan and Edo rivers, sits at the heart of the vibrant Edo State. Founded over a thousand years ago, it was once the capital of the mighty Benin Kingdom, famed for its bronze artistry, massive walls, and sophisticated governance. Today, the city blends that regal legacy with modern hustle: bustling markets, lively festivals, and a growing tech scene. Visitors can explore historic royal palaces, admire intricate ivory and bronze works, and savor delicious local cuisine—all while experiencing the warm hospitality that makes Benin City a living bridge between past and present.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "cbq": {
+  "name": "Calabar",
+  "text": "Calabar, perched on Nigeria’s southeastern coast where the Cross River meets the Atlantic, blends vibrant culture with lush rainforest scenery. Founded in the 15th century as a major hub for the Efik people, it later thrived as a bustling port during the Atlantic trade era, earning the nickname “Queen of the Niger Delta.” Today, Calabar buzzes with tourism, home to the annual Calabar Carnival, historic museums, and eco‑adventures in nearby national parks. Its friendly streets, colonial architecture, and thriving arts scene make it a gateway to the heart of Nigeria’s heritage and natural beauty.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "dzo": {
+  "name": "Mayotte (Dzaoudzi)",
+  "text": "Mayotte (Dzaoudzi) – a tiny jewel nestled in the heart of the Indian Ocean, just north of Madagascar and off the coast of Mozambique. Once a strategic stop for Arab traders and later a French colony in the 19th century, it became an overseas department of France in 2011, blending African, Malagasy and European influences. Today, Dzaoudzi, the former capital, welcomes visitors with turquoise lagoons, lush volcanic hills and a vibrant Creole culture. From bustling markets to pristine marine parks, Mayotte offers a unique glimpse of French‑administered paradise where tradition meets modernity on every sun‑kissed shore.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "enu": {
+  "name": "Enugu",
+  "text": "Enugu, the “Coal City” of Nigeria, sits in the verdant hills of the southeast, perched at an altitude of 590 metres on the edge of the Udi Plateau. Founded in the early 1900s after rich coal seams were discovered, it quickly grew into a colonial mining hub and later became the capital of the former Eastern Region. Today, Enugu blends its storied past with vibrant urban energy—home to bustling markets, thriving universities, and a blossoming tech scene. Its warm hospitality, lively music, and lush gardens make it a gateway to Igbo culture and a rising centre of commerce in Nigeria.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "fnc": {
+  "name": "Funchal",
+  "text": "Funchal—nestled on the sun‑kissed southern coast of Portugal’s Madeira Island, this vibrant capital greets you with a tapestry of cliffs, turquoise bays and fragrant gardens. Founded in the early 15th century by Portuguese explorers, it grew from a modest fishing village into a crucial Atlantic hub for sugar, wine and later tourism. Today, Funchal dazzles visitors with its historic cobblestone streets, colorful market stalls, and a lively waterfront lined with cafés, museums and the famed cable‑car that climbs to Monte’s lush terraces. It’s a blend of old‑world charm and modern island energy—perfect for the curious traveler.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "gra": {
+  "name": "Granada",
+  "text": "Granada, nestled at the foot of the Sierra Nevada in southern Spain, straddles the fertile plains where the Darro and Genil rivers converge. Founded by the Romans and later transformed by Visigoths, Moors, and Christians, this city bears layers of history—from its ancient Albaicín quarters to the iconic Alhambra, a UNESCO masterpiece of Islamic art. Today, Granada pulses with youthful energy thanks to its bustling university, vibrant tapas scene, and year‑round festivals that blend tradition and modern flair. As you wander its cobbled streets, you’ll feel the timeless dialogue between past and present that makes Granada a true cultural crossroads.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "gur": {
+  "name": "Guiria",
+  "text": "Guiria – a charming coastal town perched on the northeastern tip of Venezuela’s Paria Peninsula, where the Caribbean Sea meets the Gulf of Paria. Founded in the early 18th century as a modest fishing outpost, Guiria grew into a bustling port, serving as a gateway for cocoa, coffee and later oil shipments. Today, it blends historic cobblestone streets and colonial churches with a vibrant cultural scene: colorful festivals, fresh seafood markets, and eco‑tourism adventures along pristine beaches and nearby rainforests. Whether you’re savoring a sunrise over the water or exploring its rich heritage, Guiria invites travelers to experience the soul of Venezuela’s coastal legacy.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "hmn": {
+  "name": "Hamilton, Bermuda",
+  "text": "Hamilton, Bermuda, the island’s bustling capital perched on the northeastern shore of the Main Island, lies just 640 miles east of North Carolina. Founded in 1790 and named for Sir Henry Hamilton, the town grew around a natural harbor that once sheltered Royal Navy ships and thriving sugar plantations. Today, Hamilton blends pastel colonial buildings with sleek waterfront promenades, hosting vibrant festivals, world‑class museums, and a thriving financial‑services sector. Visitors wander the lively Front Street, sip rum‑flavored cocktails at historic pubs, and enjoy crystal‑clear waters, discovering why Hamilton remains a charming gateway between the Atlantic and the Caribbean.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "ibd": {
+  "name": "Ibadan",
+  "text": "Ibadan, the bustling heart of southwestern Nigeria, sits on a gentle plateau between the Ogun and Oyo rivers, just a short drive north of Lagos. Founded in the 1820s as a war‑camp for the Yoruba, it grew into a thriving commercial hub and the historic seat of the powerful Ibadan Kingdom. Today, the city blends old‑world charm—think colonial‑era architecture and the famous Cocoa House—with modern universities, tech startups, and a vibrant arts scene. From bustling markets to leafy university campuses, Ibadan remains a cultural crossroads, showcasing Nigeria’s rich heritage while forging a dynamic future.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "lpg": {
+  "name": "Las Palmas",
+  "text": "Las Palmas, the sun‑kissed capital of Gran Canaria, sits on the island’s northeastern coast where the Atlantic meets volcanic hills and golden beaches. Founded in 1478 by Spanish conquistadors as “Real Villa de La Luz,” the city grew from a modest fishing port into a bustling entrepôt, its historic Vegueta district preserving cobblestone streets and Moorish‑influenced architecture. Today, Las Palmas is a vibrant cultural hub—home to lively markets, world‑class museums, and the famed Las Canteras promenade—while serving as a modern gateway for tourism, commerce, and renewable‑energy innovation across the Canary archipelago. Join us as we explore its timeless charm and forward‑looking spirit.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "npr": {
+  "name": "Napier",
+  "text": "Napier – perched on the sparkling Hawke’s Bay coastline of New Zealand’s North Island, this sun‑kissed city lies just 300 km east of Wellington. Founded in the 1850s, Napier was reborn after the devastating 1931 earthquake, giving rise to the world’s largest Art Deco precinct, where pastel façades and streamlined geometry still charm visitors. Today, Napier thrives as a foodie haven—famous for its award‑winning vineyards and fresh seafood—while serving as a gateway to adventure, from surf‑laden beaches to the nearby Te Mata Peak. Join us as we explore this vibrant blend of history, culture, and natural beauty.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "pdl": {
+  "name": "Ponta Delgada",
+  "text": "Ponta Delgada – the vibrant capital of Portugal’s Azores archipelago, perched on the southern coast of São Miguel Island.  Nestled in the mid‑Atlantic, this charming town blends volcanic landscapes with sweeping ocean views, a natural gateway between Europe and the Americas.  Founded in the 15th century by Portuguese settlers, it grew from a modest fishing village into a key stopover for trans‑Atlantic whalers and explorers, its historic cobblestone streets still echoing centuries of maritime heritage.  Today, Ponta Delgada thrives as a cultural hub—buzzing cafés, lively festivals, and eco‑tourism adventures—while preserving its rich past amid stunning cliffs, geothermal springs and world‑class cuisine.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "rtr": {
+  "name": "Rotorua",
+  "text": "Rotorua, nestled on New Zealand’s North Island, sits on the edge of the massive Taupō Rift—an active volcanic zone that gifts the town its steaming lakes, geysers and sulphur‑scented air. Once a Māori stronghold, the area was home to the powerful Te Arawa iwi, whose rich traditions are still celebrated in the famed hangi feasts and cultural performances. Today Rotorua is a world‑renowned playground for adventure seekers and nature lovers, offering everything from mud‑bath spas and forest zip‑lines to geothermal wonders and thriving arts festivals. Come for the steam, stay for the spirit.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "sev": {
+  "name": "Seville",
+  "text": "Seville, the sun‑kissed jewel of southern Spain, sits on the banks of the Guadalquivir River in the heart of Andalusia. Founded by the Romans as Hispalis, it later flourished under Moorish rule, leaving behind the intricate arches of the Alcázar and the iconic Giralda tower. After the Reconquista, Seville became Spain’s gateway to the New World, booming as a trade hub in the 16th century. Today, the city buzzes with flamenco rhythms, tapas bars and vibrant festivals like Feria de Abril, while its historic quarter, a UNESCO World Heritage site, draws travelers eager to experience a living tapestry of culture, cuisine and centuries‑old charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "sju": {
+  "name": "San Juan",
+  "text": "San Juan, the glittering capital of Puerto Rico, sits on the northeastern tip of the island where the Atlantic Ocean meets the Caribbean Sea. Founded in 1521 by Spanish explorer Juan Ponce de León, its cobblestone streets echo centuries of colonial forts, vibrant Afro‑Caribbean culture, and the legacy of the first permanent European settlement in the New World. Today, this bustling port city blends historic charm—think colorful Old San Juan and the iconic El Morro—with a modern rhythm of art galleries, gourmet cuisine, and a thriving tech hub. It’s a crossroads of history and innovation, inviting travelers to explore past and present in one unforgettable Caribbean adventure.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "srg": {
+  "name": "Sorong",
+  "text": "Sorong – perched on the western tip of New Guinea, this bustling port city greets you where the warm waters of the Raja Ampat archipelago meet the vast expanse of the Pacific. Once a modest Dutch outpost in the early 1900s, Sorong grew into a strategic gateway during World War II and later became the commercial heart of West Papua. Today it pulses with modern energy: a hub for oil and gas, a launchpad for divers diving into world‑renowned coral reefs, and a cultural crossroads where indigenous traditions mingle with vibrant street markets. Join us as we explore the charm and promise of Sorong, Indonesia’s hidden coastal gem.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "tfs": {
+  "name": "Santa Cruz de Tenerife",
+  "text": "Santa Cruz de Tenerife – perched on the northeast coast of Spain’s sun‑kissed Canary Islands, this vibrant city greets you with volcanic horizons and Atlantic breezes. Founded in the 16th century as a modest port for sugar and wine, it soon blossomed into a bustling gateway for explorers heading to the New World. Today, Santa Cruz is the archipelago’s political and cultural heart, famed for its colorful Carnaval, bustling Mercado de Nuestra Señora de África, and striking modern architecture like the Auditorio de Tenerife. From historic plazas to lively waterfront cafés, the city perfectly blends heritage with contemporary island charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "yok": {
+  "name": "Yokohama",
+  "text": "Yokohama, the bustling port city just a half‑hour train ride south of Tokyo, greets travelers with a perfect blend of sea‑sprayed charm and modern flair. Founded as a modest fishing village, it exploded onto the world stage in 1859 when the Treaty of Kanagawa opened its harbor to foreign trade, sparking the iconic Red Brick Warehouses and the lively foreign‑settlement vibe that still lingers today. Today, Yokohama is Japan’s second‑largest city, a hub of technology, fashion and gastronomy—home to the towering Landmark Tower, the serene Sankeien Garden, and a famed Chinatown that serves up some of the country’s best dumplings. Join us as we explore this dynamic gateway between tradition and tomorrow.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ }
+}
