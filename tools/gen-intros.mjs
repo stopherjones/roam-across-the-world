@@ -9,9 +9,9 @@ import { fileURLToPath } from "url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(root, "data", "intros.json");
 const MODEL = "openai/gpt-oss-120b";
-const PROMPT_VERSION = "intro-v3";
+const PROMPT_VERSION = "intro-v4";
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
-const MAX_TOKENS = 300;          // caps the reply length, and so the tokens each call uses
+const MAX_TOKENS = 400;          // caps the reply length; 300 cut some replies short
 const REASONING_EFFORT = "low";  // less reasoning per call; the reasoning tokens count against the limit
 const PAUSE_MS = 3000;           // short wait between towns
 const RETRIES = 4;               // attempts per town on a rate limit (429) or server error
@@ -27,7 +27,7 @@ function prompt(town, country) {
     "Start with the town's name. Cover where it is, one historical fact you are sure of, and what it is like to visit today.\n" +
     "Use only facts you are confident are accurate. If you are unsure of a date, name or nickname, leave it out.\n" +
     "Write in plain, friendly British English, as one paragraph of about 80 to 100 words.\n" +
-    "Do not use the words 'nestled', 'hidden gem', 'join us', 'bustling', 'vibrant' or 'blends'. No headings, bullet points or quotation marks.";
+    "Do not use the words 'join us'. No headings, bullet points or quotation marks.";
 }
 
 function clean(text) {
@@ -39,7 +39,7 @@ function check(text, name) {
   if (words < 60 || words > 130) return "length " + words + " words";
   const names = [name.split(",")[0].split(" (")[0], (name.match(/\(([^)]+)\)/) || [])[1]].filter(Boolean);
   if (!names.some(n => text.toLowerCase().startsWith(n.toLowerCase().slice(0, 6)))) return "does not start with the town name";
-  if (/nestled|hidden gem|join us|bustling|vibrant|blends/i.test(text)) return "banned phrase";
+  if (/join us/i.test(text)) return "contains 'join us'";
   return null;
 }
 
@@ -119,9 +119,15 @@ async function main() {
   for (const t of todo) {
     if (!DRY && t !== todo[0]) await sleep(PAUSE_MS);
     try {
-      const raw = DRY ? placeholder(t.name) : await groq(prompt(t.name, countries[t.id]));
-      const text = clean(raw);
-      const problem = DRY ? null : check(text, t.name);
+      let text = DRY ? placeholder(t.name) : clean(await groq(prompt(t.name, countries[t.id])));
+      let problem = DRY ? null : check(text, t.name);
+      if (problem && !DRY) {
+        // One retry, telling the model what was wrong with the first reply.
+        console.log("     first reply rejected (" + problem + "), retrying once");
+        await sleep(PAUSE_MS);
+        text = clean(await groq(prompt(t.name, countries[t.id]) + "\nYour previous reply was rejected because: " + problem + ". Write it again."));
+        problem = check(text, t.name);
+      }
       if (problem) { console.log("skip " + t.id + " " + t.name + ": " + problem); continue; }
       existing[t.id] = { name: t.name, text, model: MODEL, prompt: PROMPT_VERSION, generated: new Date().toISOString().slice(0, 10) };
       added++;
