@@ -392,7 +392,7 @@ function planDone(skip){
 }
 function routesPanel(){
  var next=departNeeded()?departChoicesHtml():"<button class='btn' onclick='beginTravel()'>Begin journey</button>";
- return"<div class='panel'><h2>Where to?</h2><p class='mute'>Your journey begins in "+esc(N[S.start].n)+" and ends in "+esc(N[S.goal].n)+".</p><div class='teaser-box'><p class='route-flavour' id='route-flavour' aria-live='polite'>"+esc(routeFlavourFallback(S.start=="lon"?"London":N[S.start].n,N[S.goal].n,S.opts))+"</p><p class='teaser-note'>AI-generated, may not reflect in-game options.</p></div><p class='mute'>Target: arrive by "+stamp(S.target||0)+" to earn the £"+BONUS+" bonus. Choose individual services as you travel.</p>"+next+"</div>"
+ return"<div class='panel'><h2>Where to?</h2><p>Your journey begins in "+esc(N[S.start].n)+" and ends in "+esc(N[S.goal].n)+".</p><p class='mute'>Arrive by "+stamp(S.target||0)+" to earn the £"+BONUS+" bonus and choice of onward destination.</p>"+next+"</div>"
 }
 function bindModes(){
  document.querySelectorAll(".modebar [data-mode]").forEach(function(b){
@@ -404,7 +404,7 @@ function MAPX_MODE(){return window.MAPX&&MAPX.mode?MAPX.mode():"streets"}
 function departNeeded(){return!!(S&&S.phase==="routes"&&!S.departed&&S.loc===S.start&&terms(S.loc).length>1)}
 function departChoicesHtml(){
  var b=terms(S.loc).map(function(g){return"<button class='card' onclick='chooseDepart(\""+g+"\")'><b>"+TV[g]+"</b><span>Set off from the "+TN[g]+" in "+esc(N[S.loc].n)+".</span></button>"}).join("");
- return"<h3>Choose where to set off</h3><p class='mute mb10'>The routes available depend on your departure terminal.</p>"+b
+ return"<p class='mb10'>Choose your departure terminal to see what route options are available from "+esc(N[S.loc].n)+":</p>"+b
 }
 function chooseDepart(g){if(!S||S.phase!=="routes")return;S.term=g;S.departed=1;S.opts=routeOptions(S.budget);S.target=targetFor(routePool(S.budget),S.opt);beginTravel()}
 function beginTravel(){
@@ -1146,7 +1146,7 @@ function render(msg){
  }
  h+="</section><section class='game-panel' data-game-panel='journal' aria-label='Travel journal'>"+journalPanelHtml()+"</section><section class='game-panel' data-game-panel='inventory' aria-label='Money and inventory'>"+inventoryPanelHtml()+"</section></div>";
  if(mapped)h+="</div>";
- var app=document.getElementById("app");app.classList.add("wide");app.innerHTML=h;setHdrVar();mountTimeline();animateClock(LAST_CLOCK,clockText());LAST_CLOCK=clockText();drawMap();bindPanels();bindModes();fillFlavour();fillRouteFlavour();if(S&&(S.phase=="lastmile"||S.phase=="interim")&&!S.over)LM.attach(document.getElementById("lm"))
+ var app=document.getElementById("app");app.classList.add("wide");app.innerHTML=h;setHdrVar();mountTimeline();animateClock(LAST_CLOCK,clockText());LAST_CLOCK=clockText();drawMap();bindPanels();bindModes();fillFlavour();if(S&&(S.phase=="lastmile"||S.phase=="interim")&&!S.over)LM.attach(document.getElementById("lm"))
 }
 // Startup: show the start screen straight away; if a campaign is saved, load its regions first, then resume it
 load();
