@@ -6,6 +6,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "aer": {
+  "name": "Sochi",
+  "text": "Sochi sits on the sunny shores of the Black Sea at the foot of the Caucasus mountains, in Russia’s Krasnodar Krai region, stretching over a narrow strip of coastline that feels both seaside and alpine. It first rose to prominence in the late-19th century as a health resort for the Russian aristocracy, and today it is perhaps best remembered for hosting the 2014 Winter Olympics, which transformed its infrastructure and skyline. Visitors can wander palm-lined promenades, take a cable-car up to the ski slopes of the nearby mountains, and enjoy a blend of modern hotels, lively cafés and historic Soviet-era architecture, all under a mild climate that makes it a year-round destination.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
  "ahw": {
   "name": "Ahvaz",
   "text": "Ahvaz sits on the banks of the Karun River in southwestern Iran, near the border with Iraq and the Persian Gulf. It is the capital of Khuzestan province and has long been a key centre for Iran’s oil industry, with the first oil well in the country drilled nearby in 1908. Today the city offers a striking mix of modern high-rises and traditional bazaars, while the wide river promenade provides a pleasant place to watch the flow of the Karun and enjoy local cafés serving spicy kebabs and sweet, rose-flavoured tea.",
@@ -62,6 +69,13 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "cwb": {
+  "name": "Curitiba",
+  "text": "Curitiba, the capital of the Brazilian state of Paraná, lies in the south-central part of the country about 400 km west of the coastal city of Florianópolis. The town began as a modest settlement in 1693 and was designated the state capital in 1853, later becoming renowned for its pioneering urban planning and extensive green spaces. Today visitors find a clean, well-organised city with an efficient bus network, striking modernist architecture, and a network of parks and tree-lined avenues; highlights include the glass-capped Botanical Garden, the bustling farmers’ market at Rua das Flores, and a vibrant culinary scene that blends traditional Brazilian flavours with European influences.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
  "dzo": {
   "name": "Mayotte (Dzaoudzi)",
   "text": "Mayotte (Dzaoudzi) – a tiny jewel nestled in the heart of the Indian Ocean, just north of Madagascar and off the coast of Mozambique. Once a strategic stop for Arab traders and later a French colony in the 19th century, it became an overseas department of France in 2011, blending African, Malagasy and European influences. Today, Dzaoudzi, the former capital, welcomes visitors with turquoise lagoons, lush volcanic hills and a vibrant Creole culture. From bustling markets to pristine marine parks, Mayotte offers a unique glimpse of French‑administered paradise where tradition meets modernity on every sun‑kissed shore.",
@@ -83,11 +97,32 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "fln": {
+  "name": "Florianopolis",
+  "text": "Florianópolis, the capital of Brazil’s southern state of Santa Catarina, sits on the island of Santa Catarina and a thin strip of the mainland opposite the mainland city of São José. The town was founded by the Portuguese in 1673 as Nossa Senhora do Desterro and later renamed after the explorer Floriano Pereira. Today the city is a laid-back seaside haven, famed for its more than forty beaches that range from lively surf spots to tranquil coves, a bustling market of fresh seafood, colourful colonial streets and a vibrant nightlife that spills onto the sand at sunset.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
  "fnc": {
   "name": "Funchal",
   "text": "Funchal—nestled on the sun‑kissed southern coast of Portugal’s Madeira Island, this vibrant capital greets you with a tapestry of cliffs, turquoise bays and fragrant gardens. Founded in the early 15th century by Portuguese explorers, it grew from a modest fishing village into a crucial Atlantic hub for sugar, wine and later tourism. Today, Funchal dazzles visitors with its historic cobblestone streets, colorful market stalls, and a lively waterfront lined with cafés, museums and the famed cable‑car that climbs to Monte’s lush terraces. It’s a blend of old‑world charm and modern island energy—perfect for the curious traveler.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
+  "generated": "2026-11-01"
+ },
+ "ftz": {
+  "name": "Fortaleza",
+  "text": "Fortaleza, the bustling coastal capital of Brazil’s Ceará state, sits on a wide, sandy bay on the Atlantic Ocean. Founded in the early 17th century as a Portuguese fort to protect the region from French incursions, the city still bears the imprint of its colonial past in the historic centre and the nearby Forte de Nossa Senhora da Assunção. Today visitors are greeted by a lively promenade lined with palm-fringed beaches, vibrant markets selling tropical fruit and handcrafted jewellery, and a thriving nightlife that spills from beach bars into colourful street festivals, all under a warm, sunny sky.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
+ "goi": {
+  "name": "Goiania",
+  "text": "Goiania, the vibrant capital of the Brazilian state of Goiás, lies in the heart of the country’s interior, about 200 km south-west of Brasília. Planned from scratch in the early 1930s, it officially became the state capital in 1937, replacing the historic town of Goiás Velho and sparking rapid growth. Today the city dazzles visitors with its wide, tree-lined avenues, striking modernist buildings such as the colourful Praça Cívica designed by Oscar Niemeyer, and a lively cultural scene that includes bustling markets, lively cafés and the nearby Parque Vaca Brava, a favourite spot for picnics and bird-watching.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
  "gra": {
@@ -104,11 +139,25 @@
   "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
+ "hgh": {
+  "name": "Hangzhou",
+  "text": "Hangzhou, a city in eastern China’s Zhejiang province, lies on the banks of the Qiantang River at the foot of the famous West Lake. It has been celebrated since the Tang dynasty as a capital of the Southern Song, when emperors built the picturesque gardens and temples that still inspire poets today. Modern visitors find a blend of ancient charm and sleek development: you can stroll among lotus-filled waters, sip longjing tea in historic teahouses, and then hop on a high-speed train or explore vibrant tech parks and bustling night markets, all within a city famed for its natural beauty and hospitality.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
  "hmn": {
   "name": "Hamilton, Bermuda",
   "text": "Hamilton, the capital of Bermuda, sits on the island’s central south coast overlooking Hamilton Harbour. Laid out in 1790 and named for Governor Sir Henry Hamilton, it quickly became the island’s administrative centre, replacing the older capital at St George’s. Landmarks such as the mid-nineteenth-century Cathedral of the Most Holy Trinity and the Bermuda National Museum echo its maritime and colonial past. Today the city blends pastel-coloured storefronts, a bustling harbour filled with cruise ships, and a thriving financial district, offering visitors a lively mix of heritage and modern island life.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
+  "generated": "2026-11-01"
+ },
+ "hrg": {
+  "name": "Hurghada",
+  "text": "Hurghada is a bustling seaside town on Egypt’s Red Sea coast, about 500 km southeast of Cairo. Originally a small fishing village, it grew rapidly after the 1970s when the government promoted tourism along the Red Sea, and today it is a major gateway for diving and beach holidays. The town’s promenade is lined with cafés, souvenir stalls and modern hotels, while the crystal-clear waters host vibrant coral reefs teeming with marine life. Visitors can spend the day lounging on golden sands, exploring nearby desert dunes on a quad bike, or hopping on a boat to snorkel among colourful fish and ancient shipwrecks.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
  "ibd": {
@@ -118,11 +167,32 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "jos": {
+  "name": "Jos",
+  "text": "Jos, perched on the Jos Plateau in the heart of Nigeria’s middle belt, sits at about 1,200 metres above sea-level, giving it a noticeably cooler climate than much of the country. The town grew in the early 1900s as a British colonial hill station and soon became the centre of the country’s tin-mining boom, a legacy still hinted at in the old mines and the colourful displays at the National Museum. Today visitors find a pleasant mix of bustling markets, craft shops and relaxed cafés, with easy trips to nearby wildlife parks and scenic high-land walks that showcase the region’s distinctive pine-covered hills.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
  "kgf": {
   "name": "Karaganda",
   "text": "Karaganda, a city in central Kazakhstan, lies on the steppe about 230 kilometres south-east of the capital Astana. It grew rapidly in the 1930s when Soviet authorities developed large coal mines in the region, turning the former settlement into an industrial centre. Today the city offers a mix of Soviet-era architecture and modern amenities: visitors can explore the striking Karaganda Regional Museum, stroll along the wide avenues lined with statues and fountains, and enjoy the nearby parklands that provide a pleasant contrast to the surrounding flat landscape. The friendly locals and hearty Kazakh cuisine make a stop here a memorable part of any Central Asian itinerary.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
+ "kmn": {
+  "name": "Kerman",
+  "text": "Kerman, a sprawling city in south-central Iran, sits at the foot of the Zagros mountains about 1,600 km southeast of Tehran. It has long been a key stop on historic trade routes, famously serving as a caravan hub for the Silk Road and home to the 12th-century Jameh Mosque, one of the region’s oldest surviving religious sites. Today the city blends ancient charm with modern bustle: narrow bazaars spill colourful spices and pistachios, rooftop cafés offer views of the stark desert beyond, and the nearby Lut Desert, a UNESCO World Heritage site, draws adventurers seeking surreal, sun-scorched landscapes.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
+ "kuf": {
+  "name": "Samara",
+  "text": "Samara, Russia, sits on the right bank of the Volga River where it meets the Samara River, about 900 km southeast of Moscow. Founded in the late 16th century, the city grew into a key ship-building centre and later became an important industrial hub during the Soviet era. Today it feels spacious and modern, with wide boulevards lined by leafy parks and striking Soviet-era architecture alongside trendy cafés and riverfront promenades. Visitors can stroll along the embankment for panoramic views of the Volga, explore the lively waterfront market, and enjoy the blend of historic museums and vibrant cultural life that gives Samara its friendly, contemporary vibe.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
  "lpg": {
@@ -139,11 +209,32 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "mmk": {
+  "name": "Murmansk",
+  "text": "Murmansk sits on the Kola Bay at the entrance to the Barents Sea, far above the Arctic Circle on Russia’s north-western coast. Founded in 1916 as a supply port for the war effort, it became the only ice-free harbour in the Soviet north, playing a crucial role in both World Wars and the Cold War naval fleet. Today the city greets visitors with colourful wooden houses, a bustling waterfront promenade, and the striking Alyosha monument overlooking the sea. In summer the midnight sun brightens the streets, while winter offers chances to see the Northern Lights and sample hearty Arctic cuisine in cosy cafés.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
  "mqx": {
   "name": "Mekelle",
   "text": "Mekelle, the capital of Ethiopia’s Tigray Region, lies on the high plateau of northern Ethiopia at about 2,500 metres above sea level, roughly 780 km north-north-east of Addis Ababa. Historically it was the seat of Emperor Yohannes IV, who ruled the country from the late 19th century until his death in 1889, and it later became an important administrative centre during the Imperial era. Today the city offers a lively market where traders display woven textiles, spices and coffee",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
+ "mta": {
+  "name": "Matadi",
+  "text": "Matadi, a bustling port town on the western edge of the Democratic Republic of the Congo, sits at the mouth of the Congo River about 150 km from Kinshasa and just a short distance from the Atlantic coast. Founded in the early 1880s as a key terminus for the railway that linked the interior to the sea, it grew into the country’s main gateway for imports and exports. Today visitors find a lively waterfront lined with colourful markets, colonial-era buildings and lively cafés, while the humid climate and constant river traffic give the town a vibrant, slightly chaotic charm that feels both historic and unmistakably modern.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
+ "nkg": {
+  "name": "Nanjing",
+  "text": "Nanjing, situated on the lower reaches of the Yangtze River in eastern China, was the capital of several Chinese dynasties and the seat of the early Republic of China, famously hosting the 1912 provisional government. Today the city blends its deep history with a lively modern vibe: you can wander along the historic city wall, explore the solemn Memorial Hall of the Nanjing Massacre, and then relax in bustling pedestrian streets lined with cafés, boutique shops and neon-lit skyscrapers. The surrounding Qinhuai River area offers charming lantern-lit night walks, while nearby Purple Mountain provides peaceful trails and spectacular views over the urban landscape.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
  "npr": {
@@ -167,6 +258,20 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "pee": {
+  "name": "Perm",
+  "text": "Perm lies on the banks of the wide, winding Kama River at the western foothills of the Ural Mountains, marking the traditional divide between European and Asian Russia. It was founded in 1723 as a modest settlement serving the salt-mining industry and grew into a key industrial hub during the 19th-century railway boom. Today the city offers a lively mix of cultural attractions – the striking Perm Opera and Ballet Theatre, the contemporary art-filled Perm Museum of Contemporary Art, and the open-air Koltushi Park – alongside cosy cafés and bustling markets, making a pleasant base for exploring both river scenery and the surrounding forested hills.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
+ "poa": {
+  "name": "Porto Alegre",
+  "text": "Porto Alegre lies on the eastern bank of the Guaíba estuary in southern Brazil, at the foothills of the Serra Gaúcha. Founded in 1769 as a Portuguese military outpost, it later became the capital of the state of Rio Grande do Sul and a key centre for the gaucho culture that blends European, Indigenous and African influences. Today the city feels lively and cosmopolitan, with tree-lined avenues, bustling cafés and a vibrant arts scene; the historic centre offers colonial architecture, while the waterfront parks provide relaxed views of the water and a chance to sample the region’s famous barbecues and wine.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
  "rak": {
   "name": "Marrakech",
   "text": "Marrakech, situated in the western foothills of the Atlas Mountains in southern Morocco, has been a centre of trade and culture since it was founded in the 11th century by the Almoravid dynasty. The city's historic medina, a UNESCO World-heritage site, still contains the famous Koutoubia Mosque and the lively Jemaa el-Fna square, where storytellers, musicians and food stalls create a sensory feast each evening. Today visitors can wander narrow souks selling spices, textiles and ceramics, enjoy rooftop cafés overlooking the red-sandstone walls, and take short trips to nearby gardens and desert landscapes, making it a memorable stop on any North-African itinerary.",
@@ -179,6 +284,13 @@
   "text": "Recife, the capital of Pernambuco on Brazil’s north-eastern Atlantic coast, sits where the Capibaribe River meets the sea and is criss-crossed by a network of historic waterways. In the 17th century the city was seized by the Dutch, who held it from 1630 until the Portuguese reconquest in 1654, leaving a legacy of forts and Dutch-style architecture in the neighbourhood of Recife Antigo. Today visitors can stroll along colourful colonial streets, watch the sunrise over Boa Viagem beach, sample lively frevo music in the streets, and enjoy riverside cafés while watching colourful boats glide through the canals.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
+ "rnd": {
+  "name": "Rostov-on-Don",
+  "text": "Rostov-on-Don sits on the western bank of the Don River in southern Russia, a gateway to the vast steppe and the Black Sea coast. Founded in the mid-18th century as a fortress to protect the empire’s southern frontier, it grew into a bustling trade hub and today it buzzes with a lively mix of history and modernity. Visitors can wander the wide embankment lined with cafés, explore the striking Rostov Kremlin and its golden domes, and soak up the vibrant atmosphere of markets selling everything from fresh fish to traditional crafts, all under a warm, sun-lit sky.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
  "rtr": {
@@ -223,11 +335,32 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "tof": {
+  "name": "Tomsk",
+  "text": "Tomsk lies in western Siberia, on the banks of the Tom River about 650 km east of the Ural Mountains and roughly 2 000 km northeast of Moscow. Founded in 1604 as a fort on the Siberian trade route, it is one of the oldest towns in the region and today hosts Russia’s first university, established in 1888. Visitors find a lively mix of historic wooden houses, leafy avenues and modern cafés, while the riverfront offers pleasant walks and occasional boat trips. Museums, theatres and a vibrant student community give the city a youthful, cultural buzz that contrasts pleasantly with its frontier heritage.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
  "tzx": {
   "name": "Trabzon",
   "text": "Trabzon sits on the Black Sea coast of north-eastern Turkey, framed by lush hills and the Pontic Mountains. Founded as the Greek colony Trapezus in the 8th century BC, it later became an important stop on the Silk Road and the site of the famous Sumela Monastery, perched on a cliff overlooking the surrounding forest. Today the city offers a pleasant mix of sea-front promenades, lively fish markets and Ottoman-era tea houses where you can sample the local Black Sea tea. The backdrop of mist-y mountains and the scent of fresh seafood make a visit both relaxing and memorable.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
+  "generated": "2026-11-01"
+ },
+ "ufa": {
+  "name": "Ufa",
+  "text": "Ufa, the capital of Bashkortostan in the western foothills of the Ural Mountains, sits on the banks of the Belaya River about 1,200 km east of Moscow. Founded in 1574 as a Russian fortress, it later became an important centre for oil production in the early 20th century, shaping its industrial heritage. Today the city blends Soviet-era architecture with vibrant cultural life: you can stroll along the river promenade, explore the colourful Bashkir State Museum, and sample hearty Tatar and Bashkir cuisine in bustling cafés, while the surrounding hills offer easy hikes and a refreshing contrast to the urban bustle.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-01"
+ },
+ "yks": {
+  "name": "Yakutsk",
+  "text": "Yakutsk, perched on the banks of the Lena River in the heart of Siberia, is the capital of the Sakha Republic and one of the world’s coldest cities, where winter temperatures regularly plunge below –40 °C. Founded in 1632 as a Russian outpost, it grew into a centre for the fur trade and later for diamond mining, which still fuels the local economy. Today the town is a surprising blend of modernity and tradition: colourful wooden houses line lively streets, museums showcase indigenous Yakut culture, and a hearty cuisine of reindeer and fish warms visitors after a crisp, clear-air stroll beneath snow-capped hills.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
  "yok": {
