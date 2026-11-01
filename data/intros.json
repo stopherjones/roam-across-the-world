@@ -8,9 +8,9 @@
  },
  "bfn": {
   "name": "Bloemfontein",
-  "text": "Bloemfontein, nestled in the heart of South Africa’s Free State province, sits at the crossroads of the Vaal and Modder rivers, earning its nickname “the City of Roses.” Founded in 1846 as a British outpost, it grew from a modest military camp into the nation’s judicial capital, housing the Supreme Court of Appeal. Today, Bloemfontein blends historic charm with modern vibrancy—its leafy avenues, thriving university scene, and cultural festivals draw visitors and scholars alike. From its iconic oak-lined streets to the bustling markets, the city remains a pivotal hub of law, education, and South African heritage.",
+  "text": "Bloemfontein, the judicial capital of South Africa and the heart of the Free State province, began as a British outpost in 1846 and soon became the capital of the Orange Free State republic in 1854. Today the city blends historic charm with a lively university atmosphere, boasting the University of the Free State, the National Museum and the famous rose gardens that give it the nickname “City of Roses”. Its wide avenues, bustling markets and nearby wildlife reserves make it a pleasant base for exploring the central plains and the surrounding Karoo.",
   "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v1",
+  "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
  "bnn": {
@@ -57,16 +57,16 @@
  },
  "gur": {
   "name": "Guiria",
-  "text": "Guiria – a charming coastal town perched on the northeastern tip of Venezuela’s Paria Peninsula, where the Caribbean Sea meets the Gulf of Paria. Founded in the early 18th century as a modest fishing outpost, Guiria grew into a bustling port, serving as a gateway for cocoa, coffee and later oil shipments. Today, it blends historic cobblestone streets and colonial churches with a vibrant cultural scene: colorful festivals, fresh seafood markets, and eco‑tourism adventures along pristine beaches and nearby rainforests. Whether you’re savoring a sunrise over the water or exploring its rich heritage, Guiria invites travelers to experience the soul of Venezuela’s coastal legacy.",
+  "text": "Guiria sits on the Caribbean coast of eastern Venezuela, the capital of Valdez Municipality in Sucre state. Founded in the mid-eighteenth century, it soon became a vital cacao-export port and later served as a naval point during the Venezuelan War of Independence. Today the town is a colourful blend of colonial houses, lively markets and a promenade lined with fresh-seafood stalls, while its beaches attract both locals and visitors seeking sun and gentle surf. The warm, relaxed atmosphere reflects its fishing heritage and growing tourism.",
   "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v1",
+  "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
  "hmn": {
   "name": "Hamilton, Bermuda",
-  "text": "Hamilton, Bermuda, the island’s bustling capital perched on the northeastern shore of the Main Island, lies just 640 miles east of North Carolina. Founded in 1790 and named for Sir Henry Hamilton, the town grew around a natural harbor that once sheltered Royal Navy ships and thriving sugar plantations. Today, Hamilton blends pastel colonial buildings with sleek waterfront promenades, hosting vibrant festivals, world‑class museums, and a thriving financial‑services sector. Visitors wander the lively Front Street, sip rum‑flavored cocktails at historic pubs, and enjoy crystal‑clear waters, discovering why Hamilton remains a charming gateway between the Atlantic and the Caribbean.",
+  "text": "Hamilton, the capital of Bermuda, sits on the island’s central south coast overlooking Hamilton Harbour. Laid out in 1790 and named for Governor Sir Henry Hamilton, it quickly became the island’s administrative centre, replacing the older capital at St George’s. Landmarks such as the mid-nineteenth-century Cathedral of the Most Holy Trinity and the Bermuda National Museum echo its maritime and colonial past. Today the city blends pastel-coloured storefronts, a bustling harbour filled with cruise ships, and a thriving financial district, offering visitors a lively mix of heritage and modern island life.",
   "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v1",
+  "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
  "ibd": {
@@ -85,9 +85,9 @@
  },
  "npr": {
   "name": "Napier",
-  "text": "Napier – perched on the sparkling Hawke’s Bay coastline of New Zealand’s North Island, this sun‑kissed city lies just 300 km east of Wellington. Founded in the 1850s, Napier was reborn after the devastating 1931 earthquake, giving rise to the world’s largest Art Deco precinct, where pastel façades and streamlined geometry still charm visitors. Today, Napier thrives as a foodie haven—famous for its award‑winning vineyards and fresh seafood—while serving as a gateway to adventure, from surf‑laden beaches to the nearby Te Mata Peak. Join us as we explore this vibrant blend of history, culture, and natural beauty.",
+  "text": "Napier, perched on the edge of Hawke Bay on New Zealand’s North Island, first grew as a modest 19th-century settlement before a devastating magnitude-7.8 earthquake in 1931 razed much of the town. The rebuilding gave it the world-renowned Art Deco façade that still lines its streets, making it a living museum of the style. Today the city buzzes with cafés, boutique shops and vibrant markets, while its sun-washed beaches and nearby vineyards draw both locals and travellers seeking fine wine, coastal walks and a taste of heritage.",
   "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v1",
+  "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
  "pdl": {
@@ -99,23 +99,23 @@
  },
  "rtr": {
   "name": "Rotorua",
-  "text": "Rotorua, nestled on New Zealand’s North Island, sits on the edge of the massive Taupō Rift—an active volcanic zone that gifts the town its steaming lakes, geysers and sulphur‑scented air. Once a Māori stronghold, the area was home to the powerful Te Arawa iwi, whose rich traditions are still celebrated in the famed hangi feasts and cultural performances. Today Rotorua is a world‑renowned playground for adventure seekers and nature lovers, offering everything from mud‑bath spas and forest zip‑lines to geothermal wonders and thriving arts festivals. Come for the steam, stay for the spirit.",
+  "text": "Rotorua, situated in the heart of New Zealand’s North Island within the Bay of Plenty region and set on the southern shore of Lake Rotorua, has been a centre of Māori life for centuries, home to the Te Arawa iwi. European visitors arrived in the 1860s and the town was declared a tourist resort in 1882, recognising its dramatic geysers and sulphur springs. Today the city blends geothermal landscapes, thriving Māori cultural performances, lake-front cafés and adventure activities, making it a lively destination for travellers seeking natural wonder and authentic New Zealand hospitality.",
   "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v1",
+  "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
  "sev": {
   "name": "Seville",
-  "text": "Seville, the sun‑kissed jewel of southern Spain, sits on the banks of the Guadalquivir River in the heart of Andalusia. Founded by the Romans as Hispalis, it later flourished under Moorish rule, leaving behind the intricate arches of the Alcázar and the iconic Giralda tower. After the Reconquista, Seville became Spain’s gateway to the New World, booming as a trade hub in the 16th century. Today, the city buzzes with flamenco rhythms, tapas bars and vibrant festivals like Feria de Abril, while its historic quarter, a UNESCO World Heritage site, draws travelers eager to experience a living tapestry of culture, cuisine and centuries‑old charm.",
+  "text": "Seville, situated on the banks of the Guadalquivir in the heart of Andalusia, was known to the Romans as Hispalis and later became the dazzling capital of Moorish Al-Andalus, its grand Giralda originally a minaret. Today the city blends its grand cathedral, the world’s largest Gothic church, with a lively tapas bar scene, bustling orange-tree lined plazas and nightly flamenco performances, while the annual Feria de Abril fills the streets with colour and music, making it a vibrant crossroads of history and modern Spanish life and warm hospitality for all.",
   "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v1",
+  "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
  "sju": {
   "name": "San Juan",
-  "text": "San Juan, the glittering capital of Puerto Rico, sits on the northeastern tip of the island where the Atlantic Ocean meets the Caribbean Sea. Founded in 1521 by Spanish explorer Juan Ponce de León, its cobblestone streets echo centuries of colonial forts, vibrant Afro‑Caribbean culture, and the legacy of the first permanent European settlement in the New World. Today, this bustling port city blends historic charm—think colorful Old San Juan and the iconic El Morro—with a modern rhythm of art galleries, gourmet cuisine, and a thriving tech hub. It’s a crossroads of history and innovation, inviting travelers to explore past and present in one unforgettable Caribbean adventure.",
+  "text": "San Juan, the capital of Puerto Rico, sits on the island’s north-eastern coast overlooking the Atlantic. Founded by Spanish colonists in 1521, the city grew around the fortified walls of Old San Juan, where the 16th-century Castillo San Felipe del Morro and the massive San Cristóbal fort still dominate the skyline. Today it blends historic cobblestones with a waterfront, trendy cafés and an arts scene, while its beaches and colourful street life attract visitors from around the world. The mix of colonial charm and energy makes it an unforgettable destination.",
   "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v1",
+  "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
  "srg": {
