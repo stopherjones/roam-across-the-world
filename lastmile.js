@@ -6,7 +6,10 @@ var HINT_H=.25;
 function hav(a,b,c,d){var r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return Math.sqrt(x*x+y*y)*6371000}
 function bearingWord(a,b,c,d){var r=Math.PI/180,x=(d-b)*Math.cos((a+c)/2*r),y=c-a,g=(Math.atan2(x,y)/r+360)%360;return["north","north-east","east","south-east","south","south-west","west","north-west"][Math.round(g/45)%8]}
 // Delay on the last mile: no delay within 100 m, then one minute for every 10 m beyond that
-function lostHours(m){return Math.max(0,m-100)/10/60}
+// Time lost for a guess this many metres from the photo's spot.
+// Steep for the first 1 to 2 km, levelling off after a few km, capped at 6 hours.
+// Up to 100 m is free. At 0.5 km about 2.0 h, at 1 km about 3.6 h, at 2 km about 5.1 h, at 4 km about 5.9 h.
+function lostHours(m){return 6*(1-Math.exp(-Math.max(0,m-100)/1000))}
 function tier(m){return m<50?"Spot on":m<250?"Nearly there":m<1000?"Lost for a while":"Wandered half the city"}
 function mins(h){var m=Math.round(h*60);return m<60?m+" min":Math.floor(m/60)+" h "+(m%60)+" min"}
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
@@ -147,7 +150,9 @@ function start(cfg,onDone){
    return ensureMap()
   }).then(function(){
    var a=Math.random()*2*Math.PI,off=800+Math.random()*1500,c=[cfg.lon+Math.sin(a)*off/(111000*Math.cos(cfg.lat*Math.PI/180)),cfg.lat+Math.cos(a)*off/111000];
-   map.setMaxBounds([[cfg.lon-.2,cfg.lat-.12],[cfg.lon+.2,cfg.lat+.12]]);
+   // Pan limits: about 33 km around the town, wide enough for the landmark search (see getLandmark).
+   var mLat=0.3,mLon=0.3/Math.max(0.2,Math.cos(cfg.lat*Math.PI/180));
+   map.setMaxBounds([[cfg.lon-mLon,cfg.lat-mLat],[cfg.lon+mLon,cfg.lat+mLat]]);
    map.resize();map.jumpTo({center:c,zoom:12.5});setMode(mode);
    if(R.clueMode=="free")Object.keys(CLUES).forEach(addClue);
    renderClues()
