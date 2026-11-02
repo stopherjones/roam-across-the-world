@@ -4,9 +4,13 @@
 
 var TL_PROXY = "https://groq-proxy.chrisjones59.workers.dev/chat/completions";
 var TL_MODEL = "openai/gpt-oss-120b";
-var TL_POINTS = 10;   // a card placed correctly first time
-var TL_PENALTY = 1;   // each wrong guess on that card
-var TL_MIN = 1;       // a card never scores less than this
+// Scoring per card. A card is worth TL_STEPS[n], where n is the number of wrong guesses
+// made on that card before it was placed. The last value is the floor: 4 or more wrong
+// guesses still score this much, so no card scores less than 1.
+// Each card is worth at most TL_STEPS[0] (20), so a perfect round of 9 cards is 180 points.
+// Points are paid out as pounds, one point per pound (see awardTimeline in town.js).
+var TL_STEPS = [20, 10, 5, 2, 1];
+var TL_POINTS = TL_STEPS[0];   // the most a card can be worth
 var TL_CACHE = {};    // events by city, kept for the session so reopening does not call the model again
 
 function tlPrompt(city) {
@@ -90,13 +94,14 @@ function timelineActivity(container, city, onClose, onFinish) {
   function say(text, kind) { message.className = "tl-message" + (kind ? " " + kind : ""); message.textContent = text; }
 
   var cardIdx = function () { return pos < deck.length ? deck[pos] : null; };
-  var scoreOf = function (idx) { return Math.max(TL_MIN, TL_POINTS - TL_PENALTY * (wrong[idx] || 0)); };
+  var scoreOf = function (idx) { return TL_STEPS[Math.min(wrong[idx] || 0, TL_STEPS.length - 1)]; };
   var maxPoints = function () { return (events.length - 1) * TL_POINTS; };
   // The given first card is not scored. A wrong guess on the card in hand comes off straight away.
   var totalPoints = function () {
     var placedScore = placed.filter(function (i) { return i !== deck[0]; }).reduce(function (s, i) { return s + scoreOf(i); }, 0);
     var h = cardIdx();
-    return placedScore - (h !== null && !finished ? TL_PENALTY * (wrong[h] || 0) : 0);
+    // The card in hand loses its points straight away, so the total reflects its wrong guesses.
+    return placedScore - (h !== null && !finished ? TL_POINTS - scoreOf(h) : 0);
   };
   // Is the card in hand correct in gap g? Only its two neighbours matter.
   var fits = function (idx, g) {
@@ -128,7 +133,7 @@ function timelineActivity(container, city, onClose, onFinish) {
     } else {
       wrong[idx] = (wrong[idx] || 0) + 1;
       tried[g] = true;
-      say("Not there. −" + TL_PENALTY + " point. The red × marks a gap that's already wrong.", "bad");
+      say("Not there. This card is now worth " + scoreOf(idx) + " points. The red × marks a gap that's already wrong.", "bad");
       render(false);
     }
   }

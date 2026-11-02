@@ -11,7 +11,7 @@ var MK_BAND_NEUTRAL={character:"No clear character, so buyers want things in the
 var MK_CAP=6;
 
 // Stranded: no onward fare is affordable and no checkpoint work is open. The leg ends here as a rest day, and the next income is smaller
-var STRANDED_INCOME=200;
+var STRANDED_INCOME=50;
 
 function mkRand(){var parts=Array.prototype.slice.call(arguments),a=mkHash(parts.join("|"));a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}
 

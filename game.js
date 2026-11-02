@@ -650,7 +650,7 @@ function stay(k){
 }
 function look(){S.h+=.3;S.rev[S.loc+S.term]=1;say(clk(S.h)+": You ask around and check timetables at "+N[S.loc].n+".");render()}
 // Campaign: each new leg gives a fixed income on top of any money carried over from the last leg. Tune here.
-var INCOME=250,BONUS=150,PLAN_ALLOW=1.5,LM_ALLOW=1.5,NEXT_CAMP=null;
+var INCOME=50,BONUS=150,PLAN_ALLOW=1.5,LM_ALLOW=1.5,NEXT_CAMP=null;
 // Target: the median of the reasonable routes plus a planning allowance. Arriving by then earns BONUS on top of INCOME.
 // Interim checkpoint work: at a culture-4+ city you can stop for a photo challenge. It costs 2 hours whatever the result.
 // Payout: £100 for a spot-on guess, falling to £50 at 2 km out. A city pays out once per campaign, and only one stop per leg.
