@@ -27,6 +27,13 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "amd": {
+  "name": "Ahmedabad",
+  "text": "Ahmedabad, situated in the western Indian state of Gujarat along the Sabarmati River, is a bustling metropolis famed for its rich heritage and vibrant street life. Founded in the 15th century by Sultan Ahmed Shah, the city’s historic walled centre, the Pol, still houses intricately carved havelis, bustling bazaars and the striking Jama Masjid. Today visitors can wander through the UNESCO-listed old city, savour delicious Gujarati thalis, explore the tranquil Sabarmati Ashram where Mahatma Gandhi once lived, and admire contemporary art at the Calico Museum, all amid a lively mix of modern cafés and colourful festivals.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
  "ayt": {
   "name": "Antalya",
   "text": "Antalya, a coastal city on Turkey’s southwestern Mediterranean shore, sits at the foot of the Taurus Mountains and enjoys a mild climate year-round. It has been a gateway to the ancient region of Pamphylia since Roman times, with the well-preserved ruins of Hadrian’s Gate marking the old city’s entrance. Today the promenade along Konyaaltı Beach is lined with cafés, boutique shops and lively street performers, while the historic Kaleiçi district offers winding lanes, Ottoman houses and rooftop terraces that overlook the sparkling sea, making a stroll feel both relaxed and full of discovery.",
@@ -40,6 +47,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
   "generated": "2026-11-01"
+ },
+ "bho": {
+  "name": "Bhopal",
+  "text": "Bhopal, the capital city of Madhya Pradesh in central India, sits on the fertile banks of the Upper Lake and Lower Lake, giving it the nickname “City of Lakes”. It was founded in the early 18th century by the Afghan ruler Dost Mohammad Khan, who established the princely state of Bhopal that later became known for its progressive female rulers in the 20th century. Today the city blends historic charm with modern bustle: you can wander through the elegant Taj-ul-Masjid, explore the well-preserved Bhimbetka rock-shelter caves nearby, and relax by the tranquil lakeside promenades, all while enjoying lively markets, tasty street food and a welcoming atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
  },
  "bjr": {
   "name": "Bahir Dar",
@@ -68,6 +82,20 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "cok": {
+  "name": "Kochi",
+  "text": "Kochi, a bustling coastal city in the southwestern Indian state of Kerala, sits on a network of islands and the Arabian Sea, where the historic harbour still echoes its centuries-old role in the spice trade. The Portuguese were the first Europeans to establish a fort here in 1503, later succeeded by the Dutch and the British, leaving a mix of colonial architecture and temples that line the streets of Fort Kochi. Today the city blends the old and the new: you can wander past the iconic Chinese fishing nets, sip coffee in chic cafés, explore lively markets and cruise the serene backwaters, all beneath a warm, tropical climate.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
+ "csx": {
+  "name": "Changsha",
+  "text": "Changsha, the capital of Hunan province in south-central China, sits on the banks of the Xiang River about 300 km south of Wuhan. It was the base of the early 20th-century revolutionary leader Mao Zedong, who organised the famous Autumn Harvest Uprising there in 1927. Today the city blends modern skyscrapers with lively historic streets: you can wander the bustling Huangxing Road shopping district, savour spicy Hunan cuisine at night markets, and take a leisurely stroll through the ancient Yuelu Academy and its leafy hill, while the riverfront promenade offers views of illuminated bridges and a vibrant river-cruise scene.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
  },
  "cwb": {
   "name": "Curitiba",
@@ -118,6 +146,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "gau": {
+  "name": "Guwahati",
+  "text": "Guwahati, the bustling gateway to Northeast India, sits on the south bank of the Brahmaputra River in the state of Assam. It grew around the ancient Kamakhya Temple, a revered Shakti shrine that has attracted pilgrims for centuries and was mentioned in early medieval texts. Today the city blends modern cafés, colourful markets and leafy riverfront promenades, offering river cruises, wildlife parks and easy trips to nearby tea-plantation hills. Visitors enjoy the lively blend of Assamese culture, the aroma of fresh tea, and the backdrop of mist-shrouded hills rising beyond the flowing Brahmaputra.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
  "goi": {
   "name": "Goiania",
   "text": "Goiania, the vibrant capital of the Brazilian state of Goiás, lies in the heart of the country’s interior, about 200 km south-west of Brasília. Planned from scratch in the early 1930s, it officially became the state capital in 1937, replacing the historic town of Goiás Velho and sparking rapid growth. Today the city dazzles visitors with its wide, tree-lined avenues, striking modernist buildings such as the colourful Praça Cívica designed by Oscar Niemeyer, and a lively cultural scene that includes bustling markets, lively cafés and the nearby Parque Vaca Brava, a favourite spot for picnics and bird-watching.",
@@ -138,6 +173,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
   "generated": "2026-11-01"
+ },
+ "het": {
+  "name": "Hohhot",
+  "text": "Hohhot, the capital of Inner Mongolia in northern China, sits on the gentle slopes of the Yulong Grasslands about 150 km south of the Great Wall’s Badaling section. Historically it was a key trading hub on the ancient caravan routes between China and Mongolia, flourishing under the Qing dynasty when it became the regional administrative centre. Today the city blends wide boulevards with traditional Mongolian yurts, offering bustling markets where you can sample roasted lamb and milk tea, modern museums that showcase nomadic culture, and leafy parks perfect for a leisurely stroll.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
  },
  "hgh": {
   "name": "Hangzhou",
@@ -167,6 +209,13 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "ixc": {
+  "name": "Chandigarh",
+  "text": "Chandigarh, perched at the foothills of the Shivalik range in north-western India, is the joint capital of the states of Punjab and Haryana. Designed by the Swiss-French architect Le Corbusier after India’s independence, it was one of the first planned cities in the country and was formally inaugurated in 1966. Today the city feels spacious and modern, with tree-lined avenues, wide boulevards and striking concrete buildings punctuated by colourful gardens. Visitors can stroll through the beautifully laid-out Rock Garden, relax by Sukhna Lake, or sip tea at a bustling café while watching locals go about their day.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
  "jos": {
   "name": "Jos",
   "text": "Jos, perched on the Jos Plateau in the heart of Nigeria’s middle belt, sits at about 1,200 metres above sea-level, giving it a noticeably cooler climate than much of the country. The town grew in the early 1900s as a British colonial hill station and soon became the centre of the country’s tin-mining boom, a legacy still hinted at in the old mines and the colourful displays at the National Museum. Today visitors find a pleasant mix of bustling markets, craft shops and relaxed cafés, with easy trips to nearby wildlife parks and scenic high-land walks that showcase the region’s distinctive pine-covered hills.",
@@ -194,6 +243,20 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "lhw": {
+  "name": "Lanzhou",
+  "text": "Lanzhou, the capital of Gansu Province in north-western China, sits on the banks of the mighty Yellow River where the Loess Plateau meets the desert fringe. Founded over two thousand years ago, it became a key hub on the ancient Silk Road, linking Chinese heartlands with Central Asia. Today the city blends modern high-rise towers with bustling night markets; you can sip freshly-made Lanzhou beef noodle soup beside the river promenade, explore the colourful Zhongshan Bridge, or take a short bus ride to the striking Bingling Grottoes perched on the cliffs of the nearby Liujiaxia Reservoir. The mix of history, culture and striking scenery makes a visit both lively and memorable.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
+ "lko": {
+  "name": "Lucknow",
+  "text": "Lucknow, the capital city of Uttar Pra Pradesh in northern India, rests on the banks of the gently flowing Gomti River and lies about 500 kilometres east of New Delhi. Historically it was the centre of the 1857 Indian Rebellion and later became renowned for its Nawabi culture, evident in the elegant architecture of the Bara Imambara and the bustling markets of Aminabad. Today, visitors find a lively mix of old and new: colonial-era streets lined with chic cafés, fragrant street-food stalls serving kebabs and biryani, and tranquil gardens where you can watch locals go about their day against a backdrop of grand monuments and modern malls.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
  },
  "lpg": {
   "name": "Las Palmas",
@@ -237,6 +300,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "nng": {
+  "name": "Nanning",
+  "text": "Nanning, the capital of Guangxi Zhuang Autonomous Region in southern China, sits on the banks of the Nan River a few hundred kilometres from the Vietnamese border. Historically it served as a regional administrative centre during the Tang dynasty and later became the seat of the provincial government after the establishment of the People’s Republic. Today the city is celebrated for its lush, tree-lined streets and plentiful parks, earning it the nickname “Green City”. Visitors can wander the lively Qingxiu Mountain, sample the spicy Zhuang cuisine in bustling night markets, and enjoy a relaxed blend of modern malls and traditional riverfront scenery.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
  "npr": {
   "name": "Napier",
   "text": "Napier, perched on the edge of Hawke Bay on New Zealand’s North Island, first grew as a modest 19th-century settlement before a devastating magnitude-7.8 earthquake in 1931 razed much of the town. The rebuilding gave it the world-renowned Art Deco façade that still lines its streets, making it a living museum of the style. Today the city buzzes with cafés, boutique shops and vibrant markets, while its sun-washed beaches and nearby vineyards draw both locals and travellers seeking fine wine, coastal walks and a taste of heritage.",
@@ -258,12 +328,40 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "pdx": {
+  "name": "Portland",
+  "text": "Portland, Oregon, lies in the Pacific Northwest of the United States where the Willamette and Columbia rivers meet, about 70 miles east of the Pacific coast. Founded in 1845 and incorporated in 1851, the city grew around timber and river trade and later became known for its progressive urban planning. Today visitors find a vibrant mix of lush parks, bike-friendly streets and a thriving food scene, with famous coffee roasters, food-truck pods and a bustling Saturday market by the waterfront. The surrounding mountains and nearby vineyards add outdoor adventure and wine-tasting to the city’s laid-back, eco-conscious charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
  "pee": {
   "name": "Perm",
   "text": "Perm lies on the banks of the wide, winding Kama River at the western foothills of the Ural Mountains, marking the traditional divide between European and Asian Russia. It was founded in 1723 as a modest settlement serving the salt-mining industry and grew into a key industrial hub during the 19th-century railway boom. Today the city offers a lively mix of cultural attractions – the striking Perm Opera and Ballet Theatre, the contemporary art-filled Perm Museum of Contemporary Art, and the open-air Koltushi Park – alongside cosy cafés and bustling markets, making a pleasant base for exploring both river scenery and the surrounding forested hills.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "phx": {
+  "name": "Phoenix",
+  "text": "Phoenix, Arizona, lies in the heart of the Sonoran Desert about 350 miles southeast of Las Vegas and 200 miles north of the Mexican border, cradled by the Salt River and surrounded by low mountains. Founded in 1867 as a farming community near the Hohokam canals, it grew into the capital of the territory and later the state in 1912. Today the city blends modern skyline and sprawling suburbs with desert-cactus scenery, offering vibrant arts districts, world-class museums and easy access to hiking in nearby Camelback Mountain, making it a warm, lively base for exploring the Southwest.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
+ "pna": {
+  "name": "Patna",
+  "text": "Patna, the capital of Bihar in eastern India, sits on the south bank of the wide Ganges River and has been a centre of Indian life for millennia. Known in ancient times as Pataliputra, it was the capital of the Mauryan Empire under Emperor Ashoka, who built a famous stone pillar that still stands in the city. Today Patna blends its historic aura with lively street life: bustling bazaars sell everything from silk saris to spicy snacks, the Bihar Museum showcases artefacts spanning pre-historic to modern times, and the expansive Gandhi Maidan offers a green respite where locals gather for concerts, fairs and evening walks.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
+ "pnq": {
+  "name": "Pune",
+  "text": "Pune, a bustling city in the western state of Maharashtra, lies on the Deccan Plateau about 150 km southeast of Mumbai. It grew from the 17th-century Maratha stronghold of Shivaji’s son, who established the city as a centre of administration and learning. Today Pune mixes old and new: leafy avenues are lined with historic forts, colonial-era buildings and lively markets, while modern cafés, tech parks and universities give it a youthful, cosmopolitan vibe. Visitors can explore the tranquil Osho Garden, sample street-food delicacies such as misal pav, and enjoy the pleasant climate that makes strolling through its streets pleasant year-round.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
  },
  "poa": {
   "name": "Porto Alegre",
@@ -321,12 +419,26 @@
   "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
+ "slc": {
+  "name": "Salt Lake City",
+  "text": "Salt Lake City lies in the north-western corner of the United States, nestled at the foot of the Wasatch Mountains and alongside the great Great Salt Lake in Utah. Founded in 1847 by Mormon pioneers led by Brigham Young, it quickly grew into a hub for westward settlers and the trans-continental railroad. Today the city blends modern skyscrapers with historic temples, offering easy access to outdoor adventures such as skiing, hiking and lake-side cycling, while its lively downtown boasts museums, a vibrant food scene and a welcoming, laid-back atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
  "srg": {
   "name": "Sorong",
   "text": "Sorong – perched on the western tip of New Guinea, this bustling port city greets you where the warm waters of the Raja Ampat archipelago meet the vast expanse of the Pacific. Once a modest Dutch outpost in the early 1900s, Sorong grew into a strategic gateway during World War II and later became the commercial heart of West Papua. Today it pulses with modern energy: a hub for oil and gas, a launchpad for divers diving into world‑renowned coral reefs, and a cultural crossroads where indigenous traditions mingle with vibrant street markets. Join us as we explore the charm and promise of Sorong, Indonesia’s hidden coastal gem.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "tao": {
+  "name": "Qingdao",
+  "text": "Qingdao, a coastal city in Shandong province on China’s Yellow Sea, is famed for its blend of German colonial heritage and modern seaside charm. Founded as a fishing village, it became a German concession in 1898, which left the striking red-tiled roofs of the former Governor’s Hall and the historic Badaguan neighbourhood. Today visitors can stroll along the bustling waterfront promenade, sip locally brewed Tsingtao beer in lively pubs, wander the fragrant jasmine-lined streets, and enjoy fresh seafood while taking in the backdrop of gentle hills and crystal-clear bays.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
  },
  "tfs": {
   "name": "Santa Cruz de Tenerife",
@@ -342,6 +454,20 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "tsn": {
+  "name": "Tianjin",
+  "text": "Tianjin, a bustling port city in northern China, sits on the banks of the Hai River about 120 kilometres southeast of Beijing. It grew into a major treaty port after the Opium Wars, when foreign concessions were established in the 19th century, leaving a distinctive mix of European-style architecture and traditional Chinese streets. Today the city blends sleek skyscrapers with historic districts such as the Italian-style St Leonardo’s Avenue, offering lively food markets, river cruises, and modern art galleries. Visitors can savour fresh seafood, wander the colourful hutongs and enjoy a vibrant nightlife that reflects both its rich past and its fast-moving present.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
+ "tus": {
+  "name": "Tucson",
+  "text": "Tucson, nestled in the southern part of Arizona about 60 miles north of the Mexican border, lies at the edge of the Sonoran Desert and is framed by the Santa Catalina, Rincon and Tucson Mountains. The town began as a Spanish presidio in 1775, making it one of the oldest European-settled communities in the American Southwest. Today the city blends desert scenery with a lively cultural scene: you can wander historic Fourth Avenue, explore the University of Arizona’s museums, admire towering saguaro cacti in Saguaro National Park, and enjoy a thriving food and arts scene that feels both relaxed and surprisingly cosmopolitan.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
+ },
  "tzx": {
   "name": "Trabzon",
   "text": "Trabzon sits on the Black Sea coast of north-eastern Turkey, framed by lush hills and the Pontic Mountains. Founded as the Greek colony Trapezus in the 8th century BC, it later became an important stop on the Silk Road and the site of the famous Sumela Monastery, perched on a cliff overlooking the surrounding forest. Today the city offers a pleasant mix of sea-front promenades, lively fish markets and Ottoman-era tea houses where you can sample the local Black Sea tea. The backdrop of mist-y mountains and the scent of fresh seafood make a visit both relaxing and memorable.",
@@ -355,6 +481,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "xmn": {
+  "name": "Xiamen",
+  "text": "Xiamen, a bustling coastal city in Fujian province on China’s southeast seaboard, sits opposite the Taiwan Strait and is linked to the historic Gulangyu Island by a short ferry ride. It became a treaty port in the mid-19th century after the First Opium War, which sparked its development as a centre of overseas trade. Today the city charms visitors with palm-shaded promenades, a lively pedestrian street full of street food stalls, well-preserved temples and modern cafés, and a pleasant subtropical climate that makes exploring its harbourside parks and colourful neighbourhoods a relaxed delight.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-02"
  },
  "yks": {
   "name": "Yakutsk",
