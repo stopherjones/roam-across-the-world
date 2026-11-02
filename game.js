@@ -640,6 +640,24 @@ function hop(i,dep){
  hopAnimate(from,o.to,o,r,x,function(){settleHop(o,x)});
  render();
 }
+// Evening exploring: before a night is booked, the player may look around the town until 9pm.
+// The cut-off is on the game clock (the same clock clk() shows). Exploring uses no game time.
+var EVENING_CUTOFF=21;
+function eveningOpen(){
+ var hod=((480+absH(S.h)*60)%1440)/60;
+ return hod<EVENING_CUTOFF;
+}
+function eveningStart(){
+ if(!eveningOpen())return render();
+ S.phase="evening";visitPlace(S.loc,"rest");render();
+}
+// The town page for the evening: earnings and things to do, without the travel agent or the leave button.
+function eveningPage(){
+ berthHearHere();
+ return "<div class='panel'><h2>Evening in "+esc(N[S.loc].n)+"</h2><p class='mute mb10'>You have until 9pm to look around. Your room is still to be booked.</p></div>"+earnHtml()+thingsHtml()+
+  "<div class='panel'><button class='btn' onclick='eveningBack()'>Back to sleeping options</button></div>";
+}
+function eveningBack(){ if(S.phase==="evening"){S.phase="stay";render()} }
 function stay(k){
  var i=S.pend,o=S.pendOpt,rm=k<0?{n:"the station",c:0,q:2}:S.rooms[k],c=rm.c,sc=sched(o,S.loc,S.h);
  if(c>S.cash)return;
@@ -1141,7 +1159,7 @@ function render(msg){
  }else{
 
   if(S.phase=="lastmile"||S.phase=="interim")h+="<div class='panel'><h2>"+(S.phase=="interim"?"Checkpoint work":"Checkpoint")+"</h2><div id='lm'></div></div>";else if(S.phase=="plan")h+=planPanel();else if(S.phase=="routes")h+=routesPanel();
-  if(S.phase=="lastmile"||S.phase=="interim"||S.phase=="plan"||S.phase=="routes"){}else if(S.phase=="arrive"){h+=arriveHtml();}else if(S.phase=="wait"){h+=waitHtml();}else if(S.phase=="stay"){var po=opts()[S.pend],ss=sched(po,S.loc,S.h);h+="<div class='panel'><h2>No service until "+clk(ss.dep)+"</h2><p class='mb10'>Where will you sleep in "+N[S.loc].n+"?</p>";S.rooms.forEach(function(x,k){h+="<button class='card' onclick='stay("+k+")'"+(x.c>S.cash?" disabled":"")+"><b>"+x.n+", \u00a3"+x.c+"</b><span>"+(x.q?"A proper night's rest.":"Cheap, but you may sleep badly.")+"</span></button>"});h+="<button class='card' onclick='stay(-1)'><b>Spend the night at the station</b><span>Free, but you will be tired: 1 h lost on the next leg.</span></button>";if(!S.rooms.length)h+="<p class='mb10'>No rooms are free in town tonight.</p>";h+="<button class='link' onclick='S.phase=\"move\";S.pend=null;S.pendOpt=null;render()'>Choose a different option</button></div>";h+=earnHtml();h+=thingsHtml()}else{
+  if(S.phase=="lastmile"||S.phase=="interim"||S.phase=="plan"||S.phase=="routes"){}else if(S.phase=="arrive"){h+=arriveHtml();}else if(S.phase=="wait"){h+=waitHtml();}else if(S.phase=="evening"){h+=eveningPage();}else if(S.phase=="stay"){var po=opts()[S.pend],ss=sched(po,S.loc,S.h);h+="<div class='panel'><h2>No service until "+clk(ss.dep)+"</h2>"+(eveningOpen()?"<p class='mb10'>There is time to look around before you settle in.</p><button class='card' onclick='eveningStart()'><b>Explore "+esc(N[S.loc].n)+" until 9pm</b><span>Look at the market, the things to do, and any paintings nearby. No time is used.</span></button>":"<p class='mute mb10'>It is past 9pm, so there is no time to explore before you settle in.</p>")+"<p class='mb10'>Where will you sleep in "+N[S.loc].n+"?</p>";S.rooms.forEach(function(x,k){h+="<button class='card' onclick='stay("+k+")'"+(x.c>S.cash?" disabled":"")+"><b>"+x.n+", \u00a3"+x.c+"</b><span>"+(x.q?"A proper night's rest.":"Cheap, but you may sleep badly.")+"</span></button>"});h+="<button class='card' onclick='stay(-1)'><b>Spend the night at the station</b><span>Free, but you will be tired: 1 h lost on the next leg.</span></button>";if(!S.rooms.length)h+="<p class='mb10'>No rooms are free in town tonight.</p>";h+="<button class='link' onclick='S.phase=\"move\";S.pend=null;S.pendOpt=null;render()'>Choose a different option</button></div>";h+=earnHtml();h+=thingsHtml()}else{
    var all=opts(),v=vis(),last="";
    h+="<div class='panel'><h2>Where next?</h2>"+(canInterim()?"<button class='card' onclick='interimLM()'><b>"+(needsEmergencyWork()?"Earn money for the next fare":"Stop for checkpoint work")+"</b><span>Spend 2 hours on a photo challenge in "+esc(N[S.loc].n)+" and earn £"+PAY_MIN+" to £"+PAY_MAX+".</span></button>":"");
    v.show.sort(function(a,b){var x=ORD.indexOf(all[a].m)-ORD.indexOf(all[b].m);return x||all[a].h-all[b].h});
