@@ -28,9 +28,26 @@ function pickLandmark(list,level){
  var n=list.length,slice=level=="easy"?list.slice(0,Math.min(8,n)):level=="hard"?list.slice(Math.floor(n/2)):list.slice(0,Math.min(25,n));
  if(!slice.length)slice=list;return slice[Math.floor(Math.random()*slice.length)]
 }
+// Wikipedia's geosearch allows a radius of at most 10 km per request, so a wider area
+// is covered by asking around the town: the centre plus four points about 15 km away.
+// Results are merged by page id, so a photo found twice only counts once.
+function landmarkCentres(lat,lon){
+ var dLat=15/111, dLon=15/(111*Math.max(0.2,Math.cos(lat*Math.PI/180)));
+ return [[lat,lon],[lat+dLat,lon],[lat-dLat,lon],[lat,lon+dLon],[lat,lon-dLon]];
+}
 function getLandmark(city,level){
- return fetch(wikiQuery(city[2],city[3],10000)).then(function(r){return r.json()}).then(function(j){
-  var l=parseLandmarks(j);if(l.length<5)throw new Error("Too few landmarks");var c=pickLandmark(l,level);c.all=l;return c})
+ var lat=city[2],lon=city[3];
+ var reqs=landmarkCentres(lat,lon).map(function(c){
+  return fetch(wikiQuery(c[0],c[1],10000)).then(function(r){return r.json()}).catch(function(){return {}});
+ });
+ return Promise.all(reqs).then(function(results){
+  var pages={};
+  results.forEach(function(j){var pg=(j&&j.query&&j.query.pages)||{};Object.keys(pg).forEach(function(k){pages[k]=pg[k]})});
+  var l=parseLandmarks({query:{pages:pages}});
+  // Too few usable photos even across the wider area: the caller skips the last mile.
+  if(l.length<5){var e=new Error("Too few landmarks");e.noLandmarks=true;throw e}
+  var c=pickLandmark(l,level);c.all=l;return c;
+ });
 }
 
 // ---- Clue layers: icon-only POI categories (no names) and a dots layer of nearby notable places, bought with time
@@ -134,7 +151,12 @@ function start(cfg,onDone){
    map.resize();map.jumpTo({center:c,zoom:12.5});setMode(mode);
    if(R.clueMode=="free")Object.keys(CLUES).forEach(addClue);
    renderClues()
-  }).catch(function(e){console.warn(e);fail(e&&e.message)})
+  }).catch(function(e){
+   console.warn(e);
+   // No usable photos nearby: skip the last mile automatically rather than showing an error.
+   if(e&&e.noLandmarks){finish({skipped:true,lost:0});return}
+   fail(e&&e.message)
+  })
  }
  function attach(el){if(root&&el){el.appendChild(root);if(map)setTimeout(function(){map.resize()},30)}}
  function reset(){
