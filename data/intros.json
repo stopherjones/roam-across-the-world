@@ -1,4 +1,11 @@
 {
+ "abq": {
+  "name": "Albuquerque",
+  "text": "Albuquerque lies in central New Mexico, straddling the Rio Grande between the Sandia and Manzano mountain ranges and bisected by historic Route 66. The settlement was founded in 1706 as Alburquerque, a Spanish colonial outpost that later grew into the state’s largest city. Today visitors can wander the colourful Old Town with its adobe churches and bustling markets, ride the world-famous hot-air balloons that dot the sky each October, explore the nearby mountains by tram or trail, and enjoy a lively mix of Southwestern cuisine, street art and modern museums, all set against a backdrop of striking desert-mountain scenery.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "adz": {
   "name": "Adana",
   "text": "Adana, a major city in southern Turkey, sits on the banks of the Seyhan River about 70 kilometres inland from the Mediterranean coast. It has been an important centre since antiquity, serving as a key stop on the ancient trade routes of Cilicia and later becoming a thriving Ottoman provincial capital. Today the city is famous for its spicy kebabs, lively street markets and the impressive stone bridge of Taşköprü spanning the river. Visitors can explore the historic Great Mosque, wander the palm-lined riverfront promenade and enjoy the surrounding plains that produce some of the country’s finest citrus fruits.",
@@ -41,6 +48,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "bal": {
+  "name": "Baltimore",
+  "text": "Baltimore sits on the western shore of the Chesapeake Bay in Maryland, about 40 miles north of Washington, D.C. It grew around the 1729 port that later became a major gateway for immigrants and a key Union supply line during the Civil War. Today the city blends historic charm with modern buzz: you can wander the cobbled streets of Fell’s Point, admire the striking Inner Harbor skyline, sample crab cakes at bustling waterfront restaurants, and explore world-class museums such as the American Visionary Art Museum. Friendly locals, lively music scenes and scenic waterfront walks make a visit both relaxed and memorable.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "bfn": {
   "name": "Bloemfontein",
   "text": "Bloemfontein, the judicial capital of South Africa and the heart of the Free State province, began as a British outpost in 1846 and soon became the capital of the Orange Free State republic in 1854. Today the city blends historic charm with a lively university atmosphere, boasting the University of the Free State, the National Museum and the famous rose gardens that give it the nickname “City of Roses”. Its wide avenues, bustling markets and nearby wildlife reserves make it a pleasant base for exploring the central plains and the surrounding Karoo.",
@@ -69,6 +83,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "bna": {
+  "name": "Nashville",
+  "text": "Nashville, the capital of Tennessee, sits in the heart of the state on the banks of the Cumberland River. The city grew from a frontier settlement founded in 1779 and became the state capital in 1826, later earning its reputation as “Music City” thanks to the establishment of the Grand Ole Opry in 1925 and a thriving recording industry. Today visitors find a lively mix of honky-tonk bars on Broadway, world-class museums such as the Country Music Hall of Fame, and a buzzing food scene ranging from Southern barbecue to inventive farm-to-table eateries, all set against a backdrop of leafy parks and riverfront walkways.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "bnn": {
   "name": "Benin City",
   "text": "Benin City, nestled in southern Nigeria along the meandering banks of the Owan and Edo rivers, sits at the heart of the vibrant Edo State. Founded over a thousand years ago, it was once the capital of the mighty Benin Kingdom, famed for its bronze artistry, massive walls, and sophisticated governance. Today, the city blends that regal legacy with modern hustle: bustling markets, lively festivals, and a growing tech scene. Visitors can explore historic royal palaces, admire intricate ivory and bronze works, and savor delicious local cuisine—all while experiencing the warm hospitality that makes Benin City a living bridge between past and present.",
@@ -82,6 +103,20 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "cle": {
+  "name": "Cleveland",
+  "text": "Cleveland, Ohio, sits on the southern shore of Lake Erie at the mouth of the Cuyahoga River, about 60 miles west of the Pennsylvania border. It was founded in 1796 and named for General Moses Cleaveland, the surveyor who led the expedition that established the settlement. Today the city blends its industrial heritage with a lively cultural scene: the waterfront boasts the iconic Rock and Roll Hall of Fame, the bustling West Side Market offers local produce and ethnic foods, and a revitalised downtown brims with museums, theatres and cafés, making a visit both nostalgic and fresh.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
+ "clt": {
+  "name": "Charlotte",
+  "text": "Charlotte, North Carolina, sits in the heart of the American South at the confluence of the Catawba River and Lake Norman, roughly a three-hour drive east of the Appalachian foothills. Founded in 1768 and named for Queen Charlotte, the city grew around a thriving railway hub and later became a centre of the textile industry. Today it buzzes with a mix of sleek skyscrapers and leafy neighbourhoods, offering a lively food scene, museums such as the Levine Center for the Arts, and easy access to outdoor pursuits in the nearby Piedmont countryside, making it a welcoming stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
  },
  "cok": {
   "name": "Kochi",
@@ -103,6 +138,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "dtt": {
+  "name": "Detroit",
+  "text": "Detroit, Michigan, lies on the banks of the Detroit River directly opposite Windsor, Ontario, in the heart of the American Midwest. The city earned its fame as the cradle of the automobile industry, with Henry Ford establishing the Ford Motor Company in 1903 and introducing the moving assembly line a decade later. Today, visitors find a vibrant mix of historic art deco theatres, bustling street art districts and revitalised waterfront parks, while the legacy of motor-car manufacturing is celebrated in museums such as the Henry Ford and the Detroit Institute of Arts, offering a lively blend of culture and innovation.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
  },
  "dzo": {
   "name": "Mayotte (Dzaoudzi)",
@@ -209,6 +251,13 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "ind": {
+  "name": "Indianapolis",
+  "text": "Indianapolis sits in the heart of Indiana, midway between Chicago and Cincinnati, and serves as the state’s capital and largest city. Established in 1821 as a planned centre for the new state, it quickly grew around the crossroads of the National Road and the Wabash and Erie Canal. Today the city blends modern skyscrapers with wide, tree-lined streets and a vibrant cultural scene; visitors can stroll along the Canal Walk, explore the expansive Indianapolis Museum of Art, and feel the buzz of the famous motor-sport atmosphere at the Indianapolis Motor Speedway, all within a friendly, Midwestern setting.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "ixc": {
   "name": "Chandigarh",
   "text": "Chandigarh, perched at the foothills of the Shivalik range in north-western India, is the joint capital of the states of Punjab and Haryana. Designed by the Swiss-French architect Le Corbusier after India’s independence, it was one of the first planned cities in the country and was formally inaugurated in 1966. Today the city feels spacious and modern, with tree-lined avenues, wide boulevards and striking concrete buildings punctuated by colourful gardens. Visitors can stroll through the beautifully laid-out Rock Garden, relax by Sukhna Lake, or sip tea at a bustling café while watching locals go about their day.",
@@ -272,6 +321,27 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "mci": {
+  "name": "Kansas City",
+  "text": "Kansas City, straddling the border between Missouri and Kansas in the American Midwest, sits on the confluence of the Missouri and Kansas rivers. Founded in the early 19th century, the city grew around the historic Santa Fe Trail, which made it a key gateway for westward expansion. Today visitors enjoy a vibrant mix of jazz clubs, world-class barbecue joints and impressive art installations such as the towering “Lion” sculpture in the downtown plaza. The River Market district offers bustling farmers’ markets and historic warehouses converted into cafés, while the nearby Country Club Plaza delights shoppers with its Spanish-style architecture and lively street ambience.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
+ "mco": {
+  "name": "Orlando",
+  "text": "Orlando lies in the heart of central Florida, roughly midway between the Atlantic coast and the Gulf of Mexico and about an hour’s drive north of the bustling city of Tampa. Founded in the late 19th century, the town grew around the citrus industry and was officially incorporated in 1875; its name honours a soldier who fought in the Second Seminole War. Today the city is synonymous with world-class theme parks such as Walt Disney World and Universal Studios, but it also offers vibrant dining precincts, leafy lakeside parks and a lively arts scene, making it a colourful and welcoming destination for visitors of all ages.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
+ "mem": {
+  "name": "Memphis",
+  "text": "Memphis, Tennessee, lies on the mighty Mississippi River in the southwestern corner of the state, bordering Arkansas. Founded in 1819 and named after the ancient Egyptian city, it quickly became a crucial river port and a crossroads of American culture. Today the city buzzes with the legacy of blues and rock ’n’ roll: you can stroll down historic Beale Street, visit the iconic Graceland home of Elvis Presley, and explore the National Civil Rights Museum at the former Lorraine Motel. With its lively music venues, riverfront parks and famous barbecue, Memphis feels both steeped in history and unmistakably vibrant.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "mmk": {
   "name": "Murmansk",
   "text": "Murmansk sits on the Kola Bay at the entrance to the Barents Sea, far above the Arctic Circle on Russia’s north-western coast. Founded in 1916 as a supply port for the war effort, it became the only ice-free harbour in the Soviet north, playing a crucial role in both World Wars and the Cold War naval fleet. Today the city greets visitors with colourful wooden houses, a bustling waterfront promenade, and the striking Alyosha monument overlooking the sea. In summer the midnight sun brightens the streets, while winter offers chances to see the Northern Lights and sample hearty Arctic cuisine in cosy cafés.",
@@ -285,6 +355,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
   "generated": "2026-11-01"
+ },
+ "msp": {
+  "name": "Minneapolis",
+  "text": "Minneapolis, a vibrant city in the Upper Midwest of the United States, sits on the banks of the Mississippi River where it meets the scenic Chain of Lakes. Founded in the 1850s, it grew rapidly as a centre for flour milling, once boasting the world’s largest grain processing capacity and earning the nickname “Mill City.” Today visitors enjoy a blend of modern art, bustling food markets and extensive parkland: the Walker Art Center and its iconic Spoonbridge sculpture, the lively North Loop eateries, and miles of bike-friendly trails that wind through lush lakes and riverfront promenades, offering a fresh, lively urban experience.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
  },
  "mta": {
   "name": "Matadi",
@@ -321,6 +398,20 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "okc": {
+  "name": "Oklahoma City",
+  "text": "Oklahoma City lies in the heart of the American Midwest, perched on the banks of the North Fork of the Canadian River in the state of Oklahoma. Founded during the Land Run of 1889, the city grew rapidly as a centre for cattle trading and later for oil production, shaping its rugged frontier character. Today it offers a lively blend of modern culture and historic charm: the vibrant Bricktown entertainment district buzzes with restaurants and river-front walks, the impressive National Cowboy & Western Heritage Museum showcases Western art, and spacious parks provide a welcoming atmosphere for visitors of all ages.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
+ "oma": {
+  "name": "Omaha",
+  "text": "Omaha, Nebraska, sits on the western bank of the Missouri River at the heart of the Midwestern United States, roughly three-hundred miles north of Kansas City. Founded in 1854 as a frontier outpost, it quickly became a key stop on the Oregon Trail and later the eastern terminus of the first transcontinental railroad, cementing its role in westward expansion. Today the city blends river-front charm with a lively cultural scene: the historic Old Market district offers cobbled streets, independent shops and cafés, while the Henry Doorly Zoo, modern museums and a bustling riverwalk give visitors a pleasant mix of nature, history and contemporary Midwestern hospitality.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "pdl": {
   "name": "Ponta Delgada",
   "text": "Ponta Delgada – the vibrant capital of Portugal’s Azores archipelago, perched on the southern coast of São Miguel Island.  Nestled in the mid‑Atlantic, this charming town blends volcanic landscapes with sweeping ocean views, a natural gateway between Europe and the Americas.  Founded in the 15th century by Portuguese settlers, it grew from a modest fishing village into a key stopover for trans‑Atlantic whalers and explorers, its historic cobblestone streets still echoing centuries of maritime heritage.  Today, Ponta Delgada thrives as a cultural hub—buzzing cafés, lively festivals, and eco‑tourism adventures—while preserving its rich past amid stunning cliffs, geothermal springs and world‑class cuisine.",
@@ -342,12 +433,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "phl": {
+  "name": "Philadelphia",
+  "text": "Philadelphia, nestled in the southeastern corner of Pennsylvania along the Delaware and Schuylkill rivers, is a city steeped in American history; it was the meeting place for the Continental Congress where the Declaration of Independence was debated and the Constitution signed. Today the streets buzz with a lively mix of historic cobblestones and modern skyscrapers, inviting visitors to stroll past the iconic Liberty Bell, explore world-class museums on the “Museum Mile,” and savour diverse food markets ranging from classic cheesesteaks to global street fare, all set against a backdrop of vibrant neighbourhoods and green riverfront parks.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "phx": {
   "name": "Phoenix",
   "text": "Phoenix, Arizona, lies in the heart of the Sonoran Desert about 350 miles southeast of Las Vegas and 200 miles north of the Mexican border, cradled by the Salt River and surrounded by low mountains. Founded in 1867 as a farming community near the Hohokam canals, it grew into the capital of the territory and later the state in 1912. Today the city blends modern skyline and sprawling suburbs with desert-cactus scenery, offering vibrant arts districts, world-class museums and easy access to hiking in nearby Camelback Mountain, making it a warm, lively base for exploring the Southwest.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "pit": {
+  "name": "Pittsburgh",
+  "text": "Pittsburgh, situated at the confluence of the Allegheny, Monongahela and Ohio rivers in western Pennsylvania, grew from a frontier fort into a powerhouse of industry in the 19th century, famously known for its steel production that earned the city the nickname “Steel City”. Today the skyline is a blend of historic brick warehouses and sleek glass towers, while the river valleys provide scenic bridges and bustling waterfront parks. Visitors can explore vibrant neighbourhoods such as the Strip District’s food markets, the cultural riches of the Carnegie museums, and enjoy a lively craft-beer scene against a backdrop of rolling hills.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
  },
  "pna": {
   "name": "Patna",
@@ -405,6 +510,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "sdg": {
+  "name": "San Diego",
+  "text": "San Diego lies on the southern coast of California, bordering the Pacific Ocean and just a short drive from the Mexican border. Founded as a Spanish mission in 1769, the city grew around the historic Presidio and became a key naval base in the 20th century. Today it feels relaxed yet vibrant, with sun-kissed beaches, a bustling waterfront at the Embarcadero, and a mix of cultural attractions from the lively Gaslamp Quarter to the world-class museums of Balboa Park. Warm weather, friendly locals and endless outdoor activities make it a pleasant stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "sev": {
   "name": "Seville",
   "text": "Seville, situated on the banks of the Guadalquivir in the heart of Andalusia, was known to the Romans as Hispalis and later became the dazzling capital of Moorish Al-Andalus, its grand Giralda originally a minaret. Today the city blends its grand cathedral, the world’s largest Gothic church, with a lively tapas bar scene, bustling orange-tree lined plazas and nightly flamenco performances, while the annual Feria de Abril fills the streets with colour and music, making it a vibrant crossroads of history and modern Spanish life and warm hospitality for all.",
@@ -426,12 +538,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "smf": {
+  "name": "Sacramento",
+  "text": "Sacramento, the capital city of California, sits where the Sacramento and American Rivers meet in the heart of the state's fertile Central Valley. It grew rapidly during the Gold Rush, becoming the state capital in 1854 and preserving much of its 19th-century charm in the cobbled streets of Old Sacramento. Today the city offers a pleasant mix of history and modernity: riverfront parks invite picnics and kayaking, a lively farm-to-table restaurant scene showcases local produce, and museums such as the California State Railroad Museum and the Crocker Art Museum provide engaging cultural stops, all set against a backdrop of sunny skies and friendly locals.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
+ },
  "srg": {
   "name": "Sorong",
   "text": "Sorong – perched on the western tip of New Guinea, this bustling port city greets you where the warm waters of the Raja Ampat archipelago meet the vast expanse of the Pacific. Once a modest Dutch outpost in the early 1900s, Sorong grew into a strategic gateway during World War II and later became the commercial heart of West Papua. Today it pulses with modern energy: a hub for oil and gas, a launchpad for divers diving into world‑renowned coral reefs, and a cultural crossroads where indigenous traditions mingle with vibrant street markets. Join us as we explore the charm and promise of Sorong, Indonesia’s hidden coastal gem.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "stl": {
+  "name": "St Louis",
+  "text": "St Louis lies on the western bank of the Mississippi River in the heart of the American Midwest, about 300 miles west of the Illinois border. Founded in 1764 by French fur traders, the city grew around the historic Gateway Arch, a 630-foot stainless-steel monument that commemorates the westward expansion of the United States. Today visitors can stroll along the vibrant Riverfront, explore world-class museums such as the St Louis Art Museum and the Science Centre, and savour famous barbecue in the bustling downtown districts, all while enjoying the city’s blend of historic brick warehouses and modern skyline.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
  },
  "tao": {
   "name": "Qingdao",
@@ -453,6 +579,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "tpa": {
+  "name": "Tampa",
+  "text": "Tampa sits on the western edge of Florida, straddling the Hillsborough River where it meets the Gulf of Mexico, and is the largest city in the Tampa Bay area. The settlement began as Fort Brooke in 1824, later growing into a bustling port and, in the late-19th century, becoming famous for its thriving cigar factories in Ybor City, a neighbourhood founded by Cuban and Spanish immigrants. Today the city offers a lively mix of modern skyline, waterfront parks and a lively historic quarter, while nearby sandy beaches, Busch Gardens and a diverse food scene make a visit both relaxed and exciting.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-03"
  },
  "tsn": {
   "name": "Tianjin",
