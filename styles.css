@@ -401,3 +401,11 @@ footer a{color:var(--acc)}
 .agent-card .agent-route{font:700 1.05rem Georgia,serif;margin:0 0 6px;color:var(--ink)}
 .agent-card .agent-foot{display:flex;justify-content:flex-end;margin-top:8px}
 .agent-card .agent-foot p{margin:0;text-align:right}
+
+/* Destination photo: the town's Wikipedia lead image, between the reveal board and the description (game.js loadTownPhoto) */
+.town-photo{margin:12px 0 0;text-align:center}
+.town-photo img{display:block;max-width:100%;height:auto;max-height:260px;margin:0 auto;border-radius:8px;object-fit:cover}
+.town-photo figcaption{margin-top:6px;font-size:.72rem;color:var(--mute);font-style:italic}
+.town-photo a{color:inherit}
+/* Label under live AI-written text (not the reviewed data/intros.json text) */
+.flavour-note{margin:4px 0 0;font-size:.7rem;color:var(--mute);font-style:italic;text-align:right}

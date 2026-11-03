@@ -293,9 +293,9 @@ function fillFlavour(){
  INTROS_READY.then(function(map){
   if(!S||S.goal!==key)return;
   var e=map&&map[key];
-  if(e&&e.text){setIntro(e.text);return}
+  if(e&&e.text){setIntro(e.text,false);return}
   // No pre-written text for this town yet: fall back to the live call.
-  flavourFor(c).then(function(t){if(S&&S.goal===key)setIntro(t)},function(){if(S&&S.goal===key)setIntro("An introduction isn't available right now.")});
+  flavourFor(c).then(function(t){if(S&&S.goal===key)setIntro(t,true)},function(){if(S&&S.goal===key)setIntro("An introduction isn't available right now.")});
  });
 }
 // One combined sentence for the journey, built from the modes on offer. No place names beyond the start and finish.
@@ -358,15 +358,41 @@ function flapTick(){
 }
 function flapSkip(){if(FLAP.goal!=null&&!FLAP.finished[FLAP.goal]){FLAP.start=-1e9;flapTick()}}
 // The introduction is shown only once the board has finished and the text has arrived
-function setIntro(text){
+// setIntro(text, aiLive): aiLive is true when the text came from the live Groq call,
+// so a small "AI generated" note is shown. Pre-written text from data/intros.json has no note.
+function setIntro(text,aiLive){
  var el=document.getElementById("flavour-text");if(!el)return;
  el.textContent=text;el.setAttribute("data-ready","1");showIntro();
+ var note=document.getElementById("flavour-note");
+ if(note)note.style.display=aiLive?"":"none";
 }
 function showIntro(){
  var el=document.getElementById("flavour-text");
  if(el&&el.getAttribute("data-ready")&&FLAP.finished[FLAP.goal])el.style.display="";
 }
+// The town's own lead photo from its Wikipedia article (not the checkpoint photos, so the
+// checkpoint's spot isn't shown in advance). Fetched once per town per session.
+var TOWN_PHOTO={};
+function loadTownPhoto(goal){
+ if(TOWN_PHOTO[goal])return TOWN_PHOTO[goal];
+ var name=N[goal].n;
+ var q="https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&redirects=1&titles="+encodeURIComponent(name)+"&prop=pageimages&piprop=thumbnail&pithumbsize=900";
+ TOWN_PHOTO[goal]=fetch(q).then(function(r){return r.json()}).then(function(j){
+  var pg=j.query&&j.query.pages,p=pg&&pg[Object.keys(pg)[0]];
+  if(!p||!p.thumbnail)return null;
+  return {src:p.thumbnail.source,title:p.title,url:"https://en.wikipedia.org/wiki/"+encodeURIComponent(p.title.replace(/ /g,"_"))};
+ }).catch(function(){return null}).then(function(photo){
+  var el=document.getElementById("town-photo");
+  if(photo&&el&&S&&S.goal===goal){
+   el.innerHTML="<img src='"+photo.src+"' alt='"+esc(name)+"' loading='lazy'><figcaption>Photo from Wikipedia (Wikimedia Commons). <a href='"+photo.url+"' target='_blank' rel='noopener'>Credit and licence on the article</a>.</figcaption>";
+   el.style.display="";
+  }
+  return photo;
+ });
+ return TOWN_PHOTO[goal];
+}
 function planIntro(){
+ loadTownPhoto(S.goal);
  var n=N[S.goal].n,target=flapText(n),len=target.length||1;
  var reduce=typeof matchMedia==="function"&&matchMedia("(prefers-reduced-motion: reduce)").matches;
  flapStart(S.goal,reduce);
@@ -376,7 +402,9 @@ function planIntro(){
  var done=!!FLAP.finished[S.goal];
  return "<div class='panel'><p class='flap-label'>Destination</p>"+
   "<div class='flap-board' id='flap-board' role='img' aria-label='Destination: "+esc(n)+"' onclick='flapSkip()'><div class='flap-row'>"+cells+"</div></div>"+
-  "<p class='flavour' id='flavour-text' style='display:none'></p></div>";
+  "<figure class='town-photo' id='town-photo' style='display:none'></figure>"+
+  "<p class='flavour' id='flavour-text' style='display:none'></p>"+
+  "<p class='flavour-note' id='flavour-note' style='display:none'>AI generated</p></div>";
 }
 function planPanelBase(){
  return"<div class='panel'>"+(S.plan?"":"<div class='guessbox'><p class='guessprompt'>Where is "+esc(N[S.goal].n)+"? Tap the map to drop a pin. The further off you are, the more time you lose working out how to get there.</p><div class='row m0'><button class='btn' id='planguess' onclick='planGuess()'"+(PL.guess?"":" disabled")+">Lock in guess</button></div></div>")+"<div id='planres'>"+(S.plan?planResHtml():"")+"</div><div id='planfail' hidden><p class='mute'>The map couldn't load.</p><button class='btn alt' onclick='planDone(1)'>Skip planning</button></div></div>"
