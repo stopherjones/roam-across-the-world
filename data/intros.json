@@ -69,6 +69,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "bir": {
+  "name": "Birmingham",
+  "text": "Birmingham sits in the West Midlands of England, about 100 miles north-west of London and 20 miles east of the Welsh border, straddling the River Rea. It grew from a medieval market town into the world’s first industrial city, its factories and canals playing a key role in the Industrial Revolution. Today the city buzzes with a vibrant mix of cultures, from the bustling Bullring shopping centre to the striking modern architecture of the Library of Birmingham, while its historic Jewellery Quarter and lively canalside pubs remind visitors of its rich past.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
  "bjr": {
   "name": "Bahir Dar",
   "text": "Bahir Dar, perched on the southern shore of Lake Tana in north-west Ethiopia, serves as the capital of the Amhara Region and lies only a short drive from the spectacular Blue Nile Falls. The town grew in importance in the 19th century when it was made the administrative centre of the former Begemder province, and its lakeside promenade is now lined with cafés, hotels and colourful market stalls. Visitors can cruise among the lake’s many islands, explore ancient monasteries accessible only by boat, and enjoy the gentle buzz of daily life against a backdrop of papyrus reeds and bird-song.",
@@ -96,6 +103,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "car": {
+  "name": "Cardiff",
+  "text": "Cardiff, the capital city of Wales, sits on the southern coast of the United Kingdom where the River Taff meets the Bristol Channel. It grew around Cardiff Castle, a Norman fortress that was later expanded by the Marquesses of Bute in the 19th century and now houses a museum of the city’s medieval and Victorian past. Today the city blends historic charm with a lively waterfront: you can explore the revitalised Cardiff Bay, enjoy a match at the iconic Principality Stadium, wander the bustling streets of the Castle Quarter, and sample Welsh cuisine in cosy pubs and modern restaurants, all within a welcoming, compact urban setting.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
  },
  "cbq": {
   "name": "Calabar",
@@ -138,6 +152,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "dov": {
+  "name": "Dover",
+  "text": "Dover sits on the southeastern tip of England, facing the narrow Strait of Dover that separates Britain from France, and its white chalk cliffs dominate the coastline. The town has been a key gateway for centuries; Roman and later medieval forts were built here, and the famous Dover Castle has guarded the coast since the 12th century. Today the promenade is bustling with cafés, souvenir stalls and the iconic white-cliff walk, while ferries whisk visitors across to Calais in under two hours. With its dramatic sea views, historic sites and lively harbour, Dover feels both a living port and a reminder of Britain’s maritime heritage.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
  },
  "dtt": {
   "name": "Detroit",
@@ -300,6 +321,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "liv": {
+  "name": "Liverpool",
+  "text": "Liverpool sits on the western edge of the Mersey Estuary in north-west England, its waterfront stretching along the River Mersey. Historically it grew into a major global port in the 18th and 19th centuries, famously serving as the gateway for many emigrants to the New World and for the trans-Atlantic trade that shaped the city’s wealth. Today the city buzzes with music, sport and culture: you can wander the historic Albert Dock, admire the impressive waterfront UNESCO World Heritage sites, enjoy lively pubs and cafés, and catch the vibrant street art and festivals that give Liverpool its warm, welcoming character.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
  "lko": {
   "name": "Lucknow",
   "text": "Lucknow, the capital city of Uttar Pra Pradesh in northern India, rests on the banks of the gently flowing Gomti River and lies about 500 kilometres east of New Delhi. Historically it was the centre of the 1857 Indian Rebellion and later became renowned for its Nawabi culture, evident in the elegant architecture of the Bara Imambara and the bustling markets of Aminabad. Today, visitors find a lively mix of old and new: colonial-era streets lined with chic cafés, fragrant street-food stalls serving kebabs and biryani, and tranquil gardens where you can watch locals go about their day against a backdrop of grand monuments and modern malls.",
@@ -307,12 +335,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "lon": {
+  "name": "London",
+  "text": "London, the capital of the United Kingdom, sits on the River Thames in southeastern England, straddling both banks of the waterway. Founded by the Romans as Londinium around AD 43, the city grew into a bustling medieval port and later the heart of the British Empire. Today, London feels like a vibrant mosaic of history and modernity: you can stand beneath the towering glass of the Shard, wander the historic cobbles of Covent Garden, and hear the chime of Big Ben while sipping a coffee in a bustling café. Museums, parks, theatres and diverse neighbourhoods make every visit feel fresh and exciting.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
  "lpg": {
   "name": "Las Palmas",
   "text": "Las Palmas, the sun‑kissed capital of Gran Canaria, sits on the island’s northeastern coast where the Atlantic meets volcanic hills and golden beaches. Founded in 1478 by Spanish conquistadors as “Real Villa de La Luz,” the city grew from a modest fishing port into a bustling entrepôt, its historic Vegueta district preserving cobblestone streets and Moorish‑influenced architecture. Today, Las Palmas is a vibrant cultural hub—home to lively markets, world‑class museums, and the famed Las Canteras promenade—while serving as a modern gateway for tourism, commerce, and renewable‑energy innovation across the Canary archipelago. Join us as we explore its timeless charm and forward‑looking spirit.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "man": {
+  "name": "Manchester",
+  "text": "Manchester, nestled in the north-west of England on the River Irwell, grew from a modest medieval market town into a powerhouse of the Industrial Revolution, famously pioneering cotton spinning and railway engineering in the 19th century. Today the city buzzes with a vibrant mix of culture and sport: you can explore world-class museums such as the Science and Industry Museum, savour street food in the bustling Curry Mile, and feel the electric atmosphere of a match at the iconic Old Trafford. Its leafy canals, modern architecture and lively music scene make Manchester a friendly, energetic stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
  },
  "mbm": {
   "name": "Mbuji-Mayi",
@@ -370,6 +412,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "nhv": {
+  "name": "Newhaven",
+  "text": "Newhaven is a small coastal town in East Sussex, perched on the mouth of the River Ouse where it meets the English Channel, just a short drive east of Brighton. It grew around a medieval fishing harbour that later became an important packet-boat terminal for cross-Channel services in the 19th century, and the town’s historic harbour walls still echo that maritime past. Today visitors can stroll along the lively promenade, watch the ferries to Dieppe, enjoy fresh seafood in cosy pubs, and take in sweeping sea views from the nearby cliffs, all in a relaxed, friendly atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
  "nkg": {
   "name": "Nanjing",
   "text": "Nanjing, situated on the lower reaches of the Yangtze River in eastern China, was the capital of several Chinese dynasties and the seat of the early Republic of China, famously hosting the 1912 provisional government. Today the city blends its deep history with a lively modern vibe: you can wander along the historic city wall, explore the solemn Memorial Hall of the Nanjing Massacre, and then relax in bustling pedestrian streets lined with cafés, boutique shops and neon-lit skyscrapers. The surrounding Qinhuai River area offers charming lantern-lit night walks, while nearby Purple Mountain provides peaceful trails and spectacular views over the urban landscape.",
@@ -411,6 +460,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "oxf": {
+  "name": "Oxford",
+  "text": "Oxford, set in the heart of southern England on the River Thames, lies about 60 miles northwest of London. The city grew around the University of Oxford, founded in the 12th century and renowned as the oldest English-speaking university in the world. Today visitors can wander its historic cobbled streets, admire the dreaming spires of colleges such as Christ Church and Magdalen, and enjoy bustling market squares, independent bookshops and riverside punts. With a lively mix of academia, museums and cosy cafés, Oxford feels both timeless and vibrantly modern.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
  },
  "pdl": {
   "name": "Ponta Delgada",
@@ -454,6 +510,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "ply": {
+  "name": "Plymouth",
+  "text": "Plymouth sits on the southern coast of Devon, where the River Plym meets the English Channel, and its natural harbour has been a gateway to the world for centuries. It is famously the departure point of the Mayflower in 1620, when the first group of Pilgrims set sail for North America. Today the city blends maritime heritage with a lively waterfront: you can wander along the historic Barbican, explore the National Marine Aquarium, and enjoy fresh seafood in bustling cafés while the modern shopping precincts and the iconic Smeaton’s Tower lighthouse remind you that Plymouth is both a historic port and a vibrant, contemporary destination.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
  "pna": {
   "name": "Patna",
   "text": "Patna, the capital of Bihar in eastern India, sits on the south bank of the wide Ganges River and has been a centre of Indian life for millennia. Known in ancient times as Pataliputra, it was the capital of the Mauryan Empire under Emperor Ashoka, who built a famous stone pillar that still stands in the city. Today Patna blends its historic aura with lively street life: bustling bazaars sell everything from silk saris to spicy snacks, the Bihar Museum showcases artefacts spanning pre-historic to modern times, and the expansive Gandhi Maidan offers a green respite where locals gather for concerts, fairs and evening walks.",
@@ -474,6 +537,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "por": {
+  "name": "Portsmouth",
+  "text": "Portsmouth is a bustling coastal city on the southern coast of England, set on a natural harbour at the tip of the Langstone Peninsula in Hampshire. It has a rich naval heritage; the world-famous HMS Victory, Admiral Nelson’s flagship at the Battle of Trafalgar, still lies in the historic dockyard. Today the city blends maritime history with a lively waterfront: you can wander the historic streets, explore museums and the modern shopping precinct, enjoy fresh seafood by the sea, and catch ferries to the Isle of Wight, all under a backdrop of striking Victorian architecture and vibrant waterfront parks.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
  },
  "rak": {
   "name": "Marrakech",
@@ -502,6 +572,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
   "generated": "2026-11-01"
+ },
+ "sal": {
+  "name": "Salisbury",
+  "text": "Salisbury is a historic market city set on the River Avon in the heart of Wiltshire, about 80 miles west of London and a short drive south from the stone circles of Stonehenge. Founded in Saxon times, it became famous in the 13th century for its magnificent cathedral, which boasts the tallest spire in England and houses the original Magna Carta. Today the city feels relaxed yet lively, with its medieval streets lined with independent shops, cozy cafés and a bustling market hall; the cathedral’s clock tower offers sweeping views of the surrounding countryside, making a visit both scenic and steeped in history.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
  },
  "sbh": {
   "name": "Sabha",
@@ -544,6 +621,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "sou": {
+  "name": "Southampton",
+  "text": "Southampton, a port city on England’s south-coast, lies on the northern shore of the Solent where the River Itchen meets the sea. It is famous as the departure point for the RMS Titanic in 1912, a historic moment that still echoes in the city's maritime museums. Today the waterfront buzzes with a mix of modern waterfront bars, historic dockside warehouses and the vibrant cultural quarter around the old medieval walls. Visitors can wander the bustling market, explore the SeaCity Museum, enjoy a stroll along the historic Ocean Village marina, and take a short ferry ride to the Isle of Wight, all set against a backdrop of lively cafés and a friendly, bustling atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
  },
  "srg": {
   "name": "Sorong",
@@ -622,6 +706,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "yfc": {
+  "name": "Fredericton",
+  "text": "Fredericton, the capital city of New Brunswick, lies on the banks of the Saint John River in the heart of the province’s western valley. Founded in 1785 and named after Prince Frederick, the town grew around a Loyalist settlement and later became a centre for the province’s timber trade, a heritage still hinted at in its historic wooden warehouses. Today visitors can stroll along the riverfront promenade, explore the striking Legislative Assembly building and vibrant downtown filled with galleries, cafés and the University of New Brunswick campus, all set against a backdrop of leafy parks and gentle river views.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
  "yks": {
   "name": "Yakutsk",
   "text": "Yakutsk, perched on the banks of the Lena River in the heart of Siberia, is the capital of the Sakha Republic and one of the world’s coldest cities, where winter temperatures regularly plunge below –40 °C. Founded in 1632 as a Russian outpost, it grew into a centre for the fur trade and later for diamond mining, which still fuels the local economy. Today the town is a surprising blend of modernity and tradition: colourful wooden houses line lively streets, museums showcase indigenous Yakut culture, and a hearty cuisine of reindeer and fish warms visitors after a crisp, clear-air stroll beneath snow-capped hills.",
@@ -636,11 +727,53 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "yqr": {
+  "name": "Regina",
+  "text": "Regina, the capital of Saskatchewan in Canada, sits on the flat, golden prairie plain about 190 kilometres south of the province’s northern border and 250 kilometres north of the United States. The city grew from a railway settlement founded in 1882 and was promptly chosen as the provincial capital, a status it retains today. Its most striking landmark is the grand sandstone Legislative Building, whose copper dome can be seen from many points in town. Modern visitors find a friendly, laid-back atmosphere, with excellent museums, a vibrant culinary scene and wide-open riverfront parks that showcase the sweeping skies and endless horizons of the Canadian West.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
+ "yqt": {
+  "name": "Thunder Bay",
+  "text": "Thunder Bay sits on the north-western shore of Lake Superior in Ontario, Canada, where the Kaministiquia River meets the lake’s vast waters. The city grew from the historic fur-trading outpost of Fort William, a key Hudson’s Bay Company centre in the early 1800s that helped open the interior to European trade. Today the town blends rugged natural beauty with a relaxed, welcoming vibe: you can stroll along the waterfront boardwalk, explore the striking rock formations of the nearby Sleeping Giant, enjoy Indigenous art galleries and sample fresh lake fish in cosy cafés, all under a backdrop of striking shoreline and pine-clad hills.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
+ "yxe": {
+  "name": "Saskatoon",
+  "text": "Saskatoon sits on the east bank of the South Saskatchewan River in the central part of the Canadian province of Saskatchewan, roughly midway between Calgary and Winnipeg. Founded in the late 19th century, the town grew around a North West Company trading post and was officially incorporated in 1906, becoming a key hub for grain and railway traffic on the Canadian Prairies. Today visitors find a vibrant mix of modern cafés, art galleries and riverside parks, with the striking skyline reflected in the river’s waters and a lively cultural scene that celebrates both its Indigenous heritage and its pioneering past.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
+ "yxy": {
+  "name": "Whitehorse",
+  "text": "Whitehorse, the capital of Yukon in north-west Canada, sits on the banks of the mighty Yukon River about 30 kilometres south of the Alaska border. It grew from a modest river-crossing called “the White Horse Rapids” into a bustling supply hub during the Klondike Gold Rush of the late 1890s, when prospectors streamed through on their way to the goldfields. Today the town blends frontier charm with modern comforts: colourful storefronts line Main Street, the Yukon Beringia Interpretive Centre showcases ancient fossils, and the surrounding mountains and river offer spectacular hiking, wildlife spotting and, in winter, brilliant aurora borealis displays.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
+ "yyg": {
+  "name": "Charlottetown",
+  "text": "Charlottetown, the capital of Prince Edward Island, sits on the southern shore of the island at the head of Charlottetown Harbour, where the Northumberland Strait meets the Gulf of St Lawrence. In 1864 the town hosted the Charlottetown Conference, the first meeting that set the foundations for Canadian Confederation, earning it the nickname “Birthplace of Confederation”. Today the city blends historic charm with a lively modern vibe: colourful Victorian houses line the waterfront, boutique shops and cafés spill onto pedestrian streets, and the bustling summer festivals fill the air with music and the scent of fresh seafood, making a visit both relaxed and culturally rich.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
+ },
  "yzd": {
   "name": "Yazd",
   "text": "Yazd, a desert city in central Iran about 250 km south-east of Tehran, sits on the edge of the Dasht-e Kavir plain. It is famous for its ancient mud-brick architecture and was a centre of Zoroastrian worship long before the Islamic era, with the historic Fahadan quarter preserving narrow alleys and wind-catchers that date back to the 12th century. Today the town feels calm and sun-warmed; you can wander its quiet bazaars, sip tea in a courtyard shaded by towering qanats, and watch the sunset turn the ochre roofs into a golden glow, while modern cafés and museums sit alongside the timeless adobe walls.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
   "generated": "2026-11-01"
+ },
+ "yzf": {
+  "name": "Yellowknife",
+  "text": "Yellowknife, the capital of Canada’s Northwest Territories, sits on the northern shore of Great Slave Lake, just below the Arctic Circle. Founded in the 1930s during the region’s gold-rush, the town was named after the Yellowknife Dene, whose traditional lands include the area. Today the city is a vibrant mix of modern amenities and wilderness adventure, offering museums that showcase Indigenous culture and mining history, colourful waterfront promenades, and easy access to spectacular northern lights, dog-sledding and canoe trips on the lake, all set against a backdrop of boreal forest and crisp, clean air.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-04"
  }
 }
