@@ -104,6 +104,27 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "bor": {
+  "name": "Bordeaux",
+  "text": "Bordeaux, nestled on the banks of the Garonne in southwestern France, lies about 500 km south-west of Paris and is the capital of the Nouvelle-Atlantique region. Founded as a Roman settlement called Burdigala, the city flourished as a major trading port in the 18th century, its wealth famously displayed in the elegant stone façades of the historic centre, a UNESCO World Heritage site. Today visitors can wander the wide riverfront promenades, explore the lively markets of the Chartrons district, and sip world-renowned wines in cosy cafés while the modern tram system glides past centuries-old architecture, offering a seamless blend of past and present.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
+ "cal": {
+  "name": "Calais",
+  "text": "Calais sits on the northern coast of France, directly opposite Dover on the Strait of Dover, where the English Channel narrows to just 34 kilometres. Historically it was the principal continental gateway for England, most famously the departure point for the Allies’ D-Day landings in June 1944. Today the town greets visitors with a bustling waterfront, the striking modern Musee des Beaux-Arts, and the massive Calais Lighthouse offering views of the busy ferry terminals and the rolling white cliffs across the water. A walk along the promenade gives a lively mix of cafés, shops and the salty sea air, making it a pleasant stop for both history lovers and seaside wanderers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
+ "cam": {
+  "name": "Cambridge",
+  "text": "Cambridge is a historic city in the east of England, set on the River Cam about 50 miles north-north-west of London. It grew around the University of Cambridge, which was founded in 1209 and has produced countless scholars, scientists and writers over the centuries. Today the city is a lively mix of medieval colleges with their iconic courtyards and modern cafés, boutique shops and tech start-ups, earning it the nickname “Silicon Fen”. Visitors can stroll along the picturesque riverside, punt on the Cam, explore museums and enjoy the vibrant cultural scene.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "car": {
   "name": "Cardiff",
   "text": "Cardiff, the capital city of Wales, sits on the southern coast of the United Kingdom where the River Taff meets the Bristol Channel. It grew around Cardiff Castle, a Norman fortress that was later expanded by the Marquesses of Bute in the 19th century and now houses a museum of the city’s medieval and Victorian past. Today the city blends historic charm with a lively waterfront: you can explore the revitalised Cardiff Bay, enjoy a match at the iconic Principality Stadium, wander the bustling streets of the Castle Quarter, and sample Welsh cuisine in cosy pubs and modern restaurants, all within a welcoming, compact urban setting.",
@@ -117,6 +138,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "che": {
+  "name": "Cherbourg",
+  "text": "Cherbourg-en-Normandy sits on the tip of the Cotentin Peninsula in north-western France, overlooking the English Channel and the Bay of the Mont Saint-Michel. Founded in the medieval era, the town gained strategic importance during the Second World War and was a key Allied port after the D-Day landings in 1944. Today visitors stroll along the bustling waterfront, explore the impressive Musée de la Cité de la Mer with its historic submarine, and enjoy fresh seafood in a relaxed harbour atmosphere, while the surrounding cliffs and nearby beaches offer striking coastal scenery.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
  },
  "cle": {
   "name": "Cleveland",
@@ -153,6 +181,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "die": {
+  "name": "Dieppe",
+  "text": "Dieppe is a charming coastal town in the Normandy region of north-western France, set on the English Channel about 170 km north of Paris. It grew famous in 1942 when Allied forces launched a daring raid on its harbour, an event that helped shape the later D-Day landings. Today the town is a relaxed seaside destination with a bustling fishing port, a long pebble beach perfect for strolling, and a lively promenade lined with cafés and shops. Visitors can wander the historic Château de Dieppe, explore maritime museums, and enjoy fresh seafood while watching the Atlantic breeze roll in.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "dov": {
   "name": "Dover",
   "text": "Dover sits on the southeastern tip of England, facing the narrow Strait of Dover that separates Britain from France, and its white chalk cliffs dominate the coastline. The town has been a key gateway for centuries; Roman and later medieval forts were built here, and the famous Dover Castle has guarded the coast since the 12th century. Today the promenade is bustling with cafés, souvenir stalls and the iconic white-cliff walk, while ferries whisk visitors across to Calais in under two hours. With its dramatic sea views, historic sites and lively harbour, Dover feels both a living port and a reminder of Britain’s maritime heritage.",
@@ -173,6 +208,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "edi": {
+  "name": "Edinburgh",
+  "text": "Edinburgh, perched on the east coast of Scotland where the River Forth meets the North Sea, is a compact city of striking contrasts. Its most famous historic landmark, the medieval castle that dominates the skyline, has guarded the city since the 12th century and was the site where the Scottish Crown Jewels are kept. Today the streets are alive with a mix of cobbled Old Town alleys and sleek New Town squares, bustling cafés, and world-class museums; the annual festivals fill the air with music, theatre and a lively, welcoming buzz for visitors of all ages.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
  },
  "enu": {
   "name": "Enugu",
@@ -216,6 +258,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "gla": {
+  "name": "Glasgow",
+  "text": "Glasgow sits on the River Clyde in western Scotland, about 45 miles northwest of Edinburgh and a short train ride from the Irish Sea coast. Once a booming hub of shipbuilding and industry in the 19th century, the city’s historic legacy is visible in its grand Victorian architecture and the famous Riverside Museum, which celebrates its maritime past. Today Glasgow thrives as a vibrant cultural centre, famous for its lively music scene, world-class galleries such as the Gallery of Modern Art, and a friendly, laid-back atmosphere that welcomes visitors to explore its bustling cafés, leafy parks and striking street art.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "goi": {
   "name": "Goiania",
   "text": "Goiania, the vibrant capital of the Brazilian state of Goiás, lies in the heart of the country’s interior, about 200 km south-west of Brasília. Planned from scratch in the early 1930s, it officially became the state capital in 1937, replacing the historic town of Goiás Velho and sparking rapid growth. Today the city dazzles visitors with its wide, tree-lined avenues, striking modernist buildings such as the colourful Praça Cívica designed by Oscar Niemeyer, and a lively cultural scene that includes bustling markets, lively cafés and the nearby Parque Vaca Brava, a favourite spot for picnics and bird-watching.",
@@ -236,6 +285,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
   "generated": "2026-11-01"
+ },
+ "har": {
+  "name": "Harwich",
+  "text": "Harwich is a bustling little port town in the county of Essex, perched on the estuary where the River Stour meets the North Sea, just a short train ride from London. Historically it was an important naval base and commercial harbour, with the Harwich Redoubt built in the early 1800s to protect the coast during the Napoleonic wars. Today the town feels relaxed yet lively: you can stroll along the historic waterfront, watch ferries set out for the Netherlands and Denmark, explore the maritime museum, and enjoy fresh seafood in cosy cafés while the sea breeze carries the scent of sails and salt.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
  },
  "het": {
   "name": "Hohhot",
@@ -321,6 +377,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "lil": {
+  "name": "Lille",
+  "text": "Lille sits in the far north of France, just a short train ride from the Belgian border and a stone’s throw from the coast of the North Sea. Founded as a Roman settlement, it later became the capital of French Flanders and was a key stronghold during the Wars of Religion, when the city’s famous citadel was constructed by Vauban in the 17th century. Today Lille buzzes with a lively mix of historic cobbled streets, sleek modern boutiques and bustling markets; its cafés spill onto the Grand Place, and the vibrant cultural scene – from museums to street art – makes wandering its neighbourhoods a delight for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "liv": {
   "name": "Liverpool",
   "text": "Liverpool sits on the western edge of the Mersey Estuary in north-west England, its waterfront stretching along the River Mersey. Historically it grew into a major global port in the 18th and 19th centuries, famously serving as the gateway for many emigrants to the New World and for the trans-Atlantic trade that shaped the city’s wealth. Today the city buzzes with music, sport and culture: you can wander the historic Albert Dock, admire the impressive waterfront UNESCO World Heritage sites, enjoy lively pubs and cafés, and catch the vibrant street art and festivals that give Liverpool its warm, welcoming character.",
@@ -349,12 +412,26 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "lyo": {
+  "name": "Lyon",
+  "text": "Lyon, nestled at the confluence of the Rhône and Saône rivers in east-central France, is the country’s third-largest city and a historic crossroads of trade. Founded by the Romans as Lugdunum in 43 BC, it later became a key centre of the silk industry in the 19th century, a heritage still visible in its traboules—hidden passageways linking the old neighbourhoods. Today the city buzzes with a vibrant culinary scene, from bustling bouchons serving traditional Lyonnaise dishes to Michelin-starred restaurants, while its UNESCO-listed old town offers cobbled streets, Renaissance architecture and stunning views from the hilltop Basilica of Notre-Dam de Fourvière.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "man": {
   "name": "Manchester",
   "text": "Manchester, nestled in the north-west of England on the River Irwell, grew from a modest medieval market town into a powerhouse of the Industrial Revolution, famously pioneering cotton spinning and railway engineering in the 19th century. Today the city buzzes with a vibrant mix of culture and sport: you can explore world-class museums such as the Science and Industry Museum, savour street food in the bustling Curry Mile, and feel the electric atmosphere of a match at the iconic Old Trafford. Its leafy canals, modern architecture and lively music scene make Manchester a friendly, energetic stop for any traveller.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "mar": {
+  "name": "Marseille",
+  "text": "Marseille, perched on the southeastern coast of France where the Mediterranean meets the Rhône-Alpes region, is France’s oldest city, founded by Greek sailors from Phocaea around 600 BC. Its historic Vieux-Port still bustles with fishing boats and cafés, while the striking basilica of Notre-Dame de la Garde watches over the harbor from its hilltop perch. Today the city mixes vibrant street art, lively markets selling olives and bouillabaisse, and a lively waterfront promenade that leads to modern museums and sandy beaches. The blend of ancient stone streets, multicultural flavours and stunning sea views makes a visit feel both timeless and refreshingly contemporary.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
  },
  "mbm": {
   "name": "Mbuji-Mayi",
@@ -412,6 +489,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "nan": {
+  "name": "Nantes",
+  "text": "Nantes, situated on the banks of the Loire in western France, is a vibrant city that blends river-side charm with a rich maritime heritage. Once the historic capital of the Duchy of Brittany and a major port for Atlantic trade, its legacy is still visible in the impressive Château des Ducs de Bretagne and the preserved 18th-century shipyards of the Cité des Congrès. Today visitors can wander along the lively quays, explore the whimsical Machines of the Isle of Nantes with its giant mechanical elephant, and enjoy bustling markets, cafés and contemporary art galleries that give the city a lively, modern feel.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "nhv": {
   "name": "Newhaven",
   "text": "Newhaven is a small coastal town in East Sussex, perched on the mouth of the River Ouse where it meets the English Channel, just a short drive east of Brighton. It grew around a medieval fishing harbour that later became an important packet-boat terminal for cross-Channel services in the 19th century, and the town’s historic harbour walls still echo that maritime past. Today visitors can stroll along the lively promenade, watch the ferries to Dieppe, enjoy fresh seafood in cosy pubs, and take in sweeping sea views from the nearby cliffs, all in a relaxed, friendly atmosphere.",
@@ -467,6 +551,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "par": {
+  "name": "Paris",
+  "text": "Paris, the capital of France, sits on the banks of the River Seine in the north-central part of the country. Founded by the Celtic Parisii tribe, it became an imperial centre when the Romans built Lutetia on the island now known as Île de la Cité, and it later grew into a hub of art, fashion and cuisine. Today the city dazzles visitors with its iconic skyline of Haussmannian boulevards, world-renowned museums such as the Louvre, and lively cafés spilling onto cobbled streets. A stroll along the Seine offers a mix of historic monuments, modern shops and the unmistakable buzz of a metropolis that still feels romantic and vibrant.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
  },
  "pdl": {
   "name": "Ponta Delgada",
@@ -566,6 +657,20 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "ros": {
+  "name": "Roscoff",
+  "text": "Roscoff is a charming fishing port on the north-west coast of Brittany, France, facing the English Channel and just a short ferry ride from Plymouth. Founded in the Middle Ages, the town became famous in the 19th century as the departure point for the first regular trans-Channel steamship service, linking France and Britain. Today Roscoff delights visitors with its colourful harbour, slate-roofed houses and a bustling market where fresh seafood and the celebrated “Roscoff pink” seaweed are sold. Stroll along the promenade, explore the historic granite church and sample the local cider for a quintessential Breton experience.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
+ "rou": {
+  "name": "Rouen",
+  "text": "Rouen, perched on the River Seine in north-western France, is the historic capital of Normandy, roughly an hour and a half by train from Paris. It was here in 1419 that Joan of Arc was tried and later executed, a moment that still haunts the city’s medieval streets. Today the town blends cobbled alleys and half-timbered houses with bustling cafés, a vibrant arts scene and impressive Gothic architecture such as the towering Notre-Dame Cathedral that famously inspired Monet’s series of paintings. A stroll through its markets, museums and riverfront promenades feels both timeless and lively.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "rtr": {
   "name": "Rotorua",
   "text": "Rotorua, situated in the heart of New Zealand’s North Island within the Bay of Plenty region and set on the southern shore of Lake Rotorua, has been a centre of Māori life for centuries, home to the Te Arawa iwi. European visitors arrived in the 1860s and the town was declared a tourist resort in 1882, recognising its dramatic geysers and sulphur springs. Today the city blends geothermal landscapes, thriving Māori cultural performances, lake-front cafés and adventure activities, making it a lively destination for travellers seeking natural wonder and authentic New Zealand hospitality.",
@@ -643,6 +748,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "str": {
+  "name": "Strasbourg",
+  "text": "Strasbourg, perched on the banks of the River Ill where France meets Germany, is the capital of the Alsace region in north-eastern France. Founded as a Roman settlement, it later became an Imperial Free City of the Holy Roman Empire and was a key centre of the Reformation, hosting the famous 1529 Diet of Augsburg delegates. Today the city charms visitors with its UNESCO-listed Grande Île, where the timber-framed “half-timber” houses line cobbled streets and the stunning Gothic cathedral towers above the bustling markets. A blend of French and German cuisine, lively cafés and modern European institutions makes Strasbourg a vibrant, walkable destination.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "tao": {
   "name": "Qingdao",
   "text": "Qingdao, a coastal city in Shandong province on China’s Yellow Sea, is famed for its blend of German colonial heritage and modern seaside charm. Founded as a fishing village, it became a German concession in 1898, which left the striking red-tiled roofs of the former Governor’s Hall and the historic Badaguan neighbourhood. Today visitors can stroll along the bustling waterfront promenade, sip locally brewed Tsingtao beer in lively pubs, wander the fragrant jasmine-lined streets, and enjoy fresh seafood while taking in the backdrop of gentle hills and crystal-clear bays.",
@@ -657,12 +769,26 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "tls": {
+  "name": "Toulouse",
+  "text": "Toulouse, in southwestern France, lies on the banks of the Garonne River about 150 km east of the Atlantic coast. Known as “La Ville Rose” for its distinctive pink-hued bricks, the city was a centre of medieval commerce and later became a hub of the aerospace industry, home to the headquarters of Airbus. Visitors today can wander its historic centre, admire the towering Saint-Sernin basilica, and relax in lively cafés lining the riverfront, while the modern university atmosphere adds a youthful buzz to the charming, sun-lit streets.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "tof": {
   "name": "Tomsk",
   "text": "Tomsk lies in western Siberia, on the banks of the Tom River about 650 km east of the Ural Mountains and roughly 2 000 km northeast of Moscow. Founded in 1604 as a fort on the Siberian trade route, it is one of the oldest towns in the region and today hosts Russia’s first university, established in 1888. Visitors find a lively mix of historic wooden houses, leafy avenues and modern cafés, while the riverfront offers pleasant walks and occasional boat trips. Museums, theatres and a vibrant student community give the city a youthful, cultural buzz that contrasts pleasantly with its frontier heritage.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "tou": {
+  "name": "Tours",
+  "text": "Tours, set on the gentle bend of the River Loire in the heart of France’s historic Centre-Val de Loire, is a lively gateway to the country’s famed châteaux. Its medieval old town grew around the impressive Saint-Gatien cathedral, which dates back to the 12th century and bears the marks of the Hundred Years’ War. Today the city blends that rich heritage with a bustling, contemporary vibe: cobbled streets are lined with cafés and boutique shops, the vibrant market on Place Plumereau hums with locals, and river cruises offer relaxed views of the surrounding vineyards. Tours feels both comfortably historic and refreshingly modern, making it a pleasant stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
  },
  "tpa": {
   "name": "Tampa",
@@ -726,6 +852,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "yor": {
+  "name": "York",
+  "text": "York, a historic city in North Yorkshire, lies at the confluence of the Rivers Ouse and Foss, about 30 miles north-east of Leeds and 190 miles north of London. Founded by the Romans as Eboracum, it later became a key Viking-era centre and the site of the famous medieval York Minster. Today the walled city feels compact and lively: you can wander the cobbled Shambles, explore the National Railway Museum, and enjoy the vibrant cafés and independent shops that spill onto the ancient streets, while the impressive city walls offer pleasant walks with views over the modern town below.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
  },
  "yqr": {
   "name": "Regina",
