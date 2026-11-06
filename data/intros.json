@@ -41,6 +41,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "ams": {
+  "name": "Amsterdam",
+  "text": "Amsterdam, the lively capital of the Netherlands, sits on the banks of the Amstel River and spreads across a network of historic canals that give the city its famous, picturesque charm. First granted city rights in 1300, it grew into a major trading hub during the Dutch Golden Age, when artists like Rembrandt and Vermeer worked in its bustling workshops. Today the streets are a mix of centuries-old gabled houses and modern cafés, with cyclists weaving between the canals, museums showcasing world-class art, and a relaxed, multicultural atmosphere that makes wandering the city feel both timeless and fresh.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
  "ayt": {
   "name": "Antalya",
   "text": "Antalya, a coastal city on Turkey’s southwestern Mediterranean shore, sits at the foot of the Taurus Mountains and enjoys a mild climate year-round. It has been a gateway to the ancient region of Pamphylia since Roman times, with the well-preserved ruins of Hadrian’s Gate marking the old city’s entrance. Today the promenade along Konyaaltı Beach is lined with cafés, boutique shops and lively street performers, while the historic Kaleiçi district offers winding lanes, Ottoman houses and rooftop terraces that overlook the sparkling sea, making a stroll feel both relaxed and full of discovery.",
@@ -55,6 +62,27 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "bcn": {
+  "name": "Barcelona",
+  "text": "Barcelona, perched on the northeastern coast of Spain along the Mediterranean Sea, is the vibrant capital of Catalonia. Founded as a Roman colony, it later became the seat of the Crown of Aragon, a medieval power that shaped much of Mediterranean history. Today the city buzzes with a mix of historic charm and modern flair: you can wander the winding lanes of the Gothic Quarter, admire Antoni Gaudí’s surreal architecture such as the still-unfinished Sagrada Família, and relax on sandy beaches while cafés serve tapas and cava. Its lively streets, sea breezes and cultural festivals make it a memorable stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
+ "bel": {
+  "name": "Belfast",
+  "text": "Belfast, the capital of Northern Ireland, sits on the River Lagan where it meets Belfast Lough on the island’s eastern coast. Historically it was the world’s leading ship-building hub, most famously launching the RMS Titanic in 1912. Today the city blends its industrial heritage with a vibrant cultural scene: you can wander the revitalised waterfront, explore museums that recount its past, and enjoy lively pubs, restaurants and street art in the Cathedral Quarter. Friendly locals, green parks and stunning coastal views make Belfast a welcoming place to discover.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
+ "ber": {
+  "name": "Berlin",
+  "text": "Berlin, the vibrant capital of Germany, lies in the northeastern part of the country on the River Spree and is surrounded by the state of Brandenburg. Founded in the 13th century, it became the capital of the Kingdom of Prussia and later the seat of the German Empire, and its historic Brandenburg Gate still marks the former divide between East and West during the Cold War. Today the city buzzes with a mix of modern architecture, world-class museums and leafy parks; cyclists glide along bustling streets, cafés spill onto cobblestones, and the nightlife hums long after the sun sets, making Berlin a lively playground for history lovers and creative explorers alike.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
  "bfn": {
   "name": "Bloemfontein",
   "text": "Bloemfontein, the judicial capital of South Africa and the heart of the Free State province, began as a British outpost in 1846 and soon became the capital of the Orange Free State republic in 1854. Today the city blends historic charm with a lively university atmosphere, boasting the University of the Free State, the National Museum and the famous rose gardens that give it the nickname “City of Roses”. Its wide avenues, bustling markets and nearby wildlife reserves make it a pleasant base for exploring the central plains and the surrounding Karoo.",
@@ -68,6 +96,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "bil": {
+  "name": "Bilbao",
+  "text": "Bilbao sits on the north-eastern edge of Spain, tucked against the mouth of the Nervión River in the Basque Country and framed by the rolling green hills of the Cantabrian Mountains. The city grew from a medieval trading port and, after the 19th-century industrial boom, became a major centre for steel and shipbuilding. Today, Bilbao is a vibrant mix of old and new: you can stroll along the historic Casco Viejo with its narrow streets and lively pintxos bars, then marvel at the gleaming titanium curves of the Guggenheim Museum, while the riverfront promenades and lush parks offer relaxed, modern ambience perfect for a day of exploration.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  },
  "bir": {
   "name": "Birmingham",
@@ -110,6 +145,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "bru": {
+  "name": "Brussels",
+  "text": "Brussels, the capital of Belgium and the de facto capital of the European Union, sits in the centre of the country where the River Senne meets the countryside of Flanders and Wallonia. First mentioned in the 10th-century records as a modest market town, it grew around the 13th-century Grand-Place, a UNESCO World Heritage site renowned for its ornate guildhalls and the stunning Town Hall. Today the city buzzes with a mix of historic charm and modern cosmopolitan life: you can savour world-famous chocolates and waffles, wander past impressive Art Nouveau façades, and soak up the lively atmosphere of cafés and multilingual crowds beneath a sky often brushed with the gentle hue of a summer sunset.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  },
  "cal": {
   "name": "Calais",
@@ -167,6 +209,20 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "col": {
+  "name": "Cologne",
+  "text": "Cologne lies on the banks of the River Rhine in western Germany, about 70 kilometres north of the Luxembourg border. Founded by the Romans as Colonia Claudia Ara Agrippinensium in the first century AD, it became a major medieval trading hub and the seat of one of the oldest archbishoprics in Europe. Today the city is a lively mix of history and modernity: you can wander beneath the towering spire of the Gothic Cologne Cathedral, explore quirky museums such as the Chocolate Museum, and relax on bustling riverfront terraces while sipping a Kölsch in a traditional brewpub.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
+ "cor": {
+  "name": "Cork",
+  "text": "Cork, situated on the south-west coast of Ireland where the River Lee widens into a bustling harbour, is the country’s second-largest city and a historic trading port that received its charter from King John in 1185. Its medieval streets still echo with the past, while today the city hums with a lively arts scene, cosy cafés and vibrant markets such as the English Market, where you can sample fresh seafood and locally produced cheese. Friendly locals are happy to point you towards colourful pubs, scenic walks along the riverbanks and the striking St Finbarr’s Cathedral, making a visit both charming and contemporary.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
  "csx": {
   "name": "Changsha",
   "text": "Changsha, the capital of Hunan province in south-central China, sits on the banks of the Xiang River about 300 km south of Wuhan. It was the base of the early 20th-century revolutionary leader Mao Zedong, who organised the famous Autumn Harvest Uprising there in 1927. Today the city blends modern skyscrapers with lively historic streets: you can wander the bustling Huangxing Road shopping district, savour spicy Hunan cuisine at night markets, and take a leisurely stroll through the ancient Yuelu Academy and its leafy hill, while the riverfront promenade offers views of illuminated bridges and a vibrant river-cruise scene.",
@@ -201,6 +257,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "dub": {
+  "name": "Dublin",
+  "text": "Dublin, the capital of Ireland, sits on the east coast where the River Liffey meets the Irish Sea, spreading over the low-lying plains of the province of Leinster. Founded by the Vikings in the 9th century, it later became the seat of English rule and the birthplace of many literary giants, including James Joyce. Today the city buzzes with a warm, welcoming atmosphere: you can wander past Georgian townhouses, sip a coffee in a bustling café, explore lively markets, and enjoy traditional music spilling from cosy pubs, all while the modern skyline rises behind the historic streets.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  },
  "dzo": {
   "name": "Mayotte (Dzaoudzi)",
@@ -243,6 +306,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "fra": {
+  "name": "Frankfurt",
+  "text": "Frankfurt, situated on the River Main in the state of Hesse in central Germany, is a bustling financial hub often nicknamed “Mainhattan” for its skyline of glass-clad towers. Historically it was the site of the first Frankfurt Parliament in 1848, Germany’s first freely elected national assembly. Today the city blends modernity with charm: you can wander the historic Römer square, explore museums along the Museumsufer, and enjoy the fragrant apple-wine taverns of the Alt-Sachsenhausen district, all while the lively streets buzz with shoppers, commuters and international visitors.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  },
  "ftz": {
   "name": "Fortaleza",
@@ -307,12 +377,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "hly": {
+  "name": "Holyhead",
+  "text": "Holyhead sits on the western tip of Holy Island, off the coast of Anglesey in North Wales, and serves as the United Kingdom’s busiest ferry gateway to Dublin. The town grew around a Roman fort known as Caer y Ffos, evidence of its strategic importance for centuries, and later expanded with the 19th-century Admiralty Pier that still frames the harbour. Today Holyhead blends a bustling port atmosphere with rugged coastal scenery: you can stroll along the promenade, watch ferries swing in and out, explore the maritime museum, and enjoy fresh seafood while the sea breezes carry the scent of salt and history.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
  "hmn": {
   "name": "Hamilton, Bermuda",
   "text": "Hamilton, the capital of Bermuda, sits on the island’s central south coast overlooking Hamilton Harbour. Laid out in 1790 and named for Governor Sir Henry Hamilton, it quickly became the island’s administrative centre, replacing the older capital at St George’s. Landmarks such as the mid-nineteenth-century Cathedral of the Most Holy Trinity and the Bermuda National Museum echo its maritime and colonial past. Today the city blends pastel-coloured storefronts, a bustling harbour filled with cruise ships, and a thriving financial district, offering visitors a lively mix of heritage and modern island life.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
   "generated": "2026-11-01"
+ },
+ "hoh": {
+  "name": "Hook of Holland",
+  "text": "Hook of Holland is a seaside town at the western tip of South Holland, where the Nieuwe Waterweg canal meets the North Sea, just a short drive west of Rotterdam. It was the departure point for the first regular passenger ferry service to Harwich, England, which began in 1893 and helped cement its role as a gateway between the Netherlands and Britain. Today the promenade is lined with colourful beach huts, modern cafés and a bustling ferry terminal, while the wide sandy beach and the iconic windmills on the dunes offer relaxed strolls and striking sunset views over the busy shipping lane.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  },
  "hrg": {
   "name": "Hurghada",
@@ -419,6 +503,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-05"
  },
+ "mad": {
+  "name": "Madrid",
+  "text": "Madrid, the vibrant capital of Spain, sits in the heart of the Iberian Peninsula on the Manzanares River, surrounded by the rolling Castilian plains. Founded as a modest fortress in the ninth-century, it became the royal seat when King Philip II moved his court there in 1561, establishing the city as the centre of the Spanish Empire. Today the city buzzes with a mix of historic grandeur and modern energy: you can stroll through the leafy Retiro Park, admire world-class art in the Prado, savour tapas in lively plazas, and feel the warm, cosmopolitan rhythm that makes Madrid a favourite stop for travellers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
  "man": {
   "name": "Manchester",
   "text": "Manchester, nestled in the north-west of England on the River Irwell, grew from a modest medieval market town into a powerhouse of the Industrial Revolution, famously pioneering cotton spinning and railway engineering in the 19th century. Today the city buzzes with a vibrant mix of culture and sport: you can explore world-class museums such as the Science and Industry Museum, savour street food in the bustling Curry Mile, and feel the electric atmosphere of a match at the iconic Old Trafford. Its leafy canals, modern architecture and lively music scene make Manchester a friendly, energetic stop for any traveller.",
@@ -502,6 +593,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "nic": {
+  "name": "Nice",
+  "text": "Nice, perched on the sun-kissed French Riviera between the Mediterranean Sea and the foothills of the Alps, is a vibrant coastal city in the southeast of France. It grew from a small fishing settlement into a fashionable resort after the railway arrived in 1864, attracting artists and aristocrats alike. Today the promenade along the famous Baie des Anges is lined with palm trees, cafés and the iconic pebble beach, while the narrow streets of the old town reveal colourful baroque houses, bustling markets and the scent of socca. Visitors can stroll the promenade, explore museums such as the Musée Matisse, and enjoy the blend of French and Italian influences that give Nice its distinct charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  },
  "nkg": {
   "name": "Nanjing",
@@ -664,12 +762,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-05"
  },
+ "rot": {
+  "name": "Rotterdam",
+  "text": "Rotterdam sits on the banks of the Nieuwe Maas in the western Netherlands, just a short train ride from The Hague and a half-hour from the North Sea coast. The city rose from the ashes after World War II when its historic centre was heavily bombed, prompting a bold rebuild that gave Rotterdam its striking modern skyline. Today, visitors can wander along the bustling waterfront, admire daring architecture such as the cube houses and Erasmus Bridge, and enjoy a lively mix of multicultural cafés, bustling markets and world-class museums, all set against the backdrop of the busy port that is the heart of Europe's shipping trade.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
  "rou": {
   "name": "Rouen",
   "text": "Rouen, perched on the River Seine in north-western France, is the historic capital of Normandy, roughly an hour and a half by train from Paris. It was here in 1419 that Joan of Arc was tried and later executed, a moment that still haunts the city’s medieval streets. Today the town blends cobbled alleys and half-timbered houses with bustling cafés, a vibrant arts scene and impressive Gothic architecture such as the towering Notre-Dame Cathedral that famously inspired Monet’s series of paintings. A stroll through its markets, museums and riverfront promenades feels both timeless and lively.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "rsl": {
+  "name": "Rosslare",
+  "text": "Rosslare, perched on the south-eastern tip of County Wexford, looks out over the Atlantic and the narrow St Gillian’s Strait that separates Ireland from Wales. The town grew around Rosslare Harbour, which was opened in 1906 to serve the new steam-packet service to Fishguard and still handles daily ferries to Pembroke Dock. Today the harbour area is a bustling gateway for travelers, while the adjoining sandy beach and flat promenade invite leisurely strolls, and a handful of cosy cafés and traditional pubs offer a relaxed taste of coastal life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  },
  "rtr": {
   "name": "Rotorua",
@@ -684,6 +796,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "san": {
+  "name": "Santander",
+  "text": "Santander, perched on the northern coast of Spain in the autonomous community of Cantabria, is a lively seaside town overlooking the Bay of Biscay. Founded by the Romans as Portus Victoriae, it later became an important port for the Spanish crown, and its historic centre still shows the influence of 19th-century expansion under Queen María de las Mercedes. Today the city mixes elegant Art-Deco architecture with a bustling promenade, golden beaches and a vibrant culinary scene centred on fresh anchovies and local cheeses. Visitors can stroll along the Magdalena Peninsula, explore the maritime museum and enjoy the relaxed, salty air of this charming coastal gem.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  },
  "sbh": {
   "name": "Sabha",
@@ -825,6 +944,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "val": {
+  "name": "Valencia",
+  "text": "Valencia, Spain, sits on the eastern Mediterranean coast where the Turia River meets the sea, about three hours by train south of Barcelona. Founded as a Roman colony in the second century BC, the city later flourished under Moorish rule and retained its medieval walls, parts of which you can still see strolling through the historic centre. Today Valencia feels vibrant and laid-back: you can wander the futuristic City of Arts and Sciences, sip a chilled horchata in a sun-dappled plaza, or wander the bustling Central Market, all while the scent of paella drifting from seaside restaurants reminds you why this port city is a favourite stop for travellers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
+ },
  "xmn": {
   "name": "Xiamen",
   "text": "Xiamen, a bustling coastal city in Fujian province on China’s southeast seaboard, sits opposite the Taiwan Strait and is linked to the historic Gulangyu Island by a short ferry ride. It became a treaty port in the mid-19th century after the First Opium War, which sparked its development as a centre of overseas trade. Today the city charms visitors with palm-shaded promenades, a lively pedestrian street full of street food stalls, well-preserved temples and modern cafés, and a pleasant subtropical climate that makes exploring its harbourside parks and colourful neighbourhoods a relaxed delight.",
@@ -908,5 +1034,12 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "zar": {
+  "name": "Zaragoza",
+  "text": "Zaragoza, nestled in the north-east of Spain on the banks of the Ebro River, lies roughly halfway between Madrid and Barcelona and serves as the capital of the autonomous community of Aragon. The city’s most famous landmark, the Basilica of Our Lady of the Pillar, has been a major pilgrimage site since the early medieval period, when legend says the Virgin Mary appeared to the apostle James here. Today Zaragoza buzzes with a lively mix of historic charm and modern energy: you can stroll through bustling tapas bars, explore the Roman-era Aljafería Palace, and enjoy riverside walks while the city’s vibrant cultural calendar offers festivals, music and art throughout the year.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-06"
  }
 }
