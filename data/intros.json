@@ -153,6 +153,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "bsl": {
+  "name": "Basel",
+  "text": "Basel is a vibrant city perched on the banks of the Rhine in north-western Switzerland, right where the borders of Germany and France meet. Founded by the Romans as Augusta Raurica, it later became a key centre of the medieval Holy Roman Empire and was the site of the 1431 Council of Basel, one of the most important church assemblies of the Middle Ages. Today the city blends old and new: its well-preserved medieval Old Town, with the striking Basel Minster and bustling market squares, sits alongside cutting-edge museums such as the Kunstmuseum and Fondation Beyeler, lively cafés, and a lively riverside promenade that comes alive with festivals, making Basel a delightful mix of history, culture and modern Swiss charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
  "cal": {
   "name": "Calais",
   "text": "Calais sits on the northern coast of France, directly opposite Dover on the Strait of Dover, where the English Channel narrows to just 34 kilometres. Historically it was the principal continental gateway for England, most famously the departure point for the Allies’ D-Day landings in June 1944. Today the town greets visitors with a bustling waterfront, the striking modern Musee des Beaux-Arts, and the massive Calais Lighthouse offering views of the busy ferry terminals and the rolling white cliffs across the water. A walk along the promenade gives a lively mix of cafés, shops and the salty sea air, making it a pleasant stop for both history lovers and seaside wanderers.",
@@ -222,6 +229,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
+ },
+ "cph": {
+  "name": "Copenhagen",
+  "text": "Copenhagen, the capital of Denmark, sits on the eastern shore of the island of Zealand and spreads onto the neighbouring island of Amager, facing the Øresund Strait that separates it from Sweden. First mentioned in medieval records, it grew into an important trading port in the 15th century and later became the seat of the Danish monarchy, with the historic Rosenborg Castle still housing the royal regalia. Today the city blends historic charm with modern design: you can wander colourful Nyhavn harbour, cycle along tree-lined streets, explore cutting-edge cuisine in the food markets and enjoy a relaxed, bike-friendly atmosphere that feels both cosy and cosmopolitan.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
  },
  "csx": {
   "name": "Changsha",
@@ -300,6 +314,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "flo": {
+  "name": "Florence",
+  "text": "Florence, nestled in the heart of Tuscany in central Italy, sits on the banks of the Arno River and is surrounded by gently rolling hills dotted with vineyards and olive groves. The city was the cradle of the Renaissance, a period when artists such as Michelangelo and Leonardo da Vinci were patronised by the powerful Medici family, and it was in Florence that the iconic dome of the Cathedral of Santa Maria del Fiore was completed in the 15th century. Today the streets buzz with a blend of historic charm and modern vibrancy: you can wander past world-renowned museums, sip coffee in lively piazzas, and enjoy the scent of fresh pizza drifting from bustling trattorias, all while the city’s timeless architecture provides a stunning backdrop to everyday life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
  "fnc": {
   "name": "Funchal",
   "text": "Funchal—nestled on the sun‑kissed southern coast of Portugal’s Madeira Island, this vibrant capital greets you with a tapestry of cliffs, turquoise bays and fragrant gardens. Founded in the early 15th century by Portuguese explorers, it grew from a modest fishing village into a crucial Atlantic hub for sugar, wine and later tourism. Today, Funchal dazzles visitors with its historic cobblestone streets, colorful market stalls, and a lively waterfront lined with cafés, museums and the famed cable‑car that climbs to Monte’s lush terraces. It’s a blend of old‑world charm and modern island energy—perfect for the curious traveler.",
@@ -342,6 +363,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "got": {
+  "name": "Gothenburg",
+  "text": "Gothenburg sits on Sweden’s west coast, at the mouth of the Göta älv river where it meets the North Sea, about 300 km north-west of Copenhagen. Founded in 1621 by King Gustav II Adolf as a fortified trading port, it grew into the country’s main gateway for maritime commerce. Today the city feels relaxed yet vibrant, with leafy boulevards lined by cafés, the bustling fish market at Feskekôrka, and a thriving arts scene centred on the historic Haga district. Its archipelago of islands is easily reached by a short ferry ride, offering seaside walks and fresh seafood in a laid-back atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
  "gra": {
   "name": "Granada",
   "text": "Granada, nestled at the foot of the Sierra Nevada in southern Spain, straddles the fertile plains where the Darro and Genil rivers converge. Founded by the Romans and later transformed by Visigoths, Moors, and Christians, this city bears layers of history—from its ancient Albaicín quarters to the iconic Alhambra, a UNESCO masterpiece of Islamic art. Today, Granada pulses with youthful energy thanks to its bustling university, vibrant tapas scene, and year‑round festivals that blend tradition and modern flair. As you wander its cobbled streets, you’ll feel the timeless dialogue between past and present that makes Granada a true cultural crossroads.",
@@ -355,6 +383,20 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
   "generated": "2026-11-01"
+ },
+ "gva": {
+  "name": "Geneva",
+  "text": "Geneva sits on the southwestern tip of Switzerland, cradled by the lake that bears its name and backed by the towering Alps. The city’s history stretches back to Roman times, and it later became the seat of the Protestant Reformation under John Calvin in the 16th century, shaping its reputation for religious tolerance. Today, strolling along the Quai du Mont-Blanc you’ll find sleek museums, elegant cafés and the iconic Jet d’Eau spouting water high over the lake, while the multilingual crowd reflects Geneva’s role as a hub for international diplomacy and finance, making it both cosmopolitan and surprisingly relaxed.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
+ "ham": {
+  "name": "Hamburg",
+  "text": "Hamburg, Germany’s second-largest city, sits on the River Elbe where it widens into the North Sea, giving it a bustling port that has been a key gateway for trade since the 14th century. The historic Speicherstadt, the world’s largest warehouse district built on timber piles, still houses museums, cafés and the famous Miniatur Wunderland model railway. Today the city blends maritime heritage with modern flair: you can stroll along the lively waterfront of the HafenCity, enjoy a coffee in the leafy Planten un Blomen park, and soak up the vibrant music scene in St Pauli, all while marveling at sleek glass skyscrapers beside centuries-old brick buildings.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
  },
  "har": {
   "name": "Harwich",
@@ -552,6 +594,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "mil": {
+  "name": "Milan",
+  "text": "Milan, in the north-west of Italy, sits in the fertile Po Valley between the Alps and the Adriatic Sea. First mentioned in a 6th-century Lombard document, the city became a major centre of the Renaissance, home to Leonardo da Vinci’s “The Last Supper” and the magnificent Gothic cathedral, the Duomo. Today Milan buzzes with a sleek blend of historic grandeur and modern style: you can wander its elegant arcades, sip espresso in bustling cafés, explore world-class museums, and shop the latest fashions in the vibrant Quadrilatero della Moda, all while enjoying a lively, cosmopolitan atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
  "mmk": {
   "name": "Murmansk",
   "text": "Murmansk sits on the Kola Bay at the entrance to the Barents Sea, far above the Arctic Circle on Russia’s north-western coast. Founded in 1916 as a supply port for the war effort, it became the only ice-free harbour in the Soviet north, playing a crucial role in both World Wars and the Cold War naval fleet. Today the city greets visitors with colourful wooden houses, a bustling waterfront promenade, and the striking Alyosha monument overlooking the sea. In summer the midnight sun brightens the streets, while winter offers chances to see the Northern Lights and sample hearty Arctic cuisine in cosy cafés.",
@@ -580,12 +629,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "muc": {
+  "name": "Munich",
+  "text": "Munich sits in the heart of Bavaria, in southern Germany, nestled between the Alpine foothills and the River Isar. First mentioned in records from the 12th century, the city grew around a Benedictine monastery and later became the seat of the Wittelsbach dukes, giving it a rich imperial heritage visible in the grandeur of the Residenz palace. Today Munich is a lively mix of tradition and modernity: you can wander the historic Marienplatz, sip a fresh lager in a bustling beer garden, explore world-class museums, and enjoy easy access to nearby mountains for a day of hiking or skiing.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
  "nan": {
   "name": "Nantes",
   "text": "Nantes, situated on the banks of the Loire in western France, is a vibrant city that blends river-side charm with a rich maritime heritage. Once the historic capital of the Duchy of Brittany and a major port for Atlantic trade, its legacy is still visible in the impressive Château des Ducs de Bretagne and the preserved 18th-century shipyards of the Cité des Congrès. Today visitors can wander along the lively quays, explore the whimsical Machines of the Isle of Nantes with its giant mechanical elephant, and enjoy bustling markets, cafés and contemporary art galleries that give the city a lively, modern feel.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "nap": {
+  "name": "Naples",
+  "text": "Naples, perched on the western edge of the Bay of Naples in southern Italy, is a bustling port city that has watched history unfold for over two millennia. It was a major centre of the Roman Republic and later the capital of the Kingdom of Naples, giving the region its name. Today the streets pulse with energy: you can wander past vibrant markets selling fresh mozzarella and espresso, explore the UNESCO-listed historic centre with its baroque churches and underground catacombs, and gaze across the water to the looming silhouette of Mount Vesuvius, still reminding visitors of the city’s dramatic past.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
  },
  "nhv": {
   "name": "Newhaven",
@@ -642,6 +705,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "osl": {
+  "name": "Oslo",
+  "text": "Oslo, Norway’s capital, sits at the head of the Oslofjord, framed by forested hills and islands that spill into the sea. First mentioned in medieval sagas, the city grew around the royal estate of Oslo founded in the 11th century and later became the seat of Norway’s government. Today it feels refreshingly compact and modern, with a lively waterfront lined with museums, cafés and sleek architecture such as the opera house’s sloping marble roof. You can stroll through Vigeland’s sculpture park, explore the historic Akershus Fortress or take a short ferry ride to the scenic islands for a taste of Nordic charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
  },
  "oxf": {
   "name": "Oxford",
@@ -734,6 +804,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-04"
  },
+ "pra": {
+  "name": "Prague",
+  "text": "Prague, the capital of Czechia, sits on the Vltava River in the heart of Central Europe, roughly halfway between Berlin and Vienna. First recorded as a fortified settlement in the 9th century, it became the seat of Holy Roman Emperors in the 14th century, a period that left the city awash with Gothic and Baroque splendour. Today, wandering its cobbled streets feels like stepping into a living museum: the historic Old Town Square bustles with cafés, the Charles Bridge offers sunrise views over red-brick rooftops, and the vibrant mix of museums, street music and lively pubs makes every corner feel both timeless and lively.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
  "rak": {
   "name": "Marrakech",
   "text": "Marrakech, situated in the western foothills of the Atlas Mountains in southern Morocco, has been a centre of trade and culture since it was founded in the 11th century by the Almoravid dynasty. The city's historic medina, a UNESCO World-heritage site, still contains the famous Koutoubia Mosque and the lively Jemaa el-Fna square, where storytellers, musicians and food stalls create a sensory feast each evening. Today visitors can wander narrow souks selling spices, textiles and ceramics, enjoy rooftop cafés overlooking the red-sandstone walls, and take short trips to nearby gardens and desert landscapes, making it a memorable stop on any North-African itinerary.",
@@ -754,6 +831,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "rom": {
+  "name": "Rome",
+  "text": "Rome, the bustling capital of Italy, sits in the central part of the country on the banks of the Tiber River. It was the heart of the ancient Roman Empire, famed for landmarks such as the Colosseum, an arena built in the first century AD where gladiators once fought. Today the city blends its rich past with modern life: cobbled streets lead past bustling cafés, vibrant markets and stunning baroque churches, while locals and visitors alike enjoy leisurely walks past ruins, gelato in sunny piazzas and the lively hum of trams threading through centuries-old neighbourhoods.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
  },
  "ros": {
   "name": "Roscoff",
@@ -860,6 +944,13 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "sth": {
+  "name": "Stockholm",
+  "text": "Stockholm, the capital of Sweden, spreads across 14 islands where the Baltic Sea meets Lake Mälaren in the eastern part of the country. First mentioned in a 13th-century charter, the city grew around the medieval Gamla Stan, its cobbled old town centred on the 13th-century St Nicholas Church and the Royal Palace. Today Stockholm feels clean and relaxed yet vibrant, with sleek waterfront promenades, leafy parks and a thriving café culture; you can wander from historic alleys to cutting-edge museums such as the Fotografiska, hop on a ferry to explore the archipelago, and enjoy long summer evenings illuminated by countless lanterns.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
  "stl": {
   "name": "St Louis",
   "text": "St Louis lies on the western bank of the Mississippi River in the heart of the American Midwest, about 300 miles west of the Illinois border. Founded in 1764 by French fur traders, the city grew around the historic Gateway Arch, a 630-foot stainless-steel monument that commemorates the westward expansion of the United States. Today visitors can stroll along the vibrant Riverfront, explore world-class museums such as the St Louis Art Museum and the Science Centre, and savour famous barbecue in the bustling downtown districts, all while enjoying the city’s blend of historic brick warehouses and modern skyline.",
@@ -923,6 +1014,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "tur": {
+  "name": "Turin",
+  "text": "Turin, nestled in the north-west of Italy at the foot of the Alps and straddling the Po River, was the first capital of a unified Italy in 1861 and retains grand boulevards reminiscent of its regal past. Today the city blends elegant baroque architecture with a lively café culture; you can sip an espresso beside the Mole Antonelliana, explore the sleek museums of contemporary art, and wander the leafy Valentino Park. Its bustling markets, Michelin-starred chocolate shops and vibrant university atmosphere make Turin a warm, cosmopolitan stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
  "tus": {
   "name": "Tucson",
   "text": "Tucson, nestled in the southern part of Arizona about 60 miles north of the Mexican border, lies at the edge of the Sonoran Desert and is framed by the Santa Catalina, Rincon and Tucson Mountains. The town began as a Spanish presidio in 1775, making it one of the oldest European-settled communities in the American Southwest. Today the city blends desert scenery with a lively cultural scene: you can wander historic Fourth Avenue, explore the University of Arizona’s museums, admire towering saguaro cacti in Saguaro National Park, and enjoy a thriving food and arts scene that feels both relaxed and surprisingly cosmopolitan.",
@@ -950,6 +1048,27 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
+ },
+ "ven": {
+  "name": "Venice",
+  "text": "Venice, a city of islands in the north-east of Italy, sits in the shallow lagoon of the Adriatic Sea and is linked by more than 400 bridges and narrow canals. It was a powerful maritime republic from the Middle Ages, dominating trade between Europe and the East and famed for its elaborate glassmaking on the island of Murano. Today, visitors wander past bustling markets and quiet back-streets, glide beneath elegant arched bridges in a vapour-rising gondola, and enjoy coffee in historic squares where the scent of fresh seafood mixes with the echo of centuries-old bells.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
+ "vie": {
+  "name": "Vienna",
+  "text": "Vienna, the capital of Austria, lies in the country’s eastern corner along the Danube River, framed by the Alpine foothills. It was the imperial seat of the Habsburg dynasty for centuries, and its historic centre still bears the grandeur of that era with baroque palaces such as the Hofburg and the stunning State Opera House. Today the city blends this regal past with a lively, modern vibe: coffee houses hum with conversation, museums showcase works from Klimt to contemporary artists, and the streets are lined with markets, parks and efficient tram lines that make exploring a pleasure for any visitor.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
+ },
+ "war": {
+  "name": "Warsaw",
+  "text": "Warsaw, the capital of Poland, sits on the banks of the Vistula River in the east-central part of the country. The city’s Old Town, with its colourful townhouses and cobbled squares, was painstakingly rebuilt after being razed during the Second World War and is now a UNESCO World Heritage site. Today Warsaw buzzes with a lively mix of history and modernity: sleek skyscrapers rise beside grand palaces, world-class museums sit alongside bustling cafés, and the numerous parks and river promenades make it a pleasant place to wander and soak up both Polish culture and contemporary European flair.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
  },
  "xmn": {
   "name": "Xiamen",
@@ -1041,5 +1160,12 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
+ },
+ "zrh": {
+  "name": "Zurich",
+  "text": "Zurich lies in the north-east of Switzerland, nestled at the tip of Lake Zürich and framed by the Limmat River and the Swiss Alps. First mentioned in a document of 846 AD, the city grew around a Benedictine abbey that became a centre of trade and later a hub of the Reformation. Today Zurich blends historic charm with modern vitality: you can wander the well-preserved medieval Altstadt, admire art at the Kunsthaus, and savour coffee in stylish cafés while the efficient trams whisk you past gleaming banks, bustling markets and tranquil lakeside promenades.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-07"
  }
 }
