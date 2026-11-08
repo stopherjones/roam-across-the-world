@@ -20,12 +20,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "aga": {
+  "name": "Agadir",
+  "text": "Agadir is a coastal city in southwestern Morocco, set on the Atlantic shoreline at the foot of the Anti-Atlas mountains. It was once a small Berber fishing village before becoming a major port in the 16th century, and after the devastating earthquake of 1960 the town was rebuilt with wide boulevards and modern architecture. Today visitors enjoy a sunny climate, a long sandy beach perfect for strolling or surfing, a lively souk selling spices and crafts, and a promenade lined with cafés where you can watch the sea and the city’s relaxed, contemporary vibe.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
  "ahw": {
   "name": "Ahvaz",
   "text": "Ahvaz sits on the banks of the Karun River in southwestern Iran, near the border with Iraq and the Persian Gulf. It is the capital of Khuzestan province and has long been a key centre for Iran’s oil industry, with the first oil well in the country drilled nearby in 1908. Today the city offers a striking mix of modern high-rises and traditional bazaars, while the wide river promenade provides a pleasant place to watch the flow of the Karun and enjoy local cafés serving spicy kebabs and sweet, rose-flavoured tea.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
   "generated": "2026-11-01"
+ },
+ "alg": {
+  "name": "Algiers",
+  "text": "Algiers, the capital of Algeria, sits on the Mediterranean coast where the sea meets the foothills of the Kabylie mountains, offering striking white-washed buildings that climb the cliff-side Casbah. Founded by the Phoenicians and later becoming a key Ottoman port, the city’s historic quarter was declared a UNESCO World Heritage site in 1992 for its blend of Arab, Berber and French colonial architecture. Today visitors wander lively markets smelling of fresh spices, sip coffee in breezy cafés overlooking the harbor, and enjoy a mix of modern art galleries and traditional street music that give Algiers a vibrant, multicultural energy.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "amb": {
   "name": "Ambon",
@@ -48,6 +62,20 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "ank": {
+  "name": "Ankara",
+  "text": "Ankara, the capital of Turkey, sits in the heart of the Anatolian plateau about 450 km east of the Mediterranean coast. Historically it was the centre of the ancient Phrygian kingdom and later became the base of Mustafa Kemal Atatürk’s nationalist movement, leading to its designation as the Republic’s capital in 1923. Today the city blends modern government buildings and bustling cafés with historic sites such as the Roman-era Ankara Castle and the Museum of Anatolian Civilisations. Visitors enjoy strolling through leafy parks, sampling lively street food, and experiencing a cosmopolitan vibe that reflects both its deep past and contemporary Turkish life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
+ "ath": {
+  "name": "Athens",
+  "text": "Athens, the capital of Greece, sits on the southeastern side of the Attica peninsula, overlooking the Saronic Gulf and framed by the hills of the Acropolis. It is the birthplace of democracy, where the ancient Assembly met in the 5th century BC to discuss civic affairs. Today the city blends its millennia-old ruins with a lively modern scene: you can wander through the marble columns of the Parthenon, sip coffee in bustling neighbourhoods such as Plaka and Monastiraki, and enjoy a vibrant nightlife and thriving food markets, all under a warm Mediterranean sun.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
  "ayt": {
   "name": "Antalya",
   "text": "Antalya, a coastal city on Turkey’s southwestern Mediterranean shore, sits at the foot of the Taurus Mountains and enjoys a mild climate year-round. It has been a gateway to the ancient region of Pamphylia since Roman times, with the well-preserved ruins of Hadrian’s Gate marking the old city’s entrance. Today the promenade along Konyaaltı Beach is lined with cafés, boutique shops and lively street performers, while the historic Kaleiçi district offers winding lanes, Ottoman houses and rooftop terraces that overlook the sparkling sea, making a stroll feel both relaxed and full of discovery.",
@@ -61,6 +89,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "bar": {
+  "name": "Bari",
+  "text": "Bari, the bustling port city on the Adriatic coast of southern Italy, is the capital of the Apulia region and a gateway to the heel of the Italian boot. Founded by the Romans, it later became an important medieval trading hub, and its 11th-century Basilica of San Nicola still houses the relics of Saint Nicholas, drawing pilgrims from across Europe. Today the historic centre is a maze of narrow lanes, lively cafés and bustling fish markets, while the sleek waterfront promenade offers striking sea views, modern restaurants and a relaxed, sun-kissed atmosphere that blends ancient charm with contemporary Italian life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "bcn": {
   "name": "Barcelona",
@@ -125,6 +160,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "blg": {
+  "name": "Belgrade",
+  "text": "Belgrade, Serbia’s lively capital, sits at the confluence of the Danube and Sava rivers in the heart of the Balkans. It has been a strategic crossroads for centuries, famously withstanding a siege by the Ottoman Empire in 1521 before later becoming the capital of Yugoslavia. Today the city buzzes with a mix of historic cafés, vibrant street art and spacious riverfront promenades where you can watch ferries glide past the ancient Kalemegdan Fortress. Friendly locals, a thriving nightlife and plenty of museums make Belgrade a welcoming stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
  "bna": {
   "name": "Nashville",
   "text": "Nashville, the capital of Tennessee, sits in the heart of the state on the banks of the Cumberland River. The city grew from a frontier settlement founded in 1779 and became the state capital in 1826, later earning its reputation as “Music City” thanks to the establishment of the Grand Ole Opry in 1925 and a thriving recording industry. Today visitors find a lively mix of honky-tonk bars on Broadway, world-class museums such as the Country Music Hall of Fame, and a buzzing food scene ranging from Southern barbecue to inventive farm-to-table eateries, all set against a backdrop of leafy parks and riverfront walkways.",
@@ -160,6 +202,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-07"
  },
+ "bud": {
+  "name": "Budapest",
+  "text": "Budapest, the capital of Hungary, straddles the Danube River with the historic Buda hills on the west bank and the lively Pest plain on the east. The city was officially created in 1873 by merging the medieval towns of Buda, Óbuda and Pest, a union that turned it into a major cultural and political centre of the Austro-Hungarian Empire. Today visitors can stroll across the iconic Chain Bridge, explore the grand Parliament building, soak in the thermal baths that draw on centuries-old Roman-era springs, and enjoy a vibrant café scene amid Art Nouveau architecture, all set against the backdrop of river-side parks and bustling markets.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
  "cal": {
   "name": "Calais",
   "text": "Calais sits on the northern coast of France, directly opposite Dover on the Strait of Dover, where the English Channel narrows to just 34 kilometres. Historically it was the principal continental gateway for England, most famously the departure point for the Allies’ D-Day landings in June 1944. Today the town greets visitors with a bustling waterfront, the striking modern Musee des Beaux-Arts, and the massive Calais Lighthouse offering views of the busy ferry terminals and the rolling white cliffs across the water. A walk along the promenade gives a lively mix of cafés, shops and the salty sea air, making it a pleasant stop for both history lovers and seaside wanderers.",
@@ -180,6 +229,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "cas": {
+  "name": "Casablanca",
+  "text": "Casablanca, Morocco’s largest city, sits on the Atlantic coast about 90 km south-west of the capital Rabat. Founded in the 7th century as a modest settlement, it grew dramatically after the French protectorate began in 1912, when the port was expanded and modern architecture was introduced. Today the city blends sleek skyscrapers with historic neighborhoods, offering a bustling waterfront promenade, lively cafés serving mint tea, and the iconic Hassan II Mosque, whose minaret soars 210 metres above the sea. Visitors feel the energetic mix of commerce, culture and ocean breezes that make Casablanca a contemporary gateway to Morocco.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "cbq": {
   "name": "Calabar",
@@ -461,12 +517,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "ist": {
+  "name": "Istanbul",
+  "text": "Istanbul, straddling the Bosphorus where Europe meets Asia, is Turkey’s largest city and a vibrant crossroads of cultures. Once known as Constantinople, it was the capital of the Byzantine Empire and later the Ottoman Empire, and its historic peninsula still holds the awe-inspiring Hagia Sophia, a 6th-century cathedral-mosque-museum that dominates the skyline. Today the city buzzes with bustling bazaars, rooftop cafés overlooking glittering waterways, and a lively street art scene, while ancient stone walls and Ottoman palaces sit side by side with modern skyscrapers, offering visitors a seamless blend of past and present.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
  "ixc": {
   "name": "Chandigarh",
   "text": "Chandigarh, perched at the foothills of the Shivalik range in north-western India, is the joint capital of the states of Punjab and Haryana. Designed by the Swiss-French architect Le Corbusier after India’s independence, it was one of the first planned cities in the country and was formally inaugurated in 1966. Today the city feels spacious and modern, with tree-lined avenues, wide boulevards and striking concrete buildings punctuated by colourful gardens. Visitors can stroll through the beautifully laid-out Rock Garden, relax by Sukhna Lake, or sip tea at a bustling café while watching locals go about their day.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "izm": {
+  "name": "Izmir",
+  "text": "Izmir, perched on the sparkling Aegean coast of western Turkey, is the country’s third-largest city and has been a bustling port since ancient times when it was known as Smyrna, a key centre of Greek trade and culture. Today the city blends its rich past with a lively, contemporary vibe: the promenade along the sea is lined with cafés and palm trees, the bustling Kemeralti market offers spices, textiles and street food, and the modern waterfront hosts museums, art galleries and lively festivals. Visitors enjoy a relaxed Mediterranean climate, friendly locals and a seamless mix of historic sites and modern amenities.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "jos": {
   "name": "Jos",
@@ -488,6 +558,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "krk": {
+  "name": "Krakow",
+  "text": "Krakow lies in southern Poland, on the banks of the Vistula River, about 300 km west of the Ukrainian border and roughly 250 km south-east of Warsaw. Founded in the early medieval period, it served as the capital of the Polish kingdom until the late 16th century and was the coronation site for many Polish kings, a tradition that links the city to its historic Wawel Castle. Today the Old Town dazzles with its beautifully restored market square, countless cafés and lively street musicians, while the surrounding museums, vibrant nightlife and nearby salt mines make a visit feel both richly cultural and effortlessly modern.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "kuf": {
   "name": "Samara",
@@ -615,6 +692,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "mrk": {
+  "name": "Marrakesh",
+  "text": "Marrakesh, set at the foothills of the Atlas Mountains in western Morocco, is a bustling gateway to the desert and a former imperial capital founded in the 11th century by the Almoravid dynasty. Its historic medina, a UNESCO World Heritage site, still winds around the famous Jemaa el-Fna square where storytellers, musicians and food stalls create an ever-changing street-performance theatre. Today the city blends traditional souks selling spices, carpets and lanterns with sleek cafés, modern hotels and vibrant art galleries, offering visitors a lively mix of old-world charm and contemporary comfort.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
  "msp": {
   "name": "Minneapolis",
   "text": "Minneapolis, a vibrant city in the Upper Midwest of the United States, sits on the banks of the Mississippi River where it meets the scenic Chain of Lakes. Founded in the 1850s, it grew rapidly as a centre for flour milling, once boasting the world’s largest grain processing capacity and earning the nickname “Mill City.” Today visitors enjoy a blend of modern art, bustling food markets and extensive parkland: the Walker Art Center and its iconic Spoonbridge sculpture, the lively North Loop eateries, and miles of bike-friendly trails that wind through lush lakes and riverfront promenades, offering a fresh, lively urban experience.",
@@ -726,6 +810,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "pat": {
+  "name": "Patras",
+  "text": "Patras sits on the north-west coast of the Peloponnese, perched on the Gulf of Patras and serving as a key gateway between Greece and Italy via its busy ferry terminal. It grew from an ancient Roman colony that became the chief port of the region of Achaea, and it is traditionally linked to Saint Andrew, who is said to have been martyred on a nearby hill in the first century. Today the city hums with a lively mix of historic stone façades, bustling markets and vibrant cafés, while the promenade along the waterfront offers striking sunset views and easy access to lively nightlife and cultural festivals.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "pdl": {
   "name": "Ponta Delgada",
@@ -930,12 +1021,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "sof": {
+  "name": "Sofia",
+  "text": "Sofia, the capital of Bulgaria, lies in the western part of the country at the foot of Vitosha Mountain, where the Iskar River winds through a broad valley. It has been inhabited since antiquity, and the city’s name first appears in Roman records as Serdica, a key centre of the empire in the fourth century. Today Sofia blends leafy boulevards, lively cafés and impressive Orthodox churches with the modern buzz of museums, galleries and a growing tech scene; a short funicular ride takes you up Vitosha for panoramic views and fresh mountain air, making a visit feel both historic and contemporary.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
  "sou": {
   "name": "Southampton",
   "text": "Southampton, a port city on England’s south-coast, lies on the northern shore of the Solent where the River Itchen meets the sea. It is famous as the departure point for the RMS Titanic in 1912, a historic moment that still echoes in the city's maritime museums. Today the waterfront buzzes with a mix of modern waterfront bars, historic dockside warehouses and the vibrant cultural quarter around the old medieval walls. Visitors can wander the bustling market, explore the SeaCity Museum, enjoy a stroll along the historic Ocean Village marina, and take a short ferry ride to the Isle of Wight, all set against a backdrop of lively cafés and a friendly, bustling atmosphere.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "spl": {
+  "name": "Split",
+  "text": "Split sits on the sparkling Adriatic coast of Croatia, roughly halfway between the Istrian peninsula and the island of Hvar, and it is the country’s second-largest city. Its heart is the massive Diocletian’s Palace, a 4th-century Roman imperial complex that still forms the bustling old town, a UNESCO World Heritage site that still houses shops, homes and cafés within its ancient walls. Today visitors wander the marble streets, enjoy fresh seafood on the Riva promenade, and can easily hop on ferries to nearby islands, while the Mediterranean climate, lively markets and striking sea views give the city a vibrant, relaxed atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "srg": {
   "name": "Sorong",
@@ -979,12 +1084,26 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "ths": {
+  "name": "Thessaloniki",
+  "text": "Thessaloniki, Greece’s vibrant second-city, sits on the north-eastern edge of the Thermaic Gulf at the foot of Mount Horti, where the Aegean Sea meets the inland plains of Central Macedonia. Founded in 315 BC by Cassander, it soon became a crucial Roman and Byzantine port and later the capital of the short-lived Kingdom of Thessalonica. Today the city buzzes with a lively waterfront promenade, bustling markets and a mix of Ottoman, Byzantine and modernist architecture; cafés spill onto the streets, the scent of fresh seafood drifts from tavernas, and the annual film festival adds a cosmopolitan sparkle to its historic charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
+ },
  "tls": {
   "name": "Toulouse",
   "text": "Toulouse, in southwestern France, lies on the banks of the Garonne River about 150 km east of the Atlantic coast. Known as “La Ville Rose” for its distinctive pink-hued bricks, the city was a centre of medieval commerce and later became a hub of the aerospace industry, home to the headquarters of Airbus. Visitors today can wander its historic centre, admire the towering Saint-Sernin basilica, and relax in lively cafés lining the riverfront, while the modern university atmosphere adds a youthful buzz to the charming, sun-lit streets.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "tng": {
+  "name": "Tangier",
+  "text": "Tangier, perched on the north-western tip of Morocco where the Mediterranean meets the Atlantic, has long been a gateway between Europe and Africa. Historically it was a key port for Phoenician traders and later became famous in the 20th century as an international zone that attracted artists, writers and spies. Today the town bustles with colourful souks, sleek cafés overlooking the Strait and a mix of modern hotels beside restored medina streets; you can wander the Kasbah for sweeping sea views, sample fresh seafood in the harbour, and feel the relaxed, multicultural rhythm that still defines this historic crossroads.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "tof": {
   "name": "Tomsk",
@@ -1013,6 +1132,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "tun": {
+  "name": "Tunis",
+  "text": "Tunis, the bustling capital of Tunisia, sits on the north-eastern edge of the country where the Mediterranean Sea meets the fertile plain of the Gulf of Tunis. Founded by the Phoenicians and later becoming a major centre of the Roman province of Africa, its medina still contains the impressive 9th-century Great Mosque of Al-Zaytuna. Today the city blends ancient winding alleys with modern cafés, lively souks and a vibrant waterfront promenade; you can wander past Ottoman-era palaces, sample fragrant harissa-spiced dishes, and enjoy sweeping sea views from the nearby Carthage ruins.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "tur": {
   "name": "Turin",
@@ -1153,6 +1279,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "zag": {
+  "name": "Zagreb",
+  "text": "Zagreb, the capital of Croatia, sits in the north-west of the country where the Sava and Medveščak rivers meet, a short drive from the Slovenian border and the Adriatic coast. First mentioned in a 1093 charter, the city grew around the medieval Kaptol cathedral district and later became a key Habsburg administrative centre. Today Zagreb buzzes with a relaxed yet lively atmosphere: its pedestrian-only Ban Jelačić Square hosts cafés, street musicians and markets, while the Upper Town offers cobbled lanes, museums and stunning views of the red-tiled roofs that stretch beneath the surrounding hills.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-08"
  },
  "zar": {
   "name": "Zaragoza",
