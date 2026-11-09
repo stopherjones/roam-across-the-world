@@ -1,10 +1,24 @@
 {
+ "abj": {
+  "name": "Abuja",
+  "text": "Abuja, the capital city of Nigeria, sits in the centre of the country on the Aso Rock plateau, roughly 300 km inland from the Atlantic coast. Planned in the 1970s and officially becoming the capital in 1991, it replaced Lagos to provide a more central seat of government. Today the city blends modern architecture with wide, tree-lined avenues; visitors can explore the striking National Mosque, the serene Abuja Arts and Culture Village, and the nearby Zuma Rock, while enjoying a calm, well-maintained urban environment that feels distinctly different from the bustling coastal metropolises.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "abq": {
   "name": "Albuquerque",
   "text": "Albuquerque lies in central New Mexico, straddling the Rio Grande between the Sandia and Manzano mountain ranges and bisected by historic Route 66. The settlement was founded in 1706 as Alburquerque, a Spanish colonial outpost that later grew into the state’s largest city. Today visitors can wander the colourful Old Town with its adobe churches and bustling markets, ride the world-famous hot-air balloons that dot the sky each October, explore the nearby mountains by tram or trail, and enjoy a lively mix of Southwestern cuisine, street art and modern museums, all set against a backdrop of striking desert-mountain scenery.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "acc": {
+  "name": "Accra",
+  "text": "Accra, the bustling capital of Ghana, lies on the Atlantic coast of West Africa, nestled between the Gulf of Guinea and the country's hinterland. Founded in the 15th century by the Ga people, it grew into a key trading port and later became the seat of the British Gold Coast administration before Ghana’s independence in 1957. Today the city mixes modern skyscrapers with vibrant markets, colourful street art and historic sites such as the 17th-century Jamestown lighthouse. Visitors can savour spicy street food, hear live highlife music, and feel the warm hospitality of locals as they explore its lively streets and seaside promenade.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
  },
  "adz": {
   "name": "Adana",
@@ -41,6 +55,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
+ "alx": {
+  "name": "Alexandria",
+  "text": "Alexandria, Egypt, sits on the Mediterranean coast about 225 kilometres west of Cairo, where the Nile meets the sea. Founded by Alexander the Great in the 4th century BC, it soon became home to the famous Library of Alexandria, a centre of learning that drew scholars from across the ancient world. Today the city blends its historic charm with a lively waterfront: you can stroll along the corniche, explore the modern Bibliotheca Alexandrinae on the former library site, and savour fresh seafood in bustling souks while the sea breezes carry the scent of history and the hum of contemporary cafés.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "amb": {
   "name": "Ambon",
   "text": "Ambon—nestled in the heart of Indonesia’s Maluku archipelago, this emerald‑green island sits at the crossroads of the Pacific and Indian Oceans, where sparkling bays meet volcanic hills. Once the prized “Spice Islands,” Ambon thrived as a bustling hub for Dutch, Portuguese and local traders, its forts and colonial streets echoing centuries of maritime adventure. Today, the city buzzes with vibrant markets, world‑class diving sites teeming with manta rays, and a lively blend of cultures reflected in music, cuisine and festivals. From its historic fortifications to its thriving creative scene, Ambon invites travelers to explore a living tapestry of history, nature and modern Indonesian spirit.",
@@ -68,6 +89,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "asw": {
+  "name": "Aswan",
+  "text": "Aswan, perched on the western bank of the Nile in southern Egypt, is a sun-kissed gateway to the ancient world. It grew around a narrow island that was the site of the Temple of Isis at Philae, a sanctuary relocated stone-by-stone after the construction of the Aswan High Dam in the 1960s. Today the town is a relaxed blend of bustling markets, felucca-ridden boat trips on the river and wide, palm-lined promenades. Visitors can wander the cool stone halls of the Nubian Museum, watch the river change colour at sunset, and enjoy tea in a café while the distant call to prayer drifts over the water.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
  },
  "ath": {
   "name": "Athens",
@@ -174,6 +202,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "bng": {
+  "name": "Benghazi",
+  "text": "Benghazi, Libya’s second-largest city, sits on the edge of the Mediterranean in the north-east, where the Green Mountain range meets the sea. Founded by the Greeks as Euesperides, it later became an important port for the Ottoman Empire and played a key role in the 1911 Italo-Turkish War. Today the city blends modern cafés, bustling souks and colourful street art with historic sites such as the Italian-era Al-Berka district and the ancient ruins at Cyrene a short drive away. Visitors find warm hospitality, lively markets selling spices and olives, and a pleasant waterfront promenade perfect for an evening stroll.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "bnn": {
   "name": "Benin City",
   "text": "Benin City, nestled in southern Nigeria along the meandering banks of the Owan and Edo rivers, sits at the heart of the vibrant Edo State. Founded over a thousand years ago, it was once the capital of the mighty Benin Kingdom, famed for its bronze artistry, massive walls, and sophisticated governance. Today, the city blends that regal legacy with modern hustle: bustling markets, lively festivals, and a growing tech scene. Visitors can explore historic royal palaces, admire intricate ivory and bronze works, and savor delicious local cuisine—all while experiencing the warm hospitality that makes Benin City a living bridge between past and present.",
@@ -208,6 +243,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "cai": {
+  "name": "Cairo",
+  "text": "Cairo, the bustling capital of Egypt, sits on the banks of the Nile River just south of the Sahara, at the crossroads of Africa and the Middle East. It grew around the ancient settlement of Fustat, founded in the 7th century after the Arab conquest, and later became the seat of the powerful Mamluk sultans. Today the city teems with life: narrow alleys lead to vibrant souks where the scent of spices mingles with the call to prayer, while modern cafés overlook historic sites such as the nearby Giza pyramids, offering a vivid blend of past and present for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
  },
  "cal": {
   "name": "Calais",
@@ -307,12 +349,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "dak": {
+  "name": "Dakar",
+  "text": "Dakar, the bustling capital of Senegal, sits on the tip of the Cape Verde Peninsula, jutting into the Atlantic Ocean on West Africa’s westernmost point. Founded by the French in the 19th century, it later became the centre of the independence movement that freed Senegal in 1960, and its vibrant markets still echo that spirit of self-determination. Today the city blends colourful colonial architecture with modern cafés, lively music venues and the striking African Renaissance Monument. Visitors can wander the lively souks of Sandaga, enjoy fresh seafood by the waterfront, and soak up the warm, friendly atmosphere of a place where history and contemporary life dance together.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "die": {
   "name": "Dieppe",
   "text": "Dieppe is a charming coastal town in the Normandy region of north-western France, set on the English Channel about 170 km north of Paris. It grew famous in 1942 when Allied forces launched a daring raid on its harbour, an event that helped shape the later D-Day landings. Today the town is a relaxed seaside destination with a bustling fishing port, a long pebble beach perfect for strolling, and a lively promenade lined with cafés and shops. Visitors can wander the historic Château de Dieppe, explore maritime museums, and enjoy fresh seafood while watching the Atlantic breeze roll in.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "dkh": {
+  "name": "Dakhla",
+  "text": "Dakhla, a coastal town perched on the Atlantic at the tip of Morocco’s disputed Western Sahara region, is famous for its striking lagoon that stretches inland behind a long sandy spit. Historically it was a key Spanish outpost in the early 20th century, serving as a naval base before being handed back to Morocco in the 1970s. Today the town feels relaxed yet adventurous: wind-surfers and kite-boarders flock to its breezy waters, while cafés line the promenade offering fresh seafood and sunset views over the endless blue, making Dakhla a laid-back haven for nature lovers and water-sport enthusiasts alike.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
  },
  "dov": {
   "name": "Dover",
@@ -545,6 +601,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "kan": {
+  "name": "Kano",
+  "text": "Kano, in northern Nigeria, sits on the northern edge of the Sudanian savanna about 150 km south of the Sahel, roughly 500 km inland from the coast. It grew from the ancient Kano Kingdom, which was already a thriving commercial centre by the 10th century and later became one of the most important emirates of the Sokoto Caliphate in the early 19th century. Today the city buzzes with a mix of old and new: the bustling Kurmi market spills onto the streets, historic walls and the grand Emir’s Palace sit alongside modern malls and lively cafés, offering visitors a vivid taste of Nigeria’s heritage and contemporary life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "kgf": {
   "name": "Karaganda",
   "text": "Karaganda, a city in central Kazakhstan, lies on the steppe about 230 kilometres south-east of the capital Astana. It grew rapidly in the 1930s when Soviet authorities developed large coal mines in the region, turning the former settlement into an industrial centre. Today the city offers a mix of Soviet-era architecture and modern amenities: visitors can explore the striking Karaganda Regional Museum, stroll along the wide avenues lined with statues and fountains, and enjoy the nearby parklands that provide a pleasant contrast to the surrounding flat landscape. The friendly locals and hearty Kazakh cuisine make a stop here a memorable part of any Central Asian itinerary.",
@@ -572,6 +635,20 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "kum": {
+  "name": "Kumasi",
+  "text": "Kumasi, the bustling capital of Ghana’s Ashanti Region, lies in the south-central part of the country about 250 km north of the coast. Historically it was the seat of the powerful Ashanti Kingdom and home to the famous Golden Stool, the symbol of Ashanti sovereignty. Today the city blends tradition and modernity: you can wander through lively markets such as the Kejetia Trading Centre, the largest open-air market in West Africa, explore the tranquil grounds of the Manhyia Palace Museum, and savour street food while hearing the rhythmic beats of highlife music drifting from nearby bars. The friendly locals and rich heritage make Kumasi a warm, vibrant stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
+ "lag": {
+  "name": "Lagos",
+  "text": "Lagos, Nigeria, sits on the southwestern coast where the Atlantic Ocean meets the Niger River delta, spreading over islands and mainland. Founded in the 15th century by Yoruba settlers, it became a major trading hub under Portuguese influence before later serving as the capital of the British colony of Nigeria until 1991. Today the city bustles with colourful markets, vibrant music venues and a lively waterfront promenade; you can explore the historic National Museum, sample fresh seafood at the fish market, and soak up the energetic rhythm of street art and Afrobeat that fills the streets from dawn till dusk.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
  },
  "lhw": {
   "name": "Lanzhou",
@@ -614,6 +691,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "lxr": {
+  "name": "Luxor",
+  "text": "Luxor, perched on the east bank of the Nile in southern Egypt, is the modern name for the ancient city of Thebes, once the capital of the New Kingdom and home to the grand temples of Karnak and Luxor. It boasts the world-famous Valley of the Kings across the river, where pharaohs such as Tutankhamun were laid to rest. Today the town hums with a lively mix of bustling souks, rooftop cafés and river ferries, while the stone monuments glow in the desert light, offering visitors a striking blend of ancient wonder and contemporary Egyptian hospitality.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
  },
  "lyo": {
   "name": "Lyon",
@@ -706,6 +790,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "msr": {
+  "name": "Misrata",
+  "text": "Misrata, a bustling coastal city on Libya’s central Mediterranean shore, sits about 150 km east of the capital Tripoli and is the country’s third-largest urban centre. Historically it was a key trading port in the Ottoman era, supplying grain and dates to ships crossing the sea. Today the city blends its lively market streets, where vendors sell fresh seafood and traditional sweets, with a modern waterfront promenade offering cafés, palm-shaded walkways and views of the sparkling harbour. Visitors can feel the hum of everyday Libyan life, explore the nearby ruins of ancient settlements and enjoy the warm, welcoming atmosphere of a city that’s both historic and forward-looking.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "mta": {
   "name": "Matadi",
   "text": "Matadi, a bustling port town on the western edge of the Democratic Republic of the Congo, sits at the mouth of the Congo River about 150 km from Kinshasa and just a short distance from the Atlantic coast. Founded in the early 1880s as a key terminus for the railway that linked the interior to the sea, it grew into the country’s main gateway for imports and exports. Today visitors find a lively waterfront lined with colourful markets, colonial-era buildings and lively cafés, while the humid climate and constant river traffic give the town a vibrant, slightly chaotic charm that feels both historic and unmistakably modern.",
@@ -748,6 +839,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "nkc": {
+  "name": "Nouakchott",
+  "text": "Nouakchott, the capital of Mauritania, lies on the edge of the Atlantic Ocean in the far west of the Sahara, where the desert meets the sea. Founded in 1958 as the new administrative centre after French colonial rule, it quickly grew into the country’s main port and political hub. Today the city feels relaxed yet bustling: wide, palm-lined avenues lead to a lively fish market where fresh catches are sold, the freshly painted Museum of Black Africa showcases local heritage, and the nearby beaches offer gentle waves against a backdrop of low-rise modernist buildings and expansive dunes.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "nkg": {
   "name": "Nanjing",
   "text": "Nanjing, situated on the lower reaches of the Yangtze River in eastern China, was the capital of several Chinese dynasties and the seat of the early Republic of China, famously hosting the 1912 provisional government. Today the city blends its deep history with a lively modern vibe: you can wander along the historic city wall, explore the solemn Memorial Hall of the Nanjing Massacre, and then relax in bustling pedestrian streets lined with cafés, boutique shops and neon-lit skyscrapers. The surrounding Qinhuai River area offers charming lantern-lit night walks, while nearby Purple Mountain provides peaceful trails and spectacular views over the urban landscape.",
@@ -761,6 +859,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "nou": {
+  "name": "Nouadhibou",
+  "text": "Nouadhibou, Mauritania’s second-largest city, sits on the Atlantic coast at the western tip of the Sahara, just north of the border with Western Sahara. It began life as the French colonial settlement of Port-Étienne in the early 1900s, growing around a modest fishing harbour that later became a hub for exporting the country’s iron ore. Today the town bustles with colourful markets, bustling fish stalls and the striking “ship graveyard” where rusting hulls line the shoreline. Visitors can enjoy fresh seafood, watch lively dhow crews at work and feel the quiet expanse of the desert meeting the sea.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
  },
  "npr": {
   "name": "Napier",
@@ -902,6 +1007,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-07"
  },
+ "pse": {
+  "name": "Port Said",
+  "text": "Port Said sits at the northern entrance of the Suez Canal on the Mediterranean coast of Egypt, a bustling gateway where the sea meets the canal’s busy waterway. Founded in 1859 to serve the canal’s construction, it quickly grew into an international port and was a key base for the Allied forces during the 1948 Arab-Israeli conflict. Today the city blends historic charm with modern energy: you can wander the wide promenade lined with cafés, explore the lively souk for spices and crafts, and watch massive container ships glide past, while the sea breezes carry a sense of maritime adventure.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "rak": {
   "name": "Marrakech",
   "text": "Marrakech, situated in the western foothills of the Atlas Mountains in southern Morocco, has been a centre of trade and culture since it was founded in the 11th century by the Almoravid dynasty. The city's historic medina, a UNESCO World-heritage site, still contains the famous Koutoubia Mosque and the lively Jemaa el-Fna square, where storytellers, musicians and food stalls create a sensory feast each evening. Today visitors can wander narrow souks selling spices, textiles and ceramics, enjoy rooftop cafés overlooking the red-sandstone walls, and take short trips to nearby gardens and desert landscapes, making it a memorable stop on any North-African itinerary.",
@@ -1014,6 +1126,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "sli": {
+  "name": "Saint-Louis",
+  "text": "Saint-Louis lies on the north-west coast of Senegal, perched on the left bank of the River Senegal just a short ferry ride from the capital Dakar. Founded in the 17th century as a French trading post, it became the capital of French West Africa in the 19th century before the seat moved to Dakar. Today the town is a charming blend of colonial architecture and lively markets: pastel-coloured houses line narrow streets, the historic Island of Saint-Louis offers cobbled lanes, museums and cafés, and the Atlantic breezes make evening walks along the waterfront especially pleasant.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
  "smf": {
   "name": "Sacramento",
   "text": "Sacramento, the capital city of California, sits where the Sacramento and American Rivers meet in the heart of the state's fertile Central Valley. It grew rapidly during the Gold Rush, becoming the state capital in 1854 and preserving much of its 19th-century charm in the cobbled streets of Old Sacramento. Today the city offers a pleasant mix of history and modernity: riverfront parks invite picnics and kayaking, a lively farm-to-table restaurant scene showcases local produce, and museums such as the California State Railroad Museum and the Crocker Art Museum provide engaging cultural stops, all set against a backdrop of sunny skies and friendly locals.",
@@ -1090,6 +1209,20 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "tip": {
+  "name": "Tripoli",
+  "text": "Tripoli, the capital of Libya, lies on the central Mediterranean coast where the ancient Phoenician harbour merges with the modern cityscape. Founded in the 7th century BC, it later became the bustling centre of the Ottoman province of Tripolitania and still retains parts of the historic Medina with its narrow alleys and Ottoman-era forts. Today visitors find a blend of sandy beaches, vibrant souks selling spices and textiles, and a waterfront promenade lined with cafés offering fresh seafood. The city’s lively markets, colonial-style cafés and nearby ruins give a vivid glimpse of its layered past while providing a welcoming, cosmopolitan atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
+ },
+ "tkd": {
+  "name": "Takoradi",
+  "text": "Takoradi, a bustling coastal town in the Western Region of Ghana, lies on the Atlantic shoreline about 220 km west of Accra and forms part of the twin city Sekondi-Takoradi. Founded in the 19th century as a harbour for the export of cocoa and timber, it later became a key naval base during World War II, a role that still echoes in its historic fort and museum. Today the town buzzes with colourful markets, lively street food stalls serving grilled fish and jollof rice, and a laid-back waterfront where palm-shaded promenades invite visitors to watch ferries and fishing boats glide by, offering a warm mix of commerce, culture and seaside charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-09"
  },
  "tls": {
   "name": "Toulouse",
