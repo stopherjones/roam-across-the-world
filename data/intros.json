@@ -20,6 +20,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-09"
  },
+ "add": {
+  "name": "Addis Ababa",
+  "text": "Addis Ababa, Ethiopia’s bustling capital, lies in the central highlands at an altitude of roughly 2,350 metres, giving the city a cool, pleasant climate year-round. It was founded in 1886 by Emperor Menelik II, who chose the site for its fertile plateau and strategic position. Today the city is a lively crossroads of tradition and modernity, with colourful markets such as Merkato, the impressive National Museum housing the famous “Lucy” fossil, and the headquarters of the African Union. Visitors can savour excellent coffee, explore vibrant street art and feel the warm, cosmopolitan spirit that defines this African hub.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
+ },
  "adz": {
   "name": "Adana",
   "text": "Adana, a major city in southern Turkey, sits on the banks of the Seyhan River about 70 kilometres inland from the Mediterranean coast. It has been an important centre since antiquity, serving as a key stop on the ancient trade routes of Cilicia and later becoming a thriving Ottoman provincial capital. Today the city is famous for its spicy kebabs, lively street markets and the impressive stone bridge of Taşköprü spanning the river. Visitors can explore the historic Great Mosque, wander the palm-lined riverfront promenade and enjoy the surrounding plains that produce some of the country’s finest citrus fruits.",
@@ -89,6 +96,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "aru": {
+  "name": "Arusha",
+  "text": "Arusha is a bustling town in northern Tanzania, perched at the foot of Mount Meru and just a short drive from the Serengeti and Ngorongoro Crater. It was the site of the 1961 signing of the Arusha Declaration, which set out Tanzania’s socialist policies under President Julius Nyerere. Today the town feels lively and welcoming, with colourful markets selling fresh produce and crafts, a growing café culture where you can sip coffee while watching traffic of matatus and safari-bound buses, and easy access to wildlife parks that make it a convenient gateway for adventurous travellers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "asw": {
   "name": "Aswan",
@@ -180,6 +194,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
   "generated": "2026-11-01"
+ },
+ "bko": {
+  "name": "Bamako",
+  "text": "Bamako, the bustling capital of Mali, lies on the south-western bank of the Niger River where the river turns sharply eastward, about 250 km inland from the Atlantic. Founded in the 19th century, it became the centre of French colonial administration after the French captured the nearby city of Ségou in 1895, and later the seat of an independent Mali in 1960. Today the city hums with a lively mix of markets, music venues and modern cafés; you can wander the colourful souks, sample street-food tags alongside fresh river fish, and hear the echo of traditional griot songs alongside contemporary Afro-beat rhythms.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "bkv": {
   "name": "Bukavu",
@@ -356,6 +377,20 @@
   "prompt": "intro-v4",
   "generated": "2026-11-09"
  },
+ "dar": {
+  "name": "Dar es Salaam",
+  "text": "Dar es Salaam sits on the eastern coast of Tanzania, hugging the Indian Ocean at the mouth of the Msimbazi River and serving as the country’s main port and commercial hub. Founded in the mid-19th century, it became the capital of German East Africa and later of independent Tanzania until the government moved to Dodoma in the 1970s. Today the city bursts with colourful markets, bustling waterfront promenades and artful Swahili architecture, while the nearby beaches and the historic Askari Monument offer a relaxed contrast to the lively traffic and fragrant street food stalls.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
+ },
+ "dda": {
+  "name": "Dire Dawa",
+  "text": "Dire Dawa lies in eastern Ethiopia, about 500 km east of Addis Ababa and close to the border with Djibouti, perched on the banks of the Harar River. Founded in 1902 as a railway hub for the new line linking Addis Ababa with the port of Djibouti, it quickly became the country’s first modern, planned town and a key centre for trade. Today the city buzzes with a lively market where Somali, Oromo and Ethiopian merchants sell spices, textiles and fresh coffee, while colonial-era buildings sit beside sleek new cafés; the surrounding hills offer easy day trips to wildlife reserves, making a visit both culturally rich and pleasantly relaxed.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
+ },
  "die": {
   "name": "Dieppe",
   "text": "Dieppe is a charming coastal town in the Normandy region of north-western France, set on the English Channel about 170 km north of Paris. It grew famous in 1942 when Allied forces launched a daring raid on its harbour, an event that helped shape the later D-Day landings. Today the town is a relaxed seaside destination with a bustling fishing port, a long pebble beach perfect for strolling, and a lively promenade lined with cafés and shops. Visitors can wander the historic Château de Dieppe, explore maritime museums, and enjoy fresh seafood while watching the Atlantic breeze roll in.",
@@ -369,6 +404,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-09"
+ },
+ "dla": {
+  "name": "Douala",
+  "text": "Douala, Cameroon’s bustling economic hub, sits on the banks of the Wouri River where it meets the Atlantic coast in the country’s Littoral Region. Founded as a German trading post in the late 19th century, the city grew into the main port of French Cameroon after World War I and remains the nation’s busiest harbour. Today visitors find a lively mix of modern skyscrapers, colourful markets such as Marché des Fleurs, and historic colonial architecture, all framed by a humid, tropical climate. Street food stalls serve grilled fish and spicy sauces, while the lively waterfront offers a glimpse of everyday Cameroonian life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "dov": {
   "name": "Dover",
@@ -460,6 +502,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "gdr": {
+  "name": "Gondar",
+  "text": "Gondar, perched on the high plateau of northern Ethiopia near the Simien Mountains, was founded in the early 17th century as the capital of the Ethiopian Empire and is famed for its impressive collection of stone castles and palaces that earned it the nickname “the Camelot of Africa”. Today the town buzzes with a lively blend of history and modern life: colourful markets spill onto cobbled streets, friendly cafés serve freshly roasted coffee, and the UNESCO-listed Royal Enclosure invites visitors to wander among ancient towers while the surrounding hills provide spectacular sunrise vistas and a cool, pleasant climate year-round.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "gla": {
   "name": "Glasgow",
@@ -615,12 +664,47 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "kgl": {
+  "name": "Kigali",
+  "text": "Kigali, the capital of Rwanda, sits in the country’s central plateau at an altitude of around 1,500 metres, surrounded by rolling hills and lush greenery. The city grew around the site of a colonial railway station and became the capital of the newly independent nation in 1962, later surviving the 1994 tragedy that reshaped Rwanda’s modern history. Today Kigali is clean, safe and remarkably vibrant: its markets brim with colourful crafts, coffee shops serve world-renowned beans, and well-maintained parks offer sweeping views of the surrounding hills, making it a welcoming base for exploring both urban life and nearby wildlife reserves.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
+ },
+ "khr": {
+  "name": "Khartoum",
+  "text": "Khartoum, the capital of Sudan, sits where the Blue and White Niles merge, creating a striking riverfront that defines the city’s layout. Founded in 1821 as a trading post under the Egyptian-Ottoman rule, it later became the seat of the Mahdist State before British-Egyptian administration took over in the late 19th century. Today visitors find a bustling mix of modern cafés, lively markets and wide avenues lined with palm-shaded parks; the National Museum offers a glimpse of ancient Nubian artefacts, while a short ferry ride across the Nile provides striking views of the city’s skyline and the historic confluence that has shaped its character for centuries.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
+ },
+ "kin": {
+  "name": "Kinshasa",
+  "text": "Kinshasa, the bustling capital of the Democratic Republic of the Congo, sits on the southern bank of the Congo River opposite Brazzaville, the capital of the Republic of the Congo. Founded in the late 19th century as a trading post called Léopoldville, it became the administrative centre of the Belgian Congo and was renamed Kinshasa after independence in 1960. Today the city teems with vibrant markets, lively music venues and riverfront promenades where you can watch ferries glide across the water; the mix of colonial architecture, modern skyscrapers and colourful street art gives visitors a vivid sense of its energetic, rapidly evolving character.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
+ },
+ "kis": {
+  "name": "Kisumu",
+  "text": "Kisumu sits on the eastern shore of Lake Victoria in western Kenya, roughly 350 km northwest of Nairobi and close to the borders of Uganda and Tanzania. Founded in the late 19th century as a railway depot, it grew into an important port for the lake’s steam-ship trade and was a key stop on the Uganda Railway. Today the city blends bustling markets, lively waterfront cafés and the vibrant Dunga Hill Camp arts scene; you can stroll along the lake promenade, sample fresh tilapia, and enjoy colourful sunsets over Africa’s largest lake while feeling the warm, relaxed pace of lakeside life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
+ },
  "kmn": {
   "name": "Kerman",
   "text": "Kerman, a sprawling city in south-central Iran, sits at the foot of the Zagros mountains about 1,600 km southeast of Tehran. It has long been a key stop on historic trade routes, famously serving as a caravan hub for the Silk Road and home to the 12th-century Jameh Mosque, one of the region’s oldest surviving religious sites. Today the city blends ancient charm with modern bustle: narrow bazaars spill colourful spices and pistachios, rooftop cafés offer views of the stark desert beyond, and the nearby Lut Desert, a UNESCO World Heritage site, draws adventurers seeking surreal, sun-scorched landscapes.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "kmp": {
+  "name": "Kampala",
+  "text": "Kampala, the bustling capital of Uganda, lies on the northern shore of Lake Victoria at the foot of several hills that give the city its rolling, leafy character. Founded in 1890 as a trading post for the British Uganda Protectorate, it became the administrative centre and later the nation’s capital after independence. Today the city teems with colour and energy: you can wander through vibrant markets selling fresh produce and crafts, sip coffee at rooftop cafés overlooking the skyline, and explore museums and parks that showcase Uganda’s rich cultural heritage amidst a friendly, cosmopolitan atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "krk": {
   "name": "Krakow",
@@ -649,6 +733,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-09"
+ },
+ "lbv": {
+  "name": "Libreville",
+  "text": "Libreville, the capital of Gabon, sits on the Atlantic coast at the mouth of the Komo River in central West Africa. It began in 1849 as a settlement for freed slaves returning from Brazil, giving the town its name – “free city” – and grew into the country’s main port. Today the city blends modern high-rise offices with colourful markets where vendors sell fresh fish, tropical fruit and woven crafts. The waterfront promenade offers views of palm-lined beaches and the occasional sailboat, while cafés serve Congolese-style coffee and the nightlife buzzes around the lively neighbourhoods of the former French quarter.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "lhw": {
   "name": "Lanzhou",
@@ -726,6 +817,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "mba": {
+  "name": "Mombasa",
+  "text": "Mombasa, Kenya’s second-largest city, sits on a low-lying peninsula jutting into the Indian Ocean on the country’s southeast coast, just a short distance north of the equator. The town grew around the historic Swahili trading settlements and was fortified by the Portuguese in 1593 when they built Fort Jesus, a UNESCO World Heritage site that still dominates the waterfront. Today visitors can wander the narrow lanes of Old Town with its Arab-influenced architecture, relax on white-sand beaches such as Diani and Nyali, enjoy fresh seafood in bustling markets, and take boat trips to the nearby marine park, where colourful coral reefs teem with life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "mbm": {
   "name": "Mbuji-Mayi",
@@ -825,12 +923,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-07"
  },
+ "nbo": {
+  "name": "Nairobi",
+  "text": "Nairobi, the bustling capital of Kenya, sits in the south-central part of the country on the high-land plateau of the Great Rift Valley, at an altitude of about 1,795 metres. Founded in 1899 as a railway depot on the Uganda Railway, it quickly grew into a major administrative centre and was declared the capital of the British East Africa Protectorate in 1907. Today the city blends modern skyscrapers with lively markets, lush parks such as the Nairobi National Park where rhinos roam on the city’s edge, and a vibrant food scene that offers everything from traditional Kenyan dishes to international cuisine, making it a dynamic base for exploring East Africa.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
+ },
  "nhv": {
   "name": "Newhaven",
   "text": "Newhaven is a small coastal town in East Sussex, perched on the mouth of the River Ouse where it meets the English Channel, just a short drive east of Brighton. It grew around a medieval fishing harbour that later became an important packet-boat terminal for cross-Channel services in the 19th century, and the town’s historic harbour walls still echo that maritime past. Today visitors can stroll along the lively promenade, watch the ferries to Dieppe, enjoy fresh seafood in cosy pubs, and take in sweeping sea views from the nearby cliffs, all in a relaxed, friendly atmosphere.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "nia": {
+  "name": "Niamey",
+  "text": "Niamey, the capital of Niger, sits on the banks of the winding Niger River in the country's far-southwest, close to the border with Burkina Faso. It grew from a modest French colonial outpost founded in the early 1900s and was officially made the capital of French Upper Volta in 1926, a status it retained after independence. Today the city buzzes with colourful markets where traders sell everything from woven fabrics to fresh mangoes, while the National Museum offers insight into the region’s rich cultural heritage. Strolling along the riverfront at sunset, you’ll feel the warm hospitality of a town that blends traditional life with the energy of a growing West African hub.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "nic": {
   "name": "Nice",
@@ -943,6 +1055,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "phc": {
+  "name": "Port Harcourt",
+  "text": "Port Harcourt, the bustling capital of Rivers State in southern Nigeria, sits on the banks of the Bonny River near the Niger Delta. Founded in 1912 by the British colonial administration, it was named after Lewis Vernon Harcourt, the then Secretary of State for the Colonies, and later grew into a major hub for Nigeria’s oil industry. Today the city blends modern high-rise office blocks with lively markets, waterfront promenades and a vibrant music scene; visitors can sample spicy river-fish dishes, explore the nearby mangrove forests and feel the energetic pulse of a town that is both a commercial powerhouse and a cultural gateway to the Delta.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "phl": {
   "name": "Philadelphia",
@@ -1335,6 +1454,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "yae": {
+  "name": "Yaounde",
+  "text": "Yaoundé, the capital of Cameroon, sits on a series of hills in the central part of the country, about 750 km east of the Atlantic coast. Founded in 1888 as a German outpost, it became the administrative centre of French Cameroon after World War I and was declared the national capital in 1960. Today the city buzzes with a mix of modern cafés, bustling markets and leafy avenues shaded by jacaranda trees; you can wander the lively neighbourhood of Mfoundi, sample local dishes such as ndolé, and enjoy panoramic views of the surrounding plateau from the hilltop park near the presidential palace.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-10"
  },
  "yfc": {
   "name": "Fredericton",
