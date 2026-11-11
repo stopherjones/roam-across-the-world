@@ -146,6 +146,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "bei": {
+  "name": "Beira",
+  "text": "Beira is a bustling port city on the east coast of Mozambique, situated at the mouth of the Pungue River where it meets the Indian Ocean. Founded by the Portuguese in the late 19th century, it quickly became a key gateway for trade into the interior of southern Africa and played a vital role during the colonial era as a supply hub for neighbouring territories. Today visitors find a lively waterfront lined with modest cafés and markets, a backdrop of low-rise buildings and the striking Mozambique Channel beyond. The city’s warm climate, friendly locals and easy access to nearby beaches and the historic railway make it a pleasant, off-the-beaten-track stop for curious travellers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
+ },
  "bel": {
   "name": "Belfast",
   "text": "Belfast, the capital of Northern Ireland, sits on the River Lagan where it meets Belfast Lough on the island’s eastern coast. Historically it was the world’s leading ship-building hub, most famously launching the RMS Titanic in 1912. Today the city blends its industrial heritage with a vibrant cultural scene: you can wander the revitalised waterfront, explore museums that recount its past, and enjoy lively pubs, restaurants and street art in the Cathedral Quarter. Friendly locals, green parks and stunning coastal views make Belfast a welcoming place to discover.",
@@ -258,12 +265,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-07"
  },
+ "bty": {
+  "name": "Blantyre",
+  "text": "Blantyre, nestled in the southern highlands of Malawi, is the country’s second-largest city and a key commercial hub perched about 1,300 metres above sea level. It grew out of a Scottish missionary settlement founded in 1876, named after the town of Blantyre in Scotland, the birthplace of explorer David Livingstone. Today the city bustles with lively markets where vendors sell everything from fresh produce to colourful fabrics, while modern cafés and banks line its busy streets. Visitors can explore the historic St Michael’s Cathedral, enjoy the shade of jacaranda trees, and feel the warm, welcoming rhythm of Malawian city life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
+ },
  "bud": {
   "name": "Budapest",
   "text": "Budapest, the capital of Hungary, straddles the Danube River with the historic Buda hills on the west bank and the lively Pest plain on the east. The city was officially created in 1873 by merging the medieval towns of Buda, Óbuda and Pest, a union that turned it into a major cultural and political centre of the Austro-Hungarian Empire. Today visitors can stroll across the iconic Chain Bridge, explore the grand Parliament building, soak in the thermal baths that draw on centuries-old Roman-era springs, and enjoy a vibrant café scene amid Art Nouveau architecture, all set against the backdrop of river-side parks and bustling markets.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "byo": {
+  "name": "Bulawayo",
+  "text": "Bulawayo, Zimbabwe’s second-largest city, sits in the southwest of the country on the high-veld, close to the border with Botswana and the rugged Matobo Hills. It grew out of the royal kraal of King Lobengula, the last Ndebele monarch, and became a key railway hub when the line from Salisbury (now Harare) reached it in the 1890s. Today the town blends wide, tree-lined avenues of red-brick colonial buildings with lively street markets where traders sell everything from fresh fruit to handmade crafts. Visitors can explore the historic railway museum, savour hearty local cuisine, and use Bulawayo as a gateway to the striking granite peaks and abundant wildlife of Matobo National Park.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "cai": {
   "name": "Cairo",
@@ -356,6 +377,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-07"
  },
+ "cpt": {
+  "name": "Cape Town",
+  "text": "Cape Town sits on the southwestern tip of South Africa, where the Atlantic Ocean meets the imposing Table Mountain that dominates the skyline. Founded by the Dutch East India Company in 1652 as a supply station for ships rounding the Cape, the city bears the layers of colonial, maritime and indigenous history in its architecture and museums. Today it is a vibrant, multicultural hub with bustling waterfront markets, world-class restaurants and easy access to stunning beaches, vineyards and the mountain’s hiking trails, offering visitors a lively mix of natural beauty, cultural diversity and contemporary South African charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
+ },
  "csx": {
   "name": "Changsha",
   "text": "Changsha, the capital of Hunan province in south-central China, sits on the banks of the Xiang River about 300 km south of Wuhan. It was the base of the early 20th-century revolutionary leader Mao Zedong, who organised the famous Autumn Harvest Uprising there in 1927. Today the city blends modern skyscrapers with lively historic streets: you can wander the bustling Huangxing Road shopping district, savour spicy Hunan cuisine at night markets, and take a leisurely stroll through the ancient Yuelu Academy and its leafy hill, while the riverfront promenade offers views of illuminated bridges and a vibrant river-cruise scene.",
@@ -383,6 +411,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-10"
+ },
+ "dbn": {
+  "name": "Durban",
+  "text": "Durban sits on the east coast of South Africa, tucked against the warm Indian Ocean in the province of KwaZulu-Natal. It was founded in 1835 as a trading post by the British and later became an important port for sugar, cotton and other commodities. Today the city bustles with a lively promenade known as the Golden Mile, where palm-fringed beaches, bustling markets and a blend of Indian, Zulu and colonial influences create a colourful, relaxed atmosphere; visitors can savour fragrant curries, explore the vibrant harbour and enjoy year-round sunshine in a friendly, multicultural setting.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "dda": {
   "name": "Dire Dawa",
@@ -503,6 +538,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "gbe": {
+  "name": "Gaborone",
+  "text": "Gaborone, the capital of Botswana, sits on the southeastern edge of the Kalahari Desert, straddling the border with South Africa and close to the Limpopo River. It grew from a modest colonial administrative centre established in the early 20th century into an independent nation's capital when Botswana gained self-government in 1965. Today the city offers a relaxed, modern vibe: wide streets lined with leafy trees, a bustling downtown market where you can sample fresh fruit and traditional crafts, and nearby wildlife reserves such as the Mokolodi Nature Reserve, making it a pleasant base for exploring both urban culture and the surrounding savanna.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
+ },
  "gdr": {
   "name": "Gondar",
   "text": "Gondar, perched on the high plateau of northern Ethiopia near the Simien Mountains, was founded in the early 17th century as the capital of the Ethiopian Empire and is famed for its impressive collection of stone castles and palaces that earned it the nickname “the Camelot of Africa”. Today the town buzzes with a lively blend of history and modern life: colourful markets spill onto cobbled streets, friendly cafés serve freshly roasted coffee, and the UNESCO-listed Royal Enclosure invites visitors to wander among ancient towers while the surrounding hills provide spectacular sunrise vistas and a cool, pleasant climate year-round.",
@@ -523,6 +565,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "gom": {
+  "name": "Goma",
+  "text": "Goma, perched on the northeastern shore of Lake Kivu and shadowed by the active volcano Nyiragongo, is the bustling gateway to the eastern DRC’s mountainous frontier. The town grew dramatically after the 1994 Rwandan refugee crisis, when tens of thousands crossed the border and reshaped its markets and culture. Today visitors find a lively mix of colourful street stalls, warm cafés and energetic crowds, while the nearby volcano’s lava lake offers unforgettable sunrise hikes; the lake itself provides gentle boat trips and fishing, making Goma a vibrant base for exploring both natural wonders and the resilient spirit of its people.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "got": {
   "name": "Gothenburg",
@@ -551,6 +600,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "hab": {
+  "name": "Havana",
+  "text": "Havana, the bustling capital of Cuba, sits on the north-west coast of the island along the Gulf of Mexico, its harbour guarded by the iconic Malecón seawall. Founded by the Spanish in the early 1500s, the city became a vital port of the Atlantic slave trade and later a key stronghold in the Caribbean during the age of sail. Today visitors wander its colourful, pastel-coloured streets lined with well-preserved colonial architecture, sip coffee in lively plazas, and hear the rhythm of live son and salsa spilling from cafés, while the warm tropical air carries the scent of sea and history.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "ham": {
   "name": "Hamburg",
@@ -601,6 +657,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "hre": {
+  "name": "Harare",
+  "text": "Harare, the capital of Zimbabwe, lies in the north-central part of the country on a plateau about 1,500 metres above sea level, giving it a mild, subtropical climate. Founded in 1890 as the colonial settlement of Salisbury, it became the capital of the self-governing British South Africa Company and later the independent nation’s centre of administration after 1980. Today the city bustles with a mix of modern malls, lively markets and leafy suburbs, while green spaces such as Harare Gardens and the National Botanic Garden offer peaceful retreats; friendly locals are happy to share stories over a cup of rooibos tea.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
+ },
  "hrg": {
   "name": "Hurghada",
   "text": "Hurghada is a bustling seaside town on Egypt’s Red Sea coast, about 500 km southeast of Cairo. Originally a small fishing village, it grew rapidly after the 1970s when the government promoted tourism along the Red Sea, and today it is a major gateway for diving and beach holidays. The town’s promenade is lined with cafés, souvenir stalls and modern hotels, while the crystal-clear waters host vibrant coral reefs teeming with marine life. Visitors can spend the day lounging on golden sands, exploring nearby desert dunes on a quad bike, or hopping on a boat to snorkel among colourful fish and ancient shipwrecks.",
@@ -642,6 +705,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "jnb": {
+  "name": "Johannesburg",
+  "text": "Johannesburg, South Africa’s largest city, sits on the highveld of Gauteng province at about 1 750 metres above sea-level, roughly 55 km south of the historic gold-mining town of Kimberley. Founded in 1886 after gold was discovered on the Witwatersrand, it quickly grew into the country’s economic engine and played a central role in the anti-apartheid struggle, with sites such as the former Soweto police station now forming part of the Apartheid Museum. Today the city blends sleek skyscrapers with vibrant street art, bustling markets and green spaces like the Johannesburg Botanical Gardens, offering visitors a lively mix of culture, history and modern South African hospitality.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "jos": {
   "name": "Jos",
@@ -734,12 +804,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-09"
  },
+ "lbs": {
+  "name": "Lubumbashi",
+  "text": "Lubumbashi, the second-largest city in the Democratic Republic of the Congo, sits on the southeastern plateau near the border with Zambia, at the foot of the Katanga copper belt. Founded in the early 20th century as a mining outpost, it grew rapidly after the discovery of vast copper deposits that made the region one of the world’s major mineral producers. Today the city blends colonial-era architecture with bustling markets, lively cafés and a growing arts scene; visitors can stroll along its tree-lined avenues, sample hearty Congolese cuisine, and feel the vibrant energy of a place that is both a commercial hub and a gateway to the country’s mineral heartland.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
+ },
  "lbv": {
   "name": "Libreville",
   "text": "Libreville, the capital of Gabon, sits on the Atlantic coast at the mouth of the Komo River in central West Africa. It began in 1849 as a settlement for freed slaves returning from Brazil, giving the town its name – “free city” – and grew into the country’s main port. Today the city blends modern high-rise offices with colourful markets where vendors sell fresh fish, tropical fruit and woven crafts. The waterfront promenade offers views of palm-lined beaches and the occasional sailboat, while cafés serve Congolese-style coffee and the nightlife buzzes around the lively neighbourhoods of the former French quarter.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-10"
+ },
+ "lda": {
+  "name": "Luanda",
+  "text": "Luanda, the bustling capital of Angola, sits on a sweeping bay of the Atlantic Ocean at the mouth of the Cuanza River. Founded by the Portuguese in 1575, the city grew around a fortified harbour that later became a key point in the trans-Atlantic slave trade before evolving into a modern oil-driven economy. Today visitors find a lively mix of sleek skyscrapers and colourful colonial architecture, lively fish markets where the day's catch is grilled on the spot, and a vibrant nightlife along the waterfront promenade, all set against warm, tropical breezes.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "lhw": {
   "name": "Lanzhou",
@@ -769,6 +853,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "lln": {
+  "name": "Lilongwe",
+  "text": "Lilongwe, the bustling capital of Malawi, sits in the central plateau of the country where the Lilongwe River meets the expansive, gently rolling landscape of the Central Region. Established as a colonial administrative centre in the early 1900s, it became the official capital after independence, replacing Zomba in 1975. Today the city offers a relaxed yet lively atmosphere: modern cafés line the colourful streets of the Old Town, the bustling Saturday market overflows with fresh produce and crafts, and the nearby Lilongwe Wildlife Centre provides close encounters with rescued native animals. Visitors enjoy a blend of Malawian hospitality, urban growth, and easy access to surrounding wildlife reserves.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
+ },
  "lon": {
   "name": "London",
   "text": "London, the capital of the United Kingdom, sits on the River Thames in southeastern England, straddling both banks of the waterway. Founded by the Romans as Londinium around AD 43, the city grew into a bustling medieval port and later the heart of the British Empire. Today, London feels like a vibrant mosaic of history and modernity: you can stand beneath the towering glass of the Shard, wander the historic cobbles of Covent Garden, and hear the chime of Big Ben while sipping a coffee in a bustling café. Museums, parks, theatres and diverse neighbourhoods make every visit feel fresh and exciting.",
@@ -782,6 +873,20 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "lsk": {
+  "name": "Lusaka",
+  "text": "Lusaka, the bustling capital of Zambia, sits in the south-central part of the country on a plateau about 1,300 metres above sea level. Founded in 1905 as a modest railway depot, it became the capital of the British protectorate of Northern Rhodesia in 1911 and later of independent Zambia in 1964. Today the city blends modern skyscrapers with colourful markets, and a walk through the lively downtown reveals street food stalls, the National Museum’s exhibits on Zambian heritage, and the leafy expanse of the Lusaka National Park on the city’s edge, offering a warm, welcoming atmosphere for visitors.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
+ },
+ "lvg": {
+  "name": "Livingstone",
+  "text": "Livingstone sits on the north-western edge of Zambia, right on the banks of the mighty Zambezi River and just a short drive from the spectacular Victoria Falls, one of the world’s largest waterfalls. The town was founded in 1905 and named after the famed explorer David Livingstone, whose grave lies a few kilometres downstream at the Old Drift. Today, Livingstone is a lively hub for tourists: the streets buzz with markets selling handmade crafts, riverside cafés offer views of the river’s mist, and a range of lodges and activity operators make it easy to experience safaris, white-water rafting and sunset cruises on the Zambezi.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "lxr": {
   "name": "Luxor",
@@ -817,6 +922,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "mau": {
+  "name": "Maun",
+  "text": "Maun, situated on the banks of the Thamalakane River in north-west Botswana, is the principal gateway to the Okavango Delta and a short drive from the sprawling Makgadikgadi salt pans. The town began as a modest settlement in the early 20th century, serving as a trading post and later a colonial administrative centre before evolving into a tourism hub. Today, Maun hums with colourful market stalls, river-front cafés and a bustling airstrip that dispatches mokoro-sailing trips and game-viewing safaris into the delta’s winding waterways, offering a warm, laid-back base for adventurers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "mba": {
   "name": "Mombasa",
@@ -866,6 +978,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "mpt": {
+  "name": "Maputo",
+  "text": "Maputo, the vibrant capital of Mozambique, lies on the Indian Ocean coast at the southern tip of the country, where the Maputo River meets the sea. Founded as a Portuguese trading post in the 18th century, it became the colonial capital of Portuguese East Africa before independence in 1975. Today the city mixes art-deco architecture with bustling markets, palm-lined promenades and lively cafés serving piri-piri chicken and fresh seafood; a short walk takes you from the historic Praça da Independência to the colourful, fragrant streets of the Baixa district, offering a warm, relaxed atmosphere for visitors.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "mqx": {
   "name": "Mekelle",
@@ -1447,6 +1566,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "wdh": {
+  "name": "Windhoek",
+  "text": "Windhoek, the capital of Namibia, sits in the central highlands at an altitude of about 1 700 metres, framed by the rugged Dâures and Khomas mountains. Founded in 1840 as a small settlement of the Herero people, it later became a German colonial outpost, and many red-brick buildings from that era still line its streets. Today the city blends colonial charm with modern African energy: lively cafés serve local coffee, the bustling craft market offers woven blankets and jewellery, and the surrounding semi-desert scenery makes a striking backdrop for relaxed strolls through tree-lined avenues and historic plazas.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-11"
  },
  "xmn": {
   "name": "Xiamen",
