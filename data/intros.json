@@ -146,6 +146,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "bdt": {
+  "name": "Bridgetown",
+  "text": "Bridgetown, the capital of Barbados, sits on the southwest coast of the island facing the Caribbean Sea and the busy port of Carlisle Bay. Founded in the early 17th century, it became a key hub of the British Atlantic trade and its historic Garrison, now a UNESCO World Heritage site, still houses well-preserved 18th-century stone buildings and the impressive St Michael’s Cathedral. Today the city blends colourful colonial architecture with modern cafés, bustling markets and a lively waterfront promenade where locals and visitors alike enjoy street food, live music and the warm, breezy atmosphere of a tropical harbour town.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
  "bei": {
   "name": "Beira",
   "text": "Beira is a bustling port city on the east coast of Mozambique, situated at the mouth of the Pungue River where it meets the Indian Ocean. Founded by the Portuguese in the late 19th century, it quickly became a key gateway for trade into the interior of southern Africa and played a vital role during the colonial era as a supply hub for neighbouring territories. Today visitors find a lively waterfront lined with modest cafés and markets, a backdrop of low-rise buildings and the striking Mozambique Channel beyond. The city’s warm climate, friendly locals and easy access to nearby beaches and the historic railway make it a pleasant, off-the-beaten-track stop for curious travellers.",
@@ -328,6 +335,13 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "ccs": {
+  "name": "Caracas",
+  "text": "Caracas, the bustling capital of Venezuela, lies in a valley surrounded by the towering peaks of the Ávila mountain range in the north-central part of the country, about 900 metres above sea level. Founded in 1567 by Spanish settlers, it became the centre of the independence movement when Simón Bolívar declared the Republic of Colombia there in 1811. Today the city offers a lively mix of modern skyscrapers, historic colonial plazas and vibrant street markets; you can stroll through the lively Boulevard Los Santos, enjoy panoramic views from the Teleférico cable car, and sample tasty arepas while the tropical climate keeps the air warm and fresh.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
  "che": {
   "name": "Cherbourg",
   "text": "Cherbourg-en-Normandy sits on the tip of the Cotentin Peninsula in north-western France, overlooking the English Channel and the Bay of the Mont Saint-Michel. Founded in the medieval era, the town gained strategic importance during the Second World War and was a key Allied port after the D-Day landings in 1944. Today visitors stroll along the bustling waterfront, explore the impressive Musée de la Cité de la Mer with its historic submarine, and enjoy fresh seafood in a relaxed harbour atmosphere, while the surrounding cliffs and nearby beaches offer striking coastal scenery.",
@@ -341,6 +355,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "clo": {
+  "name": "Cali",
+  "text": "Cali, officially Santiago de Cali, lies in the fertile Cauca River valley of southwestern Colombia, at the foothills of the Andes and about 100 km from the Pacific coast. Founded in 1536 by Spanish conquistador Sebastián de Belalcázar, it grew into a major centre for the sugar-cane industry in the 19th century. Today the city pulses with a lively mix of modern cafés, colourful street art and the irresistible rhythm of salsa that fills its nightclubs and public squares. Visitors can stroll through the historic San Antonio neighbourhood, sample fresh fruit juices in bustling markets and enjoy nearby parks that frame the surrounding mountains.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
  },
  "clt": {
   "name": "Charlotte",
@@ -390,6 +411,20 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "ctg": {
+  "name": "Cartagena",
+  "text": "Cartagena, a vibrant coastal city on Colombia’s Caribbean coast, sits on a natural harbour framed by the historic walled enclave of the old town. Founded in 1533, it became a crucial port for Spanish treasure fleets and later a stronghold of the trans-Atlantic slave trade, which left a legacy of impressive fortifications such as the Castillo San Felipe de Barajas. Today the city bustles with colourful colonial architecture, lively plazas, and a lively street-food scene; strolling along the cobbled streets you’ll hear the rhythm of salsa, smell fresh ceviche, and enjoy stunning sunsets over the sea from the historic walls.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
+ "cuz": {
+  "name": "Cusco",
+  "text": "Cusco, nestled in the southeastern Andes of Peru at around 3,400 metres above sea level, was the historic capital of the Inca Empire and today forms the gateway to the famed ruins of Machu Picchu. Its cobbled streets are lined with a striking mix of stone Inca foundations and colourful Spanish colonial façades, many of which are protected as a UNESCO World Heritage Site. Visitors can wander bustling markets selling alpaca textiles, savour traditional Peruvian dishes in lively plazas, and enjoy crisp, clear mountain air while exploring museums that bring the city’s rich past vividly to life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
  },
  "cwb": {
   "name": "Curitiba",
@@ -601,6 +636,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-07"
  },
+ "gye": {
+  "name": "Guayaquil",
+  "text": "Guayaquil, Ecuador’s bustling port city, sits on the banks of the Guayas River near the country’s Pacific coast, about 400 km south-west of Quito. Founded in the 16th century, it grew into a key hub for the export of cacao and bananas during the early 20th century, shaping its reputation as the “Pearl of the Pacific.” Today the city blends modern high-rises with colourful riverfront promenades, lively markets and the historic Parque Seminario, where you can admire towering Ceiba trees. Friendly locals, abundant seafood and a vibrant nightlife make a visit feel both energetic and welcoming.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
  "hab": {
   "name": "Havana",
   "text": "Havana, the bustling capital of Cuba, sits on the north-west coast of the island along the Gulf of Mexico, its harbour guarded by the iconic Malecón seawall. Founded by the Spanish in the early 1500s, the city became a vital port of the Atlantic slave trade and later a key stronghold in the Caribbean during the age of sail. Today visitors wander its colourful, pastel-coloured streets lined with well-preserved colonial architecture, sip coffee in lively plazas, and hear the rhythm of live son and salsa spilling from cafés, while the warm tropical air carries the scent of sea and history.",
@@ -741,6 +783,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-10"
  },
+ "kgn": {
+  "name": "Kingston",
+  "text": "Kingston, the bustling capital of Jamaica, sits on the southeastern coast where the harbour meets the island’s north-south ridge of hills. Founded in 1692 after an earthquake destroyed Port Royal, it quickly became the island’s commercial and political centre. Today the city blends vibrant street markets, reggae rhythms and historic sites such as the 18th-century Devon House; the waterfront promenade offers striking views of the blue Caribbean Sea, while the lively downtown buzzes with cafés, art galleries and the occasional scent of jerk spice drifting from nearby stalls. It feels both lively and welcoming, a gateway to Jamaica’s culture and natural beauty.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
  "khr": {
   "name": "Khartoum",
   "text": "Khartoum, the capital of Sudan, sits where the Blue and White Niles merge, creating a striking riverfront that defines the city’s layout. Founded in 1821 as a trading post under the Egyptian-Ottoman rule, it later became the seat of the Mahdist State before British-Egyptian administration took over in the late 19th century. Today visitors find a bustling mix of modern cafés, lively markets and wide avenues lined with palm-shaded parks; the National Museum offers a glimpse of ancient Nubian artefacts, while a short ferry ride across the Nile provides striking views of the city’s skyline and the historic confluence that has shaped its character for centuries.",
@@ -860,6 +909,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-11"
  },
+ "lma": {
+  "name": "Lima",
+  "text": "Lima, the bustling capital of Peru, lies on the central western coast where the desert meets the Pacific Ocean, its skyline framed by the towering Andes to the east. Founded by Spanish conquistador Francisco Pizarro in 1535, the city became the centre of the Viceroyalty of Peru and retains a rich colonial heritage evident in the stone façades of its historic centre, a UNESCO World Heritage site. Today Lima teems with contrast: colourful neighbourhoods such as Barranco offer bohemian cafés and street art, while sleek skyscrapers house modern offices, and the nearby cliffs provide spectacular sunset views over the sea.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
  "lon": {
   "name": "London",
   "text": "London, the capital of the United Kingdom, sits on the River Thames in southeastern England, straddling both banks of the waterway. Founded by the Romans as Londinium around AD 43, the city grew into a bustling medieval port and later the heart of the British Empire. Today, London feels like a vibrant mosaic of history and modernity: you can stand beneath the towering glass of the Shard, wander the historic cobbles of Covent Garden, and hear the chime of Big Ben while sipping a coffee in a bustling café. Museums, parks, theatres and diverse neighbourhoods make every visit feel fresh and exciting.",
@@ -944,6 +1000,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "mcb": {
+  "name": "Maracaibo",
+  "text": "Maracaibo is a bustling city in northwestern Venezuela, perched on the western shore of Lake Maracaibo and framed by the Sierra de Perijá mountains. Founded in 1529, it became an early centre of the Spanish colonial oil trade, and its historic Plaza Bolívar still bears the name of the liberator who visited the town. Today visitors find a lively mix of modern skyscrapers and colourful colonial buildings, bustling markets selling fresh fish and arepas, and the famous “Cerro de la Cruz” viewpoint that offers sweeping sunsets over the lake. The warm, humid climate and friendly locals make it a vibrant gateway to the region’s natural and cultural attractions.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
  "mci": {
   "name": "Kansas City",
   "text": "Kansas City, straddling the border between Missouri and Kansas in the American Midwest, sits on the confluence of the Missouri and Kansas rivers. Founded in the early 19th century, the city grew around the historic Santa Fe Trail, which made it a key gateway for westward expansion. Today visitors enjoy a vibrant mix of jazz clubs, world-class barbecue joints and impressive art installations such as the towering “Lion” sculpture in the downtown plaza. The River Market district offers bustling farmers’ markets and historic warehouses converted into cafés, while the nearby Country Club Plaza delights shoppers with its Spanish-style architecture and lively street ambience.",
@@ -957,6 +1020,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "mde": {
+  "name": "Medellin",
+  "text": "Medellín sits in a lush valley in the Andes of north-west Colombia, about 150 km south of the Caribbean coast and surrounded by towering mountains that give the city its nickname, the “City of Eternal Spring.” Founded in 1616, it later became the centre of a famous flower-growing region and, in the mid-20th century, was the stronghold of notorious drug cartels before undergoing a remarkable urban transformation. Today visitors find a vibrant mix of modern tramways, colourful street art, bustling markets and excellent coffee shops, all set against a backdrop of verdant hills and a pleasantly mild climate.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
  },
  "mem": {
   "name": "Memphis",
@@ -1041,6 +1111,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "nas": {
+  "name": "Nassau",
+  "text": "Nassau, the bustling capital of the Bahamas, sits on New Providence Island just off the north-east coast of the main Bahamian archipelago, overlooking the turquoise waters of the Atlantic. Founded in the 17th century, the town became a notorious pirate haven in the early 1700s, a colourful chapter reflected in the historic Parliament Square and the famous pirate-themed museum on Bay Street. Today visitors stroll along the vibrant waterfront, browse colourful market stalls selling conch and locally-made crafts, and relax on nearby Cable Beach, while the city’s pastel colonial buildings and lively music scene give a warm, laid-back island feel.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
  },
  "nbo": {
   "name": "Nairobi",
@@ -1140,6 +1217,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-04"
  },
+ "pap": {
+  "name": "Port-au-Prince",
+  "text": "Port-au-Prince sits on the Gulf of Caribbean on Haiti’s western coast, nestled between the sprawling hills of the Château de Mona and the bustling harbour that has long been the island’s gateway to the sea. Founded by French colonists in the 18th century, it became Haiti’s capital after independence in 1804 and later endured a devastating earthquake in 2010 that reshaped much of the city. Today the streets buzz with colourful market stalls, lively music and resilient locals; you can explore vibrant art galleries, sample hearty Haitian cuisine and feel the warm, welcoming spirit that pulses through the rebuilt neighbourhoods.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
  "par": {
   "name": "Paris",
   "text": "Paris, the capital of France, sits on the banks of the River Seine in the north-central part of the country. Founded by the Celtic Parisii tribe, it became an imperial centre when the Romans built Lutetia on the island now known as Île de la Cité, and it later grew into a hub of art, fashion and cuisine. Today the city dazzles visitors with its iconic skyline of Haussmannian boulevards, world-renowned museums such as the Louvre, and lively cafés spilling onto cobbled streets. A stroll along the Seine offers a mix of historic monuments, modern shops and the unmistakable buzz of a metropolis that still feels romantic and vibrant.",
@@ -1237,6 +1321,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "pos": {
+  "name": "Port of Spain",
+  "text": "Port of Spain sits on the western coast of Trinidad, tucked against the sheltered Gulf of Paria and framed by the lush Northern Range. The town was founded by the Spanish in 1592 and later fell under British control in 1797, becoming the island’s administrative centre. Today it buzzes with a lively mix of cultures: colourful market stalls sell fresh fruit and handmade crafts, the waterfront promenade offers panoramic sea views, and the streets come alive with music and dance during the world-famous Carnival. Visitors enjoy a blend of historic colonial architecture, modern cafés and a warm, welcoming atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
  },
  "pra": {
   "name": "Prague",
@@ -1336,12 +1427,26 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "scu": {
+  "name": "Santiago de Cuba",
+  "text": "Santiago de Cuba, perched on the southeastern coast of the island at the mouth of the Bay of Santiago, is Cuba’s second-largest city and a lively gateway to the island’s Afro-Cuban heritage. Founded in 1515, it later became the cradle of the Cuban Revolution, with the iconic Castillo del Morro watching over the harbour where Fidel Castro’s forces entered the city in 1959. Today the streets pulse with the rhythms of son and salsa, colourful colonial façades line bustling markets, and the surrounding hills offer spectacular views, making a visit feel like stepping into a vibrant, living history book.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
+ },
  "sdg": {
   "name": "San Diego",
   "text": "San Diego lies on the southern coast of California, bordering the Pacific Ocean and just a short drive from the Mexican border. Founded as a Spanish mission in 1769, the city grew around the historic Presidio and became a key naval base in the 20th century. Today it feels relaxed yet vibrant, with sun-kissed beaches, a bustling waterfront at the Embarcadero, and a mix of cultural attractions from the lively Gaslamp Quarter to the world-class museums of Balboa Park. Warm weather, friendly locals and endless outdoor activities make it a pleasant stop for any traveller.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "sdq": {
+  "name": "Santo Domingo",
+  "text": "Santo Domingo sits on the southern coast of the Dominican Republic, overlooking the Caribbean Sea where the Ozama River meets the harbour. Founded in 1496, it is the oldest continuously inhabited European settlement in the Americas and its historic Zona Colonial is a UNESCO World Heritage site full of cobbled streets, colourful façades and the first cathedral of the New World. Today the city blends the old with the new: lively plazas buzz with street musicians, modern cafés line the Paseo de los Trinitarios, and rooftop bars offer sweeping views of the sparkling sea and bustling port.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
  },
  "sev": {
   "name": "Seville",
@@ -1412,6 +1517,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "stj": {
+  "name": "Santiago",
+  "text": "Santiago de los Caballeros, nestled in the fertile Cibao valley of the Dominican Republic’s north-central plateau, is the island’s second-largest city and a hub of coffee and cacao production. Founded in the late-15th century, it later became the centre of the 19th-century Restoration War, a fact commemorated by the towering Monument to the Heroes of the Restoration that dominates the skyline. Today the city blends colonial charm with modern vibrancy: colourful market stalls line the bustling streets, lively cafés serve strong coffee, and the surrounding mountains offer scenic drives and opportunities to taste the region’s renowned rum and fresh tropical fruit.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
  },
  "stl": {
   "name": "St Louis",
@@ -1538,6 +1650,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "uio": {
+  "name": "Quito",
+  "text": "Quito, the capital of Ecuador, sits high in the Andes at an altitude of about 2,850 metres, making it one of the world’s highest capital cities. Founded by the Spanish in 1534, it preserves a remarkably intact colonial centre that was declared a UNESCO World Heritage Site in 1978, with churches, plazas and narrow cobbled streets that echo the city’s 16th-century past. Today visitors find a vibrant mix of old and new: bustling markets selling fresh fruit and handmade crafts, modern cafés perched on sun-lit terraces, and a backdrop of snow-capped volcanoes that frame the city’s lively streets and friendly atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-12"
  },
  "val": {
   "name": "Valencia",
