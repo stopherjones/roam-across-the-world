@@ -97,12 +97,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
+ "aqp": {
+  "name": "Arequipa",
+  "text": "Arequipa, nestled on the high plateau of southern Peru at the foot of the snow-capped volcanoes El Misti, Chachani and Pichu Pichu, is known as the “White City” for its elegant buildings of white volcanic sillar stone. Founded in 1540 by the Spanish, it became an important colonial centre and later a hub for the independence movement. Today the city dazzles visitors with a blend of historic plazas, lively markets and superb restaurants serving regional dishes such as rocoto relleno; the surrounding valleys offer spectacular trekking and the crisp mountain air makes strolling the cobbled streets a delight.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
+ },
  "aru": {
   "name": "Arusha",
   "text": "Arusha is a bustling town in northern Tanzania, perched at the foot of Mount Meru and just a short drive from the Serengeti and Ngorongoro Crater. It was the site of the 1961 signing of the Arusha Declaration, which set out Tanzania’s socialist policies under President Julius Nyerere. Today the town feels lively and welcoming, with colourful markets selling fresh produce and crafts, a growing café culture where you can sip coffee while watching traffic of matatus and safari-bound buses, and easy access to wildlife parks that make it a convenient gateway for adventurous travellers.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-10"
+ },
+ "asu": {
+  "name": "Asuncion",
+  "text": "Asunción, the capital of Paraguay, sits on the east bank of the Paraguay River opposite the Argentine city of Clorinda, roughly midway between the tropics and the subtropics. Founded in 1537 by Spanish explorer Juan de Salazar, it is one of South America’s oldest cities and retains a colonial grid that still shapes its streets. Today the city blends historic churches and colourful neighbourhoods with lively cafés, modern museums and a riverside promenade where locals gather for a relaxed stroll. Visitors enjoy the warm hospitality, affordable dining and a surprisingly vibrant arts scene amidst the laid-back atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "asw": {
   "name": "Aswan",
@@ -286,6 +300,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
+ "bue": {
+  "name": "Buenos Aires",
+  "text": "Buenos Aires, the bustling capital of Argentina, sits on the western shore of the Río de la Plata in the country's eastern region. Founded in the 16th century, it grew from a modest Spanish settlement into a major port and cultural hub, famously earning the nickname “Paris of South America” for its grand boulevards and European-style architecture. Today the city thrills visitors with lively neighbourhoods such as San Telmo’s cobbled streets, the colourful houses of La Boca, and the sleek modernity of Puerto Madero, while tango music spills from cafés and the aroma of grilled meat drifts from countless parrillas, offering a vibrant mix of history and contemporary Latin flair.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
+ },
  "byo": {
   "name": "Bulawayo",
   "text": "Bulawayo, Zimbabwe’s second-largest city, sits in the southwest of the country on the high-veld, close to the border with Botswana and the rugged Matobo Hills. It grew out of the royal kraal of King Lobengula, the last Ndebele monarch, and became a key railway hub when the line from Salisbury (now Harare) reached it in the 1890s. Today the town blends wide, tree-lined avenues of red-brick colonial buildings with lively street markets where traders sell everything from fresh fruit to handmade crafts. Visitors can explore the historic railway museum, savour hearty local cuisine, and use Bulawayo as a gateway to the striking granite peaks and abundant wildlife of Matobo National Park.",
@@ -328,6 +349,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
+ "cba": {
+  "name": "Cordoba",
+  "text": "Cordoba, Argentina, sits in the heart of the country on the banks of the Suquia River, at the foot of the Sierras de Córdoba and roughly 700 km west of Buenos Aires. The city was founded in 1573 by the Spanish explorer Jerónimo Luis de Cabrera, making it one of the oldest European settlements in the region and home to the UNESCO-listed Jesuit Block and Estancias. Today Cordoba buzzes with a youthful energy thanks to its large university population; its historic centre blends cobbled streets and colonial churches with lively cafés, bustling markets and frequent cultural festivals, offering visitors a warm mix of history and modern Argentine life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
+ },
  "cbq": {
   "name": "Calabar",
   "text": "Calabar, perched on Nigeria’s southeastern coast where the Cross River meets the Atlantic, blends vibrant culture with lush rainforest scenery. Founded in the 15th century as a major hub for the Efik people, it later thrived as a bustling port during the Atlantic trade era, earning the nickname “Queen of the Niger Delta.” Today, Calabar buzzes with tourism, home to the annual Calabar Carnival, historic museums, and eco‑adventures in nearby national parks. Its friendly streets, colonial architecture, and thriving arts scene make it a gateway to the heart of Nigeria’s heritage and natural beauty.",
@@ -369,6 +397,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "cnf": {
+  "name": "Belo Horizonte",
+  "text": "Belo Horizonte, the capital of Brazil’s Minas Gerais state, lies in the southeastern highlands about 340 km north-east of Rio de Janeiro and 600 km south-west of Salvador. Founded in 1897 to replace the colonial town of Ouro Prata, it was one of Brazil’s first planned cities, laid out on a grid of wide avenues and green squares. Today the city buzzes with a vibrant mix of modern cafés, lively music venues and expansive parks; the striking modernist architecture of Oscar Niemeyer’s churches stands alongside bustling markets where you can sample local cheese, cachaça and fresh fruit, offering a warm, energetic glimpse of contemporary Brazilian life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "cok": {
   "name": "Kochi",
@@ -586,6 +621,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-10"
+ },
+ "geo": {
+  "name": "Georgetown",
+  "text": "Georgetown, the capital of Guyana, sits on the Atlantic coast at the mouth of the Demerara River, its streets laid out in a distinctive grid pattern that dates back to the early 19th-century colonial plan. Founded by the Dutch in the 18th century and later taken over by the British, the city retains many colourful wooden buildings, the iconic St George’s Cathedral with its towering wooden dome, and a bustling waterfront market where vendors sell fresh fish, tropical fruits and handmade crafts. Today visitors enjoy strolling along the historic promenades, sampling Creole cuisine in lively cafés, and feeling the gentle river breeze as the city blends its rich heritage with a relaxed, tropical rhythm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "gla": {
   "name": "Glasgow",
@@ -923,6 +965,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-04"
  },
+ "lpb": {
+  "name": "La Paz",
+  "text": "La Paz, Bolivia’s high-altitude capital, lies in a bowl surrounded by the snow-capped Andes at about 3 600 metres above sea level, making it one of the world’s highest major cities. Founded in 1548 as a modest colonial outpost, it grew into a centre of silver mining and later became the seat of the Republic after independence. Today the city bustles with colourful markets, cable-car lifts that glide over steep streets, and a mix of historic churches and modern cafés, offering visitors striking mountain views, vibrant street life and a warm, welcoming atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
+ },
  "lpg": {
   "name": "Las Palmas",
   "text": "Las Palmas, the sun‑kissed capital of Gran Canaria, sits on the island’s northeastern coast where the Atlantic meets volcanic hills and golden beaches. Founded in 1478 by Spanish conquistadors as “Real Villa de La Luz,” the city grew from a modest fishing port into a bustling entrepôt, its historic Vegueta district preserving cobblestone streets and Moorish‑influenced architecture. Today, Las Palmas is a vibrant cultural hub—home to lively markets, world‑class museums, and the famed Las Canteras promenade—while serving as a modern gateway for tourism, commerce, and renewable‑energy innovation across the Canary archipelago. Join us as we explore its timeless charm and forward‑looking spirit.",
@@ -971,6 +1020,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "mao": {
+  "name": "Manaus",
+  "text": "Manaus, the vibrant gateway to the Amazon, sits at the confluence of the Rio Negro and the Rio Solimões in north-western Brazil. Founded in the 17th century as a modest Portuguese trading post, it boomed in the late 19th century during the rubber boom, when fortunes were made and grand theatres and mansions sprang up along its riverfront. Today the city blends modern bustle with jungle mystery: colourful market stalls sell exotic fruit, river tours whisk you past towering kapok trees, and the famed Amazon Theatre hosts concerts beneath its ornate façade, while the surrounding rainforest offers unforgettable wildlife excursions just a short boat ride away.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "mar": {
   "name": "Marseille",
@@ -1027,6 +1083,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-12"
+ },
+ "mdz": {
+  "name": "Mendoza",
+  "text": "Mendoza, nestled on the eastern side of the Andes in western Argentina, sits at the foothills of the towering mountain range and is framed by the sparkling waters of the Tunuyán River. Founded in 1561 by Spanish colonists, the city grew into the heart of the country’s wine country, renowned for its Malbec vineyards that spread across sun-baked valleys. Today visitors wander through spacious plazas shaded by olive trees, sip world-class wines at boutique bodegas, and ride cable cars up to breathtaking high-altitude trails, while the backdrop of snow-capped peaks makes every stroll feel like a picture-postcard adventure.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "mem": {
   "name": "Memphis",
@@ -1097,6 +1160,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "mvd": {
+  "name": "Montevideo",
+  "text": "Montevideo, the capital of Uruguay, sits on the northern shore of the Río de la Plata opposite Buenos Ayres, forming a broad, windswept bay that feels more like an inland sea than a river. Founded by the Spanish in 1726, the city later became the site where Uruguay’s independence was declared in 1825, a pivotal moment in South-American history. Today Montevideo blends colonial charm with a relaxed, modern vibe: cobbled streets lead to colourful market stalls, the rambla stretches for kilometres alongside cafés and art galleries, and the historic Ciudad Vieja neighbourhood buzzes with live tango, fresh seafood and friendly locals eager to share a mate.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "nan": {
   "name": "Nantes",
@@ -1238,6 +1308,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
+ "pbm": {
+  "name": "Paramaribo",
+  "text": "Paramaribo, the capital of Suriname, lies on the banks of the Suriname River just a few kilometres inland from the Atlantic coast. Founded by the Dutch in the early 17th century, the city’s historic centre – a UNESCO World Heritage site – still shows the distinctive wooden colonial architecture that survived the 1821 fire. Today the streets buzz with a relaxed, multicultural vibe; you can wander past colourful market stalls selling fresh tropical fruit, sample a blend of Creole, Indian and Javanese flavours in cosy cafés, and cruise on the river to watch sunset-lit mangroves framing a laid-back, yet lively, Caribbean atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
+ },
  "pdl": {
   "name": "Ponta Delgada",
   "text": "Ponta Delgada – the vibrant capital of Portugal’s Azores archipelago, perched on the southern coast of São Miguel Island.  Nestled in the mid‑Atlantic, this charming town blends volcanic landscapes with sweeping ocean views, a natural gateway between Europe and the Americas.  Founded in the 15th century by Portuguese settlers, it grew from a modest fishing village into a key stopover for trans‑Atlantic whalers and explorers, its historic cobblestone streets still echoing centuries of maritime heritage.  Today, Ponta Delgada thrives as a cultural hub—buzzing cafés, lively festivals, and eco‑tourism adventures—while preserving its rich past amid stunning cliffs, geothermal springs and world‑class cuisine.",
@@ -1357,6 +1434,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "rio": {
+  "name": "Rio de Janeiro",
+  "text": "Rio de Janeiro lies on Brazil’s southeastern coast, nestled between the Atlantic Ocean, the towering Sugarloaf Mountain and the expansive Guanabara Bay. Founded by the Portuguese in 1565, the city grew around a natural harbour that later became a key port for the empire’s gold shipments. Today Rio buzzes with a vibrant mix of beach culture, samba rhythms and striking street art; you can stroll along Copacabana’s golden sands, take a cable-car up to the iconic Christ the Redeemer statue for panoramic views, or explore bustling markets where the scent of grilled meat mingles with the salty sea breeze.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
+ },
  "rnd": {
   "name": "Rostov-on-Don",
   "text": "Rostov-on-Don sits on the western bank of the Don River in southern Russia, a gateway to the vast steppe and the Black Sea coast. Founded in the mid-18th century as a fortress to protect the empire’s southern frontier, it grew into a bustling trade hub and today it buzzes with a lively mix of history and modernity. Visitors can wander the wide embankment lined with cafés, explore the striking Rostov Kremlin and its golden domes, and soak up the vibrant atmosphere of markets selling everything from fresh fish to traditional crafts, all under a warm, sun-lit sky.",
@@ -1426,6 +1510,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
   "generated": "2026-11-01"
+ },
+ "scl": {
+  "name": "Santiago",
+  "text": "Santiago, Chile, lies in the fertile central valley of the country, cradled by the towering Andes to the east and the coastal range to the west, and it serves as the nation’s bustling capital. Founded in 1541 by the Spanish conquistador Pedro de Valdivia, the city grew from a modest colonial outpost into a major South-American metropolis. Today visitors find a lively mix of sleek skyscrapers, historic neighbourhoods such as Bellavista with its colourful murals, and expansive parks like the sprawling Cerro San Cristóbal, while the nearby vineyards and mountain passes offer easy escapes for wine-tasting and outdoor adventure.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "scu": {
   "name": "Santiago de Cuba",
@@ -1510,6 +1601,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "ssa": {
+  "name": "Salvador",
+  "text": "Salvador, perched on the Atlantic coast of Brazil in the state of Bahia, is the country’s oldest colonial capital, founded in 1549 as the first seat of Portuguese administration in the New World. Its historic centre, the Pelourinho, is a UNESCO World Heritage Site where pastel-coloured baroque churches and cobbled streets echo the city’s Afro-Brazilian heritage. Today the city bursts with music, street art and bustling markets; you can savour spicy Bahian cuisine, dance to samba and axé in lively squares, and relax on sun-kissed beaches just a short tram ride from the colourful old town.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "sth": {
   "name": "Stockholm",
@@ -1678,6 +1776,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "vvi": {
+  "name": "Santa Cruz",
+  "text": "Santa Cruz de la Sierra sits in the eastern lowlands of Bolivia, about 400 km east of the Andes and close to the border with Brazil, forming the capital of the Santa Cruz department. It was founded in 1561 by the Spanish explorer Ñuflo de Chaves as a modest settlement on the banks of the Piraí River. Today the city bursts with colour and energy: wide, tree-lined avenues lead to lively plazas, modern cafés sit alongside bustling mercados, and the surrounding tropical countryside offers easy trips to wildlife reserves and waterfalls, making a visit both contemporary and full of natural charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-13"
  },
  "war": {
   "name": "Warsaw",
