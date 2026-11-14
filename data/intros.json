@@ -314,6 +314,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-11"
  },
+ "bze": {
+  "name": "Belize City",
+  "text": "Belize City, the former capital of Belize, sits on the eastern coast of the country at the mouth of the Haulover Creek where it meets the Caribbean Sea. Founded in 1638 as a small settlement for timber and trade, it later became the administrative centre of British Honduras before the capital moved inland to Belmopan in 1970. Today the city is a lively blend of colonial architecture and colourful market stalls, with the bustling Swing Bridge, historic wooden houses and a vibrant waterfront promenade offering easy access to museums, eateries and boat trips to nearby islands.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
+ },
  "cai": {
   "name": "Cairo",
   "text": "Cairo, the bustling capital of Egypt, sits on the banks of the Nile River just south of the Sahara, at the crossroads of Africa and the Middle East. It grew around the ancient settlement of Fustat, founded in the 7th century after the Arab conquest, and later became the seat of the powerful Mamluk sultans. Today the city teems with life: narrow alleys lead to vibrant souks where the scent of spices mingles with the call to prayer, while modern cafés overlook historic sites such as the nearby Giza pyramids, offering a vivid blend of past and present for any traveller.",
@@ -453,6 +460,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-12"
+ },
+ "cun": {
+  "name": "Cancun",
+  "text": "Cancun sits on the northeastern tip of the Yucatán Peninsula, bordering the Caribbean Sea in the state of Quintana Roo, Mexico. The area was a modest fishing village until the Mexican government designated it as a tourism hub in the early 1970s, building the first major hotel zone to showcase the region’s white-sand beaches and crystal-clear waters. Today, visitors find a vibrant mix of modern resorts, lively nightlife and easy access to nearby Mayan ruins such as El Mérida and the underwater museum of submerged sculptures, making it a lively yet relaxing seaside destination.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
  },
  "cuz": {
   "name": "Cusco",
@@ -615,6 +629,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-11"
  },
+ "gdl": {
+  "name": "Guadalajara",
+  "text": "Guadalajara, the capital of the Mexican state of Jalisco, sits in the western highlands about 500 km northwest of Mexico City and 300 km east of the Pacific coast. Founded in 1542, it became an important centre of Spanish colonial administration and later the birthplace of maria maria’s lively music and the iconic tequila industry. Today the city buzzes with a mix of colonial charm and modern energy: colourful markets such as Mercado San Juan de Dios spill onto cobbled streets, historic plazas host street performers, and a thriving food scene offers everything from tacos al pastor to gourmet restaurants, all set against the backdrop of grand churches and bustling cafés.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
+ },
  "gdr": {
   "name": "Gondar",
   "text": "Gondar, perched on the high plateau of northern Ethiopia near the Simien Mountains, was founded in the early 17th century as the capital of the Ethiopian Empire and is famed for its impressive collection of stone castles and palaces that earned it the nickname “the Camelot of Africa”. Today the town buzzes with a lively blend of history and modern life: colourful markets spill onto cobbled streets, friendly cafés serve freshly roasted coffee, and the UNESCO-listed Royal Enclosure invites visitors to wander among ancient towers while the surrounding hills provide spectacular sunrise vistas and a cool, pleasant climate year-round.",
@@ -663,6 +684,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
+ },
+ "gua": {
+  "name": "Guatemala City",
+  "text": "Guatemala City, the bustling capital of Guatemala, sits in the high-land valley of the Central Plateau at about 1,650 metres above sea level, surrounded by volcanoes such as Pacaya and Agua. The city was founded in 1776 when a series of earthquakes devastated the former colonial capital of Antigua, prompting the Spanish authorities to move the administrative centre to this more secure location. Today the metropolis blends modern skyscrapers with historic plazas, lively markets and museums like the National Museum of Archaeology; its streets hum with traffic, colourful street food stalls and a friendly, cosmopolitan vibe that offers visitors a vivid glimpse of contemporary Central American life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
  },
  "gur": {
   "name": "Guiria",
@@ -1098,6 +1126,20 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "mex": {
+  "name": "Mexico City",
+  "text": "Mexico City, the bustling capital of Mexico, lies in the high basin of the Valley of Mexico at an altitude of about 2,240 metres, surrounded by volcanoes and mountains. Founded by the Aztecs in 1325 as Tenochtitlán, it became the centre of a powerful empire before the Spanish conquest in 1521. Today the city blends ancient ruins such as the Templo Mayor with modern museums, vibrant street markets and a thriving culinary scene; you can wander historic plazas, ride the extensive metro system and enjoy a mix of colonial architecture and contemporary art, all set against a backdrop of bustling cafés and green parks.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
+ },
+ "mga": {
+  "name": "Managua",
+  "text": "Managua, the bustling capital of Nicaragua, sits on the southwestern shore of Lake Xolotlán where the Tipitapa and Tuma rivers meet the Pacific-ward plain. Founded in the 16th century, it became the country’s political centre after the 1855 earthquake destroyed the old city of León Viejo, and it has since grown into a vibrant metropolis. Today visitors find a mix of modern cafés, colourful markets and expansive waterfront promenades, with the historic Palacio Nacional and the striking silhouette of the three volcanoes – Masaya, Mombacho and Cerro Negro – framing the skyline, offering a lively yet relaxed atmosphere for explorers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
+ },
  "mil": {
   "name": "Milan",
   "text": "Milan, in the north-west of Italy, sits in the fertile Po Valley between the Alps and the Adriatic Sea. First mentioned in a 6th-century Lombard document, the city became a major centre of the Renaissance, home to Leonardo da Vinci’s “The Last Supper” and the magnificent Gothic cathedral, the Duomo. Today Milan buzzes with a sleek blend of historic grandeur and modern style: you can wander its elegant arcades, sip espresso in bustling cafés, explore world-class museums, and shop the latest fashions in the vibrant Quadrilatero della Moda, all while enjoying a lively, cosmopolitan atmosphere.",
@@ -1153,6 +1195,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "mty": {
+  "name": "Monterrey",
+  "text": "Monterrey, nestled in the foothills of the Sierra Madre Oriental in north-eastern Mexico, is the bustling capital of the state of Nuevo León. Founded in 1596 by Spanish explorer Diego de Montemayor, the city grew from a modest settlement into a major industrial hub, earning a reputation as the country’s “Steel City”. Today visitors find a dynamic mix of sleek skyscrapers, lively markets and green parks framed by dramatic mountain peaks; the vibrant culinary scene serves up everything from street-side tacos to upscale Nuevo León-style grill, while museums and galleries showcase both modern art and the region’s rich heritage.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
  },
  "muc": {
   "name": "Munich",
@@ -1258,6 +1307,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
   "generated": "2026-11-01"
+ },
+ "oax": {
+  "name": "Oaxaca",
+  "text": "Oaxaca, nestled in the fertile Valley of Oaxaca in southern Mexico and framed by the Sierra Madre del Sur mountains, is the colourful capital of the state of the same name. The city grew on the site of the pre-Hispanic Zapotec centre of Monte Albán and was formally founded by the Spanish in 1532, later becoming a centre of colonial administration and art. Today it is a lively UNESCO World Heritage site, famous for its bustling markets, centuries-old stone streets, vibrant festivals and world-renowned cuisine such as mole and tlayudas, making a visit feel like stepping into a living museum of colour and tradition.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
  },
  "okc": {
   "name": "Oklahoma City",
@@ -1595,6 +1651,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
+ "sps": {
+  "name": "San Pedro Sula",
+  "text": "San Pedro Sula sits in the north-western part of Honduras, on the banks of the Río Ulúa and just a short drive from the Caribbean coast. Founded in the 16th century, it grew into a major trading hub for bananas and coffee, helping to shape the country’s export economy. Today the city buzzes with a lively mix of modern malls, bustling markets and street-side eateries serving hearty baleadas and fresh seafood. Visitors can explore vibrant murals, sample the local nightlife in the lively downtown area, and use the city as a convenient base for trips to the nearby beaches and rainforest reserves.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
+ },
  "srg": {
   "name": "Sorong",
   "text": "Sorong – perched on the western tip of New Guinea, this bustling port city greets you where the warm waters of the Raja Ampat archipelago meet the vast expanse of the Pacific. Once a modest Dutch outpost in the early 1900s, Sorong grew into a strategic gateway during World War II and later became the commercial heart of West Papua. Today it pulses with modern energy: a hub for oil and gas, a launchpad for divers diving into world‑renowned coral reefs, and a cultural crossroads where indigenous traditions mingle with vibrant street markets. Join us as we explore the charm and promise of Sorong, Indonesia’s hidden coastal gem.",
@@ -1608,6 +1671,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-13"
+ },
+ "ssv": {
+  "name": "San Salvador",
+  "text": "San Salvador, the bustling capital of El Salvador, sits in a wide valley surrounded by volcanic peaks such as the towering San Salvador Volcano to the north and the imposing San Miguel and Ilopango craters nearby. Founded in the early 16th century, it became the seat of the Spanish colonial administration after the conquest of the region. Today the city mixes colourful colonial architecture, lively markets and modern cafés; you can wander the historic centre, admire murals that celebrate its revolutionary past, and enjoy the cool, pleasant evenings that drift in from the surrounding highlands, making it a vibrant yet relaxed stop for travellers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
  },
  "sth": {
   "name": "Stockholm",
@@ -1651,12 +1721,26 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "tgu": {
+  "name": "Tegucigalpa",
+  "text": "Tegucigalpa, the bustling capital of Honduras, sits high in a valley surrounded by the rugged mountains of the Central American interior at about 1,000 metres above sea level. Founded by Spanish settlers in the late 16th century, it became the nation’s official capital in the late 19th century, replacing the older city of Comayagua. Today the city mixes colonial charm with modern energy: colourful markets spill onto narrow streets, the historic cathedral watches over lively plazas, and cafés serve strong coffee while the surrounding hills offer striking views and opportunities for day-trips into lush national parks.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
+ },
  "ths": {
   "name": "Thessaloniki",
   "text": "Thessaloniki, Greece’s vibrant second-city, sits on the north-eastern edge of the Thermaic Gulf at the foot of Mount Horti, where the Aegean Sea meets the inland plains of Central Macedonia. Founded in 315 BC by Cassander, it soon became a crucial Roman and Byzantine port and later the capital of the short-lived Kingdom of Thessalonica. Today the city buzzes with a lively waterfront promenade, bustling markets and a mix of Ottoman, Byzantine and modernist architecture; cafés spill onto the streets, the scent of fresh seafood drifts from tavernas, and the annual film festival adds a cosmopolitan sparkle to its historic charm.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "tij": {
+  "name": "Tijuana",
+  "text": "Tijuana, a bustling border city in north-western Mexico, sits just south of San Diego, California, straddling the Pacific coast and the US-Mexico frontier. Founded in 1889, it grew rapidly after the opening of the railway to the United States in the early 1900s, becoming a key gateway for trade and migration. Today the city hums with a vibrant mix of colourful street art, lively mercados and world-renowned street food, especially its famous tacos al pastor, while the waterfront promenade offers sweeping views of the ocean and the distant skyline of San Diego.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
  },
  "tip": {
   "name": "Tripoli",
@@ -1763,12 +1847,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "vap": {
+  "name": "Valparaiso",
+  "text": "Valparaiso, perched on the steep hillsides of central Chile overlooking the Pacific, is a bustling port city about 120 km northwest of Santiago. Founded in the 16th century, it grew into one of the world’s most important harbours in the 19th century, famously becoming a key stop for ships travelling between Europe and the Americas. Today the city dazzles visitors with its colourful, maze-like neighbourhoods, historic funiculars and vibrant street art that climbs the cliffs, while the bustling waterfront offers fresh seafood, lively markets and a lively café culture that captures the city’s eclectic, bohemian spirit.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
+ },
  "ven": {
   "name": "Venice",
   "text": "Venice, a city of islands in the north-east of Italy, sits in the shallow lagoon of the Adriatic Sea and is linked by more than 400 bridges and narrow canals. It was a powerful maritime republic from the Middle Ages, dominating trade between Europe and the East and famed for its elaborate glassmaking on the island of Murano. Today, visitors wander past bustling markets and quiet back-streets, glide beneath elegant arched bridges in a vapour-rising gondola, and enjoy coffee in historic squares where the scent of fresh seafood mixes with the echo of centuries-old bells.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "ver": {
+  "name": "Veracruz",
+  "text": "Veracruz, a bustling port city on the Gulf of Mexico, sits on a broad, palm-lined bay about 400 km southeast of Mexico City. Founded by Hernán Cortés in 1519, it quickly became the principal gateway for Spanish treasure ships and still bears the imposing 16th-century fortress of San Juan de Ulúa, a reminder of its pirate-filled past. Today the city hums with Afro-Caribbean rhythm; the lively Malecón offers fresh seafood, colourful markets and the scent of coffee, while the historic centre showcases colonial churches and lively plazas where locals dance to son jarocho, making a visit feel both vibrant and steeped in history.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-14"
  },
  "vie": {
   "name": "Vienna",
