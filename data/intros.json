@@ -391,6 +391,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "cln": {
+  "name": "Colon",
+  "text": "Colon sits on the Caribbean coast of Panama, right at the Atlantic entrance to the Panama Canal, and it grew from a small 19th-century settlement into a bustling port city. It was the canal’s Atlantic terminus when the waterway opened in 1914, and the surrounding forts and the old railway station still echo that era. Today the town is a lively mix of colourful markets, duty-free shopping in the free-zone district and a promenade lined with palm trees, while the humid tropical heat and the hum of ships moving through the canal give visitors a vivid sense of both history and modern trade.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
  "clo": {
   "name": "Cali",
   "text": "Cali, officially Santiago de Cali, lies in the fertile Cauca River valley of southwestern Colombia, at the foothills of the Andes and about 100 km from the Pacific coast. Founded in 1536 by Spanish conquistador Sebastián de Belalcázar, it grew into a major centre for the sugar-cane industry in the 19th century. Today the city pulses with a lively mix of modern cafés, colourful street art and the irresistible rhythm of salsa that fills its nightclubs and public squares. Visitors can stroll through the historic San Antonio neighbourhood, sample fresh fruit juices in bustling markets and enjoy nearby parks that frame the surrounding mountains.",
@@ -741,6 +748,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "hfx": {
+  "name": "Halifax",
+  "text": "Halifax sits on the Atlantic coast of Nova Scotia, Canada, where the harbour is protected by the Halifax Peninsula and the Chebucto and Bedford peninsulas, making it one of the world’s largest natural deep-water ports. The city was established in 1749 as a British military outpost, and it later endured the Halifax Explosion of 1917, a devastating blast that reshaped the waterfront. Today visitors find a lively blend of maritime heritage and modern culture: historic waterfront boardwalks, bustling seafood markets, colourful row houses, and a thriving arts scene, all set against striking sea-swept scenery and friendly locals.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
  "hgh": {
   "name": "Hangzhou",
   "text": "Hangzhou, a city in eastern China’s Zhejiang province, lies on the banks of the Qiantang River at the foot of the famous West Lake. It has been celebrated since the Tang dynasty as a capital of the Southern Song, when emperors built the picturesque gardens and temples that still inspire poets today. Modern visitors find a blend of ancient charm and sleek development: you can stroll among lotus-filled waters, sip longjing tea in historic teahouses, and then hop on a high-speed train or explore vibrant tech parks and bustling night markets, all within a city famed for its natural beauty and hospitality.",
@@ -957,6 +971,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "lim": {
+  "name": "Limon",
+  "text": "Limon, perched on Costa Rica’s Caribbean coast, is the bustling capital of the province that bears its name and the country’s main gateway to the Atlantic seaboard. Founded in the 1760s, the town grew into a vital banana-export hub in the early 20th century, shaping the region’s economy and culture. In 1991 a powerful earthquake badly damaged the centre, prompting a modern reconstruction that now blends colourful colonial façades with fresh, low-rise buildings. Today visitors enjoy a laid-back rhythm, lively Afro-Caribbean music, fragrant street food stalls selling arroz con pollo and plantains, and easy access to nearby rainforests, beaches and the famous Tortuguero National Park.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
  },
  "liv": {
   "name": "Liverpool",
@@ -1476,6 +1497,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-09"
  },
+ "pty": {
+  "name": "Panama City",
+  "text": "Panama City, the bustling capital of Panama, sits on the Pacific coast at the southern end of the isthmus that links Central America with South America. Founded by the Spanish in 1519, it grew around the Pacific entrance to the Panama Canal, a marvel of engineering completed in 1914 that still shapes the city’s rhythm. Today visitors find a lively mix of sleek skyscrapers, colourful colonial districts such as Casco Viejo, and bustling markets where the scent of fresh seafood mingles with the hum of traffic. The waterfront promenade offers striking views of ships transiting the canal, while cafes and museums showcase the city’s multicultural heritage.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
  "rak": {
   "name": "Marrakech",
   "text": "Marrakech, situated in the western foothills of the Atlas Mountains in southern Morocco, has been a centre of trade and culture since it was founded in the 11th century by the Almoravid dynasty. The city's historic medina, a UNESCO World-heritage site, still contains the famous Koutoubia Mosque and the lively Jemaa el-Fna square, where storytellers, musicians and food stalls create a sensory feast each evening. Today visitors can wander narrow souks selling spices, textiles and ceramics, enjoy rooftop cafés overlooking the red-sandstone walls, and take short trips to nearby gardens and desert landscapes, making it a memorable stop on any North-African itinerary.",
@@ -1560,6 +1588,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "sao": {
+  "name": "Sao Paulo",
+  "text": "Sao Paulo, Brazil’s sprawling southern-central metropolis, sits on a plateau about 70 km inland from the Atlantic coast, at the confluence of the Tietê and Pinheiros rivers. Founded by Jesuit priests in 1554, it grew from a modest village into the country’s industrial heart during the early 20th century, driving Brazil’s coffee boom and later its manufacturing might. Today the city dazzles with soaring skyscrapers, bustling markets and a vibrant street-art scene; you can wander the leafy Avenida Paulista, sample diverse cuisine from sushi to feijoada, and feel the energetic mix of cultures that makes Sao Paulo a dynamic, modern gateway to Brazil.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
  "sbh": {
   "name": "Sabha",
   "text": "Sabha is a town in the far-south of Libya, sitting on the edge of the Sahara near the borders with Niger and Chad. It grew around a caravan stop on the historic trade routes that linked the Mediterranean coast with sub-Saharan Africa, and in the early twentieth century it became a centre for the trans-Saharan ivory and slave trade before those practices were outlawed. Today the town is a modest, sun-baked settlement where palm-shaded markets sell dates and textiles, the surrounding desert offers striking sand dunes for day-trips, and a small museum displays artefacts from its trading past.",
@@ -1601,6 +1636,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
   "generated": "2026-11-01"
+ },
+ "sjo": {
+  "name": "San Jose",
+  "text": "San José lies in the heart of Costa Rica’s lush Central Valley, cradled by volcanic peaks such as Poás and Irazú and a short bus ride from both Pacific beaches and rainforest highlands. Founded in 1738 as a modest settlement, it was officially designated the nation’s capital in 1823 after independence from Spain and quickly grew into the country’s political and cultural hub. Today the city buzzes with a friendly, laid-back rhythm: colourful markets sell fresh fruit and artisan crafts, historic buildings house museums and cafés, and a network of green parks offers shade for strolling locals and curious travellers alike.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
  },
  "sju": {
   "name": "San Juan",
@@ -1847,6 +1889,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "van": {
+  "name": "Vancouver",
+  "text": "Vancouver, a coastal city on the mainland of British Columbia, sits on the Pacific shoreline between the North Shore mountains and a bustling harbour, with the spectacular backdrop of the Pacific Ocean. Established in 1886 as a terminus for the Canadian Pacific Railway, it grew rapidly and later hosted the 2010 Winter Olympics, showcasing its world-class facilities and stunning natural scenery. Today the city feels lively and welcoming, offering a blend of towering skyscrapers, lush parks such as Stanley Park, vibrant multicultural neighbourhoods, and a renowned food scene that ranges from fresh seafood to Asian street-style markets, all within easy reach of mountains and sea.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
  "vap": {
   "name": "Valparaiso",
   "text": "Valparaiso, perched on the steep hillsides of central Chile overlooking the Pacific, is a bustling port city about 120 km northwest of Santiago. Founded in the 16th century, it grew into one of the world’s most important harbours in the 19th century, famously becoming a key stop for ships travelling between Europe and the Americas. Today the city dazzles visitors with its colourful, maze-like neighbourhoods, historic funiculars and vibrant street art that climbs the cliffs, while the bustling waterfront offers fresh seafood, lively markets and a lively café culture that captures the city’s eclectic, bohemian spirit.",
@@ -1910,6 +1959,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-10"
  },
+ "yeg": {
+  "name": "Edmonton",
+  "text": "Edmonton, the capital of Alberta, sits in western Canada where the North Saskatchewan River winds through a broad prairie valley, roughly 300 km east of the Rocky Mountains. Founded in 1795 as a Hudson’s Bay Company trading post, the city grew around the historic Fort Edmonton, which later became a centre of the fur trade and early settlement. Today the city is known for its vibrant arts scene, a lively river valley park system and the world-renowned West Eddie Festival of Jazz, while its modern skyline is dotted with sleek towers and friendly cafés, making it a welcoming stop for explorers seeking both culture and outdoor adventure.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
  "yfc": {
   "name": "Fredericton",
   "text": "Fredericton, the capital city of New Brunswick, lies on the banks of the Saint John River in the heart of the province’s western valley. Founded in 1785 and named after Prince Frederick, the town grew around a Loyalist settlement and later became a centre for the province’s timber trade, a heritage still hinted at in its historic wooden warehouses. Today visitors can stroll along the riverfront promenade, explore the striking Legislative Assembly building and vibrant downtown filled with galleries, cafés and the University of New Brunswick campus, all set against a backdrop of leafy parks and gentle river views.",
@@ -1923,6 +1979,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "ymq": {
+  "name": "Montreal",
+  "text": "Montreal, nestled on the Island of Montreal at the meeting point of the Saint Lawrence and Ottawa rivers in the province of Quebec, is a lively, bilingual city where French and English coexist amid a rich cultural tapestry. Founded in 1642 as the French settlement of Ville-Marie, it grew from a fur-trading outpost into Canada’s second-largest metropolis. Today visitors wander cobbled streets lined with historic stone buildings in Old Montreal, savour world-class cuisine ranging from poutine to fine-dining, and soak up the buzz of festivals, street art and bustling markets, all set against a backdrop of modern skyscrapers and leafy parks.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
  },
  "yok": {
   "name": "Yokohama",
@@ -1938,6 +2001,20 @@
   "prompt": "intro-v4",
   "generated": "2026-11-05"
  },
+ "yow": {
+  "name": "Ottawa",
+  "text": "Ottawa, the capital city of Canada, sits on the southern banks of the Ottawa River at the junction of Ontario and Quebec, about 200 km west of Montreal. Founded in 1826 and chosen as the seat of government by Queen Victoria in 1857, it grew around the historic Rideau Canal, a UNESCO World Heritage Site built in the early 19th century to protect the city from naval attack. Today the city blends grand stone parliament buildings and bustling markets with leafy waterfront trails, vibrant festivals and a lively food scene, offering visitors a friendly mix of history, culture and outdoor leisure.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
+ "yqb": {
+  "name": "Quebec City",
+  "text": "Quebec City, perched on the north-bank of the St Lawrence River in eastern Canada, is the capital of the province of Quebec and one of North America’s oldest European settlements. Founded in 1608 by French explorer Samuel de Champlain, its fortified Old Town (Vieux-Québec) is a UNESCO World Heritage site, with cobbled streets, stone-clad houses and the iconic Château Frontenac looming above. Today the city buzzes with a lively mix of historic charm and modern culture: you can wander the bustling market on Rue du Petit-Champlain, sample poutine and maple-sweetened treats, and enjoy festivals, galleries and riverside promenades that showcase both its French heritage and vibrant contemporary spirit.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
  "yqr": {
   "name": "Regina",
   "text": "Regina, the capital of Saskatchewan in Canada, sits on the flat, golden prairie plain about 190 kilometres south of the province’s northern border and 250 kilometres north of the United States. The city grew from a railway settlement founded in 1882 and was promptly chosen as the provincial capital, a status it retains today. Its most striking landmark is the grand sandstone Legislative Building, whose copper dome can be seen from many points in town. Modern visitors find a friendly, laid-back atmosphere, with excellent museums, a vibrant culinary scene and wide-open riverfront parks that showcase the sweeping skies and endless horizons of the Canadian West.",
@@ -1951,6 +2028,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "ywg": {
+  "name": "Winnipeg",
+  "text": "Winnipeg lies in the heart of Canada’s prairies, at the confluence of the Red and Assiniboine rivers in the province of Manitoba. It grew from the Red River Settlement founded by the Hudson’s Bay Company in the early 19th century and became the centre of the Canadian railway network, earning its nickname “Gateway to the West”. Today the city is a vibrant mix of cultural districts, with the historic Exchange District’s brick warehouses now housing cafés, galleries and boutique shops, while the sprawling Assiniboine Park offers riverside walks, a zoo and a striking sculpture garden, making Winnipeg a welcoming stop for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
  },
  "yxe": {
   "name": "Saskatoon",
@@ -1966,12 +2050,33 @@
   "prompt": "intro-v4",
   "generated": "2026-11-04"
  },
+ "yyc": {
+  "name": "Calgary",
+  "text": "Calgary, nestled in the foothills of the Canadian Rockies in southern Alberta, sits where the Bow and Elbow rivers meet and is the province’s largest city. It began in 1875 as Fort Calgary, a North-West Mounted Police outpost, and grew into a bustling centre of the western cattle and oil industries, famously hosting the 1988 Winter Olympics. Today visitors find a lively mix of modern skyscrapers and historic brick streets, world-class museums, and a thriving food scene, while the nearby parks and the annual Calgary Stampede give a vivid taste of the city’s rugged, friendly spirit.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
  "yyg": {
   "name": "Charlottetown",
   "text": "Charlottetown, the capital of Prince Edward Island, sits on the southern shore of the island at the head of Charlottetown Harbour, where the Northumberland Strait meets the Gulf of St Lawrence. In 1864 the town hosted the Charlottetown Conference, the first meeting that set the foundations for Canadian Confederation, earning it the nickname “Birthplace of Confederation”. Today the city blends historic charm with a lively modern vibe: colourful Victorian houses line the waterfront, boutique shops and cafés spill onto pedestrian streets, and the bustling summer festivals fill the air with music and the scent of fresh seafood, making a visit both relaxed and culturally rich.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "yyj": {
+  "name": "Victoria",
+  "text": "Victoria, British Columbia, sits on the southern tip of Vancouver Island opposite the mainland’s bustling city of Vancouver, and serves as the province’s capital. Established in 1843 as Fort Victoria by the Hudson’s Bay Company, the settlement grew around a deep natural harbour that once sheltered the fur-trade fleet. Today the city charms visitors with its colourful pastel-painted buildings, fragrant gardens and a relaxed waterfront promenade where you can watch historic double-decker buses trundle past the Parliament Buildings and the iconic Empress Hotel, while cafés and craft markets spill onto the streets, offering a gentle blend of colonial heritage and vibrant Pacific-coast culture.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
+ },
+ "yyz": {
+  "name": "Toronto",
+  "text": "Toronto, Canada’s largest city, sits on the north-western shore of Lake Ontario where the lake meets the River Don and the Humber, about 250 km west of the U.S. border. Founded as the town of York in 1793, it was renamed Toronto when it became a city in 1834 and later the capital of the province of Ontario. Today the city buzzes with a multicultural vibe, offering towering skyscrapers such as the iconic CN Tower, vibrant neighbourhoods like Kensington Market, extensive waterfront parks, and a thriving food scene that reflects its many cultures, making it a lively destination for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-15"
  },
  "yzd": {
   "name": "Yazd",
