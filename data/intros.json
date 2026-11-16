@@ -132,6 +132,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
+ "atl": {
+  "name": "Atlanta",
+  "text": "Atlanta lies in the heart of the state of Georgia, in the southeastern United States, at the foothills of the Appalachian Mountains and alongside the Chattahoochee River. Founded in 1837 as a terminus for a new railway line, the city grew quickly and later served as a crucial hub for the Civil Rights movement, with the 1965 signing of the Voting Rights Act taking place nearby. Today Atlanta blends modern skyscrapers with leafy neighbourhoods, offering a lively food scene, world-class attractions such as the Georgia Aquarium and the Martin Luther King Jr. National Historical Site, and a warm, southern hospitality that welcomes visitors year-round.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
+ },
  "ayt": {
   "name": "Antalya",
   "text": "Antalya, a coastal city on Turkey’s southwestern Mediterranean shore, sits at the foot of the Taurus Mountains and enjoys a mild climate year-round. It has been a gateway to the ancient region of Pamphylia since Roman times, with the well-preserved ruins of Hadrian’s Gate marking the old city’s entrance. Today the promenade along Konyaaltı Beach is lined with cafés, boutique shops and lively street performers, while the historic Kaleiçi district offers winding lanes, Ottoman houses and rooftop terraces that overlook the sparkling sea, making a stroll feel both relaxed and full of discovery.",
@@ -272,6 +279,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-05"
  },
+ "bos": {
+  "name": "Boston",
+  "text": "Boston lies on the eastern seaboard of the United States, perched on the northern edge of the Massachusetts Bay and bordered by the Charles River. Founded in 1630, it was a centre of the American Revolution, with the famous Boston Tea Party taking place in its harbour in 1773. Today the city blends historic cobblestone streets with a vibrant, modern atmosphere: you can wander the brick-lined Freedom Trail, savour fresh seafood at the bustling waterfront, explore world-class museums, and enjoy lively neighbourhoods where cafés, street performers and cyclists create a lively, welcoming buzz.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
+ },
  "bru": {
   "name": "Brussels",
   "text": "Brussels, the capital of Belgium and the de facto capital of the European Union, sits in the centre of the country where the River Senne meets the countryside of Flanders and Wallonia. First mentioned in the 10th-century records as a modest market town, it grew around the 13th-century Grand-Place, a UNESCO World Heritage site renowned for its ornate guildhalls and the stunning Town Hall. Today the city buzzes with a mix of historic charm and modern cosmopolitan life: you can savour world-famous chocolates and waffles, wander past impressive Art Nouveau façades, and soak up the lively atmosphere of cafés and multilingual crowds beneath a sky often brushed with the gentle hue of a summer sunset.",
@@ -383,6 +397,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "chg": {
+  "name": "Chicago",
+  "text": "Chicago, perched on the southwestern shore of Lake Michigan in the north-central United States, grew from a modest trading post into a bustling metropolis during the 19th century, famously rebuilding after the Great Fire of 1871 and emerging as a centre of architecture and industry. Today the city dazzles visitors with its striking skyline, world-class museums such as the Art Institute, lively neighbourhoods ranging from historic Wicker Park to the modern Loop, and a thriving food scene that celebrates everything from deep-dish pizza to innovative fine dining. Its lakeside parks and vibrant festivals make it a warm, energetic destination for any traveller.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "cle": {
   "name": "Cleveland",
@@ -496,6 +517,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-09"
  },
+ "dal": {
+  "name": "Dallas",
+  "text": "Dallas, Texas, sits in the north-central part of the state, about 250 miles west of the Mississippi River and roughly 250 miles east of the Texas Panhandle. Founded in 1841, it grew rapidly after the arrival of the railroads and became a key centre for the cotton and oil industries in the late-19th century. Today the city blends modern skyscrapers with wide, tree-lined boulevards, offering visitors a lively mix of world-class museums, vibrant food markets and expansive parks. You’ll hear a friendly buzz of commerce, catch a glimpse of the famous skyline from Reunion Tower, and feel the warm hospitality that Texas is renowned for.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
+ },
  "dar": {
   "name": "Dar es Salaam",
   "text": "Dar es Salaam sits on the eastern coast of Tanzania, hugging the Indian Ocean at the mouth of the Msimbazi River and serving as the country’s main port and commercial hub. Founded in the mid-19th century, it became the capital of German East Africa and later of independent Tanzania until the government moved to Dodoma in the 1970s. Today the city bursts with colourful markets, bustling waterfront promenades and artful Swahili architecture, while the nearby beaches and the historic Askari Monument offer a relaxed contrast to the lively traffic and fragrant street food stalls.",
@@ -509,6 +537,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-11"
+ },
+ "dca": {
+  "name": "Washington DC",
+  "text": "Washington DC, the capital of the United States, lies on the Potomac River between Maryland and Virginia. Designed by Pierre L’Enfant in the late 18th century, it was the site where the Constitution was first ratified and where the nation’s most important institutions were built. Today the city is a compact, walkable blend of grand monuments, world-class museums and lively neighbourhoods; you can stand beneath the towering Washington Monument, explore the Smithsonian galleries for free, and enjoy diverse food stalls or a relaxed coffee on a tree-lined street, all under a backdrop of historic brick façades and modern glass towers.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "dda": {
   "name": "Dire Dawa",
@@ -537,6 +572,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-10"
+ },
+ "dnv": {
+  "name": "Denver",
+  "text": "Denver, the capital of Colorado, sits at the foot of the Rocky Mountains on the high plains of the western United States, about 1,600 metres above sea level. Founded in 1858 during the gold-rush era, it quickly grew into a major rail hub and was nicknamed the “Gateway to the Rockies”. Today the city blends a lively downtown skyline with historic brick streets in LoDo, a thriving craft-brew scene and easy access to mountain trails and ski resorts. Visitors enjoy a walk along the vibrant 16th Street Mall, explore museums such as the Denver Art Museum, and soak up the sunny, dry climate that makes outdoor activities pleasant year-round.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "dov": {
   "name": "Dover",
@@ -621,6 +663,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "fun": {
+  "name": "Funafuti",
+  "text": "Funafuti, the capital atoll of Tuvalu, lies in the central Pacific about 1,300 km north-north-west of Fiji and just south of the equator. During the Second World War the island hosted a United States airstrip and supply base, remnants of which can still be seen in the landscape. Today the atoll feels like a tranquil, low-lying slice of tropical paradise, with a shallow lagoon dotted with palm-fringed beaches, a handful of modest guesthouses and a close-knit community that welcomes visitors with warm smiles. The pace is relaxed, the sea is crystal clear, and the island’s gentle charm is offset by an ever-present awareness of rising sea levels.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "gau": {
   "name": "Guwahati",
@@ -783,6 +832,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "hou": {
+  "name": "Houston",
+  "text": "Houston, Texas, lies in the southeastern part of the state near the Gulf Coast, at the intersection of Interstates 10, 45 and 69. Founded in 1836 and named for General Sam Houston, the city grew rapidly after the arrival of the Houston Ship Channel in the early 20th century, which turned it into a major port and industrial hub. Today visitors find a vibrant mix of world-class museums, a lively restaurant scene showcasing Tex-Mex and barbecue, and spacious green spaces such as Hermann Park. The skyline is dominated by modern skyscrapers, yet the warm, welcoming spirit of the city makes it easy to explore its diverse neighbourhoods and cultural attractions.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
+ },
  "hre": {
   "name": "Harare",
   "text": "Harare, the capital of Zimbabwe, lies in the north-central part of the country on a plateau about 1,500 metres above sea level, giving it a mild, subtropical climate. Founded in 1890 as the colonial settlement of Salisbury, it became the capital of the self-governing British South Africa Company and later the independent nation’s centre of administration after 1980. Today the city bustles with a mix of modern malls, lively markets and leafy suburbs, while green spaces such as Harare Gardens and the National Botanic Garden offer peaceful retreats; friendly locals are happy to share stories over a cup of rooibos tea.",
@@ -936,6 +992,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-09"
+ },
+ "las": {
+  "name": "Las Vegas",
+  "text": "Las Vegas, nestled in the arid desert of southern Nevada, sits about 270 miles west of Salt Lake City and 30 miles east of the Colorado River. The town sprang up in 1905 when a railway line was built through the area, and it transformed dramatically after Nevada legalised gambling in 1931, turning the fledgling settlement into a playground for risk-takers and entertainers. Today the city is famous for its dazzling Strip of neon-lit casinos, world-class shows and bustling nightlife, while just a short drive away the impressive Hoover Dam offers a striking contrast of natural desert beauty and engineering marvel.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "lbs": {
   "name": "Lubumbashi",
@@ -1161,6 +1224,20 @@
   "prompt": "intro-v4",
   "generated": "2026-11-14"
  },
+ "mia": {
+  "name": "Miami",
+  "text": "Miami is a bustling city on the southeastern tip of Florida, perched on the Atlantic shoreline where the Miami River meets Biscayne Bay and backed by the Everglades. It was formally incorporated in 1896, taking its name from the native Miami River that had long been a centre for the Tequesta people. Today the city is a lively blend of sun-kissed beaches, towering Art Deco hotels, and a vibrant multicultural scene, offering everything from Cuban-flavoured cuisine on Calle Ocho to world-class museums, nightlife and water sports, all under a perpetually warm sky.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
+ },
+ "mid": {
+  "name": "Merida",
+  "text": "Merida, the capital of Mexico’s Yucatán state, sits on the northern edge of the peninsula, about 35 km from the Gulf of Mexico and a short drive inland from the ancient Maya site of Chichén Itzá. Founded in 1542 by the Spanish conquistador Francisco de Montejo on the former Mayan town of T’Hó, the city retains a wealth of colonial buildings, wide tree-lined avenues and bustling plazas. Today visitors wander colourful markets, sample hearty Yucatecan dishes such as cochinita pibil, and enjoy a lively arts scene under a warm, sun-lit sky, all while feeling the relaxed, friendly rhythm of daily life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
+ },
  "mil": {
   "name": "Milan",
   "text": "Milan, in the north-west of Italy, sits in the fertile Po Valley between the Alps and the Adriatic Sea. First mentioned in a 6th-century Lombard document, the city became a major centre of the Renaissance, home to Leonardo da Vinci’s “The Last Supper” and the magnificent Gothic cathedral, the Duomo. Today Milan buzzes with a sleek blend of historic grandeur and modern style: you can wander its elegant arcades, sip espresso in bustling cafés, explore world-class museums, and shop the latest fashions in the vibrant Quadrilatero della Moda, all while enjoying a lively, cosmopolitan atmosphere.",
@@ -1209,6 +1286,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-09"
+ },
+ "msy": {
+  "name": "New Orleans",
+  "text": "New Orleans sits on the banks of the Mississippi River in the southeastern corner of Louisiana, United States, about 100 kilometres inland from the Gulf of Mexico. Founded in 1718 by the French, it became a key port for the Atlantic slave trade and later a melting-pot of French, Spanish, African and American cultures. Today the city bursts with life: the historic French Quarter dazzles with its pastel Creole townhouses, lively street music and fragrant beignets, while the riverfront hosts bustling markets, river cruises and festivals that showcase the city’s famous hospitality and vibrant culinary scene.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "mta": {
   "name": "Matadi",
@@ -1328,6 +1412,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v3",
   "generated": "2026-11-01"
+ },
+ "nyc": {
+  "name": "New York",
+  "text": "New York, United States – perched on the east coast where the Hudson River meets the Atlantic, this bustling metropolis is the most populous city in America. Founded by the Dutch in the early 17th century, it was later renamed after the English Duke of York and grew into a gateway for millions of immigrants arriving through Ellis Island. Today the city dazzles visitors with its iconic skyline, from the soaring Freedom Tower to the historic Empire State Building, while neighbourhoods buzz with diverse food, world-class museums, vibrant street art and endless theatres, making every stroll feel like a fresh adventure.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "oax": {
   "name": "Oaxaca",
@@ -1630,12 +1721,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-12"
  },
+ "sea": {
+  "name": "Seattle",
+  "text": "Seattle, perched on the north-western edge of the United States where the Puget Sound meets Lake Washington, is a vibrant coastal city surrounded by water, mountains and evergreen forests. Founded in the 1850s, it grew quickly after the 1889 Great Seattle Fire and later became the gateway for the Klondike Gold Rush, which brought a surge of prospectors and wealth. Today visitors find a lively mix of modern skylines – highlighted by the iconic Space Needle – and historic neighbourhoods, bustling markets, coffee culture and ferry rides that showcase stunning views of the Olympic and Cascade ranges.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
+ },
  "sev": {
   "name": "Seville",
   "text": "Seville, situated on the banks of the Guadalquivir in the heart of Andalusia, was known to the Romans as Hispalis and later became the dazzling capital of Moorish Al-Andalus, its grand Giralda originally a minaret. Today the city blends its grand cathedral, the world’s largest Gothic church, with a lively tapas bar scene, bustling orange-tree lined plazas and nightly flamenco performances, while the annual Feria de Abril fills the streets with colour and music, making it a vibrant crossroads of history and modern Spanish life and warm hospitality for all.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v2",
   "generated": "2026-11-01"
+ },
+ "sfo": {
+  "name": "San Francisco",
+  "text": "San Francisco, a bustling city on the west coast of the United States, lies on a peninsula between the Pacific Ocean and San Francisco Bay in northern California. Founded in 1776 as a Spanish mission and later a key gateway for the Gold Rush of 1849, it grew into a centre of trade, innovation and culture. Today the city is famed for its iconic skyline crowned by the Golden Gate Bridge, its steep, cable-car-laden streets, and vibrant neighbourhoods such as the Mission and Chinatown. Visitors can savour world-class cuisine, explore museums and parks, and enjoy stunning sea-level views from every corner.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "sjo": {
   "name": "San Jose",
@@ -2070,6 +2175,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-15"
+ },
+ "yyt": {
+  "name": "St. John's",
+  "text": "St. John’s, the capital of Newfoundland and Labrador on Canada’s east coast, sits on the eastern edge of the Avalon Peninsula where the Atlantic Ocean meets colourful, tightly packed houses that climb the cliffs of Signal Hill. The city was the site of the first permanent English settlement in North America, founded in 1610, and its historic harbour still echoes with the clatter of fishing boats. Today visitors wander the bustling waterfront, sip locally roasted coffee in cozy cafés, explore museums that tell the story of early trans-atlantic voyages, and enjoy vibrant music festivals against a backdrop of dramatic seascapes and friendly locals.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-16"
  },
  "yyz": {
   "name": "Toronto",
