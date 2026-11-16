@@ -848,19 +848,6 @@ var PAINTINGS = {
       "km": 15.1,
       "lat": 50.95931,
       "lon": 4.47739
-    }
-  ],
-  "lon": [
-    {
-      "title": "Nocturne in Black and Gold – The Falling Rocket",
-      "artist": "James McNeill Whistler",
-      "url": "https://paintinglocations.com/paintings/nocturne-in-black-and-gold-the-falling-rocket/",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Whistler-Nocturne_in_black_and_gold.jpg?width=1600",
-      "image_source": "commons.wikimedia.org",
-      "match": "exact",
-      "km": 0.1,
-      "lat": 51.50722,
-      "lon": -0.1275
     },
     {
       "title": "London Bridge on the Night of the Marriage of the Prince and Princess of Wales",
