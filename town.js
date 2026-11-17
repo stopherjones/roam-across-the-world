@@ -281,6 +281,7 @@ function tileHtml(t){
 }
 // UNESCO sites by town id. Loaded once; if the file is missing or empty, no Heritage tiles appear.
 var UNESCO_MAP={};
+var NATURE_CACHE={};
 var UNESCO_READY=fetch("data/unesco.json").then(function(r){if(!r.ok)throw new Error("unesco "+r.status);return r.json()}).catch(function(){return {}}).then(function(m){
  UNESCO_MAP=m||{};
  // The Things panel may already be on screen: redraw once if this town has sites and no Heritage tile yet.
@@ -291,6 +292,7 @@ function paintCss(){
  if(!document.getElementById('paint-css')){
   var st=document.createElement('style');st.id='paint-css';
   st.textContent=".paint-back{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:999;display:flex;align-items:center;justify-content:center;padding:12px;box-sizing:border-box}.paint-box{background:#1b2630;color:#e8eef2;border-radius:10px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:16px;box-sizing:border-box}.paint-box img{max-width:100%;height:auto;border-radius:6px;display:block;margin:8px 0}.paint-item{border-top:1px solid #2c3a45;padding:12px 0}.paint-close{float:right;background:#7bbfae;color:#0d1419;border:0;border-radius:6px;padding:6px 12px;font-size:1em;cursor:pointer}.paint-credit{font-size:.8em;opacity:.7}.paint-icon{background:none;border:0;font-size:1.2em;cursor:pointer;padding:0 0 0 .4em;margin-left:auto}";
+  st.textContent+=".paint-box a:link,.paint-box a:visited{color:#5cc2b0;text-decoration-thickness:.08em;text-underline-offset:2px}.paint-box a:hover,.paint-box a:active{color:#a5e8dc}";
   document.head.appendChild(st);
  }
 }
@@ -325,6 +327,7 @@ function thingsHtml(){
  if(pics.length)extra.push({emoji:"🖼️",title:"Paintings",onclick:"paintingsOpen('"+S.loc+"')"});
  // UNESCO World Heritage sites near this town (data/unesco.json, built by tools/gen-unesco.mjs).
  if(((UNESCO_MAP||{})[S.loc]||[]).length)extra.push({emoji:"🏛️",title:"Heritage",onclick:"unescoOpen('"+S.loc+"')",cls:"tile-heritage"});
+ extra.push({emoji:"🌿",title:"Nature",onclick:"natureOpen('"+S.loc+"')"});
  // Your own search links from Settings, as tiles too.
  customLinks(N[S.loc].n).forEach(function(l){extra.push({emoji:"🔗",title:l[0],href:l[2]})});
  var tiles=core.concat(extra);
@@ -410,3 +413,76 @@ function paintingsOpen(pid){
  document.body.appendChild(back);
 }
 function paintingsClose(){var m=document.getElementById('paint-modal');if(m)m.remove();}
+
+function natureLoad(pid){
+ if(NATURE_CACHE[pid])return NATURE_CACHE[pid];
+ var place=N[pid];
+ if(!place||typeof place.la!=="number"||!isFinite(place.la)||typeof place.lo!=="number"||!isFinite(place.lo))return Promise.reject(new Error("Town coordinates unavailable"));
+ var url="https://api.inaturalist.org/v1/observations?lat="+encodeURIComponent(place.la)+
+  "&lng="+encodeURIComponent(place.lo)+"&radius=25&quality_grade=research&photos=true&taxon_id=1&rank=species&per_page=100&order=desc&order_by=observed_on";
+ var request=fetch(url).then(function(r){
+  if(!r.ok)throw new Error("iNaturalist request failed ("+r.status+")");
+  return r.json();
+ }).then(function(data){
+  if(!data||!Array.isArray(data.results))throw new Error("Unexpected iNaturalist response");
+  var seen={};
+  return data.results.filter(function(o){
+   if(!o||!o.id||!o.taxon||!o.taxon.id||!Array.isArray(o.photos)||!o.photos.length||!o.photos[0]||typeof o.photos[0]!=="object"||seen[o.taxon.id])return false;
+   seen[o.taxon.id]=true;
+   return true;
+  }).slice(0,12);
+ });
+ NATURE_CACHE[pid]=request;
+ request.catch(function(){if(NATURE_CACHE[pid]===request)delete NATURE_CACHE[pid]});
+ return request;
+}
+function natureResults(pid){
+ var el=document.getElementById("nature-results");
+ return el&&el.getAttribute("data-town")===pid?el:null;
+}
+function naturePhotoUrl(photo){
+ var url=photo&&(photo.medium_url||photo.large_url||photo.url||photo.square_url);
+ if(typeof url!=="string")return "";
+ url=url.replace(/\/square\.(jpg|jpeg|png)(\?.*)?$/i,"/medium.$1$2");
+ return url.indexOf("https://")===0?url:"";
+}
+function natureHtml(list){
+ if(!list.length)return "<p class='mute'>No research-grade animal photos found within 25 km.</p>";
+ return list.map(function(o){
+  var taxon=o.taxon,photo=taxon.default_photo,common=taxon.preferred_common_name||taxon.name||o.species_guess||"Wildlife observation";
+  var representative=!!naturePhotoUrl(photo);
+  if(!representative)photo=o.photos[0];
+  var scientific=taxon.name&&taxon.name!==common?"<br><i>"+esc(taxon.name)+"</i>":"";
+  var photoUrl=naturePhotoUrl(photo);
+  var img=photoUrl?"<img src='"+esc(photoUrl)+"' alt='"+esc(common)+"' loading='lazy'>":"";
+  var date=o.observed_on?"Observed "+esc(o.observed_on):"";
+  var credit=photo.attribution||"Photo on iNaturalist";
+  var license=typeof photo.license_code==="string"&&photo.license_code?photo.license_code.toUpperCase():"All rights reserved";
+  var photoLink=photo.id?"https://www.inaturalist.org/photos/"+encodeURIComponent(photo.id):"https://www.inaturalist.org/taxa/"+encodeURIComponent(taxon.id);
+  return "<div class='paint-item'><strong>"+esc(common)+"</strong>"+scientific+
+   (img?"<br>"+img+"<div class='paint-credit'>"+(representative?"Representative photo: ":"Observation photo: ")+esc(credit)+" · License: "+esc(license)+" · <a href='"+photoLink+"' target='_blank' rel='noopener'>Photo details</a></div>":"")+
+   (date?"<span class='mute'>"+date+"</span><br>":"")+
+   "<a href='https://www.inaturalist.org/observations/"+encodeURIComponent(o.id)+"' target='_blank' rel='noopener'>View local observation on iNaturalist</a></div>";
+ }).join("");
+}
+function natureOpen(pid){
+ var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
+ paintingsClose();
+ paintCss();
+ var back=document.createElement("div");back.id="paint-modal";back.className="paint-back";
+ back.innerHTML="<div class='paint-box'><button type='button' class='paint-close' onclick='paintingsClose()'>Close</button>"+
+  "<h2>Wildlife near "+esc(name)+"</h2><p class='mute'>Recent research-grade animal observations with photos within 25 km.</p>"+
+  "<div id='nature-results' data-town='"+esc(pid)+"' role='status' aria-live='polite'>Loading wildlife observations…</div></div>";
+ back.addEventListener("click",function(e){if(e.target===back)paintingsClose();});
+ document.body.appendChild(back);
+ natureLoad(pid).then(function(list){
+  var el=natureResults(pid);
+  if(el)el.innerHTML=natureHtml(list);
+ },function(){
+  var el=natureResults(pid);
+  if(!el)return;
+  el.setAttribute("role","alert");
+  el.innerHTML="<p class='mute'>Could not load wildlife observations. Check your connection and try again.</p><button type='button' class='btn' id='nature-retry'>Try again</button>";
+  document.getElementById("nature-retry").addEventListener("click",function(){natureOpen(pid)});
+ });
+}
