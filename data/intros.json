@@ -1086,7 +1086,7 @@
  },
  "lpg": {
   "name": "Las Palmas",
-  "text": "Las Palmas, the sun‑kissed capital of Gran Canaria, sits on the island’s northeastern coast where the Atlantic meets volcanic hills and golden beaches. Founded in 1478 by Spanish conquistadors as “Real Villa de La Luz,” the city grew from a modest fishing port into a bustling entrepôt, its historic Vegueta district preserving cobblestone streets and Moorish‑influenced architecture. Today, Las Palmas is a vibrant cultural hub—home to lively markets, world‑class museums, and the famed Las Canteras promenade—while serving as a modern gateway for tourism, commerce, and renewable‑energy innovation across the Canary archipelago. Join us as we explore its timeless charm and forward‑looking spirit.",
+  "text": "Las Palmas, the sun‑kissed capital of Gran Canaria, sits on the island’s northeastern coast where the Atlantic meets volcanic hills and golden beaches. Founded in 1478 by Spanish conquistadors as “Real Villa de La Luz,” the city grew from a modest fishing port into a bustling entrepôt, its historic Vegueta district preserving cobblestone streets and Moorish‑influenced architecture. Today, Las Palmas is a vibrant cultural hub—home to lively markets, world‑class museums, and the famed Las Canteras promenade—while serving as a modern gateway for tourism, commerce, and renewable‑energy innovation across the Canary archipelago.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
@@ -1807,7 +1807,7 @@
  },
  "srg": {
   "name": "Sorong",
-  "text": "Sorong – perched on the western tip of New Guinea, this bustling port city greets you where the warm waters of the Raja Ampat archipelago meet the vast expanse of the Pacific. Once a modest Dutch outpost in the early 1900s, Sorong grew into a strategic gateway during World War II and later became the commercial heart of West Papua. Today it pulses with modern energy: a hub for oil and gas, a launchpad for divers diving into world‑renowned coral reefs, and a cultural crossroads where indigenous traditions mingle with vibrant street markets. Join us as we explore the charm and promise of Sorong, Indonesia’s hidden coastal gem.",
+  "text": "Sorong – perched on the western tip of New Guinea, this bustling port city greets you where the warm waters of the Raja Ampat archipelago meet the vast expanse of the Pacific. Once a modest Dutch outpost in the early 1900s, Sorong grew into a strategic gateway during World War II and later became the commercial heart of West Papua. Today it pulses with modern energy: a hub for oil and gas, a launchpad for divers diving into world‑renowned coral reefs, and a cultural crossroads where indigenous traditions mingle with vibrant street markets.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"
@@ -2094,7 +2094,7 @@
  },
  "yok": {
   "name": "Yokohama",
-  "text": "Yokohama, the bustling port city just a half‑hour train ride south of Tokyo, greets travelers with a perfect blend of sea‑sprayed charm and modern flair. Founded as a modest fishing village, it exploded onto the world stage in 1859 when the Treaty of Kanagawa opened its harbor to foreign trade, sparking the iconic Red Brick Warehouses and the lively foreign‑settlement vibe that still lingers today. Today, Yokohama is Japan’s second‑largest city, a hub of technology, fashion and gastronomy—home to the towering Landmark Tower, the serene Sankeien Garden, and a famed Chinatown that serves up some of the country’s best dumplings. Join us as we explore this dynamic gateway between tradition and tomorrow.",
+  "text": "Yokohama, the bustling port city just a half‑hour train ride south of Tokyo, greets travelers with a perfect blend of sea‑sprayed charm and modern flair. Founded as a modest fishing village, it exploded onto the world stage in 1859 when the Treaty of Kanagawa opened its harbor to foreign trade, sparking the iconic Red Brick Warehouses and the lively foreign‑settlement vibe that still lingers today. Today, Yokohama is Japan’s second‑largest city, a hub of technology, fashion and gastronomy—home to the towering Landmark Tower, the serene Sankeien Garden, and a famed Chinatown that serves up some of the country’s best dumplings.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v1",
   "generated": "2026-11-01"

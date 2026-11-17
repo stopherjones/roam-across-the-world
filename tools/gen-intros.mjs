@@ -220,8 +220,13 @@ function placeholder(name) {
 async function main() {
   const existing = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : {};
   const all = townList();
-  const todo = all.filter(t => !existing[t.id]).slice(0, BATCH);
-  console.log("this run: " + todo.length + " towns to write (" + all.filter(t => !existing[t.id]).length + " without an entry), batch " + BATCH + ", prompt " + PROMPT_VERSION);
+  // Towns with no entry come first. Entries written under an older prompt are only
+  // rewritten once every town has an entry, so the older text stays live until then.
+  // An old entry is replaced only when its new text passes the checks.
+  const missing = all.filter(t => !existing[t.id]);
+  const outdated = all.filter(t => existing[t.id] && existing[t.id].prompt !== PROMPT_VERSION);
+  const todo = missing.concat(missing.length ? [] : outdated).slice(0, BATCH);
+  console.log("this run: " + todo.length + " towns to write (" + missing.length + " without an entry, " + outdated.length + " older-prompt entries), batch " + BATCH + ", prompt " + PROMPT_VERSION);
   if (!todo.length) return;
   if (!DRY && !process.env.GROQ_API_KEY) throw new Error("GROQ_API_KEY is not set");
   const countries = countryNames();
