@@ -56,7 +56,7 @@ setTimeout(async () => {
   ok("arrival card renders", !!D.querySelector(".arrive"));
 
   w.S.phase = "rest"; w.S.camp.marketOpen = false; w.render();
-  ok("rest page renders with things to do", D.querySelectorAll("a.btn").length === 3 && [...D.querySelectorAll("button")].some(b => b.textContent === "City Timeline"));
+  ok("rest page renders with things to do", D.querySelectorAll(".tiles a.btn").length >= 5 && [...D.querySelectorAll(".tiles a.btn")].some(a => a.textContent.includes("Atlas Obscura")) && [...D.querySelectorAll("button")].some(b => b.textContent === "City Timeline"));
 
   w.restVisit(); await wait(300);
   ok("market opens on rest day", !!D.querySelector(".mgrid"));

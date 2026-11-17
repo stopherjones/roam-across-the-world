@@ -266,16 +266,25 @@ function earnHtml(){
 // Things to do, shown as a grid of tiles (three across). Each tile is an emoji and a short title.
 // To add a theme (e.g. UNESCO), add an entry to the tiles list below. Empty themes are simply left out.
 // The settings page still switches the three core themes on or off by their full title (thingOn).
+// URL slug for a town name, as TasteAtlas uses in its city addresses:
+// "Hamilton, Bermuda" -> "hamilton", "Mayotte (Dzaoudzi)" -> "mayotte", "São Paulo" -> "sao-paulo".
+// Towns with no TasteAtlas page land on TasteAtlas's own "page not found" page, which links to the map.
+function slugOf(name){
+ return name.split(",")[0].split(" (")[0].normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+}
 function tileCss(){
  if(document.getElementById("tile-css"))return;
  var st=document.createElement("style");st.id="tile-css";
  st.textContent=".tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}"+
-  ".tiles .tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:92px;padding:10px 6px;text-align:center;text-decoration:none;font-size:.9rem;line-height:1.2;box-sizing:border-box;border:0;cursor:pointer}"+
-  ".tile .em{font-size:1.8rem;line-height:1}";
+  ".tiles .tile{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:92px;padding:10px 6px;text-align:center;text-decoration:none;font-size:.9rem;line-height:1.2;box-sizing:border-box;border:0;cursor:pointer}"+
+  ".tile .em{font-size:1.8rem;line-height:1}"+
+  ".tile .ext{position:absolute;top:6px;right:6px;width:13px;height:13px;opacity:.85}";
  document.head.appendChild(st);
 }
+// Icon shown in the corner of tiles that open another website.
+var EXT_ICON="<svg class='ext' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round' aria-label='Opens in an external website' role='img'><path d='M14 4h6v6'/><path d='M20 4l-9 9'/><path d='M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5'/></svg>";
 function tileHtml(t){
- var inner="<span class='em' aria-hidden='true'>"+t.emoji+"</span><span>"+esc(t.title)+"</span>";
+ var inner=(t.ext?EXT_ICON:"")+"<span class='em' aria-hidden='true'>"+t.emoji+"</span><span>"+esc(t.title)+"</span>";
  if(t.onclick)return "<button type='button' class='btn tile"+(t.cls?" "+t.cls:"")+"' title='"+esc(t.title)+"' onclick=\""+t.onclick+"\">"+inner+"</button>";
  return "<a class='btn tile' href='"+t.href+"' target='_blank' rel='noopener' title='"+esc(t.title)+"'>"+inner+"</a>";
 }
@@ -317,8 +326,8 @@ function thingsHtml(){
  tileCss();
  var q=function(s){return encodeURIComponent(s).replace(/%20/g,"+")},c=q(N[S.loc].n);
  var core=[
-  {full:"Discover the local music scene",emoji:"🎵",title:"Music",href:"https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"},
-  {full:"Discover the local sports scene",emoji:"⚽",title:"Sport",href:"https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"},
+  {full:"Discover the local music scene",emoji:"🎵",title:"Music",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"},
+  {full:"Discover the local sports scene",emoji:"⚽",title:"Sport",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"},
   {full:"Explore local folklore and legends",emoji:"📜",title:"Folklore",href:"https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"}
  ].filter(function(t){return thingOn(t.full)});
  // Themes with data for this town. Paintings always comes from the paintings data; other themes (e.g. UNESCO) go here too.
@@ -328,6 +337,12 @@ function thingsHtml(){
  // UNESCO World Heritage sites near this town (data/unesco.json, built by tools/gen-unesco.mjs).
  if(((UNESCO_MAP||{})[S.loc]||[]).length)extra.push({emoji:"🏛️",title:"Heritage",onclick:"unescoOpen('"+S.loc+"')",cls:"tile-heritage"});
  extra.push({emoji:"🌿",title:"Nature",onclick:"natureOpen('"+S.loc+"')"});
+ // Link-out search tiles. They open the site's own search for the town name; nothing is fetched or stored.
+ // The search addresses are not checked against the live sites, so confirm them in a browser and edit here if they change.
+ extra.push({emoji:"🧭",title:"Atlas Obscura",ext:true,href:"https://www.atlasobscura.com/search?q="+c});
+ extra.push({emoji:"🍽️",title:"TasteAtlas",ext:true,href:"https://www.tasteatlas.com/"+slugOf(N[S.loc].n)});
+ // YouTube search for "A day in {town}". A plain link out, like Atlas Obscura: no key, no data stored.
+ extra.push({emoji:"🎬",title:"YouTube",ext:true,href:"https://www.youtube.com/results?search_query="+encodeURIComponent("A day in "+N[S.loc].n).replace(/%20/g,"+")});
  // Your own search links from Settings, as tiles too.
  customLinks(N[S.loc].n).forEach(function(l){extra.push({emoji:"🔗",title:l[0],href:l[2]})});
  var tiles=core.concat(extra);
