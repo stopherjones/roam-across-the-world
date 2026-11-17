@@ -55,6 +55,13 @@
   "prompt": "intro-v3",
   "generated": "2026-11-01"
  },
+ "akl": {
+  "name": "Auckland",
+  "text": "Auckland, New Zealand, lies on the narrow isthmus between the Hauraki Gulf and the Tasman Sea, surrounded by volcanic cones and two harbours that give the city its nickname “the City of Sails”. It was founded in 1840 as a trading post and quickly grew into the country’s main port, playing a key role in early European settlement. Today the city buzzes with a relaxed, multicultural vibe: cafés spill onto pedestrian streets, waterfront walks offer stunning views of the skyline and islands, and easy access to beaches, vineyards and native bush makes it a lively base for exploring both urban culture and the great outdoors.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
+ },
  "alg": {
   "name": "Algiers",
   "text": "Algiers, the capital of Algeria, sits on the Mediterranean coast where the sea meets the foothills of the Kabylie mountains, offering striking white-washed buildings that climb the cliff-side Casbah. Founded by the Phoenicians and later becoming a key Ottoman port, the city’s historic quarter was declared a UNESCO World Heritage site in 1992 for its blend of Arab, Berber and French colonial architecture. Today visitors wander lively markets smelling of fresh spices, sip coffee in breezy cafés overlooking the harbor, and enjoy a mix of modern art galleries and traditional street music that give Algiers a vibrant, multicultural energy.",
@@ -96,6 +103,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "apw": {
+  "name": "Apia",
+  "text": "Apia, the capital city of Samoa, sits on the central coast of the island of Upolu, nestled between a natural harbour and the verdant hills that rise inland. Founded in the 19th century, it became the focal point of Samoan politics after the signing of the Treaty of Berlin in 1889, which established a joint German, British and American administration. Today the town is a relaxed blend of colonial-era buildings, bustling markets and beachfront promenades; you can sip fresh coconut water while watching colourful outriggers glide past, explore the Robert Louis Stevenson Museum, or savour Samoan cuisine at lively roadside stalls, all under a warm, tropical sun.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
  },
  "aqp": {
   "name": "Arequipa",
@@ -293,6 +307,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
+ "bsa": {
+  "name": "Brasilia",
+  "text": "Brasilia, the purpose-built capital of Brazil, lies in the heart of the country on the Planalto Central plateau, about 1,000 km inland from the coast. Planned by the architects Lúcio Costa and Oscar Niemeyer and inaugurated in 1960, it was created to move the nation’s political centre away from the crowded coastal cities. Today the city feels strikingly modern, with its bold, sweeping government buildings, wide avenues lined with palm trees and a vibrant mix of restaurants and cultural venues. Visitors can stroll the lakefront, explore the impressive Cathedral of Brasília and soak up the lively atmosphere of a city designed to embody Brazil’s future.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
+ },
  "bsl": {
   "name": "Basel",
   "text": "Basel is a vibrant city perched on the banks of the Rhine in north-western Switzerland, right where the borders of Germany and France meet. Founded by the Romans as Augusta Raurica, it later became a key centre of the medieval Holy Roman Empire and was the site of the 1431 Council of Basel, one of the most important church assemblies of the Middle Ages. Today the city blends old and new: its well-preserved medieval Old Town, with the striking Basel Minster and bustling market squares, sits alongside cutting-edge museums such as the Kunstmuseum and Fondation Beyeler, lively cafés, and a lively riverside promenade that comes alive with festivals, making Basel a delightful mix of history, culture and modern Swiss charm.",
@@ -390,6 +411,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-12"
+ },
+ "chc": {
+  "name": "Christchurch",
+  "text": "Christchurch is situated on the east coast of New Zealand’s South Island, at the mouth of the Avon River and framed by the Port Hills. Founded by English settlers in 1850, the city earned the nickname “the Garden City” for its plentiful parks and tree-lined streets, a tradition that began with the planting of the Avon River’s iconic willow trees. Today visitors can wander through the revitalised central precinct, explore the innovative art installations at the former earthquake-damaged cathedral site, and enjoy the blend of historic timber buildings with modern cafés, all against a backdrop of stunning mountain scenery.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
  },
  "che": {
   "name": "Cherbourg",
@@ -600,6 +628,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
+ },
+ "dud": {
+  "name": "Dunedin",
+  "text": "Dunedin lies on the southeast coast of New Zealand’s South Island, perched on the narrow coastal plain where the Water of Leith meets the Pacific Ocean. Founded in 1848 by Scottish settlers, it quickly earned the nickname “the Edinburgh of the South” and retains many Victorian and Edwardian buildings, including the historic railway station and the grand First Church of Otago. Today visitors can stroll through the leafy Botanic Garden, explore the vibrant street art of Baldwin Street—the world’s steepest residential road—and take a short drive to the spectacular wildlife-rich Otago Peninsula, where albatrosses, seals and penguins gather.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
  },
  "dzo": {
   "name": "Mayotte (Dzaoudzi)",
@@ -825,6 +860,13 @@
   "prompt": "intro-v2",
   "generated": "2026-11-01"
  },
+ "hnl": {
+  "name": "Honolulu",
+  "text": "Honolulu, the vibrant capital of the Hawaiian Islands, sits on the southeastern coast of Oʻahu where the Pacific Ocean meets the island’s volcanic mountains. Founded in the early 19th century, it became the seat of the Hawaiian monarchy and later the first American territorial capital after annexation in 1898. Today the city blends tropical scenery with modern comforts: you can stroll along Waikiki Beach, explore historic Iolani Palace, savour fresh poke at a bustling market, and enjoy a lively arts scene framed by palm-lined streets and spectacular sunsets over the harbour.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
+ },
  "hoh": {
   "name": "Hook of Holland",
   "text": "Hook of Holland is a seaside town at the western tip of South Holland, where the Nieuwe Waterweg canal meets the North Sea, just a short drive west of Rotterdam. It was the departure point for the first regular passenger ferry service to Harwich, England, which began in 1893 and helped cement its role as a gateway between the Netherlands and Britain. Today the promenade is lined with colourful beach huts, modern cafés and a bustling ferry terminal, while the wide sandy beach and the iconic windmills on the dunes offer relaxed strolls and striking sunset views over the busy shipping lane.",
@@ -1000,6 +1042,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-16"
  },
+ "lax": {
+  "name": "Los Angeles",
+  "text": "Los Angeles, perched on the southern coast of California between the Pacific Ocean and the San Gabriel Mountains, is a sprawling city of sunshine and contrast. Founded in 1781 as a small Spanish pueblo, it grew into the epicentre of the American film industry, earning the nickname “Hollywood” for its world-famous studios. Today visitors wander from the glitter of the Hollywood Walk of Fame to the breezy promenades of Santa Monica Pier, explore the multicultural flavours of Koreatown and Little Ethiopia, and hike the rugged trails of Griffith Park for panoramic city views; all amidst a lively mix of art, cuisine and endless summer weather.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
+ },
  "lbs": {
   "name": "Lubumbashi",
   "text": "Lubumbashi, the second-largest city in the Democratic Republic of the Congo, sits on the southeastern plateau near the border with Zambia, at the foot of the Katanga copper belt. Founded in the early 20th century as a mining outpost, it grew rapidly after the discovery of vast copper deposits that made the region one of the world’s major mineral producers. Today the city blends colonial-era architecture with bustling markets, lively cafés and a growing arts scene; visitors can stroll along its tree-lined avenues, sample hearty Congolese cuisine, and feel the vibrant energy of a place that is both a commercial hub and a gateway to the country’s mineral heartland.",
@@ -1125,6 +1174,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
+ },
+ "maj": {
+  "name": "Majuro",
+  "text": "Majuro, the capital of the Marshall Islands, sits on a narrow atoll of coral islands stretching about 40 km across the central Pacific, just north of the equator and roughly 2 500 km east of the Philippines. It became the administrative centre of the United Nations-mandated Trust Territory after World War II, when the United States established a significant naval base there. Today the town is a laid-back gateway to crystal-clear lagoons and colourful reefs, with simple wooden shops, a bustling fish market and friendly locals offering fresh seafood and a glimpse of island life amidst gently swaying palm trees.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
  },
  "man": {
   "name": "Manchester",
@@ -1483,6 +1539,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-13"
  },
+ "pct": {
+  "name": "Picton",
+  "text": "Picton is a small coastal town perched at the head of Queen Charlotte Sound on the northern edge of New Zealand’s South Island, where the Marlborough Sounds meet Cook Strait. The settlement was formally established in the 1850s and took its name from Sir Thomas Picton, a British general, after an earlier Māori village occupied the site. Today Picton is a lively gateway for ferries to the North Island and a hub for exploring the surrounding waterways, with scenic walks, wildlife-rich marine reserves and a reputation for fresh seafood served in its harbour-front cafés, all set against spectacular mountain and sea views.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
+ },
  "pdl": {
   "name": "Ponta Delgada",
   "text": "Ponta Delgada – the vibrant capital of Portugal’s Azores archipelago, perched on the southern coast of São Miguel Island.  Nestled in the mid‑Atlantic, this charming town blends volcanic landscapes with sweeping ocean views, a natural gateway between Europe and the Americas.  Founded in the 15th century by Portuguese settlers, it grew from a modest fishing village into a key stopover for trans‑Atlantic whalers and explorers, its historic cobblestone streets still echoing centuries of maritime heritage.  Today, Ponta Delgada thrives as a cultural hub—buzzing cafés, lively festivals, and eco‑tourism adventures—while preserving its rich past amid stunning cliffs, geothermal springs and world‑class cuisine.",
@@ -1629,6 +1692,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "ror": {
+  "name": "Koror",
+  "text": "Koror, the bustling centre of Palau, sits on a cluster of islands in the western Pacific just south of the Philippines and east of Indonesia, with the main town spread across Koror Island and nearby Ngerekebesang. It was the national capital until 2006, when the government relocated to Ngerulmud on Babeldaob, and during World War II it served as a Japanese naval base. Today the town blends colourful market stalls, friendly cafés and quiet beaches, while the iconic Rock Islands lie a short boat ride away, offering snorkellers crystal-clear lagoons and striking limestone karsts that feel both relaxed and adventure-filled.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
  },
  "ros": {
   "name": "Roscoff",
@@ -1854,6 +1924,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-05"
  },
+ "suv": {
+  "name": "Suva",
+  "text": "Suva, the capital of Fiji, sits on the southeastern coast of Viti Levu, the country’s largest island, nestled between the deep blue harbour and the lush slopes of the surrounding hills. Established as a colonial administration centre in the late 19th century, it became the official capital in 1877 and retains many heritage buildings such as the old Parliament House. Today the city bustles with a friendly mix of markets, cafés and museums; you can stroll along the waterfront promenade, sample fresh seafood at the night market, and feel the laid-back island rhythm alongside the hum of a modern Pacific hub.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
+ },
  "tao": {
   "name": "Qingdao",
   "text": "Qingdao, a coastal city in Shandong province on China’s Yellow Sea, is famed for its blend of German colonial heritage and modern seaside charm. Founded as a fishing village, it became a German concession in 1898, which left the striking red-tiled roofs of the former Governor’s Hall and the historic Badaguan neighbourhood. Today visitors can stroll along the bustling waterfront promenade, sip locally brewed Tsingtao beer in lively pubs, wander the fragrant jasmine-lined streets, and enjoy fresh seafood while taking in the backdrop of gentle hills and crystal-clear bays.",
@@ -1966,6 +2043,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "tws": {
+  "name": "Tarawa",
+  "text": "Tarawa, the bustling strip of villages that make up South Tarawa, sits on a narrow coral atoll in the central Pacific and serves as the capital of Kiribati, about 4,500 km south-west of Honolulu. It was the scene of the fierce Battle of Tarawa in February 1943, when United States forces captured the Japanese-held island of Betio during World War II. Today the capital feels like a lively, low-lying town of pastel-coloured homes, bustling markets and friendly locals, with a modest but welcoming tourism scene – you can explore mangrove-fringed lagoons, sample fresh tuna and enjoy relaxed evenings watching the sunrise over the endless Pacific.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
+ },
  "tzx": {
   "name": "Trabzon",
   "text": "Trabzon sits on the Black Sea coast of north-eastern Turkey, framed by lush hills and the Pontic Mountains. Founded as the Greek colony Trapezus in the 8th century BC, it later became an important stop on the Silk Road and the site of the famous Sumela Monastery, perched on a cliff overlooking the surrounding forest. Today the city offers a pleasant mix of sea-front promenades, lively fish markets and Ottoman-era tea houses where you can sample the local Black Sea tea. The backdrop of mist-y mountains and the scent of fresh seafood make a visit both relaxing and memorable.",
@@ -2050,6 +2134,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-11"
  },
+ "wlg": {
+  "name": "Wellington",
+  "text": "Wellington, the capital city perched at the southern tip of New Zealand’s North Island, sits where Cook Strait meets a rugged harbour and is framed by hills that spill down to a vibrant waterfront. Founded in 1840, it became the nation’s political centre in 1865 and has since grown into a cultural hub known for its museums, live music and thriving café scene. Today visitors can ride the iconic cable car for panoramic views, stroll along the lively waterfront promenade, explore the quirky art installations at Te Papa Museum, and enjoy the city’s famously windy but welcoming atmosphere, all within easy walking distance of shops, restaurants and stunning natural scenery.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
+ },
  "xmn": {
   "name": "Xiamen",
   "text": "Xiamen, a bustling coastal city in Fujian province on China’s southeast seaboard, sits opposite the Taiwan Strait and is linked to the historic Gulangyu Island by a short ferry ride. It became a treaty port in the mid-19th century after the First Opium War, which sparked its development as a centre of overseas trade. Today the city charms visitors with palm-shaded promenades, a lively pedestrian street full of street food stalls, well-preserved temples and modern cafés, and a pleasant subtropical climate that makes exploring its harbourside parks and colourful neighbourhoods a relaxed delight.",
@@ -2063,6 +2154,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-10"
+ },
+ "yar": {
+  "name": "Yaren",
+  "text": "Yaren, the de facto capital district of the tiny island nation of Nauru, sits on the western coast of the central plateau and faces the warm Pacific. Though Nauru gained independence in 1968 after decades of phosphate mining under Australian administration, Yaren today is modest, with the parliament building, a handful of government offices and a small waterfront promenade. Visitors find a quiet, friendly atmosphere, palm-shaded streets and easy access to the island’s famed white-sand beaches and World War II wrecks that lure snorkellers and divers. Facilities are limited but the laid-back charm and the sense of being on one of the world’s most remote islands make a stop in Yaren a memorable glimpse of Pacific life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
  },
  "yeg": {
   "name": "Edmonton",
@@ -2217,6 +2315,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
+ },
+ "zqn": {
+  "name": "Queenstown",
+  "text": "Queenstown lies on the shores of Lake Wakatipu in the South Island of New Zealand, framed by the towering Remarkables and surrounded by rugged alpine scenery. Founded during the 1860s gold-rush era, the town grew from a modest mining settlement into a bustling hub for adventurers. Today it pulses with energy: you can glide down the slopes in winter, zip-line over forested valleys in summer, and savour world-class wines at nearby vineyards, all while enjoying a relaxed café culture and spectacular sunset reflections on the lake’s glassy surface.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-17"
  },
  "zrh": {
   "name": "Zurich",
