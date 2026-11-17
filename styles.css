@@ -109,7 +109,6 @@ label{display:block;font-size:.9rem;color:var(--mute);margin-bottom:4px}
 .game-panel{min-width:0}
 .game-panel>.panel{margin-bottom:10px}
 .panel-hint{display:none}
-.route-flavour{font:1.05rem/1.55 Georgia,"Times New Roman",serif}
 .inventory-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .inventory-stats>div{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px}
 .inventory-stats small,.inventory-stats b{display:block}
@@ -349,9 +348,6 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .flap-c::after{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:#0b0e10}
 
 /* Route teaser: shaded like the travel options, with a discreet note (game.js routes panel) */
-.teaser-box{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:8px 0}
-.teaser-box .route-flavour{margin:0}
-.teaser-note{margin:8px 0 0;font-size:.72rem;color:var(--mute);font-style:italic}
 
 .welcome-card{width:100%;text-align:left;cursor:pointer;font:inherit;color:inherit}
 

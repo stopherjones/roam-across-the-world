@@ -298,34 +298,6 @@ function fillFlavour(){
   flavourFor(c).then(function(t){if(S&&S.goal===key)setIntro(t,true)},function(){if(S&&S.goal===key)setIntro("An introduction isn't available right now.")});
  });
 }
-// One combined sentence for the journey, built from the modes on offer. No place names beyond the start and finish.
-function routeFlavourFallback(from,to,options){
- var kinds={};(options||[]).forEach(function(o){(o.modes||[]).forEach(function(m){kinds[m]=1})});
- var pick=function(list){return list[mkHash(from+">"+to+">"+(options||[]).length)%list.length]};
- var fast=kinds.hsr?"fast, reliable but expensive trains":kinds.rail?"quicker trains, at a premium":kinds.air?"flights":"the quickest connections on offer";
- var slow;
- if(kinds.ferry&&(kinds.bus||kinds.coach||kinds.shared))slow="the tourist route along the coast, joining up local buses and ferries";
- else if(kinds.ferry)slow="the coastal route by ferry, with some waiting for sailings";
- else if(kinds.shared)slow="the cheap way, joining up shared minibuses and local buses";
- else if((kinds.bus||kinds.coach)&&kinds.rail)slow="the tourist route, joining up local buses and trains";
- else if(kinds.bus||kinds.coach)slow="cheaper long-distance buses, which take their time";
- else slow=null;
- var verb=pick(["you can opt for ","you could take ","you can choose "]);
- if(!slow)return"To get from "+from+" to "+to+", "+pick(["you can take ","you could travel by "])+fast+".";
- return"To get from "+from+" to "+to+", "+verb+fast+", or "+slow+"."
-}
-function fillRouteFlavour(){
- var el=document.getElementById("route-flavour");if(!el||!S||S.phase!=="routes")return;
- var from=S.start=="lon"?"London":N[S.start].n,to=N[S.goal].n,key=S.start+">"+S.goal;
- var current=document.getElementById("route-flavour");if(current)current.textContent=routeFlavourFallback(from,to,S.opts);
- // Then the live teaser, if the model answers and the player is still on this route
- if(typeof routeTeaserFor==="function"&&S.opts&&S.opts.length){
-  routeTeaserFor(from,to,S.opts).then(function(t){
-   var cur=document.getElementById("route-flavour");
-   if(cur&&S&&S.phase==="routes"&&S.start+">"+S.goal===key)cur.textContent=t;
-  },function(e){console.debug("Route teaser unavailable, showing fallback:",e&&e.message)});
- }
-}
 function mkHash(str){var h=2166136261;for(var i=0;i<str.length;i++){h^=str.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
 // Destination reveal: a split-flap board that clicks the name into place, shown in the destination panel.
 // Timing is stateless: each tile's letter depends only on the time since the reveal began, so a re-render never restarts it.
