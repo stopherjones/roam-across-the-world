@@ -634,7 +634,7 @@ function hop(i,dep){
  var from=S.loc;
  var tr=S.tired?1:0;S.tired=false;S.pend=null;S.pendOpt=null;S.phase="move";
  if(tr){say("Tired after a poor night: 1 h lost.");S.legNotes.push("Tired after a poor night: 1 h lost.")}
- S.h=dep+o.h+tr;S.cash-=o.c;S.spent+=o.c;S.loc=o.to;S.path.push(o.to);S.modes.push(o.m);
+ S.h=dep+o.h+tr;S.cash-=o.c;S.spent+=o.c;S.loc=o.to;S.interimUsed=0;S.path.push(o.to);S.modes.push(o.m);
  (S.times=S.times||[0]).push(S.h);S.nights.push(S.slept?1:0);S.slept=0;
  var r=S.ev&&!o.noev?roll():null,x=eventFor(o,r||12,from);
  hopAnimate(from,o.to,o,r,x,function(){settleHop(o,x)});
@@ -670,8 +670,9 @@ function look(){S.h+=.3;S.rev[S.loc+S.term]=1;say(clk(S.h)+": You ask around and
 // Campaign: each new leg gives a fixed income on top of any money carried over from the last leg. Tune here.
 var INCOME=50,BONUS=150,PLAN_ALLOW=1.5,LM_ALLOW=1.5,NEXT_CAMP=null;
 // Target: the median of the reasonable routes plus a planning allowance. Arriving by then earns BONUS on top of INCOME.
-// Interim checkpoint work: at a culture-4+ city you can stop for a photo challenge. It costs 2 hours whatever the result.
-// Payout: £100 for a spot-on guess, falling to £50 at 2 km out. A city pays out once per campaign, and only one stop per leg.
+// Interim checkpoint work: at any stop on the journey (not the goal) you can stop for a photo challenge. It costs 2 hours whatever the result.
+// Payout: £100 for a spot-on guess, falling to £50 at 2 km out. Once per visit: the limit resets on arrival at each stop,
+// so returning to a town later allows work again.
 var INTERIM_HOURS=2,PAY_MIN=50,PAY_MAX=100;
 function interimPay(m){
  if(m===undefined||m===null)return 0;
@@ -680,9 +681,7 @@ function interimPay(m){
  return Math.round(PAY_MAX-(PAY_MAX-PAY_MIN)*(m-100)/1900)
 }
 function canInterim(){
- if(!S||S.over||S.phase!=="move"||S.loc===S.goal||S.interimUsed)return false;
- if(cultRating(S.loc)<4&&!needsEmergencyWork())return false;
- return ((S.camp&&S.camp.paid)||[]).indexOf(S.loc)<0
+ return !!(S&&!S.over&&S.phase==="move"&&S.loc!==S.goal&&!S.interimUsed);
 }
 function canAffordOnward(){return opts(1).some(function(o){return o.c<=S.cash})}
 function canAffordTerminalChange(){return terms(S.loc).some(function(g){return g!==S.term&&xf(S.loc,S.term,g).c<=S.cash})}

@@ -263,18 +263,73 @@ function earnHtml(){
 }
 
 // Things to do on a rest day: search links for the town
+// Things to do, shown as a grid of tiles (three across). Each tile is an emoji and a short title.
+// To add a theme (e.g. UNESCO), add an entry to the tiles list below. Empty themes are simply left out.
+// The settings page still switches the three core themes on or off by their full title (thingOn).
+function tileCss(){
+ if(document.getElementById("tile-css"))return;
+ var st=document.createElement("style");st.id="tile-css";
+ st.textContent=".tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}"+
+  ".tiles .tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:92px;padding:10px 6px;text-align:center;text-decoration:none;font-size:.9rem;line-height:1.2;box-sizing:border-box;border:0;cursor:pointer}"+
+  ".tile .em{font-size:1.8rem;line-height:1}";
+ document.head.appendChild(st);
+}
+function tileHtml(t){
+ var inner="<span class='em' aria-hidden='true'>"+t.emoji+"</span><span>"+esc(t.title)+"</span>";
+ if(t.onclick)return "<button type='button' class='btn tile"+(t.cls?" "+t.cls:"")+"' title='"+esc(t.title)+"' onclick=\""+t.onclick+"\">"+inner+"</button>";
+ return "<a class='btn tile' href='"+t.href+"' target='_blank' rel='noopener' title='"+esc(t.title)+"'>"+inner+"</a>";
+}
+// UNESCO sites by town id. Loaded once; if the file is missing or empty, no Heritage tiles appear.
+var UNESCO_MAP={};
+var UNESCO_READY=fetch("data/unesco.json").then(function(r){if(!r.ok)throw new Error("unesco "+r.status);return r.json()}).catch(function(){return {}}).then(function(m){
+ UNESCO_MAP=m||{};
+ // The Things panel may already be on screen: redraw once if this town has sites and no Heritage tile yet.
+ if(S&&S.loc&&UNESCO_MAP[S.loc]&&UNESCO_MAP[S.loc].length&&document.querySelector(".tiles")&&!document.querySelector(".tile-heritage")&&!document.getElementById("paint-modal"))render();
+ return UNESCO_MAP;
+});
+function paintCss(){
+ if(!document.getElementById('paint-css')){
+  var st=document.createElement('style');st.id='paint-css';
+  st.textContent=".paint-back{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:999;display:flex;align-items:center;justify-content:center;padding:12px;box-sizing:border-box}.paint-box{background:#1b2630;color:#e8eef2;border-radius:10px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:16px;box-sizing:border-box}.paint-box img{max-width:100%;height:auto;border-radius:6px;display:block;margin:8px 0}.paint-item{border-top:1px solid #2c3a45;padding:12px 0}.paint-close{float:right;background:#7bbfae;color:#0d1419;border:0;border-radius:6px;padding:6px 12px;font-size:1em;cursor:pointer}.paint-credit{font-size:.8em;opacity:.7}.paint-icon{background:none;border:0;font-size:1.2em;cursor:pointer;padding:0 0 0 .4em;margin-left:auto}";
+  document.head.appendChild(st);
+ }
+}
+function unescoOpen(pid){
+ var list=(UNESCO_MAP||{})[pid]||[];
+ if(!list.length)return;
+ paintCss();
+ var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
+ paintingsClose();
+ var items=list.map(function(x){
+  var km=x.km!=null?(x.km<1?"under 1 km":Math.round(x.km)+" km")+" away":"";
+  var img=x.image&&x.image.src?"<img src='"+x.image.src+"' alt='"+esc(x.name)+"' loading='lazy' style='max-width:100%;border-radius:6px;display:block;margin:8px 0'><div class='paint-credit'>Photo from Wikimedia Commons. <a href='"+x.image.page+"' target='_blank' rel='noopener'>Photographer and licence</a>.</div>":"";
+  return "<div class='paint-item'><strong>"+esc(x.name)+"</strong><br><span class='mute'>"+esc([x.year,x.category,km].filter(Boolean).join(" · "))+"</span>"+img+
+   "<p><a href='"+x.url+"' target='_blank' rel='noopener'>Read on the UNESCO World Heritage site</a></p></div>";
+ }).join("");
+ var back=document.createElement('div');back.id='paint-modal';back.className='paint-back';
+ back.innerHTML="<div class='paint-box'><button type='button' class='paint-close' onclick='paintingsClose()'>Close</button><h2>World Heritage near "+esc(name)+"</h2>"+items+"</div>";
+ back.addEventListener('click',function(e){if(e.target===back)paintingsClose();});
+ document.body.appendChild(back);
+}
 function thingsHtml(){
+ tileCss();
  var q=function(s){return encodeURIComponent(s).replace(/%20/g,"+")},c=q(N[S.loc].n);
- var items=[
-  ["Discover the local music scene","Acts across traditional, mainstream and locally unique music.","https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"],
-  ["Discover the local sports scene","Traditional, mainstream and local sports.","https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"],
-  ["Explore local folklore and legends","Folklore, myths and unusual histories.","https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"]
- ];
- items=items.filter(function(i){return thingOn(i[0])}).concat(customLinks(N[S.loc].n));
+ var core=[
+  {full:"Discover the local music scene",emoji:"🎵",title:"Music",href:"https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"},
+  {full:"Discover the local sports scene",emoji:"⚽",title:"Sport",href:"https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"},
+  {full:"Explore local folklore and legends",emoji:"📜",title:"Folklore",href:"https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"}
+ ].filter(function(t){return thingOn(t.full)});
+ // Themes with data for this town. Paintings always comes from the paintings data; other themes (e.g. UNESCO) go here too.
  var pics=(typeof PAINTINGS!=="undefined"&&PAINTINGS[S.loc])||[];
- var picIcon=pics.length?"<button type='button' class='paint-icon' title='Paintings of this town' aria-label='Paintings of this town' onclick=\"paintingsOpen('"+S.loc+"')\">🖼️</button>":"";
- if(!items.length&&!pics.length)return "<div class='panel'><h2>Things to do</h2><p class='mute'>All the things to do links are turned off. Turn them back on in Settings.</p></div>";
- return "<div class='panel'><h2 style='display:flex;align-items:center;justify-content:space-between'><span>Things to do</span>"+picIcon+"</h2>"+items.map(function(i){return"<a class='btn' href='"+i[2]+"' target='_blank' rel='noopener'>"+esc(i[0])+"</a><p class='mute note'>"+esc(i[1])+"</p>"}).join("")+"</div>";
+ var extra=[];
+ if(pics.length)extra.push({emoji:"🖼️",title:"Paintings",onclick:"paintingsOpen('"+S.loc+"')"});
+ // UNESCO World Heritage sites near this town (data/unesco.json, built by tools/gen-unesco.mjs).
+ if(((UNESCO_MAP||{})[S.loc]||[]).length)extra.push({emoji:"🏛️",title:"Heritage",onclick:"unescoOpen('"+S.loc+"')",cls:"tile-heritage"});
+ // Your own search links from Settings, as tiles too.
+ customLinks(N[S.loc].n).forEach(function(l){extra.push({emoji:"🔗",title:l[0],href:l[2]})});
+ var tiles=core.concat(extra);
+ if(!tiles.length)return "<div class='panel'><h2>Things to do</h2><p class='mute'>All the things to do links are turned off. Turn them back on in Settings.</p></div>";
+ return "<div class='panel'><h2>Things to do</h2><div class='tiles'>"+tiles.map(tileHtml).join("")+"</div></div>";
 }
 
 // While you wait: the market and things to do cost no time, so the service still leaves on schedule
@@ -344,11 +399,7 @@ function paintingsOpen(pid){
  if(!list.length)return;
  var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
  paintingsClose();
- if(!document.getElementById('paint-css')){
-  var st=document.createElement('style');st.id='paint-css';
-  st.textContent=".paint-back{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:999;display:flex;align-items:center;justify-content:center;padding:12px;box-sizing:border-box}.paint-box{background:#1b2630;color:#e8eef2;border-radius:10px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:16px;box-sizing:border-box}.paint-box img{max-width:100%;height:auto;border-radius:6px;display:block;margin:8px 0}.paint-item{border-top:1px solid #2c3a45;padding:12px 0}.paint-close{float:right;background:#7bbfae;color:#0d1419;border:0;border-radius:6px;padding:6px 12px;font-size:1em;cursor:pointer}.paint-credit{font-size:.8em;opacity:.7}.paint-icon{background:none;border:0;font-size:1.2em;cursor:pointer;padding:0 0 0 .4em;margin-left:auto}";
-  document.head.appendChild(st);
- }
+ paintCss();
  var items=list.map(function(p){
   var img=p.image?"<img src='"+String(p.image).replace(/'/g,"%27")+"' alt='"+esc(p.title)+"' loading='lazy'><div class='paint-credit'>Image: "+esc(p.image_source||"")+"</div>":"";
   return "<div class='paint-item'><strong>"+esc(p.title)+"</strong><br><span class='mute'>"+esc(p.artist)+"</span>"+img+"<p><a href='"+p.url+"' target='_blank' rel='noopener'>View on paintinglocations.com</a></p></div>";

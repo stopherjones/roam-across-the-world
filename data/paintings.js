@@ -1,8 +1,8 @@
-// Painting viewpoints mapped to game places (generated from painting_locations_clean_v2.csv).
+// Painting viewpoints mapped to game places (regenerated from painting_locations.csv).
 // match: exact = within 10 km of the town centre, near = within 30 km (or a town the player was asked to use instead, see km).
 // image: image URL only where the image was checked as a MATCH; null otherwise.
-// PAINTINGS are shown in the game. PAINTINGS_PENDING is empty: all planned towns have been added.
-// UNASSIGNED are more than 30 km from any game town, or belong to towns we decided not to add; shown on the dev map only.
+// PAINTINGS are shown in the game. PAINTINGS_PENDING is empty.
+// UNASSIGNED are more than 30 km from any game town; shown on the dev map only.
 var PAINTINGS = {
   "par": [
     {
@@ -848,6 +848,19 @@ var PAINTINGS = {
       "km": 15.1,
       "lat": 50.95931,
       "lon": 4.47739
+    }
+  ],
+  "lon": [
+    {
+      "title": "Nocturne in Black and Gold – The Falling Rocket",
+      "artist": "James McNeill Whistler",
+      "url": "https://paintinglocations.com/paintings/nocturne-in-black-and-gold-the-falling-rocket/",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Whistler-Nocturne_in_black_and_gold.jpg?width=1600",
+      "image_source": "commons.wikimedia.org",
+      "match": "exact",
+      "km": 0.1,
+      "lat": 51.50722,
+      "lon": -0.1275
     },
     {
       "title": "London Bridge on the Night of the Marriage of the Prince and Princess of Wales",
@@ -1479,7 +1492,7 @@ var PAINTINGS = {
   "bil": [
     {
       "title": "Guernica",
-      "artist": "Artist's own account Picasso's reticence Picasso refused to give a fixed reading. Asked about the bull and the horse, he said they were symbols and that viewers must find the meanings themselves; he did say the painting expressed his 'abhorrence of the military caste' that had plunged Spain into suffering.",
+      "artist": "Artist's own account Picasso's reticence Picasso refused to give a fixed reading. Asked about the bull and the horse, he said they were symbols and that viewers must find the meanings themselves; he did say the painting expressed his ‘abhorrence of the military caste’ that had plunged Spain into suffering.",
       "url": "https://paintinglocations.com/paintings/guernica/",
       "image": null,
       "image_source": null,
@@ -1932,7 +1945,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/a-burial-at-ornans/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 47.10528,
     "lon": 6.14306
   },
@@ -1943,7 +1956,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Allee_bei_Arles_mit_H%C3%A4usern.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 43.67694,
     "lon": 4.62861
   },
@@ -1954,7 +1967,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/american-gothic/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 40.9214,
     "lon": -92.2136
   },
@@ -1965,7 +1978,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard_Munch_-_Anxiety_-_Google_Art_Project.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 59.41667,
     "lon": 10.56667
   },
@@ -1976,7 +1989,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%27The_Pyramids_at_Port-Coton%27_by_Claude_Monet%2C_1886%2C_Pushkin_Museum.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 47.3056,
     "lon": -3.2403
   },
@@ -1987,7 +2000,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-039.jpg",
     "image_source": "images.metmuseum.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 49.46,
     "lon": -2.55194
   },
@@ -1998,7 +2011,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/cafe-terrace-at-night/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 43.6775,
     "lon": 4.62722
   },
@@ -2009,7 +2022,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Il_castello_di_Bentheim_%28Jacob_Van_Ruisdael%29.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 52.30222,
     "lon": 7.15722
   },
@@ -2020,7 +2033,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%2C_Caspar_David_-_Kreidefelsen_auf_R%C3%BCgen.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 54.5772,
     "lon": 13.6522
   },
@@ -2031,7 +2044,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Baptiste-Camille_Corot_-_The_Cathedral_of_Chartres_-_WGA5282.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 48.44778,
     "lon": 1.48778
   },
@@ -2042,7 +2055,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": null,
     "image_source": null,
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 44.01925,
     "lon": -69.23977
   },
@@ -2053,7 +2066,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ed._Manet._Clair_de_lune_sur_le_port_de_Boulogne.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 50.72556,
     "lon": 1.61389
   },
@@ -2064,7 +2077,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/J.M.W._Turner_-_Dolbadarn_Castle_-_Study_for_Diploma_Picture.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 53.11658,
     "lon": -4.1142
   },
@@ -2075,7 +2088,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/El_Khasne%2C_Petra_Frederic_Edwin_Church.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 30.32889,
     "lon": 35.44028
   },
@@ -2086,7 +2099,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Constable_-_Hadleigh_Castle%2C_The_Mouth_of_the_Thames--Morning_after_a_Stormy_Night_-_Google_Art_Project.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 51.5444,
     "lon": 0.609
   },
@@ -2097,7 +2110,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monet_dejeunersurlherbe.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 48.46722,
     "lon": 2.6075
   },
@@ -2108,7 +2121,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/les-alyscamps/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 43.67139,
     "lon": 4.63694
   },
@@ -2119,7 +2132,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lise_with_a_Parasol.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 48.46722,
     "lon": 2.6075
   },
@@ -2130,7 +2143,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Looking_Down_Yosemite-Valley.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 37.7288,
     "lon": -119.594
   },
@@ -2141,7 +2154,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luxe%2C_calme_et_volupt%C3%A9%2C_par_Henri_Matisse.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 43.2868,
     "lon": 6.64226
   },
@@ -2152,7 +2165,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/midsummer-dance/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 61.00017,
     "lon": 14.51664
   },
@@ -2163,7 +2176,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar_David_Friedrich_-_Gebirgslandschaft_mit_Regenbogen.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 50.83278,
     "lon": 14.33111
   },
@@ -2174,7 +2187,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Mallord_William_Turner_-_Norham_Castle%2C_Sunrise_-_WGA23182.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 55.72181,
     "lon": -2.15076
   },
@@ -2185,7 +2198,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pont_de_Maincy%2C_par_Paul_C%C3%A9zanne.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 48.55014,
     "lon": 2.67974
   },
@@ -2196,7 +2209,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/rain-steam-and-speed-the-great-western-railway/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 51.52111,
     "lon": -0.70167
   },
@@ -2207,7 +2220,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/starry-night-over-the-rhone/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 43.6839,
     "lon": 4.6293
   },
@@ -2218,7 +2231,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard_Munch_-_Starry_Night_%281893_Getty%29.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 59.34889,
     "lon": 10.4675
   },
@@ -2229,7 +2242,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/summer-evening-at-skagen-beach-the-artist-and-his-wife/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 57.72657,
     "lon": 10.61038
   },
@@ -2240,7 +2253,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna_Ancher_-_Sunlight_in_the_blue_room_-_Google_Art_Project.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 57.72613,
     "lon": 10.59691
   },
@@ -2251,7 +2264,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Gauguin_056.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": -17.66667,
     "lon": -149.46667
   },
@@ -2262,7 +2275,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 54.0892,
     "lon": 13.45222
   },
@@ -2273,7 +2286,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/JEAN-FRAN%C3%87OIS_MILLET_-_El_%C3%81ngelus_%28Museo_de_Orsay%2C_1857-1859._%C3%93leo_sobre_lienzo%2C_55.5_x_66_cm%29.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 48.46722,
     "lon": 2.6075
   },
@@ -2284,7 +2297,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monet_-_Monets_Garten_in_Giverny.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 49.0769,
     "lon": 1.533
   },
@@ -2295,7 +2308,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Everett_Millais_-_The_Blind_Girl%2C_1854-56.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 50.925,
     "lon": 0.70833
   },
@@ -2306,7 +2319,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Everett_Millais_%281829-1896%29_-_The_Boyhood_of_Raleigh_-_N01691_-_National_Gallery.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 50.62906,
     "lon": -3.32123
   },
@@ -2317,7 +2330,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_pont_de_Narni_-_Jean-Baptiste_Camille_Corot_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1613_-_photo_2.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 42.52528,
     "lon": 12.51444
   },
@@ -2328,7 +2341,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_Sisley_-_The_Loing%27s_Canal_-_Google_Art_Project.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 48.37694,
     "lon": 2.81917
   },
@@ -2339,7 +2352,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/the-green-christ/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 47.86374,
     "lon": -3.76788
   },
@@ -2350,7 +2363,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Willem_van_Gogh_076.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 43.67694,
     "lon": 4.62861
   },
@@ -2361,7 +2374,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-12550-001.jpg",
     "image_source": "images.metmuseum.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 42.29176,
     "lon": -72.63898
   },
@@ -2372,7 +2385,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": null,
     "image_source": null,
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 16.0,
     "lon": -39.0
   },
@@ -2383,7 +2396,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aleksey_Savrasov_-_%D0%93%D1%80%D0%B0%D1%87%D0%B8_%D0%BF%D1%80%D0%B8%D0%BB%D0%B5%D1%82%D0%B5%D0%BB%D0%B8_-_Google_Art_Project.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 58.14686,
     "lon": 41.58408
   },
@@ -2394,7 +2407,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 47.8611,
     "lon": -3.75065
   },
@@ -2405,7 +2418,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/the-yellow-house/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 43.67694,
     "lon": 4.62861
   },
@@ -2416,7 +2429,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Muenchen_Neue_Pinakothek_van_Gogh_Arles.jpg?width=1600",
     "image_source": "commons.wikimedia.org",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 43.67694,
     "lon": 4.62861
   },
@@ -2427,7 +2440,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/view-of-toledo/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": 40.3197,
     "lon": -1.6975
   },
@@ -2438,7 +2451,7 @@ var PAINTINGS_UNASSIGNED = [
     "image": "https://paintinglocations.com/img/art/when-will-you-marry/1200.jpg",
     "image_source": "paintinglocations.com",
     "match": "exact",
-    "km": 0,
+    "km": null,
     "lat": -17.66667,
     "lon": -149.46667
   }
