@@ -34,4 +34,4 @@ Each journey starts at a hub drawn by weight from `START_HUBS` in `config.js` (L
 Before leaving, you see the destination's name and tap where you think it is on the unlabelled map. Error converts to time at `PLAN_KM_PER_H` (150 km per hour, capped at `PLAN_MAX_H` = 8 h), which delays your departure.
 
 ## Choosing how to travel
-Before setting off, a short overview introduces the kinds of connections available between your start and destination. The overview is a built-in sentence, with no AI call. Then choose individual services as you travel; fares and timetables are shown at each stop. Destination introductions are generated through the Groq proxy (`FLAVOUR_URL` in `game.js`).
+Before setting off, a short overview introduces the kinds of connections available between your start and destination. The overview is a built-in sentence, with no AI call. Then choose individual services as you travel; fares and timetables are shown at each stop. Destination introductions come from `data/intros.json`. Towns not yet written there fall back to a live call through the Groq proxy (`FLAVOUR_URL` in `game.js`), and that text is labelled "AI generated".
