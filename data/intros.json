@@ -27,6 +27,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-10"
  },
+ "adl": {
+  "name": "Adelaide",
+  "text": "Adelaide, South Australia’s capital, sits on the eastern side of Gulf St Vincent between the Mount Lofty and Flinders Ranges. Founded in 1836 as a planned colonial settlement, it was named for Queen Adelaide and laid out with a grid of wide streets and generous parklands that still frame the city centre. Today the city feels relaxed yet vibrant, with bustling markets, acclaimed food and wine scenes, and easy access to nearby beaches, vineyards and wildlife reserves. Its cultural festivals, riverbank cafés and friendly locals make Adelaide a welcoming base for exploring both urban delights and the great outdoors.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
+ },
  "adz": {
   "name": "Adana",
   "text": "Adana, a major city in southern Turkey, sits on the banks of the Seyhan River about 70 kilometres inland from the Mediterranean coast. It has been an important centre since antiquity, serving as a key stop on the ancient trade routes of Cilicia and later becoming a thriving Ottoman provincial capital. Today the city is famous for its spicy kebabs, lively street markets and the impressive stone bridge of Taşköprü spanning the river. Visitors can explore the historic Great Mosque, wander the palm-lined riverfront promenade and enjoy the surrounding plains that produce some of the country’s finest citrus fruits.",
@@ -124,6 +131,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-10"
+ },
+ "asp": {
+  "name": "Alice Springs",
+  "text": "Alice Springs sits in the heart of Australia’s Red Centre, on the south-west edge of the Simpson Desert and on the banks of the Todd River. Established in 1872 as a telegraph station on the Overland Telegraph Line, it grew into a key supply hub for early explorers and later for World War II airfields. Today the town blends modern comforts with striking outback scenery: you can wander the bustling Todd Mall, visit Indigenous art galleries, and venture just outside town to see the ochre-red MacDonnell Ranges or watch the occasional flash flood that briefly turns the usually dry riverbed into a sparkling waterway.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "asu": {
   "name": "Asuncion",
@@ -272,6 +286,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "bne": {
+  "name": "Brisbane",
+  "text": "Brisbane, the capital of Queensland, sits on the eastern coast of Australia where the Brisbane River winds through a sunny, subtropical basin between the Pacific Ocean and the Great Dividing Range. Established in 1824 as a penal settlement on the site of the former Moreton Bay colony, it grew rapidly after free settlement began in the 1840s and was proclaimed a city in the early 20th century. Today the city blends a relaxed riverfront vibe with a vibrant arts scene, bustling markets and leafy parks; a hop-on-hop-off ferry ride offers stunning views of its modern skyline set against the backdrop of nearby hills.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
+ },
  "bng": {
   "name": "Benghazi",
   "text": "Benghazi, Libya’s second-largest city, sits on the edge of the Mediterranean in the north-east, where the Green Mountain range meets the sea. Founded by the Greeks as Euesperides, it later became an important port for the Ottoman Empire and played a key role in the 1911 Italo-Turkish War. Today the city blends modern cafés, bustling souks and colourful street art with historic sites such as the Italian-era Al-Berka district and the ancient ruins at Cyrene a short drive away. Visitors find warm hospitality, lively markets selling spices and olives, and a pleasant waterfront promenade perfect for an evening stroll.",
@@ -405,6 +426,13 @@
   "prompt": "intro-v1",
   "generated": "2026-11-01"
  },
+ "cbr": {
+  "name": "Canberra",
+  "text": "Canberra, the purpose-built capital of Australia, lies in the heart of the continent within the Australian Capital Territory, about a three-hour drive south of Sydney and north-west of Melbourne. The site was chosen in 1908 after a national competition to provide a neutral location for the new federal capital, and Parliament House officially opened there in 1927. Today the city feels spacious and leafy, centred on the man-made Lake Burley Griffin, with sweeping views of the surrounding hills. Visitors can wander among world-class museums, stroll the well-kept parklands, enjoy a vibrant food scene and easily explore on foot or by bike.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
+ },
  "ccs": {
   "name": "Caracas",
   "text": "Caracas, the bustling capital of Venezuela, lies in a valley surrounded by the towering peaks of the Ávila mountain range in the north-central part of the country, about 900 metres above sea level. Founded in 1567 by Spanish settlers, it became the centre of the independence movement when Simón Bolívar declared the Republic of Colombia there in 1811. Today the city offers a lively mix of modern skyscrapers, historic colonial plazas and vibrant street markets; you can stroll through the lively Boulevard Los Santos, enjoy panoramic views from the Teleférico cable car, and sample tasty arepas while the tropical climate keeps the air warm and fresh.",
@@ -467,6 +495,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-13"
+ },
+ "cns": {
+  "name": "Cairns",
+  "text": "Cairns sits on the tropical north-east coast of Queensland, Australia, perched on the edge of the Great Barrier Reef and backed by the lush Atherton Tablelands. It was founded in 1876 as a port for the Hodgkinson goldfields, and its early growth was driven by the railway that linked the inland mining towns to the sea. Today the city is a laid-back gateway for reef snorkellers, rainforest hikers and cruise-ship visitors, offering a lively waterfront with markets, cafés and a vibrant multicultural vibe, while the surrounding mountains and sea provide endless outdoor adventure.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "cok": {
   "name": "Kochi",
@@ -614,6 +649,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-04"
+ },
+ "drw": {
+  "name": "Darwin",
+  "text": "Darwin, the tropical capital of the Northern Territory, sits on the edge of the Timor Sea where the Adelaide River meets the harbour. Established as a settlement in 1869, it later became an important World War II base and was rebuilt after severe cyclone damage in 1974. Today the city feels laid-back and sun-soaked, with a bustling waterfront lined with cafés, a vibrant market selling fresh seafood and Indigenous art, and easy access to Kakadu and Litchfield national parks. The warm evenings are perfect for strolling along the esplanade, watching the sunset over the harbour and listening to the distant hum of cicadas.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "dtt": {
   "name": "Detroit",
@@ -825,6 +867,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-05"
  },
+ "hba": {
+  "name": "Hobart",
+  "text": "Hobart, the capital of Tasmania, sits on the sheltered estuary of the Derwent River at the foot of the rugged, snow-capped Mount Wellington. Founded in 1804 as a British penal settlement, it retains many historic sandstone buildings, most notably the 19th-century Battery Point precinct. Today the city blends maritime charm with a thriving food and arts scene: bustling Salamanca Market on Saturdays, waterfront cafés offering fresh seafood, and a short drive to the wild beauty of the Tasmanian wilderness. Visitors enjoy strolling along the historic docks, taking a cable-car to Mount Wellington’s summit, and exploring the lively galleries and festivals that give Hobart a modern, yet relaxed, character.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
+ },
  "het": {
   "name": "Hohhot",
   "text": "Hohhot, the capital of Inner Mongolia in northern China, sits on the gentle slopes of the Yulong Grasslands about 150 km south of the Great Wall’s Badaling section. Historically it was a key trading hub on the ancient caravan routes between China and Mongolia, flourishing under the Qing dynasty when it became the regional administrative centre. Today the city blends wide boulevards with traditional Mongolian yurts, offering bustling markets where you can sample roasted lamb and milk tea, modern museums that showcase nomadic culture, and leafy parks perfect for a leisurely stroll.",
@@ -845,6 +894,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-01"
+ },
+ "hiu": {
+  "name": "Honiara",
+  "text": "Honiara, the bustling capital of the Solomon Islands, sits on the northern coast of Guadalcanal Island where the lush interior meets the bright waters of the Pacific. The city grew around the wartime airfield that became a major Allied base during the 1942-44 Battle of Guadalcanal, a turning point in the Second World War. Today Honiara is a lively mix of markets, colourful colonial-era buildings and friendly locals; you can wander the bustling central market for fresh fruit and handicrafts, stroll along the waterfront promenade, and enjoy a relaxed atmosphere framed by tropical gardens and distant mountain views.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "hly": {
   "name": "Holyhead",
@@ -1259,6 +1315,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-13"
  },
+ "mel": {
+  "name": "Melbourne",
+  "text": "Melbourne, nestled on the southern coast of Australia at the meeting point of the Yarra River and Port Phillip Bay, is a vibrant, multicultural city renowned for its blend of historic charm and modern flair. Founded in 1835, it grew rapidly during the 1850s gold rush, which left a legacy of grand Victorian architecture and bustling laneways. Today visitors can wander its leafy gardens, explore world-class museums, and enjoy a coffee culture that rivals any European capital, while street art, live music and a lively sporting scene give the city an energetic, welcoming atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
+ },
  "mem": {
   "name": "Memphis",
   "text": "Memphis, Tennessee, lies on the mighty Mississippi River in the southwestern corner of the state, bordering Arkansas. Founded in 1819 and named after the ancient Egyptian city, it quickly became a crucial river port and a crossroads of American culture. Today the city buzzes with the legacy of blues and rock ’n’ roll: you can stroll down historic Beale Street, visit the iconic Graceland home of Elvis Presley, and explore the National Civil Rights Museum at the former Lorraine Motel. With its lively music venues, riverfront parks and famous barbecue, Memphis feels both steeped in history and unmistakably vibrant.",
@@ -1567,6 +1630,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "per": {
+  "name": "Perth",
+  "text": "Perth, the capital of Western Australia, sits on the banks of the Swan River, facing the Indian Ocean on the country’s vast west coast. Founded in 1829 as a free settlement, it grew around the port that once served the Swan River Colony’s early agricultural exports. Today the city blends sunny beaches, a lively riverfront café culture and expansive parklands such as Kings Park, which offers sweeping views of the skyline and the ocean beyond. Visitors can wander through bustling markets, explore Indigenous art galleries, and enjoy relaxed evenings watching the sunset over the water, all under a typically warm Mediterranean climate.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
+ },
  "phc": {
   "name": "Port Harcourt",
   "text": "Port Harcourt, the bustling capital of Rivers State in southern Nigeria, sits on the banks of the Bonny River near the Niger Delta. Founded in 1912 by the British colonial administration, it was named after Lewis Vernon Harcourt, the then Secretary of State for the Colonies, and later grew into a major hub for Nigeria’s oil industry. Today the city blends modern high-rise office blocks with lively markets, waterfront promenades and a vibrant music scene; visitors can sample spicy river-fish dishes, explore the nearby mangrove forests and feel the energetic pulse of a town that is both a commercial powerhouse and a cultural gateway to the Delta.",
@@ -1608,6 +1678,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-02"
+ },
+ "pnp": {
+  "name": "Pohnpei",
+  "text": "Pohnpei, the largest island of the Federated States of Micronesia, lies in the central Pacific about 2 500 km east of the Philippines and 3 000 km south of Hawaii. The island is famous for the ancient stone city of Nan Madol, a series of artificial islets built from basalt columns between the 13th and 17th centuries, which testifies to a sophisticated pre-colonial culture. Today visitors are greeted by lush tropical rainforest, dramatic waterfalls such as Sokehs and a vibrant local market in Kolonia where colourful stalls sell fresh fruit, handicrafts and friendly smiles, making Pohnpei a peaceful yet captivating destination.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "pnq": {
   "name": "Pune",
@@ -1657,6 +1734,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-15"
+ },
+ "pus": {
+  "name": "Busan",
+  "text": "Busan, South Korea’s bustling port city, sits on the southeastern tip of the Korean Peninsula, hugging the sea along a scenic coastline of golden beaches and rugged cliffs. It first grew into prominence in the late 19th century when the port was opened to foreign trade, laying the groundwork for its modern role as the country’s second-largest city. Today the streets pulse with a lively mix of towering skyscrapers, vibrant street food markets and tranquil temples, while the famous Haeundae Beach draws locals and tourists alike to soak up sun, savour fresh seafood and enjoy the lively nightlife that spills onto the waterfront.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "rak": {
   "name": "Marrakech",
@@ -1798,6 +1882,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-16"
  },
+ "sel": {
+  "name": "Seoul",
+  "text": "Seoul, the vibrant capital of South Korea, lies in the north-west of the Korean peninsula, straddling the Han River. Founded over six centuries ago, it became the seat of the Joseon dynasty in 1394 and retains historic sites such as Gyeongbokgung Palace, where royal ceremonies once unfolded. Today the city hums with a striking blend of ultra-modern skyscrapers, bustling street markets and tranquil temples, offering everything from cutting-edge technology districts to quiet tea houses. Efficient public transport makes it easy to explore neighbourhoods like Hong-dae and Insadong, each offering its own flavour of Korean culture and hospitality.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
+ },
  "sev": {
   "name": "Seville",
   "text": "Seville, situated on the banks of the Guadalquivir in the heart of Andalusia, was known to the Romans as Hispalis and later became the dazzling capital of Moorish Al-Andalus, its grand Giralda originally a minaret. Today the city blends its grand cathedral, the world’s largest Gothic church, with a lively tapas bar scene, bustling orange-tree lined plazas and nightly flamenco performances, while the annual Feria de Abril fills the streets with colour and music, making it a vibrant crossroads of history and modern Spanish life and warm hospitality for all.",
@@ -1930,6 +2021,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-17"
+ },
+ "syd": {
+  "name": "Sydney",
+  "text": "Sydney, Australia, lies on the east coast where the sparkling waters of Port Jackson meet the foothills of the Blue Mountains. First settled by Europeans in 1788 as a penal colony, it grew around the iconic harbour that today frames the gleaming sails of the Opera House and the towering steel arches of the Harbour Bridge. Visitors can stroll through bustling markets, relax on golden beaches such as Bondi, and enjoy a lively mix of world-class dining, cultural festivals and scenic walks through lush coastal parks, all under a generally sunny, relaxed atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "tao": {
   "name": "Qingdao",
@@ -2112,6 +2210,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "vli": {
+  "name": "Port Vila",
+  "text": "Port Vila, the capital of Vanuatu, sits on the sheltered harbour of Efate Island in the South Pacific, framed by lush hills and turquoise sea. Established as a British trading post in the 19th century, it later became the centre of the joint British-French Condominium before Vanuatu’s independence in 1980. Today the town bustles with colourful market stalls, friendly cafés and a mix of colonial and modern architecture, while nearby reefs invite snorkellers and the surrounding mountains offer scenic hikes; the warm, relaxed atmosphere makes it a welcoming gateway to the islands.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "vvi": {
   "name": "Santa Cruz",
@@ -2315,6 +2420,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
+ },
+ "zns": {
+  "name": "Zanzibar",
+  "text": "Zanzibar Town, often called Stone Town, sits on the western coast of Unguja, the main island of the Zanzibar archipelago off Tanzania’s mainland, where the Indian Ocean meets the historic spice routes. Founded centuries ago, it became a thriving Omani trading hub in the 19th century, its narrow alleys and coral-stone houses reflecting a blend of Arab, Persian, Indian and European influences. Today the town buzzes with vibrant markets, fragrant spice stalls and colourful dhows bobbing in the harbour, while its UNESCO-listed architecture invites leisurely walks through bustling lanes, lively cafés and lively music echoing from rooftop bars.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-18"
  },
  "zqn": {
   "name": "Queenstown",
