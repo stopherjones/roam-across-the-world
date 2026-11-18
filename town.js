@@ -269,6 +269,14 @@ function earnHtml(){
 // URL slug for a town name, as TasteAtlas uses in its city addresses:
 // "Hamilton, Bermuda" -> "hamilton", "Mayotte (Dzaoudzi)" -> "mayotte", "São Paulo" -> "sao-paulo".
 // Towns with no TasteAtlas page land on TasteAtlas's own "page not found" page, which links to the map.
+// A hand-set address for a town, from data/tasteatlas-overrides.js, wins over the generated slug.
+// The override is the part of the address after tasteatlas.com/, e.g. "bloemfontein-south-africa".
+function tileSlug(id){
+ return (typeof TASTE_OVERRIDES!=="undefined"&&TASTE_OVERRIDES[id])||null;
+}
+function tasteSlug(id){
+ return tileSlug(id)||slugOf(N[id].n);
+}
 function slugOf(name){
  return name.split(",")[0].split(" (")[0].normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
 }
@@ -340,7 +348,7 @@ function thingsHtml(){
  // Link-out search tiles. They open the site's own search for the town name; nothing is fetched or stored.
  // The search addresses are not checked against the live sites, so confirm them in a browser and edit here if they change.
  extra.push({emoji:"🧭",title:"Atlas Obscura",ext:true,href:"https://www.atlasobscura.com/search?q="+c});
- extra.push({emoji:"🍽️",title:"TasteAtlas",ext:true,href:"https://www.tasteatlas.com/"+slugOf(N[S.loc].n)});
+ extra.push({emoji:"🍽️",title:"TasteAtlas",ext:true,href:"https://www.tasteatlas.com/"+tasteSlug(S.loc)});
  // YouTube search for "A day in {town}". A plain link out, like Atlas Obscura: no key, no data stored.
  extra.push({emoji:"🎬",title:"YouTube",ext:true,href:"https://www.youtube.com/results?search_query="+encodeURIComponent("A day in "+N[S.loc].n).replace(/%20/g,"+")});
  // Your own search links from Settings, as tiles too.
