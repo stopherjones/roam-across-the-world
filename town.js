@@ -274,6 +274,20 @@ function earnHtml(){
 function tileSlug(id){
  return (typeof TASTE_OVERRIDES!=="undefined"&&TASTE_OVERRIDES[id])||null;
 }
+// Overrides: a string replaces the generated address; false hides the tile for that town.
+function tasteTile(){
+ return !(typeof TASTE_OVERRIDES!=="undefined"&&TASTE_OVERRIDES[S.loc]===false);
+}
+function atlasTile(){
+ return !(typeof ATLAS_OVERRIDES!=="undefined"&&ATLAS_OVERRIDES[S.loc]===false);
+}
+// For Atlas Obscura the override is a search term, or a full address starting with https://.
+function atlasHref(){
+ var o=typeof ATLAS_OVERRIDES!=="undefined"?ATLAS_OVERRIDES[S.loc]:null;
+ if(typeof o==="string"&&o.indexOf("https://")===0)return o;
+ var term=typeof o==="string"&&o?o:N[S.loc].n;
+ return "https://www.atlasobscura.com/search?q="+encodeURIComponent(term).replace(/%20/g,"+");
+}
 function tasteSlug(id){
  return tileSlug(id)||slugOf(N[id].n);
 }
@@ -336,7 +350,7 @@ function thingsHtml(){
  var core=[
   {full:"Discover the local music scene",emoji:"🎵",title:"Music",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"},
   {full:"Discover the local sports scene",emoji:"⚽",title:"Sport",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"},
-  {full:"Explore local folklore and legends",emoji:"📜",title:"Folklore",href:"https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"}
+  {full:"Explore local folklore and legends",emoji:"📜",title:"Folklore",ext:true,href:"https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"}
  ].filter(function(t){return thingOn(t.full)});
  // Themes with data for this town. Paintings always comes from the paintings data; other themes (e.g. UNESCO) go here too.
  var pics=(typeof PAINTINGS!=="undefined"&&PAINTINGS[S.loc])||[];
@@ -347,10 +361,10 @@ function thingsHtml(){
  extra.push({emoji:"🌿",title:"Nature",onclick:"natureOpen('"+S.loc+"')"});
  // Link-out search tiles. They open the site's own search for the town name; nothing is fetched or stored.
  // The search addresses are not checked against the live sites, so confirm them in a browser and edit here if they change.
- extra.push({emoji:"🧭",title:"Atlas Obscura",ext:true,href:"https://www.atlasobscura.com/search?q="+c});
- extra.push({emoji:"🍽️",title:"TasteAtlas",ext:true,href:"https://www.tasteatlas.com/"+tasteSlug(S.loc)});
- // YouTube search for "A day in {town}". A plain link out, like Atlas Obscura: no key, no data stored.
- extra.push({emoji:"🎬",title:"YouTube",ext:true,href:"https://www.youtube.com/results?search_query="+encodeURIComponent("A day in "+N[S.loc].n).replace(/%20/g,"+")});
+ if(atlasTile())extra.push({emoji:"🧭",title:"Atlas Obscura",ext:true,href:atlasHref()});
+ if(tasteTile())extra.push({emoji:"🍽️",title:"TasteAtlas",ext:true,href:"https://www.tasteatlas.com/"+tasteSlug(S.loc)});
+ // YouTube search for "{town} Must See". A plain link out, like Atlas Obscura: no key, no data stored.
+ extra.push({emoji:"🎬",title:"A day in... videos",ext:true,href:"https://www.youtube.com/results?search_query="+encodeURIComponent(N[S.loc].n+" Must See").replace(/%20/g,"+")});
  // Your own search links from Settings, as tiles too.
  customLinks(N[S.loc].n).forEach(function(l){extra.push({emoji:"🔗",title:l[0],href:l[2]})});
  var tiles=core.concat(extra);
