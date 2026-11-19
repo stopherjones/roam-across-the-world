@@ -114,11 +114,18 @@ function clean(text) {
 //   - Banned phrase: "join us". Add more here if needed, but only where a word
 //     truly doesn't belong; each ban can cause a rejection.
 // ----------------------------------------------------------------------------
+// Compare names ignoring accents, case, apostrophes and other punctuation,
+// so "Nouméa" matches "Noumea" and "Nuku'alofa" matches "Nukualofa".
+function plain(s) {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
 function check(text, name) {
   const words = text.split(/\s+/).length;
   if (words < 60 || words > 130) return "length " + words + " words";
   const names = [name.split(",")[0].split(" (")[0], (name.match(/\(([^)]+)\)/) || [])[1]].filter(Boolean);
-  if (!names.some(n => text.toLowerCase().startsWith(n.toLowerCase().slice(0, 6)))) return "does not start with the town name";
+  const opening = plain(text).slice(0, 12);
+  if (!names.some(n => opening.startsWith(plain(n).slice(0, 6)))) return "does not start with the town name";
   if (/join us/i.test(text)) return "contains 'join us'";
   return null;
 }

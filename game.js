@@ -968,7 +968,7 @@ function animRoute(){
 function arrivalPrefetch(){
  var g=N[S.goal];
  if(S.lmOn&&g.l&&window.LM&&LM.prefetch)LM.prefetch({name:g.n,lat:g.la,lon:g.lo,landmark:g.l});
- prefetchMarket();
+ 
 }
 // Arriving by berth: the usual arrival card, with the crossing note in place of the on-time line and no checkpoint
 // Lines for a crossing, picked so the same stop does not always get the same words
