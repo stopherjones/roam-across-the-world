@@ -358,7 +358,11 @@
  },
  "bdo": {
   "name": "Bandung",
+<<<<<<< HEAD
   "text": "Bandung, nestled on the volcanic plateau of West Java at about 750 metres above sea-level, is famed for its cool climate and lush surrounding tea fields. In 1955 the city hosted the historic Asian-African Conference, marking a milestone in post-colonial diplomacy, and many elegant Art-Deco buildings from that era still line its streets. Today visitors wander its bustling markets, sip coffee in chic cafés, and explore nearby attractions such as the volcanic crater of Tangkuban Perahu or the colourful streets of the historic Braga neighbourhood, all while enjoying the refreshing mountain air and a vibrant, youthful atmosphere.",
+=======
+  "text": "Bandung, nestled in the cool highlands of West Java about 180 km southeast of Jakarta, is a bustling university city framed by volcanoes and tea plantations. It first gained prominence in the early 20th century as the site of the 1955 Asian–African Conference, a landmark meeting of newly independent nations. Today the streets hum with a lively mix of modern cafés, art galleries and colonial-era architecture, while the surrounding hills offer fresh air and scenic drives. Visitors can wander the vibrant Pasar Baru market, sip a cup of locally grown coffee, and enjoy the pleasant climate that earned it the nickname “Paris of Java”.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -1352,7 +1356,11 @@
  },
  "fuk": {
   "name": "Fukuoka",
+<<<<<<< HEAD
   "text": "Fukuoka, located on the northern shore of Kyushu’s largest island, greets visitors with a blend of modern energy and relaxed coastal charm. Historically, it was the landing point for the Mongol invasions of 1274 and 1281, events that led to the famous “kamikaze” winds that repelled the fleets. Today the city hums with bustling shopping streets such as Tenjin, tranquil riverside parks, and a lively yatai food-stall scene where you can sample Hakata ramen straight from the broth-rich stalls. With its efficient subway, friendly locals and easy access to nearby beaches, Fukuoka feels both comfortably urban and refreshingly laid-back.",
+=======
+  "text": "Fukuoka, a vibrant city on the northern shore of Kyushu island, sits at the mouth of the Naka River and faces the open sea of Hakata Bay. Historically it was the gateway for early trade with the Asian mainland and the site of the 1274 and 1281 Mongol invasions, events that shaped its defensive walls and spirit. Today the city blends modern skylines with cosy yatai stalls serving ramen and yakitori, while the bustling Tenjin district offers shopping, art galleries and quiet temples, making a visit feel both lively and warmly welcoming.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -1707,6 +1715,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
+<<<<<<< HEAD
  "jai": {
   "name": "Jaipur",
   "text": "Jaipur, the capital of Rajasthan in north-western India, sits about 260 km south of Delhi on the edge of the Aravalli Range. Founded in 1727 by Maharaja Sawai Jaipal, it was one of the first planned cities in India, laid out on a grid of broad streets and adorned with pink-hued stone buildings, which earned it the nickname “The Pink City”. Today the bustling metropolis blends historic forts, palaces and vibrant bazaars with modern cafés, hotels and a lively arts scene, offering visitors a colourful mix of heritage and contemporary Indian life.",
@@ -1731,6 +1740,11 @@
  "jkt": {
   "name": "Jakarta",
   "text": "Jakarta, Indonesia’s bustling capital, sits on the north-west coast of the island of Java, straddling the Java Sea. Founded by the Dutch in the early 17th century as Batavia, it served as the administrative centre of the Dutch East Indies and retains historic colonial architecture in the old town of Kota Tua. Today the city is a vibrant mix of towering skyscrapers, colourful markets and modern cafés, where you can savour street-food satay beside sleek shopping malls, and explore museums that trace the nation’s rich past while the lively traffic and warm, humid air remind you you’re in a truly dynamic metropolis.",
+=======
+ "jkt": {
+  "name": "Jakarta",
+  "text": "Jakarta, the bustling capital of Indonesia, sits on the north-west coast of Java at the mouth of the Ciliwung River. Founded in the early 16th century as Batavia, it became the administrative centre of the Dutch East Indies and retains many colonial buildings such as the old city hall and the Wayang Museum. Today the city is a lively mix of skyscrapers, vibrant markets and street-food stalls, where you can sample sizzling satay, explore the historic Kota Tua district and cruise the glittering skyline from a rooftop bar while the tropical heat hums around you.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -1744,7 +1758,11 @@
  },
  "jog": {
   "name": "Yogyakarta",
+<<<<<<< HEAD
   "text": "Yogyakarta, often simply called Yogyakarta, lies on the island of Java in central Indonesia, perched between the volcanic peaks of Merapi and Merbabu. It was the capital of the Mataram Sultanate and later the seat of Indonesia’s revolutionary government in 1945, giving it a rich blend of Javanese heritage and modern nation-building history. Today the city buzzes with lively streets lined with batik workshops, street food stalls and the sprawling campus of Gadjah Mada University, while the nearby Sultan’s Palace (Kraton) offers tranquil gardens and traditional performances, making a visit feel both cultural and comfortably contemporary.",
+=======
+  "text": "Yogyakarta, nestled on the island of Java in central Indonesia, sits between the volcanic peaks of Mount Merapi and Mount Merbabu and serves as the cultural heart of the nation. Historically it was the seat of the Mataram Sultanate and later became the capital of the Indonesian Republic during the struggle for independence in the 1940s. Today the city blends tradition with youthful energy: you can wander the bustling streets of Malioboro, admire the majestic Sultan’s Palace, and explore nearby ancient temples such as Borobudur and Prambanan, while cafés, art galleries and street performers give the town a lively, welcoming vibe.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -1756,6 +1774,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+<<<<<<< HEAD
  "jrs": {
   "name": "Jerusalem",
   "text": "Jerusalem, Israel – nestled in the hills of the Judean Mountains between the Mediterranean Sea and the Dead Sea, this ancient city sits at the crossroads of three continents and three major religions. It has been continuously inhabited for millennia and was the capital of the Kingdom of Israel under King David, a fact recorded in biblical and archaeological sources. Today the Old City’s stone walls enclose bustling markets, sacred sites such as the Western Wall and the Church of the Holy Sepulchre, and winding alleyways where the scent of spices mingles with the hum of tourists and locals alike, offering a vivid blend of history, culture and modern Middle-Eastern life.",
@@ -1773,6 +1792,11 @@
  "jyp": {
   "name": "Jayapura",
   "text": "Jayapura, perched on the north-eastern tip of the island of New Guinea, is the bustling capital of Indonesia’s Papua province and the easternmost city of the country. It grew from a modest Dutch outpost called Hollandia, which served as a key Allied base during World War II before the town was renamed after Indonesian independence. Today the city greets visitors with a tropical climate, colourful markets selling fresh tropical fruit and handicrafts, and sweeping views of the Pacific Ocean and the towering Cyclops Mount. A short drive takes you to pristine beaches, traditional villages and the remarkable biodiversity of the nearby rainforest, making Jayapura a lively gateway to the cultural and natural wonders of Papua.",
+=======
+ "jyp": {
+  "name": "Jayapura",
+  "text": "Jayapura sits at the far eastern tip of Indonesia, perched on the north-east coast of New Guinea where the Pacific Ocean meets the foothills of the Cyclops Mountains. Founded as the Dutch outpost of Hollandia in 1910, it later became the gateway for Allied forces during World War II. Today the city blends tropical heat with a laid-back vibe: colourful markets overflow with fresh tropical fruit, the waterfront promenade offers sweeping sea views, and the nearby mountain trails invite easy hikes to waterfalls and panoramic lookouts. Visitors enjoy a mix of modern cafés, historic war relics and the warm hospitality of the Papuan people.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -1980,6 +2004,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-09"
  },
+<<<<<<< HEAD
  "kut": {
   "name": "Kutaisi",
   "text": "Kutaisi, nestled on the banks of the Rioni River in western Georgia, is the historic capital of the Imereti region and one of the country’s oldest settlements. It once served as a royal seat in the medieval Kingdom of Georgia and is famed for the 12th-century Bagrati Cathedral and the nearby Gelati Monastery, both UNESCO World Heritage sites. Today the city buzzes with lively markets, cosy coffee houses and vibrant street art, while easy bus routes whisk visitors to striking natural attractions such as the Sataplia and Prometheus caves, making Kutaisi a charming blend of history and modern Georgian hospitality.",
@@ -2018,6 +2043,11 @@
  "lae": {
   "name": "Lae",
   "text": "Lae, perched on the coastal plain where the Markham River meets the Bismarck Sea, is the bustling capital of Papua New Guinea’s Morobe Province and the country’s second-largest city. Founded in the 1920s as a colonial administrative centre, it grew rapidly during World War II when Allied forces used it as a major supply base after the 1943 liberation. Today the town hums with a lively mix of market stalls, motorbike traffic and cafés spilling onto the streets, while nearby waterfalls and the scenic highlands offer easy day-trip escapes for curious travellers.",
+=======
+ "lae": {
+  "name": "Lae",
+  "text": "Lae, the bustling port city on the north-eastern coast of Papua New Guinea, sits at the mouth of the Markham River where it empties into the Huon Gulf and serves as the capital of Morobe Province. It grew rapidly after World War II when Australian forces liberated the town from Japanese occupation in 1944, turning it into a key logistical hub for the country’s post-war development. Today visitors find a lively market full of fresh tropical produce, friendly locals, and easy access to the scenic highlands and rainforest treks, all framed by a warm, humid climate and a relaxed, cosmopolitan vibe.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -2353,7 +2383,11 @@
  },
  "mdan": {
   "name": "Medan",
+<<<<<<< HEAD
   "text": "Medan, the bustling capital of North Sumatra, lies on the island’s northeastern plain, flanked by the lush Bukit Lawang hills and the coast of the Strait of Malacca. Founded in the late 19th century as a key outpost of the Dutch East Indies, the city grew around the historic Great Mosque of Medan, completed in 1906, which still dominates the skyline. Today Medan offers a vibrant mix of colonial architecture, bustling markets brimming with spices and coffee, and easy access to nearby attractions such as the volcanic lake of Toba, making it a lively gateway for curious travellers.",
+=======
+  "text": "Medan, the bustling capital of North Sumatra, lies on the east coast of the island near the Strait of Malacca and is framed by the volcanic peaks of Mount Sinabung and Mount Toba. The city grew from a modest settlement of the Sultanate of Deli in the early-1600s and later flourished as a Dutch colonial trading hub, especially for tobacco and rubber. Today Medan is a lively mix of modern malls, bustling street markets and elegant colonial-era buildings; its famed culinary scene offers everything from spicy Padang fare to Chinese-Indonesian specialties, while the surrounding countryside provides easy access to stunning lakes and rainforest trails.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -2701,6 +2735,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-10"
  },
+<<<<<<< HEAD
  "nco": {
   "name": "Nicosia",
   "text": "Nicosia, the capital of Cyprus, sits in the centre of the island on the banks of the Pedieos River, straddling the dividing line between the Greek-Cypriot south and the Turkish-Cypriot north. First mentioned in medieval chronicles, the city became the island’s administrative heart in the 15th century and later served as the seat of the Ottoman governor. Today the walled old town, with its narrow stone lanes and bustling market, invites visitors to wander past historic churches, the 16th-century Leventis Municipal Museum and lively cafés, while the modern streets outside offer sleek shops, lively tavernas and a vibrant cultural scene.",
@@ -2725,6 +2760,11 @@
  "ngo": {
   "name": "Nagoya",
   "text": "Nagoya, situated in the heart of Japan’s Chūbu region on the island of Honshū, lies between Osaka and Tokyo along the fertile Nōbi Plain and the coast of Ise Bay. The city grew around Nagoya Castle, erected in 1612 by Tokugawa Ieyasu’s son Tokugawa Yoshinao as a strategic stronghold of the Owari branch of the shogunate. Today Nagoya blends its rich heritage with a vibrant, modern vibe: sleek skyscrapers tower over bustling shopping arcades, the famed miso-katsu and tebasaki chicken tempt food lovers, and easy access to museums, gardens and the nearby historic post towns makes it a welcoming base for exploring central Japan.",
+=======
+ "ngo": {
+  "name": "Nagoya",
+  "text": "Nagoya, situated in the heart of Japan’s Chūbu region on the island of Honshū, lies between Kyoto and Tokyo along the mighty Nōbi Plain. It grew around Nagoya Castle, which was first built in 1610 by the powerful Tokugawa shogunate and remains a symbol of the city’s samurai heritage. Today Nagoya buzzes with a mix of sleek skyscrapers, bustling shopping arcades and a surprisingly relaxed riverfront where you can sample famous dishes such as miso-katsu and hitsumabushi. Efficient public transport makes it easy to explore its modern museums, historic temples and lively nightlife.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -2827,6 +2867,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-14"
  },
+<<<<<<< HEAD
  "ods": {
   "name": "Odesa",
   "text": "Odesa, a bustling port city on the north-western coast of the Black Sea in southern Ukraine, sits where the Dniester River meets the water. Founded in 1794 by the Russian Empire, it quickly became a major trading hub and is famous for its 19th-century architecture, including the grand Potemkin Stairs that lead down to the harbour. Today Odesa charms visitors with its lively promenade, sunny beaches and a vibrant café culture where locals chat over coffee and fresh fish. The city’s multicultural vibe is evident in its lively markets, street art and the melodic echo of sea shanties that drift from the waterfront taverns.",
@@ -2837,6 +2878,11 @@
  "oka": {
   "name": "Naha",
   "text": "Naha, the capital city of Okinawa Prefecture, sits on the southern coast of Okinawa Island and faces the East China Sea. It grew around Shuri Castle, the historic seat of the Ryukyu Kingdom, which was destroyed in World War II and later reconstructed as a UNESCO World Heritage site. Today Naha blends tradition and modernity: narrow, colourful streets of Kokusai Dori offer bustling markets, tasty Okinawan dishes and souvenir stalls, while the waterfront promenade provides a relaxed place to watch ferries and enjoy tropical sunsets. The city’s warm climate, friendly locals and mix of heritage sites make it a lively gateway to Japan’s southern islands.",
+=======
+ "oka": {
+  "name": "Naha",
+  "text": "Naha, the capital of Okinawa Prefecture, lies on the southern coast of Okinawa Island and serves as the gateway to the Ryukyu archipelago. Founded as the seat of the Ryukyu Kingdom, the city still bears the legacy of its royal past, most notably in the stone walls and the remains of Shuri Castle that once housed the kingdom’s monarchs. Today Naha is a lively blend of tradition and modernity: bustling Kokusai-dori street offers colourful markets, local eateries and souvenir shops, while the tranquil waterfront promenade provides views of the East China Sea and easy access to historic sites, making a stroll feel both contemporary and steeped in heritage.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -2855,6 +2901,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+<<<<<<< HEAD
  "oms": {
   "name": "Omsk",
   "text": "Omsk, a large city in southwestern Siberia, sits on the banks of the Irtysh River near the junction with the Om River, about 2 500 km east of Moscow. Founded in 1716 as a fortress on the Russian frontier, it later became an important trading hub on the Siberian route and served as a temporary capital of the anti-Bolshevik White movement during the Russian Civil War. Today Omsk offers a blend of wide, tree-lined avenues, striking Soviet-era architecture and lively riverfront promenades; visitors can explore the ornate wooden cathedral of St. Nicholas, the regional museum of fine arts, and enjoy the bustling cafés and markets that give the city a warm, modern feel despite its remote location.",
@@ -2879,6 +2926,11 @@
  "osh": {
   "name": "Osh",
   "text": "Osh sits in the fertile Ferghana Valley of southern Kyrgyzstan, cradled by the foothills of the Alai Range and close to the borders with Uzbekistan and Tajikistan. It is one of the country’s oldest settlements, with a history that stretches back over three millennia and a long-standing role as a bustling stop on the Silk Road. Today the town buzzes with lively bazaars where traders sell everything from fresh apricots to hand-woven felt, while the nearby Sulayman Mountain, a UNESCO-listed sacred site, offers panoramic views and a glimpse of the region’s layered past.",
+=======
+ "osa": {
+  "name": "Osaka",
+  "text": "Osaka, located on Japan’s main island of Honshū along the sheltered bay of Osaka Bay, is a bustling commercial hub famed for its vibrant street life and hearty cuisine. Historically it was the capital of Japan during the brief but influential rule of Toyotomi Hideyoshi in the late 16th century, when Osaka Castle was constructed as his grand stronghold. Today the city blends ultra-modern skyscrapers such as the Umeda Sky Building with lively neighbourhoods like Dōtonbori, where neon lights reflect off the canal and stalls serve takoyaki and okonomiyaki. Visitors can explore historic temples, shop in sprawling department stores, and enjoy a welcoming atmosphere that feels both energetic and comfortably familiar.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -3039,7 +3091,11 @@
  },
  "plm": {
   "name": "Palembang",
+<<<<<<< HEAD
   "text": "Palembang lies on the east bank of the mighty Musi River in South Sumatra, Indonesia, and is the province’s bustling capital. It was the heart of the powerful Srivijaya maritime empire that dominated regional trade from the 7th to the 13th century, leaving a legacy of impressive stone stelae and temple ruins nearby. Today the city blends old and new: you can stroll along riverfront promenades, admire the striking red-painted arches of the Ampera Bridge, and sample famous local dishes such as pempek while the lively night markets buzz with colour and the scent of fresh seafood.",
+=======
+  "text": "Palembang lies on the great Musi River in South Sumatra, Indonesia, and is the province’s bustling capital. It was the heart of the powerful Srivijaya maritime empire that flourished from the 7th to the 13th centuries, leaving a legacy of impressive Buddhist stone carvings and historic canals. Today the city blends modern high-rises with colonial-era architecture, and you can wander the lively riverside promenade, snap photos of the striking yellow-green arches of the Ampera Bridge, and sample the famous fish cake pempek at bustling street stalls, all while feeling the warm, laid-back rhythm of everyday life.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -3102,7 +3158,11 @@
  },
  "pom": {
   "name": "Port Moresby",
+<<<<<<< HEAD
   "text": "Port Moresby, the bustling capital of Papua New Guinea, sits on the southern coast of the island at the edge of the Gulf of Papua, framed by low hills and a harbour that once sheltered colonial steamers. It was first charted by the British naval officer Captain John Moresby in 1873, after whom the town is named, and later became the administrative centre of the Australian-administered Territory of New Guinea. Today the city offers a warm, humid climate, colourful markets where you can haggle for hand-woven bilums, the National Museum and Art Gallery showcasing indigenous art, and a leafy nature park where parrots and tree kangaroos roam, all set against a lively waterfront that blends modern cafés with traditional island hospitality.",
+=======
+  "text": "Port Moresby, the bustling capital of Papua New Guinea, sits on the southeastern coast of the island’s mainland at the mouth of the Moresby River and looks out over the sheltered harbor of Simpson Harbour. Founded in the late 19th century, it became the administrative centre after the colony of British New Guinea was proclaimed in 1884. Today the city blends modern high-rise buildings with lively markets, offering colourful street food, vibrant art galleries and easy access to nearby rainforest reserves such as the Varirata National Park, making it a warm and adventurous gateway for visitors.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -3180,6 +3240,13 @@
  "qta": {
   "name": "Quetta",
   "text": "Quetta, perched on a plateau in the south-western province of Balochistan, lies about 30 kilometres east of the Afghan border and 1,680 metres above sea level, giving it a surprisingly cool climate for the region. The city grew around a British Indian Army garrison and was severely damaged by the great earthquake of 1935, an event that led to extensive rebuilding and the distinctive colonial-era architecture that still dots its streets. Today visitors find a bustling market famous for fresh fruit and dry fruits, colourful bazaars selling traditional crafts, and easy access to striking limestone hills such as the Hazarganji-Chiltan National Park, making Quetta a rewarding mix of history, culture and natural beauty.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-19"
+ },
+ "pyg": {
+  "name": "Pyongyang",
+  "text": "Pyongyang, the capital city of the Democratic People’s Republic of Korea, lies on the western edge of the Korean Peninsula along the Taedong River. Established as the capital of North Korea in 1948, it was the site of the 1950-51 Korean War battles that left much of the city rebuilt in a monumental socialist style. Today visitors can explore wide avenues lined with towering statues, the striking Juche Tower and the historic Kumsusan Palace of the Sun, though travel is tightly organised and only possible with an approved guide; the atmosphere feels orderly, with a blend of impressive architecture, well-kept public spaces and a palpable sense of state pride.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -3520,6 +3587,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-04"
  },
+<<<<<<< HEAD
  "spb": {
   "name": "St Petersburg",
   "text": "St Petersburg sits on the banks of the Neva River at the head of the Gulf of Finland, in north-western Russia, about 650 km west of Moscow. Founded by Peter the Great in 1703, it quickly became the imperial capital and a showcase of European architecture, exemplified by the Winter Palace and the network of canals that earned it the nickname “the Venice of the North”. Today the city dazzles visitors with its golden-dome cathedrals, world-class museums such as the Hermitage, bustling Nevsky Prospect and lively riverfront cafés, offering a blend of grand history and vibrant modern life.",
@@ -3530,6 +3598,11 @@
  "spk": {
   "name": "Sapporo",
   "text": "Sapporo, the capital of Hokkaido in northern Japan, lies on a broad plain flanked by the Ishikari River and the surrounding mountains. Established as a centre for agricultural development in the late 19th century, the city grew rapidly after the 1871 land-grant policy that encouraged settlers from the mainland, and it later hosted the first Winter Olympics in 1972. Today Sapporo dazzles visitors with its tidy streets, fragrant ramen stalls, expansive parks and the famous snow festival, where towering ice sculptures light up the winter evenings, while summer offers cool breezes and easy access to nearby ski resorts.",
+=======
+ "spk": {
+  "name": "Sapporo",
+  "text": "Sapporo, the capital of Hokkaido, lies on the western side of Japan’s northern island, nestled between the Ishikari River and the foothills of the Shiribeshi Mountains. Founded in the late 19th century as a centre for the government’s Hokkaido Development Commission, the city grew around a grid-like street plan that still gives it a distinctly modern feel. Today Sapporo dazzles visitors with its vibrant blend of snowy winter festivals, lively ramen alleys, and spacious parks such as Odori, where the famous Snow Festival sculptures appear each February. The efficient subway, friendly locals and crisp, clean air make it a welcoming gateway to both urban culture and the great outdoors.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -3613,7 +3686,11 @@
  },
  "sub": {
   "name": "Surabaya",
+<<<<<<< HEAD
   "text": "Surabaya, Indonesia’s bustling port city on the north-eastern coast of Java, lies where the Mahakam River meets the sea. It earned a place in history as the centre of the 1945 Battle of Surabaya, a pivotal fight for independence that left a legacy of pride still visible in its monuments and museums. Today the city blends colonial architecture with modern skyscrapers, offering lively markets, delicious street food such as satay and rawon, and a vibrant waterfront promenade where you can watch ships drift by and feel the energetic rhythm of everyday life.",
+=======
+  "text": "Surabaya, Indonesia’s second-largest city, sits on the northern coast of East Java facing the Madura Strait. It grew from a Dutch trading port into a pivotal centre of the Indonesian independence movement, most famously the site of the fierce Battle of Surabaya in 1945. Today the city buzzes with a lively blend of old and new: colonial-era buildings line the historic waterfront, vibrant markets and street food stalls offer local delicacies such as rujak cingur, and modern malls and cafés sit beside bustling fish harbours. Visitors enjoy a warm, bustling atmosphere and easy access to nearby cultural sites and beaches.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -3928,7 +4005,11 @@
  },
  "tyo": {
   "name": "Tokyo",
+<<<<<<< HEAD
   "text": "Tokyo, Japan’s bustling capital, sits on the eastern coast of the island of Honshu where the Sumida River meets Tokyo Bay. Once a small fishing village called Edo, it became the seat of the Tokugawa shogunate in the early 1600s and was renamed Tokyo, meaning “Eastern Capital”, when the emperor moved there in 1868. Today the city blends towering skyscrapers, neon-lit districts such as Shibuya and historic sites like the Meiji Shrine, offering a seamless mix of ultra-modern technology, vibrant street food and tranquil gardens that make every stroll feel both exciting and surprisingly calm.",
+=======
+  "text": "Tokyo, Japan’s bustling capital, sits on the eastern side of the island of Honshu where the mighty Sumida River meets Tokyo Bay. Historically, it was the modest fishing village of Edo before becoming the seat of the Tokugawa shogunate in the early 1600s and later the imperial capital in 1868. Today the city blends ultra-modern skyscrapers, neon-lit districts such as Shibuya and Shinjuku, and tranquil gardens like the Imperial Palace East Gardens. Visitors can savour world-class sushi, explore historic temples, and experience a seamless mix of tradition and cutting-edge technology that makes Tokyo uniquely vibrant.",
+>>>>>>> 3daa495a1bb87c5367c4bd51cd03d8a06bc67795
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
