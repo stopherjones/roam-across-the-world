@@ -31,26 +31,45 @@ function pickLandmark(list,level){
  var n=list.length,slice=level=="easy"?list.slice(0,Math.min(8,n)):level=="hard"?list.slice(Math.floor(n/2)):list.slice(0,Math.min(25,n));
  if(!slice.length)slice=list;return slice[Math.floor(Math.random()*slice.length)]
 }
-// Wikipedia's geosearch allows a radius of at most 10 km per request, so a wider area
-// is covered by asking around the town: the centre plus four points about 15 km away.
-// Results are merged by page id, so a photo found twice only counts once.
+// Photo search in tiers: 5 km around the town, then 10 km, then about 25 km. It stops at the first radius
+// with at least LM_MIN_PHOTOS usable photos. Wikipedia's geosearch allows at most 10 km per request, so the
+// 25 km tier is the centre plus four points 15 km out, each searched at 10 km, merged by page id.
+var LM_RADII=[5,10,25],LM_MIN_PHOTOS=5;
 function landmarkCentres(lat,lon){
  var dLat=15/111, dLon=15/(111*Math.max(0.2,Math.cos(lat*Math.PI/180)));
  return [[lat,lon],[lat+dLat,lon],[lat-dLat,lon],[lat,lon+dLon],[lat,lon-dLon]];
 }
-function getLandmark(city,level){
- var lat=city[2],lon=city[3];
- var reqs=landmarkCentres(lat,lon).map(function(c){
-  return fetch(wikiQuery(c[0],c[1],10000)).then(function(r){return r.json()}).catch(function(){return {}});
- });
+// Usable photos within radius r (km) of the town centre, most viewed first.
+function landmarksWithin(lat,lon,rKm){
+ var reqs=rKm<=10
+  ?[fetch(wikiQuery(lat,lon,rKm*1000)).then(function(r){return r.json()}).catch(function(){return {}})]
+  :landmarkCentres(lat,lon).map(function(c){
+    return fetch(wikiQuery(c[0],c[1],10000)).then(function(r){return r.json()}).catch(function(){return {}});
+   });
  return Promise.all(reqs).then(function(results){
   var pages={};
   results.forEach(function(j){var pg=(j&&j.query&&j.query.pages)||{};Object.keys(pg).forEach(function(k){pages[k]=pg[k]})});
-  var l=parseLandmarks({query:{pages:pages}});
-  // Too few usable photos even across the wider area: the caller skips the last mile.
-  if(l.length<5){var e=new Error("Too few landmarks");e.noLandmarks=true;throw e}
-  var c=pickLandmark(l,level);c.all=l;return c;
+  return parseLandmarks({query:{pages:pages}});
  });
+}
+// Mixed: a random pick from the top 25 most viewed photos (pickLandmark, level "mixed").
+function getLandmark(city,level){
+ var lat=city[2],lon=city[3];
+ var found=[];
+ function step(i){
+  if(i>=LM_RADII.length){
+   // Nothing usable anywhere: use the widest tier that had any, otherwise skip the last mile.
+   var any=null;for(var k=found.length-1;k>=0;k--)if(found[k].length){any=found[k];break}
+   if(!any){var e=new Error("Too few landmarks");e.noLandmarks=true;throw e}
+   var c=pickLandmark(any,"mixed");c.all=any;return c;
+  }
+  return landmarksWithin(lat,lon,LM_RADII[i]).then(function(l){
+   found.push(l);
+   if(l.length>=LM_MIN_PHOTOS){var c=pickLandmark(l,"mixed");c.all=l;return c}
+   return step(i+1);
+  });
+ }
+ return step(0);
 }
 
 // ---- Clue layers: icon-only POI categories (no names) and a dots layer of nearby notable places, bought with time
