@@ -360,7 +360,7 @@ function thingsHtml(){
  tileCss();
  var q=function(s){return encodeURIComponent(s).replace(/%20/g,"+")},c=q(N[S.loc].n);
  var core=[
-  {full:"Discover the local music scene",emoji:"🎵",title:"Music",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"},
+  {full:"Discover the local music scene",emoji:"🎵",title:"Music",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+of+artists+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"},
   {full:"Discover the local sports scene",emoji:"⚽",title:"Sport",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"},
   {full:"Explore local folklore and legends",emoji:"📜",title:"Folklore",ext:true,href:"https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"}
  ].filter(function(t){return thingOn(t.full)});
