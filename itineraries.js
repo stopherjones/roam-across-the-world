@@ -4,7 +4,7 @@
 // ITIN_CANDS: for each leg, one shortlist per interim stop. The player picks from the shortlist on time;
 // otherwise an interim stop is drawn at random from it. Interim stops are checkpoints too.
 var ITIN_CANDS={
- "lon>ath":[["muc","zrh","str","mil","vie","ven"]],
+ "lon>ath":[["muc","zrh","sxb","mil","vie","ven"]],
  "ath>bak":[["ank","alp"]],
  "tsh>sha":[["del","lhe","isl"],["ktm","ccu","dac"],["ctu","ckg","xia"]],
  "sha>pnh":[["hkg","mfm","han"]],

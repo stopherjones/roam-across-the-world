@@ -639,7 +639,7 @@
   "model": "gemini-3.5-flash-lite",
   "generated": "2026-11-19"
  },
- "dzo": {
+ "dza": {
   "name": "Mayotte (Dzaoudzi)",
   "profile": {
    "weights": {
@@ -719,7 +719,7 @@
   "model": "gemini-3.5-flash-lite",
   "generated": "2026-11-19"
  },
- "hmn": {
+ "bda": {
   "name": "Hamilton, Bermuda",
   "profile": {
    "weights": {
@@ -10023,7 +10023,7 @@
   "model": "gemini-3.5-flash-lite",
   "generated": "2026-11-19"
  },
- "ros": {
+ "xro": {
   "name": "Roscoff",
   "profile": {
    "weights": {
@@ -10263,7 +10263,7 @@
   "model": "gemini-3.5-flash-lite",
   "generated": "2026-11-19"
  },
- "str": {
+ "sxb": {
   "name": "Strasbourg",
   "profile": {
    "weights": {
@@ -33487,7 +33487,7 @@
   "model": "gemini-3.5-flash-lite",
   "generated": "2026-11-19"
  },
- "krr": {
+ "kja": {
   "name": "Krasnoyarsk",
   "profile": {
    "weights": {
@@ -40127,7 +40127,7 @@
   "model": "gemini-3.5-flash-lite",
   "generated": "2026-11-19"
  },
- "dus": {
+ "dyu": {
   "name": "Dushanbe",
   "profile": {
    "weights": {

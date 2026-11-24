@@ -20,12 +20,12 @@ var BERTH_LANES=[
  {id:"sju-gur-cruise",kind:"cruise",from:"sju",to:"gur",via:["bst","sjn","rsu","cstr","bdt","kgs","pos"],legH:[24,4,8,6,12,8,16,2],hours:80,fare:700,window:96,oneWay:true},
 
  // Cruise 2: South Africa and Sri Lanka, one-way in each direction, via the Indian Ocean islands
- {id:"dbn-cmb-cruise",kind:"cruise",from:"dbn",to:"cmb",via:["mpl","ans","dzo","mor","svc","mle"],legH:[100,30,12,3,50,40,33],hours:268,fare:2200,window:96,oneWay:true},
- {id:"cmb-dbn-cruise",kind:"cruise",from:"cmb",to:"dbn",via:["mle","svc","mor","dzo","ans","mpl"],legH:[33,40,50,3,12,30,100],hours:268,fare:2200,window:96,oneWay:true},
+ {id:"dbn-cmb-cruise",kind:"cruise",from:"dbn",to:"cmb",via:["mpl","ans","dza","mor","svc","mle"],legH:[100,30,12,3,50,40,33],hours:268,fare:2200,window:96,oneWay:true},
+ {id:"cmb-dbn-cruise",kind:"cruise",from:"cmb",to:"dbn",via:["mle","svc","mor","dza","ans","mpl"],legH:[33,40,50,3,12,30,100],hours:268,fare:2200,window:96,oneWay:true},
 
  // Cruise 1: New York and Miami, via Bermuda and the Bahamas, in both directions (each returns to its start)
- {id:"nyc-mia-cruise",kind:"cruise",from:"nyc",to:"mia",via:["hmn","nas"],legH:[60,30,12],hours:102,fare:850,window:96,oneWay:true},
- {id:"mia-nyc-cruise",kind:"cruise",from:"mia",to:"nyc",via:["nas","hmn"],legH:[12,30,60],hours:102,fare:850,window:96,oneWay:true},
+ {id:"nyc-mia-cruise",kind:"cruise",from:"nyc",to:"mia",via:["bda","nas"],legH:[60,30,12],hours:102,fare:850,window:96,oneWay:true},
+ {id:"mia-nyc-cruise",kind:"cruise",from:"mia",to:"nyc",via:["nas","bda"],legH:[12,30,60],hours:102,fare:850,window:96,oneWay:true},
 
   // Africa, Caribbean and Asia: cargo crossings replacing ferries, and new routes
  {id:"lbv-sto-cargo",kind:"cargo",from:"lbv",to:"sto",via:[],hours:36,fare:90,window:48},

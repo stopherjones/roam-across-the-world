@@ -1231,7 +1231,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-17"
  },
- "dus": {
+ "dyu": {
   "name": "Dushanbe",
   "text": "Dushanbe, the capital of Tajikistan, lies in the western part of the country at the foot of the Hissar Mountains, on the banks of the Varzob River. The name means “Monday market” and the settlement grew around a bustling weekly bazaar before being declared the republic’s capital in 1929, replacing Khujand. Today the city blends wide Soviet-era avenues with colourful gardens, modern cafés and lively tea houses; Rudaki Avenue is lined with museums, shops and restaurants serving hearty plov and fresh fruit. Visitors find the people warm and welcoming, and the surrounding mountains provide striking backdrops for leisurely strolls.",
   "model": "openai/gpt-oss-120b",
@@ -1245,7 +1245,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
- "dzo": {
+ "dza": {
   "name": "Mayotte (Dzaoudzi)",
   "text": "Dzaoudzi, perched on the tiny island of Petite-Terre in the French overseas department of Mayotte, lies in the heart of the Mozambique Channel between Madagascar and the African mainland. Historically it served as the capital of the colony of Mayotte until the administrative centre moved to Mamoudzou in 1977, and its harbour was a key stop for French naval ships navigating the Indian Ocean. Today the town feels relaxed yet lively, with colourful market stalls selling fresh fish and tropical fruit, a pleasant promenade along the azure sea, and easy access to nearby beaches and coral reefs that invite snorkelling and gentle walks in a warm, friendly atmosphere.",
   "model": "openai/gpt-oss-120b",
@@ -1588,7 +1588,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-06"
  },
- "hmn": {
+ "bda": {
   "name": "Hamilton, Bermuda",
   "text": "Hamilton, the capital of Bermuda, sits on the island’s north-central coast at the head of Hamilton Harbour, a natural inlet framed by gentle hills and pastel-coloured houses. Founded in the early 17th century, the town was formally laid out in 1790 and quickly became the administrative heart of the colony, a role it still fulfils today. Visitors stroll along Front Street to discover boutique shops, lively cafés and the striking pink-brick façade of the historic City Hall, while the nearby waterfront promenade offers sweeping views of yachts bobbing in the harbour and the distant Atlantic horizon.",
   "model": "openai/gpt-oss-120b",
@@ -1945,7 +1945,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
- "krr": {
+ "kja": {
   "name": "Krasnoyarsk",
   "text": "Krasnoyarsk sits on the banks of the mighty Yenisei River in the heart of Siberia, framed by the rugged Sayan Mountains to the south and the vast taiga to the north. The town began as a Russian fort in 1628, guarding the eastern frontier and later developing into a key trading post on the Siberian route. Today visitors find a lively riverfront promenade, impressive Soviet-era architecture, and easy access to the striking Stolby Nature Reserve, where towering granite pillars rise from the forest. The city’s modern cafés, museums and the massive Krasnoyarsk Dam make it a fascinating blend of history and contemporary Siberian life.",
   "model": "openai/gpt-oss-120b",
@@ -3254,7 +3254,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-17"
  },
- "ros": {
+ "xro": {
   "name": "Roscoff",
   "text": "Roscoff is a charming fishing port on the north-west coast of Brittany, France, facing the English Channel and just a short ferry ride from Plymouth. Founded in the Middle Ages, the town became famous in the 19th century as the departure point for the first regular trans-Channel steamship service, linking France and Britain. Today Roscoff delights visitors with its colourful harbour, slate-roofed houses and a bustling market where fresh seafood and the celebrated “Roscoff pink” seaweed are sold. Stroll along the promenade, explore the historic granite church and sample the local cider for a quintessential Breton experience.",
   "model": "openai/gpt-oss-120b",
@@ -3604,7 +3604,7 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
- "str": {
+ "sxb": {
   "name": "Strasbourg",
   "text": "Strasbourg, perched on the banks of the River Ill where France meets Germany, is the capital of the Alsace region in north-eastern France. Founded as a Roman settlement, it later became an Imperial Free City of the Holy Roman Empire and was a key centre of the Reformation, hosting the famous 1529 Diet of Augsburg delegates. Today the city charms visitors with its UNESCO-listed Grande Île, where the timber-framed “half-timber” houses line cobbled streets and the stunning Gothic cathedral towers above the bustling markets. A blend of French and German cuisine, lively cafés and modern European institutions makes Strasbourg a vibrant, walkable destination.",
   "model": "openai/gpt-oss-120b",
