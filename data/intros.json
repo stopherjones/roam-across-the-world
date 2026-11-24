@@ -202,6 +202,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "apl": {
+  "name": "Nampula",
+  "text": "Nampula, the bustling capital of Mozambique’s northern province, sits on a plateau about 200 km inland from the Indian Ocean and serves as a key crossroads for road and rail links to Malawi and the coastal towns. Founded as a Portuguese trading post in the 1500s, it grew into an important railway hub when the colonial line reached the city in the early-20th century. Today the town hums with colourful markets, colonial-era buildings and a lively café scene, while friendly locals welcome visitors eager to sample spicy seafood, explore nearby limestone hills and use Nampula as a gateway to the country’s pristine beaches and wildlife reserves.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "apw": {
   "name": "Apia",
   "text": "Apia, the capital city of Samoa, sits on the central coast of the island of Upolu, nestled between a natural harbour and the verdant hills that rise inland. Founded in the 19th century, it became the focal point of Samoan politics after the signing of the Treaty of Berlin in 1889, which established a joint German, British and American administration. Today the town is a relaxed blend of colonial-era buildings, bustling markets and beachfront promenades; you can sip fresh coconut water while watching colourful outriggers glide past, explore the Robert Louis Stevenson Museum, or savour Samoan cuisine at lively roadside stalls, all under a warm, tropical sun.",
@@ -236,6 +243,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "ask": {
+  "name": "Yamoussoukro",
+  "text": "Yamoussoukro, the political capital of Côte d’Ivoire, sits in the centre of the country about 230 km north-west of the coastal city of Abidjan, perched on gently rolling plains beside the Yamoussoukro River. Founded in the early 20th century, it became the nation’s capital in 1983 when President Félix Houphouët-Boigny, who was born nearby, moved the seat of government from Abidjan. Today the town is famous for its striking basilica, the largest church in the world, and its wide, tree-lined avenues that contrast with the quiet, residential neighbourhoods and bustling local markets where you can sample Ivorian street food and watch friendly locals go about their day.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "asm": {
   "name": "Asmara",
@@ -307,6 +321,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "axu": {
+  "name": "Axum",
+  "text": "Axum, in the northern Tigray region of Ethiopia, sits on a high plateau near the base of the Simien Mountains and is flanked by the fertile valleys of the Tekezé and the Awash rivers. It was the capital of the ancient Kingdom of Aksum, famed for its towering stone obelisks and as the early centre from which Christianity spread throughout Ethiopia in the fourth century. Today the town feels gently bustling: modest guesthouses line the narrow streets, locals sell coffee and hand-woven textiles, and the ruins—particularly the famous stelae field—are quiet, awe-inspiring sites that invite relaxed exploration.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "ayt": {
   "name": "Antalya",
   "text": "Antalya, a vibrant coastal city on Turkey’s southwestern Mediterranean shoreline, lies at the foot of the Taurus Mountains and enjoys a sunny climate year-round. It grew out of the ancient Roman settlement of Attalia, founded in the second century BC and later fortified with impressive walls that still frame the historic Kaleiçi quarter. Today the city blends old and new: narrow, cobbled streets lead to bustling bazaars, while sleek waterfront promenades offer cafés, yachts and golden beaches; the backdrop of turquoise sea and rugged hills makes a visit both relaxing and full of colourful culture.",
@@ -335,6 +356,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-03"
  },
+ "baq": {
+  "name": "Barranquilla",
+  "text": "Barranquilla, Colombia’s vibrant Caribbean port, lies on the banks of the Magdalena River just before it meets the sea, about 100 km north of the border with Panama. Founded in 1823, the city grew rapidly as a key trading hub for coffee, oil and tropical fruit, and it later became famous as the birthplace of the legendary singer Shakira. Today the streets buzz with colour-filled murals, sizzling street food stalls and the rhythmic sounds of salsa spilling from lively bars; the historic neighbourhood of El Prado offers beautifully restored colonial houses, while the nearby beaches provide a relaxed escape from the tropical heat.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "bar": {
   "name": "Bari",
   "text": "Bari, the bustling port city on the Adriatic coast of southern Italy, is the capital of the Apulia region and a gateway to the heel of the Italian boot. Founded by the Romans, it later became an important medieval trading hub, and its 11th-century Basilica of San Nicola still houses the relics of Saint Nicholas, drawing pilgrims from across Europe. Today the historic centre is a maze of narrow lanes, lively cafés and bustling fish markets, while the sleek waterfront promenade offers striking sea views, modern restaurants and a relaxed, sun-kissed atmosphere that blends ancient charm with contemporary Italian life.",
@@ -355,6 +383,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
+ },
+ "bda": {
+  "name": "Hamilton, Bermuda",
+  "text": "Hamilton, the capital of Bermuda, sits on the island’s north-central coast at the head of Hamilton Harbour, a natural inlet framed by gentle hills and pastel-coloured houses. Founded in the early 17th century, the town was formally laid out in 1790 and quickly became the administrative heart of the colony, a role it still fulfils today. Visitors stroll along Front Street to discover boutique shops, lively cafés and the striking pink-brick façade of the historic City Hall, while the nearby waterfront promenade offers sweeping views of yachts bobbing in the harbour and the distant Atlantic horizon.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-19"
  },
  "bdo": {
   "name": "Bandung",
@@ -467,6 +502,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "bjx": {
+  "name": "Guanajuato",
+  "text": "Guanajuato, a colourful city nestled in the mountains of central Mexico, is the capital of the state that bears its name and sits about 270 km north-west of Mexico City. Founded in the mid-16th century as a silver-mining settlement, it became one of the richest colonial towns and later played a key role in the early battles of the Mexican War of Independence. Today the town’s narrow, winding lanes and subterranean streets are lined with bright façades, lively plazas and historic churches, while its bustling markets, museums and the famous callejón del Beso offer visitors a vivid mix of history and vibrant Mexican culture.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "bkg": {
   "name": "Bangkok",
@@ -594,6 +636,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-16"
  },
+ "bpc": {
+  "name": "Bamenda",
+  "text": "Bamenda, nestled in the north-west highlands of Cameroon at about 1,600 metres above sea level, is the bustling capital of the Northwest Region. Founded in the early 20th century as a German administrative post, the town later became a focal point for the British-administered Southern Cameroons after World War I. Today visitors find a lively mix of colonial architecture, bustling markets and vibrant street art, while the surrounding mountains offer cool, misty walks and coffee-plantation tours; the friendly locals are happy to share their rich cultural heritage over a cup of locally grown brew.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "bpn": {
   "name": "Balikpapan",
   "text": "Balikpapan sits on the eastern coast of Borneo in East Kalimantan, Indonesia, its harbour opening onto the Makassar Strait. The town grew around the oil fields discovered in the early 20th century and was a strategic Japanese base during World War II, when it was occupied from 1942 until the Allies liberated it in 1945. Today Balikpapan is a clean, well-maintained city with a relaxed waterfront promenade, bustling markets and easy access to nearby beaches and rainforest reserves such as the Mangrove Forest Park, making it a comfortable base for exploring both urban life and natural scenery.",
@@ -607,6 +656,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "brn": {
+  "name": "Bern",
+  "text": "Bern, the capital of Switzerland, sits on a loop of the Aare River in the country’s north-west, nestled at the foot of the gently rising Alps. First mentioned in the 12th century, the city grew around a fortified castle built by Duke Berchtold V of Zähringen, and its well-preserved medieval core has been a UNESCO World Heritage site since the 1980s. Today visitors stroll along the cobbled streets of the Altstadt, admire the iconic Zytglogge clock tower, relax in the shaded arcades, and enjoy a lively mix of cafés, museums and market stalls, all set against crisp Alpine air and stunning river views.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "bru": {
   "name": "Brussels",
@@ -1042,6 +1098,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "czl": {
+  "name": "Constantine",
+  "text": "Constantine, perched in the north-eastern part of Algeria, clings to a dramatic gorge cut by the Rhumel River and is surrounded by rugged hills that give the city its nickname, the “City of Bridges.” Founded in the 3rd century BC as the Roman settlement of Colonia Sittacenum, it later became a key stronghold in the early Islamic period. Today the city bustles with a mix of modern cafés, lively markets and striking Ottoman-era architecture, while its famous viaducts offer stunning views and a sense of walking through living history.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "dac": {
   "name": "Dhaka",
   "text": "Dhaka, the bustling capital of Bangladesh, sits on the banks of the Buriganga River in the heart of the country’s low-lying delta. First established as the Mughal provincial capital in the early 1600s, it later became the centre of the 1971 struggle for independence. Today the city is a vibrant mix of old and new: crowded streets buzz with rickshaws and street-food stalls, historic sites such as the 17th-century Lalbagh Fort stand beside gleaming glass towers, and the warm, lively hospitality of its residents makes exploring its markets, mosques and riverside cafés an unforgettable experience.",
@@ -1098,6 +1161,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-11"
  },
+ "dbv": {
+  "name": "Dubrovnik",
+  "text": "Dubrovnik, perched on the southern Adriatic coast of Croatia, sits on a limestone peninsula opposite the island of Lokrum and looks out over crystal-blue sea lanes that have welcomed traders for centuries. Founded in the 7th century, the city became a powerful maritime republic and its fortified walls, completed in the 16th century, are among the best-preserved in Europe. Today visitors stroll along the sun-kissed stone streets, explore the bustling Stradun, climb the ancient ramparts for sweeping views, and savour fresh seafood in cafés that spill onto the harbour, all under a backdrop of striking red-tile roofs and the gentle hum of the sea.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "dca": {
   "name": "Washington DC",
   "text": "Washington DC, the capital of the United States, lies on the Potomac River between Maryland and Virginia. Designed by Pierre L’Enfant in the late 18th century, it was the site where the Constitution was first ratified and where the nation’s most important institutions were built. Today the city is a compact, walkable blend of grand monuments, world-class museums and lively neighbourhoods; you can stand beneath the towering Washington Monument, explore the Smithsonian galleries for free, and enjoy diverse food stalls or a relaxed coffee on a tree-lined street, all under a backdrop of historic brick façades and modern glass towers.",
@@ -1140,6 +1210,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "dir": {
+  "name": "Harar",
+  "text": "Harar, perched on a ridge in eastern Ethiopia about 500 km east of Addis Ababa, is a UNESCO World Heritage site famed for its tightly packed old town of narrow alleyways and stone houses. Founded in the 7th century, it became a major Islamic centre and trading hub on the route between the Horn of Africa and the interior. Today the city buzzes with the scent of incense and coffee; you can wander the walled quarter, watch the famed “Hyena Men” feed the night-time scavengers, and sip fresh jebena coffee in bustling markets, while the ancient walls and vibrant murals remind you that history lives on in everyday life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "djb": {
   "name": "Djibouti City",
   "text": "Djibouti City, the capital of the tiny Horn of Africa nation of Djibouti, sits on the Gulf of Tadjoura at the entrance to the Red Sea, where the African continent meets the Arabian Peninsula. Founded in the late 19th century as a French colonial port, the city grew around the strategic harbour that still serves as a key refuelling stop for ships transiting the Suez Canal. Today the streets buzz with a blend of French, Arab and Somali influences: colourful markets sell incense and fresh seafood, the waterfront promenade offers sweeping views of turquoise water and nearby volcanic islands, and the warm, dry climate makes it easy to explore the lively cafés, modern mosques and the striking blend of colonial architecture and sleek new developments.",
@@ -1181,6 +1258,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-16"
+ },
+ "dod": {
+  "name": "Dodoma",
+  "text": "Dodoma sits in the heart of Tanzania on the expansive central plateau, about 450 km west of the coastal city of Dar es Salaam, and is intersected by the main road and rail line that run north-south across the country. In 1974 the Tanzanian government officially moved the capital from Dar es Salaam to Dodoma, a decision made to give the nation a more central administrative hub. Today the town feels relaxed and spacious, with wide avenues lined by government offices, a bustling market where you can sample fresh fruit and locally-roasted coffee, and nearby open grasslands that invite a quiet walk, offering a pleasant contrast to the busier coastal cities.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "doh": {
   "name": "Doha",
@@ -1231,16 +1315,16 @@
   "prompt": "intro-v4",
   "generated": "2026-11-17"
  },
- "dyu": {
-  "name": "Dushanbe",
-  "text": "Dushanbe, the capital of Tajikistan, lies in the western part of the country at the foot of the Hissar Mountains, on the banks of the Varzob River. The name means “Monday market” and the settlement grew around a bustling weekly bazaar before being declared the republic’s capital in 1929, replacing Khujand. Today the city blends wide Soviet-era avenues with colourful gardens, modern cafés and lively tea houses; Rudaki Avenue is lined with museums, shops and restaurants serving hearty plov and fresh fruit. Visitors find the people warm and welcoming, and the surrounding mountains provide striking backdrops for leisurely strolls.",
+ "dxb": {
+  "name": "Dubai",
+  "text": "Dubai, United Arab Emirates, sits on the southeastern coast of the Persian Gulf, bordering the emirate of Abu Dhabi to the south and Sharjah to the northeast. Historically it grew from a modest fishing and pearling settlement, becoming a key trading port in the early 20th century before the discovery of oil transformed its fortunes. Today the city dazzles visitors with its skyline of towering skyscrapers, luxury hotels and world-class shopping, while the historic Al Fahidi district and bustling souks offer a glimpse of its traditional roots, making Dubai a striking blend of past and present.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
- "dxb": {
-  "name": "Dubai",
-  "text": "Dubai, United Arab Emirates, sits on the southeastern coast of the Persian Gulf, bordering the emirate of Abu Dhabi to the south and Sharjah to the northeast. Historically it grew from a modest fishing and pearling settlement, becoming a key trading port in the early 20th century before the discovery of oil transformed its fortunes. Today the city dazzles visitors with its skyline of towering skyscrapers, luxury hotels and world-class shopping, while the historic Al Fahidi district and bustling souks offer a glimpse of its traditional roots, making Dubai a striking blend of past and present.",
+ "dyu": {
+  "name": "Dushanbe",
+  "text": "Dushanbe, the capital of Tajikistan, lies in the western part of the country at the foot of the Hissar Mountains, on the banks of the Varzob River. The name means “Monday market” and the settlement grew around a bustling weekly bazaar before being declared the republic’s capital in 1929, replacing Khujand. Today the city blends wide Soviet-era avenues with colourful gardens, modern cafés and lively tea houses; Rudaki Avenue is lined with museums, shops and restaurants serving hearty plov and fresh fruit. Visitors find the people warm and welcoming, and the surrounding mountains provide striking backdrops for leisurely strolls.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
@@ -1391,6 +1475,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-14"
+ },
+ "gdn": {
+  "name": "Gdansk",
+  "text": "Gdańsk, perched on the Baltic coast of northern Poland, lies where the Motława River meets the sea and has long been a gateway for trade between East and West. Founded in the Middle Ages, it was a leading member of the Hanseatic League and later the birthplace of the Solidarity movement that helped end communist rule in the 1980s. Today the city charms visitors with its colourful merchant houses lining the historic Long Market, bustling cafés serving fresh fish, and a lively waterfront where modern art installations sit beside centuries-old churches, making it a vibrant mix of past and present.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "gdr": {
   "name": "Gondar",
@@ -1560,6 +1651,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "hij": {
+  "name": "Hiroshima",
+  "text": "Hiroshima, located on the western coast of Honshu in Japan’s Chūgoku region, is a city that blends solemn remembrance with vibrant modern life. It is known worldwide as the site where the first atomic bomb was dropped in August 1945, an event memorialised in the Peace Memorial Park and the moving Atomic Bomb Dome. Today the city bustles with friendly locals, lively street markets and delicious okonomiyaki stalls, while its riverfront offers pleasant walks and views of the reconstructed Hiroshima Castle. The mixture of history, culture and green spaces makes it a thoughtful and welcoming destination.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "hiu": {
   "name": "Honiara",
   "text": "Honiara, the capital city of the Solomon Islands, lies on the northern coast of Guadalcanal Island, nestled between the sparkling waters of Iron Bottom Sound and lush tropical hills. The town grew around the World War II airfield built by the United States, a reminder of the fierce battles that took place on the island in 1942-43. Today Honiara is a laid-back, colourful port where you can wander the bustling central market, taste fresh seafood on the waterfront promenade, and enjoy the warm hospitality of locals, all set against a backdrop of verdant mountains and coral-fringed beaches.",
@@ -1587,13 +1685,6 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-06"
- },
- "bda": {
-  "name": "Hamilton, Bermuda",
-  "text": "Hamilton, the capital of Bermuda, sits on the island’s north-central coast at the head of Hamilton Harbour, a natural inlet framed by gentle hills and pastel-coloured houses. Founded in the early 17th century, the town was formally laid out in 1790 and quickly became the administrative heart of the colony, a role it still fulfils today. Visitors stroll along Front Street to discover boutique shops, lively cafés and the striking pink-brick façade of the historic City Hall, while the nearby waterfront promenade offers sweeping views of yachts bobbing in the harbour and the distant Atlantic horizon.",
-  "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v4",
-  "generated": "2026-11-19"
  },
  "hnl": {
   "name": "Honolulu",
@@ -1644,6 +1735,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "hui": {
+  "name": "Hue",
+  "text": "Hue, nestled on the north-central coast of Vietnam where the Perfume River meets the South China Sea, was the imperial capital of the Nguyen dynasty from the early 1800s until 1945. The city’s most famous landmark, the Imperial City, is a UNESCO World Heritage site that preserves the grand palaces, temples and defensive walls once used by Vietnamese emperors. Today, strolling through Hue feels like stepping into a living museum: you can wander tranquil riverfront cafés, explore colourful markets, and sample renowned royal cuisine while the scent of incense drifts from ancient pagodas.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "hyd": {
   "name": "Hyderabad",
   "text": "Hyderabad, the bustling capital of Telangana in south-central India, sits on the banks of the Musi River between the Deccan plateau and the coastal plains. Founded in 1591 by Muhammad Quli Qutb Shah, it soon became famed for the magnificent Charminar, a four-arched monument that still dominates the old city’s skyline. Today the city blends historic bazaars selling fragrant biryani and pearls with sleek glass towers and tech parks, offering visitors a lively mix of heritage and modernity; you can wander through centuries-old forts, sip chai in leafy cafés, and explore vibrant street art and contemporary museums all within a warm, welcoming atmosphere.",
@@ -1658,6 +1756,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "icn": {
+  "name": "Incheon",
+  "text": "Incheon, a bustling port city on the west coast of South Korea, sits on a peninsula just west of Seoul and greets the Yellow Sea with its expansive harbour. Historically it was the gateway for the 1876 Treaty of Ganghwa, which opened Korea to foreign trade and marked the beginning of modern international relations. Today the city blends sleek skyscrapers, lively markets and tranquil islands; you can wander the vibrant Chinatown, stroll along the waterfront park with its striking bridges, or ride the sleek Airport Express to explore the nearby historic sites and seaside cafés.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "iks": {
   "name": "Irkutsk",
   "text": "Irkutsk, perched on the western bank of the mighty Lena River in southeastern Siberia, serves as the gateway to Lake Baikal and the surrounding taiga. Founded in 1661 as a wooden fort to protect the expanding Russian trade route to China, the city grew into a bustling centre of Siberian administration and culture. Today the streets are lined with colourful wooden houses, lively cafés and well-preserved 19th-century architecture, while museums showcase the region’s indigenous heritage and its role in the Trans-Siberian Railway. Visitors enjoy crisp river walks, vibrant markets and easy day trips to the crystal-clear waters of Baikal.",
@@ -1671,6 +1776,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-03"
+ },
+ "isb": {
+  "name": "Rawalpindi",
+  "text": "Rawalpindi, a bustling city in northern Pakistan, lies just southeast of the capital Islamabad, separated by the scenic Margalla Hills. Historically it served as the headquarters of the British Indian Army in the early 20th century, a role that left a legacy of colonial architecture and wide, tree-lined avenues. Today the city feels vibrant and chaotic, with lively bazaars selling everything from hand-crafted textiles to street food, and the famous Raja Bazaar offering a sensory overload of colours and aromas. Modern cafés sit beside historic mosques, and the nearby Islamabad-Rawalpindi Railway Station provides easy links for travellers exploring the region.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "isf": {
   "name": "Isfahan",
@@ -1882,6 +1994,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-10"
  },
+ "kja": {
+  "name": "Krasnoyarsk",
+  "text": "Krasnoyarsk sits on the banks of the mighty Yenisei River in the heart of Siberia, framed by the rugged Sayan Mountains to the south and the vast taiga to the north. The town began as a Russian fort in 1628, guarding the eastern frontier and later developing into a key trading post on the Siberian route. Today visitors find a lively riverfront promenade, impressive Soviet-era architecture, and easy access to the striking Stolby Nature Reserve, where towering granite pillars rise from the forest. The city’s modern cafés, museums and the massive Krasnoyarsk Dam make it a fascinating blend of history and contemporary Siberian life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-19"
+ },
  "kjd": {
   "name": "Khujand",
   "text": "Khujand, Tajikistan’s fourth-largest city, sits on the northern edge of the Fergana Valley beside the Syr-Darya River, close to the borders with Uzbekistan and Kyrgyzstan. Founded as the ancient Persian settlement of Cyropolis, it became a key Silk Road hub and later a fortified stronghold of the Emirate of Bukhara. Today the town blends historic bazaars with Soviet-era architecture; you can wander past the towering Lenin statue, sample fresh fruit in the bustling market, and enjoy riverside cafés that offer views of the surrounding mountains, giving a relaxed yet vibrant feel to any visit.",
@@ -1945,13 +2064,6 @@
   "prompt": "intro-v4",
   "generated": "2026-11-08"
  },
- "kja": {
-  "name": "Krasnoyarsk",
-  "text": "Krasnoyarsk sits on the banks of the mighty Yenisei River in the heart of Siberia, framed by the rugged Sayan Mountains to the south and the vast taiga to the north. The town began as a Russian fort in 1628, guarding the eastern frontier and later developing into a key trading post on the Siberian route. Today visitors find a lively riverfront promenade, impressive Soviet-era architecture, and easy access to the striking Stolby Nature Reserve, where towering granite pillars rise from the forest. The city’s modern cafés, museums and the massive Krasnoyarsk Dam make it a fascinating blend of history and contemporary Siberian life.",
-  "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v4",
-  "generated": "2026-11-19"
- },
  "ktm": {
   "name": "Kathmandu",
   "text": "Kathmandu, the bustling capital of Nepal, lies in a valley surrounded by the foothills of the Himalayas, about 1,400 metres above sea level. It has been a centre of trade and culture for centuries, and the city’s Durbar Square still displays the splendid Newar architecture that dates back to the medieval Malla dynasty. Today visitors find a lively mix of ancient temples, colourful markets and modern cafés, with the scent of incense drifting from prayer flags and the hum of traffic sharing the narrow streets. The friendly locals are happy to share stories over a cup of steaming masala tea, making Kathmandu feel both historic and warmly contemporary.",
@@ -1993,6 +2105,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "kwj": {
+  "name": "Gwangju",
+  "text": "Gwangju, a vibrant city in the southwest of South Korea, sits on the fertile plains of Jeolla-do province, about two hours by train from Seoul. It is historically renowned as the birthplace of the 1980 democratic movement, when citizens gathered in the streets to demand political reform, an event that still shapes its identity. Today, Gwangju blends tradition and modernity: you can wander lively markets brimming with street food, explore contemporary art museums, and relax in spacious parks shaded by cherry-blossom trees, all while feeling the warm, welcoming spirit of its people.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "kyi": {
   "name": "Kyiv",
@@ -2127,6 +2246,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-02"
  },
+ "lli": {
+  "name": "Lalibela",
+  "text": "Lalibela, nestled in the highlands of northern Ethiopia about 250 km north of Addis Ababa, is famous for its remarkable rock-hewn churches that were carved out of solid basalt in the twelfth century under King Lalibela, who intended them to be a “New Jerusalem”. Today the town feels like a living museum: narrow, stone-paved streets wind past the silent, candle-lit sanctuaries, and the air carries the scent of incense and fresh coffee. Visitors can wander among the monumental structures, meet friendly locals in bustling markets, and experience a unique blend of spiritual heritage and vibrant daily life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "lln": {
   "name": "Lilongwe",
   "text": "Lilongwe, the bustling capital of Malawi, sits in the central plateau of the country where the Lilongwe River meets the expansive, gently rolling landscape of the Central Region. Established as a colonial administrative centre in the early 1900s, it became the official capital after independence, replacing Zomba in 1975. Today the city offers a relaxed yet lively atmosphere: modern cafés line the colourful streets of the Old Town, the bustling Saturday market overflows with fresh produce and crafts, and the nearby Lilongwe Wildlife Centre provides close encounters with rescued native animals. Visitors enjoy a blend of Malawian hospitality, urban growth, and easy access to surrounding wildlife reserves.",
@@ -2252,6 +2378,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-05"
+ },
+ "lyp": {
+  "name": "Faisalabad",
+  "text": "Faisalabad, situated in the fertile plains of Punjab in north-central Pakistan, lies about 180 km west of Lahore and is linked by major highways and rail lines. Founded in the late 19th century as a British colonial settlement called Lyallpur, the city was renamed after Pakistan’s first president, Mohammed Ali Jinnah, whose title “Faisal” was adopted in the 1970s. Today Faisalabad buzzes with the energy of Pakistan’s “Manchester” – its bustling textile mills, colourful bazaars and sprawling colonial-era clock tower. Visitors can wander the lively Canal Road market, sample hearty Punjabi street food, and enjoy the surprising calm of its well-kept parks amidst the industrial hustle.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "maa": {
   "name": "Chennai",
@@ -2491,6 +2624,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "mkz": {
+  "name": "Malacca",
+  "text": "Malacca sits on the southwestern coast of the Malay Peninsula, overlooking the Strait of Malacca, and is a short drive south of Kuala Lumpur. Founded in the early 1400s, it rose to fame as the capital of the powerful Malacca Sultanate before being taken by the Portuguese in 1511, leaving a mix of Malay, Portuguese, Dutch and Chinese influences that still colour the town. Today the historic centre is a UNESCO World Heritage site, with pastel-coloured shophouses, bustling night markets and the iconic red Dutch Square; strolling its narrow lanes you’ll hear the clink of tea cups, smell satay on the grill and feel the easy charm of a city that lives happily in its past.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "mlb": {
   "name": "Malabo",
   "text": "Malabo, the capital of Equatorial Guinea, sits on the northern coast of the island of Bioko, overlooking the sparkling Atlantic Ocean. Founded by the Spanish in the early 19th century, it grew around a small fishing village and later became the administrative centre of the colony of Spanish Guinea. Today the city mixes colonial architecture—such as the striking Malabo Cathedral and the neoclassical Supreme Court—with vibrant market stalls where you can sample tropical fruit and fresh seafood. The surrounding hills offer lush rainforest walks, and the waterfront promenade provides a relaxed spot to watch colourful fishing boats bobbing in the harbor.",
@@ -2659,6 +2799,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-07"
  },
+ "mux": {
+  "name": "Multan",
+  "text": "Multan, situated in the heart of Pakistan’s Punjab province, lies on the banks of the River Ravi and serves as a crossroads between the Indian subcontinent and Central Asia. Known as the “City of Saints,” it has been a centre of Sufi mysticism for centuries, with the 12th-century shrine of Baha-ud-Din Zakariya standing as a testament to its spiritual heritage. Today the city bursts with colour: bustling bazaars sell vibrant fabrics and fragrant spices, while the historic forts and mosques sit alongside modern cafés, offering visitors a lively blend of ancient charm and contemporary hospitality.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "mvd": {
   "name": "Montevideo",
   "text": "Montevideo, the capital of Uruguay, sits on the northern shore of the Río de la Plata opposite Buenos Ayres, forming a broad, windswept bay that feels more like an inland sea than a river. Founded by the Spanish in 1726, the city later became the site where Uruguay’s independence was declared in 1825, a pivotal moment in South-American history. Today Montevideo blends colonial charm with a relaxed, modern vibe: cobbled streets lead to colourful market stalls, the rambla stretches for kilometres alongside cafés and art galleries, and the historic Ciudad Vieja neighbourhood buzzes with live tango, fresh seafood and friendly locals eager to share a mate.",
@@ -2820,6 +2967,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "nyu": {
+  "name": "Bagan",
+  "text": "Bagan, a town in the heart of Myanmar’s Sagaing region, sits on the fertile plain beside the Irrawaddy River. It was the thriving capital of the Pagan Kingdom from the 9th to the 13th centuries, when more than two thousand Buddhist temples, pagodas and stupas were erected across the landscape. Today the site is a peaceful open-air museum; visitors can wander among the weathered stone structures, hire a bicycle to explore the sprawling ruins, or rise before dawn for a hot-air balloon ride that drifts over the glittering silhouette of the ancient temples against the soft morning light.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "oax": {
   "name": "Oaxaca",
   "text": "Oaxaca, nestled in the fertile Valley of Oaxaca in southern Mexico and framed by the Sierra Madre del Sur mountains, is the colourful capital of the state of the same name. The city grew on the site of the pre-Hispanic Zapotec centre of Monte Albán and was formally founded by the Spanish in 1532, later becoming a centre of colonial administration and art. Today it is a lively UNESCO World Heritage site, famous for its bustling markets, centuries-old stone streets, vibrant festivals and world-renowned cuisine such as mole and tlayudas, making a visit feel like stepping into a living museum of colour and tradition.",
@@ -2868,6 +3022,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "orn": {
+  "name": "Oran",
+  "text": "Oran, Algeria, sits on the north-west coast of the country, hugging the Mediterranean Sea just east of the border with Morocco. Founded in the early ninth century by Andalusi settlers, it later became a key French stronghold after being taken in 1831, a period that left a legacy of striking colonial architecture. Today the city buzzes with a lively mix of bustling markets, palm-shaded promenades and sandy beaches, while its cafés pulse with the sounds of raï and traditional folk music. Visitors enjoy strolling past the historic Santa Cruz hill, sampling fresh seafood, and feeling the warm, cosmopolitan atmosphere that makes Oran a memorable Mediterranean stop.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "osa": {
   "name": "Osaka",
@@ -2931,6 +3092,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-08"
+ },
+ "pbc": {
+  "name": "Puebla",
+  "text": "Puebla, nestled in the highlands of central Mexico about 120 kilometres southeast of Mexico City, sits at an elevation of roughly 2,150 metres, giving it a pleasant, cool climate. Founded in 1531, the city was a key site during the 1862 Battle of Puebla, celebrated each year as Cinco de Mayo. Today the historic centre, a UNESCO World Heritage Site, dazzles visitors with its colourful Talavera tiles, baroque churches and bustling markets where you can sample mole poblano and freshly-made chalupas. Tree-lined avenues, lively plazas and a thriving culinary scene make a stroll through Puebla feel both timeless and vibrantly modern.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "pbm": {
   "name": "Paramaribo",
@@ -3051,12 +3219,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-04"
  },
+ "plz": {
+  "name": "Gqeberha",
+  "text": "Gqeberha sits on the sunny shores of Algo Bay in South Africa’s Eastern Cape, a few kilometres north of the Addo Elephant National Park and roughly 750 km east of Cape Town. The town was founded in 1820 as a British settlement and was originally called Port Elizabeth after Elizabeth Donkin, the wife of the acting governor at the time. Today the city is a relaxed coastal destination with a wide promenade, colourful beachfront houses and a lively arts scene; you can stroll along the boardwalk, sample fresh fish at the harbour, or take a short drive to the nearby game reserve for a taste of the wild.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "pme": {
   "name": "Portland, Maine",
   "text": "Portland, Maine sits on a sheltered inlet of the Atlantic called Casco Bay, at the mouth of the Presumpscot River in the far north-east of the United States. Founded in 1632, the city grew as a major shipbuilding and fishing port and was an important base for the Union Navy during the Civil War. Today the waterfront is a lively mix of colourful lobster shacks, boutique shops and craft breweries, while the historic Old Port cobbles echo with the clatter of tram-trolley tours. Visitors can stroll along the scenic Eastern Promenade, explore art galleries and enjoy fresh seafood with a view of the harbor.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "pmo": {
+  "name": "Palermo",
+  "text": "Palermo, the capital of Sicily, sits on the island’s north-western coast where the Mediterranean meets the Tyrrhenian Sea. Founded by the Phoenicians around the 8th century BC, it later flourished under Arab and Norman rule, leaving a rich mix of Moorish arches, Byzantine mosaics and medieval cathedrals. Today the city buzzes with lively markets such as the historic Vucciria, where the scent of street food—arancini, panelle and fresh seafood—fills the air, and the bustling promenades along the waterfront offer stunning sea views. Visitors can wander narrow baroque streets, explore UNESCO-listed churches and enjoy a vibrant mix of cultures that makes Palermo feel both timeless and unmistakably modern.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "pna": {
   "name": "Patna",
@@ -3100,6 +3282,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-01"
  },
+ "poi": {
+  "name": "Potosi",
+  "text": "Potosí lies high in the Bolivian Andes, perched at about 4,090 metres above sea level on the Altiplano and dominated by the towering Cerro Cerro-Rico. Founded in 1545, the city grew wealthy from the massive silver mines of Cerro Cerro-Rico, which made it one of the richest cities in the world during the Spanish colonial era and earned it a place on the UNESCO World Heritage list. Today visitors wander its well-preserved colonial centre, admire baroque churches and bustling plazas, and can take guided trips into the historic mines, while also feeling the thin, crisp mountain air that gives Potosí its unforgettable, high-altitude charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "pom": {
   "name": "Port Moresby",
   "text": "Port Moresby, the bustling capital of Papua New Guinea, sits on the southern coast of the island at the edge of the Gulf of Papua, framed by low hills and a harbour that once sheltered colonial steamers. It was first charted by the British naval officer Captain John Moresby in 1873, after whom the town is named, and later became the administrative centre of the Australian-administered Territory of New Guinea. Today the city offers a warm, humid climate, colourful markets where you can haggle for hand-woven bilums, the National Museum and Art Gallery showcasing indigenous art, and a leafy nature park where parrots and tree kangaroos roam, all set against a lively waterfront that blends modern cafés with traditional island hospitality.",
@@ -3121,6 +3310,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-12"
  },
+ "poz": {
+  "name": "Poznan",
+  "text": "Poznań, situated in western Poland on the Warta River, is one of the country’s oldest cities and a historic centre of trade and academia. First mentioned in the 10th-century chronicles of Mieszko I, it later became a key member of the medieval Polish kingdom and a thriving market town in the Hanseatic League. Today the city blends its rich heritage with a lively modern vibe: the colourful Renaissance façades of the Old Market Square, the towering St. Peter and Paul Cathedral and the quirky mechanical goats that appear daily on the town hall clock attract visitors, while bustling cafés, museums and a thriving university scene give Poznań a vibrant, welcoming atmosphere.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "ppt": {
   "name": "Pontianak",
   "text": "Pontianak sits on the banks of the Kapuas River in West Kalimantan, on the island of Borneo, and is famous for straddling the equator, marked by a modest monument where visitors can stand with one foot in each hemisphere. Founded in 1771 by Sultan Syarif Abdurrahman, the city grew as a trading hub for pepper and other spices during the Dutch colonial era. Today, Pontianak blends quiet riverside promenades with bustling night markets; you can sample fresh river fish, explore colourful Chinese temples, and enjoy a relaxed pace while the humid, tropical air carries the scent of incense and street food.",
@@ -3141,6 +3337,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "pry": {
+  "name": "Pretoria",
+  "text": "Pretoria, the administrative capital of South Africa, sits in the inland province of Gauteng at an altitude of about 1,350 metres, giving it a surprisingly mild climate with cool evenings in summer and crisp winters. Founded in 1855 as the capital of the South African Republic, it was the site where the Union of South Africa’s constitution was signed in 1910. Today the city blends wide, tree-lined avenues with a lively cultural scene: visitors can wander the historic Union Buildings overlooking the valley, explore the impressive collections of the Pretoria Art Museum, and enjoy the fragrant jacaranda blossoms that line the streets each October, creating a colourful canopy perfect for a relaxed stroll.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "psd": {
   "name": "Port Sudan",
@@ -3198,6 +3401,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "rba": {
+  "name": "Rabat",
+  "text": "Rabat, the capital of Morocco, sits on the Atlantic coast at the mouth of the Bou Regreg River, facing the historic port city of Salé across the water. Founded in the 12th century, it became an important seat of power when the Almohad caliph Yaʿqūb al-Manṣūr built the grand Kasbah and the iconic Hassan Tower in the early 1200s. Today the city blends its regal past with a relaxed Mediterranean vibe: you can wander the UNESCO-listed medina’s narrow lanes, enjoy modern cafés along the waterfront promenade, and explore museums that showcase both ancient artefacts and contemporary Moroccan art, all under a warm, sunny sky.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "rec": {
   "name": "Recife",
   "text": "Recife, the capital of Pernambuco on Brazil’s northeastern coast, sits on a narrow strip of land between the Atlantic Ocean and a network of rivers and lagoons, giving it the nickname “the Venice of Brazil.” Founded by the Portuguese in the 16th century, the city grew around a strategic harbour that once protected the lucrative sugar-cane trade. Today visitors wander its colourful colonial quarter of Recife Antigo, explore vibrant markets and sample spicy seafood, while the bustling beaches of Boa Viagem and the lively rhythm of frevo music showcase a lively mix of history, culture and tropical sunshine.",
@@ -3254,13 +3464,6 @@
   "prompt": "intro-v4",
   "generated": "2026-11-17"
  },
- "xro": {
-  "name": "Roscoff",
-  "text": "Roscoff is a charming fishing port on the north-west coast of Brittany, France, facing the English Channel and just a short ferry ride from Plymouth. Founded in the Middle Ages, the town became famous in the 19th century as the departure point for the first regular trans-Channel steamship service, linking France and Britain. Today Roscoff delights visitors with its colourful harbour, slate-roofed houses and a bustling market where fresh seafood and the celebrated “Roscoff pink” seaweed are sold. Stroll along the promenade, explore the historic granite church and sample the local cider for a quintessential Breton experience.",
-  "model": "openai/gpt-oss-120b",
-  "prompt": "intro-v4",
-  "generated": "2026-11-05"
- },
  "rot": {
   "name": "Rotterdam",
   "text": "Rotterdam sits on the banks of the Nieuwe Maas in the western Netherlands, just a short train ride from The Hague and a half-hour from the North Sea coast. The city rose from the ashes after World War II when its historic centre was heavily bombed, prompting a bold rebuild that gave Rotterdam its striking modern skyline. Today, visitors can wander along the bustling waterfront, admire daring architecture such as the cube houses and Erasmus Bridge, and enjoy a lively mix of multicultural cafés, bustling markets and world-class museums, all set against the backdrop of the busy port that is the heart of Europe's shipping trade.",
@@ -3288,6 +3491,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "rtm": {
+  "name": "The Hague",
+  "text": "The Hague, perched on the western coast of the Netherlands near the North Sea, lies just a short train ride from Amsterdam and borders the historic city of Delft. Founded in the 13th century, it became the seat of the Dutch government and the residence of the royal family, a role it still fulfils today. Visitors find a lively mix of grand boulevards lined with 17th-century buildings, the modern International Court of Justice, and a bustling harbour district where cafés spill onto cobblestones. With museums, beachside promenades at Scheveningen and a relaxed, cosmopolitan atmosphere, The Hague feels both historic and unmistakably contemporary.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "rtr": {
   "name": "Rotorua",
@@ -3499,6 +3709,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "smr": {
+  "name": "Santa Marta",
+  "text": "Santa Marta sits on Colombia’s Caribbean coast, tucked between the turquoise sea and the foothills of the Sierra Nevada de Santa Marta, the country’s highest coastal mountain range. Founded in 1525, it is the oldest surviving Spanish settlement on the mainland, a fact still evident in its historic centre with colourful colonial houses and the impressive cathedral that dates back to the 16th century. Today the town buzzes with a relaxed, tropical vibe: you can wander lively markets, savour fresh seafood on the promenade, explore nearby beaches or take a short trip inland to the lush trails that lead up to towering peaks and cloud-forested valleys.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "sna": {
   "name": "Sanaa",
   "text": "Sanaa, the capital of Yemen, sits high in the western highlands at around 2,300 metres above sea level, overlooking the Wadi al-Sah. Its Old City, a UNESCO World Heritage site, is famed for towering mud-brick houses and intricately carved wooden windows that have been inhabited for centuries, making it one of the world’s oldest continuously lived-in settlements. Today, visitors wander bustling souks fragrant with coffee and spices, hear the call to prayer echo from ancient mosques, and experience a vibrant mix of tradition and resilience despite the challenges the city faces, offering a uniquely authentic glimpse of Yemeni culture.",
@@ -3547,6 +3764,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-14"
+ },
+ "sre": {
+  "name": "Sucre",
+  "text": "Sucre, the constitutional capital of Bolivia, sits on a gentle plateau at about 2,800 metres in the south-central Andes, surrounded by rolling valleys and the snow-capped peaks of the Cordillera de los Frailes. Founded in the 16th century, it became a key centre of the independence movement and was the site where the Bolivian constitution was first promulgated in 1826. Today the city charms visitors with its crisp white-washed colonial facades, pastel-coloured balconies and cobbled streets, while lively markets, museums and cafés invite you to savour both the rich history and the relaxed, sunny atmosphere that makes Sucre feel like a timeless yet thriving Andean gem.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "srg": {
   "name": "Sorong",
@@ -3604,12 +3828,12 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
- "sxb": {
-  "name": "Strasbourg",
-  "text": "Strasbourg, perched on the banks of the River Ill where France meets Germany, is the capital of the Alsace region in north-eastern France. Founded as a Roman settlement, it later became an Imperial Free City of the Holy Roman Empire and was a key centre of the Reformation, hosting the famous 1529 Diet of Augsburg delegates. Today the city charms visitors with its UNESCO-listed Grande Île, where the timber-framed “half-timber” houses line cobbled streets and the stunning Gothic cathedral towers above the bustling markets. A blend of French and German cuisine, lively cafés and modern European institutions makes Strasbourg a vibrant, walkable destination.",
+ "str": {
+  "name": "Stuttgart",
+  "text": "Stuttgart, the capital of Baden-Württemberg in southwest Germany, lies in a bowl surrounded by the wooded hills of the Swabian Alb and the Neckar River winds through its centre. The city began in the 10th century as a ducal stud farm – its name derives from “Stuotgarten”, the horse-yard of the Counts of Württemberg – and it became the state’s capital in 1806. Today Stuttgart is a vibrant mix of industry and leisure: sleek museums such as the Mercedes-Benz and Porsche showrooms sit alongside lively market squares, expansive vineyards, and the grand Schlossplatz, while the surrounding vineyards and nearby forest trails make it a pleasant base for both culture lovers and nature seekers.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
-  "generated": "2026-11-05"
+  "generated": "2026-11-24"
  },
  "sub": {
   "name": "Surabaya",
@@ -3639,6 +3863,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "sxb": {
+  "name": "Strasbourg",
+  "text": "Strasbourg, perched on the banks of the River Ill where France meets Germany, is the capital of the Alsace region in north-eastern France. Founded as a Roman settlement, it later became an Imperial Free City of the Holy Roman Empire and was a key centre of the Reformation, hosting the famous 1529 Diet of Augsburg delegates. Today the city charms visitors with its UNESCO-listed Grande Île, where the timber-framed “half-timber” houses line cobbled streets and the stunning Gothic cathedral towers above the bustling markets. A blend of French and German cuisine, lively cafés and modern European institutions makes Strasbourg a vibrant, walkable destination.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
  "syd": {
   "name": "Sydney",
   "text": "Sydney, Australia, sits on the eastern coast where the sparkling waters of Port Jackson meet the Pacific Ocean, framed by the iconic Harbour Bridge and the soaring sails of the Opera House. Founded in 1788 as a penal colony, it grew into a vibrant, multicultural metropolis. Today the city buzzes with outdoor cafés, bustling markets and sun-lit beaches such as Bondi and Manly, while the harbour offers stunning walks and ferry rides. With its mix of historic sandstone buildings, leafy parks and a lively arts scene, Sydney feels both relaxed and cosmopolitan, inviting visitors to explore its natural beauty and cultural flair.",
@@ -3653,12 +3884,26 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "szg": {
+  "name": "Salzburg",
+  "text": "Salzburg sits on the banks of the Salzach River in western Austria, nestled against the northern edge of the Alps and just a short drive from the German border. Founded as a Roman settlement, the town rose to prominence in the 17th century as the seat of the powerful Prince-Archbishopric, a status reflected in its grand baroque architecture and the imposing Hohensalzburg Fortress that dominates the skyline. Today visitors wander its UNESCO-listed historic centre, enjoying lively market squares, Mozart’s birthplace, and panoramic mountain views, while cafés spill onto cobbled streets and the surrounding countryside invites easy day trips for hiking or lake-side relaxation.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "szx": {
   "name": "Shenzhen",
   "text": "Shenzhen, a bustling metropolis in southern China, sits on the eastern shore of the Pearl River Delta, just north of Hong Kong. It was a modest fishing village until 1980, when it was designated as China’s first Special Economic Zone, sparking rapid development and turning it into a global technology hub. Today the city dazzles visitors with its soaring skyscrapers, vibrant street markets and world-class museums, while its parks and coastline offer quieter spots to relax. Efficient public transport makes it easy to explore the mix of cutting-edge innovation and colourful local culture.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "tae": {
+  "name": "Daegu",
+  "text": "Daegu, a bustling city in the south-eastern part of South Korea, sits in the valley of the Nakdong River between the Taebaek and Sobaek mountain ranges. It grew around the ancient Silla kingdom, becoming a key centre for the production of rice and textiles, and later played an important role in the Korean independence movement of the early 20th century. Today Daegu is known for its vibrant street markets, especially the famous Seomun Market, and its lively night-life around the Dongseongno shopping district. Visitors enjoy easy access to nearby hot-springs, modern museums and the striking Apsan-san mountain trail, all set against a backdrop of sleek skyscrapers and historic temples.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "tam": {
   "name": "Toamasina",
@@ -3800,6 +4045,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "tlm": {
+  "name": "Tlemcen",
+  "text": "Tlemcen, nestled in north-western Algeria close to the Moroccan border and set against the foothills of the Tell Atlas, was once the flourishing capital of the medieval Zayyanid dynasty and is famed for its Great Mosque, begun in 1082. Today the town feels like a quiet oasis of history: narrow, winding streets are lined with restored medina houses, bustling souks offer spices and ceramics, and the surrounding hills provide pleasant walks. Visitors can savour traditional Algerian tea in a courtyard café, explore the well-preserved ruins, and enjoy a relaxed atmosphere that blends the legacy of a great empire with everyday life.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "tlr": {
   "name": "Toliara",
   "text": "Toliara, on Madagascar’s southwestern coast, sits beside the Baie des Baly and faces the vast Indian Ocean, with the arid spiny forest of the Antsokay Reserve just inland. Founded in the mid-19th century as a French trading post, the town grew around its natural harbour, which once handled ivory and spices. Today visitors find a relaxed seaside atmosphere, colourful market stalls selling fresh seafood and zebu meat, and easy access to striking limestone cliffs and the famous “Shipwreck Beach” where the wreck of the MV Mimosa rests. The warm climate and friendly locals make it a rewarding off-the-beaten-path stop.",
@@ -3820,6 +4072,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "tml": {
+  "name": "Tamale",
+  "text": "Tamale, the bustling capital of Ghana’s Northern Region, sits on the savannah plain about 600 km north of Accra and serves as a gateway to the country’s rich Sahelian culture. Founded in the 19th century as a trading hub for the Dagomba kingdom, the town retains historic mud-brick mosques and vibrant markets where colourful textiles and spices are displayed. Today visitors find a friendly, laid-back atmosphere, with lively street food stalls serving tuwo and smoked fish, lively music echoing from local bars, and easy access to nearby attractions such as the ancient Mole National Park and the historic Larabanga Mosque.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "tng": {
   "name": "Tangier",
@@ -3939,6 +4198,13 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "uel": {
+  "name": "Quelimane",
+  "text": "Quelimane is a bustling port town on Mozambique’s central coast, situated where the Rio dos Bons Sinais meets the Indian Ocean. Founded by the Portuguese in the 16th century, it became an important trading hub for ivory, spices and later, cotton. Today the town is a lively blend of colonial architecture and colourful market stalls, with fresh seafood served on the riverfront and palm-shaded streets buzzing with motorbikes. Visitors can watch colourful fishing boats return at sunset, explore the nearby mangrove forests, and soak up a relaxed, authentic Mozambican atmosphere far from the more tourist-heavy resorts.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "ufa": {
   "name": "Ufa",
@@ -4066,6 +4332,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "vrn": {
+  "name": "Verona",
+  "text": "Verona, perched on the banks of the Adige River in northern Italy, sits about 115 km west of Venice and is the capital of the Veneto region. The city’s Roman arena, built in the first century AD, is one of the best-preserved amphitheatres in the world and still hosts summer opera performances. Wandering today, you’ll find charming cobbled streets lined with pastel-coloured houses, bustling piazzas filled with cafés, and the famous balcony said to have inspired Shakespeare’s Romeo and Juliet. The mix of ancient monuments, lively markets and excellent local cuisine makes Verona a delightful place to explore on foot.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "vte": {
   "name": "Vientiane",
   "text": "Vientiane, the capital of Laos, sits on the banks of the Mekong River opposite Thailand, at the country’s north-western edge. Founded centuries ago as a modest settlement, it became the royal seat in the 14th-century Lan Xang kingdom and later a French colonial outpost, leaving a quiet blend of Buddhist temples and colonial architecture. Today the city feels relaxed and walkable, with the gilded stupa of Pha That Luang dominating the skyline, riverside cafés serving fresh coffee, and night markets offering fragrant street food. Its laid-back pace, friendly locals and modest riverfront charm make Vientiane a pleasant stop for any traveller.",
@@ -4108,6 +4381,13 @@
   "prompt": "intro-v4",
   "generated": "2026-11-17"
  },
+ "wro": {
+  "name": "Wroclaw",
+  "text": "Wroclaw, situated in south-western Poland on the banks of the Oder River, is a vibrant city of over half a million people near the Czech and German borders. First mentioned in a 1000 AD papal bull, it became a member of the medieval Hanseatic League and later flourished as a centre of trade and culture. Today the historic market square dazzles with colourful townhouses and the Gothic Town Hall, while the countless dwarf statues tucked into alleys add a whimsical charm. Cafés spill onto cobbled streets, museums showcase Polish art, and the riverfront offers relaxed walks and lively river cruises.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "wuh": {
   "name": "Wuhan",
   "text": "Wuhan, the bustling capital of Hubei province in central China, sits where the Yangtze and Han rivers meet, giving the city a striking waterfront and easy river crossings. It was the site of the 1911 Wuchang Uprising, which sparked the fall of the Qing dynasty and the birth of modern China. Today Wuhan blends historic charm with modern energy: you can wander the leafy East Lake, explore the striking Yellow Crane Tower, and sample famous hot-dry noodles at lively street stalls, while the skyline glitters with towering skyscrapers and a vibrant nightlife scene.",
@@ -4115,12 +4395,110 @@
   "prompt": "intro-v4",
   "generated": "2026-11-19"
  },
+ "xag": {
+  "name": "Antigua Guatemala",
+  "text": "Antigua Guatemala lies in the central highlands of Guatemala, about 45 kilometres south-west of the capital, Guatemala City, nestled in a valley surrounded by three volcanoes – Agua, Fuego and Acatenango. Founded in the early 16th century, it served as the capital of the Spanish colony of Guatemala until a devastating earthquake in 1773 forced the administration to move to the present-day capital. Today the town is a UNESCO World Heritage Site, its cobbled streets lined with well-preserved baroque churches, colourful colonial houses and bustling markets, offering visitors a charming blend of history, culture and stunning mountain scenery.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xay": {
+  "name": "Ayutthaya",
+  "text": "Ayutthaya lies about 80 kilometres north of Bangkok, on the banks of the Chao Phraya River where it once thrived as the capital of the Kingdom of Siam. Founded in 1350, the city grew into a flourishing trade hub before being destroyed by Burmese forces in 1767, leaving a remarkable spread of ruins that today form the UNESCO-listed Ayutthaya Historical Park. Visiting now feels like stepping into an open-air museum: towering chedis and crumbling temples rise amidst lush greenery, cyclists and riverboats weave between the stone relics, and the gentle hum of cafés and souvenir stalls adds a lively, contemporary touch.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xbh": {
+  "name": "Bhaktapur",
+  "text": "Bhaktapur, a historic city in the Kathmandu Valley of Nepal, lies about 13 kilometres east of the capital Kathmandu and is perched on a hill surrounded by rice paddies and the winding Bagmati River. It served as the capital of the Malla kingdom in the 15th century and retains a remarkably intact medieval layout, with stone-carved façades, narrow alleys and the famous 55-window palace. Today visitors wander its bustling market squares, admire the vibrant Newar woodwork, sample sweet yoghurt and savour the lively rhythm of locals who keep age-old festivals and crafts alive amidst the charming, traffic-free streets.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xgl": {
+  "name": "Galle",
+  "text": "Galle sits on the southern coast of Sri Lanka, overlooking the Indian Ocean at the mouth of the Mahaweli River. The town grew around the 16th-century Portuguese fort that the Dutch later expanded into the impressive walled citadel now recognised as a UNESCO World Heritage Site. Today the narrow, cobbled lanes of Galle Fort are lined with boutique hotels, art galleries and cafés serving fresh seafood, while the bustling harbor offers boat trips and colourful markets. Visitors can stroll along the ramparts for sweeping sea views, explore colonial architecture and enjoy the relaxed, tropical ambience that blends history with modern charm.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xgn": {
+  "name": "Granada",
+  "text": "Granada, perched on the western shore of Lake Nicaragua, is one of the country’s oldest colonial cities, founded by the Spanish in 1524. Its historic centre is a maze of pastel-coloured buildings, cobbled streets and grand churches such as the 16th-century Cathedral of Granada, all framed by the lake’s tranquil waters. Today the town buzzes with a relaxed yet lively atmosphere: you can wander the bustling central park, explore vibrant markets, take boat trips to the nearby islets, or watch the sunrise over the volcanoes that rim the horizon, making it a charming base for both culture lovers and nature enthusiasts.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xgt": {
+  "name": "Ghent",
+  "text": "Ghent sits in the north-west of Belgium, on the confluence of the Scheldt and Leie rivers, about an hour’s train ride from Brussels. It was a major medieval trading hub and, in the 14th century, its thriving cloth industry made it one of Europe’s richest cities, a status reflected in the impressive St Bavo’s Cathedral and the well-preserved Gravensteen castle. Today the city buzzes with a lively mix of historic charm and modern culture: cobbled streets lead to cosy cafés, bustling markets and contemporary art spaces, while cyclists glide past canals dotted with colourful houseboats.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xgy": {
+  "name": "Gyeongju",
+  "text": "Gyeongju, nestled in the coastal region of North Gyeongsang Province in southeastern South Korea, was the ancient capital of the Silla Kingdom for nearly a millennium, leaving a legacy of royal tombs, stone pagodas and the famous Bulguksa Temple, a UNESCO World Heritage site. Today the town feels like an open-air museum set against gentle hills and rice fields, where you can wander quiet streets lined with cherry-blossom trees, explore well-preserved relics in the Gyeongju National Museum, and enjoy cosy cafés overlooking the historic Anapji Pond, all without the crowds of a big city.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xha": {
+  "name": "Hoi An",
+  "text": "Hoi An, a charming riverside town in Quảng Nam province on Vietnam’s central coast, lies on the banks of the Thu Bồn River just a few kilometres inland from the sea. It flourished from the 15th to the 19th centuries as a bustling trading port, its historic centre – with the iconic 1590 Japanese Covered Bridge and centuries-old timber houses – now a UNESCO World Heritage site. Today the streets are a maze of lantern-lit alleys, cosy cafés and skilful tailors, while colourful bicycles glide past riverside markets and the nearby sandy beaches, offering a relaxed yet vibrant atmosphere for visitors.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
  "xia": {
   "name": "Xi'an",
   "text": "Xi’an, nestled in the heart of Shaanxi province in north-western China, sits on the fertile plains of the Wei River and marks the eastern end of the historic Silk Road. It was the capital of several great dynasties, most famously the Qin, whose first emperor commissioned the Terracotta Army that was unearthed nearby in 1974. Today the city blends old and new: you can stroll along the well-preserved city wall, wander the bustling Muslim Quarter with its fragrant street food, and still catch sight of sleek skyscrapers rising behind the ancient pagodas, offering a lively glimpse of modern Chinese life.",
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "xkd": {
+  "name": "Kandy",
+  "text": "Kandy, nestled in the hills of central Sri Lanka about 115 km east of Colombo, sits beside the shimmering Kandy Lake and is cradled by lush tea-covered slopes. It was the last capital of the ancient Kandyan Kingdom, where in the early 1800s the sacred tooth relic of the Buddha was safely enshrined, a tradition that still draws pilgrims to the ornate Temple of the Tooth. Today the city hums with a pleasant blend of colonial charm and vibrant local life: you can wander the bustling market, sip Ceylon tea in a cool garden café, and enjoy spectacular views from the nearby hills while the fragrant scent of incense drifts from temple precincts.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xkl": {
+  "name": "Kilwa",
+  "text": "Kilwa is a historic coastal town in southern Tanzania, perched on the Indian Ocean just north of the Mozambique border. Once a thriving Swahili trading centre, it was a key port for gold, ivory and spices in the 13th-15th centuries, and its ruined stone mosque and palace testify to that golden age. Today the town feels laid-back, with narrow streets lined by weathered coral-stone houses, a bustling fish market and quiet beaches where you can watch traditional dhow boats bobbing in the surf. The nearby ruins, a UNESCO World Heritage site, offer a captivating glimpse into Africa’s maritime past.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xkr": {
+  "name": "Kairouan",
+  "text": "Kairouan, set in the heart of Tunisia about 160 km south of the capital Tunis, is one of the oldest Islamic cities in the world, founded in 670 AD as a base for Arab expansion. It quickly became a centre of religious learning and its Great Mosque, with its iconic white-washed minaret, still dominates the skyline as a UNESCO World Heritage site. Today the city offers a lively medina of narrow lanes, bustling souks selling carpets and spices, and a peaceful atmosphere where centuries-old monuments sit beside cafés where locals enjoy mint tea and friendly conversation.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xky": {
+  "name": "Kyoto",
+  "text": "Kyoto, nestled in the Kansai region of Japan’s main island of Honshu, sits in a broad valley surrounded by mountains and criss-crossed by the Kamo River. Once the imperial capital from 794 to 1868, it retains a wealth of historic temples, shrines and traditional wooden townhouses known as machiya. Today the city feels both timeless and lively: you can wander through the tranquil bamboo groves of Arashiyama, sip matcha in a tea house near the Golden Pavilion, and explore bustling markets where modern cafés sit beside centuries-old craft shops. The mix of heritage and contemporary charm makes Kyoto a gentle, unforgettable destination.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xlm": {
+  "name": "Leon",
+  "text": "Leon, a bustling city in the north-west of Mexico’s state of Guanajuato, sits on the banks of the Turbio River and is a short drive from the historic centre of Guanajuato city. Founded in the early 17th century, it grew into an important hub for the Mexican Independence movement, with figures such as José María Morelos passing through its streets. Today Leon is famed for its vibrant leather-goods markets, lively plazas and the annual Festival Internacional del Globo, and its modern cafés and museums sit alongside colonial churches, offering visitors a lively blend of tradition and contemporary Mexican culture.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xln": {
+  "name": "Leon",
+  "text": "Leon, a bustling university town on Nicaragua’s Pacific coast, sits about 130 km north of the capital Managua and is the capital of the department of León. Founded in 1524, it soon became the colonial capital of the Spanish province of Nueva Segovia and its grand baroque cathedral – a UNESCO World Heritage site – still dominates the skyline. Today the city hums with a lively mix of colourful markets, historic cafés and street art, while the nearby beaches and volcanoes offer easy day-trips, making Leon a vibrant base for exploring both culture and nature.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "xmn": {
   "name": "Xiamen",
@@ -4135,6 +4513,41 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-19"
+ },
+ "xnr": {
+  "name": "Nara",
+  "text": "Nara, a city in the Kansai region of Japan about an hour’s train ride from Osaka, was the nation’s first permanent capital, serving as the seat of government from 710 to 794. Today it feels like a living museum: ancient wooden temples such as Tōdai-ji, home to the massive bronze Great Buddha, sit beside tranquil parks where friendly deer roam free. The streets blend traditional tea houses and modern cafés, and the scent of incense mingles with the fresh air of surrounding hills. Visitors can wander historic lanes, enjoy seasonal cherry blossoms, and experience a gentle pace that contrasts with Japan’s bustling metropolises.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xnz": {
+  "name": "Nizwa",
+  "text": "Nizwa, nestled in the rugged interior of Oman about 140 kilometres west of Muscat, is the historic heart of the Al Dakhiliyah region and was once the capital of the country’s empire. The town is famed for its massive 17th-century fort, with towering walls and a towering “donkey-tower” that once guarded the mountain passes. Today visitors wander a bustling souk where frankincense, silver jewellery and fresh dates are sold, pause at the impressive mosque courtyard, and can explore narrow alleyways that lead to traditional mud-brick houses, all set against a backdrop of striking mountain scenery and the scent of spice in the air.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xop": {
+  "name": "Ouro Preto",
+  "text": "Ouro Preto lies high in the rolling hills of the state of Minas Gerais, about 100 km northeast of Belo Horizonte, perched at roughly 1 200 metres above sea level. Founded in the early 1700s during the Brazilian gold rush, the town quickly became a centre of colonial wealth and culture, its streets still echoing the baroque splendour of churches such as São Francisco de Assis. Today visitors wander cobbled lanes lined with colourful tiled houses, explore museums that showcase the region’s mining heritage, and enjoy panoramic views from the historic hillside, all while soaking up a lively atmosphere of cafés, artisan shops and festivals.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
+ },
+ "xro": {
+  "name": "Roscoff",
+  "text": "Roscoff is a charming fishing port on the north-west coast of Brittany, France, facing the English Channel and just a short ferry ride from Plymouth. Founded in the Middle Ages, the town became famous in the 19th century as the departure point for the first regular trans-Channel steamship service, linking France and Britain. Today Roscoff delights visitors with its colourful harbour, slate-roofed houses and a bustling market where fresh seafood and the celebrated “Roscoff pink” seaweed are sold. Stroll along the promenade, explore the historic granite church and sample the local cider for a quintessential Breton experience.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-05"
+ },
+ "xsc": {
+  "name": "San Cristobal de las Casas",
+  "text": "San Cristóbal de las Casas is a high-altitude town in the southern Mexican state of Chiapas, perched on a series of hills about 2,200 metres above sea level. Founded by the Spanish in 1528, it soon became the colonial capital of the region and retains a wealth of Baroque churches and a well-preserved main plaza. Today the town buzzes with colourful markets, lively cafés and cobbled streets lined with colonial facades, while surrounding indigenous villages add a vibrant cultural tapestry; the cool climate, misty mornings and stunning mountain views make strolling through its historic centre a truly enchanting experience.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  },
  "yae": {
   "name": "Yaounde",
@@ -4331,5 +4744,12 @@
   "model": "openai/gpt-oss-120b",
   "prompt": "intro-v4",
   "generated": "2026-11-07"
+ },
+ "zyl": {
+  "name": "Sylhet",
+  "text": "Sylhet, nestled in the north-eastern tip of Bangladesh near the Indian border, is famed for its rolling tea estates, mist-clad hills and the mighty Surma River that threads through the city. The town grew around the 14th-century shrine of Hazrat Shah Jalal, a celebrated Sufi saint whose legacy still draws pilgrims from across the region. Today visitors find a lively mix of bustling bazaars selling fragrant tea, colourful silk, and fresh river fish, alongside tranquil tea-garden walks and the cool, pine-scented air of the nearby Khasi hills, making Sylhet a charming blend of history and natural beauty.",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "intro-v4",
+  "generated": "2026-11-24"
  }
 }
