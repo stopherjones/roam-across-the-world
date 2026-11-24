@@ -1,0 +1,130 @@
+{
+ "id": "alg",
+ "town": "Algiers",
+ "source": "https://en.wikipedia.org/wiki/Algiers",
+ "pool": [
+  {
+   "year": 1516,
+   "text": "The main building in the Kasbah was begun on the site of an older building.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1518,
+   "text": "Khair-ad-Din Barbarossa began the inner harbour to accommodate his pirate vessels.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1544,
+   "text": "A lighthouse was built occupying the site of Fort Penon.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "environment"
+  },
+  {
+   "year": 1556,
+   "text": "A citadel, Palace of the Dey was constructed at the highest point in the wall.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1576,
+   "text": "Le Bastion 23 was built by Dey Ramdhan Pacha in the lower Casbah.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "culture"
+  },
+  {
+   "year": 1631,
+   "text": "Two Algerine pirate crews landed in Ireland, sacked Baltimore, and enslaved its inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "Charles Boyer and Hedy Lamarr starred in Algiers, directed by John Cromwell.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "culture"
+  },
+  {
+   "year": 1950,
+   "text": "Bud Abbott and Lou Costello starred in Abbott and Costello in the Foreign Legion.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "The 10th Parachute Division of the French Army led attacks against independence fighters.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "Youssef Chahine directed the film Jamila, the Algerian.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "Algeria achieved independence with Algiers serving as its capital.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1966,
+   "text": "Gillo Pontecorvo directed the film The Battle of Algiers.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Mohammed Zinet directed the film Tahya ya Didou, Alger Insolite.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "The monument was opened on the 20th anniversary of Algeria's independence.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Algiers was the site of demonstrations demanding the end of the single-party system.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1989,
+   "text": "The Algerian constitutional referendum took place and a new constitution was adopted.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "A political entity dominated by religious conservatives engaged in a political test of wills.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "The Kasbah of Algiers was enlisted as a cultural world heritage site by UNESCO.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Considerable land reclamation along the waterfront allowed for developments such as Marina Mall.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "A paper was published estimating future climate conditions for Algiers by 2100.",
+   "url": "https://en.wikipedia.org/wiki/Algiers",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

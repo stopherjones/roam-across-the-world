@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2879,
+  "completionTokens": 2948,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1885,
+   "theme": "power_conflict",
+   "event": "The city known as Kamerun was renamed Douala and became territory capital.",
+   "quote": "In the same year the city known as Kamerun was renamed Douala and became the capital of the territory until 1902, when the capital was moved to Buéa.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1990,
+   "theme": "culture",
+   "event": "The Palace Dika Akwa Mukanda was built in the Bonanjo area.",
+   "quote": "The Palace Dika Akwa Mukanda was built in 1990. It is located in the administrative area Bonanjo",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1998,
+   "theme": "civic",
+   "event": "A research prepared the diagnostic for the 2015 horizon in Douala.",
+   "quote": "In 1998 a research prepared the diagnostic for the 2015 horizon.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1472,
+   "theme": "culture",
+   "event": "Portuguese explorers became the first Europeans to visit the Douala area.",
+   "quote": "The first Europeans to visit the area were the Portuguese in about 1472.",
+   "stage": "verification",
+   "why": "The source quote states the event happened 'in about 1472', which is not the exact year 1472."
+  }
+ ]
+}

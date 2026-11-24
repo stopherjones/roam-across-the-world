@@ -1,0 +1,229 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 9587,
+  "completionTokens": 6364,
+  "chunksRead": 2,
+  "chunksAvailable": 3
+ },
+ "rejects": [
+  {
+   "year": 1866,
+   "theme": "commerce_industry",
+   "event": "Borsa Istanbul was originally established as the Ottoman Stock Exchange in 1866.",
+   "quote": "Borsa Istanbul, which was originally established as the Ottoman Stock Exchange in 1866.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1896,
+   "theme": "culture",
+   "event": "The first film screening in Turkey was held at Yıldız Palace in 1896.",
+   "quote": "The first film screening in Turkey was at Yıldız Palace in 1896, a year after the technology publicly debuted in Paris.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1908,
+   "theme": "power_conflict",
+   "event": "The Ottoman Parliament was reopened on 23 July 1908.",
+   "quote": "With the Young Turk Revolution in 1908, the Ottoman Parliament, closed since 14 February 1878, was reopened 30 years later on 23 July 1908, which marked the beginning of the Second Constitutional Era.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1909,
+   "theme": "power_conflict",
+   "event": "Sultan Abdul Hamid II was deposed in 1909.",
+   "quote": "Sultan Abdul Hamid II was deposed in 1909, following the counter-revolution attempt known as the 31 March incident.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1912,
+   "theme": "civic",
+   "event": "Atatürk Airport was built in 1912 as an airfield.",
+   "quote": "Atatürk Airport, originally named Yeşilköy Airport, was built in 1912 as an airfield for the Ottoman Aviation Squadrons.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1915,
+   "theme": "power_conflict",
+   "event": "Armenian intellectuals were deported on 24 April 1915.",
+   "quote": "The deportation of Armenian intellectuals on 24 April 1915 was among the major events which marked the start of the Armenian genocide during WWI.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1918,
+   "theme": "power_conflict",
+   "event": "The Armistice of Mudros was signed on 30 October 1918.",
+   "quote": "The Armistice of Mudros was signed on 30 October 1918.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1920,
+   "theme": "power_conflict",
+   "event": "The Ottoman Parliament was dissolved by the Allies on 11 April 1920.",
+   "quote": "The Ottoman Parliament was dissolved by the Allies on 11 April 1920, upon which many of its former members joined the Turkish National Movement headquartered in Ankara, where the Grand National Assembly of Turkey was established on 23 April 1920.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1923,
+   "theme": "civic",
+   "event": "Turkish forces entered Istanbul on 6 October 1923.",
+   "quote": "Turkish forces of the Ankara government, commanded by Şükrü Naili Pasha (3rd Corps), entered the city with a ceremony on 6 October 1923, which has been marked as the \"Liberation Day of Istanbul\" (İstanbul'un Kurtuluşu), and has been commemorated annually since.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1930,
+   "theme": "civic",
+   "event": "The name Constantinople was officially changed as İstanbul on 28 March 1930.",
+   "quote": "The name Constantinople, which remained in use for 1600 years, was officially changed as İstanbul on 28 March 1930; a decision which inspired the lyrics of the 1953 song Istanbul (Not Constantinople), written on the 500th anniversary of the conquest of the city by the Ottoman Turks in 1453.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1942,
+   "theme": "commerce_industry",
+   "event": "The 1942 wealth tax was levied with much higher rates on non-Muslims.",
+   "quote": "The 1942 wealth tax during World War II, which was levied with much higher rates on non-Muslims, led to the transfer or liquidation of many businesses owned by religious minorities.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1955,
+   "theme": "power_conflict",
+   "event": "The 1955 Istanbul pogrom led to the emigration of most remaining Greeks.",
+   "quote": "The 1955 Istanbul pogrom, during which numerous Greeks (with various estimates) were killed, wounded or sexually assaulted, led to the emigration of most of the remaining Greeks in Istanbul.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1971,
+   "theme": "civic",
+   "event": "Robert College was nationalized and reorganized as Boğaziçi University in 1971.",
+   "quote": "in Industrial Engineering), was nationalized and reorganized as Boğaziçi University in 1971; while its high school section, formerly named Robert Academy (RA), continues to operate as an American high school, with the Turkish name Robert Kolej referring mainly to the still active high school section since 1971.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1973,
+   "theme": "culture",
+   "event": "The Istanbul Festival began showcasing art from around the world in 1973.",
+   "quote": "Coinciding with this cultural reemergence was the establishment of the Istanbul Festival, which began showcasing a variety of art from Turkey and around the world in 1973.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1973,
+   "theme": "environment",
+   "event": "The Bosphorus Bridge was opened in 1973 and connected Europe and Asia.",
+   "quote": "The Bosphorus Bridge, which connects the city's European and Asian parts, was opened in 1973 and significantly contributed to the increase in migration from Anatolia.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1987,
+   "theme": "culture",
+   "event": "The Istanbul Biennial has been held every two years since 1987.",
+   "quote": "The most prominent of the festivals that evolved from the original Istanbul Festival is the Istanbul Biennial, held every two years since 1987.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1989,
+   "theme": "environment",
+   "event": "The M1 line of the Istanbul Metro was opened in 1989.",
+   "quote": "The M1 line of the Istanbul Metro was opened in 1989.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1990,
+   "theme": "civic",
+   "event": "The pedestrianization of İstiklal Avenue in Beyoğlu was completed in 1990.",
+   "quote": "In 1990 the pedestrianization of İstiklal Avenue in Beyoğlu was completed and the nostalgic trams were reintroduced.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1995,
+   "theme": "commerce_industry",
+   "event": "Borsa Istanbul moved its headquarters to İstinye in 1995.",
+   "quote": "In 1995, keeping up with the financial trends, Borsa Istanbul moved its headquarters (which was originally located on Bankalar Caddesi, the financial center of the Ottoman Empire, and later at the 4th Vakıf Han building in Sirkeci) to İstinye, in the vicinity of Maslak, which hosts the headquarters of numerous Turkish banks.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2011,
+   "theme": "environment",
+   "event": "Prime Minister Erdoğan presented Canal Istanbul as a workaround solution in 2011.",
+   "quote": "In 2011, as a workaround solution, the then Prime Minister Erdoğan presented Canal Istanbul, a project to open a new strait between the Black and Marmara seas.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2018,
+   "theme": "commerce_industry",
+   "event": "Istanbul had the eleventh-largest economy among the world's urban areas in 2018.",
+   "quote": "Istanbul had the eleventh-largest economy among the world's urban areas in 2018, and is responsible for 30% of Turkey's industrial output, 31% of GDP, and 47% of tax revenues.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2019,
+   "theme": "commerce_industry",
+   "event": "Istanbul-based companies produced exports worth $83.66 billion in 2019.",
+   "quote": "In 2019, companies based in Istanbul produced exports worth $83.66 billion and received imports totaling $128.34 billion; these figures were equivalent to 47% and 61%, respectively, of the national totals.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2023,
+   "theme": "commerce_industry",
+   "event": "The Ataşehir district is home to the Istanbul Financial Center since 2023.",
+   "quote": "Since 2023, the Ataşehir district on the Asian side of the city is home to the Istanbul Financial Center (IFC), where the new headquarters of the state-owned Turkish banks, including the Turkish Central Bank, are located.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2025,
+   "theme": "commerce_industry",
+   "event": "Euromonitor International ranked Istanbul as the fifth most visited city in 2025.",
+   "quote": "In 2025, Euromonitor International ranked Istanbul as the fifth most visited city in the world.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1492,
+   "theme": "culture",
+   "event": "Sephardic Jews settled in Istanbul after their expulsion from Spain and Portugal.",
+   "quote": "Sephardic Jews settled in the city after their expulsion from Spain and Portugal in 1492 and 1497.",
+   "stage": "verification",
+   "why": "The quote states expulsion dates were 1492 and 1497, but does not explicitly state they settled in Istanbul in 1492 (it says they settled in the city after their expulsion in those years)."
+  },
+  {
+   "year": 1660,
+   "theme": "commerce_industry",
+   "event": "The Mahmutpasha Bazaar became an open-air market extending to the major spice market.",
+   "quote": "Mahmutpasha Bazaar is an open-air market extending between the Grand Bazaar and the Spice Bazaar, which has been Istanbul's major spice market since 1660.",
+   "stage": "verification",
+   "why": "The source quote states the Spice Bazaar has been the major spice market since 1660, not that the Mahmutpasha Bazaar became an open-air market in 1660."
+  },
+  {
+   "year": 2013,
+   "theme": "power_conflict",
+   "event": "Large scale anti-AKP government protests began in İstanbul and spread throughout the nation.",
+   "quote": "In 2013 and 2014, large scale anti-AKP government protests began in İstanbul and spread throughout the nation.",
+   "stage": "verification",
+   "why": "The source quote states protests began in 2013 and 2014, whereas the claim only specifies the exact year 2013."
+  }
+ ]
+}

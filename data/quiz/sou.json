@@ -1,0 +1,130 @@
+{
+ "id": "sou",
+ "town": "Southampton",
+ "source": "https://en.wikipedia.org/wiki/Southampton",
+ "pool": [
+  {
+   "year": 1066,
+   "text": "Following the Norman Conquest, Southampton became the major port of transit.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1222,
+   "text": "The first mayor of Southampton served, marking 800 years of the office.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "civic"
+  },
+  {
+   "year": 1233,
+   "text": "The Franciscan friary in Southampton was founded around this period.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "culture"
+  },
+  {
+   "year": 1415,
+   "text": "Ringleaders of the Southampton Plot were tried for high treason.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1620,
+   "text": "The port served as departure point for the Pilgrim Fathers aboard Mayflower.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "culture"
+  },
+  {
+   "year": 1642,
+   "text": "A Parliamentary garrison moved into Southampton during the English Civil War.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1927,
+   "text": "Lucia Foster Welch was elected as the first female mayor.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "Southampton Art Gallery opened to hold national and international quality exhibitions.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "culture"
+  },
+  {
+   "year": 1940,
+   "text": "Heavy bombing destroyed the Woolston factory and killed local civilians.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The operation of the tram system in Southampton came to an end.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "University College at Highfield was upgraded to the University of Southampton.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "The town of Southampton acquired official city status.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "Southampton Container Terminals first opened and continued to expand.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1988,
+   "text": "A monorail system was proposed for Southampton.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "Cross-channel car ferries stopped operating from Southampton except for Isle of Wight services.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "Southampton City Council took over most functions to become a unitary authority.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Westquay Shopping Centre opened as the city's largest retail centre.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "17 Port and Maritime Regiment received recognition in Southampton.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2004,
+   "text": "Station studios in the Northam area closed down.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "Southampton City Council estimated port contributions to air pollution.",
+   "url": "https://en.wikipedia.org/wiki/Southampton",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

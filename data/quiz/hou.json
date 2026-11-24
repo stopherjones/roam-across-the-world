@@ -1,0 +1,130 @@
+{
+ "id": "hou",
+ "town": "Houston",
+ "source": "https://en.wikipedia.org/wiki/Houston",
+ "pool": [
+  {
+   "year": 1836,
+   "text": "Land investors founded Houston at Buffalo Bayou and White Oak Bayou.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "civic"
+  },
+  {
+   "year": 1837,
+   "text": "The city of Houston was officially incorporated by the Republic.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "civic"
+  },
+  {
+   "year": 1839,
+   "text": "The Republic of Texas relocated its capital to Austin.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "civic"
+  },
+  {
+   "year": 1840,
+   "text": "A chamber of commerce was established to promote shipping navigation.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1847,
+   "text": "The Roman Catholic Archdiocese of Galveston-Houston was established.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "culture"
+  },
+  {
+   "year": 1853,
+   "text": "The first public execution in Houston took place at Founder's Cemetery.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1927,
+   "text": "Texas Southern University was founded as the first state university in Houston.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "The Brown Shipbuilding Company was founded to build ships.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1947,
+   "text": "Thomas was founded as Houston's only Catholic university.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "The city annexed several unincorporated areas, doubling its size.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "Houston Christian University was founded in southwest Houston offering bachelor's and graduate degrees.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "NASA established the Manned Spacecraft Center in the city.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "The Astrodome opened as the world's first indoor stadium.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "Houston received the official nickname of Space City.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "Hobby Airport was known as Houston International Airport until this year.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1982,
+   "text": "JPMorgan Chase Tower was completed as the tallest skyscraper.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1983,
+   "text": "Wells Fargo Plaza was completed as the second tallest building.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "Enron Corporation became engulfed in an accounting scandal.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2023,
+   "text": "The city of Houston made enforcement of an anti-food sharing ordinance a priority.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2024,
+   "text": "A strong derecho caused widespread damage across the area.",
+   "url": "https://en.wikipedia.org/wiki/Houston",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

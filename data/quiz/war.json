@@ -1,0 +1,130 @@
+{
+ "id": "war",
+ "town": "Warsaw",
+ "source": "https://en.wikipedia.org/wiki/Warsaw",
+ "pool": [
+  {
+   "year": 1390,
+   "text": "The completion of this cathedral established Warsaw as a ducal seat.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "culture"
+  },
+  {
+   "year": 1390,
+   "text": "The oldest existing armed seal of the city of Warsaw was created.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1525,
+   "text": "Financial and social class disparities led to a minor revolt here.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1596,
+   "text": "Sigismund III Vasa transferred his royal court here, establishing the capital.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1609,
+   "text": "City records document the use of a crude form of a sea monster.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "culture"
+  },
+  {
+   "year": 1727,
+   "text": "The opening of the Saxon Garden marked the first publicly accessible park.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "environment"
+  },
+  {
+   "year": 1929,
+   "text": "A monument dedicated to Frédéric Chopin was constructed in Royal Łazienki Park.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "The Warsaw Historical Museum dating back to this year contains exhibition rooms.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "The city was bombed and besieged at the start of the war.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "The general uprising began as the Red Army neared the city.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1951,
+   "text": "The now-defunct FSO was established and became a successful corporation.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1980,
+   "text": "The reconstructed Old Town was listed as a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "The stock exchange was re-established following the end of planned economy.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1993,
+   "text": "Moscow became a twin town of Warsaw until a later year.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1995,
+   "text": "The metro system opened with a single line and eleven stations.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "A new act restored the city as a single urban gmina.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "The entry into the European Union triggered a large economic boom.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "Warsaw Gallery Weekend began to be held on the last weekend.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The opening fixture of UEFA Euro took place in the city.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "Thirteen Varsovian restaurants were appreciated and two received a Michelin star.",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

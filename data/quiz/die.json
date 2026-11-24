@@ -1,0 +1,130 @@
+{
+ "id": "die",
+ "town": "Dieppe",
+ "source": "https://en.wikipedia.org/wiki/Dieppe",
+ "pool": [
+  {
+   "year": 1443,
+   "text": "The town of Dieppe was intermittently under control of England until this year.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1564,
+   "text": "Michel le Vasseur and his brother Thomas le Vasseur left Dieppe.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "culture"
+  },
+  {
+   "year": 1632,
+   "text": "Three hundred colonists heading to New France departed from Dieppe.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "civic"
+  },
+  {
+   "year": 1633,
+   "text": "Merchants of Dieppe and Rouen were granted a trade monopoly by Cardinal Richelieu.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1637,
+   "text": "Captain Thomas Lambert sailed from Dieppe to establish a trading post.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1685,
+   "text": "Dieppe lost thousands of its Huguenot citizens who fled abroad.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "civic"
+  },
+  {
+   "year": 1694,
+   "text": "The town of Dieppe was largely destroyed by an Anglo-Dutch naval bombardment.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1787,
+   "text": "The Maire de Dieppe was N while the city enjoyed mayoral status.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "civic"
+  },
+  {
+   "year": 1824,
+   "text": "Dieppe was popularised as a seaside resort following a royal visit.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "culture"
+  },
+  {
+   "year": 1940,
+   "text": "Dieppe was occupied by German naval and army forces after the fall of France.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Allied soldiers landed at Dieppe in the hope of occupying the town.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Dieppe was liberated by soldiers from the 2nd Canadian Infantry Division.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "Dieppe in New Brunswick received its present name in honour of the raid.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "The casino in Dieppe was inaugurated in the presence of Robert Buron.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "The Hôtel de Ville in Dieppe was completed.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "The water tower in the Vertus district was built by architect Herbelin.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "environment"
+  },
+  {
+   "year": 1973,
+   "text": "The water tower has been decorated with a polychrome fresco by Victor Vasarely.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "The small municipal theater was listed in the supplementary inventory of historic monuments.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "A new seaside resort containing an outdoor seawater swimming pool was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "A member of the French Communist Party was elected in Dieppe.",
+   "url": "https://en.wikipedia.org/wiki/Dieppe",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

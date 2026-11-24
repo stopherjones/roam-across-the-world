@@ -1,0 +1,46 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2010,
+  "completionTokens": 2397,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 318,
+   "theme": "power_conflict",
+   "event": "Jinxing County was established in Nanning, starting an organizational system history.",
+   "quote": "In the first year of Daxing period of Eastern Jin Dynasty (AD 318), Jinxing County, established here as one of the county towns, ushered a history of 1700 years of Nanning organizational system.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 2015,
+   "theme": "commerce_industry",
+   "event": "Nanning recorded a gross domestic product of 341 billion RMB.",
+   "quote": "Nanning's GDP in 2015 was 341 billion RMB.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2007,
+   "theme": "commerce_industry",
+   "event": "Foreign exports reached ten billion US dollars in Nanning.",
+   "quote": "Foreign exports in 2007 were US$10 billion.",
+   "stage": "verification",
+   "why": "The source quote mentions foreign exports in 2007 were US$10 billion, but does not explicitly state 'ten billion US dollars in Nanning' (though implied contextually, the wording lacks explicit mention of Nanning in the quote itself)."
+  },
+  {
+   "year": 2020,
+   "theme": "commerce_industry",
+   "event": "Line 4 began operation in Nanning.",
+   "quote": "Line 3 began operation in 2019, and Line 4 began operation in 2020.",
+   "source": "https://en.wikipedia.org/wiki/Nanning",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

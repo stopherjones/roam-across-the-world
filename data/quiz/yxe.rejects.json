@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4655,
+  "completionTokens": 2534,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1964,
+   "theme": "culture",
+   "event": "The Mendel Art Gallery operated in the City Park neighbourhood until 2015.",
+   "quote": "The Remai Modern inherited the collection of the defunct Mendel Art Gallery, which operated in City Park from 1964 to 2015.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

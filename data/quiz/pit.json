@@ -1,0 +1,130 @@
+{
+ "id": "pit",
+ "town": "Pittsburgh",
+ "source": "https://en.wikipedia.org/wiki/Pittsburgh",
+ "pool": [
+  {
+   "year": 1758,
+   "text": "General John Forbes named Pittsburgh in honor of British statesman William Pitt.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "civic"
+  },
+  {
+   "year": 1794,
+   "text": "The General Assembly enacted legislation to incorporate Pittsburgh as a borough.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "civic"
+  },
+  {
+   "year": 1847,
+   "text": "Pittsburgh has hosted the world's first Mercy Hospital since this year.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1851,
+   "text": "The Pennsylvania Railroad first opened service between Pittsburgh and Philadelphia.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1856,
+   "text": "The national Republican Party held its first convention here in February.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1865,
+   "text": "Andrew Carnegie opened the Pittsburgh Locomotive and Car Works to manufacture for the industry.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1933,
+   "text": "Democrats have been elected consecutively to the mayor's office since this election.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "The city suffered severe flooding during the month of March.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "environment"
+  },
+  {
+   "year": 1940,
+   "text": "Duquesne reached the NCAA tournament Final Four once.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1954,
+   "text": "The first community-sponsored television station was established on April 1.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "Duquesne won the NIT title in its second straight trip to the game.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "Jonas Salk developed a successful polio vaccine that came into use.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "The Civic Arena opened following the displacement of residents and businesses.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "The Pittsburgh Penguins professional hockey team began playing in the city.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Pittsburgh Pipers won the first American Basketball Association championship led by Connie Hawkins.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "The Pirates became the first Major League team to field an all-minority lineup.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Renaissance II launched with a focus on cultural and neighborhood development.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "civic"
+  },
+  {
+   "year": 1980,
+   "text": "UPMC announced a major expansion and hired transplant pioneer Thomas Starzl.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "INPEX, the world's largest invention trade show, began hosting conventions.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "High lead levels in drinking water sparked criticism toward the water authority.",
+   "url": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

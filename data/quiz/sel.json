@@ -1,0 +1,130 @@
+{
+ "id": "sel",
+ "town": "Seoul",
+ "source": "https://en.wikipedia.org/wiki/Seoul",
+ "pool": [
+  {
+   "year": 1393,
+   "text": "Yi Seong-gye changed the name of his Kingdom from Goryeo to Joseon.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1394,
+   "text": "Yi Seong-gye chose Hanyang instead of Muak and construction of the city began.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1395,
+   "text": "Some major palaces, including Gyeongbokgung, were finished during its early construction stages.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "culture"
+  },
+  {
+   "year": 1396,
+   "text": "The Fortress Wall surrounding Hanyang was partially finished around this time.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1897,
+   "text": "Gojong proclaimed Korea as the Korean Empire and Seoul was temporarily called Hwang Seong.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1910,
+   "text": "Japan annexed Korea after the annexation treaty and renamed the city Gyeongseong.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "Yeongdeungpo District was annexed into Seoul to function as an industrial complex for factories.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "Gimpo International Airport opened as an airfield for the Japanese Imperial Army.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1945,
+   "text": "The American military assumed control of Korea following liberation from Japanese colonial rule.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "Seoul fell to North Korean forces in the June First Battle of Seoul.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1951,
+   "text": "Seoul fell to Chinese-North Korean forces and was recaptured by UN forces.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "A flood of refugees swelled the population of the city and metropolitan area.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "Gimpo International Airport opened for civil aircraft.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1963,
+   "text": "Seoul went through two major expansions that established the shape and size of present-day Seoul.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Seoul Central Mosque opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Korea World Trade Center Complex was established in time for the Seoul Olympics.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "Changdeokgung was added to the UNESCO World Heritage List as an outstanding palace architecture example.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Incheon International Airport opened in Yeongjong island.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "The Constitutional Court of Korea declared that Seoul must remain the national capital.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "Cheonggyecheon stream was restored by an urban revival project.",
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

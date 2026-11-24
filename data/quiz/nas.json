@@ -1,0 +1,118 @@
+{
+ "id": "nas",
+ "town": "Nassau",
+ "source": "https://en.wikipedia.org/wiki/Nassau",
+ "pool": [
+  {
+   "year": 1159,
+   "text": "County of Nassau established within the Holy Roman Empire",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1538,
+   "text": "Louis of Nassau born, later Dutch general",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1567,
+   "text": "Maurice of Nassau born, future Prince of Orange",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1604,
+   "text": "John Maurice of Nassau born, later colonial governor",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1717,
+   "text": "William Nassau de Zuylestein born, British diplomat",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "civic"
+  },
+  {
+   "year": 1788,
+   "text": "Nassau District created as Home District in Upper Canada",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "civic"
+  },
+  {
+   "year": 1790,
+   "text": "Nassau William Senior born, English lawyer and economist",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "civic"
+  },
+  {
+   "year": 1804,
+   "text": "Charles William Nassau born, future college president",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "civic"
+  },
+  {
+   "year": 1806,
+   "text": "Duchy of Nassau formed after promotion from county",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1836,
+   "text": "Sophia of Nassau born, later queen consort of Sweden and Norway",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "civic"
+  },
+  {
+   "year": 1908,
+   "text": "SMS Nassau launched as German battleship",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1928,
+   "text": "SS Nassau passenger‑cargo liner launched",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1936,
+   "text": "Mokra renamed Nassau O.S. during German occupation",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "civic"
+  },
+  {
+   "year": 1944,
+   "text": "Province of Nassau created in Nazi Germany",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Province of Nassau dissolved at end of World War II",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Mokra reverted from Nassau O.S. after German occupation ended",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "Nassau album released by The Sea and Cake",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "Shakira releases song titled \"Nassau\"",
+   "url": "https://en.wikipedia.org/wiki/Nassau",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

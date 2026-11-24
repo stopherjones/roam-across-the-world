@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3309,
+  "completionTokens": 3251,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1913,
+   "theme": "power_conflict",
+   "event": "The Republic of China united Suiyuan and Guihua as Guisui.",
+   "quote": "In 1913, the government of the new Republic of China united the garrison town of Suiyuan and the old town of Guihua as Guisui (traditional Chinese: 歸綏; simplified Chinese: 归绥; pinyin: PRC Standard Mandarin: Guīsuí, ROC Standard Mandarin: Guīsuí; postal: Kweisui).",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "The census recorded a population of 3,446,100 inhabitants.",
+   "quote": "Its population was 3,446,100 inhabitants as of the 2020 census, of whom 2,944,889 lived in the metropolitan area consisting of 4 urban districts (including Hohhot Economic and Development Zone) plus the Tumed Left Banner.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1918,
+   "theme": "culture",
+   "event": "Owen Lattimore noted Guisui's ethnic composition as purely Han Chinese.",
+   "quote": "In 1918, the American specialist on Inner Asia Owen Lattimore noted Guisui's ethnic composition as \"a town purely Han Chinese except for the Lama monasteries ...",
+   "stage": "verification",
+   "why": "The quote mentions Owen Lattimore noting the composition, but the text does not mention the year 1918."
+  }
+ ]
+}

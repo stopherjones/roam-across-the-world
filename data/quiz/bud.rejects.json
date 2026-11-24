@@ -1,0 +1,55 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 9015,
+  "completionTokens": 7450,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1956,
+   "theme": "power_conflict",
+   "event": "Citizens held a large peaceful demonstration initiating a major revolution.",
+   "quote": "On 23 October 1956, citizens held a large peaceful demonstration in Budapest demanding democratic reform. This initiated the Hungarian Revolution of 1956.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2015,
+   "theme": "commerce_industry",
+   "event": "The city recorded a gross metropolitan product of more than $100 billion.",
+   "quote": "The city had a gross metropolitan product of more than $100 billion in 2015, making it one of the largest regional economies in the European Union.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2017,
+   "theme": "power_conflict",
+   "event": "All five of these casinos were owned by Andras Vajna until his death.",
+   "quote": "All five of these casinos were owned by LVC Diamond Játékkaszinó Üzemeltető Kft, the gambling company of late András Vajna (better known as Andy Vajna) until his death in 2017.",
+   "stage": "verification",
+   "why": "The source quote states that Andras Vajna died in 2017, but the casinos were owned by his company until his death, not that he personally owned them until 2017 (implying he died in 2017)."
+  },
+  {
+   "year": 1977,
+   "theme": "culture",
+   "event": "The novel The End of a Family Story is set partly or entirely in Budapest.",
+   "quote": "The 1906 novel The Paul Street Boys, the 1937 novel Journey by Moonlight, the 1957 book The Bridge at Andau, the 1975 novel Fateless, the 1977 novel The End of a Family Story, the 1986 book Between the Woods and the Water, the 1992 novel Under the Frog, the 1987 novel The Door, the 2002 novel Prague, the 2003 book Budapeste, the 2004 novel Ballad of the Whisky Robber, the 2005 novels Parallel Stories and The Historian, the 2012 novel Budapest Noir are set, amongst others, partly or entirely in Budapest.",
+   "source": "https://en.wikipedia.org/wiki/Budapest",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 2004,
+   "theme": "culture",
+   "event": "The novel Ballad of the Whisky Robber is set partly or entirely in Budapest.",
+   "quote": "The 1906 novel The Paul Street Boys, the 1937 novel Journey by Moonlight, the 1957 book The Bridge at Andau, the 1975 novel Fateless, the 1977 novel The End of a Family Story, the 1986 book Between the Woods and the Water, the 1992 novel Under the Frog, the 1987 novel The Door, the 2002 novel Prague, the 2003 book Budapeste, the 2004 novel Ballad of the Whisky Robber, the 2005 novels Parallel Stories and The Historian, the 2012 novel Budapest Noir are set, amongst others, partly or entirely in Budapest.",
+   "source": "https://en.wikipedia.org/wiki/Budapest",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

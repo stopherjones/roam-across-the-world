@@ -1,0 +1,130 @@
+{
+ "id": "las",
+ "town": "Las Vegas",
+ "source": "https://en.wikipedia.org/wiki/Las_Vegas",
+ "pool": [
+  {
+   "year": 1829,
+   "text": "A young Mexican scout named Rafael Rivera encountered the valley first.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "culture"
+  },
+  {
+   "year": 1905,
+   "text": "Land was auctioned near railroad tracks to found the city.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1906,
+   "text": "Hotel Nevada opened as the oldest continuously operating casino today.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1911,
+   "text": "The settlement was officially incorporated as a city.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The city installed a welcome arch over Fremont Street.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "culture"
+  },
+  {
+   "year": 1931,
+   "text": "The Northern Club opened its doors in the downtown area.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1941,
+   "text": "The Las Vegas Army Airfield was established late in the year.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1951,
+   "text": "Nuclear weapons testing began at the nearby Nevada Test Site.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "The Moulin Rouge Hotel opened as an integrated casino.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1959,
+   "text": "The Welcome to Fabulous Las Vegas sign was installed.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "The Mirage opened and started a trend of major resorts.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "The Review-Journal installed the largest newspaper printing press.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2002,
+   "text": "A replica welcome sign was installed within city limits.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Mayor Oscar Goodman announced plans for Symphony Park.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The World Market Center opened with three large buildings.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The Sun was awarded a Pulitzer Prize for Public Service.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The RTC launched the Strip & Downtown Express bus service.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "City offices moved to a new Las Vegas City Hall.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Circa Resort & Casino opened on Fremont Street.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "High-speed rail project Brightline West began construction.",
+   "url": "https://en.wikipedia.org/wiki/Las_Vegas",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

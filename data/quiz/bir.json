@@ -1,0 +1,130 @@
+{
+ "id": "bir",
+ "town": "Birmingham",
+ "source": "https://en.wikipedia.org/wiki/Birmingham",
+ "pool": [
+  {
+   "year": 1166,
+   "text": "Peter de Bermingham obtained a charter to hold a market at his castle.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1166,
+   "text": "Birmingham established a commercial market for agricultural produce by royal charter.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1527,
+   "text": "Bishop Vesey founded Bishop Vesey's Grammar School in the city.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "civic"
+  },
+  {
+   "year": 1552,
+   "text": "King Edward VI founded King Edward's School, Birmingham.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "civic"
+  },
+  {
+   "year": 1709,
+   "text": "Abraham Darby I built the first blast furnace to smelt iron ore.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1732,
+   "text": "Lewis Paul and John Wyatt invented roller spinning for mechanised cotton.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "The Birmingham Film Society was established with an inaugural screening.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "culture"
+  },
+  {
+   "year": 1940,
+   "text": "Otto Frisch and Rudolf Peierls described how a practical nuclear weapon could be constructed.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "Birmingham Corporation Tramways closed its substantial tram system.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "The former Birmingham Central Library opened as a large municipal library.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "A series of bomb attacks in two pubs killed twenty-one people.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "The first dedicated comedy club outside London, The Glee Club, opened.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "The Tyseley Energy from Waste Plant was built as a large incineration plant.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "environment"
+  },
+  {
+   "year": 1998,
+   "text": "Birmingham hosted the 24th G8 summit.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Trams returned to the city with the West Midlands Metro operating services.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "Birmingham began hosting the Frankfurt Christmas Market as an outdoor market.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "The Birmingham Comedy Festival started taking place in October.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Big City Plan aimed to move the city into the top global index.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The biennial Birmingham International Dance Festival started, organised by DanceXchange.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Bournville College opened its campus in Longbridge.",
+   "url": "https://en.wikipedia.org/wiki/Birmingham",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

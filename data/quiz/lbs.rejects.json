@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3755,
+  "completionTokens": 4285,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1957,
+   "theme": "civic",
+   "event": "Élisabethville was established as a fully autonomous city holding its first free municipal elections.",
+   "quote": "In 1957, Élisabethville was established as a fully autonomous city; it held the first free municipal elections in which the Congolese could vote.",
+   "stage": "code check",
+   "why": "no named place, person or thing in the event"
+  }
+ ]
+}

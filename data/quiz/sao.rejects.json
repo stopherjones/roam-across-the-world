@@ -1,0 +1,85 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10029,
+  "completionTokens": 7420,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1924,
+   "theme": "power_conflict",
+   "event": "The city experienced an armed conflict known as the São Paulo Revolt.",
+   "quote": "In 1924 the city was the stage of the São Paulo Revolt, an armed conflict fought in working-class neighborhoods near central São Paulo that lasted 23 days, from 5 to 28 July, leaving hundreds dead and thousands injured.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2010,
+   "theme": "commerce_industry",
+   "event": "The IBGE recorded the city's gross domestic product data.",
+   "quote": "According to data from the IBGE, its gross domestic product (GDP) in 2010 was R$450 billion, approximately US$220 billion, 12.26% of Brazilian GDP and 36% of the São Paulo state's GDP.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2015,
+   "theme": "environment",
+   "event": "São Paulo experienced a major drought leading to a rationing system.",
+   "quote": "In 2015, São Paulo experienced a major drought, which led several cities in the state to start a rationing system.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1887,
+   "theme": "civic",
+   "event": "The Immigrant's Hostel opened after being constructed starting in the year 1886.",
+   "quote": "Hospedaria do Imigrante (Immigrant's Hostel) was built in 1886 and opened in 1887.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1911,
+   "theme": "culture",
+   "event": "The location transitioned into a museum hosting various art exhibitions over time.",
+   "quote": "In 1911, it became a museum, where it hosts a number of art exhibitions, such as bronze statues of French sculptor Auguste Rodin took place in 2001.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1958,
+   "theme": "culture",
+   "event": "The drama group excelled with a notable play featuring labor workers.",
+   "quote": "In 1958, the group excelled with the play 'Eles não usam black tie' by Gianfrancesco Guarnieri which was the first in the history of the Brazilian drama to feature labor workers as protagonists.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1972,
+   "theme": "civic",
+   "event": "A specific zoning system was adopted designating residential areas for elites.",
+   "quote": "That zoning, adopted in 1972, designated 'Z1' areas (residential areas designed for elites) and 'Z3' (a 'mixed zone' lacking clear definitions about their characteristics).",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1997,
+   "theme": "culture",
+   "event": "The city received the title of World Gastronomy Capital during a congress.",
+   "quote": "During the 10th International Congress of Gastronomy, Hospitality and Tourism (Cihat) conducted in 1997, the city received the title of 'World Gastronomy Capital' from a commission formed by 43 nations' representatives.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1952,
+   "theme": "culture",
+   "event": "Heitor Villa-Lobos wrote his tenth symphony for the city anniversary.",
+   "quote": "In 1952, Heitor Villa-Lobos wrote his Symphony Number 10 ('Ameríndia') for the 400th anniversary of São Paulo: an allegorical, historical and religious account of the city told through the eyes of its founder José de Anchieta.",
+   "stage": "verification",
+   "why": "The source states Villa-Lobos wrote Symphony No. 10 for the 400th anniversary in 1952, but São Paulo's 400th anniversary was actually 1954 (miscalculation in the source/claim timing)."
+  }
+ ]
+}

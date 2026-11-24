@@ -1,0 +1,130 @@
+{
+ "id": "lhw",
+ "town": "Lanzhou",
+ "source": "https://en.wikipedia.org/wiki/Lanzhou",
+ "pool": [
+  {
+   "year": 1902,
+   "text": "Northwest Normal University was founded in the city",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1909,
+   "text": "Lanzhou University was founded during this year",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1909,
+   "text": "Construction of the first steel truss bridge over the Yellow River",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1919,
+   "text": "Lanzhou University of Technology was founded in the city",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1920,
+   "text": "A large earthquake struck, killing many people in the region",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1935,
+   "text": "Lanzhou was linked with Xi'an by a highway",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "Imperial Japanese bombers conducted a raid against civilian targets",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "Aircrews trained in live combat action for the upcoming war",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The People's Liberation Army began the Battle of Lanzhou",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "The first railway to reach Lanzhou was finished",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "Baita Mountain Park was opened across Zhongshan Bridge",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Plant 504 began construction as the first uranium enrichment plant",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "Gansu Agricultural University was founded in the city",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Lanzhou City College was founded during this year",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Lanzhou Jiaotong University was founded in the city",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Xiguan Mosque was rebuilt during this year",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The city was affected by the Sichuan earthquake",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "The World Health Organization reported on the city's air quality",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Lanzhou New Area was approved by the State Council",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "A brucellosis outbreak affecting humans took place in the city",
+   "url": "https://en.wikipedia.org/wiki/Lanzhou",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

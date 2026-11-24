@@ -1,0 +1,112 @@
+{
+ "id": "ccs",
+ "town": "Caracas",
+ "source": "https://en.wikipedia.org/wiki/Caracas",
+ "pool": [
+  {
+   "year": 1567,
+   "text": "Captain Diego de Losada laid the foundations of the city of Santiago de León de Caracas.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1577,
+   "text": "Caracas became the capital of the Spanish Empire's Venezuela Province under governor Juan de Pimentel.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1721,
+   "text": "The Central University of Venezuela was founded as the oldest university in the country.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "culture"
+  },
+  {
+   "year": 1728,
+   "text": "The Guipuzcoan Company of Caracas was founded by the king and cacao business grew.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1777,
+   "text": "Luis de Unzaga created the Captaincy General of Venezuela with Caracas as capital.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1811,
+   "text": "The successful Venezuelan Declaration of Independence took place following earlier independence efforts in Caracas.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1812,
+   "text": "An earthquake destroyed Caracas and disrupted the population before later historical conflicts concluded.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "environment"
+  },
+  {
+   "year": 1874,
+   "text": "Tributaries of the Guaire River began being used for sewage collection during government leadership.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "environment"
+  },
+  {
+   "year": 1982,
+   "text": "Caracas became part of the Union of Ibero-American Capital Cities.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "A mysterious black substance referred to as La Mancha Negra oozed from roads.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "environment"
+  },
+  {
+   "year": 2000,
+   "text": "The University City of Caracas designed by Carlos Raúl Villanueva was declared a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "A United Nations survey reported that the cost of living in Caracas was relative to New York.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2010,
+   "text": "Caracas had the highest murder rate in the world, surpassing deaths during the Iraq War.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2017,
+   "text": "Caracas was designated as the most violent city in the world.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2019,
+   "text": "Caracas ranked as the city with the sixth highest homicide rate outside a warzone.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2026,
+   "text": "The United States launched strikes on Caracas and captured President Nicolás Maduro and Cilia Flores.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2026,
+   "text": "A powerful earthquake doublet struck the city, causing widespread damage, casualties, and injuries.",
+   "url": "https://en.wikipedia.org/wiki/Caracas",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

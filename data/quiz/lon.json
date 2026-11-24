@@ -1,0 +1,130 @@
+{
+ "id": "lon",
+ "town": "London",
+ "source": "https://en.wikipedia.org/wiki/London",
+ "pool": [
+  {
+   "year": 1066,
+   "text": "William, Duke of Normandy, was crowned King of England in Westminster Abbey.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1097,
+   "text": "William II began building Westminster Hall, located near the abbey.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "civic"
+  },
+  {
+   "year": 1290,
+   "text": "Edward I ordered the expulsion of the Jewish population from England.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "culture"
+  },
+  {
+   "year": 1475,
+   "text": "The Hanseatic League established a trading base in the city.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1599,
+   "text": "Shakespeare constructed his Globe Theatre in the area of Southwark.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "culture"
+  },
+  {
+   "year": 1665,
+   "text": "The Great Plague struck, killing a fifth of the population.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1928,
+   "text": "Odeon Cinemas, the largest cinema chain in the country, was founded.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1929,
+   "text": "The Austin Motor Company began manufacturing hackney carriages.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "The record label EMI was formed in the city.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1932,
+   "text": "Victoria Coach Station opened as the city's main coach hub.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1947,
+   "text": "The red double-decker bus first appeared with the AEC Regent III RT.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "The British Academy Film Awards have been held in London.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "culture"
+  },
+  {
+   "year": 1951,
+   "text": "The Festival of Britain was held on the South Bank.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "The Great Smog occurred and led to the Clean Air Act.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "environment"
+  },
+  {
+   "year": 1957,
+   "text": "The BFI London Film Festival was founded and takes place every October.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Michael Bond created the refugee Paddington Bear character.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "Jim Marshall founded Marshall Amplification as a guitar amp engineer.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1965,
+   "text": "Political boundaries were expanded and a new Greater London Council was created.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "The Thames Barrier was completed to protect against tidal surges.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "Three London Underground trains and a double-decker bus were bombed.",
+   "url": "https://en.wikipedia.org/wiki/London",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

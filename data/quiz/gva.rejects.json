@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 9838,
+  "completionTokens": 3368,
+  "chunksRead": 2,
+  "chunksAvailable": 3
+ },
+ "rejects": [
+  {
+   "year": 2013,
+   "theme": "civic",
+   "event": "Grand Genève was transformed into a Local Grouping of Transnational Cooperation under Swiss law.",
+   "quote": "Finally in 2012 the Projet d’agglomération franco-valdo-genevois was renamed Grand Genève ('Greater Geneva'), and the following year it was transformed into a Local Grouping of Transnational Cooperation (GLCT), a public entity under Swiss law, which now serves as the executive body of the Grand Genève.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  }
+ ]
+}

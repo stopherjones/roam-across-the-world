@@ -1,0 +1,88 @@
+{
+ "id": "bze",
+ "town": "Belize City",
+ "source": "https://en.wikipedia.org/wiki/Belize_City",
+ "pool": [
+  {
+   "year": 1638,
+   "text": "Belize City was originally founded as Belize Town by English lumber harvesters.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1707,
+   "text": "The British began bringing thousands of African slaves to the forestry industry.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1798,
+   "text": "Belize Town served as the coordination site for the Battle of St.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1931,
+   "text": "Belize City was directly struck by a major hurricane.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "environment"
+  },
+  {
+   "year": 1961,
+   "text": "Hurricane Hattie swept ashore and almost entirely destroyed Belize City.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "environment"
+  },
+  {
+   "year": 1970,
+   "text": "The government moved from Belize City to the new capital of Belmopan.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "The official residence of the Governor-General of Belize became the House of Culture.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Fires occurred in areas of the city.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "Recent fires occurred in areas of Belize City.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "Sadie Vernon Technical Southside school transitioned to become coeducational.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Hurricane Richard hit Belize City hard.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2016,
+   "text": "Hurricane Earl hit Belize City hard.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2024,
+   "text": "Bernard Wagner of the People's United Party became mayor after municipal elections.",
+   "url": "https://en.wikipedia.org/wiki/Belize_City",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

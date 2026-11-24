@@ -1,0 +1,130 @@
+{
+ "id": "sao",
+ "town": "Sao Paulo",
+ "source": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+ "pool": [
+  {
+   "year": 1532,
+   "text": "Martim Afonso de Sousa founded the first Brazilian village of São Vicente.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1554,
+   "text": "Jesuit priests founded São Paulo, one of the oldest continuously inhabited cities.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "culture"
+  },
+  {
+   "year": 1560,
+   "text": "The settlement of the region's Courtyard of the College began.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "civic"
+  },
+  {
+   "year": 1562,
+   "text": "Tupinambás launched a series of attacks against the village on 9 July.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1681,
+   "text": "Luís Álvares de Castro moved the capital to the village of São Paulo.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "civic"
+  },
+  {
+   "year": 1709,
+   "text": "The Captaincy of São Paulo and Minas de Ouro was created.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1928,
+   "text": "Mário de Andrade published his rhapsodic novel showcasing an abundance of folklore.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "culture"
+  },
+  {
+   "year": 1929,
+   "text": "São Paulo won its first skyscraper, the Martinelli Building.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1932,
+   "text": "São Paulo became the centre of the Constitutionalist Revolution.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1933,
+   "text": "Oswald de Andrade published experimental prose highlighting a break with tradition.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "The University of São Paulo was founded with the reunion of faculties.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "culture"
+  },
+  {
+   "year": 1935,
+   "text": "Campo de Marte opened and became the base for a major fleet.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "civic"
+  },
+  {
+   "year": 1947,
+   "text": "São Paulo gained its first paved highway connecting to the coast.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1948,
+   "text": "Teatro de Arena began with students from a newly founded drama art school.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "The SPTrans transport system opened to serve the local population.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "The city held a large celebration of the Fourth Centenary.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "Cantareira State Park was created to protect the water supply.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "environment"
+  },
+  {
+   "year": 1966,
+   "text": "Iguatemi Faria Lima opened as Brazil's oldest mall.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1968,
+   "text": "The Urban Development Plan proposed the Basic Plan for Integrated Development.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "The immigrant hostel officially received its very last incoming guests.",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

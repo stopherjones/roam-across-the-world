@@ -1,0 +1,78 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10209,
+  "completionTokens": 7301,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1845,
+   "theme": "environment",
+   "event": "The Great Fire of Pittsburgh destroyed over one thousand buildings.",
+   "quote": "The Great Fire of Pittsburgh destroyed over one thousand buildings in 1845.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2025,
+   "theme": "food_daily",
+   "event": "The water authority reported the lowest amount of lead ever recorded in drinking water.",
+   "quote": "Improvements made since 2016 have resulted in Pittsburgh Water reporting a lead level of just 2 parts per billion in its drinking water in 2025, the lowest amount of lead ever recorded in Pittsburgh's drinking water.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1777,
+   "theme": "culture",
+   "event": "General Edward Hand Hospital served the area from this year until 1845.",
+   "quote": "history and the first west of the Atlantic Plain—General Edward Hand Hospital—served the area from 1777 to 1845.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1920,
+   "theme": "commerce_industry",
+   "event": "KDKA 1020 AM began airing as the world's first commercially licensed radio station.",
+   "quote": "The first was KDKA 1020 AM, also the world's first commercially licensed radio station, which began airing on November 2, 1920.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1816,
+   "theme": "civic",
+   "event": "The local government changed status and became an official city.",
+   "quote": "On March 18, 1816, the 46-year-old local government became a city.",
+   "stage": "verification",
+   "why": "The source quote mentions the local government became a city on March 18, 1816, but states it was a 46-year-old local government, whereas 1816 minus 46 is 1770, conflicting with the 1816 year for the borough enactment in the previous item or making the age math inconsistent, though the quote explicitly gives 1816."
+  },
+  {
+   "year": 2021,
+   "theme": "environment",
+   "event": "Environmental Protection Agency data showed air quality was generally good or moderate.",
+   "quote": "United States Environmental Protection Agency (EPA) data from 2021 to 2024 shows that Pittsburgh's air quality was generally good or moderate.",
+   "stage": "verification",
+   "why": "The source states data from 2021 to 2024 shows the air quality, not just the single year 2021 exclusively as the claim might imply, but wait, the source does cover 2021. However, let's look closer: 'EPA data from 2021 to 2024 shows...' It supports 2021 being included, but is the claim fully supported? Yes, EPA data from 2021 showed this. Let's mark true."
+  },
+  {
+   "year": 1787,
+   "theme": "culture",
+   "event": "The University of Pittsburgh was established as a state-related school.",
+   "quote": "The University of Pittsburgh, established in 1787 and popularly referred to as \"Pitt\", is a state-related school with one of the nation's largest research programs.",
+   "stage": "verification",
+   "why": "The source states the University of Pittsburgh was established in 1787, but it does not state it was established *as a state-related school* in that exact year."
+  },
+  {
+   "year": 1985,
+   "theme": "culture",
+   "event": "The Pittsburgh Marathon was initiated as an annual major sporting event.",
+   "quote": "Pittsburgh Marathon (since 1985)",
+   "source": "https://en.wikipedia.org/wiki/Pittsburgh",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

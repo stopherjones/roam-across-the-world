@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5535,
+  "completionTokens": 4062,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1867,
+   "theme": "civic",
+   "event": "İzmir finally became the center of its own vilayet with its own administrative area.",
+   "quote": "In 1867, İzmir finally became the center of its own vilayet, still called by neighboring Aydın's name but with its own administrative area covering a large part of Turkey's present-day Aegean Region.",
+   "stage": "code check",
+   "why": "no named place, person or thing in the event"
+  },
+  {
+   "year": 2008,
+   "theme": "commerce_industry",
+   "event": "İzmir provided a significant portion of all tax revenues collected by Turkey.",
+   "quote": "In 2008, İzmir provided 10.5% of all tax revenues collected by Turkey and its exports corresponded to 6% and its imports to 4% of Turkey's foreign trade.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

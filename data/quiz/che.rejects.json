@@ -1,0 +1,30 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 12098,
+  "completionTokens": 7517,
+  "chunksRead": 2,
+  "chunksAvailable": 5
+ },
+ "rejects": [
+  {
+   "year": 1755,
+   "theme": "culture",
+   "event": "The Cherbourg Royal Academic Society was created by the middle-class associations.",
+   "quote": "with the creation of networks of sociability by the middle-class united in associations - such as the Cherbourg Royal Academic Society in 1755 and the lodge \"Faithful mason\".",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2012,
+   "theme": "civic",
+   "event": "The commune of Cherbourg-Octeville was upgraded to a 4-star equivalent rating for Ville Internet.",
+   "quote": "In 2010, the commune of Cherbourg-Octeville was awarded a 3-star equivalent \"Ville Internet\" label and was upgraded to a 4-star equivalent rating in 2012.",
+   "source": "https://en.wikipedia.org/wiki/Cherbourg",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

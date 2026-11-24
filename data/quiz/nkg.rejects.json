@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10955,
+  "completionTokens": 7848,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1138,
+   "theme": "power_conflict",
+   "event": "Gaozong officially designated Lin'an as the temporary capital while Jiankang remained a secondary capital.",
+   "quote": "Despite this, Jiankang retained its prestige as a secondary capital and frontline headquarters until it fell to the Mongol forces in 1275.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1408,
+   "theme": "culture",
+   "event": "The Sultan of Boni died during a state visit and was buried in the city.",
+   "quote": "...hosting foreign envoys, including the Sultan of Boni who died during a state visit in 1408 and was buried in the city.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1957,
+   "theme": "environment",
+   "event": "The city experienced extreme maximum annual precipitation days totaling one hundred sixty days.",
+   "quote": "The number of precipitation days greater than 0.1 mm was 112.9 days, and the extreme maximum annual precipitation days were 160 days in 1957.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1928,
+   "theme": "power_conflict",
+   "event": "Zhenjiang was transferred and replaced, making Nanjing the provincial capital of Jiangsu.",
+   "quote": "After the establishment of the People's Republic of China in October 1949, Nanjing was initially a province-level municipality, but it was soon merged into Jiangsu and again became the provincial capital by replacing Zhenjiang which was transferred in 1928, and retains that status to this day.",
+   "stage": "verification",
+   "why": "The source quote mentions Zhenjiang was transferred in 1928, but states Nanjing became the provincial capital after October 1949, not in 1928."
+  }
+ ]
+}

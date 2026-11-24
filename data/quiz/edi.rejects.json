@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9423,
+  "completionTokens": 7446,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2024,
+   "theme": "commerce_industry",
+   "event": "Unemployment in Edinburgh was recorded at 3.5% in May, matching the Scottish average.",
+   "quote": "In May 2024, unemployment in Edinburgh was at 3.5%, in line with the Scottish average of 3.7%.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2027,
+   "theme": "culture",
+   "event": "Edinburgh will host the Grand Départ of the Tour de France in twenty twenty-seven.",
+   "quote": "Edinburgh will also host the Grand Départ of the 2027 Tour de France.",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

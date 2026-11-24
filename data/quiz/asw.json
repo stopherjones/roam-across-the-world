@@ -1,0 +1,130 @@
+{
+ "id": "asw",
+ "town": "Aswan",
+ "source": "https://en.wikipedia.org/wiki/Aswan",
+ "pool": [
+  {
+   "year": 1898,
+   "text": "Construction began on the third railway line connecting Cairo to Luxor.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1902,
+   "text": "The village was established when the old Aswan Dam was built.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "civic"
+  },
+  {
+   "year": 1912,
+   "text": "The dam structure was raised to impound water during the Nile flood season.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "environment"
+  },
+  {
+   "year": 1956,
+   "text": "The Egyptian Chemical Industries Company, known as KIMA, was established by government decision.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1957,
+   "text": "Aga Khan III, associated with the Aswan mausoleum, died in this year.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "The mausoleum tomb was inspired by the design of Fatimid Egyptian tombs.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "The facility near the city began operating as part of the Aswan Air Base.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1970,
+   "text": "The construction of the Aswan High Dam lasted until this year.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1996,
+   "text": "The construction of the Aswan Bridge began, leading to completion later.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "A museum dedicated to Nubian culture, heritage, and civilization was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The Aswan branch of the Misr Public Library was inaugurated and opened.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The church dedicated to Archangel Michael was consecrated in this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Archaeologists excavated petroglyphic engravings from Nag el-Hamdulab featuring a boat procession and symbolism.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "The museum located on a large area was opened to visitors.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "Aswan joined the UNESCO Global Network of Learning Cities in this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "The annual Aswan International Women's Film Festival was established as a premier event.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "The Egyptian Ministry of Antiquities announced the discovery of a Roman emperor bust head.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "A sandstone sphinx statue was discovered at the temple of Kom Ombo.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Archaeologists discovered 35 mummified remains of Egyptians in a tomb located in Aswan.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "An archaeological expedition uncovered submerged rock carvings and miniature royal images in the Nile.",
+   "url": "https://en.wikipedia.org/wiki/Aswan",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

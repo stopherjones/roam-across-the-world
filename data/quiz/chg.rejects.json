@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8713,
+  "completionTokens": 5870,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1885,
+   "theme": "commerce_industry",
+   "event": "The first steel-framed high-rise building rose in the city.",
+   "quote": "... In 1885, the first steel-framed high-rise building, the Home Insurance Building, rose in the city as Chicago ushered in the skyscraper era, which would then be followed by many other cities around the world.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2012,
+   "theme": "power_conflict",
+   "event": "Teachers for the Chicago Teachers Union went on strike for the first time since 1987.",
+   "quote": "In September 2012, teachers for the Chicago Teachers Union went on strike for the first time since 1987 over pay, resources, and other issues.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "The overall crime rate for the city was recorded at 3,926 per 100,000 people.",
+   "quote": "Chicago's crime rate in 2020 was 3,926 per 100,000 people.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1955,
+   "theme": "culture",
+   "event": "Pope Leo XIV was born in Chicago and graduated from the Catholic Theological Union.",
+   "quote": "Pope Leo XIV was born in Chicago in 1955 and graduated from the Catholic Theological Union in Hyde Park.",
+   "stage": "verification",
+   "why": "The source quote mentions Pope Leo XIV, but there is no historical pope named Leo XIV born in 1955; the claim is false/fabricated content in the source context."
+  }
+ ]
+}

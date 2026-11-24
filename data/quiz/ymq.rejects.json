@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7534,
+  "completionTokens": 5457,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1832,
+   "theme": "civic",
+   "event": "Montreal was incorporated as a city, marking a significant administrative milestone in the region.",
+   "quote": "Montreal was incorporated as a city in 1832.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1844,
+   "theme": "power_conflict",
+   "event": "Montreal served as the capital of the Province of Canada until 1849.",
+   "quote": "Montreal was the capital of the Province of Canada from 1844 to 1849, but lost its status when a Tory mob burnt down the Parliament building to protest the passage of the Rebellion Losses Bill.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2006,
+   "theme": "culture",
+   "event": "Montreal was officially named a UNESCO City of Design.",
+   "quote": "Montreal was the location of the headquarters of the International Civil Aviation Organization, and was named a UNESCO City of Design in 2006.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2027,
+   "theme": "civic",
+   "event": "The REM will be fully completed becoming a very large network.",
+   "quote": "Two more phases are planned to open as of 2025, the REM will be fully completed by 2027, becoming the fourth largest automated rapid transit network after the Dubai Metro, the Singapore Mass Rapid Transit, and the Vancouver SkyTrain.",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "hab",
+ "town": "Havana",
+ "source": "https://en.wikipedia.org/wiki/Havana",
+ "pool": [
+  {
+   "year": 1514,
+   "text": "Diego Velázquez de Cuéllar founded the town of San Cristóbal de la Habana.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "civic"
+  },
+  {
+   "year": 1519,
+   "text": "Havana originated adjacent to the port called Puerto de Carenas.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "civic"
+  },
+  {
+   "year": 1550,
+   "text": "The Havana City Council was first created during the Governorate of Cuba.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "civic"
+  },
+  {
+   "year": 1552,
+   "text": "Havana became the capital of the island, overtaking Santiago.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "civic"
+  },
+  {
+   "year": 1555,
+   "text": "French corsair Jacques de Sores burned the city in its first attack.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1649,
+   "text": "A yellow fever epidemic killed one‑third of Havana’s population.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "environment"
+  },
+  {
+   "year": 1929,
+   "text": "El Capitolio Nacional, the massive Senate and House building, was completed.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  },
+  {
+   "year": 1929,
+   "text": "Ricardo Mira designed López Serrano Building, later a landmark",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "Bacardi Building completed as iconic Havana landmark",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1947,
+   "text": "Teatro Warner Radiocentro opened with 1,650 seats",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "CM radio studio moved to Radiocentro building in El Vedado",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "CMQ‑TV launched on channel 6, becoming major Cuban broadcaster",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "Alicia Alonso founded the Ballet Nacional de Cuba.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "Radiocentro CMQ Building constructed, showcasing modern architecture",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "The 20‑meter marble Christ of Havana statue was erected on the bay hillside.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Hilton Hotel opened, later housed Fidel Castro after revolution",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "Revolutionary government began expanding social services, public housing, and official buildings.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The United States imposed an embargo, causing severe shortages in Havana.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "First International Festival of New Latin American Cinema held in Havana",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Old Havana was designated a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

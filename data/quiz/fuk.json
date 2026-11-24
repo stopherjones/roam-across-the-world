@@ -1,0 +1,130 @@
+{
+ "id": "fuk",
+ "town": "Fukuoka",
+ "source": "https://en.wikipedia.org/wiki/Fukuoka",
+ "pool": [
+  {
+   "year": 1274,
+   "text": "Kublai Khan mounted an invasion of the northern part of Kyushu with a fleet.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1276,
+   "text": "Japanese samurai constructed a stone barrier bordering the coast of Hakata Bay.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1281,
+   "text": "Kublai organized another attack on Fukuoka Prefecture, mobilizing soldiers and ships.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1868,
+   "text": "The renowned temple of Tokugawa Ieyasu in the district was destroyed by fire.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1889,
+   "text": "The modern city was formed with the merger of Hakata and Fukuoka.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "civic"
+  },
+  {
+   "year": 1899,
+   "text": "The Buddhist Nanzoin temple was founded and is claimed to have a massive statue.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "culture"
+  },
+  {
+   "year": 1943,
+   "text": "The region housed the largest prisoner of war base in Japan.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "The postwar era saw the establishment of key events like the Fukuoka Marathon.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "Fukuoka established its own stock exchange, founded in this year.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1951,
+   "text": "A new municipal airport was established following the close of World War II.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "The Fukuoka Zoo was founded during the postwar development period.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "The city was designated by government ordinance on April 1.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "civic"
+  },
+  {
+   "year": 1975,
+   "text": "Fukuoka absorbed the town of Sawara, benefiting greatly from the Japanese economic miracle.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "The city held two important expositions including the Asian-Pacific Exposition.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Fukuoka established a partnership with Atlanta after a visit by former prime minister.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "A powerful earthquake hit at 10:53 am local time, killing one person.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "Sky Dream Fukuoka, a massive Ferris wheel in the western ward, was closed.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Dominican songwriter and singer Juan Luis Guerra pays homage to the city.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Fukuoka surpassed the population of Kyoto during the summer month.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The city was selected as the National Strategic Zone for global startups.",
+   "url": "https://en.wikipedia.org/wiki/Fukuoka",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

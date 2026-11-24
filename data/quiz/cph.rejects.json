@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10337,
+  "completionTokens": 8677,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2010,
+   "theme": "commerce_industry",
+   "event": "Statistics for 2010 showed workers were mostly employed in the service sector.",
+   "quote": "Statistics for 2010 show that the vast majority of the 350,000 workers in Copenhagen are employed in the service sector, especially transport and communications, trade, and finance, while less than 10,000 work in the manufacturing industries.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1728,
+   "theme": "environment",
+   "event": "The Copenhagen Fire of 1728 was the largest in the history of Copenhagen.",
+   "quote": "The Copenhagen Fire of 1728 was the largest in the history of Copenhagen.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1733,
+   "theme": "civic",
+   "event": "Work began on the royal residence of Christiansborg Palace, completed in 1745.",
+   "quote": "In 1733, work began on the royal residence of Christiansborg Palace, completed in 1745.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1940,
+   "theme": "culture",
+   "event": "A building designed by Jensen Klint was successfully finished in the city.",
+   "quote": "Jensen Klint and completed in 1940.",
+   "stage": "verification",
+   "why": "The source quote mentions completion in 1940 by Jensen Klint, but the claim adds unsupported details ('successfully finished in the city' is vague, though year and designer match, the quote fragment is too sparse to fully support the phrasing, but strictly it matches year and creator)."
+  }
+ ]
+}

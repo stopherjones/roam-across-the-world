@@ -1,0 +1,130 @@
+{
+ "id": "kuf",
+ "town": "Samara",
+ "source": "https://en.wikipedia.org/wiki/Samara",
+ "pool": [
+  {
+   "year": 1586,
+   "text": "Officially, Samara started with a fortress built at the confluence of the Volga rivers.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1600,
+   "text": "A local customs office was established in the city during the early period.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1780,
+   "text": "Samara was turned into an uyezd town of Simbirsk Governorate overseen by officials.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "civic"
+  },
+  {
+   "year": 1851,
+   "text": "Samara became the centre of Samara Governorate with an estimated population of residents.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "civic"
+  },
+  {
+   "year": 1877,
+   "text": "A mission from the Samara City Duma brought a special banner to Bulgaria.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1886,
+   "text": "The regional museum of local history was founded as one of the oldest.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "culture"
+  },
+  {
+   "year": 1935,
+   "text": "Samara was renamed to Kuybyshev in honor of the Russian Bolshevik Valerian Kuybyshev.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "The Communist Party and governmental organisations were evacuated to the city during wartime.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "The wartime evacuation decisions affecting the city organisations were reversed during summer.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "Kuybyshev became the missile shield centre for the country during the era.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1961,
+   "text": "Yuri Gagarin took a rest in Kuybyshev after returning from his space flight.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "Grushinsky festival was established as an annual Russian bard song festival.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "An unusual ground-attack aircraft monument was placed on display at a major intersection.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "The city reverted to its historical name of Samara from Kuybyshev.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "A new exposition exhibiting previously classified top secret materials was opened.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Samara hosted the European Union—Russia Summit during the month of May.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Rock over Volga international rock festival was held annually timed to Russia Day.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Samara's nine city districts were granted municipal status during the spring.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Samara was awarded the title City of Labor and Combat Glory by authorities.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Samara became one of the host cities of the FIFA World Cup matches.",
+   "url": "https://en.wikipedia.org/wiki/Samara",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

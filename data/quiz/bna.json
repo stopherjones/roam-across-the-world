@@ -1,0 +1,130 @@
+{
+ "id": "bna",
+ "town": "Nashville",
+ "source": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+ "pool": [
+  {
+   "year": 1779,
+   "text": "The city was founded when this territory was still part of North Carolina.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "civic"
+  },
+  {
+   "year": 1806,
+   "text": "Nashville was incorporated as a city and became the county seat.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "civic"
+  },
+  {
+   "year": 1843,
+   "text": "The city was named as the permanent capital of the state.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "civic"
+  },
+  {
+   "year": 1862,
+   "text": "Nashville became the first state capital in the Confederacy taken by Union forces.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1873,
+   "text": "Queen Victoria reportedly called Nashville a musical city after hearing performers.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "culture"
+  },
+  {
+   "year": 1912,
+   "text": "Southern confections including Goo Goo Clusters have been made here since then.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1950,
+   "text": "Announcer David Cobb first broadcasted the nickname Music City, U.S.A.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Nashville's first skyscraper, the Life and Casualty Tower, was completed downtown.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "Nashville consolidated its government with Davidson County, forming a metropolitan government.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "The city of Nashville and Davidson County officially merged.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "The Nashville Sounds baseball team was established as an expansion franchise.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "Intercity rail service ended with the cancellation of service to Union Station.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1984,
+   "text": "Nashville has been the headquarters of guitar company Gibson since this year.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "The city was the site of a pivotal garage door industry moment.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "Nashville was awarded a National Hockey League expansion team named Predators.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "The Tennessee Titans football franchise officially moved to Nashville.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "The NFL team changed its franchise name from Tennessee Oilers to Titans.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Nissan North America moved its corporate headquarters to a southern suburb.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Much of Nashville was extensively flooded as part of a series of regional floods.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "environment"
+  },
+  {
+   "year": 2020,
+   "text": "A vehicle exploded on Second Avenue, killing the perpetrator and injuring eight others.",
+   "url": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

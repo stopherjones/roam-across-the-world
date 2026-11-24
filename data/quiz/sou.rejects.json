@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9269,
+  "completionTokens": 7848,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2007,
+   "theme": "commerce_industry",
+   "event": "The average annual salary recorded in the city was £22,267.",
+   "quote": "In January 2007, the average annual salary in the city was £22,267.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "environment",
+   "event": "Southampton had a recorded population of 248,922 at the census.",
+   "quote": "Southampton had a population of 248,922 at the 2021 census, making it one of the most populous cities in southern England.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1879,
+   "theme": "civic",
+   "event": "A tram system operated in Southampton until 1949.",
+   "quote": "There was a tram system from 1879 to 1949.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2001,
+   "theme": "civic",
+   "event": "Southampton and Portsmouth were recorded as separate urban areas.",
+   "quote": "In the 2001 census Southampton and Portsmouth were recorded as being parts of separate urban areas; however by the time of the 2021 census they had merged apolitically to become the sixth-largest built-up area in England with a population of 1,151,300.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "The ethnic mix of Southampton was recorded at the population check.",
+   "quote": "The ethnic mix as of 2021 is 80.7% white, 10.6% were Asian or British Asian, 3% black, 2.3% other ethnic groups, and 3.4% were multi-ethnic.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2022,
+   "theme": "power_conflict",
+   "event": "Albert Warne was recognized on a specific date.",
+   "quote": "Albert Warne: 24 January 2022.",
+   "stage": "verification",
+   "why": "The source quote gives a date for Albert Warne, but does not mention recognition."
+  }
+ ]
+}

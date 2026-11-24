@@ -1,0 +1,130 @@
+{
+ "id": "lil",
+ "town": "Lille",
+ "source": "https://en.wikipedia.org/wiki/Lille",
+ "pool": [
+  {
+   "year": 1054,
+   "text": "There was an important armed engagement involving the city of Lille in this year.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1066,
+   "text": "The first written mention of the town of Lille appeared under a Latin name.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "civic"
+  },
+  {
+   "year": 1144,
+   "text": "Saint-Sauveur parish was established, later naming a modern-day district in the city.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "civic"
+  },
+  {
+   "year": 1236,
+   "text": "The Countess's Hospital was founded by Jeanne in the city of Lille.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "civic"
+  },
+  {
+   "year": 1594,
+   "text": "Antoine Tack became the very first printer to set up shop in Lille.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1668,
+   "text": "Lille officially became French under the Treaty of Aix-la-Chapelle after a successful siege.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1921,
+   "text": "Albert Calmette and Camille Guérin discovered the first anti-tuberculosis vaccine at the Pasteur Institute.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1936,
+   "text": "Roger Salengro became Minister of the Interior before facing a tragic campaign against him.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "British, Canadian and Polish troops liberated the départements of Nord and Pas-de-Calais.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1983,
+   "text": "The world's first automated rapid transit underground network opened in Lille.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1988,
+   "text": "Construction began on the brand-new Euralille business district to improve accessibility.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1993,
+   "text": "A high-speed TGV train line opened to connect Paris with Lille.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1994,
+   "text": "The Grand Palais opened for the general public in Lille.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Lille was selected and celebrated as a European Capital of Culture alongside Genoa.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Urban centers including Lille and Roubaix were affected by civil riots.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "The city of Lille was officially awarded the label Internet City.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Eurometropolis Lille-Kortrijk-Tournai was created as the first European grouping of territorial cooperation.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The city of Lille and suburban municipalities formed the European Metropolis of Lille.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "The European metropolis of Lille was awarded the title World Design Capital.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "The Saint-Joseph Chapel of Saint-Paul College was demolished.",
+   "url": "https://en.wikipedia.org/wiki/Lille",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

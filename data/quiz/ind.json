@@ -1,0 +1,130 @@
+{
+ "id": "ind",
+ "town": "Indianapolis",
+ "source": "https://en.wikipedia.org/wiki/Indianapolis",
+ "pool": [
+  {
+   "year": 1818,
+   "text": "Both the Lenape and the Miami Nation relinquished tribal lands in central Indiana.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "Indianapolis was established as a planned city for the new seat of government.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "civic"
+  },
+  {
+   "year": 1821,
+   "text": "The Indianapolis City Market was founded as the city's public market building.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1827,
+   "text": "Growth occurred with the opening of the National Road through town.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1839,
+   "text": "A small segment of the failed Indiana Central Canal was opened.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1913,
+   "text": "Indianapolis was one of the hardest hit cities in a major flood.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "environment"
+  },
+  {
+   "year": 1927,
+   "text": "The Madam Walker Legacy Center opened in the African-American neighborhood.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Hinkle opened as the world's largest basketball arena with fifteen thousand seats.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "The City-County Building became the first high-rise to surpass the monument height.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "The twin Riley Towers residential buildings were completed in Indianapolis.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The Indiana Pacers were founded and began playing in the American Basketball Association.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Unigov expanded the city land area and increased its population.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "civic"
+  },
+  {
+   "year": 1970,
+   "text": "Indianapolis established a consolidated city-county form of government under the Unigov provision.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "The Indianapolis Colts of the National Football League relocated to the city from Baltimore.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "The Salesforce Tower was completed as the city tallest building.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "Victory Field replaced Bush Stadium as the home venue for the Indians.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Gainbridge Fieldhouse opened and replaced Market Square Arena as home for the Fever and Pacers.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Two large capital projects including Lucas Oil Stadium were completed.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "The Indianapolis metropolitan area had the highest concentration of chain restaurants per capita.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2021,
+   "text": "A mass shooting occurred at a FedEx facility on the southwest side.",
+   "url": "https://en.wikipedia.org/wiki/Indianapolis",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

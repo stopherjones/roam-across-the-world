@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4171,
+  "completionTokens": 2610,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1995,
+   "theme": "culture",
+   "event": "The Fremont Street Experience opened in the downtown area.",
+   "quote": "In 1995, the Fremont Street Experience opened in Las Vegas's downtown area.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

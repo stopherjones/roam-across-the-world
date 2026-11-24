@@ -1,0 +1,130 @@
+{
+ "id": "asu",
+ "town": "Asuncion",
+ "source": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+ "pool": [
+  {
+   "year": 1537,
+   "text": "Juan de Salazar de Espinosa established a fort named Asunción.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "civic"
+  },
+  {
+   "year": 1541,
+   "text": "Founding document names city \"Nuestra Señora de la Asunción\".",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "civic"
+  },
+  {
+   "year": 1545,
+   "text": "Priest described colonists' licentious life as \"paradise of Muhammad\".",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "culture"
+  },
+  {
+   "year": 1603,
+   "text": "First Synod of Asunción set evangelization guidelines in Guaraní.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "culture"
+  },
+  {
+   "year": 1731,
+   "text": "Uprising under José de Antequera y Castro challenged Spanish rule.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1811,
+   "text": "Rebels forced governor Velasco to surrender, achieving independence.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1932,
+   "text": "Asunción served as relief center during Chaco War.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "Treaty of Asunción signed with Argentina, Brazil, Uruguay.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1993,
+   "text": "Asunción became autonomous municipality, not part of any department.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "Castelvi House restored and became City Memory Museum.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "Formal closure of Asunción tram system in November.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "Congress building attacked by tanks during failed coup.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "Modern building opened to house Congress.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Ycua Bolaños supermarket fire killed over 400 people.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Selection of seven cultural heritage treasures took place in Asunción.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Avenida Costanera Norte inaugurated during bicentennial celebrations.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Impeachment of President Lugo caused Paraguay's suspension from Mercosur.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2017,
+   "text": "Political crisis saw protesters set fire to Congress building.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2017,
+   "text": "1.6 million foreign tourists arrived, generating over US$600 million earnings.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "First stage of Parque Lineal Costanera opened with bike lanes and amenities.",
+   "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

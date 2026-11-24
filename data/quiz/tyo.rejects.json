@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10536,
+  "completionTokens": 7679,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1683,
+   "theme": "culture",
+   "event": "Literary depiction of Tokyo began featuring the city extensively since the Edo period.",
+   "quote": "In literature, the city has featured since the Edo period, while the modern city appears in the works of authors such as Natsume Sōseki and Mori Ōgai, who depicted life in Tokyo during the industrialization period in famous novels such as Sanshirō (1908) and The Wild Geese (1911).",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "The IOC selected Tokyo to host the 2020 Summer Olympics.",
+   "quote": "On September 7, 2013, the IOC selected Tokyo to host the 2020 Summer Olympics.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1879,
+   "theme": "culture",
+   "event": "The Japan Academy was established to bring together leading scholars in various disciplines.",
+   "quote": "The Japan Academy, the country's academy of sciences, was established in 1879 to bring together leading scholars in various disciplines.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1889,
+   "theme": "civic",
+   "event": "The Home Ministry recorded specific population totals in Tokyo City and Tokyo-fu.",
+   "quote": "In 1889, the Home Ministry recorded 1,375,937 people in Tokyo City and a total of 1,694,292 people in Tokyo-fu.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Tokyo's average and median ages were both recorded as 45.5 years old.",
+   "quote": "In 2021, Tokyo's average and median ages were both 45.5 years old.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2027,
+   "theme": "commerce_industry",
+   "event": "Torch Tower is scheduled for completion to become the tallest building in Tokyo.",
+   "quote": "With a scheduled completion date in 2027, Torch Tower (385m) will overtake Azabudai Hills Mori JP Tower (325.2m) as the tallest building in Tokyo.",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

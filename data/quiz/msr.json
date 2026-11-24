@@ -1,0 +1,130 @@
+{
+ "id": "msr",
+ "town": "Misrata",
+ "source": "https://en.wikipedia.org/wiki/Misrata",
+ "pool": [
+  {
+   "year": 1551,
+   "text": "Tripolitania including Misrata came under the regency of the Ottoman Empire.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1835,
+   "text": "Osman al-Aghdam led a rebellion against the Ottomans and their local allies.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1858,
+   "text": "The Aghdams were left in an inferior position after their eventual defeat.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1912,
+   "text": "Italy was unable to reach Misrata until this year following their invasion.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1915,
+   "text": "Ramadan al-Swehli's Misratan army dealt a major blow to the Italians at Qasr Abu Hadi.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1918,
+   "text": "Ottoman influence waned in Misrata after Nuri Bey was recalled to Istanbul.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1935,
+   "text": "The construction of the road connecting Zuwara to Misrata was completed.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1937,
+   "text": "The Via Balbia was built, connecting Misrata with Tripoli and Benghazi.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "The Kingdom of Italy created the Fourth Shore with Libya's coastal provinces.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "A new railway station built in Misrata was destroyed by British attacks.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Asswehly Sports Club was founded.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "Misrata witnessed mass riots in response to alleged vote rigging during parliamentary elections.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "Alittihad Misurata Sports Club was founded.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "Muammar Gaddafi's coup overthrew the monarchy of King Idris.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1974,
+   "text": "Alahly Misurata Sports Club was founded.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Assabah Sports Club was founded.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Aschumooe Sports Club was founded.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "Attasaddy Misurata Sports Club was founded.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Small demonstrations took place in Misrata in solidarity with protesters in Benghazi.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The city held its first free elections after a month of organizing.",
+   "url": "https://en.wikipedia.org/wiki/Misrata",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

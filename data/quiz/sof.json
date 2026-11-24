@@ -1,0 +1,130 @@
+{
+ "id": "sof",
+ "town": "Sofia",
+ "source": "https://en.wikipedia.org/wiki/Sofia",
+ "pool": [
+  {
+   "year": 1018,
+   "text": "The city eventually fell to the Byzantine Empire following the Byzantine conquest.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1194,
+   "text": "Sredets was once again incorporated into the restored Bulgarian Empire at this time.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1382,
+   "text": "Sredets became an Ottoman possession following its conquest by the Ottoman Empire.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1443,
+   "text": "Hungarian forces occupied the city for a short time during the Crusade of Varna.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1530,
+   "text": "Sofia became the regional capital of Rumelia Eyalet for about three centuries.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "civic"
+  },
+  {
+   "year": 1610,
+   "text": "The Vatican established the See of Sofia for Catholics of Rumelia.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "civic"
+  },
+  {
+   "year": 1737,
+   "text": "An important uprising against Ottoman rule took place in Sofia, Samokov and Western Bulgaria.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1858,
+   "text": "Nedelya Petkova created the first Bulgarian school for women in the city.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "culture"
+  },
+  {
+   "year": 1867,
+   "text": "The first chitalishte, which is a Bulgarian cultural institution, was inaugurated here.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "Bulgaria declared war on the US and UK on 13 December.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Sofia and the rest of Bulgaria were occupied by the Soviet Red Army.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The communist Fatherland Front took power in the country.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "The transformation of Bulgaria into the People's Republic altered the city's appearance.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "The Boyana Church in Sofia was included on the World Heritage List.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Alexander Yanchulev was elected as the first directly elected mayor of Sofia.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "The Sofia Metro became operational with only five initial stations.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "The Georgi Dimitrov Mausoleum was completely demolished in the city.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Forbes listed Sofia as a top place to launch a startup business.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Vasil Terziev won the mayoral election as the nominee of a coalition.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "Vasil Levski Sofia Airport handled millions of passengers during the year.",
+   "url": "https://en.wikipedia.org/wiki/Sofia",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "rec",
+ "town": "Recife",
+ "source": "https://en.wikipedia.org/wiki/Recife",
+ "pool": [
+  {
+   "year": 1537,
+   "text": "Recife was founded, serving as the main harbor of Pernambuco state.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1646,
+   "text": "The historic synagogue in Recife Antigo dates back to this year.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "culture"
+  },
+  {
+   "year": 1654,
+   "text": "The city was eventually recaptured by the Portuguese following military victories.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1710,
+   "text": "Merchants of Recife pitted against those of nearby Olinda.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1782,
+   "text": "Cathedral São Pedro at the rectangular Pátio de São Pedro dates from.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "culture"
+  },
+  {
+   "year": 1909,
+   "text": "The Patroness Saint of Recife dates back to this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "A Filha do Advogado is noted as another successful film in the region.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "culture"
+  },
+  {
+   "year": 1929,
+   "text": "The museum known locally as MEPE dates back to this year.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "culture"
+  },
+  {
+   "year": 1950,
+   "text": "Recife hosted just one game at Ilha do Retiro Stadium.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "civic"
+  },
+  {
+   "year": 1980,
+   "text": "Shopping Center Recife was inaugurated and subsequently surpassed by Riomar Mall.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "Recife began officially registering shark attacks on its coastal beaches.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1995,
+   "text": "Surfing has been outlawed on the urban beaches due to risks.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1996,
+   "text": "The university began teaching programmers to use Sun Microsystems Java language.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "The first center for purchases in the North West zone was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1998,
+   "text": "Plaza Shopping Casa Forte was inaugurated in November of that year.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "It was founded in July and has since attracted major investments.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "It has been open in its newest structure since July.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "ISS servers managed cameras to capture activity within areas used for Carnival.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Recife Metro completed an additional phase of expansion in March.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "The last deadly shark attack occurred on July 10 on the coast.",
+   "url": "https://en.wikipedia.org/wiki/Recife",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

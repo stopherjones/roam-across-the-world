@@ -1,0 +1,130 @@
+{
+ "id": "dal",
+ "town": "Dallas",
+ "source": "https://en.wikipedia.org/wiki/Dallas",
+ "pool": [
+  {
+   "year": 1819,
+   "text": "The Adams-Onis Treaty between the United States and Spain defined the Red River.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "Mexico declared independence from Spain, and the area was considered part of Coahuila y Tejas.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1836,
+   "text": "Texians gained independence from Mexico and formed the Republic of Texas.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1839,
+   "text": "A founder planted a stake in the ground on a Trinity River bluff.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "civic"
+  },
+  {
+   "year": 1841,
+   "text": "A permanent settlement named Dallas was established by returning founder John Neely Bryan.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "civic"
+  },
+  {
+   "year": 1845,
+   "text": "The Republic of Texas was annexed by the United States.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1931,
+   "text": "Highland Park Village opened as the second shopping center in America.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1935,
+   "text": "Dallas purchased 36 acres from John Cole's estate to develop Reverchon Park.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "environment"
+  },
+  {
+   "year": 1936,
+   "text": "Fair Park was built for the Texas Centennial Exposition world's fair.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "Originally located in Decatur, Texas, the school moved to Dallas.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "El Centro first opened its campus doors and now enrolls over students.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Restaurateur Mariano Martinez invented the frozen margarita machine.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1990,
+   "text": "Paul Quinn College moved to Dallas on the campus of Bishop College.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "Belo purchased The Dallas Times Herald and closed the paper down.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1996,
+   "text": "DART began operating the first light rail system in the state.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "HBC was acquired by Univision and became Univision Radio Inc.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "AT&T relocated their corporate headquarters to Downtown Dallas.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "A facility joined up with Madrid's Prado Museum for a three-year partnership.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "UNT at Dallas became the first public university within city limits.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Multiple shots were fired at a Black Lives Matter protest in Downtown Dallas.",
+   "url": "https://en.wikipedia.org/wiki/Dallas",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

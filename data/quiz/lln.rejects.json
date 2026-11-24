@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2135,
+  "completionTokens": 2087,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2026,
+   "theme": "civic",
+   "event": "The official census recorded the total population of the city at 1,344,144.",
+   "quote": "It has a population of 1,344,144 as of the 2026 Census, up from a population of 674,448 in 2008.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

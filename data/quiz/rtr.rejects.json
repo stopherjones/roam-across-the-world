@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3907,
+  "completionTokens": 2893,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1986,
+   "theme": "commerce_industry",
+   "event": "Lakeland Queen was launched as a paddle steamer built by Lakeland Steel Products.",
+   "quote": "Lakeland Queen was launched on 26 October 1986, and is the only sternwheeler passenger vessel in New Zealand.",
+   "stage": "verification",
+   "why": "The source quote confirms the year 1986 and the launch, but does not mention that it was built by Lakeland Steel Products."
+  },
+  {
+   "year": 2001,
+   "theme": "commerce_industry",
+   "event": "Passenger train services running from Auckland to Rotorua were permanently stopped.",
+   "quote": "However, owing to poor advertising of the service and the location of the station being a 15-minute walk from the town centre in an industrial area, passenger services stopped in October 2001.",
+   "stage": "verification",
+   "why": "The source quote mentions passenger services stopping in October 2001, but does not state the route was from Auckland to Rotorua or that the stoppage was permanent."
+  }
+ ]
+}

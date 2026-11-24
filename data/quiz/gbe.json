@@ -1,0 +1,130 @@
+{
+ "id": "gbe",
+ "town": "Gaborone",
+ "source": "https://en.wikipedia.org/wiki/Gaborone",
+ "pool": [
+  {
+   "year": 1890,
+   "text": "Cecil John Rhodes picked Gaberones to house a colonial fort for the territory.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1964,
+   "text": "The modern town of Gaborone was founded after a decision to establish a capital.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "The capital of the Bechuanaland Protectorate moved from Mafeking to Gaberones.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "Bechuanaland became the eleventh British dependency in Africa to become an independent republic.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "The museum officially opened to the public in the growing city of Gaborone.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Botswana Red Cross Society was established and headquartered in the city of Gaborone.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "The city officially changed its name from Gaberones to Gaborone.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "The Gaborone Town Council and Ministry surveyed Bontleng to contain low-income housing.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "environment"
+  },
+  {
+   "year": 1973,
+   "text": "The Botswana Housing Corporation built a New Naledi across the road from Old Naledi.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "environment"
+  },
+  {
+   "year": 1975,
+   "text": "President Sir Seretse Khama rezoned Naledi from an industrial zone to low-income housing.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "civic"
+  },
+  {
+   "year": 1980,
+   "text": "The Southern African Development Community was formed with its headquarters located in Gaborone.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1987,
+   "text": "The annual Maitisong Festival started and is held every year for seven days.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "The reserve was built and became the third-busiest in the country of Botswana.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "environment"
+  },
+  {
+   "year": 1994,
+   "text": "Riots started in Gaborone following the general elections because of high unemployment and issues.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "The Mokolodi Nature Reserve was created as a thirty-square-kilometre reserve near the city.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "environment"
+  },
+  {
+   "year": 1998,
+   "text": "The Cancer Association of Botswana was established as a voluntary non-governmental trust.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "An International Law Enforcement Academy was established in Gaborone.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The museum opened a botanical garden called the National Botanical Garden in Gaborone.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "environment"
+  },
+  {
+   "year": 2009,
+   "text": "The park was officially opened by the Botswana Minister of Environment, Wildlife and Tourism.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "environment"
+  },
+  {
+   "year": 2009,
+   "text": "The railway line became a cargo-only line before passenger services resumed later.",
+   "url": "https://en.wikipedia.org/wiki/Gaborone",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

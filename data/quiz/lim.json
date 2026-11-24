@@ -1,0 +1,130 @@
+{
+ "id": "lim",
+ "town": "Limon",
+ "source": "https://en.wikipedia.org/wiki/Limon",
+ "pool": [
+  {
+   "year": 1838,
+   "text": "Finnish writer and translator Theodolinda Hahnsson was born in this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1908,
+   "text": "Mexican-born American modern dancer and choreographer José Limón was born.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1915,
+   "text": "Canadian sprinter Marshall Limon was born in this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1916,
+   "text": "Journalist Limon Staneci was born in Yugoslavia in this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "civic"
+  },
+  {
+   "year": 1919,
+   "text": "Finnish writer and translator Theodolinda Hahnsson passed away in this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1924,
+   "text": "Mordechai Limon, who became the fourth commander of the Israeli navy, was born.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1932,
+   "text": "Donald Limon, who later served as Clerk of the House of Commons, was born.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "American novelist Martin Limón was born during this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "Mexican politician Carlos Madrazo Limón was born during this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "French politician Monique Limon was born in this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "Mexican-born American modern dancer and choreographer José Limón passed away.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Spanish record producer, singer and songwriter Javier Limón was born.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "Surinamese footballer Harvey Limón was born in this particular year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "American poet Ada Limon was born in this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Surinamese footballer Emilio Limón came into the world in this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Donald Limon began serving as the Clerk of the House of Commons.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1997,
+   "text": "Donald Limon concluded his tenure as Clerk of the House of Commons.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "The vessel MV Limon was scrapped during this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Mordechai Limon, fourth commander of the Israeli navy, passed away.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2012,
+   "text": "British public servant Donald Limon passed away in this year.",
+   "url": "https://en.wikipedia.org/wiki/Limon",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

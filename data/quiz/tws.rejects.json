@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2483,
+  "completionTokens": 2610,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1953,
+   "theme": "culture",
+   "event": "Leon Uris published a fictional book that extensively depicts the 1943 battle.",
+   "quote": "Leon Uris's 1953 fictional Battle Cry extensively depicts the 1943 battle.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2015,
+   "theme": "civic",
+   "event": "South Tarawa recorded 56,388 inhabitants as half of the country population.",
+   "quote": "It comprises North Tarawa, which has 6,629 inhabitants and much in common with other more remote islands of the Gilbert group, and South Tarawa, which has 56,388 inhabitants as of 2015, half of the country's total population.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1944,
+   "theme": "power_conflict",
+   "event": "Tarawa was released at the insistence of President Roosevelt in March.",
+   "quote": "It was released in March 1944 at the insistence of President Roosevelt.",
+   "stage": "verification",
+   "why": "The source quote mentions 'It was released in March 1944', but 'It' is ambiguous and does not explicitly state that Tarawa was released."
+  }
+ ]
+}

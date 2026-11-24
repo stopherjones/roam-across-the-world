@@ -1,0 +1,130 @@
+{
+ "id": "cok",
+ "town": "Kochi",
+ "source": "https://en.wikipedia.org/wiki/Kochi",
+ "pool": [
+  {
+   "year": 1341,
+   "text": "Kochi rose to significance as a trading centre after Muziris was destroyed.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "environment"
+  },
+  {
+   "year": 1440,
+   "text": "Italian traveller Niccolò Da Conti visited Kochi during his travels.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "culture"
+  },
+  {
+   "year": 1500,
+   "text": "Portuguese navigator Pedro Álvares Cabral founded the first European settlement in India.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1664,
+   "text": "Fort Kochi Municipality was established by Dutch as the first municipality.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1814,
+   "text": "The Anglo-Dutch Treaty was signed, ceding Kochi to the United Kingdom.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1866,
+   "text": "Fort Kochi was made a municipality according to the Madras Act.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "The construction of the Cochin Port transformed Kochi into a trading hub.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1947,
+   "text": "Cochin became the first princely state to join India willingly.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Travancore–Cochin state came into being with the merger of Cochin and Travancore.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The Ernakulam district was formed carving areas from erstwhile regions.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "The Kochi Municipal Corporation came into existence on the state anniversary.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "Peoples Council for Social Justice was found under patronage of Justice V.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "The city reverted to a closer transcription of its original Malayalam name.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "The Kochi International Book Festival began as an annual book event.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "India's first art biennale, the Kochi-Muziris Biennale, started hosting visitors.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Cochin International Airport became the world's first fully solar-powered airport.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "environment"
+  },
+  {
+   "year": 2017,
+   "text": "The metro line section from Aluva to Palarivattom was opened to passengers.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "The airport received the United Nations Champions of the Earth award.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "environment"
+  },
+  {
+   "year": 2019,
+   "text": "Arike home daycare program was started for extending palliative care services.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "It finished building the first indigenous aircraft carrier for the Indian Navy.",
+   "url": "https://en.wikipedia.org/wiki/Kochi",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

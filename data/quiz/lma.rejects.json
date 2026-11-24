@@ -1,0 +1,133 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 5,
+  "promptTokens": 6738,
+  "completionTokens": 5373,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1535,
+   "theme": "civic",
+   "event": "Lima founded as City of Kings on January 6, 1535.",
+   "quote": "Thus, on 6 January 1535, Lima was founded with the name \"City of the Kings\", named in this way in honor of the Epiphany, on territories that had been of the kuraka Taulichusco.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1586,
+   "theme": "environment",
+   "event": "Violent earthquakes destroyed large parts of Lima between 1586 and 1687.",
+   "quote": "But the city was not without its dangers; violent earthquakes destroyed a large part of it between 1586 and 1687, leading to a great deal of construction activity.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2008,
+   "theme": "commerce_industry",
+   "event": "Lima hosted Asia‑Pacific Economic Cooperation Summit.",
+   "quote": "It also hosted the Asia-Pacific Economic Cooperation Meetings three times in 2008, 2016 and 2024.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "Lima selected to host 2019 Pan American Games.",
+   "quote": "In October 2013, Lima was chosen to host the 2019 Pan American Games; these games were held at venues in and around Lima, and were the largest sporting event ever hosted by the country.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2016,
+   "theme": "culture",
+   "event": "Central awarded No. 1 in Latin America's 50 Best Restaurants list.",
+   "quote": "In 2016, Central was awarded No. 1 restaurant in the list of Latin America's 50 Best Restaurants 2015.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2019,
+   "theme": "culture",
+   "event": "Central named Best Restaurant in the World.",
+   "quote": "In 2023, Central was named the Best Restaurant in the World.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "COVID‑19 pandemic delayed construction of new Jorge Chávez Airport terminal.",
+   "quote": "The construction of the new terminal of the Jorge Chávez International Airport began in 2019, but was delayed due to the COVID-19 pandemic and continued in 2021.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "New Jorge Chávez Airport terminal inaugurated on 1 June 2025.",
+   "quote": "The terminal was inaugurated on 1 June 2025, allowing transit for an estimated 40 million passengers per year by 2030.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2026,
+   "theme": "culture",
+   "event": "The 50 Best Restaurants Awards Ceremony held in Lima.",
+   "quote": "It also hosted ... The 50 Best Restaurants 2026 Awards Ceremony.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2027,
+   "theme": "culture",
+   "event": "Lima scheduled to host second Pan American Games.",
+   "quote": "The city will host the games for a second time in 2027.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 2014,
+   "theme": "environment",
+   "event": "Lima recorded an average dust concentration of 15.2 tons per km².",
+   "quote": "In February 2014, Lima recorded an average of 15.2 tons/km2.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2012,
+   "theme": "civic",
+   "event": "Twenty-two districts had over 1000 citizens per Serenazgo official.",
+   "quote": "Twenty-two districts in Lima have a ratio above 1000 citizens per Serenazgo official, while 14 districts have ratios below 200 citizens per official, including Miraflores with 119 and San Isidro with 57.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1883,
+   "theme": "power_conflict",
+   "event": "Chilean army occupied Lima during the War of the Pacific.",
+   "quote": "During the War of the Pacific (1879–1883), the Chilean army occupied Lima after defeating Peruvian troops and reserves in the battles of San Juan and Miraflores.",
+   "stage": "verification",
+   "why": "Quote mentions occupation during the war (1879‑1883) but does not specify the exact year 1883."
+  },
+  {
+   "year": 2002,
+   "theme": "civic",
+   "event": "Regional autonomy granted to both provinces under Law 27867.",
+   "quote": "Both provinces have had regional autonomy since 2002.",
+   "stage": "verification",
+   "why": "Quote confirms autonomy since 2002 but does not mention Law 27867."
+  },
+  {
+   "year": 2024,
+   "theme": "commerce_industry",
+   "event": "Port of Chancay inaugurated, becoming largest South American port.",
+   "quote": "The Port of Chancay in the city of Chancay, was inaugurated on 14 November, 2024, in a joint construction performed by Peru and China.",
+   "stage": "verification",
+   "why": "Quote only mentions inauguration in 2024, not that it is the largest South American port."
+  }
+ ]
+}

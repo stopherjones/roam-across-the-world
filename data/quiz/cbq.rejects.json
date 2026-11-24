@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2700,
+  "completionTokens": 2714,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2006,
+   "theme": "civic",
+   "event": "The official census recorded a population of 371,022 inhabitants in the area.",
+   "quote": "It has an area of 406 square kilometres (157 sq mi) and, as of the 2006 census, a population of 371,022.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "krk",
+ "town": "Krakow",
+ "source": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+ "pool": [
+  {
+   "year": 1038,
+   "text": "Kraków became the seat of Polish monarchs from the Piast dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1257,
+   "text": "Bolesław V the Chaste incorporated the rebuilt city and introduced new trade privileges.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1364,
+   "text": "King Casimir founded the Jagiellonian University in central Europe.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 1473,
+   "text": "Kasper Straube printed the Calendarium Cracoviense, the first work printed in Poland.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 1520,
+   "text": "The famous church bell Zygmunt was cast by Hans Behem in Poland.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 1596,
+   "text": "Sigismund III Vasa moved the administrative capital of the Commonwealth to Warsaw.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1928,
+   "text": "Kelly's book The Trumpeter of Krakow won a Newbery Award.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 1931,
+   "text": "The Kraków Philharmonic was built as the principal concert hall.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "The Germans arrested university professors and academics in Sonderaktion Krakau.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Soviet forces under Marshal Ivan Konev entered the city and began arrests.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1978,
+   "text": "Karol Wojtyła was elevated to the papacy as Pope John Paul II.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Kraków was named European Capital of Culture by the European Union.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Legislation introduced new rules for the election of the City Council.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Extensive excavations preceded the construction of the museum, continuing until a later year.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "The Opera moved into its first permanent House in the autumn.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Extensive excavations that started years prior eventually continued until this year.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "The UN Conference ranked Kraków as an emergent city location for BPO projects.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Kraków was officially approved as a City of Literature by authorities.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Kraków was awarded 1st place in the Top city-break destinations survey conducted by Which?",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "The city hosted World Youth Day during the summer months.",
+   "url": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

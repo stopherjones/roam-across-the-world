@@ -1,0 +1,12 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 6567,
+  "completionTokens": 4657,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": []
+}

@@ -1,0 +1,130 @@
+{
+ "id": "tpa",
+ "town": "Tampa",
+ "source": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+ "pool": [
+  {
+   "year": 1824,
+   "text": "Fort Brooke was established at the mouth of the Hillsborough River on Tampa Bay.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1845,
+   "text": "Florida officially became the 27th state of the United States of America.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "civic"
+  },
+  {
+   "year": 1849,
+   "text": "Tampa was officially incorporated as the Village of Tampa by local residents.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "civic"
+  },
+  {
+   "year": 1855,
+   "text": "The municipal name was officially shortened to simply Tampa by local authorities.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "civic"
+  },
+  {
+   "year": 1885,
+   "text": "The Tampa Board of Trade successfully enticed Vicente Martinez Ybor to move operations.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1904,
+   "text": "A civic association dubbed Ye Mystic Krewe of Gasparilla staged an invasion.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "The 53 mile long Tampa Electric streetcar system carried almost 24 million passengers.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1929,
+   "text": "Over 500 million cigars were hand rolled in Tampa during the peak year.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1933,
+   "text": "The institution moved into the former Tampa Bay Hotel across the Hillsborough River.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "The University of South Florida was established in North Tampa by officials.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "The University of South Florida was founded as a member of the State University System.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "USF won an NCAA national championship for softball.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "The USF Soccer Stadium hosted the men's College Cup soccer tournament finals.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "The Tampa Bay Lightning of the National Hockey League were established locally.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "The Learey Technical College was established to offer education in emergency and fire programs.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The NCAA Division I Men's Basketball Final Four was played at Tropicana Field.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The Buccaneers won a championship title in Super Bowl XXXVII under the NFL.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "The Tampa Bay Lightning won one of their championship Stanley Cups.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "Hurricane Irma made landfall near Marco Island and moved due north.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "environment"
+  },
+  {
+   "year": 2019,
+   "text": "Jane Castor took office as the mayor of the city.",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

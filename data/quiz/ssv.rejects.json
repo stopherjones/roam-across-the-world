@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5531,
+  "completionTokens": 3440,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1964,
+   "theme": "civic",
+   "event": "Jose Napoleon Duarte was elected mayor and served until 1970.",
+   "quote": "In 1964, the Christian Democratic Party candidate, José Napoleón Duarte, an engineer, was elected mayor; he served from 1964 to 1970.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

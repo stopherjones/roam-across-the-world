@@ -1,0 +1,130 @@
+{
+ "id": "osl",
+ "town": "Oslo",
+ "source": "https://en.wikipedia.org/wiki/Oslo",
+ "pool": [
+  {
+   "year": 1040,
+   "text": "Oslo was founded as a city at the end of the Viking Age.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "civic"
+  },
+  {
+   "year": 1174,
+   "text": "Hovedøya Abbey was built during the medieval period in the region.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "culture"
+  },
+  {
+   "year": 1624,
+   "text": "A destructive fire occurred leading to the construction of a new city.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "civic"
+  },
+  {
+   "year": 1640,
+   "text": "Anatomigården, a historic timber framing house, was built on Christiania Torv.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "culture"
+  },
+  {
+   "year": 1654,
+   "text": "The last Black Death outbreak occurred in Oslo during this year.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "environment"
+  },
+  {
+   "year": 1811,
+   "text": "The Royal Frederick University, now known as the University of Oslo, was founded.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "culture"
+  },
+  {
+   "year": 1931,
+   "text": "City Hall construction began in the former slum area of Vika.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "PST security agency was established as a non-secret agency in Norway.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1940,
+   "text": "Norway was invaded by Germany and the city remained under occupation.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Allied bombers missed their target and hit a tram causing civilian casualties.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "Oslo began sending an annual Christmas tree expression of gratitude to Britain.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "Oslo merged with the surrounding Aker municipality to create a much larger area.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "The Oslo Philharmonic has been based at the Oslo Concert Hall.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Aker Brygge was constructed on the former shipyard site of Akers Mekaniske Verksted.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1986,
+   "text": "The combined municipality and county introduced a parliamentary system of government.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "Oslo hosted the Eurovision Song Contest for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Oslo Airport redevelopment at Gardermoen opened as a massive construction project.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "Archaeological findings called for the celebration of Oslo's millennium.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "The Oslo International Church Music Festival has been held annually.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Oslo received the prestigious European Sustainable City Award for its efforts.",
+   "url": "https://en.wikipedia.org/wiki/Oslo",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

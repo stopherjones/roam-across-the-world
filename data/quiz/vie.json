@@ -1,0 +1,130 @@
+{
+ "id": "vie",
+ "town": "Vienna",
+ "source": "https://en.wikipedia.org/wiki/Vienna",
+ "pool": [
+  {
+   "year": 1155,
+   "text": "Henry II, Duke of Austria, relocated the Babenberg residence to Vienna.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1221,
+   "text": "Vienna was officially granted city rights by the ruling authorities.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "civic"
+  },
+  {
+   "year": 1529,
+   "text": "Ottoman forces advanced toward Vienna in a notable siege.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1561,
+   "text": "Emperor Ferdinand I created the park to use as a private hunting ground.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "environment"
+  },
+  {
+   "year": 1679,
+   "text": "The Great Plague severely afflicted Vienna and killed many inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1685,
+   "text": "Armenian businessman Johannes Diodato opened the first Viennese café.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1931,
+   "text": "The Praterstadion was opened in the Prater and later renamed.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "Adolf Hitler arrived in Vienna following the entry of German troops.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "The city suffered its first air raid carried out by Soviet forces.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Two anti-aircraft flak towers were built by the Nazis towering over the park.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The first democratic municipal elections were held in November.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "The Austrian State Treaty came into force ending four-power control.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "The international film festival known as the Viennale started hosting events.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "Vienna's English Theatre was founded as the oldest in continental Europe.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "Important legal documents like the Convention on the Law of Treaties were established.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1972,
+   "text": "The construction of the Donauinsel and excavation of the New Danube began.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "environment"
+  },
+  {
+   "year": 1974,
+   "text": "The Vienna Open tennis tournament has taken place in the city.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "Vienna became a United Nations headquarters city alongside other global cities.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1989,
+   "text": "Vienna expanded its position as a gateway following the Iron Curtain.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "Vienna ranked among vegan-friendly European cities in a study by Alternative Traveler.",
+   "url": "https://en.wikipedia.org/wiki/Vienna",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

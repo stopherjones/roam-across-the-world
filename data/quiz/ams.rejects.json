@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9544,
+  "completionTokens": 7192,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2010,
+   "theme": "culture",
+   "event": "The Grachtengordel concentric canals were added to the UNESCO World Heritage List.",
+   "quote": "Many of its buildings have monuments, and in July 2010 the Grachtengordel (the three concentric canals: Herengracht, Keizersgracht, and Prinsengracht) was added to the UNESCO World Heritage List.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1968,
+   "theme": "civic",
+   "event": "Road A8 leading north to Zaandam and the A10 Ringroad were opened.",
+   "quote": "Road A8, leading north to Zaandam and the A10 Ringroad were opened between 1968 and 1974.",
+   "stage": "verification",
+   "why": "The quote states they opened between 1968 and 1974, not strictly in 1968."
+  }
+ ]
+}

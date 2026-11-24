@@ -1,0 +1,94 @@
+{
+ "id": "maj",
+ "town": "Majuro",
+ "source": "https://en.wikipedia.org/wiki/Majuro",
+ "pool": [
+  {
+   "year": 1877,
+   "text": "New Zealand copra firm Henderson and Macfarlane established its regional headquarters on Majuro.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1883,
+   "text": "Cyprian Bridge of the British warship HMS Espiegle mediated a peace treaty.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1885,
+   "text": "The German Empire annexed and claimed Majuro Atoll for the German Protectorate.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1914,
+   "text": "The Imperial Japanese Navy captured Majuro during World War I.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "United States Armed Forces invaded Majuro during World War II.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1978,
+   "text": "Majuro became the new country capital after breaking away from Micronesia.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "Majuro retained its administrative center status after independence under a Compact.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "The Marshall Islands Shipping Corporation was established by the Marshall Islands.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "Witon Barry discussed coconut oil experimentation as an alternative to diesel fuel.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The service sector composed eighty-six percent of the GDP in Majuro.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "The first mosque opened in Majuro in September of this year.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The Majuro Declaration was signed by the Pacific Islands Forum on climate change.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "environment"
+  },
+  {
+   "year": 2015,
+   "text": "Most physicians employed by the Marshall Islands were located at the hospital.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Tuna transshipment moved hundreds of thousands of tons of tuna through the port.",
+   "url": "https://en.wikipedia.org/wiki/Majuro",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

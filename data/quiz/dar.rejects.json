@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2825,
+  "completionTokens": 3200,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1867,
+   "theme": "culture",
+   "event": "The Old Boma building was constructed by Majid bin Said, sultan of Zanzibar.",
+   "quote": "The Old Boma, one of the city's oldest buildings, was built in 1866–67 by Majid bin Said, sultan of Zanzibar, and enlarged under German rule.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1902,
+   "theme": "culture",
+   "event": "The Azania Front Lutheran Church was built between 1899 and 1902.",
+   "quote": "Along with the Azania Front Lutheran Church, built between 1899 and 1902, and the Roman Catholic St.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1974,
+   "theme": "civic",
+   "event": "The decision was made to move the capital to Dodoma which completed later.",
+   "quote": "The decision was made in 1974 to move the capital to Dodoma which was officially completed in 1996.",
+   "stage": "verification",
+   "why": "The source quote states the decision was made in 1974, but the claim mentions it completed later which is not explicitly tied as the main event year of the claim's phrasing."
+  }
+ ]
+}

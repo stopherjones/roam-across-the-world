@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3530,
+  "completionTokens": 3498,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1895,
+   "theme": "culture",
+   "event": "Ana Villamil Ycaza composed music for the Guayaquil anthem",
+   "quote": "On 8 July 1898, the Guayaquil City Hall Muy Ilustre Municipalidad de Guayaquil officially recognized the anthem written by José Joaquín de Olmedo in 1821, with the music composed by Ana Villamil Ycaza in 1895, as the Himno al 9 de Octubre...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1898,
+   "theme": "culture",
+   "event": "Guayaquil City Hall officially recognized the city anthem",
+   "quote": "On 8 July 1898, the Guayaquil City Hall Muy Ilustre Municipalidad de Guayaquil officially recognized the anthem written by José Joaquín de Olmedo in 1821, with the music composed by Ana Villamil Ycaza in 1895, as the Himno al 9 de Octubre...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2001,
+   "theme": "civic",
+   "event": "Guayaquil twinned with Shanghai, China",
+   "quote": "Guayaquil is twinned with: Shanghai, China (2001)",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2004,
+   "theme": "civic",
+   "event": "Guayaquil twinned with Santiago, Chile",
+   "quote": "Guayaquil is twinned with: Santiago, Chile (2004)",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1821,
+   "theme": "culture",
+   "event": "José Joaquín de Olmedo wrote the Guayaquil anthem",
+   "quote": "On 8 July 1898, the Guayaquil City Hall Muy Ilustre Municipalidad de Guayaquil officially recognized the anthem written by José Joaquín de Olmedo in 1821...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1895,
+   "theme": "culture",
+   "event": "Ana Villamil Ycaza composed music for the Guayaquil anthem",
+   "quote": "...with the music composed by Ana Villamil Ycaza in 1895...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

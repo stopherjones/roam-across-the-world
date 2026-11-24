@@ -1,0 +1,88 @@
+{
+ "id": "bjr",
+ "town": "Bahir Dar",
+ "source": "https://en.wikipedia.org/wiki/Bahir_Dar",
+ "pool": [
+  {
+   "year": 1930,
+   "text": "The Ethiopian Government sent experts to describe Bahir Dar as a village with trading activity.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1936,
+   "text": "Bahir Dar was occupied by the Italians who provided the settlement with modern urban features.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "An Italian tourist guide noted well established Wayto villages located on Bahir Dar lakeshore.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "The Ethiopian Government was successfully reinstated within the territory of Bahir Dar.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Bahir Dar was officially raised to the important administrative status of a municipality.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "The Third Revolutionary Army made its strategic headquarters at Bahir Dar during the civil war.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "The TLA abandoned Bahir Dar in disarray and blew up the nearby bridge with soldiers.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "The EPRDF gained permanent control of the city as an objective of Operation Tewodros.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "The national census reported a total population for Bahir Dar of ninety-six thousand people.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The city hosted a National Investment Bazaar and Trade Fair for the Millennium celebrations.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "The Amhara, Tigrayan, and Oromo were reported as the three largest ethnic groups in Bahir Dar.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The city cathedral became the Episcopal See of the Ethiopic Catholic Diocese of Bahir Dar.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Coordinated assassinations of Amhara Region government officials occurred in Bahir Dar and Addis Ababa.",
+   "url": "https://en.wikipedia.org/wiki/Bahir_Dar",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

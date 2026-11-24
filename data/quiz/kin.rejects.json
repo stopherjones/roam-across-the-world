@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8818,
+  "completionTokens": 6165,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1964,
+   "theme": "power_conflict",
+   "event": "Moïse Tshombe decreed the expulsion of various foreign nationals and refugees.",
+   "quote": "In 1964, Moïse Tshombe decreed the expulsion of all nationals of Republic of the Congo, Burundi and Mali, as well as all political refugees from Rwanda.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1991,
+   "theme": "power_conflict",
+   "event": "Rioting soldiers dealt a significant blow to the fragile economy.",
+   "quote": "The looting of 1991 and 1992 dealt a significant blow to Kinshasa's already fragile economy.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2007,
+   "theme": "culture",
+   "event": "The number of television broadcasters in the city increased dramatically to 63.",
+   "quote": "By 2004, the city had 23 radio stations and 26 TV stations, with the number of television broadcasters increasing dramatically to 63 by 2007.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "The DRC Music collective recorded the collaborative album Kinshasa One Two in five days.",
+   "quote": "In 2011, the DRC Music collective, curated by Damon Albarn, recorded the collaborative album Kinshasa One Two in just five days, bringing together over fifty Congolese musicians and international producers.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

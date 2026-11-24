@@ -1,0 +1,130 @@
+{
+ "id": "stl",
+ "town": "St Louis",
+ "source": "https://en.wikipedia.org/wiki/St._Louis",
+ "pool": [
+  {
+   "year": 1764,
+   "text": "Pierre Laclède and Auguste Chouteau founded what became the city of St.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1803,
+   "text": "Territories were transferred to the French First Republic before the Louisiana Purchase.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1804,
+   "text": "The United States acquired St. Louis and explored the territory along Missouri.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1818,
+   "text": "St. Louis University High School was founded as a Jesuit institution.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "culture"
+  },
+  {
+   "year": 1821,
+   "text": "Missouri was officially admitted as a state into the United States union.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1822,
+   "text": "Louis was incorporated as a city, developing rapidly due to its port.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "Douglass University, a historically black university, was founded by B.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "The city shifted into a Democratic stronghold at the presidential level.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "The city banned the use of soft coal mined in nearby states.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "environment"
+  },
+  {
+   "year": 1949,
+   "text": "The city has not had a Republican mayor since this year.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "The city reached its peak population of 856,796 during the census.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The St. Louis Hawks won the National Basketball Association championship.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "Civil rights activists protested at the construction of the Gateway Arch.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1964,
+   "text": "The football Cardinals won the Playoff Bowl for third place against Green Bay.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "The famous Gateway Arch monument was completed on October 28.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "environment"
+  },
+  {
+   "year": 1967,
+   "text": "KSHE 95 FM began broadcasting rock music continuously since November.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Hawks basketball team moved away from the city to Atlanta.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "One US Bank Plaza was constructed in the structural expressionist style.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1982,
+   "text": "Missouri Pacific Railroad merged with Omaha-based Union Pacific Railroad.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1982,
+   "text": "The Richard Serra sculpture named Twain was installed in a park.",
+   "url": "https://en.wikipedia.org/wiki/St._Louis",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

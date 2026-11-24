@@ -1,0 +1,130 @@
+{
+ "id": "xmn",
+ "town": "Xiamen",
+ "source": "https://en.wikipedia.org/wiki/Xiamen",
+ "pool": [
+  {
+   "year": 1387,
+   "text": "Ming dynasty protects the harbor with the fortress giving Xiamen its name.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1541,
+   "text": "Portuguese explorers reach Xiamen for the very first time in history.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1661,
+   "text": "Koxinga drives the Dutch from Taiwan and relocates his operations there.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1678,
+   "text": "East India Company trades extensively and constructs a factory in Xiamen.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1841,
+   "text": "Xiamen is captured between Guangzhou and Zhoushan during military conflicts.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1912,
+   "text": "The island's original name of Siming is restored after the Xinhai Revolution.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "The name Xiamen is restored and planned as a city.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "Japan occupies Xiamen Island during the course of World War II.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Communists capture Xiamen and Gulangyu during the Chinese Civil War.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1980,
+   "text": "Xiamen is designated as one of the first special economic zones.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1983,
+   "text": "Xiamen Museum is founded and initially located on Gulangyu Island.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Xiamen Bridge opens as the first road bridge crossing the straits.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "Governments initiate Three Mini-Links to restore ferry and mail connections.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The chest-clapping dance is included in the first National Intangible Cultural Heritage List.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Protests occur against the building of a paraxylene chemical factory.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Xiamen BRT is put into operation on the last day of August.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Xiamen Port incorporates neighboring port of Zhangzhou to form a major port.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "Xiamen subway initiates construction on the first day of April.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "Gulangyu Island is officially listed as a world cultural heritage site.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Xiamen begins offering 144-hour visa-free transit services to foreign travelers.",
+   "url": "https://en.wikipedia.org/wiki/Xiamen",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

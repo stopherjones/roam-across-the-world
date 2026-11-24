@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4252,
+  "completionTokens": 4029,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2011,
+   "theme": "civic",
+   "event": "The Antalya Metropolitan Municipality opened the exhibition facility of toys.",
+   "quote": "Antalya Toy Museum: The Antalya Metropolitan Municipality opened the exhibition facility in 2011. The models were located in Minicity park in Konyaaltı before the demolition of park in late 2010's and moving to current location.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2010,
+   "theme": "civic",
+   "event": "Antobus was started as a public transportation project in September.",
+   "quote": "There is a network of look-alike Dolmuşes that are privately owned and operated minibuses, under municipal government control. Antobus was started in September 2010. In 2010, the city planned to increase from 40 to 140 more buses.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2008,
+   "theme": "environment",
+   "event": "Excavations in the Doğu Garajı plot uncovered remains dating to the 3rd century.",
+   "quote": "Excavations in 2008, in the Doğu Garajı plot, uncovered remains dating to the 3rd century BC, suggesting that Attaleia was a rebuilding and expansion of an earlier town.",
+   "stage": "verification",
+   "why": "The source mentions the excavations were in 2008, but the remains date to the 3rd century BC, not the 3rd century."
+  },
+  {
+   "year": 1120,
+   "theme": "power_conflict",
+   "event": "Capture of Sozopolis re-opened land communication with the city once more.",
+   "quote": "At the time of the accession of John II Komnenos in 1118, Attaleia was an isolated outpost surrounded by Turkish beyliks, accessible only by sea, but his capture of Sozopolis in 1120 re-opened land-communication with the city once more.",
+   "stage": "verification",
+   "why": "The year of the capture of Sozopolis in the text is 1120, but the claim references 1120 while the quote attributes the event to 1120 (wait, quote says 1120, claim says 1120. Let's check: supported is true)."
+  },
+  {
+   "year": 1180,
+   "theme": "power_conflict",
+   "event": "Seljuk sultan Kilij Arslan subjected the city to a long siege.",
+   "quote": "Upon learning of the death of emperor Manuel I Komnenos in 1180, the Seljuk sultan Kilij Arslan II subjected the city to a long siege, but failed to take it.",
+   "stage": "verification",
+   "why": "The death of Manuel I Komnenos was in 1180, but the siege happened upon his death; however, the exact year for the siege itself is not explicitly stated as 1180, only the death of the emperor."
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "ixc",
+ "town": "Chandigarh",
+ "source": "https://en.wikipedia.org/wiki/Chandigarh",
+ "pool": [
+  {
+   "year": 1947,
+   "text": "Chandigarh was established following independence and partition.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "Three possible sites for the new city were settled upon.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "civic"
+  },
+  {
+   "year": 1949,
+   "text": "American town planner Albert Mayer was selected to design the master plan.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "The government reached an agreement with affected villagers.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "civic"
+  },
+  {
+   "year": 1951,
+   "text": "Architect Le Corbusier came to India to join the team.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "State government departments and staff had been shifted from Shimla.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "The capital was officially inaugurated in a ceremony presided over by President Rajendra Prasad.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "Panjab University purchased land for a permanent campus.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "The High Court became functional with modifications continuing later.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "Sukhna Lake was created by damming a seasonal stream.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "environment"
+  },
+  {
+   "year": 1962,
+   "text": "The Assembly building containing two legislative chambers was completed.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "A ceremonial door hand painted by Corbusier was installed.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "The former state was reorganised and divided into Haryana and Punjab.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1970,
+   "text": "Prime minister Indira Gandhi assigned the city to Punjab.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1976,
+   "text": "The Rock Garden was inaugurated after being built secretly by Nek Chand.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "The Open Hand monument was completed.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Sukhna Wildlife Sanctuary was declared a wildlife sanctuary.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "The Reserve Bank of India ranked Chandigarh as a major deposit and credit centre.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "An international terminal was completed and international flight routes started.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "A survey by LG Electronics ranked it as the happiest city in India.",
+   "url": "https://en.wikipedia.org/wiki/Chandigarh",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

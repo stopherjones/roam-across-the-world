@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 3415,
+  "completionTokens": 2357,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1546,
+   "theme": "civic",
+   "event": "João III issued a decree regarding Ponta Delgada on April second.",
+   "quote": "João III by decree, dated 2 April 1546.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "The municipality recorded 3,188 criminal cases representing a percentage of all regional crime.",
+   "quote": "The municipality recorded 3,188 criminal cases in 2023, representing 32.6% of all crime across the Azores archipelago.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

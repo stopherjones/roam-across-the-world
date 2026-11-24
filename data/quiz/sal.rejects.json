@@ -1,0 +1,149 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8056,
+  "completionTokens": 6860,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1289,
+   "theme": "power_conflict",
+   "event": "Edward met Robert the Bruce resulting in the Treaty of Salisbury.",
+   "quote": "Edward met Robert the Bruce and others at Salisbury in October 1289, which resulted in the Treaty of Salisbury, under which Margaret would be sent to Scotland before 1 November 1890 and any agreement on her future marriage would be delayed until she was in Scotland.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1665,
+   "theme": "commerce_industry",
+   "event": "An act was passed on 2 March to make the River Avon navigable.",
+   "quote": "An act of Parliament, the River Avon Navigation (Christchurch to New Sarum) Act 1664 (16 & 17 Cha. 12) was passed on 2 March 1665 for making the River Avon navigable from Christchurch to the city of New Sarum, and the work completed, only for the project to be ruined shortly thereafter by a major flood.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1916,
+   "theme": "power_conflict",
+   "event": "Conservative Prime Minister Edward Heath was born in the year 1916.",
+   "quote": "Edward Heath (1916–2005), Conservative Prime Minister 1970–1974, lived in Arundells on Cathedral Green in Salisbury from 1985 until his death",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1947,
+   "theme": "culture",
+   "event": "Writer and food journalist Jonathan Meades was born in Salisbury.",
+   "quote": "Jonathan Meades (born in 1947 in Salisbury), writer, food journalist, essayist and film-maker",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1948,
+   "theme": "commerce_industry",
+   "event": "Software engineer and entrepreneur Martyn Thomas was born in Salisbury.",
+   "quote": "Prof. Martyn Thomas (born in 1948 in Salisbury) software engineer, entrepreneur and academic",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1963,
+   "theme": "culture",
+   "event": "Footballer and manager Martin Foyle was born in the city of Salisbury.",
+   "quote": "Martin Foyle (born in 1963 in Salisbury), footballer and manager. Dave Dee, Dozy, Beaky, Mick & Tich (formed 1964), 1960s pop/rock group, most of whom came from Salisbury or Wiltshire",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1970,
+   "theme": "culture",
+   "event": "Film and stage actor Joseph Fiennes was born and educated in Salisbury.",
+   "quote": "Joseph Fiennes (born in 1970 in Salisbury), film and stage actor, educated in the town",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1974,
+   "theme": "culture",
+   "event": "Comedian and actor David Mitchell was born in the city of Salisbury.",
+   "quote": "David Mitchell (born in 1974 in Salisbury), comedian, actor, writer and television presenter",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1988,
+   "theme": "culture",
+   "event": "Cricketer Max Waller was born in Salisbury to play for Somerset.",
+   "quote": "Max Waller (born in 1988 in Salisbury), cricketer, who plays for Somerset County Cricket Club",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1990,
+   "theme": "culture",
+   "event": "Professional golfer Henni Zuël was born in the city of Salisbury.",
+   "quote": "Henni Zuël (born in 1990 in Salisbury), professional golfer; youngest player to join the Ladies European Tour as an amateur",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2010,
+   "theme": "power_conflict",
+   "event": "The military entity known as The Rifles reached a recorded historical date.",
+   "quote": "The Rifles: 20 November 2010.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2003,
+   "theme": "culture",
+   "event": "Racing driver John Bennett was born in the city of Salisbury.",
+   "quote": "John Bennett (born in 2003 in Salisbury), racing driver",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1800,
+   "theme": "power_conflict",
+   "event": "Horatio Nelson is connected to Salisbury through a notable historical record.",
+   "quote": "Horatio Nelson, 1st Viscount Nelson: 1800.",
+   "stage": "verification",
+   "why": "The source quote only lists 'Horatio Nelson, 1st Viscount Nelson: 1800' without detailing any specific connection or event to Salisbury."
+  },
+  {
+   "year": 1944,
+   "theme": "power_conflict",
+   "event": "The Royal Wiltshire Yeomanry is associated with a milestone in this year.",
+   "quote": "The Royal Wiltshire Yeomanry: 1944.",
+   "stage": "verification",
+   "why": "The source only lists a year (1944) without describing any event."
+  },
+  {
+   "year": 2004,
+   "theme": "power_conflict",
+   "event": "The Royal Gloucestershire, Berkshire and Wiltshire Regiment reached a notable milestone.",
+   "quote": "Royal Gloucestershire, Berkshire and Wiltshire Regiment: October 2004.",
+   "stage": "verification",
+   "why": "The source only provides a date (October 2004) without describing any event."
+  },
+  {
+   "year": 2016,
+   "theme": "power_conflict",
+   "event": "The 32nd Regiment, Royal Artillery achieved a documented milestone in July.",
+   "quote": "32nd Regiment, Royal Artillery: 7 July 2016.",
+   "stage": "verification",
+   "why": "The source only provides a date (7 July 2016) without describing any event."
+  },
+  {
+   "year": 2018,
+   "theme": "power_conflict",
+   "event": "The Royal Military Police was marked by a historical entry in June.",
+   "quote": "The Royal Military Police: 13 June 2018.",
+   "stage": "verification",
+   "why": "The source only provides a date (13 June 2018) without describing any event."
+  }
+ ]
+}

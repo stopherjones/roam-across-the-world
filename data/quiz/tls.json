@@ -1,0 +1,130 @@
+{
+ "id": "tls",
+ "town": "Toulouse",
+ "source": "https://en.wikipedia.org/wiki/Toulouse",
+ "pool": [
+  {
+   "year": 1096,
+   "text": "Raymond IV left with his army to join the First Crusade.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1152,
+   "text": "The notables of Toulouse obtained autonomy and created a municipal body.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "civic"
+  },
+  {
+   "year": 1215,
+   "text": "Saint Dominic founded a mendicant order in the city of Toulouse.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "culture"
+  },
+  {
+   "year": 1226,
+   "text": "King Louis VIII of France intervened to tip the balance.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1229,
+   "text": "The University of Toulouse was established in the year twelve hundred and twenty nine.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "culture"
+  },
+  {
+   "year": 1323,
+   "text": "The Consistori del Gay Saber was created to preserve lyric art.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "Toulouse was chosen to become a balancing metropolis for the country.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "An old water-tower was converted as a gallery by a photographer.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "Line A of the underground transportation system was opened in Toulouse.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "The Canal du Midi was designated as a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "environment"
+  },
+  {
+   "year": 1998,
+   "text": "Sernin and the former hospital were designated alongside the pilgrimage route.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "An explosion occurred at the AZF fertiliser factory causing casualties.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "Toulouse has been the French city with the fastest growing GDP.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "Line B opened to serve stations from north to south in Toulouse.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "A citywide bicycle rental scheme called VélôToulouse was introduced.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "The tramway line T1 entered into service for urban transport.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "A territorial reform made Toulouse the regional prefecture of Occitanie.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "The last completed A380 aircraft was produced here in this city.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "The city of Toulouse introduced a new mode of public transportation.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Toulouse was named a UNESCO City of Music within the creative network.",
+   "url": "https://en.wikipedia.org/wiki/Toulouse",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

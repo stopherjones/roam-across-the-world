@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7169,
+  "completionTokens": 5240,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2017,
+   "theme": "civic",
+   "event": "Atlanta declared itself a welcoming city and closed its detention center to ICE detainees.",
+   "quote": "In January 2017, Atlanta declared itself a \"welcoming city\" and \"will remain open and welcoming to all\". We closed our detention center to ICE detainees, and we would not pick up people on an immigration violation.\"",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2026,
+   "theme": "culture",
+   "event": "The Atlanta Journal-Constitution stopped publishing a physical newspaper in favor of digital coverage.",
+   "quote": "The Atlanta is served by The Atlanta Journal-Constitution, its only major daily newspaper with wide distribution (the AJC stopped publishing a physical newspaper in 2026 in favor of digital coverage).",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1996,
+   "theme": "culture",
+   "event": "Atlanta established itself on the world stage hosting the Summer Olympics.",
+   "quote": "Atlanta established itself on the world stage when it won the bid to host the 1996 Summer Olympics.",
+   "stage": "verification",
+   "why": "The source quote states the city won the bid in 1996, but does not state the Olympics actually took place or that it established itself that year."
+  }
+ ]
+}

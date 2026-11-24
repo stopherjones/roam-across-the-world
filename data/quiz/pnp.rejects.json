@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 2095,
+  "completionTokens": 2122,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1832,
+   "theme": "culture",
+   "event": "F.H. Eagleston of the barque Peru sighted Pohnpei on his charts.",
+   "quote": "F.H. Eagleston of the barque Peru sighted the island on 3 January 1832, it was already on his charts as \"Ascension Island\".",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1911,
+   "theme": "civic",
+   "event": "The German census recorded the population breakdown of Pohnpei residents.",
+   "quote": "The German census of 1911–12 shows 3,190 Pohnpeians, 585 Central Carolinians and 279 Melanesians.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "smf",
+ "town": "Sacramento",
+ "source": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+ "pool": [
+  {
+   "year": 1808,
+   "text": "Spanish cavalryman Gabriel Moraga surveyed and named the Río del Santísimo Sacramento river.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "environment"
+  },
+  {
+   "year": 1839,
+   "text": "Mexican governor Juan Bautista Alvarado granted the responsibility of colonizing the Sacramento Valley.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1850,
+   "text": "The waterfront developed by Sutter began to be developed and incorporated as the city.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "civic"
+  },
+  {
+   "year": 1854,
+   "text": "The city became the permanent state capital and started building a new capitol.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "civic"
+  },
+  {
+   "year": 1920,
+   "text": "Voters adopted the city charter that currently guides the municipal government operations.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "civic"
+  },
+  {
+   "year": 1923,
+   "text": "Sacramento voters approved the creation of the utility district known as SMUD.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1946,
+   "text": "A judge ordered Pacific Gas and Electric to transfer the electric distribution system.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1947,
+   "text": "Sacramento State was founded as Sacramento State College in the local area.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "The merger of the City of North Sacramento substantially increased the population numbers.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "Sacramento Country Day School opened and offered citizens an independent school.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "Ronald Reagan became the last Governor of California to live permanently here.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "The Arbor Day Foundation designated the municipality as a City of Trees.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "environment"
+  },
+  {
+   "year": 1985,
+   "text": "Computer store owner Hugh Scrutton was killed by a bomb left outside.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1988,
+   "text": "Masjid Annur, an Islamic school in Sacramento, was founded.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Capitol Casino opened in downtown and is home to several card games.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "The airport on the former McClellan Air Force Base site transferred to Sacramento County.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "The Wells Fargo Pavilion was built atop the old Music Circus tent foundations.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The city of West Sacramento took responsibility for managing the local port.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Sacramento was designated as a Silver Level Bicycle Friendly Community.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "The municipality started the marketing campaign known as America's Farm-to-Fork Capital.",
+   "url": "https://en.wikipedia.org/wiki/Sacramento%2C_California",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

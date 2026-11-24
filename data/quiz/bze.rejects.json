@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1518,
+  "completionTokens": 1890,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1812,
+   "theme": "civic",
+   "event": "Construction began on the church that was later completed in 1820.",
+   "quote": "Construction began in 1812, and the church was completed in 1820.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "The census recorded a population of 63,999 people in Belize City.",
+   "quote": "According to the 2022 census, Belize City has a population of 63,999 people.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

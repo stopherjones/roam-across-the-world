@@ -1,0 +1,130 @@
+{
+ "id": "nkc",
+ "town": "Nouakchott",
+ "source": "https://en.wikipedia.org/wiki/Nouakchott",
+ "pool": [
+  {
+   "year": 1958,
+   "text": "Construction began on Nouakchott to enlarge the village and house fifteen thousand people.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "Nouakchott started with its founding by indigenous people from the surrounding region.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The French granted independence and the basics of Nouakchott were completed.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The city of Nouakchott was initially divided into four different departments.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "The Polisario Front attacked Nouakchott twice during the Western Sahara conflict.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1977,
+   "text": "Official censuses showed that Nouakchott had a population of 134,000 residents.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "Madrid, Spain formed a twinning relationship with Nouakchott.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "The current nine departments were created in Nouakchott.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Official census figures showed that Nouakchott had 393,325 residents.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "Nouakchott became a region of Mauritania after formerly being a district.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Three-quarters of service sector enterprises were located in Nouakchott.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "Amman, Jordan established a twinning partnership with Nouakchott.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Lanzhou, China established a twinning connection with Nouakchott.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "The government of Mauritania announced a process of clearing the slum on the outskirts.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The Sheikh Zayed solar power plant was completed to respond to electricity demand.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "East Jerusalem, Palestine was twinned with the city of Nouakchott.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The census showed a population of 958,399 people in Nouakchott.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "It was reported that slums have been replaced by social dwellings for the poorest.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Nouakchott was split into three current regions.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "A paper published in PLOS One estimated future climate scenarios for Nouakchott.",
+   "url": "https://en.wikipedia.org/wiki/Nouakchott",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

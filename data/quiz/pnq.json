@@ -1,0 +1,82 @@
+{
+ "id": "pnq",
+ "town": "Pune",
+ "source": "https://en.wikipedia.org/wiki/Pune",
+ "pool": [
+  {
+   "year": 1895,
+   "text": "The Southern Command of the Indian Army is headquartered in Pune cantonment.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "The Poona Municipal Council was reorganised into the Pune Municipal Corporation.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "Hindustan Antibiotics marked the beginning of industrial development in specific areas.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1961,
+   "text": "A breach in the Panshet dam caused severe damage and housing destruction.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "environment"
+  },
+  {
+   "year": 1967,
+   "text": "The Pune Metropolitan Region was defined to integrate urban planning.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The zoo at Peshwe Park was merged with the reptile park at Katraj.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Commonwealth Youth Games encouraged development in the northwest region.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "A bomb exploded at the German Bakery in the Koregaon Park neighbourhood.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2015,
+   "text": "Pune Metropolitan Region Development Authority was formed for integrated development.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "The IT sector employed more than 300,000 people.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "A separate police commissionerate was announced for PCMC, Pune.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "Pune became the first Indian city to adopt e-buses.",
+   "url": "https://en.wikipedia.org/wiki/Pune",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

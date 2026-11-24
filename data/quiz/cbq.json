@@ -1,0 +1,130 @@
+{
+ "id": "cbq",
+ "town": "Calabar",
+ "source": "https://en.wikipedia.org/wiki/Calabar",
+ "pool": [
+  {
+   "year": 1807,
+   "text": "Great Britain officially abolished the slave trade by law in this year.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1815,
+   "text": "HMS Comus sailed into Duke Town and captured seven slave ships.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1846,
+   "text": "Scottish Presbyterians established a new mission station located within Calabar.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "culture"
+  },
+  {
+   "year": 1884,
+   "text": "Queen Victoria signed a protection treaty with the king and chiefs.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1884,
+   "text": "The National Museum of Calabar was flat packed and shipped from Britain.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "culture"
+  },
+  {
+   "year": 1895,
+   "text": "The Hope Waddell Training Institution was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "culture"
+  },
+  {
+   "year": 1897,
+   "text": "St Margaret's Hospital was founded as the first public hospital in Nigeria.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "civic"
+  },
+  {
+   "year": 1906,
+   "text": "The seat of European government administration was moved to Lagos.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1914,
+   "text": "A mail steamer of the Liverpool Elder-Dempster Line called at Calabar.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1922,
+   "text": "British governor Clifford established the Legislative Council during this year.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "Governor Graeme Thomson attempted to introduce a poll tax in southeast Nigeria.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "The historic building officially became designated as a national monument.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Tensions increased between the North and South areas of the country after independence.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "The Southeastern area declared itself independent as the Republic of Biafra.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "A Nigerian Navy armada left Bonny on a naval campaign towards Calabar.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1979,
+   "text": "The former took over the facilities belonging to St Margaret's Hospital.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "President Shagari officially inaugurated the Margaret Ekpo International Airport.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The Drill Rehabilitation Centre nature reserve was founded for primates.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "Governor Donald Duke initiated the famous Calabar Carnival to advance tourism.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "culture"
+  },
+  {
+   "year": 2022,
+   "text": "Both LGAs together had an estimated population of 571,500 people.",
+   "url": "https://en.wikipedia.org/wiki/Calabar",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

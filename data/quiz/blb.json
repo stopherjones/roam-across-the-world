@@ -1,0 +1,106 @@
+{
+ "id": "blb",
+ "town": "Belem",
+ "source": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+ "pool": [
+  {
+   "year": 1615,
+   "text": "A Portuguese captain-general commanded a military expedition sent by the Governor General.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1616,
+   "text": "The Kingdom of Portugal founded Belem as the first European colony.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1616,
+   "text": "Captain-general Francisco Caldeira Castelo Branco anchored in Guajara Bay.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1655,
+   "text": "Belem was officially given city status.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "civic"
+  },
+  {
+   "year": 1772,
+   "text": "Belem was made capital of the State when Para state split.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "civic"
+  },
+  {
+   "year": 1775,
+   "text": "Belem officially became part of Brazil.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1836,
+   "text": "Uprisings and internecine strife finally ended after considerable loss of life.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1866,
+   "text": "The position of Belem was enhanced by the opening of rivers.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1874,
+   "text": "Neoclassical architecture was included in buildings such as the Theatro da Paz.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "culture"
+  },
+  {
+   "year": 1917,
+   "text": "The cathedral Igreja da Se was founded as one of Brazil's largest.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "The Universidade Federal do Pará was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "The municipality of Belem contains the Utinga State Park created to protect water.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "The municipality was divided into administrative districts and neighborhoods based on municipal law.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The World Social Forum took place in Belem.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Belem has been part of the UNESCO Creative Cities Network in gastronomy.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2022,
+   "text": "Protásio de Oliveira Airport was taken out of service.",
+   "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

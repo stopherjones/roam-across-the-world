@@ -1,0 +1,94 @@
+{
+ "id": "rnd",
+ "town": "Rostov-on-Don",
+ "source": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+ "pool": [
+  {
+   "year": 1749,
+   "text": "Empress Elizabeth established a custom house on the Temernik River to control trade.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1756,
+   "text": "The Russian commercial and trading company was founded at the merchants settlement.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1806,
+   "text": "The settlement was officially renamed as Rostov-on-Don by authorities.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "civic"
+  },
+  {
+   "year": 1846,
+   "text": "Coal and iron ore supported the establishment of an iron foundry here.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1870,
+   "text": "A railway connection linking the city with Kharkiv was completed successfully.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1928,
+   "text": "The regional government moved from Novocherkassk to the city of Rostov-on-Don.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The first automatic telephone exchange in Russia commenced operation in the city.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1952,
+   "text": "The Volga-Don Shipping Canal was constructed, making the city a port.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "The first television program was broadcast from the newly completed centre.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The Tebodin engineering company opened its fourth office in Rostov-on-Don.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "A monument dedicated to Anton Chekhov was erected in the city.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Flydubai Flight 981 crashed during a go-around at the airport.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Rostov-on-Don was selected to host several matches of the World Cup.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "The Wagner Group declared a rebellion and took control of the city.",
+   "url": "https://en.wikipedia.org/wiki/Rostov-on-Don",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

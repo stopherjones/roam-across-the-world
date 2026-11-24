@@ -1,0 +1,130 @@
+{
+ "id": "lyo",
+ "town": "Lyon",
+ "source": "https://en.wikipedia.org/wiki/Lyon",
+ "pool": [
+  {
+   "year": 1033,
+   "text": "Lyon became part of the Kingdom of Arles and the Holy Roman Empire.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1312,
+   "text": "Lyon finally came under the direct control of France.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1572,
+   "text": "Catholics committed acts of mass violence against Protestant Huguenots in Lyon.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1749,
+   "text": "The Bourse treasury building was constructed to resemble an open-air bazaar.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1793,
+   "text": "Revolutionary armies besieged the city until it surrendered in October.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1797,
+   "text": "A French Directory commissioner was assassinated in Lyon shortly after a coup.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "The Brothers of the Sacred Heart Roman Catholic congregation was founded.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "culture"
+  },
+  {
+   "year": 1831,
+   "text": "The canuts silk workers staged their first major uprising for better pay.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1857,
+   "text": "The large urban park known as Parc de la Tête d'or was established.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "environment"
+  },
+  {
+   "year": 1944,
+   "text": "The 1st Free French Division and resistance forces liberated the city.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "The commune of Saint-Rambert-l'Île-Barbe was annexed into the fifth arrondissement.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "The fifth arrondissement was split to create the ninth and final arrondissement.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "A museum dedicated to automated puppets opened its doors in Vieux Lyon.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "The historic urban site of Lyon gained official UNESCO World Heritage status.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Graffiti artists Birdy Kids began decorating random buildings and ring road walls.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The Birdy Kids artist collective was chosen to serve as cultural ambassadors.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "The Musée des Confluences opened its doors to display anthropology and sciences.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Lyon and suburban municipalities formed the Metropolis of Lyon governing authority.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "The Globalization and World Rankings Research Institute classified Lyon as a Beta city.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "The metropolitan council was directly elected by universal suffrage for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Lyon",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

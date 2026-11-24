@@ -1,0 +1,22 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3626,
+  "completionTokens": 1856,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2025,
+   "theme": "culture",
+   "event": "A Tamil film titled Phoenix was released",
+   "quote": "Phoenix (2025 film), a Tamil film",
+   "source": "https://en.wikipedia.org/wiki/Phoenix",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

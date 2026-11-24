@@ -1,0 +1,100 @@
+{
+ "id": "pnp",
+ "town": "Pohnpei",
+ "source": "https://en.wikipedia.org/wiki/Pohnpei",
+ "pool": [
+  {
+   "year": 1529,
+   "text": "Spanish navigator Álvaro de Saavedra Cerón visited Pohnpei shortly before his death.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "culture"
+  },
+  {
+   "year": 1825,
+   "text": "Australian sailor John Henry Rowe arrived in his barque John Bull at Pohnpei.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1852,
+   "text": "Protestant missionaries from New England established themselves permanently on Pohnpei.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "culture"
+  },
+  {
+   "year": 1854,
+   "text": "A drastic population decline struck Pohnpei due to a smallpox epidemic.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "environment"
+  },
+  {
+   "year": 1865,
+   "text": "The CSS Shenandoah surprised four United States whalers at Ascension Island and destroyed them.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1880,
+   "text": "German naturalist Otto Fischer wrote an ethnographic account of the island inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "culture"
+  },
+  {
+   "year": 1886,
+   "text": "Spaniards claimed the Caroline Islands and began to exert political authority.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1899,
+   "text": "The German Empire purchased the Caroline Islands from Spain together with other islands.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1907,
+   "text": "The feudal land tenure system was gradually replaced with individual land deeds.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "Japan surrendered and Pohnpei was turned over to the United States.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "A special census showed a total population of 5,628 people on Pohnpei.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "Pohnpei became a central location in Willard Price's Young Adult Adventure Series.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "The population on Pohnpei had grown to nearly 10,000 residents.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "An important archaeological site on Pohnpei was declared a national historic site.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "The Federated States of Micronesia achieved independence after United States administration.",
+   "url": "https://en.wikipedia.org/wiki/Pohnpei",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

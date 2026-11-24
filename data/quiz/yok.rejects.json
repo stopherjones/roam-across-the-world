@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4169,
+  "completionTokens": 3949,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2002,
+   "theme": "culture",
+   "event": "The 2002 FIFA World Cup final was held at the International Stadium Yokohama.",
+   "quote": "The 2002 FIFA World Cup final was held in June at the International Stadium Yokohama.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3478,
+  "completionTokens": 3482,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1884,
+   "theme": "culture",
+   "event": "The grand palace in Mekelle was built by the Italian architect Giacomo Naretti.",
+   "quote": "The grand palace built in 1882–84 by the Italian architect Giacomo Naretti forms the historic center of Mekelle.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1984,
+   "theme": "civic",
+   "event": "The population of Mekelle was recorded at 61,000 residents.",
+   "quote": "Mekelle has grown rapidly since 1991 with a population of 61,000 in 1984, 97,000 inhabitants in 1994 (96.5% being Tigrinya-speakers), and 170,000 in 2006 (i.e.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

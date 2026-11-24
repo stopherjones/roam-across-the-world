@@ -1,0 +1,124 @@
+{
+ "id": "kgl",
+ "town": "Kigali",
+ "source": "https://en.wikipedia.org/wiki/Kigali",
+ "pool": [
+  {
+   "year": 1884,
+   "text": "Rwanda and Burundi were assigned to Germany by the Berlin Conference.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1907,
+   "text": "Richard Kandt founded the city of Kigali as a German administrative outpost.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1916,
+   "text": "Belgian forces captured Kigali during World War I under Colonel Philippe Molitor.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1962,
+   "text": "Kigali officially became the national capital of Rwanda upon gaining independence.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1973,
+   "text": "Minister of defence Juvénal Habyarimana overthrew ruling president Grégoire Kayibanda.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "President Juvénal Habyarimana was killed when his aircraft was shot down near Kigali.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "The rebel Rwandan Patriotic Front successfully seized control of the city of Kigali.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "The current boundaries of Kigali city were officially established through a new law.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Informal settlements in lower Kiyovu were expropriated by the government for new developments.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The Rwanda Stock Exchange officially launched financial services operations within the country.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The Kigali Up music festival began holding its annual events in July or August.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The local economy was reported to be dependent on foreign aid and resource extraction.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "A World Bank study used night-light output to measure relative GDP across three districts.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "An extraordinary summit of the African Union was hosted at new facilities in the city.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "A new specialist hospital opened in the Nyarugenge district to handle specific medical treatments.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2022,
+   "text": "The official population of Kigali city reached 1,745,555 inhabitants according to records.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The Commonwealth Heads of Government Meeting was held with high-profile international attendees.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "The inaugural Kigali Cine Junction film festival took place across local public spaces.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "The Rwanda asylum plan agreement with the United Kingdom was cancelled.",
+   "url": "https://en.wikipedia.org/wiki/Kigali",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

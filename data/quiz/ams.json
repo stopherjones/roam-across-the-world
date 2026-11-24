@@ -1,0 +1,130 @@
+{
+ "id": "ams",
+ "town": "Amsterdam",
+ "source": "https://en.wikipedia.org/wiki/Amsterdam",
+ "pool": [
+  {
+   "year": 1306,
+   "text": "The oldest building in Amsterdam is the Oude Kerk, consecrated in this year.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1345,
+   "text": "The Mirakel van Amsterdam rendered the city an important place of pilgrimage.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1489,
+   "text": "Maximilian I awarded Amsterdam the right to adorn its coat of arms with the crown.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1508,
+   "text": "The king's crown on the coat of arms was replaced with Maximilian's imperial crown.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1578,
+   "text": "The largely Catholic city joined the revolt against Spanish rule.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1602,
+   "text": "The Amsterdam office of the Dutch East India Company became a stock exchange.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1932,
+   "text": "Amsterdam was intended to be the hub of the highway system of the Netherlands.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "Nazi Germany invaded the Netherlands and took control of the country.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "427 Amsterdam Jews were arrested and sent to Mauthausen concentration camp.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The city was finally liberated by Canadian forces shortly before the end.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "Queen Wilhelmina bestowed the official motto Heldhaftig, Vastberaden, Barmhartig on the city.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "The Amsterdam–Rhine Canal opened to shipping as the principal inland route.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1970,
+   "text": "The A3 to Rotterdam was cancelled to conserve the Groene Hart.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "A metro began operating between Bijlmermeer and the centre of Amsterdam.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "The municipality of Amsterdam has gradually been divided into semi-autonomous boroughs called stadsdelen.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "The constitutional revision mentioned Amsterdam and capital in chapter 2 article 32.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1993,
+   "text": "The English-language comedy scene was established with the founding of Boom Chicago.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Construction of a new metro line connecting north and south started.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "The British drama series Bad Girls filmed scenes on location in Amsterdam.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "About 83000 bicycles were stolen in Amsterdam.",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

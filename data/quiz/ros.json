@@ -1,0 +1,70 @@
+{
+ "id": "ros",
+ "town": "Roscoff",
+ "source": "https://en.wikipedia.org/wiki/Roscoff",
+ "pool": [
+  {
+   "year": 1375,
+   "text": "English forces under the Earl of Arundel destroyed the harbour at Roscoff.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1548,
+   "text": "Mary, Queen of Scots, disembarked at Roscoff en route from Scotland.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "culture"
+  },
+  {
+   "year": 1790,
+   "text": "The town of Roscoff was raised to an independent commune.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "civic"
+  },
+  {
+   "year": 1899,
+   "text": "Louis-Eugène Bagot opened the Institut Marin in Roscoff.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "civic"
+  },
+  {
+   "year": 1900,
+   "text": "The Perharidy Centre heliomarin hospital was founded by the sea.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "civic"
+  },
+  {
+   "year": 1919,
+   "text": "The illustrator Henry Gerbault and his wife moved to live in Roscoff.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The French government agreed to provide a deep-water port at Roscoff.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Primary-school children attended bilingual schools in the municipality.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The municipality launched a language plan through Ya d'ar brezhoneg.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Roscoff received the petite cité de caractère de Bretagne label.",
+   "url": "https://en.wikipedia.org/wiki/Roscoff",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

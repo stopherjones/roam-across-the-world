@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 11393,
+  "completionTokens": 7512,
+  "chunksRead": 2,
+  "chunksAvailable": 3
+ },
+ "rejects": [
+  {
+   "year": 2023,
+   "theme": "commerce_industry",
+   "event": "Major industries contributed significantly to the economy of the region.",
+   "quote": "In 2023, major industries in the Glasgow City Region contributing to the economy of the city were public administration, education & health, distribution, hotels & restaurants, banking, finance and insurance services and transport and communication.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1931,
+   "theme": "commerce_industry",
+   "event": "The population density was recorded highlighting clearances into suburbs and new towns.",
+   "quote": "In 1931, the population density was 16,166/sq mi (6,242/km2), highlighting the \"clearances\" into the suburbs and new towns that were built to reduce the size of one of Europe's most densely populated cities.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2010,
+   "theme": "environment",
+   "event": "December experienced the coldest month on record since the data series began.",
+   "quote": "The coldest month on record since the data series began is December 2010, during a severe cold wave affecting the British Isles.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "Glasgow hosted the 2014 MTV Europe Music Awards at The OVO Hydro.",
+   "quote": "On 9 November 2014, Glasgow hosted the 2014 MTV Europe Music Awards at The OVO Hydro, it was the second time Scotland hosted the show since 2003 in Edinburgh and overall the fifth time that the United Kingdom has hosted the show since 2011 in Belfast, Northern Ireland.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2018,
+   "theme": "environment",
+   "event": "The warmest day in Glasgow was recorded with temperatures reaching 31.9 degrees.",
+   "quote": "The warmest day in Glasgow was recorded in 2018, when temperatures reached 31.9 °C (89.4 °F).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7804,
+  "completionTokens": 5745,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "Seattle recorded a total of 5,000 violent crimes.",
+   "quote": "In 2023, Seattle had 5,000 violent crimes.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1863,
+   "theme": "commerce_industry",
+   "event": "The Seattle Post-Intelligencer published a daily newspaper starting in this year.",
+   "quote": "The Seattle Post-Intelligencer, known as the P-I, published a daily newspaper from 1863 to March 17, 2009, before switching to a strictly online publication.",
+   "stage": "verification",
+   "why": "The source quote says it published a daily newspaper *from* 1863, which means it started operations then, but the claim states it 'published a daily newspaper starting in this year' without the continuity context, though the date is correct. Wait, looking closely, 1863 is the start year, but the Seattle Post-Intelligencer actually started publishing under that name later; however, strictly based on the text, the quote supports it. Let's mark as true since the quote directly supports the claim."
+  }
+ ]
+}

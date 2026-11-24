@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4379,
+  "completionTokens": 3664,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1982,
+   "theme": "culture",
+   "event": "The Tijuana Cultural Center opened, marking a major milestone for the city.",
+   "quote": "As Tijuana matured from a tourist-oriented border town into one of Mexico's largest cities, the 1982 opening of the Tijuana Cultural Center (CECUT) marked a milestone.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "The baseball stadium was remodeled, marking a new era for Toros de Tijuana.",
+   "quote": "On 4 April 2013, the stadium was remodeled, marking the beginning of a new era for Toros de Tijuana.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2018,
+   "theme": "power_conflict",
+   "event": "OECD data recorded 2,253 homicides in Tijuana.",
+   "quote": "In 2018, OECD data recorded 2,253 homicides in Tijuana, equivalent to 129.8 per 100,000 inhabitants.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "tij",
+ "town": "Tijuana",
+ "source": "https://en.wikipedia.org/wiki/Tijuana",
+ "pool": [
+  {
+   "year": 1542,
+   "text": "European colonist Juan Rodríguez Cabrillo toured the coastline of the area.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "environment"
+  },
+  {
+   "year": 1602,
+   "text": "Sebastián Vizcaíno mapped the coastline of the area toured by Europeans.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "environment"
+  },
+  {
+   "year": 1769,
+   "text": "Juan Crespí documented more details about the area later called a valley.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "environment"
+  },
+  {
+   "year": 1829,
+   "text": "Santiago Argüello Moraga established a rancho on his Mexican land grant.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1848,
+   "text": "Mexico lost Alta California as a result of a war.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1889,
+   "text": "Descendants of Santiago Argüello and Augustín Olvera agreed to develop the city.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "The Agua Caliente Touristic Complex opened with a hotel and casino.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1935,
+   "text": "President Cárdenas decreed an end to gambling and casinos in Baja California.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "The complex was reopened as a junior high school.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Javier Batiz founded a musical group called Los TJ's.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "The Mexican federal government launched the Border Industrialization Program.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1972,
+   "text": "Work began on the first concrete channeling of the Tijuana River.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "environment"
+  },
+  {
+   "year": 1989,
+   "text": "The PAN began to dominate the city politically after years of PRI dominance.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "PRI presidential candidate Luis Donaldo Colosio was assassinated in Tijuana.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1996,
+   "text": "The Tijuana Youth Symphony was promoted to develop youth culture.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Tijuana earned international acclaim for an art exhibition on cement river banks.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Tijuana underwent a major overhaul of its existing system of guayines.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "Otay Centenario borough was created by merging Mesa de Otay and Centenario.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "A state contract was approved for an interurban rail line design and construction.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "Statista data reported Tijuana as having the second highest homicide rate.",
+   "url": "https://en.wikipedia.org/wiki/Tijuana",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

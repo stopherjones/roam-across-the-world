@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 6451,
+  "completionTokens": 4626,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1897,
+   "theme": "commerce_industry",
+   "event": "The historically significant Fremantle Markets date to this year.",
+   "quote": "Other shopping precincts include Watertown in West Perth, featuring factory outlets for major brands, the historically significant Fremantle Markets, which date to 1897, and the Midland townsite on Great Eastern Highway, combining historic development around the Town Hall and Post Office buildings with the modern Midland Gate shopping centre further east.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1901,
+   "theme": "civic",
+   "event": "Western Australia joined the Federation of Australia after a referendum in 1900.",
+   "quote": "After a referendum in 1900, Western Australia joined the Federation of Australia in 1901, and \"became a founding state of Australia\".",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

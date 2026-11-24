@@ -1,0 +1,130 @@
+{
+ "id": "bko",
+ "town": "Bamako",
+ "source": "https://en.wikipedia.org/wiki/Bamako",
+ "pool": [
+  {
+   "year": 1650,
+   "text": "The kafu of Bamako was founded by the Niare family.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1806,
+   "text": "The Scottish explorer Mungo Park visited Bamako during his exploration.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "civic"
+  },
+  {
+   "year": 1883,
+   "text": "Gustave Borgnis-Desbordes established a fort at this key strategic location.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1904,
+   "text": "A railroad was built connecting Bamako to Kayes.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1908,
+   "text": "The city began growing quickly upon being named the capital.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "civic"
+  },
+  {
+   "year": 1923,
+   "text": "A railroad connecting Bamako to Dakar was completed.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1944,
+   "text": "The National Library of Mali was first created by the Institut Français.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "It was opened under the direction of Ukrainian archeologist Yuriy Shumovskyi.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "The National Museum moved into a new cemented structure.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "The Gabriel Touré Hospital was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "Mali gained independence from France and the Republic was established.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "The library was transferred from Koulouba to Ouolofobougou.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Bamako was the location of a WHO conference known as the Bamako Initiative.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "The National Congress for Democratic Initiative was set up by Mountaga Tall.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "A large-scale protest march in central Bamako was violently suppressed.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "Alpha Oumar Konari officially became president of the nation.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "The photography festival African Photography Encounters was held in Bamako.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The administrative complex was begun by President Konaré with Libyan funding.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The film was first released at the Cannes Film Festival.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "The Bamako city government privatized waste collection in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bamako",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,46 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7040,
+  "completionTokens": 4811,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1955,
+   "theme": "culture",
+   "event": "During communist era, the stadium hosted Spartakiads starting from this year until 1990.",
+   "quote": "During communist era, between 1955 and 1990, the stadium hosted Spartakiads.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1996,
+   "theme": "civic",
+   "event": "The annual conference Forum 2000 was founded in Prague in this year.",
+   "quote": "The annual conference Forum 2000, which was founded by former Czech President Václav Havel, Japanese philanthropist Yōhei Sasakawa, and Nobel Peace Prize laureate Elie Wiesel in 1996, is held in Prague.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "culture",
+   "event": "The O2 Arena hosted events including the IIHF World Championship in this year.",
+   "quote": "It hosted 2004, 2015 IIHF World Championship and 2024, NHL 2008 and 2010 Opening Game and Euroleague Final Four.",
+   "stage": "verification",
+   "why": "The source quote mentions the IIHF World Championship in 2004 and 2015, not 2024 (2024 applies to NHL or another event)."
+  },
+  {
+   "year": 2010,
+   "theme": "culture",
+   "event": "The O2 Arena hosted the NHL Opening Game in this year.",
+   "quote": "It hosted 2004, 2015 IIHF World Championship and 2024, NHL 2008 and 2010 Opening Game and Euroleague Final Four.",
+   "source": "https://en.wikipedia.org/wiki/Prague",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "yzf",
+ "town": "Yellowknife",
+ "source": "https://en.wikipedia.org/wiki/Yellowknife",
+ "pool": [
+  {
+   "year": 1898,
+   "text": "Blakeney made the first discovery of gold in the Yellowknife Bay area.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1933,
+   "text": "Two prospectors surveyed for possible mineral deposits along the Yellowknife River.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1934,
+   "text": "Baker returned to develop gold finds and search for more near Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1937,
+   "text": "The Wildcat Cafe opened in Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "Con Mine entered production in the region.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1967,
+   "text": "Yellowknife officially became the capital of the Northwest Territories.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "civic"
+  },
+  {
+   "year": 1970,
+   "text": "Yellowknife hosted the inaugural Arctic Winter Games.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "A Soviet nuclear-powered satellite crashed to Earth near Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "environment"
+  },
+  {
+   "year": 1980,
+   "text": "Folk on the Rocks has been held annually in Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Diamonds were discovered north of Yellowknife, sparking a new mining rush.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "The Giant Mine was the subject of a bombing during a labour dispute.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1998,
+   "text": "The Ekati Diamond Mine opened near Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2003,
+   "text": "The Diavik Diamond Mine began production near Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "The last of Yellowknife's gold mines closed.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "The Old Town Ramble & Ride Festival started in Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "The Snap Lake Diamond Mine went into production.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Ice Wireless entered the market in Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Yellowknife had its first direct road connection to the rest of the country.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "NASA announced that a section of Mars would be renamed Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "The Gahcho Kue Diamond Mine officially opened near Yellowknife.",
+   "url": "https://en.wikipedia.org/wiki/Yellowknife",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

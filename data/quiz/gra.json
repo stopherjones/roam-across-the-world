@@ -1,0 +1,130 @@
+{
+ "id": "gra",
+ "town": "Granada",
+ "source": "https://en.wikipedia.org/wiki/Granada",
+ "pool": [
+  {
+   "year": 1020,
+   "text": "Habbus ibn Maksan appointed Zawi ben Ziri his secretary with tax responsibilities.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "civic"
+  },
+  {
+   "year": 1066,
+   "text": "The Granada massacre ended the Golden age of Jewish culture in Spain.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1218,
+   "text": "The Alcázar Genil was built as a remnant of the Almohad period.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "culture"
+  },
+  {
+   "year": 1238,
+   "text": "Muhammad I Ibn al-Ahmar began construction on the Alhambra complex.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "culture"
+  },
+  {
+   "year": 1349,
+   "text": "The Madrasa al-Yusufiyya was founded as the only major madrasa built in al-Andalus.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "culture"
+  },
+  {
+   "year": 1492,
+   "text": "Emir Muhammad XI surrendered control of the Emirate to the Catholic Monarchs.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1500,
+   "text": "The Constitutive Charter of the Ayuntamiento of Granada was conceded.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "Granada was one of the cities that joined the Nationalist uprising.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1984,
+   "text": "The Alhambra and the Generalife were declared UNESCO World Heritage Sites.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "A monument honoring Judah ben Saul ibn Tibbon was established in Granada.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The UNESCO World Heritage Site encompassing the Alhambra was extended.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "The FIS Alpine World Ski Championships were held nearby at Sierra Nevada.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "environment"
+  },
+  {
+   "year": 2003,
+   "text": "The new mosque was inaugurated on the summit of the neighborhood of Albayzin.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "The Hospital of the Health Campus was inaugurated completely in July.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "Service on the Granada metro light rail network finally started.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Granada exported a total of $1.3 billion products.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "Salvador resigned and was succeeded by Socialist Francisco Cuenca as mayor.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Marifrán Carazo of the PP ousted Cuenca in the Spanish local elections.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "The population of Granada reached 233,532 as the 20th-largest city in Spain.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "A total of 34,904 people living in Granada were born outside Spain.",
+   "url": "https://en.wikipedia.org/wiki/Granada",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

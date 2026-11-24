@@ -1,0 +1,130 @@
+{
+ "id": "ist",
+ "town": "Istanbul",
+ "source": "https://en.wikipedia.org/wiki/Istanbul",
+ "pool": [
+  {
+   "year": 1461,
+   "text": "The Grand Bazaar began operating as one of the world's oldest and largest covered markets.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1831,
+   "text": "The first Turkish newspaper, Takvim-i Vekayi, was published in the former Ottoman capital.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "culture"
+  },
+  {
+   "year": 1872,
+   "text": "Horse-drawn trams were introduced in Istanbul, marking the early history of the city's trams.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 1875,
+   "text": "The Tünel opened as the world's second-oldest subterranean rail line after London.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 1889,
+   "text": "International rail service launched with a line between Bucharest and Sirkeci Terminal.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 1914,
+   "text": "The Silahtarağa Power Station completed its first engine room as a sole electricity source.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1930,
+   "text": "The Istanbul Metropolitan Municipality was established as the main citywide local government authority.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "The airport became a civilian airport and the hub of Turkish Airlines.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1947,
+   "text": "The first international flight took place between Istanbul and Athens.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "The airport terminal building was opened and later featured in a James Bond film.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "The Istanbul Biennial began holding contemporary art exhibitions biennially.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The annual Istanbul Jazz Festival was established to be held every year.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "The American news channel CNN licensed its brand to the Turkish-language CNN Türk.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Sabiha Gökçen International Airport opened as the main airport on the Asian side.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Emirgan Park began holding an annual tulip festival known for its plant diversity.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "A more modern funicular between Taksim Square and Kabataş began running.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The contactless Istanbulkart was introduced to integrate fares across transportation modes.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The Istanbul Shopping Fest began as an annual shopping festival held in the city.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "The Yavuz Sultan Selim Bridge entered service on August 26.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "A marine mucilage wave allegedly caused by water pollution spread to Sea of Marmara.",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

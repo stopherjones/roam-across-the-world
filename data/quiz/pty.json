@@ -1,0 +1,118 @@
+{
+ "id": "pty",
+ "town": "Panama City",
+ "source": "https://en.wikipedia.org/wiki/Panama_City",
+ "pool": [
+  {
+   "year": 1519,
+   "text": "Spanish conquistador Pedro Arias Dávila founded the city of Panama on August 15.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1520,
+   "text": "Genoese merchants controlled the port and regional commerce thanks to a Spanish concession.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1532,
+   "text": "The city served as the starting point for expeditions conquering Peru's Inca Empire.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1535,
+   "text": "Gonzalo Fernández de Oviedo y Valdés published the first story about Panama.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1671,
+   "text": "Henry Morgan and his men attacked, looted, and destroyed the original city by fire.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1855,
+   "text": "The Panama Railroad Company's railroad began full operation across the isthmus.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1903,
+   "text": "Panama declared independence from Colombia and Philippe Bunau-Varilla was named minister.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1908,
+   "text": "The National Theater was founded as one of the main monuments.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1914,
+   "text": "The Panama Canal was completed and symbolized United States influence.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1964,
+   "text": "Events known as Martyrs' Day erupted on January 9.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1999,
+   "text": "The United States transferred full control of the Panama Canal to Panama.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2003,
+   "text": "The historic district of Panama City was designated a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The Trump Organization built the Trump Ocean Club as its first Latin American investment.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "The city achieved the second highest hotel occupancy rate for any city outside the United States.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "UNESCO decided that Casco Viejo would not be placed on the World Heritage in Danger list.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "Hilton Worldwide opened The Panamera, the second Waldorf Astoria Hotel in Latin America.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "President Ricardo Martinelli built the Cinta Costera 3 maritime highway viaduct extension.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "The Trump Ocean Club building was renamed The Bahia Grand Panama following falling occupancy rates.",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

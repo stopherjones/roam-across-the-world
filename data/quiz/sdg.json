@@ -1,0 +1,130 @@
+{
+ "id": "sdg",
+ "town": "San Diego",
+ "source": "https://en.wikipedia.org/wiki/San_Diego",
+ "pool": [
+  {
+   "year": 1542,
+   "text": "Juan Rodriguez Cabrillo claimed the area for Spain, laying the settlement basis.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1769,
+   "text": "The Presidio and Mission San Diego de Alcalá formed the first European settlement.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "civic"
+  },
+  {
+   "year": 1821,
+   "text": "San Diego became part of the newly declared Mexican Empire.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1850,
+   "text": "California was admitted to the United States as the thirty first state.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "civic"
+  },
+  {
+   "year": 1878,
+   "text": "San Diego remained a backwater town until a railroad connection arrived.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "The city established a new city charter which was adopted.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "San Diego hosted the California Pacific International Exposition as a World's Fair.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "San Diego acquired its first television station, KFMB, which began broadcasting on May sixteenth.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1952,
+   "text": "The FCC began licensing UHF channels to allow cities to acquire more stations.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1978,
+   "text": "The city decided to replace the lights with more efficient sodium vapor lamps.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The city marked its deadliest year by registering 179 homicides within city limits.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "San Diego was the site of the Cedar Fire wildfire.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "environment"
+  },
+  {
+   "year": 2003,
+   "text": "The libraries have had reduced operating hours due to the city's financial problems.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Petco Park officially opened in downtown San Diego.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "San Diego achieved the sixth lowest crime rate of any U.S. city.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "Two city council members were convicted of extortion, wire fraud, and conspiracy charges.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "Representative Cunningham was sentenced to a long prison sentence.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "The city increased its financial spending on local libraries by two million dollars.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "California wildfires destroyed areas particularly within Rancho Bernardo.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "environment"
+  },
+  {
+   "year": 2009,
+   "text": "The Port of San Diego handled short tons of total trade.",
+   "url": "https://en.wikipedia.org/wiki/San_Diego",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

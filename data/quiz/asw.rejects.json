@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2915,
+  "completionTokens": 3294,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2021,
+   "theme": "culture",
+   "event": "Archaeologists announced significant discoveries at an archaeological site called Shiha Fort in Aswan.",
+   "quote": "In February 2021, archaeologists from the Egyptian Ministry of Antiquities announced significant discoveries at an archaeological site called Shiha Fort in Aswan, namely a Ptolemaic period temple, a Roman fort, an early Coptic church and an inscription in hieratic script.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1244,
+   "theme": "culture",
+   "event": "Construction of the temple complex began and continued for approximately twenty-one years.",
+   "quote": "Construction of the temple complex began around 1244 BC and continued for approximately 21 years.",
+   "stage": "verification",
+   "why": "The source quote says construction began around 1244 BC, which is significantly different from the year 1244."
+  }
+ ]
+}

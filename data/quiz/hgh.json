@@ -1,0 +1,130 @@
+{
+ "id": "hgh",
+ "town": "Hangzhou",
+ "source": "https://en.wikipedia.org/wiki/Hangzhou",
+ "pool": [
+  {
+   "year": 1089,
+   "text": "Poet governor Su Shi constructed a causeway across West Lake using mud.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "environment"
+  },
+  {
+   "year": 1221,
+   "text": "Yuefei Temple was constructed near the West Lake to commemorate Yue Fei.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1276,
+   "text": "Advancing Mongol armies of Kublai Khan besieged and captured the city.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1345,
+   "text": "Moroccan traveler Ibn Battuta visited Hangzhou and noted its charm.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1856,
+   "text": "The Taiping Heavenly Kingdom occupied Hangzhou during the nineteenth century.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1937,
+   "text": "The city was occupied by Japan during the mid-twentieth century.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The People's Liberation Army entered Hangzhou under Chinese Communist Party control.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "Hangzhou hosted a series of labor unrest and factional fighting.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "Hangzhou Hi-Tech Industrial Development Zone was set up with official approval.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1993,
+   "text": "Hangzhou Economic and Technological Development Zone was established and approved.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1996,
+   "text": "Binjiang District was officially established on December eleventh.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Hangzhou Export Processing Zone was established upon approval of the council.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "Xiaoshan and Yuhang were reorganized as two distinct administrative districts.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The construction of the Hangzhou Metro started in March.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "environment"
+  },
+  {
+   "year": 2010,
+   "text": "The China Railway High-Speed service was officially inaugurated in October.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Hangzhou Metro Line 1 opened on November twenty-fourth.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "environment"
+  },
+  {
+   "year": 2013,
+   "text": "The Hangzhou Tourism Commission started an online campaign via Facebook.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "The Grand Canal was designated a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "environment"
+  },
+  {
+   "year": 2016,
+   "text": "Hangzhou hosted the eleventh G20 summit in China.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "The city undertook strong curfew measures owing to the coronavirus outbreak.",
+   "url": "https://en.wikipedia.org/wiki/Hangzhou",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

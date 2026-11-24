@@ -1,0 +1,130 @@
+{
+ "id": "zag",
+ "town": "Zagreb",
+ "source": "https://en.wikipedia.org/wiki/Zagreb",
+ "pool": [
+  {
+   "year": 1094,
+   "text": "The historical record notes the foundation of the settlement at Kaptol by Hungarian King Ladislaus.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1242,
+   "text": "Zagreb achieved the status of a free royal city.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "civic"
+  },
+  {
+   "year": 1557,
+   "text": "Zagreb was designated to serve as the Croatian capital.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1669,
+   "text": "An academy teaching philosophy, theology, and law was founded, establishing the University forerunner.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "culture"
+  },
+  {
+   "year": 1758,
+   "text": "Mihalj Silobod Bolsic published the first Croatian arithmetic textbook Arithmatika Horvatzka in Zagreb.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "culture"
+  },
+  {
+   "year": 1776,
+   "text": "The royal council and government relocated from Varaždin to Zagreb.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "The region's very first radio station started broadcasting from Zagreb.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "The Zagreb Fair officially opened its doors.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1954,
+   "text": "The Technical Museum was founded to maintain old machinery in the area.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "The Neboder high-rise building was constructed on Ban Jelačić Square.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The renowned Vatroslav Lisinski concert hall was built in the city.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "Zagreb played host to the international Summer Universiade sports event.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "The Parliament proclaimed Zagreb as the capital after Croatia declared independence.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "The commuter rail network was established with the Savski Marof line.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1995,
+   "text": "Serb rocket artillery targeted the city in two attacks that killed civilians.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "Sljeme hosted its very first World Ski Championship tournament.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The A6 highway leading from Zagreb to Rijeka was upgraded.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The Museum of Contemporary Art opened its doors in the centre of Novi Zagreb.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "A new passenger terminal opened at the airport to accommodate millions of passengers.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "The local taxi market underwent liberalization allowing companies like Uber to enter.",
+   "url": "https://en.wikipedia.org/wiki/Zagreb",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

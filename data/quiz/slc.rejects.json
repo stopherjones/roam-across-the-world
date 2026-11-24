@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10768,
+  "completionTokens": 7259,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1868,
+   "theme": "civic",
+   "event": "The word Great was dropped from the city name in 1868.",
+   "quote": "Owing to its proximity to the Great Salt Lake, it was originally named Great Salt Lake City; the word \"Great\" was dropped from the city's name in 1868.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1893,
+   "theme": "culture",
+   "event": "Construction started on the temple which was dedicated in 1893.",
+   "quote": "Construction started in 1853, and the temple was dedicated on April 6, 1893.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2020,
+   "theme": "environment",
+   "event": "The region experienced an earthquake, protests, and a damaging windstorm.",
+   "quote": "In 2020, the region experienced a 5.7 magnitude earthquake, protests against the killing of Bernardo Palacios-Carbajal, and a damaging windstorm with hurricane-force winds, amid the wider national George Floyd protests, the global COVID-19 pandemic, and protests against pandemic measures.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1979,
+   "theme": "culture",
+   "event": "The 1979 NCAA Division I Basketball Championship Game took place.",
+   "quote": "The 1979 NCAA Division I Basketball Championship Game took place at the Special Events Center on the campus of the University of Utah, where Magic Johnson met Larry Bird for the first time in their legendary rivalry.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2002,
+   "theme": "culture",
+   "event": "Salt Lake City hosted the 2002 Winter Olympics.",
+   "quote": "Salt Lake City hosted the 2002 Winter Olympics.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

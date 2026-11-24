@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 5175,
+  "completionTokens": 3067,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2005,
+   "theme": "culture",
+   "event": "Over 18 million people attended cultural events; 8,552 taxable cultural companies recorded",
+   "quote": "In 2005, more than 18 million people visited concerts, exhibitions, theatres, cinemas, museums, and cultural events, and 8,552 taxable companies (average size: 3.16 employees) were engaged in the culture sector, which includes music, performing arts, and literature.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2008,
+   "theme": "environment",
+   "event": "Hamburg awarded European Green Capital for 2011",
+   "quote": "Hamburg has entered the European Green Capital Award scheme, and was awarded the title of European Green Capital for 2011.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Former mayor Olaf Scholz served as German chancellor until May 2025",
+   "quote": "The former Mayor of Hamburg, Olaf Scholz, was chancellor from December 2021 until May 2025.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

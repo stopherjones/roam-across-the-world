@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5141,
+  "completionTokens": 3966,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1972,
+   "theme": "culture",
+   "event": "The 1972 Winter Olympics were held as the first Winter Olympics in Asia.",
+   "quote": "From February 3 to 13, 1972, the 1972 Winter Olympics were held, the first Winter Olympics held in Asia.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

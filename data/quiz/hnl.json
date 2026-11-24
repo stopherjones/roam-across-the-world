@@ -1,0 +1,130 @@
+{
+ "id": "hnl",
+ "town": "Honolulu",
+ "source": "https://en.wikipedia.org/wiki/Honolulu",
+ "pool": [
+  {
+   "year": 1794,
+   "text": "Captain William Brown of Great Britain sailed into what is now Honolulu Harbor.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1804,
+   "text": "Kamehameha I moved his royal court from the Island of Hawaiʻi to Waikiki.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1809,
+   "text": "His court relocated to what is now downtown Honolulu.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1812,
+   "text": "The capital was moved back to Kailua-Kona.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  },
+  {
+   "year": 1845,
+   "text": "Kamehameha III moved the permanent capital of the Hawaiian Kingdom to Honolulu.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  },
+  {
+   "year": 1893,
+   "text": "The independent Hawaiian Kingdom was overthrown.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "The Empire of Japan attacked nearby Pearl Harbor on December 7.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1959,
+   "text": "Honolulu became the capital of the state of Hawaii.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  },
+  {
+   "year": 1970,
+   "text": "The Census Bureau reported the population racial percentages for Honolulu.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Modern air travel brought 7.6 million visitors annually to the islands.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Honolulu had a 4.5% increase in average rent.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Skyline was approved by public referendum.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The Honolulu Academy of Arts and The Contemporary Museum merged.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "One report found that cost of living expenses were higher.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "A percentage of Honolulu households were identified as car-free.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2017,
+   "text": "Bikeshare Hawaii began administering the bicycle sharing program in Oʻahu.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "An expansion added Biki stations toward specific local campuses and areas.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "The stadium was closed.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Rick Blangiardi began serving as the county's 15th mayor.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "Plans for a new stadium at the site were announced.",
+   "url": "https://en.wikipedia.org/wiki/Honolulu",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

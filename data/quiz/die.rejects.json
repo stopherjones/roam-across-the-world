@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3269,
+  "completionTokens": 3359,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1030,
+   "theme": "civic",
+   "event": "The first mention of a permanent fishing settlement was recorded in Dieppe.",
+   "quote": "The first mention of a permanent fishing settlement was recorded in 1030.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1696,
+   "theme": "civic",
+   "event": "Dieppe was rebuilt in a typical French classical style by Ventabren.",
+   "quote": "It was rebuilt after 1696 in a typical French classical style by Ventabren, an architect, who gave it its unique feature for a sea port.",
+   "stage": "verification",
+   "why": "The source says it was rebuilt *after* 1696, not specifically in the year 1696."
+  },
+  {
+   "year": 1945,
+   "theme": "power_conflict",
+   "event": "Fifteen people were killed in a series of shootings perpetrated by a drunk soldier.",
+   "quote": "Between 10 and 11 June 1945, fifteen people, including two police officers, were killed and nine were wounded in a series of shootings perpetrated by a drunk soldier, Abd el Maleck, who was on the run for an attempted murder on Rue Gambetta.",
+   "stage": "verification",
+   "why": "The source gives the dates as between 10 and 11 June 1945, not just the year generally or a single year claim without date nuance, but more specifically the quote supports the event and the year 1945 is correct."
+  }
+ ]
+}

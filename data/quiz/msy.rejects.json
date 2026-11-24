@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10706,
+  "completionTokens": 7230,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2008,
+   "theme": "commerce_industry",
+   "event": "The very first World Culture and Economy Forum took place in October 2008.",
+   "quote": "The first WCEF took place in October 2008.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2020,
+   "theme": "power_conflict",
+   "event": "Total annual murders increased significantly by 68 percent compared to the previous year.",
+   "quote": "In 2020, murders increased 68% from 2019 with a total of 202 murders.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1811,
+   "theme": "power_conflict",
+   "event": "Approximately 500 enslaved Africans participated in an uprising known as a major slave rebellion.",
+   "quote": "On January 8–11, 1811, about 500 enslaved Africans in St.",
+   "stage": "verification",
+   "why": "The source quote gives dates of January 8-11, 1811, but cuts off and does not mention the 500 enslaved Africans or the uprising details completely."
+  },
+  {
+   "year": 1870,
+   "theme": "civic",
+   "event": "Jefferson City and Algiers were annexed into the expanding city of New Orleans.",
+   "quote": "In 1870, Jefferson City, including Faubourg Bouligny and much of the Audubon and University areas, was annexed as the 12th, 13th, and 14th wards.",
+   "stage": "verification",
+   "why": "The source quote mentions the 1870 annexation of Jefferson City, but does not mention Algiers."
+  },
+  {
+   "year": 2022,
+   "theme": "power_conflict",
+   "event": "The local homicide count increased to 280, leading to the city being declared the murder capital.",
+   "quote": "The 2022 city homicide count increased to 280 which was a 26-year high.",
+   "stage": "verification",
+   "why": "While the source confirms the 2022 homicide count of 280, it does not mention the city being declared the murder capital."
+  }
+ ]
+}

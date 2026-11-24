@@ -1,0 +1,124 @@
+{
+ "id": "bng",
+ "town": "Benghazi",
+ "source": "https://en.wikipedia.org/wiki/Benghazi",
+ "pool": [
+  {
+   "year": 1578,
+   "text": "The Turks conquered Benghazi and it was ruled from Tripoli by the Karamanlis.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1895,
+   "text": "The front elevation of a building was completed in Benghazi.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "culture"
+  },
+  {
+   "year": 1911,
+   "text": "Italy captured Benghazi and the rest of Tripolitania from the Ottoman Empire.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1924,
+   "text": "The Municipal palace was built in Maydan al-Hurriya in Benghazi.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "The Berenice Cinema was designed by Marcello Piacentini and Luigi Piccinato.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "The population of Benghazi was made up of more than 35 per cent Italians.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "The city was captured from the Italians by Combe Force during Operation Compass.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Benghazi became the capital city of the Emirate of Cyrenaica under Idris Senussi I.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1951,
+   "text": "Cyrenaica was merged with Tripolitania and Fezzan to form the independent Kingdom of Libya.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "Muammar Gaddafi staged a coup d'état causing Benghazi to lose its capital status.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1989,
+   "text": "The Tibesti Hotel on Gamal Abdel Nasser Street was built as the highest building.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "The arena of football club Alahly Benghazi S.C. was demolished following anti-government protests.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "An uprising against the government of Muammar Gaddafi occurred in the city.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2012,
+   "text": "The Libyan economy ministry announced plans for creating a free trade area in Benghazi.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "A second civil war broke out in Libya between the House of Representatives and the Government.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2017,
+   "text": "The LNA's General Khalifa Haftar declared the city cleared of the Shura Council.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2020,
+   "text": "The 5+5 Joint Libyan Military Commission reached a permanent ceasefire agreement in all areas.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2021,
+   "text": "The Libyan Business Council set up the Benghazi International Trade Fair.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "The military razed a large swath of Benghazi's historic center at night without notifying authorities.",
+   "url": "https://en.wikipedia.org/wiki/Benghazi",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "bud",
+ "town": "Budapest",
+ "source": "https://en.wikipedia.org/wiki/Budapest",
+ "pool": [
+  {
+   "year": 1241,
+   "text": "Following the foundation of Hungary, the area was pillaged by the Mongols.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1361,
+   "text": "The settlement of Buda became the royal seat of Hungary.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1473,
+   "text": "The very first Hungarian book was printed in the city of Buda.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 1541,
+   "text": "Ottoman forces finally occupied Buda, starting a long period of rule.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1686,
+   "text": "A renewed campaign led to the successful reconquest of Buda.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1751,
+   "text": "The notable and popular City Park was established across large acreage.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "environment"
+  },
+  {
+   "year": 1934,
+   "text": "Budapest was officially ranked as a City of Spas due to its baths.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1937,
+   "text": "The novel Journey by Moonlight is set partly or entirely in Budapest.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "The city was heavily besieged during the closing stages of World War II.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Hungary was officially declared a communist People's Republic.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "Several towns and cities were annexed to form contemporary Greater Budapest.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "The book The Bridge at Andau is set partly or entirely in Budapest.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "The novel Fateless is set partly or entirely in Budapest.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "The book Between the Woods and the Water is set partly or entirely in Budapest.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "Buda Castle and the banks of the Danube joined the UNESCO list.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "The novel The Door is set partly or entirely in Budapest.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "The novel Under the Frog is set partly or entirely in Budapest.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Andrássy Avenue and surrounding landmarks were added to the UNESCO list.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "The novel Prague is set partly or entirely in Budapest.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "It employed more than 50,000 people and generated 63.9% of revenues of the media industry.",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

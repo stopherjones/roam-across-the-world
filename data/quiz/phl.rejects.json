@@ -1,0 +1,93 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 11681,
+  "completionTokens": 7702,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1776,
+   "theme": "civic",
+   "event": "Delegates inside Pennsylvania State House adopted the historic Declaration of Independence.",
+   "quote": "From 1775 to 1781, Philadelphia hosted the Second Continental Congress, whose 56 delegates unanimously adopted the Declaration of Independence inside what was then called Pennsylvania State House and was later renamed Independence Hall.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1985,
+   "theme": "power_conflict",
+   "event": "John F. helped host the Live concert event.",
+   "quote": "On July 13, 1985, John F. The city also hosted the Live 8 concert, which attracted about 700,000 people to the Benjamin Franklin Parkway on July 2, 2005.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1990,
+   "theme": "power_conflict",
+   "event": "Philadelphia recorded 500 murders with a specific rate per 100,000.",
+   "quote": "Philadelphia had 500, 503 according to some sources, murders in 1990, a rate of 31.5 per 100,000.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2017,
+   "theme": "commerce_industry",
+   "event": "The Port of Philadelphia experienced the highest percentage growth by tonnage loaded.",
+   "quote": "The Port of Philadelphia, having experienced the highest percentage growth by tonnage loaded in 2017 among major U.S. seaports, has doubled its shipping capacity to accommodate super-sized post-Panamax shipping vessels since 2018.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "power_conflict",
+   "event": "Homicides increased dramatically in the early 2020s, reaching a specific count.",
+   "quote": "Homicides increased dramatically in the late 2010s/early 2020s, reaching 499 homicides in 2020 and surpassing the 1990 \"record\" in 2021, with 501st murder on November 27 and 510 by the end of the month.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1976,
+   "theme": "culture",
+   "event": "The long flight of Art Museum steps became famous from Rocky.",
+   "quote": "The long flight of steps to the Art Museum's main entrance became famous after the film Rocky (1976).",
+   "stage": "verification",
+   "why": "The source mentions the film Rocky (1976), but does not state that the steps became famous in that exact year."
+  },
+  {
+   "year": 1773,
+   "theme": "commerce_industry",
+   "event": "The City Tavern is a replica of a historic building first opened here.",
+   "quote": "The City Tavern is a replica of a historic 18th-century building first opened in 1773, demolished in 1854 after a fire, and rebuilt in 1975 on the same site as part of Independence National Historical Park.",
+   "stage": "verification",
+   "why": "The claim states that City Tavern *is* a replica, but the quote says the original building first opened in 1773 and the replica was rebuilt in 1975."
+  },
+  {
+   "year": 1930,
+   "theme": "food_daily",
+   "event": "Pat's King of Steaks originated the thinly sliced steak sandwich.",
+   "quote": "The originator of the thinly sliced steak sandwich in the 1930s, initially without cheese, is Pat's King of Steaks, which faces its rival Geno's Steaks, founded in 1966, across the intersection of 9th Street and Passyunk Avenue in the Italian Market of South Philadelphia.",
+   "stage": "verification",
+   "why": "The source quote states the steak sandwich originated 'in the 1930s', but does not verify the exact year 1930."
+  },
+  {
+   "year": 2012,
+   "theme": "civic",
+   "event": "Philadelphia contracted with a nonprofit organization called ACCT Philly.",
+   "quote": "Currently Philadelphia contracts with a nonprofit organization called ACCT Philly, created in 2012, for animal control and animal shelter services.",
+   "stage": "verification",
+   "why": "The source quote states ACCT Philly was created in 2012, but does not state Philadelphia contracted with them in 2012 ('Currently Philadelphia contracts...')."
+  },
+  {
+   "year": 2019,
+   "theme": "power_conflict",
+   "event": "Former U.S. Vice President Joe Biden chose Philadelphia for an event.",
+   "quote": "In May 2019, former U.S. Vice President Joe Biden chose Philadelphia to be his 2020 U.S.",
+   "stage": "verification",
+   "why": "The source quote is cut off and incomplete ('be his 2020 U.S.'), making the claim about the event insufficiently supported."
+  }
+ ]
+}

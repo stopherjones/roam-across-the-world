@@ -1,0 +1,130 @@
+{
+ "id": "bcn",
+ "town": "Barcelona",
+ "source": "https://en.wikipedia.org/wiki/Barcelona",
+ "pool": [
+  {
+   "year": 1812,
+   "text": "Barcelona briefly became part of Napoleonic France.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1833,
+   "text": "Early industrialization began with steam-powered textile factories.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1885,
+   "text": "Catalan modernista architecture flourished, shaping Barcelona's artistic legacy.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "culture"
+  },
+  {
+   "year": 1900,
+   "text": "Children comprised nearly 29% of Barcelona's population.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "civic"
+  },
+  {
+   "year": 1931,
+   "text": "Barcelona became capital of autonomous Catalonia.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "City was epicenter of Catalonia's Spanish Revolution.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1937,
+   "text": "Barcelona served as capital of the Second Spanish Republic.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "Fascist Italy and Nazi Germany bombed Barcelona in March.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "Fall of Barcelona triggered mass exodus to the French border.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "Franco's death paved way for democratic demonstrations.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "Over one million people demonstrated for Catalan autonomy.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "Municipal elections were held again after the new constitution.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "Spain joined the European Community and Barcelona won Olympic bid.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "ETA car bomb at Hipercor killed 21 people.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "Barcelona hosted the Summer Olympics, reshaping its global image.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "Estació del Nord renovated for Olympic Games, now long‑distance bus terminus",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Barcelona metropolitan area held 67% of Catalonia's industrial establishments",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "OBC opened its new Auditorium L'Auditori.",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "City began hosting the Bread & Butter urban fashion fair each summer",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "City Council launched the public Bicing bicycle‑sharing service",
+   "url": "https://en.wikipedia.org/wiki/Barcelona",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

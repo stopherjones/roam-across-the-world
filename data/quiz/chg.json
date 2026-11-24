@@ -1,0 +1,130 @@
+{
+ "id": "chg",
+ "town": "Chicago",
+ "source": "https://en.wikipedia.org/wiki/Chicago",
+ "pool": [
+  {
+   "year": 1837,
+   "text": "Chicago was incorporated as a city near a portage.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "civic"
+  },
+  {
+   "year": 1837,
+   "text": "Chicago chose the motto Urbs in Horto when it was incorporated in this year.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "civic"
+  },
+  {
+   "year": 1866,
+   "text": "Rauch established a plan for Chicago's park system.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "environment"
+  },
+  {
+   "year": 1869,
+   "text": "The Illinois legislature authorized the establishment of the city boulevards and parks.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "environment"
+  },
+  {
+   "year": 1871,
+   "text": "The Great Chicago Fire destroyed several square miles and homeless people.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "environment"
+  },
+  {
+   "year": 1883,
+   "text": "Railway managers developed the standardized system of North American time zones.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "William Thompson was voted into office as the last Republican mayor elected by citizens.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "Al Capone sent men to gun down rival gang members.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1933,
+   "text": "Mayor Anton Cermak was fatally wounded in Miami, Florida.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Enrico Fermi conducted the world's first controlled nuclear reaction.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1942,
+   "text": "The building of the boulevard system continued intermittently until this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "environment"
+  },
+  {
+   "year": 1955,
+   "text": "Richard J. Daley was elected in the era of machine politics.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "The Lithuanian Opera Company of Chicago was founded by Lithuanian Chicagoans.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "Jane Byrne was elected as the city's first female mayor.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "Mother Teresa, the Dalai Lama and Pope John Paul II visited Chicago.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "Harold Washington became the first black mayor of Chicago.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "Independents finally gained control of city government with the election of Harold Washington.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "A construction accident produced a breach connecting the Chicago River.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "environment"
+  },
+  {
+   "year": 1992,
+   "text": "The state of Illinois became solid blue in presidential elections with the Democratic vote.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "Robb Report named Chicago the country's most exceptional dining destination in this year.",
+   "url": "https://en.wikipedia.org/wiki/Chicago",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

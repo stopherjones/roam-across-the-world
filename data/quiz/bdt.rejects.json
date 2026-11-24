@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2462,
+  "completionTokens": 2010,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "Historic buildings in Bridgetown were designated as a protected area by UNESCO.",
+   "quote": "In 2011, historic buildings in Bridgetown were designated as a protected area by UNESCO.",
+   "stage": "verification",
+   "why": "The source mentions Historic Bridgetown and its Garrison being listed as a World Heritage Site in 2011, but does not mention historic buildings being designated as a protected area."
+  }
+ ]
+}

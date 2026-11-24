@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4169,
+  "completionTokens": 3948,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1982,
+   "theme": "culture",
+   "event": "The historic town centre of Olinda was considered a World Heritage Site.",
+   "quote": "The Historic Centre of Olinda, 7 kilometers (4.3 mi) north of the city, was declared a UNESCO World Heritage Site in 1982, and both cities' Brazilian Carnival are among the world's most famous.",
+   "stage": "verification",
+   "why": "The claim refers to Olinda, but the quote says 'The Historic Centre of Olinda... was declared a UNESCO World Heritage Site in 1982', making the claim about the town centre technically about Olinda rather than Recife, though the date and event match. Wait, Olinda's town centre is supported. Let's mark true as it matches the source."
+  }
+ ]
+}

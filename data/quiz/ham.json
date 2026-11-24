@@ -1,0 +1,130 @@
+{
+ "id": "ham",
+ "town": "Hamburg",
+ "source": "https://en.wikipedia.org/wiki/Hamburg",
+ "pool": [
+  {
+   "year": 1842,
+   "text": "Great Fire destroyed about a quarter of the inner city",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "environment"
+  },
+  {
+   "year": 1892,
+   "text": "Major cholera outbreak badly handled by city government",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1897,
+   "text": "Hamburg City Hall completed as Neo‑Renaissance building",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1907,
+   "text": "Tierpark Hagenbeck zoo founded with moated, barless enclosures",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1912,
+   "text": "Hamburg Airport established, becoming Germany's fifth biggest airport",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1922,
+   "text": "Chilehaus built, brick expressionist office building shaped like an ocean liner",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "Hamburg became a Gau within Nazi Germany's administrative division",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "Allied fire‑bombing created firestorm destroying several boroughs",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Hamburg surrendered to British forces three days after Hitler's death",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1962,
+   "text": "North Sea flood inundated one‑fifth of Hamburg, killing over 300 people",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "environment"
+  },
+  {
+   "year": 1976,
+   "text": "English Theatre of Hamburg founded, oldest professional English‑language theatre in Germany",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "German premiere of Cats sparked continuous musical productions in the city",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "German reunification opened new ambitions for the Port of Hamburg",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "Construction began on the HafenCity urban development project",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "More than 2,500 Stolpersteine installed honoring deported citizens",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Olaf Scholz became mayor of Hamburg on 7 March",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "Speicherstadt and Kontorhausviertel designated UNESCO World Heritage Sites",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "Elbphilharmonie opened, sail‑shaped concert hall atop old warehouse",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "G20 summit protests clashed with police around Sternschanze and Rote Flora",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2019,
+   "text": "Law passed to phase out coal‑based thermal and electric energy production",
+   "url": "https://en.wikipedia.org/wiki/Hamburg",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

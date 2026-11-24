@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7497,
+  "completionTokens": 5940,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 997,
+   "theme": "civic",
+   "event": "Calais was improved by the Count of Flanders in 997.",
+   "quote": "Calais was improved by the Count of Flanders in 997 and fortified by the Count of Boulogne in 1224.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 1954,
+   "theme": "commerce_industry",
+   "event": "The Hôtel Meurice de Calais was rebuilt during this period.",
+   "quote": "The hotel was rebuilt in 1954–55.",
+   "stage": "verification",
+   "why": "The claim specifies the year 1954, but the source quote states the hotel was rebuilt in 1954-55, making the exact year ambiguous or incomplete."
+  }
+ ]
+}

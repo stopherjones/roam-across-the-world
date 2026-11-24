@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 6619,
+  "completionTokens": 4833,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1241,
+   "theme": "power_conflict",
+   "event": "The city was sacked and burned during the Mongol invasion of 1241.",
+   "quote": "The city was sacked and burned during the Mongol invasion of 1241.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1846,
+   "theme": "power_conflict",
+   "event": "Instability and political issues culminated in the Kraków Uprising of 1846.",
+   "quote": "Following Napoleon's defeat, the 1815 Congress of Vienna restored the pre-war boundaries but also created the partially independent and neutral Free City of Cracow. However, nationalist sentiment and other political issues led to instability; this culminated in the Kraków Uprising of 1846, which was crushed by the Austrian authorities.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "The city recorded a population of over eight hundred thousand residents.",
+   "quote": "Situated on the Vistula river in Lesser Poland Voivodeship, the city has a population of 816,614 (2025), with 1,428,363 people living in the Kraków metropolitan area.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

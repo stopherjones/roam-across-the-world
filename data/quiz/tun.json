@@ -1,0 +1,130 @@
+{
+ "id": "tun",
+ "town": "Tunis",
+ "source": "https://en.wikipedia.org/wiki/Tunis",
+ "pool": [
+  {
+   "year": 1048,
+   "text": "Al-Muizz ibn Badis rejected his city obedience to the Fatimids in Tunis",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1159,
+   "text": "Abd al-Mu min took Tunis and overthrew the last Khurasanid leader",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1228,
+   "text": "Governor Abu Zakariya seized power and founded the Hafsid dynasty",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1270,
+   "text": "Louis IX of France took the city briefly in Tunis",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1332,
+   "text": "Arab sociologist and scholar Ibn Khaldun was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1892,
+   "text": "Belvédère Park was founded overlooking Lake Tunis",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "environment"
+  },
+  {
+   "year": 1927,
+   "text": "Tunisian-French lawyer, politician, essayist, and feminist activist Gisele Halimi was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "civic"
+  },
+  {
+   "year": 1930,
+   "text": "Italian Olympic medalist epee and foil fencer Alberto Pellegrino was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "Italian tennis player Nicola Pietrangeli was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "The Rachidia was founded to safeguard Arab music in Tunis",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "British sculptor Phillip King was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "French illustrator and caricaturist Georges Wolinski was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Algerian politician Yazid Zerhouni was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "Mathematician Fatma Moalla was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1943,
+   "text": "Allies held a victory parade on avenues in Tunis",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Rabbi Joseph Sitruk was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1946,
+   "text": "Tunisian-French writer and radio staff Abdelwahab Meddeb was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1954,
+   "text": "Tunisian-French sociologist and researcher Margaret Maruani was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Philosopher, linguist, poet, existentialist psychoanalyst, and author Georges-Elia Sarfati was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Entrepreneur, business consultant, and politician Amel Karboul was born.",
+   "url": "https://en.wikipedia.org/wiki/Tunis",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "ftz",
+ "town": "Fortaleza",
+ "source": "https://en.wikipedia.org/wiki/Fortaleza",
+ "pool": [
+  {
+   "year": 1603,
+   "text": "Portuguese Pero Coelho de Souza constructed the Fort of Sao Tiago",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1612,
+   "text": "Martins Soares Moreno expanded the fort and changed its name",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1630,
+   "text": "Dutch forces invaded the Brazilian Northeast region",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1644,
+   "text": "The fort was destroyed during battles with Portuguese and natives",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1649,
+   "text": "Fort Schoonenborch officially opened on August 19th",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1726,
+   "text": "The city was officially founded as a village",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "civic"
+  },
+  {
+   "year": 1799,
+   "text": "The city became the capital of Ceara state",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "civic"
+  },
+  {
+   "year": 1812,
+   "text": "The customs building of Fortaleza was built",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1824,
+   "text": "Revolutionaries of the Confederation of the Equator targeted the city",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1861,
+   "text": "The first hospital built was Santa Casa de Misericordia",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "civic"
+  },
+  {
+   "year": 1887,
+   "text": "The Ceara Institute was founded",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "culture"
+  },
+  {
+   "year": 1954,
+   "text": "The first university was created as Universidade Federal do Ceara",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "A cultural venue opened housing art collections and ruins",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "The city began integrating territory of Maracanau",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "The Integrated Transportation System bus operation began",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1996,
+   "text": "The city became part of the Mercosur cities market",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Pedra da Risca do Meio Marine State Park was created",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "environment"
+  },
+  {
+   "year": 1999,
+   "text": "An environmental protection area was set up at Rio Ceara",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Former mayor Roberto Claudio won votes in the local election",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2014,
+   "text": "The Fortaleza Metro started operation on October first",
+   "url": "https://en.wikipedia.org/wiki/Fortaleza",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

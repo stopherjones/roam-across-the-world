@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5246,
+  "completionTokens": 3981,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1906,
+   "theme": "commerce_industry",
+   "event": "The Treaty of Algeciras formalized French preeminence and impacted Casablanca port development.",
+   "quote": "The Treaty of Algeciras of 1906 formalized French preeminence in Morocco and included three measures that directly impacted Casablanca: that French officers would control operations at the customs office and seize revenue as collateral for loans given by France, that the French holding company La Compagnie Marocaine would develop the port of Casablanca, and that a French-and-Spanish-Spanish-trained police force would be assembled to patrol the port.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1465,
+   "theme": "power_conflict",
+   "event": "The last of the Merinids were ousted by a popular revolt in Casablanca.",
+   "quote": "The last of the Merinids were ousted by a popular revolt in 1465.",
+   "stage": "verification",
+   "why": "The quote mentions the year 1465 and the ousting of the Merinids, but does not mention Casablanca."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 6832,
+  "completionTokens": 4889,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2028,
+   "theme": "culture",
+   "event": "Venues in the city will host two events during the Summer Olympics.",
+   "quote": "Venues in Oklahoma City will host two events during the 2028 Summer Olympics, which will be held primarily held in Los Angeles, approximately 1,300 miles away.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 2018,
+   "theme": "commerce_industry",
+   "event": "The Oklahoma City Streetcar system opened for service in Downtown OKC.",
+   "quote": "Construction of the Oklahoma City Streetcar system in Downtown OKC began in early 2017, and the system opened for service in December 2018.",
+   "source": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

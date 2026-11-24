@@ -1,0 +1,130 @@
+{
+ "id": "scl",
+ "town": "Santiago",
+ "source": "https://en.wikipedia.org/wiki/Santiago",
+ "pool": [
+  {
+   "year": 1541,
+   "text": "Pedro de Valdivia officially founded Santiago del Nuevo Extremo on February 12.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1647,
+   "text": "A devastating earthquake struck Santiago, resulting in the death of over 600 people.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "environment"
+  },
+  {
+   "year": 1810,
+   "text": "The First Government Junta was proclaimed in Santiago, marking independence.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "civic"
+  },
+  {
+   "year": 1818,
+   "text": "The Spanish army progress was halted at the Battle of Maipú.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1851,
+   "text": "The first telegraph system connecting the capital to Valparaíso was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1857,
+   "text": "The Municipal Theater of Santiago was built by the French architect Brunet.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "The National Stadium emerged in Santiago following shifts in popular entertainment venues.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The new Pudahuel International Airport was opened to the public.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1974,
+   "text": "The Torre Entel television tower with observation deck was completed.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "The first phase of the Santiago Metro running beneath Alameda was opened.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1981,
+   "text": "A fire in the Torre Santa María killed 11 people in the city.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "Santiago officially became part of the Union of Ibero American Capital Cities.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "A powerful earthquake struck the city causing minimal casualties and damage.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "environment"
+  },
+  {
+   "year": 1994,
+   "text": "The International Theater Festival known as Santiago a Mil takes place every January.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The Library of Santiago at Barrio Matucana was opened to the public.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Santiago was home to a total of 992000 vehicles within the city.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "The master plan known as Transantiago was established for transportation.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The public transportation system combining core services with the subway was officially launched.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "The Monticello Grand Casino opened in Mostazal situated south of Santiago.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The Costanera Center was completed, including housing, shopping, and entertainment.",
+   "url": "https://en.wikipedia.org/wiki/Santiago",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

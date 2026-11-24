@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 11200,
+  "completionTokens": 7629,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1895,
+   "theme": "culture",
+   "event": "Babe Ruth was born in Baltimore, marking a baseball history milestone.",
+   "quote": "Baltimore has a long and storied baseball history, including its distinction as the birthplace of Babe Ruth in 1895.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1904,
+   "theme": "power_conflict",
+   "event": "The Great Baltimore Fire destroyed more than 1500 downtown buildings.",
+   "quote": "On February 7, 1904, the Great Baltimore Fire destroyed more than 1,500 buildings and left over 70 blocks of downtown Baltimore burned to the ground.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2018,
+   "theme": "commerce_industry",
+   "event": "Baltimore's unemployment rate was recorded at a specific percentage.",
+   "quote": "In March 2018, Baltimore's unemployment rate was 5.8%.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1993,
+   "theme": "civic",
+   "event": "Local annual homicides reached a peak total of 353 recorded throughout the city.",
+   "quote": "Homicides peaked at 353 in 1993 and reached 344 in 2015, when the city recorded its highest homicide rate because its population had declined.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1931,
+   "theme": "culture",
+   "event": "The national anthem was adopted, connecting closely to the city.",
+   "quote": "national anthem in 1931.",
+   "stage": "verification",
+   "why": "The source quote only says 'national anthem in 1931' and lacks details connecting it closely to the city."
+  },
+  {
+   "year": 2013,
+   "theme": "civic",
+   "event": "Same-sex marriage in Maryland was legalized and went into effect.",
+   "quote": "In 2012, same-sex marriage in Maryland was legalized, going into effect January 1, 2013.",
+   "stage": "verification",
+   "why": "The claim states it went into effect in 2013, but was legalized in 2012. The source says it was legalized in 2012 and went into effect in 2013."
+  },
+  {
+   "year": 2000,
+   "theme": "culture",
+   "event": "The Baltimore Ravens football franchise secured a Super Bowl championship victory.",
+   "quote": "Since then, the Ravens won a Super Bowl championship in 2000 and 2012, eight AFC North division championships (2003, 2006, 2011, 2012, 2018, 2019, 2023, and 2024), and appeared in five AFC Championship Games (2000, 2008, 2011, 2012 and 2023).",
+   "stage": "verification",
+   "why": "The source quote states the Ravens won a Super Bowl in 2000, but historically their first Super Bowl win was for the 2000 season (played in January 2001), which is a common chronological conflation in text sources, but strictly speaking the source lists it as 2000. Wait, looking closely at the source: 'won a Super Bowl championship in 2000 and 2012', so the text supports the claim directly."
+  },
+  {
+   "year": 2024,
+   "theme": "civic",
+   "event": "The Francis Scott Key Bridge collapsed after the Baltimore Beltway crossed south of the harbor.",
+   "quote": "Until its collapse in March 2024, the Baltimore Beltway crossed south of Baltimore Harbor over the Francis Scott Key Bridge.",
+   "stage": "verification",
+   "why": "The source quote states the bridge collapsed in March 2024, but the claim reverses the cause and effect, stating it collapsed after the Beltway crossed it."
+  }
+ ]
+}

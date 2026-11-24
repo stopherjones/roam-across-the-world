@@ -1,0 +1,130 @@
+{
+ "id": "suv",
+ "town": "Suva",
+ "source": "https://en.wikipedia.org/wiki/Suva",
+ "pool": [
+  {
+   "year": 1868,
+   "text": "Seru Epenisa Cakobau granted land to the Australian-based Polynesia Company in Suva.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1874,
+   "text": "Control of the Fiji Islands was ceded to the United Kingdom.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1875,
+   "text": "Pratt was appointed Surveyor-General and designed the new capital in Suva.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 1877,
+   "text": "Fiji's capital was moved to Suva from Levuka by the colonial authorities.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 1882,
+   "text": "The administration of the colony was transferred from Levuka to Suva.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 1882,
+   "text": "The original Government House on the site was built in Suva.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Government House in Suva was rebuilt.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "culture"
+  },
+  {
+   "year": 1935,
+   "text": "The creek was drained and foundations were created by driving concrete pilings.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "The foundation stone was laid for the building complex in Suva.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "The building complex in Suva was completed.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "Suva annexed the Muanikau and Samabula wards, expanding its territory.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "The Fiji Museum moved to its present location in Thurston Gardens.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "A new wing was completed at the building complex in Suva.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 1970,
+   "text": "Fijian independence took place, making Government House the residence of governors-general.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "The seat of the Parliament of Fiji was moved to a new complex.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "Suva hosted the South Pacific Games for the third time.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "A low-rise building was constructed in a joint venture by FNPF and Tappoo Group.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The military-backed interim Fijian government dismissed municipal government officials in Suva.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "Construction work began on a mini-mall complex at Grantham Road in Suva.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "The mini-mall complex at Grantham Road was scheduled to be completed.",
+   "url": "https://en.wikipedia.org/wiki/Suva",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

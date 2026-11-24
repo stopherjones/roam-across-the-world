@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 8896,
+  "completionTokens": 6418,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1912,
+   "theme": "food_daily",
+   "event": "A severe typhoid outbreak led to dozens of deaths from contaminated water.",
+   "quote": "In 1911, the municipality saw over 80 deaths related to a worse-than-average outbreak of typhoid, caused by sewage disposal affecting the city's drinking water intake from Nepean Bay.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  }
+ ]
+}

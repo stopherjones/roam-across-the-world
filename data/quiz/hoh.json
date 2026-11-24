@@ -1,0 +1,100 @@
+{
+ "id": "hoh",
+ "town": "Hook of Holland",
+ "source": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+ "pool": [
+  {
+   "year": 1421,
+   "text": "The area was devastated by Elizabeth's flood.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "environment"
+  },
+  {
+   "year": 1863,
+   "text": "Decision made to construct the New Waterway canal.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1893,
+   "text": "Railway line to Hook of Holland opened for service.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1893,
+   "text": "International ferry terminal began service to eastern England.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1914,
+   "text": "Hook of Holland was incorporated into the municipality of Rotterdam.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "Hook of Holland became northern terminus of the Rheingold Express.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1935,
+   "text": "The railway line to Hook of Holland was electrified.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "Around ten thousand Jewish children had reached Britain by war outbreak.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "The settlement obtained its own ward council.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Rheingold Express service resumed with Hook of Holland as terminus.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1973,
+   "text": "Hook of Holland attained borough status within Rotterdam.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The borough council was replaced by an area committee.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "Rail service to Rotterdam Centraal was closed in April.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "Line reopened as extension of Rotterdam Metro light rail.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Hook of Holland's estimated population reached ten thousand five hundred sixty residents.",
+   "url": "https://en.wikipedia.org/wiki/Hook_of_Holland",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

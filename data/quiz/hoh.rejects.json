@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 1761,
+  "completionTokens": 2475,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1938,
+   "theme": "culture",
+   "event": "First Kindertransport left Berlin for England via Hook of Holland.",
+   "quote": "The first transport, which started on December 1, 1938, at the Berlin Anhalter Bahnhof, reached England on December 2, 1938.",
+   "stage": "verification",
+   "why": "Quote describes the first transport from Berlin to England in 1938 but does not mention Hook of Holland."
+  }
+ ]
+}

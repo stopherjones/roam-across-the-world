@@ -1,0 +1,112 @@
+{
+ "id": "tws",
+ "town": "Tarawa",
+ "source": "https://en.wikipedia.org/wiki/Tarawa",
+ "pool": [
+  {
+   "year": 1788,
+   "text": "Thomas Gilbert arrived as the first European to describe Tarawa on the Charlotte vessel.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1841,
+   "text": "The island of Tarawa was successfully mapped by the United States Exploring Expedition.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1892,
+   "text": "Captain Edward Davis proclaimed Tarawa as a British Protectorate after HMS Royalist arrived.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1895,
+   "text": "Charles Richard Swayne decided to install the central headquarters of the protectorate in Tarawa.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "civic"
+  },
+  {
+   "year": 1911,
+   "text": "The Tarawa Post Office officially opened at the beginning of January.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "Sir Arthur Grimble became the Resident Commissioner of the colony in Tarawa.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "civic"
+  },
+  {
+   "year": 1943,
+   "text": "The bloody Battle of Tarawa began after the island was occupied by the Japanese.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Frank Filan won a Pulitzer Prize for his photograph depicting a destroyed bunker.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1950,
+   "text": "A Belgian comic titled Tarawa Atoll Sanglant was written by two creators.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "A British drama film named Pacific Destiny was made based on a book.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The embassy of China located in South Tarawa was closed.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Tarawa Atoll is featured as the penultimate battle of a video game.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Homer Hickam described the Battle of Tarawa in his historical novel.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Leon Cooper returned to the island to investigate reports of garbage on the beach.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "environment"
+  },
+  {
+   "year": 2014,
+   "text": "The Kiribati Government began a road restoration project funded by the World Bank.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "environment"
+  },
+  {
+   "year": 2020,
+   "text": "The embassy of China in South Tarawa was officially re-opened.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "The embassy of Japan was opened as a resident diplomatic mission in South Tarawa.",
+   "url": "https://en.wikipedia.org/wiki/Tarawa",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

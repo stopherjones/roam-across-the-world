@@ -1,0 +1,130 @@
+{
+ "id": "cwb",
+ "town": "Curitiba",
+ "source": "https://en.wikipedia.org/wiki/Curitiba",
+ "pool": [
+  {
+   "year": 1693,
+   "text": "Portuguese settlers founded a small village known initially as Vila da Nossa Senhora.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "civic"
+  },
+  {
+   "year": 1721,
+   "text": "The original name of the settlement was officially changed to Curitiba.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "civic"
+  },
+  {
+   "year": 1808,
+   "text": "Foreigners gained legal ownership rights to land, encouraging immigration.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "civic"
+  },
+  {
+   "year": 1812,
+   "text": "Curitiba officially became a town while spelling its name Curityba.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "civic"
+  },
+  {
+   "year": 1853,
+   "text": "Parana became an independent province and Curitiba was declared the capital.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "civic"
+  },
+  {
+   "year": 1885,
+   "text": "The Paranaguá to Curitiba railroad was officially opened for transportation.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1937,
+   "text": "German Jewish academics migrated to Brazil and some settled in Curitiba.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The urban design proposal known as the Curitiba Master Plan was adopted.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The Fundação Cultural de Curitiba was set up to promote culture.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "The world's second bus rapid transit system was opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "environment"
+  },
+  {
+   "year": 1980,
+   "text": "The Polish Pope John Paul II visited and blessed a traditional replica house.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Tourism generated US$280 million, representing four percent of net income.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "Curitiba became Brazil's first city to receive the Pole of Information Technology prize.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2003,
+   "text": "Curitiba received the American Capital of Culture title granted by the OAS.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The GDP reached 32 billion reals according to IPEA data.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "The city placed third in a list of green cities according to Grist magazine.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "Nominal GDP reached R$45.7 billion according to the IBGE.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "The Global Sustainable City Award was given for sustainable urban development.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "The Civic Center was listed as an urban and architectural ensemble.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Curitiba served as one of the host cities for the FIFA World Cup.",
+   "url": "https://en.wikipedia.org/wiki/Curitiba",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 2116,
+  "completionTokens": 1822,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1952,
+   "theme": "commerce_industry",
+   "event": "St. Louis Globe-Democrat functioned as a former daily newspaper.",
+   "quote": "St. Louis Globe-Democrat (1852-1986), former daily newspaper in St. Louis Worlds Fair",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1995,
+   "theme": "civic",
+   "event": "History of the St. Louis Rams spans this active timeframe until two thousand fifteen.",
+   "quote": "See History of the St. Louis Rams from 1995 to 2015",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2013,
+   "theme": "civic",
+   "event": "Louis Ambush established an indoor soccer team during this particular year.",
+   "quote": "Saint-Louis-du-Ha! Louis Ambush (2013), indoor soccer team",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

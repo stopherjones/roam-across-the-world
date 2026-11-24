@@ -1,0 +1,130 @@
+{
+ "id": "dnv",
+ "town": "Denver",
+ "source": "https://en.wikipedia.org/wiki/Denver",
+ "pool": [
+  {
+   "year": 1858,
+   "text": "General William Larimer and Captain Jonathan Cox placed cottonwood logs to stake a claim.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "civic"
+  },
+  {
+   "year": 1860,
+   "text": "The Denver City, Kansas Territory, post office opened for local residents.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "civic"
+  },
+  {
+   "year": 1861,
+   "text": "Six chiefs of the Southern Cheyenne and four of the Arapaho signed a treaty.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "civic"
+  },
+  {
+   "year": 1866,
+   "text": "Denver City shortened its name to Denver with its newfound importance.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "civic"
+  },
+  {
+   "year": 1870,
+   "text": "Citizens cheered as the Denver Pacific completed the link to the transcontinental railroad.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1887,
+   "text": "The precursor to the international charity United Way was formed in Denver.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Continental Airlines moved its headquarters to Stapleton Airport in Denver.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1948,
+   "text": "Denver established its relationship with Brest, France, creating the second-oldest sister city.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "The original Frontier Airlines began operations at Denver's old Stapleton International Airport.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1954,
+   "text": "Scott's Liquid Gold, Inc. has been making furniture polish in Denver.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "Village Inn restaurants began as a single pancake house in Denver.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1962,
+   "text": "Big O Tires of Centennial opened its first franchise in Denver.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1966,
+   "text": "Lowry Air Force Base ceased its flight operations before eventually closing down.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1969,
+   "text": "Rodolfo Corky Gonzales hosted the First National Chicano Youth Liberation Conference in March.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1971,
+   "text": "The Shane Company sold its first diamond jewelry in Denver.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1972,
+   "text": "Johns Manville Corp. relocated its headquarters to Denver from New York.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1973,
+   "text": "Re/Max made Denver its headquarters.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1980,
+   "text": "CH2M Hill relocated from Oregon to the Denver Technological Center.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1982,
+   "text": "Denver hosted the World Theatre Festival at the Denver Center for Performing Arts.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Voters approved FasTracks, a massive commuter rail, light rail, and bus expansion project.",
+   "url": "https://en.wikipedia.org/wiki/Denver",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

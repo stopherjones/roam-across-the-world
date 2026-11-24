@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5755,
+  "completionTokens": 3765,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1897,
+   "theme": "power_conflict",
+   "event": "Following the Siege of Tsingtao, Japan occupied the city and the surrounding province.",
+   "quote": "In 1914, following the outbreak of World War I, Japan occupied the city and the surrounding province during the Siege of Tsingtao.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  }
+ ]
+}

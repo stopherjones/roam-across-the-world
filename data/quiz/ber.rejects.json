@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 7,
+  "promptTokens": 9130,
+  "completionTokens": 8588,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1237,
+   "theme": "civic",
+   "event": "Founding date of Berlin recognized as 1237, marking the city's origin.",
+   "quote": "1237 is considered the founding date of the city.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2015,
+   "theme": "civic",
+   "event": "Record 175,651 students enrolled in the winter term 2015/16.",
+   "quote": "A record number of 175,651 students were enrolled in the winter term of 2015/16.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "food_daily",
+   "event": "Twenty‑three Berlin restaurants earned Michelin stars in the 2021 guide.",
+   "quote": "23 restaurants in Berlin have been awarded one or more Michelin stars in the Michelin Guide of 2021, which ranks the city at the top for the number of restaurants having this distinction in Germany.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1701,
+   "theme": "power_conflict",
+   "event": "Berlin became capital of the newly formed Kingdom of Prussia.",
+   "quote": "In 1701, the dual state formed the Kingdom of Prussia, as Frederick III, Elector of Brandenburg, crowned himself as king Frederick I in Prussia.",
+   "stage": "verification",
+   "why": "Quote describes formation of Kingdom of Prussia in 1701 but does not state Berlin became its capital."
+  },
+  {
+   "year": 1880,
+   "theme": "culture",
+   "event": "Same‑sex bars and dance halls operated freely in Berlin.",
+   "quote": "Same-sex bars and dance halls operated freely as early as the 1880s, and the first gay magazine, Der Eigene, started in 1896.",
+   "stage": "verification",
+   "why": "Quote says 'as early as the 1880s', not specifically 1880."
+  }
+ ]
+}

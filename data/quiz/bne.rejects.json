@@ -1,0 +1,46 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4437,
+  "completionTokens": 3806,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1828,
+   "theme": "civic",
+   "event": "The Commissariat Store on William Street was built by convict labour.",
+   "quote": "This historic synagogue can be attributed as the \"centerpiece of the Jewish community's presence in the  state\" It was established in 1866 and designed by architect Arthur Morry.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1930,
+   "theme": "civic",
+   "event": "Brisbane City Hall opened as a significant public building.",
+   "quote": "In 1925 the creation of the City of Brisbane formed Australia's largest municipal authority, followed in 1930 by the opening of Brisbane City Hall, one of the city's most significant public buildings, and later in 1940 with the opening of the Story Bridge.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "icon": "census",
+   "event": "The census recorded population density and housing distribution figures.",
+   "quote": "Greater Brisbane had a density of 159 inhabitants per square kilometre (410/sq mi) in 2021.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2032,
+   "theme": "culture",
+   "event": "Brisbane is scheduled to host the Summer Olympics and Paralympics.",
+   "quote": "Brisbane has hosted major events including the 1982 Commonwealth Games, World Expo 88 and the 2014 G20 summit, and will host the 2032 Summer Olympics and Paralympics.",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

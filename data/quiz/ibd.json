@@ -1,0 +1,88 @@
+{
+ "id": "ibd",
+ "town": "Ibadan",
+ "source": "https://en.wikipedia.org/wiki/Ibadan",
+ "pool": [
+  {
+   "year": 1829,
+   "text": "Ibadan came into existence during a period of turmoil that characterized Yorubaland at the time.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "civic"
+  },
+  {
+   "year": 1840,
+   "text": "The Sokoto Caliphate was decisively defeated by the armies of Ibadan, halting their progress.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1853,
+   "text": "David and Anna Hinderer arrived to build a mission and a church in Ibadan.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "culture"
+  },
+  {
+   "year": 1893,
+   "text": "The Ibadan area became a British Protectorate after a treaty signed by Fijabi.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1902,
+   "text": "The Ibadan recreational club was established in the Sabo area of the city.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "The Bower's Tower was built to the east on Oke Aàre.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "environment"
+  },
+  {
+   "year": 1939,
+   "text": "Ibadan was chosen as the headquarters of the Western Provinces.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "The city hosted the first TV station in Africa, Western Nigeria Television.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Ibadan was the largest and most populous city in Nigeria.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Shooting stars football club won Nigeria's first international trophy, the African Cup Winners' Cup.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Ibadan joined the UNESCO Global Network of Learning Cities.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "Ibadan was ranked one of the fastest-growing cities in sub-Saharan Africa.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "environment"
+  },
+  {
+   "year": 2024,
+   "text": "Ibadan was the site of a failed coup attempt by Yoruba separatists.",
+   "url": "https://en.wikipedia.org/wiki/Ibadan",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

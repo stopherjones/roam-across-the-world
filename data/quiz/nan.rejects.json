@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 6660,
+  "completionTokens": 4158,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1900,
+   "theme": "food_daily",
+   "event": "A popular fish accompaniment made with Muscadet was invented in Saint-Julien-de-Concelles.",
+   "quote": "Made with Muscadet, it was invented around 1900 in Saint-Julien-de-Concelles (on the south bank of the Loire) and has become a popular accompaniment for fish.",
+   "stage": "verification",
+   "why": "The source says it was invented 'around 1900', which is an approximation rather than the exact year 1900."
+  }
+ ]
+}

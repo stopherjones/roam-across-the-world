@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9677,
+  "completionTokens": 7516,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2026,
+   "theme": "civic",
+   "event": "It was announced that the unitary authority area would significantly expand.",
+   "quote": "In July 2026, as part of the nationwide Local Government Reorganisation programme, it was announced that the Plymouth unitary authority area would be significantly expanded to become Greater Plymouth, incorporating thirteen neighbouring parishes from South Hams, specifically Bickleigh, Brixton, Cornwood, Ermington, Harford, Holbeton, Ivybridge, Newton and Noss, Shaugh Prior, Sparkwell, Ugborough, Wembury and Yealmpton.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "Proposals included the demolition of the Plymouth Pavilions entertainment arena delivered.",
+   "quote": "Proposals included the demolition of the Plymouth Pavilions entertainment arena to create a canal boulevard linking Millbay to the city centre delivered in 2020.",
+   "stage": "verification",
+   "why": "The source quote mentions proposals delivered in 2020, but the claim incorrectly structures it as 'delivered' rather than the proposals being made/delivered in that year."
+  }
+ ]
+}

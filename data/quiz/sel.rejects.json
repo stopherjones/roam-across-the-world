@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5395,
+  "completionTokens": 4124,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1949,
+   "theme": "civic",
+   "event": "The Local Autonomy Act established the term special metropolitan city.",
+   "quote": "The Korean version of the Charter translated \"municipal corporation\" as \"special free city\" (특별자유시; 特別自由市), which later became special metropolitan city (or special metropolitan city; 특별시; 特別シ) in the Local Autonomy Act of 1949.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1392,
+   "theme": "power_conflict",
+   "event": "Yi Seong-gye changed the name of his Kingdom from Goryeo to Joseon.",
+   "quote": "After enthroning himself as King at the capital of old Goryeo in 1392, Yi Seong-gye changed the name of his Kingdom from Goryeo to Joseon in 1393 and began his search for a place for a new capital.",
+   "stage": "verification",
+   "why": "The source quote states the name change occurred in 1393, not 1392."
+  },
+  {
+   "year": 2008,
+   "theme": "culture",
+   "event": "Namdaemun suffered an arson attack before its later complete restoration and re-opening.",
+   "quote": "Namdaemun was the oldest wooden gate until a 2008 arson attack, and was re-opened after complete restoration in 2013.",
+   "stage": "verification",
+   "why": "The source quote mentions the 2008 arson attack, but the re-opening occurred in 2013."
+  }
+ ]
+}

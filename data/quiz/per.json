@@ -1,0 +1,130 @@
+{
+ "id": "per",
+ "town": "Perth",
+ "source": "https://en.wikipedia.org/wiki/Perth",
+ "pool": [
+  {
+   "year": 1619,
+   "text": "Dutch explorers sighted the Australian coast near present-day Perth, calling it Dedelsland.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "environment"
+  },
+  {
+   "year": 1697,
+   "text": "Dutch Captain Willem de Vlamingh conducted the first documented exploration of the Perth region.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "environment"
+  },
+  {
+   "year": 1829,
+   "text": "Captain James Stirling founded Perth as the administrative centre of the Swan River Colony.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 1850,
+   "text": "The colony accepted transported convicts to supply labour for public works and construction.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 1856,
+   "text": "Queen Victoria proclaimed Perth as a city after being named after Scotland.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 1897,
+   "text": "Third Swamp was officially gazetted as a public park covering fifteen hectares.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "environment"
+  },
+  {
+   "year": 1927,
+   "text": "Indigenous people were prohibited from entering large swathes of Perth under penalty of imprisonment.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "Two-thirds of Western Australians voted in a referendum to secede from Australia.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "Perth Festival started as Australia's longest running annual cultural festival held annually.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "Perth received global media attention when residents lit house lights for astronaut John Glenn.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "The Kewdale Freight Terminal was developed adjacent to the Welshpool industrial area.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1973,
+   "text": "Murdoch University was founded, incorporating Western Australia's only veterinary school.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "Australia II won the America's Cup and is housed in Perth.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "Perth became Australia's fourth-most populated city.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "The University of Notre Dame Australia was established.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Novelist Tim Winton published Cloudstreet, making Perth the setting for the work.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "The Perth Convention and Exhibition Centre was built as part of urban development.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The Kwinana Desalination Plant was opened to provide water resources.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "The Federal Court ruled that Noongar native title persisted over the Perth metropolitan area.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The Diwali celebration in Perth attracted over 20,000 visitors.",
+   "url": "https://en.wikipedia.org/wiki/Perth",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

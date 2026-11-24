@@ -1,0 +1,100 @@
+{
+ "id": "lpb",
+ "town": "La Paz",
+ "source": "https://en.wikipedia.org/wiki/La_Paz",
+ "pool": [
+  {
+   "year": 1548,
+   "text": "City founded by Captain Alonso de Mendoza as Nuestra Señora de La Paz.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "civic"
+  },
+  {
+   "year": 1549,
+   "text": "Juan Gutierrez Paniagua designed the urban plan with plazas and cathedral.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "civic"
+  },
+  {
+   "year": 1781,
+   "text": "Aymara leader Túpac Katari laid six‑month siege to La Paz.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1809,
+   "text": "Pedro Domingo Murillo sparked independence revolution on 16 July.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1810,
+   "text": "Pedro Domingo Murillo was executed at Plaza de los Españoles.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1825,
+   "text": "City renamed La Paz de Ayacucho after republican victory at Ayacucho.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "civic"
+  },
+  {
+   "year": 1835,
+   "text": "Metropolitan Cathedral constructed beside Presidential Palace on Murillo Square.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "culture"
+  },
+  {
+   "year": 1898,
+   "text": "La Paz became de facto seat of Bolivia's national government.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "civic"
+  },
+  {
+   "year": 1925,
+   "text": "Tin generated a third of national revenue and over half of customs.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1982,
+   "text": "Joined Union of Ibero‑American Capital Cities on 12 October.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Became member of Merco Ciudades, network of Mercosur cities.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Chacaltaya glacier near El Alto disappeared completely.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "environment"
+  },
+  {
+   "year": 2014,
+   "text": "Mi Teleférico aerial cable‑car system opened for urban transit.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "City's cultural practices entered UNESCO Intangible Cultural Heritage list.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "President Evo Morales suggested renaming city to Chuquiago Marka.",
+   "url": "https://en.wikipedia.org/wiki/La_Paz",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

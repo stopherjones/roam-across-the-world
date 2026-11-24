@@ -1,0 +1,130 @@
+{
+ "id": "khr",
+ "town": "Khartoum",
+ "source": "https://en.wikipedia.org/wiki/Khartoum",
+ "pool": [
+  {
+   "year": 1821,
+   "text": "Khartoum was founded north of Soba by Muhammad Ali Pasha, incorporating Sudan into his realm.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1823,
+   "text": "Egypt shifted the seat of the colonial government from Wad Madani to Khartoum.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1854,
+   "text": "Heavy rains and floods destroyed most of the city of Khartoum.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "environment"
+  },
+  {
+   "year": 1854,
+   "text": "European pressure forced Egypt to close the public slave market in Khartoum.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "civic"
+  },
+  {
+   "year": 1862,
+   "text": "Samuel Baker visited Khartoum and observed that slavery was the main industry.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1903,
+   "text": "The Gordon Memorial College, now the University of Khartoum, was officially opened.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "The population of Khartoum was estimated to have reached over fifty thousand people.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "Khartoum was officially designated as the capital of an independent Republic of Sudan.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "Rural to urban migration caused the population of Khartoum to balloon to one hundred eighty-five thousand.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "Members of Black September held ten hostages at the Saudi Arabian embassy in Khartoum.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1977,
+   "text": "The first oil pipeline connecting Khartoum and Port Sudan was successfully completed.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1978,
+   "text": "Khartoum hosted the Organization of African Unity summit where Sudan was awarded the presidency.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "Osama bin Laden purchased a residential house in the al-Riyadh neighborhood of Khartoum.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The death of John Garang triggered three days of violent riots across Khartoum.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "The African Union and Arab League summits were held consecutively in Khartoum.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Major construction projects including the El Mek Nimr Bridge and Tuti Bridge were finished.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "The Justice and Equality Movement engaged in armed combat against the Sudanese Armed Forces in Khartoum.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "Sudan opened the Hotel Section and food court of the new Corinthia Hotel Tower.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "An explosion at the Yarmouk munitions factory in Khartoum resulted in two deaths and one injury.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2019,
+   "text": "The Khartoum massacre occurred as security forces forcefully dispersed peaceful protests calling for civilian government.",
+   "url": "https://en.wikipedia.org/wiki/Khartoum",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

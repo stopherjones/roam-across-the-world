@@ -1,0 +1,130 @@
+{
+ "id": "cba",
+ "town": "Cordoba",
+ "source": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+ "pool": [
+  {
+   "year": 1026,
+   "text": "Hisham III begins rule as last Caliph of Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1453,
+   "text": "Birth of Gonzalo Fernández de Córdoba, Spanish military leader",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1515,
+   "text": "Death of Gonzalo Fernández de Córdoba, Spanish military leader",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1517,
+   "text": "Death of Francisco Hernández de Córdoba, Yucatán conquistador",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1526,
+   "text": "Death of Francisco Hernández de Córdoba, founder of Nicaragua",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1585,
+   "text": "Birth of Gonzalo Fernández de Córdoba, later Spanish military leader",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "Birth of Curaçaoan politician Jaime Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "Birth of Colombian senator Piedad Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "Birth of Argentine coach Carlos Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "Birth of Panamanian boxer Víctor Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Birth of Colombian goalkeeper Óscar Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Birth of Argentine actor Marcelo Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "Birth of Argentine midfielder Fernando Gastón Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Birth of Argentine footballer Iván Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "Birth of Colombian model and actress Ximena Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "Birth of Spanish kickboxer César Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "Birth of Panamanian boxer Ricardo Cordoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Birth of footballer Jaime Córdoba",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Cordoba Agreement signed between Spain, the UK and Gibraltar",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "MSC Cordoba container vessel registered in Liberia",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

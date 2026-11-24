@@ -1,0 +1,112 @@
+{
+ "id": "sth",
+ "town": "Stockholm",
+ "source": "https://en.wikipedia.org/wiki/Stockholm",
+ "pool": [
+  {
+   "year": 1252,
+   "text": "Stockholm was founded as a city by Swedish statesman Birger Jarl.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "civic"
+  },
+  {
+   "year": 1436,
+   "text": "Stockholm's oldest preserved charter, the Letter of Privilege from the Privy Council, was issued.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1520,
+   "text": "A massacre of opposition figures called the Stockholm Bloodbath took place in the city.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1634,
+   "text": "Stockholm became the official capital of the Swedish empire.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1697,
+   "text": "Tre Kronor Castle burned down and was eventually replaced by Stockholm Palace.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "culture"
+  },
+  {
+   "year": 1710,
+   "text": "A plague killed about 20,000 people which was 36 percent of the population.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1863,
+   "text": "The Stockholm Stock Exchange was founded as the largest stock exchange in the Nordic Countries.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1897,
+   "text": "The General Art and Industrial Exposition was held and drew international attention.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1950,
+   "text": "The Stockholm Metro opened and is well known for its station decor.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "The Stockholm International Film Festival became an annual film festival held each year.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "The Royal National City Park was founded as the world's first legally protected national urban park.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "environment"
+  },
+  {
+   "year": 1998,
+   "text": "Stockholm was named European Capital of Culture.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Stockholm put a congestion pricing system in use on a permanent basis.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The video game Minecraft was created in Stockholm by Markus Notch Persson.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The city was granted the European Green Capital Award by the EU Commission.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "environment"
+  },
+  {
+   "year": 2017,
+   "text": "Operations began for the City Line, which is an environmentally certified commuter train tunnel project.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Stockholm's population increased by 1,477 during the year.",
+   "url": "https://en.wikipedia.org/wiki/Stockholm",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

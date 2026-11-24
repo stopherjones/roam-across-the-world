@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3124,
+  "completionTokens": 2829,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2008,
+   "theme": "sport",
+   "event": "Monterrey held the FINA World Junior Championships.",
+   "quote": "In 2008, Monterrey held the FINA World Junior Championships.",
+   "stage": "code check",
+   "why": "unknown theme sport"
+  },
+  {
+   "year": 2026,
+   "theme": "civic",
+   "event": "The Monterrey metropolitan area population reached a recorded figure.",
+   "quote": "The city anchors the Monterrey metropolitan area, Mexico's second largest metropolitan area with a population of 5,347,000 as of 2026, according to the 2020 census, and Monterrey proper has a population of 1,142,194, making it Mexico’s eighth-largest city.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

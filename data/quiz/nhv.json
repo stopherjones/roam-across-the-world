@@ -1,0 +1,130 @@
+{
+ "id": "nhv",
+ "town": "Newhaven",
+ "source": "https://en.wikipedia.org/wiki/Newhaven",
+ "pool": [
+  {
+   "year": 1800,
+   "text": "Rescue lifeboat established after wreck of HMS Brazen.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "culture"
+  },
+  {
+   "year": 1803,
+   "text": "First Newhaven Lifeboat commissioned, among Britain’s oldest.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "culture"
+  },
+  {
+   "year": 1847,
+   "text": "Railway arrival increased Newhaven importance and enabled regular cross‑Channel ferries.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1848,
+   "text": "Exiled French King Louis Philippe I landed in Newhaven in disguise.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1882,
+   "text": "Harbour officially recognised as ‘The Port of Newhaven’.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1890,
+   "text": "The present western breakwater at Newhaven was constructed.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "environment"
+  },
+  {
+   "year": 1904,
+   "text": "Newhaven Marconi Radio Station was established.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "culture"
+  },
+  {
+   "year": 1912,
+   "text": "Marconi station achieved regular ship‑to‑shore radio communications.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "HMS Aggressive Royal Navy shore establishment operated in Newhaven.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Ill‑fated Dieppe Raid was largely launched from Newhaven harbour.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1974,
+   "text": "Newhaven Town Council was formed.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "Lord Lucan’s abandoned car was found on Norman Road, Newhaven.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "Liberal Democrat Norman Baker elected MP for Newhaven.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Surveys exposed slipway and concrete aprons at former seaplane hangars.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Sussex Archaeological Society began dig to catalogue East Beach site.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "New waste incinerator completed near Denton Island despite resident opposition.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "environment"
+  },
+  {
+   "year": 2014,
+   "text": "Local MP Norman Baker visited to recognise Marconi company's contribution.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "High Cliff Academy opened in a brand‑new Southdown Road building.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Local elections returned five Liberal Democrat councillors.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "Liberal Democrat James MacCleary became Newhaven MP.",
+   "url": "https://en.wikipedia.org/wiki/Newhaven",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

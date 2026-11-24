@@ -1,0 +1,130 @@
+{
+ "id": "mde",
+ "town": "Medellin",
+ "source": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+ "pool": [
+  {
+   "year": 1616,
+   "text": "Francisco de Herrera Campuzano erected a small indigenous village known as Saint Lawrence of Aburrá.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "civic"
+  },
+  {
+   "year": 1675,
+   "text": "Queen consort Mariana of Austria founded the Town of Our Lady of Candelaria of Medellín.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "civic"
+  },
+  {
+   "year": 1678,
+   "text": "King Charles II of Spain issued a royal decree granting the Medellín coat of arms.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1826,
+   "text": "The National Congress named the city the capital of the Department of Antioquia.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1879,
+   "text": "Enrique Haeusler designed the Guayaquil Bridge in the city.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1889,
+   "text": "Carré came to town and was hired to design and build several new buildings.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "Cine Colombia, the first movie distributor of the country, was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "Museum El Castillo was built in medieval Gothic architectural style.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1931,
+   "text": "The Metropolitan Cathedral was completed in the city.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1932,
+   "text": "Medellín built its first airport named the Enrique Olaya Herrera Airport.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1935,
+   "text": "The bard Carlos Gardel died in the city in a plane crash.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1935,
+   "text": "Atlético Nacional professional football club was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "University Museum, University of Antioquia, was created inside University City.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "A tradition has continued in the Silleta Parade during the annual Festival of the Flowers.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Second Conference of CELAM was held expressing a preferential option for the poor.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "Museum El Castillo opened its doors to the general public.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Leonardo Nieto Jarbon founded a traditional house venue in Manrique.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "House Museum Master Pedro Nel Gómez officially opened as a museum.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "President Álvaro Uribe ordered the military to carry out Operation Orion.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2012,
+   "text": "Medellín won the Sustainable Transport Award alongside San Francisco.",
+   "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

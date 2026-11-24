@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2694,
+  "completionTokens": 2651,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1967,
+   "theme": "commerce_industry",
+   "event": "The Mexican government allocated a special fund to determine new recreational zones feasibility.",
+   "quote": "In 1967, the Mexican government allocated a smaller 2 million-dollar fund to be administered by the Bank of Mexico to determine the feasibility of creating new recreational zones, \"preferably where no other viable development alternatives exist.\"",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2015,
+   "theme": "environment",
+   "event": "Tourism was significantly impacted by the appearance of large amounts of brown Sargassum seaweed.",
+   "quote": "Starting in 2015, Cancún tourism was significantly impacted by the appearance of large amounts of smelly, unsightly brown Sargassum seaweed on its white sand beaches every summer.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2016,
+   "theme": "power_conflict",
+   "event": "There were thirty one murders recorded in the city related to drug trafficking.",
+   "quote": "Between 2013 and 2016, there were 76 murders: 31 in 2016, and at least 193 in 2017, the vast majority related to drug trafficking.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

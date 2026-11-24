@@ -1,0 +1,88 @@
+{
+ "id": "san",
+ "town": "Santander",
+ "source": "https://en.wikipedia.org/wiki/Santander",
+ "pool": [
+  {
+   "year": 1792,
+   "text": "Birth of Francisco de Paula Santander, Colombian military leader",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1840,
+   "text": "Death of Francisco de Paula Santander, influential Colombian politician",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "Battle of Santander during the Spanish Civil War in northern Spain",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "Major fire devastated the city of Santander in Cantabria, Spain",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "civic"
+  },
+  {
+   "year": 1943,
+   "text": "SS Santander operated as a Hansa A Type cargo ship during World War II",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1960,
+   "text": "Kike Santander born, later Colombian composer and record producer",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Luis José Santander born, later Venezuelan actor",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "Luis Enrique Santander born, later Mexican football referee",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Federico Santander born, later Paraguayan footballer",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Anthony Santander born, later Venezuelan professional baseball outfielder",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Carlos Santander born, later Venezuelan competitive swimmer",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "John Santander born, later Chilean footballer",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "culture"
+  },
+  {
+   "year": 2026,
+   "text": "Efraín Santander died, noted Chilean footballer",
+   "url": "https://en.wikipedia.org/wiki/Santander",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

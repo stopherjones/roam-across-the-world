@@ -1,0 +1,130 @@
+{
+ "id": "pos",
+ "town": "Port of Spain",
+ "source": "https://en.wikipedia.org/wiki/Port_of_Spain",
+ "pool": [
+  {
+   "year": 1560,
+   "text": "A Spanish garrison was posted near the foot of the Laventille Hills.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1595,
+   "text": "The Spanish garrison was captured during Walter Raleigh's expedition in April.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1680,
+   "text": "French naval commander Comte d'Estrées visited and reported no Port of Spain.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "culture"
+  },
+  {
+   "year": 1690,
+   "text": "Spanish governor Don Sebastien de Roteta reported in writing to the King.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "civic"
+  },
+  {
+   "year": 1699,
+   "text": "The alcalde of Trinidad reported native abuse of the Holy Faith.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "culture"
+  },
+  {
+   "year": 1783,
+   "text": "The Cedula of Population encouraged settlement of French Catholics in the island.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "civic"
+  },
+  {
+   "year": 1787,
+   "text": "Ann's River course was diverted to run east of the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "environment"
+  },
+  {
+   "year": 1787,
+   "text": "An offshore fort was completed to serve as the defence.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1935,
+   "text": "The Deep Water Harbour Scheme dredged the offshore western neighbourhoods area.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1941,
+   "text": "A five-route trolleybus system started serving the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1947,
+   "text": "Local dance legend Beryl McBurnie established one of the oldest theatres.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "Queen's Hall was built through efforts of the music community.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "Marine Square was officially renamed to Independence Square.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "Mille Fleurs was sold to the Government to serve as headquarters.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "An extremist group held the prime minister and parliament hostage.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "A series of bombings caused injuries to civilian bystanders.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "A water taxi service linking the city with San Fernando restarted.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Trinidad and Tobago hosted the Fifth Summit of the Americas.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The performance centre was completed and hosted Queen Elizabeth II.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Wrightson Road natural gas-fired generation plant closed down permanently.",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

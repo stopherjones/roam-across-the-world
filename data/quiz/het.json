@@ -1,0 +1,130 @@
+{
+ "id": "het",
+ "town": "Hohhot",
+ "source": "https://en.wikipedia.org/wiki/Hohhot",
+ "pool": [
+  {
+   "year": 1557,
+   "text": "Altan Khan began building the Da Zhao Temple on the Tümed plain.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "culture"
+  },
+  {
+   "year": 1575,
+   "text": "The Ming changed Kokegota's name to Guihua representing naturalization.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1631,
+   "text": "Ligdan Khan completely razed the city of Guihua during attacks.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1693,
+   "text": "Hui merchants gathered north of the fortress gate building a mosque.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1735,
+   "text": "The Qing supervised southwestern Inner Mongolia defense from garrison town Suiyuan.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1874,
+   "text": "French missionaries established a Catholic church in the city of Guihua.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "culture"
+  },
+  {
+   "year": 1917,
+   "text": "A bubonic plague outbreak occurred affecting the town of Guisui.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "environment"
+  },
+  {
+   "year": 1921,
+   "text": "The transportation line began operation in the area.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1952,
+   "text": "Guisui was chosen as the regional administrative centre replacing Zhangjiakou.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "The city was renamed from Guisui to Hohhot officially.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "An expressway linked Hohhot with Baotou known as Hubao Expressway.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The city's far east side began development into government buildings.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Hohhot was declared Dairy Capital of China by associations.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "Hohhot was connected to northern counties by the Huwu Highway.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The Hohhot City Stadium on the north side was finished.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Construction of a high-speed railway station began following plans.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The high-speed railway station was completed and serviced ordinary lines.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Hohhot achieved a GDP of RMB 247.56 billion.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "CRH opened its first D-series route in Inner Mongolia corridor.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "The section between Hohhot and Ulanqab opened for travel.",
+   "url": "https://en.wikipedia.org/wiki/Hohhot",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

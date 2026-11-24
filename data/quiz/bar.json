@@ -1,0 +1,112 @@
+{
+ "id": "bar",
+ "town": "Bari",
+ "source": "https://en.wikipedia.org/wiki/Bari",
+ "pool": [
+  {
+   "year": 1025,
+   "text": "Under Archbishop Byzantius, Bari attached to the see of Rome and received provincial status.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1071,
+   "text": "Robert Guiscard captured Bari after a three-year siege, ending Byzantine power.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1087,
+   "text": "Relics of Saint Nicholas arrived in Bari and were installed inside the basilica.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "culture"
+  },
+  {
+   "year": 1095,
+   "text": "Peter the Hermit preached the First Crusade within the city of Bari.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "culture"
+  },
+  {
+   "year": 1098,
+   "text": "Urban II convened the Council of Bari to reconcile Eastern and Western churches.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1136,
+   "text": "Holy Roman Emperor Lothair captured the city of Bari successfully.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1155,
+   "text": "A Byzantine army seized control of Bari away from William I of Sicily.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1349,
+   "text": "A combined German and Hungarian army besieged and captured Bari during conflict.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1556,
+   "text": "Princess Bona Sforza of Aragon left Poland and settled in Bari.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1557,
+   "text": "Princess Bona Sforza passed away within the city of Bari.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1813,
+   "text": "Joachim Murat began a new urbanization process, setting a chessboard growth model.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "civic"
+  },
+  {
+   "year": 1915,
+   "text": "Modern plumbing arrived as the first completed leg of the Apulian Aqueduct.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "environment"
+  },
+  {
+   "year": 1943,
+   "text": "The British 1st Airborne Division took Bari without facing any resistance.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "German Luftwaffe bombers attacked Allied forces and shipping in the port.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The Liberty ship Charles Henderson exploded in the harbour while offloading aerial bombs.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "The city of Bari was divided into five distinct municipalities called Municipi.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Immigrants accounted for a total of 6.0 percent of the population.",
+   "url": "https://en.wikipedia.org/wiki/Bari",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 9061,
+  "completionTokens": 4729,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1912,
+   "theme": "culture",
+   "event": "Thomas Mann published his famous novel Death in Venice.",
+   "quote": "Shakespeare set Othello and The Merchant of Venice in the city, as did Thomas Mann his novel, Death in Venice (1912).",
+   "stage": "verification",
+   "why": "Source quote mentions Death in Venice (1912), but does not explicitly state that Thomas Mann published it in that year."
+  },
+  {
+   "year": 2026,
+   "theme": "civic",
+   "event": "The reservation system was expanded to 60 days to manage arrival caps.",
+   "quote": "For the 2026 season, the system was further expanded to 60 days.",
+   "stage": "verification",
+   "why": "The source quote mentions the 2026 season and system expansion, but does not mention arrival caps."
+  },
+  {
+   "year": 1979,
+   "theme": "civic",
+   "event": "Lubeck in Germany formed a cooperation agreement with Venice.",
+   "quote": "Lübeck,  Germany (1979)",
+   "stage": "verification",
+   "why": "The source quote only lists a city name and year, without mentioning a cooperation agreement."
+  },
+  {
+   "year": 1999,
+   "theme": "civic",
+   "event": "Nuremberg in Germany formed a cooperation agreement with Venice.",
+   "quote": "Nuremberg,  Germany (1999)",
+   "stage": "verification",
+   "why": "The source quote only mentions the year and city name, but does not provide details about a cooperation agreement."
+  },
+  {
+   "year": 2003,
+   "theme": "civic",
+   "event": "Thessaloniki in Greece formed a cooperation agreement with the city.",
+   "quote": "Thessaloniki,  Greece (2003)",
+   "stage": "verification",
+   "why": "The source quote only lists the city and year, lacking details about a cooperation agreement."
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "Miami in the United States formed a cooperation agreement with Venice.",
+   "quote": "Miami,  United States (2020)",
+   "stage": "verification",
+   "why": "The source quote only provides the location and year, without mentioning a cooperation agreement."
+  }
+ ]
+}

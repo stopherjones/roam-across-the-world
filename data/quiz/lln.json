@@ -1,0 +1,106 @@
+{
+ "id": "lln",
+ "town": "Lilongwe",
+ "source": "https://en.wikipedia.org/wiki/Lilongwe",
+ "pool": [
+  {
+   "year": 1902,
+   "text": "Local leader Njewa established Lilongwe as a boma around this specific time.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 1904,
+   "text": "Lilongwe officially became designated as an administrative centre.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "Lilongwe received official recognition as a town trading post.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1955,
+   "text": "The first formal urban plan for Lilongwe was published.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "Malawi president Hastings Kamuzu Banda selected Lilongwe as an economic growth point.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "Consultants completed the comprehensive Lilongwe Master Plan.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "The Lilongwe Outline Zoning Plan was established as the first plan.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 1975,
+   "text": "Lilongwe officially became the capital of Malawi, replacing Zomba.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1978,
+   "text": "The Lilongwe Urban Structure Plan was produced as a result.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "Lilongwe established a twinning agreement with Taipei in Taiwan.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "The initial stage of urban development for the city was completed.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Lilongwe formed a twinning connection with Lusaka situated in Zambia.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The final government offices were successfully relocated to Lilongwe.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Area 58 was incorporated into the jurisdiction of the city.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The Minister of Lands approved the report on the urban development master plan.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The project for urban plan and development management began implementation with JICA support.",
+   "url": "https://en.wikipedia.org/wiki/Lilongwe",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

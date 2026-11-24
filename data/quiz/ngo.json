@@ -1,0 +1,130 @@
+{
+ "id": "ngo",
+ "town": "Nagoya",
+ "source": "https://en.wikipedia.org/wiki/Nagoya",
+ "pool": [
+  {
+   "year": 1560,
+   "text": "The Battle of Okehazama took place in Dengakuhazama, Owari Province.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1610,
+   "text": "Tokugawa Ieyasu moved the capital of Owari Province from Kiyosu to Nagoya.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1612,
+   "text": "Nagoya Castle was built.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "culture"
+  },
+  {
+   "year": 1889,
+   "text": "Nagoya was proclaimed a city.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "civic"
+  },
+  {
+   "year": 1912,
+   "text": "The musician Gorō Morita invented the Nagoya harp music instrument.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "culture"
+  },
+  {
+   "year": 1920,
+   "text": "Mitsubishi Aircraft Company was established in Nagoya.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1942,
+   "text": "Air raids began with an attack on a Mitsubishi Heavy Industries aircraft works.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Nagoya Castle was hit and mostly destroyed.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The Enola Gay dropped a conventional pumpkin bomb in the Yagoto area.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1954,
+   "text": "The world premiere of the first Godzilla movie was in Nagoya.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "The city was flooded and severely damaged by the Ise-wan Typhoon.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "environment"
+  },
+  {
+   "year": 1959,
+   "text": "Reconstruction of the main building of Nagoya Castle was completed.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Oriental Nakamura was bought by Mitsukoshi from Tokyo.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "Nagoya hosted the World Design Expo.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "The large, modern Aichi Arts Center was opened in Sakae.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Nagoya Airport's commercial international flights moved to Centrair Airport.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Nagoya hosted the Nagoya Protocol conference.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The sister city relationship with Nanjing, China was suspended.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The MRJ's first flight took place.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "Grant County International Airport became a sister airport.",
+   "url": "https://en.wikipedia.org/wiki/Nagoya",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

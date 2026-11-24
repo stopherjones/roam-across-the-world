@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3486,
+  "completionTokens": 3347,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1894,
+   "theme": "environment",
+   "event": "The Great Freeze of 1894 to 1895 hastened Miami growth.",
+   "quote": "The Great Freeze of 1894–1895 hastened Miami's growth, as the crops there were the only ones in Florida that survived.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1926,
+   "theme": "environment",
+   "event": "The 1926 Miami hurricane slowed down the city development.",
+   "quote": "The collapse of the 1920s Florida land boom, the 1926 Miami hurricane, and the Great Depression in the 1930s slowed development.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "id": "tbu",
+ "town": "Nukualofa",
+ "source": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+ "pool": [
+  {
+   "year": 1777,
+   "text": "British captain James Cook wrote of his arrival at their anchorage place.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "culture"
+  },
+  {
+   "year": 1797,
+   "text": "George Vason was an English missionary who arrived in Tonga.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "culture"
+  },
+  {
+   "year": 1810,
+   "text": "The first written record for Nukuʻalofa is stated in the first dedicated book.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "culture"
+  },
+  {
+   "year": 1817,
+   "text": "The second-oldest book dedicated to Tonga was published by William Mariner.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "culture"
+  },
+  {
+   "year": 1826,
+   "text": "Two Tahitian London Missionaries were detained by Tupou, the chief of Nukuʻalofa.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1827,
+   "text": "The arrival of the Methodist missionaries reinforced the Christian faith.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "culture"
+  },
+  {
+   "year": 1840,
+   "text": "The US Exploring Expedition met with King Josiah in Nukuʻalofa.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "civic"
+  },
+  {
+   "year": 1842,
+   "text": "Father Chevron arrived in Nukuʻalofa and met the Tuʻi Kanokupolu.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "culture"
+  },
+  {
+   "year": 1845,
+   "text": "Taufaʻahau moved his capital to Kolofoʻou after ruling from Pangai.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1852,
+   "text": "Takai's fortress of Pea burned down under the command of Moeakiola.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1875,
+   "text": "King George Taufaʻahau Tupou I issued the Constitution of Tonga.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "A lack of progress towards democracy led to riots destroying the district.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "Reconstruction of the central business district started, funded by China.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "The Tongan Parliament House was destroyed by Cyclone Gita.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "environment"
+  },
+  {
+   "year": 2022,
+   "text": "The capital city was struck by a tsunami from an eruption.",
+   "url": "https://en.wikipedia.org/wiki/Nuku%CA%BBalofa",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

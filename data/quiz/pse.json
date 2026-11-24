@@ -1,0 +1,130 @@
+{
+ "id": "pse",
+ "town": "Port Said",
+ "source": "https://en.wikipedia.org/wiki/Port_Said",
+ "pool": [
+  {
+   "year": 1859,
+   "text": "Port Said was established during the building of the Suez Canal.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "civic"
+  },
+  {
+   "year": 1869,
+   "text": "The permanent population of Port Said had reached 10,000.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "civic"
+  },
+  {
+   "year": 1882,
+   "text": "The British entered Port Said and started their occupation of Egypt.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1902,
+   "text": "Egyptian cotton from Mataria started to be exported via Port Said.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1904,
+   "text": "A standard gauge railway opened to Cairo from Port Said.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "civic"
+  },
+  {
+   "year": 1907,
+   "text": "The quickly growing city of Port Said had about 50,000 inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "The new city of Port Said was founded in December.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "A treaty was signed between the United Kingdom and Egypt.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1951,
+   "text": "Skirmishes occurred with British troops guarding the Suez Canal.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1956,
+   "text": "British troops violently landed in Port Said while firing.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1956,
+   "text": "The withdrawal of the last foreign troops happened in Port Said.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1964,
+   "text": "Port Said Military Museum was inaugurated to narrate Egyptian resistance.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Port Said was declared a duty-free port attracting people.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "The Misr Public Library in Port Said was founded.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "The port of Port Said transported millions of TEU containers.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The airport in Port Said was reopened after being modernised.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The city witnessed the construction of the New Suez Canal.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "Museum of the Authority of the Suez Canal was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Port Said Opera House was inaugurated for performances.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "East Port Said National University and Al Salam Technological University established.",
+   "url": "https://en.wikipedia.org/wiki/Port_Said",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

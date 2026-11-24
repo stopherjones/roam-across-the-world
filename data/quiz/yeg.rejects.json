@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 9049,
+  "completionTokens": 6287,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1892,
+   "theme": "civic",
+   "event": "The full-time professional Edmonton Fire Rescue department was established to provide various services.",
+   "quote": "Edmonton Fire Rescue, established in 1892, is a full-time professional firefighting department which provides a variety of services in Edmonton and the surrounding region.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2011,
+   "theme": "civic",
+   "event": "The city set an annual record for the most homicides with fifty-three murders recorded.",
+   "quote": "In 2011, the city set a record for the most homicides in a year with 53 murders, giving the city a homicide rate of 6.5 per 100,000 people.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "The southeast leg of the Valley Line opened after experiencing significant delays.",
+   "quote": "The southeast leg of the Valley Line, which starts in Mill Woods and ends in the downtown core, opened on November 4, 2023, after experiencing significant delays.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

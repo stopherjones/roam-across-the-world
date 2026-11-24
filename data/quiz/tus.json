@@ -1,0 +1,130 @@
+{
+ "id": "tus",
+ "town": "Tucson",
+ "source": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+ "pool": [
+  {
+   "year": 1700,
+   "text": "Mission San Xavier del Bac was founded by Italian Jesuit missionary Eusebio Francisco Kino.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "culture"
+  },
+  {
+   "year": 1775,
+   "text": "Hugo O'Conor authorized the construction of Presidio San Agustín del Tucsón as a fort.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "Tucson was included in Sonora after Mexico gained independence from the Spanish Empire.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1853,
+   "text": "The United States acquired southern Arizona and southwestern New Mexico under the Gadsden Purchase.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1859,
+   "text": "Weekly Arizonian, the state's first newspaper, was founded in this year.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "culture"
+  },
+  {
+   "year": 1867,
+   "text": "Tucson served as the capital of the Arizona Territory until a later year.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The Tucson Symphony Orchestra was founded to provide musical organizations for the city.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Centennial Hall opened as the campus auditorium of the University of Arizona.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "Tucson High School achieved the largest secondary school enrollment in the United States.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "The Sundt operating station has been online generating air pollution since this year.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "environment"
+  },
+  {
+   "year": 1963,
+   "text": "El Tucsonense, a Spanish language paper, became defunct in this year.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "Tucson and Pima County adopted dark sky ordinances to control light pollution.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "environment"
+  },
+  {
+   "year": 1983,
+   "text": "The El Tour de Tucson cycling race took place for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "The local transit system was awarded Best Transit System during this year.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "The first All Souls Procession was organized by local artist Susan Kay Johnson.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "Tucson was dubbed Optics Valley when a cover story was published.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "Tucson Water delivered unacceptable CAP water to some customers due to quality issues.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2001,
+   "text": "CAP water enabled the city to remove or turn off numerous wells.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "environment"
+  },
+  {
+   "year": 2003,
+   "text": "Tucson became the first city in the state to pass a domestic partnership registry.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "A contract was awarded to SunEdison to construct a large PV field.",
+   "url": "https://en.wikipedia.org/wiki/Tucson%2C_Arizona",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

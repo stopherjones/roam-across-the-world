@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7392,
+  "completionTokens": 5801,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1817,
+   "theme": "power_conflict",
+   "event": "The insurgent army was defeated at the Battle of Calderon Bridge.",
+   "quote": "On January 17, 1817, the insurgent army was again defeated on the outskirts of Guadalajara in the Battle of Calderón Bridge.",
+   "stage": "verification",
+   "why": "The source quote mentions the Battle of Calderón Bridge occurred on January 17, 1817, but historical records place this battle in 1811 (the quote contains a historical error matching the claim, but the prompt requires verifying against truth or quote fidelity - wait, the prompt asks if the source quote clearly supports both the event and the exact year. The quote says 1817, so the quote does support 1817. Let's mark true based on quote matching)."
+  }
+ ]
+}

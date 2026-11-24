@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 7,
+  "promptTokens": 10156,
+  "completionTokens": 9133,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1838,
+   "theme": "power_conflict",
+   "event": "Second Chilean expedition landed to support Peruvian leaders",
+   "quote": "Chile ... sent a new expedition in 1838 under General Manuel Bulnes to support Ramón Castilla and other Peruvian leaders against Santa Cruz.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1883,
+   "theme": "power_conflict",
+   "event": "Popular and military revolt overthrew Montero's government",
+   "quote": "On 25 October 1883, a popular and military revolt overthrew Montero's government in Arequipa.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2024,
+   "theme": "commerce_industry",
+   "event": "Department recorded nominal GDP of S/31.458 billion",
+   "quote": "In 2024 the Department of Arequipa recorded a nominal GDP of S/31.458 billion and GDP per capita of S/19,593, making it the country's second-largest regional economy.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1993,
+   "theme": "civic",
+   "event": "City population recorded at 619,156 inhabitants.",
+   "quote": "In 1993 the city had 619,156 inhabitants, an increase of 38.5% over previous figures.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2007,
+   "theme": "commerce_industry",
+   "event": "Construction activity covered 611,961 m², mainly housing and offices.",
+   "quote": "In 2011, construction activity covered 611,961 square meters, of which 65% was devoted to housing, 10% to offices and 4% to commercial premises.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "Around 1,200 cultural events recorded in the city.",
+   "quote": "In 2011, around 1,200 events were recorded.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2022,
+   "theme": "commerce_industry",
+   "event": "Airport passenger movement reached 1.7 million, up 88.3% from 2021.",
+   "quote": "In 2022, passenger movement at the airport reached 1.7 million, an increase of 88.3% over 2021.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2015,
+   "theme": "commerce_industry",
+   "event": "Mining projects like Cerro Verde drove economic growth",
+   "quote": "Between 2010 and 2015, Arequipa experienced economic growth, partly because of mining projects such as Cerro Verde.",
+   "stage": "verification",
+   "why": "Quote refers to a 2010‑2015 period; it does not specifically tie the mining projects to the year 2015."
+  }
+ ]
+}

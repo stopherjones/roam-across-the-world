@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5025,
+  "completionTokens": 2848,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1903,
+   "theme": "power_conflict",
+   "event": "Niamey replaced Zinder as the capital of Niger.",
+   "quote": "Niamey replaced Zinder as the capital of Niger in 1903, after a Tuareg revolt had weakened the eastern part of the territory.",
+   "stage": "verification",
+   "why": "The claim states the year is 1903, but historically Niamey became the capital in 1926 (as supported by candidate 2); the text in candidate 1 incorrectly pairs 1903 with this event."
+  }
+ ]
+}

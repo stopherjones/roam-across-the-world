@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3867,
+  "completionTokens": 3764,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2026,
+   "theme": "civic",
+   "event": "The population of Tomsk was recorded at 543,742.",
+   "quote": "Population: 543,742 (2026); 556,478 (2021 census); 524,669 (2010 census); 487,838 (2002 census); 501,963 (1989 Soviet census).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1884,
+   "theme": "culture",
+   "event": "The Korolevsky Theater was built in the city of Tomsk.",
+   "quote": "The Korolevsky Theater (built in 1884–85) was being used by a group of communist revolutionaries when the theater was attacked and set on fire by members of the Black Hundred, a hard-line nationalist organization.",
+   "stage": "verification",
+   "why": "The source states the theater was built in 1884-85, making the exact year 1884 partially imprecise as a range."
+  },
+  {
+   "year": 1880,
+   "theme": "culture",
+   "event": "Tomsk State University was founded as an educational center.",
+   "quote": "However, within a few years, the city reinvented itself as the educational center of Siberia with the establishment of Tomsk State University, founded in 1880, and Tomsk Polytechnic University, founded in 1896.",
+   "stage": "verification",
+   "why": "The source states Tomsk State University was founded in 1878 (though standard history says 1878, the quote actually says founded in 1880, wait, let me re-read the quote: 'founded in 1880'. The quote does say 1880, so it is supported by the quote text provided)."
+  }
+ ]
+}

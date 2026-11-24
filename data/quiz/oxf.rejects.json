@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 8566,
+  "completionTokens": 7078,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1997,
+   "theme": "culture",
+   "event": "Oxford played host to Radio 1's Sound City with multiple musical acts performing at various venues.",
+   "quote": "In 1997, Oxford played host to Radio 1's Sound City, with acts such as Travis, Bentley Rhythm Ace, Embrace, Spiritualized and DJ Shadow playing in various venues around the city including Oxford Brookes University.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2007,
+   "theme": "culture",
+   "event": "The Cheetahs competed in the Elite League and then the Conference League",
+   "quote": "The Cheetahs competed in the Elite League and then the Conference League until 2007.",
+   "stage": "verification",
+   "why": "The source states they competed in those leagues *until* 2007, not specifically in 2007."
+  }
+ ]
+}

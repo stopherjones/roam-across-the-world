@@ -1,0 +1,130 @@
+{
+ "id": "dub",
+ "town": "Dublin",
+ "source": "https://en.wikipedia.org/wiki/Dublin",
+ "pool": [
+  {
+   "year": 1169,
+   "text": "Norman invasion of Ireland launched from Wales",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1171,
+   "text": "Henry II affirmed sovereignty, proclaimed himself Lord of Ireland",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1204,
+   "text": "Dublin Castle founded as defensive work on orders of King John",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1348,
+   "text": "Black Death struck Dublin, killing thousands over the next decade",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "environment"
+  },
+  {
+   "year": 1592,
+   "text": "Queen Elizabeth I established Protestant Trinity College",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 1655,
+   "text": "Local dignitaries ordered to oversee a lecture in Irish in Dublin.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "The Gate founded to promote European and American avant‑garde works",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "The Dublin Marathon began to be held each October.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "RDS hosted the Show Jumping World Championships during the Dublin Horse Show.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "The Women's Mini Marathon started running each first Monday in June.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "Approximately 150 acres of derelict land earmarked for development",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "International Financial Services Centre established, boosting financial services",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1988,
+   "text": "City celebrated its official millennium marking settlement in 988",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Dublin Institute of Design founded",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Aviva Stadium hosted the Heineken Cup final for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "Dublin Institute of Technology began a bachelor's degree in culinary skills.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "College Park hosted Ireland's first women's Test cricket match against Pakistan.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Kevin Thornton received two Michelin stars for his restaurant.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2003,
+   "text": "Stainless‑steel conical spire completed on O'Connell Street",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "environment"
+  },
+  {
+   "year": 2003,
+   "text": "Morton Stadium held athletics events for the Special Olympics.",
+   "url": "https://en.wikipedia.org/wiki/Dublin",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

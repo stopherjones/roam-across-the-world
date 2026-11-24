@@ -1,0 +1,130 @@
+{
+ "id": "nic",
+ "town": "Nice",
+ "source": "https://en.wikipedia.org/wiki/Nice",
+ "pool": [
+  {
+   "year": 1388,
+   "text": "The commune placed itself under the protection of the Counts of Savoy.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1561,
+   "text": "Duke Emmanuel Philibert abolished Latin and established Italian as the official language.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "civic"
+  },
+  {
+   "year": 1626,
+   "text": "Opening ports and proclaiming full freedom of trade gave great stimulus to commerce.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1807,
+   "text": "Giuseppe Garibaldi was born in Nice during the Napoleonic Empire period.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "culture"
+  },
+  {
+   "year": 1823,
+   "text": "The French named the promenade La Promenade des Anglais during this year.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "civic"
+  },
+  {
+   "year": 1860,
+   "text": "The county was definitively ceded to France following the Treaty of Turin.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1879,
+   "text": "The observatory was established by the banker Raphaël Bischoffsheim in Nice.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1888,
+   "text": "A large refractor telescope became operational at the newly established observatory.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "culture"
+  },
+  {
+   "year": 1900,
+   "text": "The Tramway de Nice electrified its horse-drawn streetcars and spread its network.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "Prince Arthur inaugurated the city's main promenade following its refurbishment.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "Jews of foreign origin were rounded up and interned in the Auvare barracks.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "American paratroopers entered the city and Nice was finally liberated.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1979,
+   "text": "A landslide and an undersea slide caused two tsunamis that hit Nice.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "environment"
+  },
+  {
+   "year": 2001,
+   "text": "European leaders met to negotiate and sign the Treaty of Nice.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The new Tramway de Nice linked the northern and eastern suburbs.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "A truck was deliberately driven into a crowd of people by an attacker.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2018,
+   "text": "Charles III received honorary citizenship of Nice during a ceremony.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "A stabbing attack killed three people at the local Notre-Dame de Nice.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2021,
+   "text": "UNESCO proclaimed Nice a World Heritage Site as a winter resort town.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "Seven people from the same family were killed in an arson attack.",
+   "url": "https://en.wikipedia.org/wiki/Nice",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

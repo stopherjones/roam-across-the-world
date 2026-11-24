@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3741,
+  "completionTokens": 3608,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1640,
+   "theme": "power_conflict",
+   "event": "Dutch rule of Luanda began lasting until the year 1648.",
+   "quote": "Luanda was Portugal's bridgehead from 1627, except during the Dutch rule of Luanda, from 1640 to 1648, as Fort Aardenburgh.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2010,
+   "theme": "sports",
+   "event": "Luanda served as the main host city for soccer matches.",
+   "quote": "Luanda was the main host city for the matches of the 2010 African Cup of Nations.",
+   "stage": "code check",
+   "why": "unknown theme sports"
+  }
+ ]
+}

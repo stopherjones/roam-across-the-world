@@ -1,0 +1,130 @@
+{
+ "id": "apw",
+ "town": "Apia",
+ "source": "https://en.wikipedia.org/wiki/Apia",
+ "pool": [
+  {
+   "year": 1867,
+   "text": "The historic Catholic cathedral in Apia was dedicated on the last day of the year.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "culture"
+  },
+  {
+   "year": 1889,
+   "text": "Seven warships from Germany, the US, and Britain refused to leave Apia harbour during a typhoon.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1900,
+   "text": "Germany ruled Western Samoa as German Samoa with Apia serving as its capital city.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1914,
+   "text": "An expeditionary force from New Zealand began the military occupation of German Samoa.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "The New Zealand constabulary killed the paramount chief during a peaceful Mau gathering in Apia.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "The United States Navy built and operated a naval base in the area.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1959,
+   "text": "The modern city of Apia officially became the capital of Samoa.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "Apia hosted the Pacific Games for the very first time in the country history.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "A magnificent gathering space was designed by an architect and opened in Apia.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The ACC building opened in the city to house several boards and government departments.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "The Samoatel building was constructed inland to protect international telecommunications from seasonal cyclones.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "Parliament passed an act to better plan for the urban growth of Apia.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The DBS building in Savalalo opened to house the Development Bank of Samoa.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "Apia welcomed back the Pacific Games with a massive closing ceremony at Apia Park.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Apia hosted qualification matches for the FIFA World Cup including the first goal.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Apia began hosting the Judo World Cup which later transformed into a regional tournament.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "A new courts complex opened in Mulinuu featuring district, supreme, and land and titles courts.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The historic cathedral in Apia was pulled down following severe earthquake structural damage.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The Tui Atua Tupua Tamasese Building opened in Sogi to house government ministries.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Apia hosted an international cricket tournament across the four grounds of Faleata Oval.",
+   "url": "https://en.wikipedia.org/wiki/Apia",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

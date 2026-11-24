@@ -1,0 +1,130 @@
+{
+ "id": "gva",
+ "town": "Geneva",
+ "source": "https://en.wikipedia.org/wiki/Geneva",
+ "pool": [
+  {
+   "year": 1541,
+   "text": "John Calvin became the spiritual leader of Geneva and established a Protestant Rome.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1749,
+   "text": "The Société des Vieux-Grenadiers gentlemen's club was founded to regroup the local elite.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 1798,
+   "text": "Revolutionary France under the Directory annexed Geneva during a period of conflict.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1815,
+   "text": "Geneva officially joined the Swiss Confederation on the nineteenth of May.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1876,
+   "text": "The opera house, Grand Théâtre de Genève, officially opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 1901,
+   "text": "Henry Dunant became the first recipient of the prestigious Nobel Peace Prize.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1951,
+   "text": "The Grand Théâtre de Genève opera house was partly destroyed by a fire.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "Renée Colliard triumphed as a gold medallist at the Winter Olympics.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Germaine Aussey established her permanent residence in the city of Geneva.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "The Grand Théâtre de Genève opera house officially reopened following its fire.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "A Franco-Swiss agreement created the Comité régional franco-genevois for regional cooperation.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "Marc Rosset earned a gold medal victory at the Olympic Games.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "Léman Bleu, a local TV channel distributed by cable, was founded.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "An urban planning charter defined a planning territory called agglomération franco-valdo-genevoise.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "A Charter for Public Transports was adopted to develop a cross-border commuter rail network.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "A public transnational body called Projet d’agglomération franco-valdo-genevois was created.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "The Genevan Brass Festival was founded by Christophe Sturzenegger.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The Projet d’agglomération franco-valdo-genevois was renamed Grand Genève.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "The metropolitan area Geneva created an open data light pollution map featuring a dark grid.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "environment"
+  },
+  {
+   "year": 2025,
+   "text": "Geneva was ranked as the world's fifteenth most important financial centre by a global index.",
+   "url": "https://en.wikipedia.org/wiki/Geneva",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

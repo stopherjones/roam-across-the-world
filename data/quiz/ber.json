@@ -1,0 +1,130 @@
+{
+ "id": "ber",
+ "town": "Berlin",
+ "source": "https://en.wikipedia.org/wiki/Berlin",
+ "pool": [
+  {
+   "year": 1307,
+   "text": "Two towns formed an alliance with common external policy while keeping separate administrations.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "civic"
+  },
+  {
+   "year": 1443,
+   "text": "Frederick II initiated construction of a new royal palace in Berlin‑Cölln.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "culture"
+  },
+  {
+   "year": 1448,
+   "text": "Town citizens protested the palace building, known as the Berlin Indignation.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "civic"
+  },
+  {
+   "year": 1486,
+   "text": "Berlin‑Cölln palace became permanent residence of Brandenburg electors.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "culture"
+  },
+  {
+   "year": 1539,
+   "text": "Electors and city officially adopted Lutheranism.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "culture"
+  },
+  {
+   "year": 1689,
+   "text": "Französisches Gymnasium Berlin was founded for Huguenot refugee children.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Berlin hosted the Summer Olympics and built the Olympic stadium.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "Monument commemorating Prussia's victories was relocated from in front of the Reichstag.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "Soviet blockade of West Berlin prompted the Allied Berlin Airlift.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "Tierpark Friedrichsfelde, Berlin’s second zoo, opened.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "East Germany erected the Berlin Wall encircling West Berlin.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "President Kennedy delivered his \"Ich bin ein Berliner\" speech.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1971,
+   "text": "Four‑Power Agreement guaranteed road and rail access to West Berlin.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1988,
+   "text": "The European Film Academy was established in Berlin.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "Historic Mitte buildings were occupied and rebuilt by squatters after the Wall fell.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "Berlin Wall fell on 9 November, leading to its demolition.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "German reunification restored Berlin as the capital of a united Germany.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "Allied troops marched in a parade marking the end of occupation.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Construction began on the new Berlin Brandenburg Airport.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Historic Tempelhof Airport closed as part of traffic infrastructure reforms.",
+   "url": "https://en.wikipedia.org/wiki/Berlin",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

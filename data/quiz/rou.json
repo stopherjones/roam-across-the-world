@@ -1,0 +1,130 @@
+{
+ "id": "rou",
+ "town": "Rouen",
+ "source": "https://en.wikipedia.org/wiki/Rouen",
+ "pool": [
+  {
+   "year": 1150,
+   "text": "Rouen received its founding charter permitting self‑government.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 1204,
+   "text": "King Philip II entered Rouen, annexing Normandy to France.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1291,
+   "text": "Mayor of Rouen was assassinated during urban strife.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1294,
+   "text": "Rouennais repurchased their old liberties and charter.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 1306,
+   "text": "King Philip IV expelled the Jewish community of Rouen.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1389,
+   "text": "The Harelle urban revolt erupted among the underclass.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Rouen severely damaged by bombing wave.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "environment"
+  },
+  {
+   "year": 1952,
+   "text": "Rouen hosted the French Grand Prix at Rouen‑Les‑Essarts track.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "Rouen twinned with Norwich, England, United Kingdom.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "Rouen twinned with Baton Rouge, Louisiana, United States.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "Rouen twinned with Hannover, Germany.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Archaeological site discovered, later became a museum.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Rouen twinned with Zhejiang, China.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "Rouen twinned with Pomeranian Voivodeship, Poland.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Rouen authorities demolished grandstands of its racing past.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Rouen twinned with Salerno, Italy.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Museum of Natural History re‑opened after renovation.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Rouen twinned with Cleveland, Ohio, United States.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Rouen Impressionnée installed Arne Quinze’s sculpture ‘Camille’.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Rouen’s seaport merged with Le Havre and Paris to form HAROPA Port.",
+   "url": "https://en.wikipedia.org/wiki/Rouen",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

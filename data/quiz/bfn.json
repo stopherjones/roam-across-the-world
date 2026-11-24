@@ -1,0 +1,130 @@
+{
+ "id": "bfn",
+ "town": "Bloemfontein",
+ "source": "https://en.wikipedia.org/wiki/Bloemfontein",
+ "pool": [
+  {
+   "year": 1846,
+   "text": "Bloemfontein was officially founded as a fort by a British Army major.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1860,
+   "text": "Residential segregation began with the passing of a specific municipal ordinance.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "civic"
+  },
+  {
+   "year": 1890,
+   "text": "A railway line was built connecting the city to Cape Town.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1892,
+   "text": "The famous author Tolkien was born in the city on this date.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "culture"
+  },
+  {
+   "year": 1899,
+   "text": "The city was the site of a conference that failed to prevent war.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1900,
+   "text": "The British captured the city and built a concentration camp nearby.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1910,
+   "text": "The settlement officially became the Judicial capital of the Union.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "civic"
+  },
+  {
+   "year": 1912,
+   "text": "The South African Native National Congress was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "The retail department store Kloppers was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1974,
+   "text": "Raubex Group Ltd was established and later listed on the stock exchange.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1976,
+   "text": "The first rose festival occurred after council members decided to host it.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "An eastward expansion called Botshabelo was added to counter housing problems.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "EconoFoods was established as one of the major local companies.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "Child Welfare celebrated its landmark ninetieth birthday in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The local rugby team won the domestic tournament against the Blue Bulls.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The urban area served as one of the host locations for a global tournament.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "Mangaung was upgraded to become an autonomous metropolitan municipality with the city.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The historic Memorium cemetery was vandalized with toppled tombstones and graffiti.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Bloemfontein's GDP growth stood in the lower half of the benchmark group.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "The local rugby squad won the championship after achieving a perfect season.",
+   "url": "https://en.wikipedia.org/wiki/Bloemfontein",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

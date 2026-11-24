@@ -1,0 +1,130 @@
+{
+ "id": "hre",
+ "town": "Harare",
+ "source": "https://en.wikipedia.org/wiki/Harare",
+ "pool": [
+  {
+   "year": 1890,
+   "text": "The city was founded by the Pioneer Column as a fort.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1893,
+   "text": "The Herald newspaper was founded as the city's oldest newspaper.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "culture"
+  },
+  {
+   "year": 1895,
+   "text": "The governing Rhodesia Rugby Football Union was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "culture"
+  },
+  {
+   "year": 1896,
+   "text": "The Salisbury Polo Club was formed in the area.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "culture"
+  },
+  {
+   "year": 1897,
+   "text": "Salisbury was declared a municipality by the administration.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "civic"
+  },
+  {
+   "year": 1923,
+   "text": "Southern Rhodesia achieved responsible government and Salisbury became the capital.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1930,
+   "text": "Highfield was established as the second-oldest high-density suburb.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "Salisbury officially achieved the status of a city.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "Salisbury became the capital of the newly established Central African Federation.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "The Federation of Rhodesia and Nyasaland was officially dissolved.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1965,
+   "text": "Ian Smith's Rhodesian Front government declared Rhodesia independent from the United Kingdom.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1970,
+   "text": "The cultural organisation was founded by Roy Guthrie.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "The country gained international recognition as independent as the Republic of Zimbabwe.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "The city of Salisbury was renamed Harare on the second independence anniversary.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Willowvale became widely known for the Willowgate scandal involving government officials.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1995,
+   "text": "Harare hosted the international sporting event known as the All-Africa Games.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Harare served as the host city for the World Council of Churches assembly.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "The Cricket World Cup was hosted in the city.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The government carried out Operation Murambatsvina by demolishing shanties and illegal sites.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "environment"
+  },
+  {
+   "year": 2009,
+   "text": "Harare was voted the world's toughest city to live in according to a poll.",
+   "url": "https://en.wikipedia.org/wiki/Harare",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

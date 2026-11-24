@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4587,
+  "completionTokens": 4013,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1970,
+   "theme": "culture",
+   "event": "The collection opened for public service in the city",
+   "quote": "As of October 2017, the collection contains more than 13,000 pieces of collections, including pottery, porcelain, bronze, calligraphy, coins, jade, stoneware, etc. It opened for public service in 1970.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2098,
+  "completionTokens": 2824,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1938,
+   "theme": "culture",
+   "event": "Latina novelist Graciela Limón was born in the year 1938.",
+   "quote": "Graciela Limón (born 1938), Latina novelist",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1976,
+   "theme": "culture",
+   "event": "American actress Iyari Limon was born in the year 1976.",
+   "quote": "Iyari Limon (born 1976), American actress",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1965,
+   "theme": "culture",
+   "event": "Canadian sprinter Marshall Limon passed away in the year 1965.",
+   "quote": "Marshall Limon (1915–1965), Canadian sprinter",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1979,
+   "theme": "civic",
+   "event": "American politician Monique Limón was born in the year 1979.",
+   "quote": "Monique Limón (born 1979), American politician",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1954,
+   "theme": "culture",
+   "event": "Mexican boxer Rafael Limón was born in the year 1954.",
+   "quote": "Rafael Limón (born 1954), Mexican boxer",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1991,
+   "theme": "civic",
+   "event": "Yugoslavia-born journalist Limon Staneci passed away in the year 1991.",
+   "quote": "Limon Staneci (1916–1991), journalist born in Yugoslavia",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

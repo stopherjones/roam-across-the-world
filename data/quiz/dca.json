@@ -1,0 +1,130 @@
+{
+ "id": "dca",
+ "town": "Washington DC",
+ "source": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+ "pool": [
+  {
+   "year": 1751,
+   "text": "The port of Georgetown was founded as part of the territory.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1765,
+   "text": "Georgetown's Old Stone House was built as the oldest-standing building.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "culture"
+  },
+  {
+   "year": 1789,
+   "text": "Georgetown University was founded featuring mixed architectural styles.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "culture"
+  },
+  {
+   "year": 1790,
+   "text": "The Residence Act was adopted on July 16, approving capital creation.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1791,
+   "text": "Pierre Charles L'Enfant designed the city split into quadrants.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "civic"
+  },
+  {
+   "year": 1798,
+   "text": "The United States Marine Band was founded near Capitol Hill.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "culture"
+  },
+  {
+   "year": 1935,
+   "text": "The United States Supreme Court Building was completed.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "The flag of Washington, D.C., was adopted as a coat of arms variation.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "Arena Stage was founded, boosting the independent theater movement.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Ben's Chili Bowl was founded as a signature restaurant on U Street.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1961,
+   "text": "The district was granted presidential voting rights by the 23rd Amendment.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "The Capital Beltway highway loop was constructed around the city region.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1964,
+   "text": "Washington, D.C., voted consistently for Democratic presidential candidates since receiving electoral votes.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "Riots broke out in predominantly black residential and commercial corridors.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "A restaurant rose to prominence during violent race riots in the city.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Congress enacted the Home Rule Act providing an elected mayor.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The Home Rule Act devolved certain Congressional powers to an elected mayor.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Metro opened and consists of six lines, 98 stations, and track.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "environment"
+  },
+  {
+   "year": 1976,
+   "text": "The GALA Hispanic Theatre was founded in Columbia Heights.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "The District of Columbia Voting Rights Amendment was passed by Congress.",
+   "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

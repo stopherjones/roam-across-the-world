@@ -1,0 +1,130 @@
+{
+ "id": "cns",
+ "town": "Cairns",
+ "source": "https://en.wikipedia.org/wiki/Cairns",
+ "pool": [
+  {
+   "year": 1872,
+   "text": "A violent confrontation occurred between local Yidinji people and Phillip Garland over well usage.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1876,
+   "text": "The city was founded and named following the discovery of gold in the river.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1884,
+   "text": "The Cairns Parish of the Roman Catholic Vicariate Apostolic of Cooktown was established.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "civic"
+  },
+  {
+   "year": 1886,
+   "text": "Chinese population accounted for sixty percent of all farmers and ninety percent of gardeners.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1889,
+   "text": "The Wharf Estate Cairns went on sale in Brisbane via auction by John Macnamara.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1906,
+   "text": "The creation of a harbour board supported the robust economic future of the port.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "The Cairns Sailors and Soldiers War Memorial was unveiled by Alexander Frederick Draper.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "Combat missions were flown out of Cairns in support of the coral sea battle.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1965,
+   "text": "The City of Cairns Open professional golf tournament was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "The Cairns and District Chinese Association was established as an arts and heritage organisation.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "The City Library, operated by the Cairns Regional Council, opened at Abbott Street.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "The opening of the Cairns International Airport established the city as a desirable destination.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "The controversial private road named Quaid Road was constructed through a heritage area.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "environment"
+  },
+  {
+   "year": 1989,
+   "text": "The Cairns and District Family History Society maintains a library of genealogy material.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "A major refurbishment was undertaken at the City Library operated by the regional council.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The Northern Pride Queensland Cup rugby league team played their first season.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The Queensland Government opened the second stage of William McCormack Place office building.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "The Cairns City bus station opened as one of the main bus hubs.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "A new building was completed to provide up to one hundred sixty-eight more beds.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Far North Queensland Heat soccer team played until their dissolution in this year.",
+   "url": "https://en.wikipedia.org/wiki/Cairns",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

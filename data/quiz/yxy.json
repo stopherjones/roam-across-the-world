@@ -1,0 +1,130 @@
+{
+ "id": "yxy",
+ "town": "Whitehorse",
+ "source": "https://en.wikipedia.org/wiki/Whitehorse",
+ "pool": [
+  {
+   "year": 1883,
+   "text": "Frederick Schwatka observed the presence of a portage trail used to bypass Miles Canyon.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1896,
+   "text": "The discovery of gold in the Klondike set off a major regional change.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1900,
+   "text": "Construction finished the difficult Bennett Lake section, completing the entire railway route.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1902,
+   "text": "The first White Horse General Hospital was built in the downtown area.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "civic"
+  },
+  {
+   "year": 1903,
+   "text": "Residents of the Yukon have been voting federally since a byelection.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1905,
+   "text": "A small fire in the Windsor Hotel barber shop got out of control.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "civic"
+  },
+  {
+   "year": 1927,
+   "text": "The very first air mail was successfully sent to the community.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1942,
+   "text": "The US military began construction of the Alaska Highway to transfer troops.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1950,
+   "text": "The city was officially incorporated in this notable historical year.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "The city was designated the capital of the Yukon Territory.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "The name was officially changed from White Horse to Whitehorse.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The Yukon News was founded as a weekly publication by Ken Shortt.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "CBC Television operated an affiliate named CFWH-TV in the area.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "The Metropolitan Whitehorse development plan included preserved park and greenbelt areas.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "environment"
+  },
+  {
+   "year": 1975,
+   "text": "Whitehorse Bylaw restricts motor vehicles to designated roadways in Protected Areas.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "environment"
+  },
+  {
+   "year": 1983,
+   "text": "A French-language newspaper named L'Aurore boreale was founded.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "A wartime-era hangar was replaced with a modern terminal building.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1990,
+   "text": "The Yukon Hospital Corporation was created to prepare the transfer of powers.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The city approved the Area Development Scheme for Whitehorse Copper.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Yukon's electoral map was modified to give Whitehorse an extra seat.",
+   "url": "https://en.wikipedia.org/wiki/Whitehorse",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

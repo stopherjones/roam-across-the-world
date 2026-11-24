@@ -1,0 +1,106 @@
+{
+ "id": "goi",
+ "town": "Goiania",
+ "source": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+ "pool": [
+  {
+   "year": 1753,
+   "text": "Marcos de Noronha wanted to establish the state capital in the municipality of Pirenópolis.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1863,
+   "text": "Jose Vieira Couto de Magalhaes put forward a plan to move the capital.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1891,
+   "text": "Constitutional delegates officially included the idea of transferring the capital in the constitution.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "civic"
+  },
+  {
+   "year": 1932,
+   "text": "A commission was created to choose where the new capital would be built.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "The name Goiânia came about after a contest held by a local newspaper.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "Goiânia was founded as a planned city by Governor Pedro Ludovico.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "Pedro Ludovico used the name Goiânia for the first time, signing a decree creating the municipality.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "A decree was signed transferring the state capital from the Cidade de Goiás.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "The official inauguration occurred with the presence of the president of the republic.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "civic"
+  },
+  {
+   "year": 1946,
+   "text": "The zoo was created, containing over one thousand animals including mammals and birds.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "environment"
+  },
+  {
+   "year": 1987,
+   "text": "A medical radiation source containing radioactive caesium-137 was stolen from an abandoned hospital.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "The Gross Domestic Product of the city was over thirteen billion Brazilian reals.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Under the new contract firmed, many aspects of the public transportation are being changed.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Goiânia has the lowest number of favelas among Brazil's metropolises.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "A Mexican think tank found that Goiânia ranks as a dangerous city in the world.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2016,
+   "text": "The new Santa Genoveva International Airport started operating in May.",
+   "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

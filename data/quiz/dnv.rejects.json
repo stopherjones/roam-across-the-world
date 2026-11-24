@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9320,
+  "completionTokens": 6603,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2008,
+   "theme": "civic",
+   "event": "The city hosted the Democratic National Convention, marking a centennial since the landmark 1908 event.",
+   "quote": "Denver hosted the 2008 Democratic National Convention, which was the centennial of the city's first hosting of the landmark 1908 convention.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1995,
+   "theme": "commerce_industry",
+   "event": "Denver International Airport opened to the public and replaced the closed Stapleton International Airport.",
+   "quote": "DIA is 18.6 miles (30 km) east-northeast of the Colorado State Capitol and opened in 1995.",
+   "stage": "verification",
+   "why": "The source quote mentions DIA opened in 1995, but it does not mention Stapleton International Airport or that DIA replaced it."
+  }
+ ]
+}

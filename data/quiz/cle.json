@@ -1,0 +1,130 @@
+{
+ "id": "cle",
+ "town": "Cleveland",
+ "source": "https://en.wikipedia.org/wiki/Cleveland",
+ "pool": [
+  {
+   "year": 1796,
+   "text": "General Moses Cleaveland founded the city near the mouth of the Cuyahoga River.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "civic"
+  },
+  {
+   "year": 1814,
+   "text": "The village of Cleveland was officially incorporated through the efforts of Alfred Kelley.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "civic"
+  },
+  {
+   "year": 1836,
+   "text": "Cleveland was incorporated as a city while positioned on the eastern river banks.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "civic"
+  },
+  {
+   "year": 1854,
+   "text": "The neighboring municipality of Ohio City was annexed by the growing city.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "civic"
+  },
+  {
+   "year": 1890,
+   "text": "The five-story Cleveland Arcade was built and later renovated into a hotel.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1893,
+   "text": "Jones Day, one of the largest U.S. law firms, was founded.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1929,
+   "text": "The city hosted the first National Air Races and the Women's Air Derby.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "The Cleveland Botanical Garden was established in University Circle.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "Joe Shuster and Jerry Siegel created the comic book character Superman.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "The Great Lakes Exposition debuted at North Coast Harbor to revitalize the city.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1948,
+   "text": "The local baseball franchise won another World Series title.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "The Hough riots erupted during a tense summer period.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "The municipality elected its first African American mayor.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "Cleveland became the first city in the nation to have a direct rail transit connection.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "A river fire brought national attention to local industrial pollution.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "environment"
+  },
+  {
+   "year": 1978,
+   "text": "The local government entered a financial default on federal loans.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "civic"
+  },
+  {
+   "year": 1980,
+   "text": "The annual Tri-C Jazz Fest began at Playhouse Square.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The Great Lakes Burning River Fest began as a music and beer event.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The comedy television series Hot in Cleveland premiered on TV Land.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The Global Center for Health Innovation opened with massive display space.",
+   "url": "https://en.wikipedia.org/wiki/Cleveland",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

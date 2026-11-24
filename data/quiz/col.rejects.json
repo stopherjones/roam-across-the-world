@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 4695,
+  "completionTokens": 4036,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1880,
+   "theme": "culture",
+   "event": "World's tallest building title held by Cologne Cathedral until 1890",
+   "quote": "The city's medieval Cologne Cathedral (Kölner Dom) was the world's tallest building from 1880 to 1890 and is today the third-tallest church and tallest cathedral in the world.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1925,
+   "theme": "culture",
+   "event": "Hansahochhaus completed, once Europe's tallest office building",
+   "quote": "Other tall structures include the Hansahochhaus (designed by architect Jacob Koerfer and completed in 1925 – it was at one time Europe's tallest office building).",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1929,
+   "theme": "infrastructure",
+   "event": "First German limited-access road built between Cologne and Bonn",
+   "quote": "The city was home to the internationally famous Ringfest and now to the C/o pop festival. The first German limited-access road was constructed after 1929 between Cologne and Bonn.",
+   "stage": "code check",
+   "why": "unknown theme infrastructure"
+  },
+  {
+   "year": 1965,
+   "theme": "infrastructure",
+   "event": "Cologne became first German city fully encircled by a motorway ring road",
+   "quote": "In 1965, Cologne became the first German city to be fully encircled by a motorway ring road.",
+   "stage": "code check",
+   "why": "unknown theme infrastructure"
+  },
+  {
+   "year": 1996,
+   "theme": "culture",
+   "event": "Cologne Cathedral designated a World Heritage Site",
+   "quote": "In 1996, it was designated a World Heritage Site; it houses the Shrine of the Three Kings, which supposedly contains the relics of the Three Magi.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2008,
+   "theme": "commerce_industry",
+   "event": "Cologne recorded 4.31 million overnight stays and 2.38 million arrivals",
+   "quote": "In 2008 Cologne had 4.31 million overnight stays booked and 2.38 million arrivals.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1880,
+   "theme": "culture",
+   "event": "Cologne Cathedral completed, becoming a national monument and tallest building",
+   "quote": "The cathedral, started in 1248 but abandoned around 1560, was eventually finished in 1880 not just as a place of worship but also as a German national monument celebrating the newly founded German Empire and the continuity of the German nation since the Middle Ages.",
+   "stage": "verification",
+   "why": "Source confirms 1880 completion but does not mention tallest building claim."
+  },
+  {
+   "year": 1970,
+   "theme": "culture",
+   "event": "WDR promoted Krautrock musical movement in Cologne",
+   "quote": "The public radio and TV station WDR was involved in promoting musical movements such as Krautrock in the 1970s; the influential Can was formed there in 1968.",
+   "stage": "verification",
+   "why": "Source mentions WDR promotion in the 1970s, not specifically 1970."
+  }
+ ]
+}

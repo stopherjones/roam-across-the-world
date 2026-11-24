@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 3364,
+  "completionTokens": 1687,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1491,
+   "theme": "power_conflict",
+   "event": "Manuel ordered the construction of the administrative Paços do Concelho and the Paços dos Tabeliães.",
+   "quote": "Manuel, Duke of Beja, expanded the support of the local community; he ordered the construction of the administrative Paços do Concelho and the Paços dos Tabeliães (completed in 1491), raised the construction of a church (began in 1493 and later raised to cathedral in 1514), and finally the construction of a hospital and customs-house in the village.",
+   "stage": "verification",
+   "why": "The source quote states the buildings were completed in 1491, not ordered in that year."
+  },
+  {
+   "year": 1987,
+   "theme": "culture",
+   "event": "Its main chapel in Lido was commenced and dedicated a few years later.",
+   "quote": "Its main chapel in Lido was commenced in 1987 and dedicated a few years later.",
+   "stage": "verification",
+   "why": "The claim omits the exact year 1987 given in the source quote for the commencement of the chapel."
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "gye",
+ "town": "Guayaquil",
+ "source": "https://en.wikipedia.org/wiki/Guayaquil",
+ "pool": [
+  {
+   "year": 1535,
+   "text": "Santiago de Guayaquil founded as a shipyard and port for Spanish trade",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1538,
+   "text": "Spanish conqueror Francisco de Orellana founded Guayanaquil at a native village",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1687,
+   "text": "English and French pirates looted Guayaquil under George Dew, Picard and Groniet",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1709,
+   "text": "English captains Woodes Rogers and William Dampier looted Guayaquil demanding ransom",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1794,
+   "text": "Local heroine successfully argued for her freedom in court",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "civic"
+  },
+  {
+   "year": 1820,
+   "text": "Civilians and Granaderos de Reserva seized Guayaquil, ending Spanish rule",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1820,
+   "text": "Guayaquil first Ecuadorian city to achieve independence from Spain",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1822,
+   "text": "San Martín and Bolívar met in Guayaquil to plan Peru’s final independence",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1829,
+   "text": "Peruvian Army invaded and occupied Guayaquil for seven months",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1830,
+   "text": "Guayaquil became part of the Republic of Ecuador",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "civic"
+  },
+  {
+   "year": 1838,
+   "text": "Diocesis of Guayaquil was formed",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "culture"
+  },
+  {
+   "year": 1860,
+   "text": "Battle of Guayaquil between forces of García Moreno and Franco",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1896,
+   "text": "Large portions of Guayaquil destroyed by a citywide fire",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "environment"
+  },
+  {
+   "year": 1956,
+   "text": "Diocesis of Guayaquil elevated to Archdiocese",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "Guayaquil twinned with Houston, United States",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Elsa Bucaram became Guayaquil's first elected female mayor",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Metrovía, the city's first rapid transit bus system, opened",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "Two pedestrian bridges built linking downtown, Santay Island and Durán",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "environment"
+  },
+  {
+   "year": 2020,
+   "text": "Guayaquil heavily impacted by the COVID-19 pandemic",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Cynthia Viteri serving as mayor of Guayaquil",
+   "url": "https://en.wikipedia.org/wiki/Guayaquil",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

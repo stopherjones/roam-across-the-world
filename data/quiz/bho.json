@@ -1,0 +1,130 @@
+{
+ "id": "bho",
+ "town": "Bhopal",
+ "source": "https://en.wikipedia.org/wiki/Bhopal",
+ "pool": [
+  {
+   "year": 1707,
+   "text": "The state was founded in Bhopal by Dost Mohammad Khan, a Pashtun soldier.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1723,
+   "text": "The new territory came under the suzerainty of the Nizam of Hyderabad.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1737,
+   "text": "The Marathas defeated the Mughals and the Nawab of Bhopal in battle.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1818,
+   "text": "Bhopal became a princely state after signing a treaty with the British.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1858,
+   "text": "Sikandar was proclaimed as king for supporting the British during the revolt.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1884,
+   "text": "Railways started in Bhopal when a specific section of the line opened.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1949,
+   "text": "The Nawab signed the agreement for Bhopal's merger with the Union.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1956,
+   "text": "Bhopal became the capital of the newly-formed Madhya Pradesh state.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "The new Bhopal district was established, ending its part in Sehore.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Bhopal Development Authority was set up under a specific act for planning.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "A national park was declared, covering an area of about 4.45 sq.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "environment"
+  },
+  {
+   "year": 1983,
+   "text": "Bhopal Municipal Council got the status of Municipal Corporation with wards.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "A Union Carbide pesticide plant leaked a mixture of deadly gases.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "environment"
+  },
+  {
+   "year": 2002,
+   "text": "Bhoj Wetland was declared as a designated Ramsar site.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "environment"
+  },
+  {
+   "year": 2003,
+   "text": "UNESCO declared Bhimbetka Caves as a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "International flights began operations in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "An interstate bus terminus was inaugurated near the railway station.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Badshahs defeated Chandigarh Comets in the inaugural match of World Series Hockey.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The Bus Rapid Transit System opened, run by Bhopal City Link Limited.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Kolar Municipal Corporation merged with the main municipal corporation.",
+   "url": "https://en.wikipedia.org/wiki/Bhopal",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3383,
+  "completionTokens": 2802,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1858,
+   "theme": "environment",
+   "event": "Benghazi was devastated by bubonic plague in 1858 and again in 1874.",
+   "quote": "In 1858, and again in 1874, Benghazi was devastated by bubonic plague.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

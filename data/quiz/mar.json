@@ -1,0 +1,130 @@
+{
+ "id": "mar",
+ "town": "Marseille",
+ "source": "https://en.wikipedia.org/wiki/Marseille",
+ "pool": [
+  {
+   "year": 1669,
+   "text": "Marseille became a free port under Jean-Baptiste Colbert.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1781,
+   "text": "Le four des navettes shop has been dedicated to fabricating fisher cookies.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1792,
+   "text": "The city became a focal point of the French Revolution.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "civic"
+  },
+  {
+   "year": 1803,
+   "text": "A Santon Fair started on the last Sunday of November in Marseille.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "culture"
+  },
+  {
+   "year": 1900,
+   "text": "Marseille became one of Europe's busiest ports by this year.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1913,
+   "text": "Armenians from the Ottoman Empire began arriving in the city.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "civic"
+  },
+  {
+   "year": 1919,
+   "text": "A fire almost completely destroyed the house, leaving stone colonnade elements.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "environment"
+  },
+  {
+   "year": 1942,
+   "text": "The German Wehrmacht occupied Marseille during the Second World War.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "The Unité d'Habitation modernist building was designed by Le Corbusier.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "Gaston Defferre was consecutively reelected six times as Mayor of Marseille.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "French citizens from Algeria arrived in Marseille following colonial independence.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "The Ballet national de Marseille has performed at the opera house.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Line 1 of the metro between Castellane and La Rose opened.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1994,
+   "text": "The Musée d'Art Contemporain de Marseille opened its doors to visitors.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "Jean-Claude Gaudin of the conservative UMP was elected Mayor of Marseille.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The French magazine L'Expansion named Marseille the most dynamic large city.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The three lines of the tramway went towards Les Caillols from the tower.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "Marseille was awarded the title of European Capital of Sport.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The venue began housing a replica of the Cosquer Cave.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "The French Justice Minister described organized crime threats as equivalent to terrorism.",
+   "url": "https://en.wikipedia.org/wiki/Marseille",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

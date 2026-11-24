@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1588,
+  "completionTokens": 1629,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Construction was inaugurated on September twentieth after experiencing previous delays.",
+   "quote": "Construction began in early 2012 and was intended to be completed in mid-2013, but was delayed and was inaugurated on 20 September 2021.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "got",
+ "town": "Gothenburg",
+ "source": "https://en.wikipedia.org/wiki/Gothenburg",
+ "pool": [
+  {
+   "year": 1603,
+   "text": "The church was constructed before being destroyed in a later conflict.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1611,
+   "text": "The previously built church was completely destroyed during this year.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1621,
+   "text": "King Gustavus Adolphus established the trading colony by royal charter.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1621,
+   "text": "Successful establishment of the city occurred under King Gustavus Adolphus.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1621,
+   "text": "The city received its official names in its charter document.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1652,
+   "text": "Swedes gained political control after the last Dutch politician died.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1658,
+   "text": "Territories were ceded by Denmark-Norway leaving the city less exposed.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1731,
+   "text": "The Swedish East India Company was established to drive foreign trade.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1807,
+   "text": "Decisions were finalized to tear down most of the city wall.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1874,
+   "text": "Feskekörkan opened its doors, earning a name resembling a Gothic church.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1927,
+   "text": "Volvo was established in the city, maintaining headquarters on Hisingen island.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1928,
+   "text": "Rya Skogs Naturreservat was officially designated as a protected natural area.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "environment"
+  },
+  {
+   "year": 1932,
+   "text": "Uno Åhrén began his tenure serving the municipality as city planner.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "Flunsåsparken was constructed to offer free summer activities like concerts.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Ullevi stadium was constructed when Sweden hosted the FIFA World Cup.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "The film festival started holding annual January events to attract visitors.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "An agreement was signed with Shanghai to foster international cooperation.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "The International Science Festival launched annual science activities for the public.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Universeum opened as a public science centre in Scandinavia.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The city promoted its specific name internationally before reversing it later.",
+   "url": "https://en.wikipedia.org/wiki/Gothenburg",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

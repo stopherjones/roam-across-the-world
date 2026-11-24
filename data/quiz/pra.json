@@ -1,0 +1,130 @@
+{
+ "id": "pra",
+ "town": "Prague",
+ "source": "https://en.wikipedia.org/wiki/Prague",
+ "pool": [
+  {
+   "year": 1763,
+   "text": "Although now in Poland, it had been traditionally a part of Bohemia until this year.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "Hitler ordered the German Army to enter Prague and proclaimed Bohemia and Moravia a German protectorate.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Prague witnessed the assassination of Reinhard Heydrich during Operation Anthropoid by Czechoslovak heroes.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Prague suffered several bombing raids by the US Army Air Forces in February.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "An uprising against Germany occurred on 5 May, two days before Germany capitulated.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "The world's largest Stalin Monument was unveiled on Letná hill.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "The world's largest Stalin Monument on Letná hill was destroyed.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "Students demonstrated at Strahov on 31 October.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "The 4th Czechoslovak Writers' Congress took a strong position against the regime.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Soviet Union led Warsaw Pact countries to invade Czechoslovakia and Prague.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1969,
+   "text": "Jan Palach and Jan Zajíc committed suicide by self-immolation in January and February.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "The Velvet Revolution crowded the streets of Prague after riot police beat back a student demonstration.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "The stadium hosted Spartakiads during the communist era until this year.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "The military occupation of Czechoslovakia by the Red Army finally ended.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "The Historic Centre of Prague and its monuments were inscribed as a cultural UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "Prague became the capital city of the new Czech Republic after the Velvet Divorce.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The IMF and World Bank summits took place in Prague alongside anti-globalisation riots.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "Prague suffered from widespread floods that damaged buildings and its underground transport system.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "The O2 Arena hosted the IIHF World Championship in this year.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Allegro restaurant received the first Michelin star in the post-Communist part of Central Europe.",
+   "url": "https://en.wikipedia.org/wiki/Prague",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

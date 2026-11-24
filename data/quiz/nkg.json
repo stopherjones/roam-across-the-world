@@ -1,0 +1,130 @@
+{
+ "id": "nkg",
+ "town": "Nanjing",
+ "source": "https://en.wikipedia.org/wiki/Nanjing",
+ "pool": [
+  {
+   "year": 1129,
+   "text": "Jurchen forces under the Jin general Wanyan Wushu crossed the Yangtze and captured Jiankang briefly.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1368,
+   "text": "The Hongwu Emperor ascended the throne and established the Ming dynasty in Nanjing.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1421,
+   "text": "The Yongle Emperor relocated the capital from Nanjing to his former princedom of Beiping.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1441,
+   "text": "The Yingzong Emperor formally dropped Beijing's xingzai prefix, leaving Nanjing as the secondary capital.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1549,
+   "text": "More than one million certificates were printed and issued to authorize purchasing salt.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1561,
+   "text": "The Zhenwu Regiment mutiny occurred after a sharp spike in rice prices and cuts.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1927,
+   "text": "The National Revolutionary Army captured the city during the Northern Expedition.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1930,
+   "text": "The Xiaozhuang School founded by Tao Xingzhi was forcibly closed by government order.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "A survey showed forty five percent of households lived in shantytowns.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "civic"
+  },
+  {
+   "year": 1934,
+   "text": "An extreme daily maximum temperature of forty three degrees Celsius occurred.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "environment"
+  },
+  {
+   "year": 1935,
+   "text": "The city's territory was officially enlarged from 157 to about 466 square kilometres.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "A plant began operations producing daily averages of ammonium sulfate and nitric acid.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1940,
+   "text": "A Japanese collaborationist government led by Wang Jingwei was established.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "The Kuomintang relocated its central government back to Nanjing after Japan surrendered.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Communist forces crossed the Yangtze River and captured Nanjing.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "Eighteen hundred projectionists travelled to Nanjing for a special training program.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "Nanjing became the capital city of Jiangsu province.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "An extreme daily minimum temperature of minus fourteen degrees Celsius occurred.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "environment"
+  },
+  {
+   "year": 1968,
+   "text": "The massive two tiered road and rail bridge opened to traffic.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "Nanjing Railway Station was first built.",
+   "url": "https://en.wikipedia.org/wiki/Nanjing",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

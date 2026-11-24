@@ -1,0 +1,40 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5421,
+  "completionTokens": 3655,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1960,
+   "theme": "civic",
+   "event": "Strasbourg became an official sister city.",
+   "quote": "Strasbourg, France (1960)",
+   "source": "https://en.wikipedia.org/wiki/Boston",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 1982,
+   "theme": "civic",
+   "event": "Hangzhou became an official sister city.",
+   "quote": "Hangzhou, China (1982)",
+   "source": "https://en.wikipedia.org/wiki/Boston",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 1985,
+   "theme": "civic",
+   "event": "Melbourne became an official sister city.",
+   "quote": "Melbourne, Australia (1985)",
+   "source": "https://en.wikipedia.org/wiki/Boston",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

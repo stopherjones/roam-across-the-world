@@ -1,0 +1,117 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7416,
+  "completionTokens": 5249,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1850,
+   "theme": "environment",
+   "event": "The Canterbury Association surveyed the area from 1849 to 1850.",
+   "quote": "The Canterbury Association's Chief Surveyor, Captain Joseph Thomas, surveyed the area from 1849 to 1850.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1999,
+   "theme": "culture",
+   "event": "Christchurch was the venue for the 1999 World Netball championships.",
+   "quote": "In sports, it is one of the home venues of the Mainland Tactix netball side and was the venue for the 1999 World Netball championships.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1972,
+   "theme": "civic",
+   "event": "The Christchurch Town Hall auditorium opened in September 1972.",
+   "quote": "The Christchurch Town Hall auditorium opened in September 1972, it was the first major auditorium design by architects Warren and Mahoney and acousticians Marshall Day.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2019,
+   "theme": "civic",
+   "event": "The hall was reopened on 23 February 2019 after being closed for repairs.",
+   "quote": "The hall was reopened on 23 February 2019, after being closed for eight years for repair after the significant damage caused by the February 2011 Christchurch earthquake.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Te Pae convention centre opened on 17 December 2021.",
+   "quote": "Te Pae opened on 17 December 2021.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "Construction started on a new stadium named Te Kaha in 2022.",
+   "quote": "Construction started on a new stadium in 2022: named Te Kaha, it was completed in April 2026.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2026,
+   "theme": "civic",
+   "event": "A new stadium named Te Kaha was completed in April 2026.",
+   "quote": "Construction started on a new stadium in 2022: named Te Kaha, it was completed in April 2026.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1876,
+   "theme": "environment",
+   "event": "The Christchurch Drainage Board held its first meeting on 4 January 1876.",
+   "quote": "Following the passing of the Christchurch District Drainage Act 1875, the Christchurch Drainage Board was established, holding its first meeting on 4 January 1876.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1914,
+   "theme": "commerce_industry",
+   "event": "The city was connected to Coleridge Power Station in 1914.",
+   "quote": "The Christchurch City Council established the city's first public electricity supply in 1903, and the city was connected to Coleridge Power Station in 1914.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1998,
+   "theme": "commerce_industry",
+   "event": "The distribution business was renamed Orion New Zealand in December 1998.",
+   "quote": "In December 1998, the distribution business was renamed Orion New Zealand.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1929,
+   "theme": "commerce_industry",
+   "event": "The city converted to fully automatic telephone service on 14 September 1929.",
+   "quote": "The city converted to fully automatic service on 14 September 1929.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2018,
+   "theme": "commerce_industry",
+   "event": "The Ultra Fast Broadband initiative fibre network was completed in August 2018.",
+   "quote": "As part of the Ultra Fast Broadband initiative, fibre to the premises was rolled out in Christchurch during the 2010s, with the network completed in August 2018.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1868,
+   "theme": "culture",
+   "event": "The Star began as a daily evening newspaper in 1868.",
+   "quote": "Weekly newspapers include The Star, owned by Allied Press, which began in 1868 as a daily evening newspaper before becoming a bi-weekly (and later weekly) free newspaper in 1991.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

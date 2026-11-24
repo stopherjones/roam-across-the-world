@@ -1,0 +1,112 @@
+{
+ "id": "bty",
+ "town": "Blantyre",
+ "source": "https://en.wikipedia.org/wiki/Blantyre",
+ "pool": [
+  {
+   "year": 1876,
+   "text": "Blantyre was founded through the missionary work of the Church of Scotland.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "civic"
+  },
+  {
+   "year": 1877,
+   "text": "The Livingstonia Central Africa Trading Company was founded in Glasgow.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1878,
+   "text": "The Livingstonia Central Africa Trading Company was renamed the African Lakes Corporation.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1881,
+   "text": "The trading company moved to Mandala on the River Mudi.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1882,
+   "text": "The Mandala House was built as a place of relaxation for managers.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "culture"
+  },
+  {
+   "year": 1883,
+   "text": "Blantyre officially became a British consular station in this year.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "civic"
+  },
+  {
+   "year": 1895,
+   "text": "Blantyre attained municipality status, becoming Malawi's oldest municipality.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "civic"
+  },
+  {
+   "year": 1906,
+   "text": "Development started in Limbe following the establishment of the railway headquarters.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1909,
+   "text": "The sister city Limbe was founded eleven miles east of Blantyre.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "civic"
+  },
+  {
+   "year": 1910,
+   "text": "Limbe town surpassed Blantyre town in its overall development.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "Blantyre was merged with its sister city Limbe to form one city.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "A special drink was created by a visiting Danish foreign minister.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1970,
+   "text": "James John Skinner QC began serving as Chief Justice of Malawi.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1985,
+   "text": "James John Skinner QC finished his tenure as Chief Justice of Malawi.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1996,
+   "text": "The sector opened its doors and operated under the capital market acts.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "Blantyre was ranked according to cost of living by Mercer.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "The event opened under a theme of promoting private sector industrialization.",
+   "url": "https://en.wikipedia.org/wiki/Blantyre",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

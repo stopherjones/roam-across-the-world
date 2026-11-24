@@ -1,0 +1,130 @@
+{
+ "id": "atl",
+ "town": "Atlanta",
+ "source": "https://en.wikipedia.org/wiki/Atlanta",
+ "pool": [
+  {
+   "year": 1821,
+   "text": "The Creek were forced to leave the area under Indian Removal.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1847,
+   "text": "The residents approved, and the town was incorporated as Atlanta.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "civic"
+  },
+  {
+   "year": 1864,
+   "text": "Confederate General John Bell Hood decided to retreat from Atlanta.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1868,
+   "text": "The state capital was moved from Milledgeville to Atlanta.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "civic"
+  },
+  {
+   "year": 1885,
+   "text": "The founding of the Georgia School of Technology and Atlanta University Center.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "culture"
+  },
+  {
+   "year": 1895,
+   "text": "Atlanta hosted the Cotton States and International Exposition.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "Atlanta hosted the film premiere of Gone with the Wind.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "The mayor ordered the hiring of the first African-American police officers.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "The Atlanta Journal-Constitution formed resulting from a major merger between two local newspapers.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "African Americans elected Atlanta's first Black mayor, Maynard Jackson.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "The opening of the Georgia World Congress Center confirmed Atlanta's convention rise.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "Rail service commenced for the city's newly built subway system.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "Staff consolidation occurred for The Atlanta Journal and The Atlanta Constitution newspapers.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "Trees Atlanta was founded as a non-profit organization in the city.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "environment"
+  },
+  {
+   "year": 1998,
+   "text": "Hartsfield-Jackson International Airport became the world's busiest airport by traffic.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "Shirley Franklin became the first woman to be elected mayor.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "Separate publication of the morning Constitution and afternoon Journal newspapers officially ceased.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The city approved the multi-billion dollar Beltline project.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Mayor Bill Campbell was convicted by a federal jury on tax evasion.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2013,
+   "text": "The Beltline project received a federal grant of $18 million.",
+   "url": "https://en.wikipedia.org/wiki/Atlanta",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

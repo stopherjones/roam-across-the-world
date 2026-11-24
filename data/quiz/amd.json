@@ -1,0 +1,130 @@
+{
+ "id": "amd",
+ "town": "Ahmedabad",
+ "source": "https://en.wikipedia.org/wiki/Ahmedabad",
+ "pool": [
+  {
+   "year": 1411,
+   "text": "Sultan Ahmed Shah selected the forested area along the banks of the Sabarmati river.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1487,
+   "text": "Mahmud Begada fortified the city with an outer wall and twelve gates.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1535,
+   "text": "Humayun briefly occupied Ahmedabad after capturing Champaner when the ruler of Gujarat fled.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1758,
+   "text": "The Mughals surrendered the city to the Maratha Empire, ending provincial headquarters.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1818,
+   "text": "The East India Company took over the city during the Third Anglo-Maratha War.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1861,
+   "text": "Ranchhodlal Chhotalal founded the first Indian textile mill in the city.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1930,
+   "text": "Gandhi initiated the Salt March by embarking from his ashram.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "The Physical Research Laboratory was established by the physicist Vikram Sarabhai.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "The Darpana Academy of Performing Arts was established by the scientist Dr.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "It was chosen as the capital of Gujarat after the partition.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1994,
+   "text": "Jersey City in the United States twinned with Ahmedabad.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "The Central Pollution Control Board ranked Ahmedabad as the most polluted city.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "environment"
+  },
+  {
+   "year": 2002,
+   "text": "The Kankaria Lake was beautified by local authorities and surrounded by greenery.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "The SNP received the UN-Habitat Dubai International Award for Best Practice.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Columbus in the United States twinned with Ahmedabad.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2010,
+   "text": "Forbes ranked Ahmedabad third in its list of fastest growing cities of the decade.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "The Times of India chose Ahmedabad as India's best city to live in.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Guangzhou in China twinned with Ahmedabad.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2015,
+   "text": "Astrakhan in Russia twinned with Ahmedabad.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2024,
+   "text": "PETA India named Ahmedabad as India's most vegan-friendly city.",
+   "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

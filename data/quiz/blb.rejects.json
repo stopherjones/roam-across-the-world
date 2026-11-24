@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2630,
+  "completionTokens": 2647,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1910,
+   "theme": "commerce_industry",
+   "event": "The rubber era ended after the boom of 1910 to 1912.",
+   "quote": "The rubber era ended after the boom of 1910–12, but Belém continued to be the main commercial centre of northern Brazil and the entrepôt for the Amazon valley.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1616,
+   "theme": "civic",
+   "event": "Santo Alexandre, the oldest of Belem churches, was built.",
+   "quote": "Santo Alexandre, the oldest of Belém's churches, was built in 1616.",
+   "stage": "verification",
+   "why": "The quote states Santo Alexandre was built in 1616, but does not explicitly mention it being the oldest of Belem churches."
+  },
+  {
+   "year": 1688,
+   "theme": "commerce_industry",
+   "event": "A new entity was created as a result of a Portuguese tax.",
+   "quote": "Created in 1688, as a result of the Portuguese deciding to levy a tax for everything entering and leaving Amazonia.",
+   "stage": "verification",
+   "why": "The quote mentions something was created in 1688 due to a tax, but does not specify the exact entity named in the claim."
+  }
+ ]
+}

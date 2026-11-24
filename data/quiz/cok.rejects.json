@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3978,
+  "completionTokens": 3531,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2010,
+   "theme": "civic",
+   "event": "Kochi reported a significant increase in IPC crimes compared to previous years.",
+   "quote": "According to National Crime Records Bureau (NCRB), Kochi reported significant increase of 193.7 per cent IPC crimes in 2010 compared to 2009, and reported a crime rate of 1,897.8 compared to the 424.1 in whole Kerala.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

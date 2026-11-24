@@ -1,0 +1,130 @@
+{
+ "id": "rot",
+ "town": "Rotterdam",
+ "source": "https://en.wikipedia.org/wiki/Rotterdam",
+ "pool": [
+  {
+   "year": 1270,
+   "text": "Construction of a dam in the Rotte river.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "environment"
+  },
+  {
+   "year": 1340,
+   "text": "Rotterdam granted city rights by Count William IV.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1602,
+   "text": "Establishment of the Rotterdam Chamber of the VOC.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1661,
+   "text": "Rotterdam, New York founded by Dutch settlers and named after Dutch city.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1814,
+   "text": "Netherlands abolished involvement in the slave trade.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1866,
+   "text": "Nieuw Rotterdam established in Suriname's Nickerie District.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "Rotterdam boxer Bep van Klaveren wins Olympic gold in Amsterdam.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Swimmer Marie Braun wins gold medal at Amsterdam Olympics.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Opening of Feyenoord's De Kuip stadium.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Rie Mastenbroek, coached by Ma Braun, wins three Olympic golds in Berlin.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Daan Kagchelland wins Olympic gold in O‑Jolle sailing.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "11,000 Jews still lived in Rotterdam.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "Rotterdam, New York designated as a 'first class town'.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "Piet Roozenburg becomes world draughts champion.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "Lijnbaan opened, Europe's first car‑free shopping street.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "Rotterdam became seat of Catholic bishop after diocese split.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "Euromast erected for the Floriade exhibition.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "First Floriade held in Het Park, Euromast built.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "Rotterdam launches the Netherlands' first metro system.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "environment"
+  },
+  {
+   "year": 1997,
+   "text": "Nedlloyd merged with P&O to form P&O Nedlloyd.",
+   "url": "https://en.wikipedia.org/wiki/Rotterdam",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "lma",
+ "town": "Lima",
+ "source": "https://en.wikipedia.org/wiki/Lima",
+ "pool": [
+  {
+   "year": 1543,
+   "text": "Designated capital of the Viceroyalty of Peru and seat of Real Audiencia.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1684,
+   "text": "Construction of the Walls of Lima began to protect against pirates.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1746,
+   "text": "Strong earthquake severely damaged Lima and destroyed Callao, prompting reconstruction.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "environment"
+  },
+  {
+   "year": 1821,
+   "text": "José de San Martín reached Lima, granting it heroic title later that year.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1850,
+   "text": "Railway line between Lima and Callao completed from Desamparados station.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1870,
+   "text": "Iron bridge Puente Balta inaugurated over the Rímac River.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "Palace of Pizarro renovated, later serving as presidential residence.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "Historic centre building rebuilt after earlier destruction.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "Census highlighted major urban problems such as sanitation and housing.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "Housing Plan based on Neighborhood Units made official.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "Manufacturing accounted for 14% of GNP due to import substitution.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1960,
+   "text": "Lima's population reached 1.9 million, showing rapid growth.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "Self‑managed community of Villa El Salvador created south of city centre.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Historic Center declared UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Lima generated 53% of Peru's GDP.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "Lima Stock Exchange became world's most profitable stock exchange.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "El Metropolitano rapid bus system launched across the city.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Lima Metro Line 1 completed after decades of delays.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "More than 1.5 million people used Lima's bike lanes.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Bike lanes prevented emission of 526 tons of carbon dioxide.",
+   "url": "https://en.wikipedia.org/wiki/Lima",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

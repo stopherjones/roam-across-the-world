@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8848,
+  "completionTokens": 5802,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2005,
+   "theme": "commerce_industry",
+   "event": "Two underground metro lines and an extension were inaugurated in Santiago.",
+   "quote": "Two underground lines (Line 4 and 4A) and an extension of Line 2 were inaugurated in 2005 and 2006, while an extension of Line 5 was inaugurated in 2011.",
+   "stage": "verification",
+   "why": "The source states the two lines were inaugurated in 2005 and 2006, not solely in 2005."
+  }
+ ]
+}

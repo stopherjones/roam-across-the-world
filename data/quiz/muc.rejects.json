@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9370,
+  "completionTokens": 6879,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "A recorded percentage of residents living in the city consisted of foreign nationals.",
+   "quote": "In 2023, 30.1% of residents were foreigners, and 19.4% were German citizens with a migration background.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "The official population statistic was recorded by the Bavarian State Office for Statistics.",
+   "quote": "As of 31 December 2025, Munich had a population of 1,505,036 according to the Bavarian State Office for Statistics, making it the third most-populous city in Germany after Berlin and Hamburg.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1158,
+   "theme": "power_conflict",
+   "event": "The official founding day of the city of Munich was established in Augsburg.",
+   "quote": "14 June 1158 is considered the official founding day of the city of Munich.",
+   "stage": "verification",
+   "why": "The source quote gives the founding date of Munich as 14 June 1158, but does not mention that it was established in Augsburg."
+  },
+  {
+   "year": 1921,
+   "theme": "culture",
+   "event": "Ukrainian Free University was founded.",
+   "quote": "Ukrainian Free University, founded in 1921 (from 1945 – in Munich)",
+   "stage": "verification",
+   "why": "The source states it was founded in 1921 but moved to Munich in 1945, not making it explicitly clear that the founding event itself happened in Munich in 1921."
+  }
+ ]
+}

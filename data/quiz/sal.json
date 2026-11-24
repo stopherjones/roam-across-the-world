@@ -1,0 +1,130 @@
+{
+ "id": "sal",
+ "town": "Salisbury",
+ "source": "https://en.wikipedia.org/wiki/Salisbury",
+ "pool": [
+  {
+   "year": 1003,
+   "text": "Sweyn Forkbeard abandoned and burned Salisbury alongside Wilton.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1070,
+   "text": "A motte-and-bailey castle was constructed following the Norman invasion.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1075,
+   "text": "Herman became the first bishop of Salisbury via the Council of London.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1092,
+   "text": "The first Salisbury cathedral was consecrated before suffering storm damage.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "civic"
+  },
+  {
+   "year": 1227,
+   "text": "New Sarum received its city charter near the river settlement.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "civic"
+  },
+  {
+   "year": 1269,
+   "text": "St Edmund's was founded as a collegiate church in the city.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "Salisbury bus station opened in Endless Street in the city.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "Racehorse trainer David Elsworth was born in the city of Salisbury.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "Violinist and conductor Iona Brown was born in the city of Salisbury.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "Radio disc jockey Ray Teret was born in the city of Salisbury.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "civic"
+  },
+  {
+   "year": 1943,
+   "text": "Classical music conductor Sir Jeffrey Tate was born in Salisbury.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "culture"
+  },
+  {
+   "year": 1944,
+   "text": "Actor John Rhys-Davies, known for playing Gimli, was born in Salisbury.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "culture"
+  },
+  {
+   "year": 1946,
+   "text": "Actor Anthony Daniels, famous for playing C-3PO, was born in Salisbury.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "Pop and rock group Dave Dee, Dozy, Beaky, Mick and Tich formed.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Band Uriah Heep released an album and song called Salisbury.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Salisbury's annual International Arts Festival started to provide arts programmes.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "Former Prime Minister Edward Heath began living at Arundells on Cathedral Green.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "Salisbury has been twinned with Saintes, France.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The closure of the Friends Life office was announced.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Former Russian double agent Sergei Skripal was poisoned in Salisbury.",
+   "url": "https://en.wikipedia.org/wiki/Salisbury",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

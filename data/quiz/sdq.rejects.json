@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3491,
+  "completionTokens": 3087,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "The city center and metropolitan area recorded high population numbers.",
+   "quote": "As of 2022, the city center had a population of 1,029,110 while its metropolitan area, Greater Santo Domingo, had a population of 4,274,651.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

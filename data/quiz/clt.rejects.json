@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1438,
+  "completionTokens": 1280,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1952,
+   "theme": "culture",
+   "event": "Charlotte is a barn spider from the children's book by E. White.",
+   "quote": "Charlotte (Charlotte's Web), a barn spider from the 1952 children's book by E. White",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "bos",
+ "town": "Boston",
+ "source": "https://en.wikipedia.org/wiki/Boston",
+ "pool": [
+  {
+   "year": 1906,
+   "text": "The Longfellow Bridge opened featuring salt and pepper shakers.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1912,
+   "text": "Fenway Park opened as the home of the Boston Red Sox.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "culture"
+  },
+  {
+   "year": 1912,
+   "text": "The town of Hyde Park was annexed by the city.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1916,
+   "text": "The Massachusetts Institute of Technology moved across the river to Cambridge.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "culture"
+  },
+  {
+   "year": 1919,
+   "text": "A flood of molasses in the North End killed twenty-one people.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1923,
+   "text": "Logan International Airport opened on September 8.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "The Boston Garden opened.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "The Cocoanut Grove nightclub was the site of the deadliest nightclub fire.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1953,
+   "text": "The massive Columbia Point public housing complex was built.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "The Boston Redevelopment Authority was established to direct urban renewal projects.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "A project to improve the historic West End neighborhood was initiated.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "Kyoto became an official sister city.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "The first Community Health Center in the United States opened.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "The Bay State Banner began operation.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "Barcelona became an official sister city.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "Padua became an official sister city.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "Beira became an official sister city.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The Improper Bostonian glossy lifestyle magazine was published.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "The Boston Globe was acquired by The New York Times.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Two Chechen Islamist brothers detonated a pair of bombs near the finish line.",
+   "url": "https://en.wikipedia.org/wiki/Boston",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

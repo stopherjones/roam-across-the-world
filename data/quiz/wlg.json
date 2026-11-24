@@ -1,0 +1,130 @@
+{
+ "id": "wlg",
+ "town": "Wellington",
+ "source": "https://en.wikipedia.org/wiki/Wellington",
+ "pool": [
+  {
+   "year": 1815,
+   "text": "Arthur Wellesley became the first Duke of Wellington and victor of the battle.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1839,
+   "text": "Colonel William Wakefield arrived to purchase land for the New Zealand Company.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1840,
+   "text": "Captain William Mein Smith designed the original form of Wellington city layout.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "civic"
+  },
+  {
+   "year": 1842,
+   "text": "The Wellington Borough Council was established as the first local government.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "civic"
+  },
+  {
+   "year": 1858,
+   "text": "The oldest building became the Nairn Street Cottage in Mount Cook.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "culture"
+  },
+  {
+   "year": 1865,
+   "text": "The capital was moved to Wellington and officially met in session.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "Wellington hosted the New Zealand Centennial Exhibition celebrating a century.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "The Wairarapa earthquakes caused considerable damage in Wellington city.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "environment"
+  },
+  {
+   "year": 1953,
+   "text": "The Johnsonville Town District was annexed by Wellington city.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Television broadcasts began with the launch of channel WNTV1 in the city.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The Mount Victoria transmitter was replaced with a more powerful transmitter at Mount Kaukau.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "environment"
+  },
+  {
+   "year": 1969,
+   "text": "The Executive Wing of New Zealand Parliament Buildings was constructed.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "WNTV1 was networked with counterpart stations to form NZBC TV in November.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Wellington was supplied with natural gas when the Kapuni field produced.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1975,
+   "text": "The NZBC was broken up, with Wellington and Dunedin studios taking over Television One.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1980,
+   "text": "Televisions One and Two merged under a single company known as Television New Zealand.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "Production culminated in the opening of TVNZ's new Auckland television centre.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1996,
+   "text": "The restored Government Buildings near Parliament became the largest wooden building.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "The two newspapers merged to form The Dominion Post newspaper.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The New Zealand School of Music was established through a merger.",
+   "url": "https://en.wikipedia.org/wiki/Wellington",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

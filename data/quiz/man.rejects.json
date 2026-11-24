@@ -1,0 +1,69 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9120,
+  "completionTokens": 7167,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1086,
+   "theme": "civic",
+   "event": "The Domesday Book recorded the settlement within the hundred of Salford.",
+   "quote": "The Domesday Book (1086) records Manchester within the hundred of Salford and held as tenant in chief by a Norman named Roger of Poitou.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1854,
+   "theme": "commerce_industry",
+   "event": "The ITV franchise Granada Television has been based in Manchester since this year.",
+   "quote": "The ITV franchise Granada Television has been based in Manchester since 1954.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1854,
+   "theme": "culture",
+   "event": "The BBC opened its first regional television studio outside London in a Rusholme chapel.",
+   "quote": "In 1954, the BBC opened its first regional BBC Television studio outside London, Dickenson Road Studios, in a converted Methodist chapel in Rusholme.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1993,
+   "theme": "food_daily",
+   "event": "The night-time economy of Manchester has expanded significantly with brewery investments in bars and clubs.",
+   "quote": "The night-time economy of Manchester has expanded significantly since 1993, with investment from breweries in bars, public houses and clubs, along with active support from the local authorities.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1844,
+   "theme": "culture",
+   "event": "Friedrich Engels wrote The Condition of the Working Class in England while living in the city.",
+   "quote": "The Condition of the Working Class in England in 1844 was written about the city by Friedrich Engels while resident.",
+   "stage": "verification",
+   "why": "The source quote states the book was written *about* the year 1844, not necessarily *in* that year by Engels while resident."
+  },
+  {
+   "year": 1876,
+   "theme": "culture",
+   "event": "Isabella Banks was born in the city and wrote The Manchester Man.",
+   "quote": "Isabella Banks was born in the city and wrote The Manchester Man (1876).",
+   "stage": "verification",
+   "why": "The source quote states she wrote The Manchester Man (1876), but does not state she was born in 1876."
+  },
+  {
+   "year": 1940,
+   "theme": "food_daily",
+   "event": "Public houses in the Canal Street area have had an LGBTQ+ clientele since this time.",
+   "quote": "Public houses in the Canal Street area have had an LGBTQ+ clientele since at least 1940 and now form the centre of Manchester's LGBTQ+ community and gay village.",
+   "stage": "verification",
+   "why": "The source quote says 'since at least 1940', which is not precisely 1940."
+  }
+ ]
+}

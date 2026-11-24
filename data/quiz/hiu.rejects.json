@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3957,
+  "completionTokens": 3620,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1974,
+   "theme": "culture",
+   "event": "Polynesian Dances of Bellona were revived and recorded in Honiara.",
+   "quote": "In 1974, Polynesian Dances of Bellona (Mungiki), which included suahongi form, forbidden to be performed by the Seventh Day Adventist missionaries, was revived and recorded in Honiara.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1992,
+   "theme": "culture",
+   "event": "The Guadalcanal American War Memorial was dedicated.",
+   "quote": "The Guadalcanal American Memorial is an attraction. War Memorial was dedicated on 7 August 1992.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2010,
+   "theme": "environment",
+   "event": "Honiara recorded the highest temperature ever recorded in Solomon Islands.",
+   "quote": "On 1 February 2010, Honiara recorded a temperature of 36.1 °C (97.0 °F), which is the highest temperature to have ever been recorded in Solomon Islands.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1981,
+   "theme": "culture",
+   "event": "Traditional houses from nine provinces were built at the museum Cultural Centre.",
+   "quote": "The Cultural Centre of the museum has a display of eight traditional houses, built in 1981, from the nine provinces of Solomon Islands.",
+   "stage": "verification",
+   "why": "The source quote states the Cultural Centre has a display of *eight* traditional houses built in 1981, whereas the claim states houses from *nine* provinces were built."
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7277,
+  "completionTokens": 6114,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1863,
+   "theme": "civic",
+   "event": "Cleveland is served by the firefighters of the Cleveland Division of Fire, established in 1863.",
+   "quote": "Cleveland is served by the firefighters of the Cleveland Division of Fire, established in 1863.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1864,
+   "theme": "power_conflict",
+   "event": "Although the city has not hosted a national convention for the Democrats, it has hosted the 1864 Radical Democratic National Convention.",
+   "quote": "Although the city has not hosted a national convention for the Democrats, it has hosted the 1864 Radical Democratic National Convention.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1866,
+   "theme": "power_conflict",
+   "event": "Cleveland's law enforcement agency is the Cleveland Division of Police, established in 1866.",
+   "quote": "Cleveland's law enforcement agency is the Cleveland Division of Police, established in 1866.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1869,
+   "theme": "culture",
+   "event": "Established in 1869, the Cleveland Public Library is one of the largest public libraries.",
+   "quote": "Established in 1869, the Cleveland Public Library is one of the largest public libraries in the nation with a collection of over 11 million physical materials in 2025.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1912,
+   "theme": "civic",
+   "event": "Founded in 1912, the City Club of Cleveland provides a platform for national and local debates.",
+   "quote": "Founded in 1912, the City Club of Cleveland provides a platform for national and local debates and discussions.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1923,
+   "theme": "civic",
+   "event": "The Cleveland Council on World Affairs was established in 1923 to foster international discussions.",
+   "quote": "The Cleveland Council on World Affairs was established in 1923.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1925,
+   "theme": "culture",
+   "event": "The library's main building was designed by Walker and Weeks and dedicated in 1925.",
+   "quote": "The library's main building was designed by Walker and Weeks and dedicated in 1925, under head librarian Linda Eastman, the first woman to lead a major library system in the U.S.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1925,
+   "theme": "commerce_industry",
+   "event": "Time magazine was published in Cleveland from 1925 to 1927 before moving elsewhere.",
+   "quote": "Time magazine was published in Cleveland from 1925 to 1927.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1947,
+   "theme": "power_conflict",
+   "event": "Eliot Ness, who introduced the district system, later ran for mayor of Cleveland in 1947.",
+   "quote": "The district system was introduced in the 1930s by Cleveland Public Safety Director Eliot Ness (of the Untouchables), who later ran for mayor of Cleveland in 1947.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1961,
+   "theme": "culture",
+   "event": "The Mike Douglas Show, a nationally syndicated daytime talk show, began in Cleveland in 1961.",
+   "quote": "The Mike Douglas Show, a nationally syndicated daytime talk show, began in Cleveland in 1961 on KYW-TV (now WKYC), while The Morning Exchange on WEWS-TV served as the model for Good Morning America.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1964,
+   "theme": "civic",
+   "event": "Cleveland concluded its first sister city partnership with Lima, Peru, in 1964.",
+   "quote": "It concluded its first sister city partnership with Lima, Peru, in 1964.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1980,
+   "theme": "civic",
+   "event": "Cleveland has hosted several national election debates including the second 1980 U.S. presidential debate.",
+   "quote": "Additionally, Cleveland has hosted several national election debates, including the second 1980 U.S. presidential debate, the 2004 U.S. vice presidential debate, one 2008 Democratic primary debate, and the first 2020 U.S.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2004,
+   "theme": "civic",
+   "event": "Cleveland hosted the 2004 U.S. vice presidential debate among its national election debates.",
+   "quote": "Additionally, Cleveland has hosted several national election debates, including the second 1980 U.S. presidential debate, the 2004 U.S. vice presidential debate, one 2008 Democratic primary debate, and the first 2020 U.S.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2008,
+   "theme": "culture",
+   "event": "Cleveland Scene absorbed its competitor, the Cleveland Free Times, in 2008.",
+   "quote": "Additional publications include Cleveland Magazine, a regional culture magazine published monthly; Crain's Cleveland Business, a weekly business newspaper; and Cleveland Scene, a free alternative weekly paper which absorbed its competitor, the Cleveland Free Times, in 2008.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2008,
+   "theme": "civic",
+   "event": "RTA completed the HealthLine, a bus rapid transit line, in 2008.",
+   "quote": "In 2008, RTA completed the HealthLine, a bus rapid transit line, for which naming rights were purchased by the Cleveland Clinic and University Hospitals.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "The digital Belt Magazine was founded in Cleveland in 2013 by local writers.",
+   "quote": "The digital Belt Magazine was founded in Cleveland in 2013.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2016,
+   "theme": "civic",
+   "event": "In 2016, 23.7% of Cleveland households lacked a car compared to the national average.",
+   "quote": "In 2016, 23.7% of Cleveland households lacked a car, while the national average was 8.7%.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "power_conflict",
+   "event": "The director of Public Safety has been Wayne Drummond since 2024.",
+   "quote": "The director of Public Safety has been Wayne Drummond since 2024.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "Cleveland has recently seen its crime and homicide rate fall to historic lows in 2025.",
+   "quote": "Cleveland has recently seen its crime and homicide rate fall to historic lows recently in 2025.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

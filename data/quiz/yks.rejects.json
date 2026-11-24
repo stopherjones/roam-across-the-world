@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3620,
+  "completionTokens": 3327,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2026,
+   "theme": "civic",
+   "event": "The total population of Yakutsk significantly exceeded 360,000 people including settlements.",
+   "quote": "While the population stood at approximately 190,000 in the 1990s, by 2026 it significantly exceeded 360,000 people (including subordinate rural settlements).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2014,
+   "theme": "commerce_industry",
+   "event": "A New Apostolic church building was sold and converted into a shopping center.",
+   "quote": "in 2014, it was sold and converted into a shopping center.",
+   "stage": "verification",
+   "why": "The source quote mentions the year 2014 and the sale/conversion into a shopping center, but lacks context identifying the building as a New Apostolic church."
+  }
+ ]
+}

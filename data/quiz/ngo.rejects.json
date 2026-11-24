@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3923,
+  "completionTokens": 3013,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2005,
+   "theme": "culture",
+   "event": "The World Expo 2005 was held near Nagoya in Nagakute and Seto.",
+   "quote": "The World Expo 2005, also known as Aichi Expo, was held near Nagoya in the neighboring cities of Nagakute and Seto from 25 March to 25 September 2005.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "The SCMaglev and Railway Park opened with various trains.",
+   "quote": "The SCMaglev and Railway Park opened in March 2011 with various trains from the Central Japan Railway Company.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

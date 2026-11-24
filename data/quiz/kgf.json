@@ -1,0 +1,106 @@
+{
+ "id": "kgf",
+ "town": "Karaganda",
+ "source": "https://en.wikipedia.org/wiki/Karaganda",
+ "pool": [
+  {
+   "year": 1833,
+   "text": "Local shepherd Appak Baizhanov allegedly found coal prompting a coal mining boom in Karaganda.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1930,
+   "text": "Coal mining in the area resumed and temporary structures were built for miners.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1930,
+   "text": "Coal production in Karaganda was below expectations during this year.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "Karaganda was incorporated as a village before later being declared a city.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "civic"
+  },
+  {
+   "year": 1931,
+   "text": "The area was connected via railroad bringing supplies and highly-qualified personnel.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1934,
+   "text": "Karaganda was officially declared a city following its earlier village incorporation.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "civic"
+  },
+  {
+   "year": 1934,
+   "text": "Master plans for Karaganda were laid out led by planner Alexander Ivanovich Kuznetsov.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "Karaganda had a population of about 100,000 with about half being prisoners.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Karaganda suffered severe electromagnetic pulse effects when its electrical power plant caught fire.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "environment"
+  },
+  {
+   "year": 1983,
+   "text": "The Karaganda Circus was constructed and criticized for its high cost.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "An art installation was installed in Karaganda dedicated to a popular phrase.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "A monument to a popular catchphrase was established in Karaganda.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The Catholic Cathedral of the Blessed Virgin Mary of Fatima was opened.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Archaeologists unearthed remains of a young couple buried face to face.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "culture"
+  },
+  {
+   "year": 2022,
+   "text": "A new monument to the victims of the Holodomor was opened at the Karaganda Ethnopark.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "The Kostenko coal mine caught fire, killing at least 32 people.",
+   "url": "https://en.wikipedia.org/wiki/Karaganda",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

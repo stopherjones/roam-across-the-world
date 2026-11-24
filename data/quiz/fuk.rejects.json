@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3717,
+  "completionTokens": 3507,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1241,
+   "culture": "culture",
+   "event": "Hakata Gion Yamakasa origin dates back when founder Enni had people carry him around.",
+   "quote": "Hakata Gion Yamakasa is the most famous festival in Fukuoka and the origin of it is believed to date back to 1241, when Enni, the founder of Jotenji temple, had people carry him around the town on a platform while praying against the plague and eventually eliminated it.",
+   "stage": "code check",
+   "why": "unknown theme undefined"
+  },
+  {
+   "year": 1945,
+   "theme": "power_conflict",
+   "event": "Fukuoka was firebombed, destroying a significant percentage of the city urban area.",
+   "quote": "In 1945, Fukuoka was firebombed on June 19, with the attack destroying 21.5 percent of the city's urban area.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1981,
+   "theme": "civic",
+   "event": "The Fukuoka City Subway began operations marking a turning point in urban transit.",
+   "quote": "In 1981, the Fukuoka City Subway began operations with the opening of its initial segment between Muromi and Tenjin, marking a turning point in Fukuoka's urban transit infrastructure and signifying a transition from the existing older street-level tram and bus systems toward a high-capacity, grade-separated urban rail network.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

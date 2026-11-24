@@ -1,0 +1,112 @@
+{
+ "id": "tng",
+ "town": "Tangier",
+ "source": "https://en.wikipedia.org/wiki/Tangier",
+ "pool": [
+  {
+   "year": 1013,
+   "text": "Ali ibn Hammud conquered Tangier during realm civil wars.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1077,
+   "text": "Yusuf ibn Tashfin captured Tangier for the Almoravids.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1147,
+   "text": "Tangier fell to Abd al-Mumin's Almohads.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1274,
+   "text": "Abu Yusuf Yaqub compelled Tangier allegiance with siege.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1304,
+   "text": "The traveler Ibn Battuta was born in Tangier.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "culture"
+  },
+  {
+   "year": 1471,
+   "text": "The Portuguese occupied Tangier unopposed after garrison fled.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1661,
+   "text": "Tangier was given to England King Charles II.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "Slimane of Morocco gifted urban mansion to United States.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "civic"
+  },
+  {
+   "year": 1844,
+   "text": "Tangier was bombarded by French under Prince Joinville.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1905,
+   "text": "Kaiser Wilhelm II triggered international crisis in Tangier.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1923,
+   "text": "Tangier became international zone managed by colonial powers.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1930,
+   "text": "Fondation Lorin opened in a former synagogue.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "culture"
+  },
+  {
+   "year": 1940,
+   "text": "Spanish troops occupied Tangier during World War II.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1956,
+   "text": "Morocco reintegrated Tangier at signing of Tangier Protocol.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "Tanger-Med port outside Tangier became functional.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "King Mohammed VI restored city shipping and tourist facilities.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Tangier hosted the Connect route development forum.",
+   "url": "https://en.wikipedia.org/wiki/Tangier",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

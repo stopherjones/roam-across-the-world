@@ -1,0 +1,88 @@
+{
+ "id": "tou",
+ "town": "Tours",
+ "source": "https://en.wikipedia.org/wiki/Tours",
+ "pool": [
+  {
+   "year": 1166,
+   "text": "The cathedral was burnt out during a dispute in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1454,
+   "text": "The Ordinance made it mandatory to write laws and oral customs.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "civic"
+  },
+  {
+   "year": 1849,
+   "text": "The nightly adoration of the Blessed Sacrament started and spread throughout France.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "culture"
+  },
+  {
+   "year": 1902,
+   "text": "An animal escaped from the Barnum and Bailey circus during their stay.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "culture"
+  },
+  {
+   "year": 1917,
+   "text": "American soldiers arrived to set up textile factories and repair shops.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1918,
+   "text": "The Wilson Bridge over the Loire was officially opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "civic"
+  },
+  {
+   "year": 1920,
+   "text": "The city hosted the Congress of Tours, seeing the creation of the party.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "civic"
+  },
+  {
+   "year": 1944,
+   "text": "Heavy air raids by Allied forces devastated the area around the station.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Pierre Patout succeeded Lefèvre as the architect in charge of rebuilding.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The devotion was approved and the Feast of the Holy Face declared.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "The François Rabelais University was founded and centred on the Loire bank.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "The Wilson Bridge collapsed in the city before being rebuilt later.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "Jean Germain became mayor and made debt reduction his primary goal.",
+   "url": "https://en.wikipedia.org/wiki/Tours",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

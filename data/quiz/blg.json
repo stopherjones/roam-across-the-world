@@ -1,0 +1,130 @@
+{
+ "id": "blg",
+ "town": "Belgrade",
+ "source": "https://en.wikipedia.org/wiki/Belgrade",
+ "pool": [
+  {
+   "year": 1284,
+   "text": "Belgrade became the seat of the Serbian king Stefan Dragutin.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1427,
+   "text": "Đurađ Branković returned Belgrade to the Hungarian king and made Smederevo his capital.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1456,
+   "text": "Noon bells in support of the Hungarian army have remained a church tradition.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "culture"
+  },
+  {
+   "year": 1521,
+   "text": "Belgrade was conquered by the Ottomans and became the seat of the Sanjak.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1841,
+   "text": "Belgrade was once again named the capital of Serbia following the revolution.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "civic"
+  },
+  {
+   "year": 1890,
+   "text": "A skull of a Paleolithic human was discovered on Cetinjska Street.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "environment"
+  },
+  {
+   "year": 1927,
+   "text": "Belgrade opened its first airport.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1935,
+   "text": "The Pančevo Bridge crossing the Danube was opened.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "The first Belgrade Grand Prix motor racing race was held.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "The Luftwaffe heavily bombed the city after the Tripartite Pact signing.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Belgrade was bombed by the Allies during World War II.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Marshal Josip Broz Tito proclaimed the Federal People's Republic of Yugoslavia.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "Construction of New Belgrade started.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "The Nikola Tesla Museum was founded to preserve the inventor's personal items.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Coventry became twinned with Belgrade as part of international city relations.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "Belgrade's first television station began broadcasting.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "Belgrade hosted the first and founding conference of the Non-Aligned Movement.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1962,
+   "text": "Belgrade Nikola Tesla Airport was built.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1965,
+   "text": "A new museum foundation amassed thousands of art works from former Yugoslavia.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "Belgrade faced the last major smallpox outbreak in Europe.",
+   "url": "https://en.wikipedia.org/wiki/Belgrade",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

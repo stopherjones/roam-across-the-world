@@ -1,0 +1,76 @@
+{
+ "id": "srg",
+ "town": "Sorong",
+ "source": "https://en.wikipedia.org/wiki/Sorong",
+ "pool": [
+  {
+   "year": 1872,
+   "text": "Italian naturalist Luigi d'Albertis visited Sorong and reported the population was Muslim.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "culture"
+  },
+  {
+   "year": 1906,
+   "text": "A colonial post was established on Doom Island, serving as the Dutch center.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Sorong was occupied by the Empire of Japan during World War II.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "Oil production dropped another thirty-three percent after declining following the war.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1967,
+   "text": "Oil production more than trebled from earlier levels under Indonesian administration.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1972,
+   "text": "Sorong was reformed into an autonomous city by the government.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "Sorong was reformed into an administrative city following its autonomous status.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Administrative cities were abolished, granting Sorong full city status and separating it.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "The city comprised six districts at the census conducted in this year.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Musician Airileke released a single titled Sorong Samarai after receiving nominations.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "The official estimate of population reached two hundred eighty-six thousand residents.",
+   "url": "https://en.wikipedia.org/wiki/Sorong",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

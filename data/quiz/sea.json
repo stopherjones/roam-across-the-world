@@ -1,0 +1,130 @@
+{
+ "id": "sea",
+ "town": "Seattle",
+ "source": "https://en.wikipedia.org/wiki/Seattle",
+ "pool": [
+  {
+   "year": 1851,
+   "text": "Travelers known as the Denny Party arrived at Alki Point from Portland.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "civic"
+  },
+  {
+   "year": 1852,
+   "text": "The growing settlement moved to Elliott Bay and received its final name.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "civic"
+  },
+  {
+   "year": 1856,
+   "text": "The brief Puget Sound War culminated in the Battle of Seattle.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1869,
+   "text": "The city re-incorporated with a mayor-council government structure.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "civic"
+  },
+  {
+   "year": 1889,
+   "text": "The Great Seattle Fire destroyed the central business district.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "civic"
+  },
+  {
+   "year": 1896,
+   "text": "The Seattle Times, the lone daily newspaper in the city, was founded.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "Bertha Knight Landes became the first female mayor of a major American city.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "The 5th Avenue Theatre opened and began staging Broadway-style musical shows.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "The Henry Art Gallery opened as the first public art museum in Washington.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "The Seattle Art Museum opened its doors to the public.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "The city celebrated restored prosperity by hosting the Century 21 Exposition World's Fair.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Seattle saw local developments of modern paramedic services with the establishment of Medic One.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "The first location for Starbucks Coffee opened at Pike Place Market.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1977,
+   "text": "The Seattle Aquarium opened on the downtown waterfront.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "The Wah Mee massacre resulted in thirteen killings in an illegal gambling club.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "The Goodwill Games were held in the city.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Sherry Harris was elected as a Seattle city councilor in United States history.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1993,
+   "text": "Leaders from APEC gathered in Seattle for a major international summit.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Democrat Adam Smith began representing part of southeastern Seattle in the 9th congressional district.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2010,
+   "text": "The city government committed to becoming North America's first climate neutral city.",
+   "url": "https://en.wikipedia.org/wiki/Seattle",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

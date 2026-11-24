@@ -1,0 +1,118 @@
+{
+ "id": "scu",
+ "town": "Santiago de Cuba",
+ "source": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+ "pool": [
+  {
+   "year": 1515,
+   "text": "Diego Velazquez de Cuellar founded the seventh village of Santiago de Cuba.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1516,
+   "text": "The settlement was destroyed by fire and was immediately rebuilt.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "environment"
+  },
+  {
+   "year": 1522,
+   "text": "Santiago became the capital of the Spanish colony of Cuba.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1528,
+   "text": "The first cathedral was built in the city of Santiago de Cuba.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "civic"
+  },
+  {
+   "year": 1553,
+   "text": "French forces plundered the city of Santiago de Cuba.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1603,
+   "text": "English forces plundered the city of Santiago de Cuba.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1662,
+   "text": "English forces raided Santiago de Cuba under Christopher Myngs.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1791,
+   "text": "The Haitian slave revolt started before refugees arrived in Santiago.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1803,
+   "text": "Eighteen thousand refugees came to Santiago from Saint-Domingue.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "civic"
+  },
+  {
+   "year": 1804,
+   "text": "Haiti declared its independence as a republic.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1809,
+   "text": "French citizens were ordered out of Cuba after Napoleon's forces invaded Spain.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1862,
+   "text": "Facundo Bacardi Masso started the world-famous Bacardi brand in Santiago.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1898,
+   "text": "Spanish troops suffered a major defeat at San Juan Hill.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1898,
+   "text": "Sampson destroyed the Spanish Atlantic fleet just outside Santiago's harbor.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "Fidel Castro led rebels in an armed attack on the Moncada Barracks.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "Pais's organization merged with Castro's 26 July Movement.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1959,
+   "text": "Fidel Castro proclaimed the victory of the Cuban Revolution from city hall.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1987,
+   "text": "The Baconao Park was inscribed on the UNESCO World Heritage Biosphere Reserve List.",
+   "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

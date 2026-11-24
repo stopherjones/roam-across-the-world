@@ -1,0 +1,100 @@
+{
+ "id": "pdl",
+ "town": "Ponta Delgada",
+ "source": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+ "pool": [
+  {
+   "year": 1450,
+   "text": "Pêro de Teive established a small fishing village that eventually grew in Santa Clara.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "civic"
+  },
+  {
+   "year": 1507,
+   "text": "King Manuel conferred a foral in Abrantes, elevating the settlement to village status.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1522,
+   "text": "An earthquake and landslide devastated the provincial capital, destroying buildings and killing people.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "environment"
+  },
+  {
+   "year": 1582,
+   "text": "The naval Battle of Ponta Delgada took place off the coast during succession crisis.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1818,
+   "text": "Jewish merchants arrived as part of the growth of foreign-owned businesses in the historic center.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1975,
+   "text": "The Autonomous District of Ponta Delgada was extinguished along with other districts.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1976,
+   "text": "Ponta Delgada became the administrative capital under the revised constitution.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "civic"
+  },
+  {
+   "year": 1980,
+   "text": "Covoada was de-annexed from Relva as an agricultural community.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Tourist activity in Ponta Delgada accounted for thirty-four percent of regional hotel occupancy.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "A total of 1,039 companies had their operational seats within Ponta Delgada.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "The volume of sales was equivalent to 1,458 million Euros.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "Arrifes had a population of less than 7,000 inhabitants concentrated in three areas.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "Ajuda da Bretanha broke off from the parish of Bretanha as a rural community.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Ponta Delgada accounted for 41.5% of the accommodation capacity of the Azores.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "The population of Ponta Delgada reached 67,287 inhabitants in a specific area.",
+   "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

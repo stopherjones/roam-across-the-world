@@ -1,0 +1,130 @@
+{
+ "id": "oxf",
+ "town": "Oxford",
+ "source": "https://en.wikipedia.org/wiki/Oxford",
+ "pool": [
+  {
+   "year": 1071,
+   "text": "Norman lord Robert D'Oyly built Oxford Castle to secure control of the area.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1209,
+   "text": "Scholars fled Oxford and founded Cambridge University following a dispute with the town.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "civic"
+  },
+  {
+   "year": 1355,
+   "text": "The Scholastica Day Riot lasted days and caused numerous student and townsperson deaths.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1381,
+   "text": "The theologian John Wycliffe was expelled from the University of Oxford",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1542,
+   "text": "Oxford was granted city status when the Diocese of Oxford was created.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "civic"
+  },
+  {
+   "year": 1738,
+   "text": "The long-established independent retailer Boswells was founded on Cornmarket Street and Queen Street.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "Hall's Brewery was acquired by Samuel Allsopp and Sons, ending its brewing in Oxford.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "Oxford Cheetahs motorcycle speedway team has raced at Oxford Stadium in Cowley",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "Greyhound racing took place at the Oxford Stadium until a later closure date",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "The Oxfordshire and Buckinghamshire Light Infantry established a specific military date entry",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "The 1st Green Jackets (43rd and 52nd) formed on a specific date",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1959,
+   "text": "A hurling club was originally founded by Irish immigrants in this year",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "Daily Information began publishing as a local event information and advertising news sheet.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "A dual carriageway section featuring two residential service roads on the A40 was completed.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "environment"
+  },
+  {
+   "year": 1966,
+   "text": "The Royal Green Jackets established their official organizational date",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1974,
+   "text": "The M40 motorway approached Oxford, leading from London to Waterstock where the A40 continued.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "environment"
+  },
+  {
+   "year": 1983,
+   "text": "The Saints were founded as one of the longest-running American football clubs",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "The Oxford Cheetahs became British League champions during a successful decade",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "The Oxford Cheetahs secured another British League championship title",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Oxford United football club relocated their home ground to the Kassam Stadium near Blackbird Leys.",
+   "url": "https://en.wikipedia.org/wiki/Oxford",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

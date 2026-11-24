@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 4,
+  "promptTokens": 5134,
+  "completionTokens": 5642,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2020,
+   "theme": "commerce_industry",
+   "event": "Tourism drastically affected by COVID‑19 pandemic in Peru.",
+   "quote": "Tourism in the city was drastically affected by the COVID-19 pandemic in Peru and the 2022–2023 Peruvian protests, with the latter event costing the area 10 million soles daily.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2022,
+   "theme": "commerce_industry",
+   "event": "2022–2023 protests cost the area 10 million soles daily.",
+   "quote": "Tourism in the city was drastically affected by the COVID-19 pandemic in Peru and the 2022–2023 Peruvian protests, with the latter event costing the area 10 million soles daily.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2019,
+   "theme": "commerce_industry",
+   "event": "Cusco recorded over 2.7 million tourists, highest in Peru.",
+   "quote": "In 2019, Cusco was the region that reached the highest number of tourists in Peru with more than 2.7 million tourists.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1990,
+   "theme": "civic",
+   "event": "Mayor Daniel Estrada Pérez began beautification, restoring monuments and building plazas.",
+   "quote": "In the 1990s, during the mayoral administration of Mayor Daniel Estrada Pérez, the city underwent a new process of beautification through the restoration of monuments and the construction of plazas, fountains and monuments.",
+   "stage": "verification",
+   "why": "Source only says \"in the 1990s\"; does not confirm the specific year 1990."
+  },
+  {
+   "year": 1995,
+   "theme": "culture",
+   "event": "Quechua name Qosqo officially adopted for the city.",
+   "quote": "Under the administration of mayor Daniel Estrada Pérez, a staunch supporter of the Academia Mayor de la Lengua Quechua, between 1983 and 1995 the Quechua name Qosqo was officially adopted for the city.",
+   "stage": "verification",
+   "why": "Source gives a range 1983‑1995 for adoption; does not pinpoint 1995."
+  }
+ ]
+}

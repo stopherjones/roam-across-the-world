@@ -1,0 +1,130 @@
+{
+ "id": "str",
+ "town": "Strasbourg",
+ "source": "https://en.wikipedia.org/wiki/Strasbourg",
+ "pool": [
+  {
+   "year": 1262,
+   "text": "Citizens violently rebelled against the bishop and Strasbourg became a free imperial city.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1538,
+   "text": "The university of Strasbourg was established.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "culture"
+  },
+  {
+   "year": 1570,
+   "text": "The annual Christmas market Christkindelsmärik dates back to this year.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1605,
+   "text": "The world's first newspaper was printed by Johann Carolus in Strasbourg.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1681,
+   "text": "The city became French after the conquest of Alsace by Louis XIV.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1742,
+   "text": "The Palais Rohan was completed and now houses three museums.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "culture"
+  },
+  {
+   "year": 1944,
+   "text": "The city was liberated by the 2nd French Armoured Division under General Leclerc.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Strasbourg became the seat of early European institutions.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "The European Parliament established its seat in Strasbourg.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "Strasbourg established city twinning relations with Boston and Leicester.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Strasbourg established a twinning agreement with Stuttgart, Germany.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "UNESCO classified the historic city centre Grande Île as a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Strasbourg established city twinning with Dresden, Germany.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Strasbourg established a cooperative decentralized agreement with Fez, Morocco.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "The Jardin des deux Rives opened on both sides of the Rhine.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "France and Germany created a Eurodistrict straddling the Rhine river.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Strasbourg established a cooperative decentralized agreement with Douala, Cameroon.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The Grande bibliothèque Médiathèque André Malraux was inaugurated in Strasbourg.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Three university institutions merged to form the Université de Strasbourg.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Strasbourg established a cooperative agreement with Vologda, Russia.",
+   "url": "https://en.wikipedia.org/wiki/Strasbourg",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

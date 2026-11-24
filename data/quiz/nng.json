@@ -1,0 +1,100 @@
+{
+ "id": "nng",
+ "town": "Nanning",
+ "source": "https://en.wikipedia.org/wiki/Nanning",
+ "pool": [
+  {
+   "year": 1076,
+   "text": "Yongzhou was besieged by Lý forces during the Lý–Song War.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1324,
+   "text": "Yongzhou was renamed Nanning Lu of Yongzhou in the Yuan dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Nanning was captured by the Communist Party on December fourth.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Nanning economy began developing beyond its former role with sustained industrial growth.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1950,
+   "text": "Nanning municipality was set up and identified as the capital city.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The Guangxi Zhuang Autonomous Region was established with Nanning municipality as capital.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Nanning served as host for the annual China–ASEAN Expo which began.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The city was the venue for the World Robotics Olympiad.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "High-speed service was introduced on the Hunan–Guangxi railway and Beihai line.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "The first was completed and put into operation in June.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "The second began operation in December in Nanning.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "Line 3 began operation in Nanning.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Nanning North railway station is set to open with high-speed railway.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "The registered population of the city reached over eight million people.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Nanning was ranked one of the top science cities globally.",
+   "url": "https://en.wikipedia.org/wiki/Nanning",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

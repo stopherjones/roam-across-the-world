@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 8816,
+  "completionTokens": 6607,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1630,
+   "theme": "commerce_industry",
+   "event": "The first recorded gun maker in Birmingham operated, supplying locally made muskets.",
+   "quote": "The first recorded gun maker in Birmingham was in 1630, and locally made muskets were used in the English Civil War.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "Birmingham city council issued a Section 114 notice regarding financial commitments.",
+   "quote": "On 5 September 2023, Birmingham city council issued a Section 114 notice to say that it could not meet its financial commitments after an equal pay lawsuit.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

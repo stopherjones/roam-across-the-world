@@ -1,0 +1,70 @@
+{
+ "id": "tkd",
+ "town": "Takoradi",
+ "source": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+ "pool": [
+  {
+   "year": 1872,
+   "text": "Both European settlements essentially collapsed after the Dutch formally left the area.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1903,
+   "text": "A railway was built in Sekondi and Takoradi to transport important regional resources.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1928,
+   "text": "Ghana's first deepwater seaport was constructed in Takoradi to boost economic sectors.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1946,
+   "text": "The two separate cities of Sekondi and Takoradi amalgamated after the war.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "The city officially became the seat of the Roman Catholic Diocese.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Heavy rainfall caused rivers to overflow, rendering more than 1,000 people homeless.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "environment"
+  },
+  {
+   "year": 2010,
+   "text": "The discovery of oil in the region led to the title Oil City.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "Abdul-Mumin Issah served as the mayor according to census and official records.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "Kwabena Okyere Darko-Mensah commissioned a new 60-bed polyclinic in New Takoradi.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Frederick F took office as the mayor of the city and metropolitan area.",
+   "url": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

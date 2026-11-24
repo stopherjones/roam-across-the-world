@@ -1,0 +1,130 @@
+{
+ "id": "slc",
+ "town": "Salt Lake City",
+ "source": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+ "pool": [
+  {
+   "year": 1825,
+   "text": "Jim Bridger was likely the first explorer of European descent in the area.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1847,
+   "text": "Settlers led by Brigham Young founded Salt Lake City to escape persecution.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1856,
+   "text": "Great Salt Lake City replaced Fillmore as the territorial capital.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1862,
+   "text": "Congress prohibited slavery in all United States territories during the Civil War.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1862,
+   "text": "Fort Douglas was established to maintain Union allegiance during the Civil War.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1874,
+   "text": "St. Mark's Episcopal Cathedral was built in Salt Lake City.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "The Utah Symphony Orchestra was founded and grew into a major orchestra.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "KTVX 4 signed on the air as Utah's first television station.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "Chinese businesses and residences were demolished although a historical marker was erected.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "The Utah Arts Festival has been held annually with a high average attendance.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "The Utah Jazz moved to Salt Lake City from New Orleans.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "The Living Traditions Festival started in Salt Lake City.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "The festival hosted at Area 51 started.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Damn These Heels film festival began in the city.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "Salt Lake City was home to the Utah Starzz team.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Light rail transit returned to the city when the TRAX system opened.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "The Blue Line light rail system opened in Salt Lake City.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2001,
+   "text": "The local Pagan community celebrated Salt Lake City Pagan Pride Day.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "The city hosted the Winter Olympics and later planned another.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "A Public Safety Building housing police and fire employees opened.",
+   "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

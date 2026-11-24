@@ -1,0 +1,94 @@
+{
+ "id": "nbo",
+ "town": "Nairobi",
+ "source": "https://en.wikipedia.org/wiki/Nairobi",
+ "pool": [
+  {
+   "year": 1898,
+   "text": "Colonial authorities founded the city as a rail depot.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1907,
+   "text": "Nairobi replaced Mombasa as the capital of the region.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1919,
+   "text": "Authorities declared the area to be a municipality.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "The stock exchange received official overseas recognition from London.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1963,
+   "text": "Nairobi became the capital of the Republic of Kenya.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1973,
+   "text": "A major conference centre opened to the public.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Terrorists bombed the United States Embassy located in downtown.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "Several major global companies relocated their African headquarters here.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "A notable local drama film came to the big screen.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "A new railway connecting to the coast was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "A new transport terminal began operations to improve public commuting.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "A major expressway was completed to reduce traffic congestion.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "A new sports stadium opened to host top flight tournaments.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "culture"
+  },
+  {
+   "year": 2026,
+   "text": "The city reached the final for an international kindness competition.",
+   "url": "https://en.wikipedia.org/wiki/Nairobi",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

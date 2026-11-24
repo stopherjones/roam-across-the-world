@@ -1,0 +1,130 @@
+{
+ "id": "cph",
+ "town": "Copenhagen",
+ "source": "https://en.wikipedia.org/wiki/Copenhagen",
+ "pool": [
+  {
+   "year": 1167,
+   "text": "Bishop Absalon constructed a modest fortress on Slotsholmen where Christiansborg Palace stands today.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1254,
+   "text": "The city received a city charter under Bishop Jakob Erlandsen.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "civic"
+  },
+  {
+   "year": 1368,
+   "text": "The city was successfully invaded during the Second Danish-Hanseatic War.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1479,
+   "text": "The University of Copenhagen was founded and is the oldest university in Denmark.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "culture"
+  },
+  {
+   "year": 1616,
+   "text": "The East India Company was founded to foster international trade.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1620,
+   "text": "The Copenhagen Stock Exchange was founded and is now owned by Nasdaq, Inc.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1940,
+   "text": "Copenhagen was occupied by German troops along with the rest of the country.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "An old ferris wheel opened for operation within the amusement park.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "Copenhagen was officially liberated by British troops commanded by Field Marshal Bernard Montgomery.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "An innovative urban development project known as the Finger Plan was introduced.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "Freetown Christiania was established following the occupation of a barracks.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "Kirsten Thorup published a novel with a setting based in Copenhagen.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "An international congress hosted an oral literature conference in the city.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "The annual Copenhagen Marathon was established.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Barbara Mertz published a novel featuring a narrative set in Copenhagen.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Copenhagen Carnival launched its annual Whitsun Holiday celebrations across the city.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "Lois Lowry released a novel set within the urban environment of Copenhagen.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Copenhagen and Malmö have been connected by rail and road by the Øresund Bridge.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "A large offshore wind farm was built just off the coast at Middelgrunden.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "environment"
+  },
+  {
+   "year": 2010,
+   "text": "Noma received the title of Best Restaurant in the World by Restaurant.",
+   "url": "https://en.wikipedia.org/wiki/Copenhagen",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 2507,
+  "completionTokens": 2506,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1866,
+   "theme": "power_conflict",
+   "event": "Duchy of Nassau annexed by Prussia",
+   "quote": "Duchy of Nassau, a German state existing from 1806 until 1866 and created after the promotion from county to ducal status",
+   "stage": "verification",
+   "why": "Source only gives end date 1866, does not explicitly state annexation in 1866"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10173,
+  "completionTokens": 6446,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2025,
+   "theme": "power_conflict",
+   "event": "Nashville recorded 74 homicides, marking its lowest total since 2014.",
+   "quote": "In 2025, Nashville recorded 74 homicides, its lowest total since 2014 and a 28% decrease from 2024.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2013,
+   "theme": "commerce_industry",
+   "event": "The City Paper officially folded after being founded in October 2000.",
+   "quote": "The Banner's heritage had been carried on, to an extent, by The City Paper which folded in August 2013 after having been founded in October 2000.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "civic",
+   "event": "Voters passed a subsequent transit expansion plan focusing on sidewalks and buses.",
+   "quote": "A subsequent transit expansion plan focused on improving sidewalks, adding smart signals, upgrading bus stops and transit centers, implementing a 24-hour bus service and adding 54 miles of high-capacity transit corridors was passed in 2024.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

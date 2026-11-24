@@ -1,0 +1,130 @@
+{
+ "id": "akl",
+ "town": "Auckland",
+ "source": "https://en.wikipedia.org/wiki/Auckland",
+ "pool": [
+  {
+   "year": 1350,
+   "text": "The Auckland isthmus was settled by Māori, who valued its rich and fertile land.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "environment"
+  },
+  {
+   "year": 1741,
+   "text": "Paramount chief Kiwi Tāmaki was killed in battle by Te Waha-akiaki.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1807,
+   "text": "Devastating intertribal warfare began, causing vulnerable iwi to seek safer refuge areas.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1840,
+   "text": "Paramount chief Apihai Te Kawau signed the Treaty of Waitangi.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1840,
+   "text": "William Hobson chose Auckland as the new capital of New Zealand.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "civic"
+  },
+  {
+   "year": 1883,
+   "text": "The University of Auckland was founded and became the largest university.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "A pipeline from Taranaki was completed to supply natural gas to Auckland.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1982,
+   "text": "Auckland was connected to the Maui gas field via a completed pipeline.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1986,
+   "text": "Government immigration policy began allowing immigrants from Asia into urban Auckland.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "A five-week-long power crisis blacked out much of the Auckland CBD.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "A Royal Commission on Auckland Governance was established to review local structures.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "A forklift accident caused a blackout across northern and western suburbs.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Manukau City mayor Len Brown was elected mayor of the amalgamated Auckland Council.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "Len Brown was re-elected for a second mayoral term at Auckland Council.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "New electric trains constructed by Construcciones y Auxiliar de Ferrocarriles commenced service.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Two natural gas-fired power stations in Auckland were permanently shut down.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Auckland's port handled thirty-one percent of the country's container trade.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "Phil Goff succeeded Len Brown as the successful mayoral candidate in Auckland.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Auckland Council released its Unitary Plan after completing a study.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "REINZ reported the median house price in the Auckland Region.",
+   "url": "https://en.wikipedia.org/wiki/Auckland",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

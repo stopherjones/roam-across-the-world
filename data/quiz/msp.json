@@ -1,0 +1,130 @@
+{
+ "id": "msp",
+ "town": "Minneapolis",
+ "source": "https://en.wikipedia.org/wiki/Minneapolis",
+ "pool": [
+  {
+   "year": 1680,
+   "text": "Cleric Louis Hennepin renamed Owámniyomni the Falls of St.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "environment"
+  },
+  {
+   "year": 1805,
+   "text": "Zebulon Pike made the Treaty of St. purchasing most of Minneapolis.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1819,
+   "text": "The US Army built Fort Snelling in the Minneapolis area.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1834,
+   "text": "Volunteer missionaries Gideon and Samuel Pond sought permission for their work from the US Indian agency.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1856,
+   "text": "The territorial legislature authorized Minneapolis as a town on the river.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "civic"
+  },
+  {
+   "year": 1867,
+   "text": "Minneapolis was incorporated as a city in the state.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "Pope Pius XI named the Basilica of Saint Mary.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "Enrollment peaked at ninety thousand students across more than one hundred schools in the district.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "Frederick McKinley Jones and his associate founded Thermo King.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1949,
+   "text": "Medtronic was founded in a Minneapolis garage.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1952,
+   "text": "John Lewis successfully repaired a child born with a congenital heart defect.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Control Data Corporation began in a downtown Minneapolis warehouse.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1963,
+   "text": "Tyrone Guthrie founded the Guthrie with an inventive thrust stage.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "Relocated Native Americans founded the American Indian Movement in Minneapolis.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1969,
+   "text": "Charles Stenvig became mayor and governed for almost a decade.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "civic"
+  },
+  {
+   "year": 1975,
+   "text": "The city has not elected a Republican mayor since this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "A University of Minnesota computing group released Gopher in Minneapolis.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "Frank Gehry designed Weisman Art Museum for the university.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "culture"
+  },
+  {
+   "year": 2022,
+   "text": "Restaurant Owamni received the James Beard award for best new restaurant.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2022,
+   "text": "Opioid overdoses killed two hundred thirty-one persons within the city limits.",
+   "url": "https://en.wikipedia.org/wiki/Minneapolis",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

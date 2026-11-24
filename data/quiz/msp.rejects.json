@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9009,
+  "completionTokens": 6809,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2019,
+   "theme": "civic",
+   "event": "The city released the Neighborhoods 2020 program with an equity lens.",
+   "quote": "In 2019, the city released the Neighborhoods 2020 program, which reworked neighborhood funding with an equity-focused lens.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2020,
+   "theme": "power_conflict",
+   "event": "Darnella Frazier recorded the murder of George Floyd in the city.",
+   "quote": "In 2020, 17-year-old Darnella Frazier recorded the murder of George Floyd; Frazier's video contradicted the police department's initial statement.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

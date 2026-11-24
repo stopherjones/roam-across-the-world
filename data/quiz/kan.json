@@ -1,0 +1,100 @@
+{
+ "id": "kan",
+ "town": "Kano",
+ "source": "https://en.wikipedia.org/wiki/Kano",
+ "pool": [
+  {
+   "year": 1860,
+   "text": "Kanō Jigorō, the Japanese founder of Judo, was born in eighteen sixty.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1887,
+   "text": "Kano Ikeda, a Japanese American professor, was born in eighteen eighty-seven.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1920,
+   "text": "Aminu Kano, a Nigerian politician, was born in nineteen twenty.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1935,
+   "text": "Tokio Kano, a Japanese politician, was born in nineteen thirty-five.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1940,
+   "text": "Noriaki Kano, a Japanese developer of the Kano model, was born.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1962,
+   "text": "Kyoko Kano, a Japanese celebrity, was born in nineteen sixty-two.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "Thea Kano, an American conductor, was born in nineteen sixty-five.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "Mika Kano, a Japanese celebrity, was born in nineteen sixty-seven.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Kano, a Spanish comic book artist, was born in nineteen seventy-three.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Miyuki Kano, a Japanese volleyball player, was born in nineteen seventy-seven.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Eiko Kano, a Japanese comedian and singer, was born.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "Kano, a British rapper, was born in nineteen eighty-five.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "David Kano, an American actor, writer and producer, was born.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Kano Fujihira, a Japanese entertainer, was born in two thousand and four.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Kano, a Taiwanese baseball film directed by Umin Boya, was released.",
+   "url": "https://en.wikipedia.org/wiki/Kano",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

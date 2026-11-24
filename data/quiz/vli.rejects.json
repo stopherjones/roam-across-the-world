@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3181,
+  "completionTokens": 3465,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2020,
+   "theme": "environment",
+   "event": "The national census recorded a total city population of 49,034 residents.",
+   "quote": "The population was 49,034 as of the 2020 Vanuatu census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

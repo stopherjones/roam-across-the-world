@@ -1,0 +1,82 @@
+{
+ "id": "wdh",
+ "town": "Windhoek",
+ "source": "https://en.wikipedia.org/wiki/Windhoek",
+ "pool": [
+  {
+   "year": 1840,
+   "text": "Jonker Afrikaner settled at Windhoek and built a stone church for his community.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "civic"
+  },
+  {
+   "year": 1890,
+   "text": "Windhoek was founded a second time by Major Curt von François.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1925,
+   "text": "The Windhoek Public Library was built next to the Alte Feste.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Kaiserstraße became the first paved road in Windhoek.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The city introduced the world's first potable reuse facility treating recycled sewage.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "environment"
+  },
+  {
+   "year": 1965,
+   "text": "Windhoek formally received its town privileges on the anniversary date.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "The Namibian general contract workers strike started from Windhoek.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2004,
+   "text": "The airport served 141,605 passengers, with the majority travelling on light aircraft.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "The Reiterdenkmal statue was removed from its historical place next to Christuskirche.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2020,
+   "text": "The city had a total of 41,900 informal housing structures accommodating inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2022,
+   "text": "A statue was removed from in front of the municipal grounds.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "The population reached 486,186 and was growing due to migration.",
+   "url": "https://en.wikipedia.org/wiki/Windhoek",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

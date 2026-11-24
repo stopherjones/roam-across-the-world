@@ -1,0 +1,124 @@
+{
+ "id": "dov",
+ "town": "Dover",
+ "source": "https://en.wikipedia.org/wiki/Dover",
+ "pool": [
+  {
+   "year": 1086,
+   "text": "The historic town of Dover later figured prominently in the Domesday Book.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "civic"
+  },
+  {
+   "year": 1800,
+   "text": "Edward Hasted reported that the town had a population of almost 10,000 people.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "civic"
+  },
+  {
+   "year": 1844,
+   "text": "The South Eastern Railway's main line connected the town with Folkestone.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1861,
+   "text": "The London, Chatham and Dover Railway opened its line from Canterbury.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1909,
+   "text": "Louis Blériot landed his aircraft here after completing the first cross-Channel flight.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "culture"
+  },
+  {
+   "year": 1911,
+   "text": "The former cinema King's Hall first opened and is now a bingo club.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "The Chatham Main Line into Priory was electrified under British Railways modernization.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1968,
+   "text": "The Gateway Hospital Broadcasting Service was founded as the oldest hospital radio in East Kent.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "An important archaeological discovery was made at Langdon Bay off the coast.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "environment"
+  },
+  {
+   "year": 1992,
+   "text": "The ancient Bronze Age Dover boat was discovered six metres deep underwater.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The White Cliffs Theatre opened and is based at Astor College.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "P&O Ferries sailings to Zeebrugge were permanently withdrawn from the harbour.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "Hoverspeed ceased its operations and withdrew all eight of its daily sailings.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "SpeedFerries officially ceased operations and withdrew their daily cross-channel sailings.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "The St James' retail area opened as part of transformations to the town.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "Thousands of tourists visited the historic castle located in the town.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "A long line of freight trucks formed due to sudden border closures with France.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "Dover Community Radio started broadcasting on its community radio frequency.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "The town had an estimated population of over forty-four thousand residents.",
+   "url": "https://en.wikipedia.org/wiki/Dover",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

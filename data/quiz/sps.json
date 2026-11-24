@@ -1,0 +1,88 @@
+{
+ "id": "sps",
+ "town": "San Pedro Sula",
+ "source": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+ "pool": [
+  {
+   "year": 1536,
+   "text": "Don Pedro de Alvarado founded the Spanish town beside the Indian settlement of Choloma.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1601,
+   "text": "The Spanish government declared Santo Tomás as the official port for the Central American colonies.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1714,
+   "text": "The population of the city grew to seventy inhabitants due to the subsequent increase in trade.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "civic"
+  },
+  {
+   "year": 1789,
+   "text": "The population of the city reached 357 inhabitants due to trade growth.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "civic"
+  },
+  {
+   "year": 1949,
+   "text": "A Roman Catholic Cathedral was built in San Pedro Sula.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "A Greek Orthodox cathedral, Iglesia Ortodoxa de Antioquía San Juan Bautista, was built.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Roberto Larios Silva stated that economic development is concentrated via industrial, commercial, and financial development.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "Expeditions found multiple pre-Columbian pieces and ruins of an unknown civilization.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Unemployment and underemployment rates doubled since the Honduran military coup.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "San Pedro Sula generated two-thirds of the country's gross domestic product.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Banana production around San Pedro Sula has not fully recovered fifteen years after Hurricane Mitch.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "environment"
+  },
+  {
+   "year": 2013,
+   "text": "The city had 187 homicides per 100,000 residents, surpassing Ciudad Juarez.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2014,
+   "text": "The New York Times described the Chamelecón district as a warren of modest cement-block houses.",
+   "url": "https://en.wikipedia.org/wiki/San_Pedro_Sula",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

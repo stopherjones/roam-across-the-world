@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 3844,
+  "completionTokens": 1863,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1858,
+   "theme": "civic",
+   "event": "Poona Municipality was established in 1858.",
+   "quote": "Poona Municipality was established in 1858.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1949,
+   "theme": "culture",
+   "event": "The University of Pune was established in 1949.",
+   "quote": "The education sector in the city continued its growth in the post-independence era with the establishment of the University of Pune (now, Savitribai Phule Pune University) in 1949, the National Chemical Laboratory in 1950 and the National Defence Academy in 1955.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2001,
+   "theme": "commerce_industry",
+   "event": "Work on the Mumbai-Pune expressway was completed in 2001.",
+   "quote": "In 1998 work on the six-lane Mumbai-Pune expressway began; it was completed in 2001.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

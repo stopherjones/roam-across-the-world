@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 2114,
+  "completionTokens": 2121,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1902,
+   "theme": "civic",
+   "event": "Bahir Dar received the prestigious UNESCO Cities for Peace Prize for addressing rapid urbanization.",
+   "quote": "In 2002, it was awarded the UNESCO Cities for Peace Prize for addressing the challenges of rapid urbanization.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1810,
+   "theme": "civic",
+   "event": "Bahir Dar had a recorded population of 1,200 to 2,000 inhabitants between two dates.",
+   "quote": "Between 1810 and 1900, Bahir Dar had 1,200 to 2,000 inhabitants.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

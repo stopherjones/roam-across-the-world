@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 7915,
+  "completionTokens": 6029,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2003,
+   "theme": "commerce_industry",
+   "event": "A report stated that London possesses a quarter of the leisure economy.",
+   "quote": "According to a 2003 report, London has a quarter of the leisure economy.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

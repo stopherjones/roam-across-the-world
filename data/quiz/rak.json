@@ -1,0 +1,130 @@
+{
+ "id": "rak",
+ "town": "Marrakech",
+ "source": "https://en.wikipedia.org/wiki/Marrakesh",
+ "pool": [
+  {
+   "year": 1070,
+   "text": "The city was founded by Abu Bakr ibn Umar as the capital.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1147,
+   "text": "Abd al-Mu'min captured Marrakesh after a siege of several months.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1147,
+   "text": "Abd al-Mu'min founded the Kutubiyya Mosque next to the former palace.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 1157,
+   "text": "Abd al-Mu'min was responsible for establishing the Menara Gardens.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "environment"
+  },
+  {
+   "year": 1269,
+   "text": "Marrakesh was conquered by the Marinids, a Zenata tribe.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1564,
+   "text": "The Ben Youssef Madrasa was constructed by the Saadian Sultan Abdallah al-Ghalib as Morocco's largest madrasa.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "A protocol giving independence to Morocco was signed.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "The Ben Youssef Madrasa building was refurbished and reopened to the public as a historical site.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "UNESCO declared the old town area a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The Marrakesh Agreement was signed here to establish the World Trade Organisation.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "The International Film Festival of Marrakech was established.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The Moroccan government signed a loan agreement worth eight million U.S. in February.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "The Marrakech Bienniale was established by Vanessa Branson as a multidisciplinary cultural festival.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "King Mohammed VI inaugurated the road from Marrakesh to Settat in April.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Fatima-Zahra Mansouri was elected the first female mayor of the city.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The House of Photography of Marrakech was opened by Patrick Menac’h and Hamid Mergani.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "King Mohammed VI inaugurated a regional psychiatric hospital in Marrakesh built by the foundation.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "A major gas explosion occurred in the city.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "A bomb attack took place in the Jemaa el-Fnaa square, killing 15 people.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2016,
+   "text": "The city hosted the United Nations Climate Change Conference.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

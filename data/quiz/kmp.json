@@ -1,0 +1,130 @@
+{
+ "id": "kmp",
+ "town": "Kampala",
+ "source": "https://en.wikipedia.org/wiki/Kampala",
+ "pool": [
+  {
+   "year": 1860,
+   "text": "Sir Richard Burton published the first written description of the Kibuga in his book.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "culture"
+  },
+  {
+   "year": 1862,
+   "text": "John Speke arrived in Buganda when the capital was located at Bandabarogo.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1875,
+   "text": "Henry Morton Stanley met Kabaka Mutesa I at Lubaga Hill.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1877,
+   "text": "Protestant missionaries from the Church Mission Society arrived and were allocated Namirembe Hill.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "culture"
+  },
+  {
+   "year": 1890,
+   "text": "Frederick Lugard signed a British protection treaty while the capital was at Mengo Hill.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1895,
+   "text": "Mengo Senior School opened at Namirembe hill as the first Western education school.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "culture"
+  },
+  {
+   "year": 1897,
+   "text": "Sir Albert Ruskin Cook opened Mengo Hospital as the first Western-style health facility.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "culture"
+  },
+  {
+   "year": 1899,
+   "text": "The Missionary Sisters of Our Lady of Africa founded Lubaga Hospital on Lubaga Hill.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "culture"
+  },
+  {
+   "year": 1900,
+   "text": "Regents and officials signed the Buganda Agreement with Sir Harry Johnston.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1906,
+   "text": "The Kampala boundary was set as a three-mile radius from Nakasero Fort.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "civic"
+  },
+  {
+   "year": 1912,
+   "text": "Kampala Township received its first land-use plan with a specific population count.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "civic"
+  },
+  {
+   "year": 1931,
+   "text": "The Uganda Railway line reached Kampala after thirty-five years of construction.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1938,
+   "text": "Sir Philip Mitchel switched on Kampala and Uganda's first electric street lights.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1951,
+   "text": "Henry Kendall's third physical plan expanded the area of Kampala.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Uganda gained independence and Kampala was granted city status as the new capital.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "Kampala boundaries expanded to incorporate surrounding townships and areas.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "The Battle of Kampala took place during the Ugandan Bush War.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2010,
+   "text": "The Kampala Capital City Authority Act gave the Ugandan Government more administrative control.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "Google launched its first Wi-Fi network in Kampala in December.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "The Allied Democratic Forces carried out suicide bombings near the central police station and parliament.",
+   "url": "https://en.wikipedia.org/wiki/Kampala",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

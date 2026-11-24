@@ -1,0 +1,130 @@
+{
+ "id": "nap",
+ "town": "Naples",
+ "source": "https://en.wikipedia.org/wiki/Naples",
+ "pool": [
+  {
+   "year": 1191,
+   "text": "Henry invaded Sicily after being crowned as Henry VI, Holy Roman Emperor.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1224,
+   "text": "The University of Naples Federico II was founded as a secular institution.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1282,
+   "text": "The Kingdom of Sicily was divided into two after the Sicilian Vespers.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1329,
+   "text": "Castel Sant'Elmo was completed and built in the shape of a star.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1656,
+   "text": "An outbreak of bubonic plague killed about half of the city residents.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "environment"
+  },
+  {
+   "year": 1839,
+   "text": "Naples became the first city on the Italian Peninsula with a railway.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "Singer and actor Mario Abbate was born in Naples, Italy.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "Singer and actor Mario Merola was born in Naples, Italy.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1935,
+   "text": "The Rationalist architect Luigi Cosenza designed a new fish market.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "Singer and actor Mario Da Vinci was born in Naples, Italy.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1943,
+   "text": "The Four Days of Naples was an uprising against Nazi German occupation.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "The film Shoeshine was directed by Neapolitan Vittorio De Sica.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1950,
+   "text": "Special funding from the Fund for the South was provided to improve the economy.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "Toto in Color became one of the first Italian colour films.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1954,
+   "text": "Journey to Italy was directed by filmmaker Roberto Rossellini in Naples.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "The film Hands over the City was directed by Francesco Rosi.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "Marriage Italian Style was directed by Neapolitan filmmaker Vittorio De Sica.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "There were an estimated 7,047,399 native speakers of the local dialects.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "The historic centre was listed by UNESCO as a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "Time Out named Naples the best city for food.",
+   "url": "https://en.wikipedia.org/wiki/Naples",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,70 @@
+{
+ "id": "fnc",
+ "town": "Funchal",
+ "source": "https://en.wikipedia.org/wiki/Funchal",
+ "pool": [
+  {
+   "year": 1508,
+   "text": "The settlement was elevated to the status of city by King Manuel I of Portugal.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "civic"
+  },
+  {
+   "year": 1573,
+   "text": "Evidence of the work produced by this architect was published in the Mapa de Mateus Fernandes.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "culture"
+  },
+  {
+   "year": 1822,
+   "text": "Anglican services have been held at Holy Trinity Church in Funchal since this year.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "culture"
+  },
+  {
+   "year": 1836,
+   "text": "The Synagogue of Funchal was built in the city, but is now disused.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "culture"
+  },
+  {
+   "year": 1848,
+   "text": "Prince Alexander of the Netherlands died in Funchal during his visit.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Funchal Baptist Church was established in Madeira during this year.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "The Church of Jesus Christ of Latter-day Saints was established on Madeira.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "The project ArT of opEN doors project in Rua de Santa Maria has been implemented.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The indie band NAPA was formed, notable for their song Deslocado.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "A published paper estimated climate changes affecting the future climate of Funchal.",
+   "url": "https://en.wikipedia.org/wiki/Funchal",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

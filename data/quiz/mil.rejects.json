@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8571,
+  "completionTokens": 6449,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2019,
+   "theme": "environment",
+   "event": "Thirty-five kilometers of bike lanes were realized on short notice during the COVID pandemic.",
+   "quote": "During the COVID pandemic in 2019, 35 km of bike lanes were realized on short notice, to relieve pressure on the subway occupation.",
+   "stage": "verification",
+   "why": "The source quote associates the COVID pandemic with 2019, which is factually incorrect for COVID, but the quote itself does explicitly state 2019. Wait, the prompt asks if the quote supports it. The quote says 'During the COVID pandemic in 2019', so the quote literally supports the claim, even if historically flawed."
+  }
+ ]
+}

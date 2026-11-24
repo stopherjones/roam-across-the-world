@@ -1,0 +1,130 @@
+{
+ "id": "poa",
+ "town": "Porto Alegre",
+ "source": "https://en.wikipedia.org/wiki/Porto_Alegre",
+ "pool": [
+  {
+   "year": 1742,
+   "text": "The city of Porto Alegre was officially established in this year.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "civic"
+  },
+  {
+   "year": 1772,
+   "text": "The official foundation date of the city of Porto Alegre occurred.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "civic"
+  },
+  {
+   "year": 1773,
+   "text": "Porto Alegre officially became the capital city of the province.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "civic"
+  },
+  {
+   "year": 1824,
+   "text": "Immigrants from all over the world started arriving in the region.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "civic"
+  },
+  {
+   "year": 1835,
+   "text": "The Farrapos War started with a confrontation near the Azenha bridge.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1903,
+   "text": "The oldest museum in the state was created in the city.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "The greatest Book Fair in the Americas began taking place in October.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "The city became known worldwide through hosting the World University Games.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "An important cultural auditorium was inaugurated and relocated to Farroupilha Park.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "The Lami José Lutzenberger Biological Reserve was established in the Lami neighborhood.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "environment"
+  },
+  {
+   "year": 1985,
+   "text": "People joined the movement for free elections in one of the largest demonstrations.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "The first metro line was inaugurated between the Central Public Market and Sapucaia do Sul.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "The first full participatory budgeting process was developed in the city.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "A natural gas pipeline from Bolivia to Brazil was completed with its terminus here.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "The city began hosting one of the world's largest free software events called FISL.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Paris became a partner city of Porto Alegre.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "The city stood out for hosting the first edition of the World Social Forum.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "The Lami José Lutzenberger Biological Reserve reopened after being closed for more than ten years.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "The 9th Assembly of the World Council of Churches was held in the city.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "A building designed by Portuguese architect Álvaro Siza was opened offering views of the river.",
+   "url": "https://en.wikipedia.org/wiki/Porto_Alegre",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

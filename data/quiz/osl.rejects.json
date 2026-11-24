@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9135,
+  "completionTokens": 6250,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "The municipality of Oslo recorded a total population of 724,290 residents.",
+   "quote": "The municipality of Oslo had a population of 724,290 in 2025, while the city's greater urban area had a population of 1,110,887 in 2025, and the metropolitan area had an estimated population of 1,546,706 in 2021.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

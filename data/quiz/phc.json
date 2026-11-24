@@ -1,0 +1,130 @@
+{
+ "id": "phc",
+ "town": "Port Harcourt",
+ "source": "https://en.wikipedia.org/wiki/Port_Harcourt",
+ "pool": [
+  {
+   "year": 1909,
+   "text": "Geologist Albert Ernest Kitson discovered coal in Enugu for export through the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1912,
+   "text": "The building of a port-town was started after land ceding by Diobu people.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1913,
+   "text": "Governor Sir Frederick Lugard named Port Harcourt in honor of Lewis Harcourt.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 1914,
+   "text": "Port Harcourt started from an area of 15.54 km2 in the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "environment"
+  },
+  {
+   "year": 1925,
+   "text": "A 375-bed facility was founded to provide general and specialist medical services.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "The population of Port Harcourt was counted as 59,752 residents.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "Crude oil was discovered in Oloibiri leading to new economic activity.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "The first shipment of Nigerian crude oil was exported through the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1968,
+   "text": "Port Harcourt fell to Nigerian forces during the secession of the Republic of Biafra.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1981,
+   "text": "Radio Rivers was founded to offer programs in English and indigenous languages.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Port Harcourt Book Festival was incepted and remains an important event.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "The Authority was established by law to facilitate the implementation of the master plan.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Water sector and utility reforms were initiated in Rivers State.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "UNESCO and international bodies named Port Harcourt the World Book Capital.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Slim Burna sang a song called Port Harcourt Boy from his release.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "More than 5 local FM stations were commercially licensed in the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The Port Harcourt Water Corporation formally took off with a recruitment mandate.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The University of Port Harcourt was ranked sixth in Africa by Times Higher Education.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The metropolitan area population reached an estimate by the United Nations.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Roseline Konya stated a high reading for air pollution in the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

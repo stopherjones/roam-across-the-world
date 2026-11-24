@@ -1,0 +1,100 @@
+{
+ "id": "gdr",
+ "town": "Gondar",
+ "source": "https://en.wikipedia.org/wiki/Gondar",
+ "pool": [
+  {
+   "year": 1636,
+   "text": "Emperor Fasilides selected the city of Gondar as his royal camp.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1648,
+   "text": "A Yemeni ambassador visited the palace and described it as stone and lime.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "culture"
+  },
+  {
+   "year": 1755,
+   "text": "An agreement between the Empress and Mikael involved the marriage of his son.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1767,
+   "text": "Ras Mikael Sehul killed Iyoas and crowned Yohannes II.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1831,
+   "text": "Relatives of Ali II caused unrest in Gondar, prompting leaders to withdraw.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1833,
+   "text": "Priests and citizens protested when Emperor Sahle Dengel attempted to reduce church power.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "civic"
+  },
+  {
+   "year": 1854,
+   "text": "Kassa Hailu took control of the town and asked nobles to accept him.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1864,
+   "text": "Tewodros ordered the Muslim inhabitants of the city to convert or leave.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1888,
+   "text": "The Mahdists entered the city and burnt all the churches.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "General Achille Starace occupied Gondar without a fight.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "British and Italian military fought in Gondar during the East African Campaign.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Land tax introduction attempts met with military opposition in Gondar and Tigray.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "The EPRDF launched a military offensive codenamed Operation Tewodros against the government.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2023,
+   "text": "Gondar has seen a surge in violent crimes due to conflict.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2024,
+   "text": "The city remains under Ethiopian government control after intense fighting.",
+   "url": "https://en.wikipedia.org/wiki/Gondar",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

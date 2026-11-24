@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 2663,
+  "completionTokens": 3364,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 912,
+   "theme": "culture",
+   "event": "Subh of Cordoba martyred as Christian saint",
+   "quote": "Subh of Cordoba (c. 912–926), Christian boy and saint who died as a martyr in Cordoba",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

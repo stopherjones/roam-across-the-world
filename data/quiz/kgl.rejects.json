@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5591,
+  "completionTokens": 3062,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2005,
+   "theme": "culture",
+   "event": "Kabera inaugurated the Rwanda Film Festival, which took place annually at various venues.",
+   "quote": "In 2005, Kabera inaugurated the Rwanda Film Festival, which took place annually at venues in the capital and elsewhere.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "Administrative reforms transferred significant district powers to a new city-wide council.",
+   "quote": "Reforms in January 2020 transferred much of the districts' power to the city-wide council.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2014,
+   "theme": "commerce_industry",
+   "event": "The first special economic zone in Rwanda was established on Masoro Hill.",
+   "quote": "In 2011, the parliament passed a law establishing special economic zones in Rwanda, the first of which was established in 2014 on Masoro Hill in Gasabo district, close to Kigali International Airport.",
+   "stage": "verification",
+   "why": "The source states the first special economic zone was established in 2014, but does not mention the 2011 parliament law establishing them as part of the claim's specific focus, though the year 2014 matches the establishment on Masoro Hill."
+  }
+ ]
+}

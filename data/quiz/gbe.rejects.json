@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3952,
+  "completionTokens": 3736,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2024,
+   "theme": "environment",
+   "event": "Around 37 Greater flamingos were recorded for the first time at the main waterhole.",
+   "quote": "Around 37 Greater flamingos were recorded for the first time in the region at the main waterhole in March 2024.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1880,
+   "theme": "civic",
+   "event": "The Tlokwa left the Magaliesberg ranges to settle in the area and called it Moshaweng.",
+   "quote": "In more recent history, the Tlokwa left the Magaliesberg ranges to settle in the area around 1880, and called the settlement Moshaweng.",
+   "stage": "verification",
+   "why": "The source states 'around 1880' rather than specifically the exact year 1880."
+  }
+ ]
+}

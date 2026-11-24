@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9514,
+  "completionTokens": 7288,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "The Smithsonian locations recorded a combined total of 30 million visits.",
+   "quote": "The Smithsonian's locations had a combined total of 30 million visits in 2013.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2022,
+   "theme": "culture",
+   "event": "Two major museums were recorded as the most visited in the country.",
+   "quote": "In 2022, the National Museum of Natural History and the National Gallery of Art were the two most visited museums in the country.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1961,
+   "theme": "civic",
+   "event": "Voters chose three presidential electors under the Twenty-third Amendment.",
+   "quote": "The city's voters choose three presidential electors in accordance with the Twenty-third Amendment, passed in 1961.",
+   "stage": "verification",
+   "why": "The source states the amendment was passed in 1961, but does not mention voters choosing electors in that exact year."
+  }
+ ]
+}

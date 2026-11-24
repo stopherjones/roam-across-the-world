@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2519,
+  "completionTokens": 2458,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "The population of Goiânia is composed of various groups according to the census.",
+   "quote": "According to the census of the IBGE 2022, in search of self-declaration, the population of Goiânia is composed of Multiracial (48.0%), White (43.6%), Black (7.9%), Asian (0.3%) and Amerindian (0.1%).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1992,
+   "theme": "environment",
+   "event": "The municipality contains part of the Altamiro de Moura Pacheco State Park.",
+   "quote": "The municipality contains part of the 2,132 hectares (5,270 acres) Altamiro de Moura Pacheco State Park, created in 1992.",
+   "stage": "verification",
+   "why": "The source quote mentions the park was created in 1992, but does not state the municipality contains it specifically in 1992."
+  }
+ ]
+}

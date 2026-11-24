@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4237,
+  "completionTokens": 2496,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2025,
+   "theme": "culture",
+   "event": "Expo 2025 was held at Yumeshima Island, Konohana-ku.",
+   "quote": "Expo 2025 was held at Yumeshima Island, Konohana-ku from April to October 2025.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "Hideyuki Yokoyama won the mayoral election to become the current mayor.",
+   "quote": "Hideyuki Yokoyama is the current mayor of Osaka having won the mayoral election in 2023 and 2026.",
+   "stage": "verification",
+   "why": "The source quote states the mayoral election was won in 2023 and 2026, which contains a future/inaccurate year not fitting a simple 2023 claim context."
+  }
+ ]
+}

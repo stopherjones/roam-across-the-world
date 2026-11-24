@@ -1,0 +1,118 @@
+{
+ "id": "tzx",
+ "town": "Trabzon",
+ "source": "https://en.wikipedia.org/wiki/Trabzon",
+ "pool": [
+  {
+   "year": 1204,
+   "text": "The Empire of Trebizond was formed following a Georgian expedition led by Alexios Komnenos.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1258,
+   "text": "The Mongol siege of Baghdad diverted more trade caravans towards Trebizond.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1306,
+   "text": "The Genoese bought the coastal fortification Leonkastron to secure their Black Sea trade.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1310,
+   "text": "Following the great city fire, the ruined university was reestablished.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "civic"
+  },
+  {
+   "year": 1340,
+   "text": "Tur Ali Beg, an early ancestor of the Aq Qoyunlu, raided Trebizond.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1347,
+   "text": "The Black Death arrived at the city probably via Kaffa.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "environment"
+  },
+  {
+   "year": 1461,
+   "text": "David surrendered Trebizond to Sultan Mehmed II, bringing the city under Ottoman rule.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1494,
+   "text": "Suleiman the Magnificent was born in Trabzon.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "culture"
+  },
+  {
+   "year": 1598,
+   "text": "Trabzon became the capital of its own province, the Eyalet of Trebizond.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "civic"
+  },
+  {
+   "year": 1835,
+   "text": "The American Board of Commissioners for Foreign Missions opened the Trebizond Mission station.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "culture"
+  },
+  {
+   "year": 1890,
+   "text": "A local Greek merchant built the villa known as Atatürk Köşkü.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "culture"
+  },
+  {
+   "year": 1901,
+   "text": "Stothert & Pitt equipped the Trabzon harbour with cranes.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1912,
+   "text": "The Sümer Opera House opened on the central Meydan square.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "culture"
+  },
+  {
+   "year": 1918,
+   "text": "The city hosted the Trebizond Peace Conference in March and April.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1924,
+   "text": "Mustafa Kemal Atatürk stayed in the villa during his visit to Trabzon.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Mustafa Kemal Atatürk stayed at the villa again during a visit.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "Dame Rose Macaulay published her last novel, The Towers of Trebizond.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Trabzon Airport officially opened.",
+   "url": "https://en.wikipedia.org/wiki/Trabzon",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

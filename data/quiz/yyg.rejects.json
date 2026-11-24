@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3343,
+  "completionTokens": 2763,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2024,
+   "theme": "environment",
+   "event": "The Charlottetown meteorite became the first recorded video and sound strike.",
+   "quote": "The first video and sound recording of a meteorite striking the earth, the Charlottetown meteorite, was captured in the neighborhood of Marshfield in 2024.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

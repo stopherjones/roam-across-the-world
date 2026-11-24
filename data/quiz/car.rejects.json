@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8406,
+  "completionTokens": 5910,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1999,
+   "theme": "culture",
+   "event": "The Principality Stadium opened and contributed significantly to the economy.",
+   "quote": "According to the Welsh Rugby Union, the Principality Stadium contributed £1 billion to the Welsh economy in the ten years after it opened in 1999, with around 85% of that staying in the Cardiff area.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "Cardiff was dubbed European City of Sport for its role in international sporting events.",
+   "quote": "It hosted the 1958 British Empire and Commonwealth Games and was dubbed European City of Sport for its role in international sporting events in 2009 and again in 2014.",
+   "stage": "verification",
+   "why": "The source quote mentions the title was held in 2009 and 2014, but the claim specifically dates the title to 2014 alone which is only partially representative."
+  },
+  {
+   "year": 2018,
+   "theme": "civic",
+   "event": "Nextbike operated a public bike-hire scheme in the city before being allegedly scrapped due to theft.",
+   "quote": "Nextbike previously operated a public bike-hire scheme in the city between March 2018 and January 2024, with the scheme allegedly being scrapped due to theft.",
+   "stage": "verification",
+   "why": "The claim specifies the year 2018 for the entire scheme's operation and scrapping, but the source quote states it operated between March 2018 and January 2024."
+  }
+ ]
+}

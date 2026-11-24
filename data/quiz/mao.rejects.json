@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 4078,
+  "completionTokens": 3314,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1848,
+   "theme": "civic",
+   "event": "Legally transformed into a city named Cidade da Barra do Rio Negro.",
+   "quote": "It was legally transformed into a city on October 24, 1848, with the name of Cidade da Barra do Rio Negro, Portuguese for \"The City of the Margins of the Black River\".",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1967,
+   "theme": "commerce_industry",
+   "event": "Manaus Free Trade Zone introduced to stimulate regional development.",
+   "quote": "In the 1960s during the establishment of the military dictatorship in Brazil, the newly installed government ... began to introduce numerous projects ... with the introduction of the Manaus free trade zone in 1967.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2009,
+   "theme": "power_conflict",
+   "event": "Manaus selected as host city for the 2014 FIFA World Cup.",
+   "quote": "Manaus was chosen in 2009 to be a host city for the 2014 FIFA World Cup, after a competition to represent the North Region of Brazil with neighboring Pará state capital, Belém.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2014,
+   "theme": "power_conflict",
+   "event": "Hosted football matches during the 2014 FIFA World Cup.",
+   "quote": "Manaus was one of the twelve Brazilian host cities of the 2014 World Cup, as well as one of the six hosts of football matches at the 2016 Summer Olympics.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2016,
+   "theme": "power_conflict",
+   "event": "Hosted Olympic football games during the Rio 2016 Summer Olympics.",
+   "quote": "Manaus was one of the twelve Brazilian host cities of the 2014 World Cup, as well as one of the six hosts of football matches at the 2016 Summer Olympics.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

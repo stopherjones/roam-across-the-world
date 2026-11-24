@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7624,
+  "completionTokens": 5756,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1912,
+   "theme": "culture",
+   "event": "Hugh Chisholm edited the Guide to New Zealand featuring Wellington for New Zealand Times Co.",
+   "quote": "Chisholm, Hugh, ed. Baeyertz (1912), \"Wellington\", Guide to New Zealand, Wellington: New Zealand Times Co., OCLC 5747830, OL 251804M",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2006,
+   "theme": "civic",
+   "event": "Proportions of the employed population were recorded working in Wellington city and the Hutt Valley.",
+   "quote": "However, both have significant proportions of their employed population working in Wellington city and the Hutt Valley (36.1% and 17.1% in 2006 respectively) and are considered part of the Wellington functional urban area by Statistics New Zealand.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1879,
+   "theme": "culture",
+   "event": "Stanford is noted in connection with early historical records concerning Wellington.",
+   "quote": "Stanford, 1879",
+   "stage": "verification",
+   "why": "The source quote only contains a citation 'Stanford, 1879' and does not provide enough text to support the claim's details."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4935,
+  "completionTokens": 4125,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1908,
+   "theme": "commerce_industry",
+   "event": "The infamous Dos Bocas oil fire occurred.",
+   "quote": "In 1908, the infamous Dos Bocas oil fire occurred after the San Diego de la Mar No. 4 well, located by Ezequiel Ordonez, became the largest daily production record holder in 1916 at 260,000 barrels.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1954,
+   "theme": "civic",
+   "event": "The state legislature adopted the official seal.",
+   "quote": "The state's official seal, adopted in 1954 by the state legislature through Law No. 92, is based on the colonial coat of arms granted by King Charles I of Spain to Villa Rica de la Vera Cruz in 1923, recognizing Veracruz as the first Spanish settlement in New Spain.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

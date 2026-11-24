@@ -1,0 +1,130 @@
+{
+ "id": "kis",
+ "town": "Kisumu",
+ "source": "https://en.wikipedia.org/wiki/Kisumu",
+ "pool": [
+  {
+   "year": 1899,
+   "text": "The first skeleton plan for the location of Kisumu was prepared.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "civic"
+  },
+  {
+   "year": 1900,
+   "text": "The ship SS William Mackinnon was reassembled and registered in Kisumu.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1901,
+   "text": "The railway line from Mombasa reached the Kisumu pier and was named Port Florence.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1903,
+   "text": "The township boundaries were gazetted and land set aside for its development.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "civic"
+  },
+  {
+   "year": 1907,
+   "text": "Winston Churchill visited the growing town of Kisumu during his travels.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "A monument was unveiled by the then Governor of Kenya Sir Robert Brooke-Popham.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "The town was elevated to the status of a municipal board.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "A Lockheed Lodestar aircraft crashed near Kisumu, killing all twelve people on board.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "A Douglas C-47 plane crash resulted in twenty-eight fatalities in Kisumu.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "The municipality of Kisumu was elevated to the status of a municipal council.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "Independence was declared, leading to an influx of locals into the town.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "The city's growth and prosperity slowed down due to the community collapse.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1980,
+   "text": "Kisumu Museum was established with outdoor pavilions laid out like a Luo homestead.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "The area was gazetted as the Ndere Island National Reserve and remained uninhabited.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "environment"
+  },
+  {
+   "year": 1996,
+   "text": "The city spurred with the reformation of the community and its new designation.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The first aviation incident took place outside Kisumu.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "A massive road project for a major overhaul of the network was initiated.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Passenger trains operated between Nairobi and Kisumu using the revamped meter gauge rail.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "A song by Zack Okello talks about how Kisumu is growing rapidly.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "Some of the events in the story by Andrei Gusev take place in Kisumu.",
+   "url": "https://en.wikipedia.org/wiki/Kisumu",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

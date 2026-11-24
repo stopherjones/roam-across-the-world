@@ -1,0 +1,130 @@
+{
+ "id": "pna",
+ "town": "Patna",
+ "source": "https://en.wikipedia.org/wiki/Patna",
+ "pool": [
+  {
+   "year": 1574,
+   "text": "Mughal emperor Akbar reached Patna to crush the rebellious Afghan Chief Daud Khan.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1580,
+   "text": "The Portuguese sent in traders, establishing a factory in Patna at least.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1620,
+   "text": "The English East India Company established a factory in Patna for trading.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1632,
+   "text": "Peter Mundy described Patna as the greatest mart of the eastern region.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1704,
+   "text": "Mughal Emperor Aurangzeb renamed Patna as Azimabad while Prince Azim was subedar.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1750,
+   "text": "Siraj ud-Daulah revolted and seized Patna before surrendering and receiving forgiveness.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "The sewerage system in Patna was set up.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "The All India Radio Patna was established as Akashvani Patna Kendra.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "Magahi Parishad pioneered Magadhi journalism in Bihar.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Asia's longest river bridge, the Mahatma Gandhi Setu, was built in Patna.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The Patna Regional Development Authority was dissolved.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The World Bank ranked Patna second in India for ease of starting business.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Six people were killed in a series of coordinated bombings at a rally.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2014,
+   "text": "Thirty-three people were killed in a stampede at Gandhi Maidan during celebrations.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2015,
+   "text": "The Bihar government built a state-of-the-art landmark museum in Patna.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "The Patna Metropolitan Area Authority was established as the superseding agency.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "Eptisa Servicios de Ingenieria SL of Spain was chosen as project management consultant.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "The Sabhyata Dwar was built with Mauryan-style architecture and completed.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Tata Consultancy Services started operations at a new Patna facility.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "The Taj Hotel Patna at Budh Marg Lodipur finished construction.",
+   "url": "https://en.wikipedia.org/wiki/Patna",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

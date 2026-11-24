@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2320,
+  "completionTokens": 2345,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2018,
+   "theme": "civic",
+   "event": "The population of Blantyre reached 800,264 people as recorded in the census.",
+   "quote": "Blantyre is Malawi's centre of finance and commerce, and its second largest city, with a population of 800,264 as of 2018.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

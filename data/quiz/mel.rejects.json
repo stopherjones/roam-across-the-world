@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7372,
+  "completionTokens": 5216,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Census recorded that zero point seven percent of the population identified as Indigenous",
+   "quote": "At the 2021 census, 0.7% of Melbourne's population identified as being Indigenous—Aboriginal Australians and Torres Strait Islanders.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Census recorded sixty one point one percent of Melburnians spoke only English at home",
+   "quote": "At the time of the 2021 census, 61.1% of Melburnians spoke only English at home.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1861,
+   "theme": "commerce_industry",
+   "event": "Australia's first stock exchange and the first Melbourne Cup race occurred.",
+   "quote": "Melbourne quickly became a major finance centre, home to several banks, the Royal Mint, and (in 1861) Australia's first stock exchange.",
+   "stage": "verification",
+   "why": "The source quote mentions the stock exchange in 1861, but does not mention the first Melbourne Cup race."
+  },
+  {
+   "year": 1880,
+   "theme": "commerce_industry",
+   "event": "Melbourne tram network dates from the great land boom of that era",
+   "quote": "Melbourne's tram network dates from the 1880s land boom and, as of 2021, consists of 250 km (155.3 mi) of double track, 475 trams, 25 routes, and 1,763 tram stops, making it the largest in the world.",
+   "stage": "verification",
+   "why": "The source refers to the '1880s land boom' generally, rather than specifying the exact single year 1880."
+  },
+  {
+   "year": 1940,
+   "theme": "civic",
+   "event": "Melbourne tram network overtook Sydneys network to become the world largest",
+   "quote": "Flinders Street station was the world's busiest passenger station in 1927 and Melbourne's tram network overtook Sydney's to become the world's largest in the 1940s.",
+   "stage": "verification",
+   "why": "The source refers to the '1940s' plural, rather than the specific exact year 1940."
+  },
+  {
+   "year": 1989,
+   "theme": "civic",
+   "event": "Local governments became responsible for functions set out in the Local Government Act",
+   "quote": "The local governments are responsible for providing the functions set out in the Local Government Act 1989 such as urban planning and waste management.",
+   "stage": "verification",
+   "why": "The source mentions the 'Local Government Act 1989' (referring to the title of the legislation), but does not specifically claim that functions were set out in that exact year for the first time."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4485,
+  "completionTokens": 4059,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1984,
+   "theme": "culture",
+   "event": "The city had a recorded population of 317,581.",
+   "quote": "By 1984, the city had a population of 317,581.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1960,
+   "theme": "power_conflict",
+   "event": "Ethiopian ONUC troops arrived in the city.",
+   "quote": "Ethiopian ONUC troops arrived in the city after July 1960.",
+   "stage": "verification",
+   "why": "The claim states the troops arrived in 1960, but the source quote only says 'after July 1960', which does not verify the exact year as a standalone point without ambiguity, though technically it means 1960 or later. However, strictly speaking, 'after July 1960' encompasses multiple years."
+  }
+ ]
+}

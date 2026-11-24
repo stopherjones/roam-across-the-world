@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9104,
+  "completionTokens": 7545,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2024,
+   "theme": "commerce_industry",
+   "event": "The city recorded a specific gross domestic product per capita.",
+   "quote": "It has a GDP per capita of €56,600€ as of 2024.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "A significant percentage of the city population used public transit.",
+   "quote": "As of 2023, 32% of the population of the city uses public transit as their main mode of transit.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

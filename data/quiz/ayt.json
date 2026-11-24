@@ -1,0 +1,130 @@
+{
+ "id": "ayt",
+ "town": "Antalya",
+ "source": "https://en.wikipedia.org/wiki/Antalya",
+ "pool": [
+  {
+   "year": 1118,
+   "text": "Attaleia was an isolated outpost surrounded by Turkish beyliks at accession.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1207,
+   "text": "Seljuk Empire changed hands in history several times including the city.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1212,
+   "text": "Local Christians rebelled and captured Attaleia with aid of Walter.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1216,
+   "text": "Briefly restored Byzantine rule in Attaleia was ended by Kaykaus I.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1249,
+   "text": "Ahi Yusuf Mosque is a historic mosque built in the city.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "culture"
+  },
+  {
+   "year": 1250,
+   "text": "Karatay Medrese is an Islamic theological seminary built by Emir Celaleddin.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "culture"
+  },
+  {
+   "year": 1391,
+   "text": "Ottoman Empire changed hands in history several times including the city.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1920,
+   "text": "Antalya was reported as having a population of approximately 30,000 residents.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1948,
+   "text": "The Synagogue was closed and its exact location is not known now.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "Singing diva Dalida held her last concert in the city.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "Antalya has had a Metropolitan Municipality established since this year.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "The AKP unexpectedly won control of the Antalya Metropolitan Municipality.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Payment for public transportation was made in cash until the launch.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Gecekondu areas are concentrated in the Kepez district of Antalya.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "It was reported it attracted 30% of foreign tourists visiting Turkey.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Antalya was the host city for the G-20 summit event.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Its number of passengers on international flights surpassed the total.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "Antalya received 13.4 million foreign tourists by air transport.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Euromonitor International ranked Antalya as the fourth-most visited city in the world.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2025,
+   "text": "The number of visitors had gone up to 18.6 million in the city.",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

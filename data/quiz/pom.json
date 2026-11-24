@@ -1,0 +1,112 @@
+{
+ "id": "pom",
+ "town": "Port Moresby",
+ "source": "https://en.wikipedia.org/wiki/Port_Moresby",
+ "pool": [
+  {
+   "year": 1873,
+   "text": "Royal Navy Captain John Moresby became the first Briton to see Port Moresby.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "culture"
+  },
+  {
+   "year": 1874,
+   "text": "Reverend William George Lawes joined Polynesian teachers and built a mission house.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "culture"
+  },
+  {
+   "year": 1885,
+   "text": "Special Commissioner Peter Scratchley arrived to choose the site for the colonial capital.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1886,
+   "text": "Surveyor Walter Cuthbertson laid out a gridiron plan for townships Granville West and Granville East.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "civic"
+  },
+  {
+   "year": 1909,
+   "text": "The first butcher's shop and grocery store opened in the growing settlement.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1912,
+   "text": "Port Moresby was successfully linked by radio communication to Thursday Island.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1925,
+   "text": "Electricity was introduced to the town for the local residents and administration.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "A piped water supply was provided to improve the infrastructure of Port Moresby.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "The Territory of Papua and New Guinea was formed under a single administration.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1972,
+   "text": "Port Moresby was granted city status with Oala Oala-Rarua becoming Lord Mayor.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "civic"
+  },
+  {
+   "year": 1975,
+   "text": "Papua New Guinea became an independent country with Port Moresby as capital.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1980,
+   "text": "The census return registered a population of 120,000 residents in the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "Prince Charles opened the new National Parliament Building blending traditional and modern technology.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "An oil company set up by the United States began to export resources.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Port Moresby hosted the major international APEC summit bringing world leaders.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Al Jazeera described Port Moresby as one of the most dangerous cities.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "The urban population grew to 756,754 people at the national census.",
+   "url": "https://en.wikipedia.org/wiki/Port_Moresby",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

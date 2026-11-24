@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 8167,
+  "completionTokens": 6357,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1960,
+   "theme": "environment",
+   "event": "The Santa Fe Zoo was founded with about 1,000 animals from various regions.",
+   "quote": "The Santa Fe Zoo, founded in 1960, has about 1,000 animals from Asia, Africa, and the Americas.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1993,
+   "theme": "power_conflict",
+   "event": "Crime rates in the city decreased dramatically after the death of Escobar.",
+   "quote": "However, after the death of Escobar in December 1993, crime rates in the city have decreased dramatically.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1842,
+   "theme": "civic",
+   "event": "San Pedro Cemetery Museum was built as a significant historical structure.",
+   "quote": "San Pedro Cemetery Museum was built in 1842, became a museum in 1998 and declared a national monument in 1999.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

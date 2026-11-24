@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3329,
+  "completionTokens": 2556,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1523,
+   "theme": "civic",
+   "event": "The total population of taxable adult males in Trabzon was recorded.",
+   "quote": "According to the Ottoman tax books (tahrir defterleri), the total population of taxable adult males (only those with a household) in the city was 1,473 in the year 1523.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1845,
+   "theme": "civic",
+   "event": "The city got a post office in 1845.",
+   "quote": "The city got a post office in 1845.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

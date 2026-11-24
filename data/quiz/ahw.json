@@ -1,0 +1,130 @@
+{
+ "id": "ahw",
+ "town": "Ahvaz",
+ "source": "https://en.wikipedia.org/wiki/Ahvaz",
+ "pool": [
+  {
+   "year": 1835,
+   "text": "Traveler Ainsworth estimated the small borough of Ahvaz was inhabited by fifteen hundred people.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "civic"
+  },
+  {
+   "year": 1880,
+   "text": "The Karun river in late Qajar Iran was dredged and reopened to commerce.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1890,
+   "text": "Curzon documented the population of the small borough of Ahvaz at seven hundred inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "The provincial government of Khuzestan province was officially transferred to Ahvaz from Shushtar.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The Trans-Iranian Railway successfully reached the interior location of Ahvaz.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1935,
+   "text": "The Council of Ministers approved officially naming the city Ahvaz once again.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "Pol Sefid arch bridge was completed and inaugurated in the city.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "A refugee camp for Polish refugees was established inside Ahvaz.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "Gondishapur University was founded before being renamed Jundishapur shortly afterwards.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "The first cohort of agriculture faculty graduates received their certificates at a ceremony.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "Iraq attempted to annex Khuzestan and Ahvaz, sparking the Iran-Iraq War.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "Azad University Ahvaz Branch was established as the first provincial branch.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "The Foolad Ahvaz steel facility was built near the town.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "Foolad F.C. won the championship of Iran's Premier Football League.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "The World Health Organization ranked Ahvaz as the world's most air-polluted city.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "environment"
+  },
+  {
+   "year": 2014,
+   "text": "Foolad won the football league for the second time during this season.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Thousands of aircraft took off and landed at the local airport moving cargo and passengers.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "Esteghlal Khuzestan won the top football league for the very first time.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "Gunmen killed at least twenty nine people at the military parade attack.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2026,
+   "text": "Iraqi militias affiliated with the Iranian government recruited forces to suppress protests.",
+   "url": "https://en.wikipedia.org/wiki/Ahvaz",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

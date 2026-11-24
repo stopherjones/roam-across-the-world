@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 2152,
+  "completionTokens": 2191,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1869,
+   "theme": "culture",
+   "event": "Protestant missionaries established a church and school on the atoll in 1869.",
+   "quote": "Protestant missionaries of the American Board of Commissioners for Foreign Missions established a church and school on atoll in 1869.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1876,
+   "theme": "commerce_industry",
+   "event": "Trading firms engaged in the copra trade on Majuro by 1876.",
+   "quote": "By 1876, agents of the firms Capelle & Co., Hernsheim & Co., and Thomas Farrell were engaged in the copra trade on Majuro.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "The population center of Delap-Uliga-Djarrit recorded thousands of residents at census.",
+   "quote": "The main population center, Delap-Uliga-Djarrit (DUD), is made up of three contiguous motus and had a population of 23,156 people at the 2021 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

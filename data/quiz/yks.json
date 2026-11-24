@@ -1,0 +1,130 @@
+{
+ "id": "yks",
+ "town": "Yakutsk",
+ "source": "https://en.wikipedia.org/wiki/Yakutsk",
+ "pool": [
+  {
+   "year": 1632,
+   "text": "Pyotr Beketov established the Lensky Ostrog on the banks of the Lena River.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1634,
+   "text": "The fort survived a siege carried out by the local Yakuts.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1638,
+   "text": "The fort became the central administration of the newly formed Yakutsk Voivodeship.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1641,
+   "text": "The Holy Trinity Cathedral was constructed in Yakutsk.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1708,
+   "text": "Yakutsk officially received city status under that specific name.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1800,
+   "text": "A theological seminary opened at the request of Ilya Shadrin in Yakutsk.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1818,
+   "text": "The seminary transformed into the Yakutsk Theological School.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1822,
+   "text": "Yakutsk attained the official designation of a regional city.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1870,
+   "text": "An imperial decree established a separate Yakutsk-Vilyuysk Diocese centered in Yakutsk.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The Holy Trinity Cathedral closed due to Soviet religious policy.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The Melnikov Permafrost Institute was founded to solve building problems on frozen soil.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "environment"
+  },
+  {
+   "year": 1986,
+   "text": "A conflict occurred at Lake Tyoploye which later engulfed Yakutsk.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1993,
+   "text": "The previously abolished local diocese was successfully restored.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1994,
+   "text": "Catholic priests belonging to the Salesians of Don Bosco began missions.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "The Roman Catholic Church of the Holy Trinity opened in Yakutia.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The reconstruction of Yakutsk Airport transformed it into a modern international complex.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "The Gagarin Center for Culture and Contemporary Art opened in Yakutsk.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "The population of Yakutsk reached 355,443 residents at the census.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "A corpus of written documents including birch bark letters was discovered in Yakutsk.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "A historical paper letter-appeal addressed to Archimandrite Feofan was found.",
+   "url": "https://en.wikipedia.org/wiki/Yakutsk",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

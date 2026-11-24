@@ -1,0 +1,130 @@
+{
+ "id": "chc",
+ "town": "Christchurch",
+ "source": "https://en.wikipedia.org/wiki/Christchurch",
+ "pool": [
+  {
+   "year": 1856,
+   "text": "The settlement officially became a city by letters patent on July 31.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "civic"
+  },
+  {
+   "year": 1861,
+   "text": "The Press was first published originally as a weekly newspaper.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "culture"
+  },
+  {
+   "year": 1863,
+   "text": "New Zealand's first public railway line opened from Ferrymead to Christchurch.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1881,
+   "text": "Telephone service was introduced in Christchurch with New Zealand's first telephone exchange.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1882,
+   "text": "The city's first sewage pumping station was established in Tuam Street.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "environment"
+  },
+  {
+   "year": 1888,
+   "text": "An earthquake caused the Christ Church Cathedral spire to collapse.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "environment"
+  },
+  {
+   "year": 1936,
+   "text": "Cherry blossoms were planted along Harper Avenue in North Hagley Park.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "environment"
+  },
+  {
+   "year": 1947,
+   "text": "A basement fire at Ballantynes department store became a major disaster.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1961,
+   "text": "Television broadcasts began with the launch of channel CHTV3.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "Television was introduced in Christchurch with channel CHTV3.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "The Lyttelton road tunnel between Lyttelton and Christchurch was opened.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1974,
+   "text": "Christchurch hosted the British Commonwealth Games at Queen Elizabeth II Park.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Subscriber toll dialling was introduced in Christchurch with the area code 03.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1988,
+   "text": "Mobile phone service was introduced to Christchurch by Telecom.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "All four electricity companies entered a joint venture, named Southpower.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "First Aotearoa Hip Hop Summit was held there in the city.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Pacific Underground established the Pacific Arts Festival in Christchurch.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Christchurch's Scribe released his debut album in New Zealand and received five times platinum.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The Banks Peninsula district council was amalgamated into Christchurch City.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "A deadly terrorist attack targeted two mosques in the city.",
+   "url": "https://en.wikipedia.org/wiki/Christchurch",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

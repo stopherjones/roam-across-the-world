@@ -1,0 +1,130 @@
+{
+ "id": "yqb",
+ "town": "Quebec City",
+ "source": "https://en.wikipedia.org/wiki/Quebec_City",
+ "pool": [
+  {
+   "year": 1541,
+   "text": "Explorer Jacques Cartier established the earliest known French settlement, Fort Charlesbourg-Royal.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1608,
+   "text": "Explorer Samuel de Champlain founded a French settlement at the location.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1629,
+   "text": "English privateers led by David Kirke captured Quebec City.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1632,
+   "text": "King Charles I agreed to return captured lands following negotiations.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1665,
+   "text": "The population reached 550 people living in 70 houses.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1690,
+   "text": "English attackers assaulted Quebec City, which was successfully defended.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1759,
+   "text": "British forces captured Quebec during the French and Indian War.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1763,
+   "text": "France officially ceded New France, including the city, to Britain.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1791,
+   "text": "Quebec City was made the capital of Lower Canada.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1820,
+   "text": "Construction of the Citadelle of Quebec began amid American attack fears.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "The First Quebec Conference was held with Franklin D.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Churchill and Roosevelt attended the Second Quebec Conference.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2002,
+   "text": "Twelve former towns were annexed by Quebec City on January 1st.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "L'Ancienne-Lorette and Saint-Augustin-de-Desmaures were reconstituted as separate municipalities after a referendum.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The city celebrated its 400th anniversary with funded festivities.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Quebec City re-organized its boroughs, reducing the total from 8 to 6.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "A student carried out a mass shooting at the Quebec Islamic Cultural Centre.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2018,
+   "text": "The unemployment rate dropped to 3.8% in June.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Police arrested a medieval-costumed man armed with a Japanese sword.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2021,
+   "text": "Bruno Marchand was elected as the current mayor.",
+   "url": "https://en.wikipedia.org/wiki/Quebec_City",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

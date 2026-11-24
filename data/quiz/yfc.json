@@ -1,0 +1,112 @@
+{
+ "id": "yfc",
+ "town": "Fredericton",
+ "source": "https://en.wikipedia.org/wiki/Fredericton",
+ "pool": [
+  {
+   "year": 1696,
+   "text": "Fredericton successfully withstood a British attack during the early conflicts in the area.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1713,
+   "text": "Acadians escaping the British takeover settled the site and named it Pointe Ste-Anne.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "culture"
+  },
+  {
+   "year": 1758,
+   "text": "The settlement was destroyed during the expulsion of the Acadians from the region.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1783,
+   "text": "United Empire Loyalists arrived from New England, marking the beginning of modern history.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "civic"
+  },
+  {
+   "year": 1784,
+   "text": "The location served as a British garrison town starting in this year until later.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1785,
+   "text": "The municipality officially became designated as the shire town of York County.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "civic"
+  },
+  {
+   "year": 1790,
+   "text": "The New Brunswick Legislative Building was constructed to serve the government.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "civic"
+  },
+  {
+   "year": 1851,
+   "text": "The municipal police force responsible for local policing was founded.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "civic"
+  },
+  {
+   "year": 1853,
+   "text": "Christ Church Cathedral was built to serve as the seat of the Anglican Diocese.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "culture"
+  },
+  {
+   "year": 1869,
+   "text": "The period of operation for the British garrison town concluded in this year.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2004,
+   "text": "The city won an innovation award for their Fred-eZone free municipality wide Wi-Fi initiative.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "The Intelligent Community Forum selected the municipality as a Top 7 Intelligent Community.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "The famous statue Freddy the Nude Dude was taken to Alabama for a replication.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "The provincial ridings elected the first-ever MLA for the Green Party of New Brunswick.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2016,
+   "text": "DFI received the Downtown Achievement Award of Excellence for a local awareness marketing campaign.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Demographic statistics showed the population breakdown by racial and ethnic categories.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "environment"
+  },
+  {
+   "year": 2023,
+   "text": "The municipality officially annexed parts of five local service districts on the first day of the year.",
+   "url": "https://en.wikipedia.org/wiki/Fredericton",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

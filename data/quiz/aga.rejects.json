@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5200,
+  "completionTokens": 3118,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1510,
+   "theme": "power_conflict",
+   "event": "The first known mention of its name, Agadir al-harba, was recorded.",
+   "quote": "The first known mention of its name, Agadir al-harba, was recorded in 1510.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1911,
+   "theme": "power_conflict",
+   "event": "Germany sent the SMS Panther to the bay of Agadir.",
+   "quote": "It sent to the bay of Agadir, (which harbour was, until 1881, closed to foreign trade) the SMS Panther which was quickly joined by the cruiser Berlin.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2024,
+   "theme": "civic",
+   "event": "The commune of Agadir recorded a population of 504,768.",
+   "quote": "The commune of Agadir recorded a population of 504,768 in the 2024 Moroccan census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

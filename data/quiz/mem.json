@@ -1,0 +1,106 @@
+{
+ "id": "mem",
+ "town": "Memphis",
+ "source": "https://en.wikipedia.org/wiki/Memphis",
+ "pool": [
+  {
+   "year": 1861,
+   "text": "CSS Memphis Confederate Battery converted from floating dry dock.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1916,
+   "text": "USS Memphis armored cruiser wrecked by a tsunami.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "Memphis slab-serif typeface designed by Rudolf Wolf.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "Chuck Berry released the song Memphis, Tennessee.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "Donnie Brooks released the song Memphis.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "Roy Orbison released the album Memphis.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "Joe Jackson released the song Memphis.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "White Zombie released Memphis from Psycho-Head Blowout.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "An American television film named Memphis released.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The Badloves released the song Memphis.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "David Nail released the song Memphis.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Boz Scaggs released the album Memphis.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Justin Bieber released Memphis from Journals.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "A film directed by Tim Sutton named Memphis released.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Coin Coin Chapter Four Memphis released.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "Justin Timberlake released Memphis from Everything I Thought It Was.",
+   "url": "https://en.wikipedia.org/wiki/Memphis",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

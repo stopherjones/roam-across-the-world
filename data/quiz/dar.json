@@ -1,0 +1,130 @@
+{
+ "id": "dar",
+ "town": "Dar es Salaam",
+ "source": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+ "pool": [
+  {
+   "year": 1866,
+   "text": "Sultan Majid bin Said of Zanzibar began building Dar es Salaam city very close to Mzizima.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1870,
+   "text": "Dar es Salaam fell into decline following the death of Majid bin Said.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1887,
+   "text": "The German East Africa Company established a station to revive Dar es Salaam.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1916,
+   "text": "The Royal Navy bombarded Dar es Salaam city with the monitor Mersey.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The town of Dar es Salaam became a municipality with nominated councillors.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Tanganyika achieved independence from colonial rule after political developments.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1964,
+   "text": "Tanganyika and Zanzibar merged to form Tanzania while Dar es Salaam remained capital.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "The Tanzanian government declared the ujamaa policy making Tanzania lean towards socialism.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "Provisions were made to relocate the capital city from Dar es Salaam to Dodoma.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Business Times was established as the first private financial and economic newspaper.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1996,
+   "text": "Dar es Salaam was managed by the Dar es Salaam City Council until June.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "Mama Africa school was founded to train professional acrobats.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "The trans-Indian Ocean backbone cable SEACOM was installed to improve internet access.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "The Mikocheni ward had a population of 32,947 according to the census.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The 35-storey PSPF Tower was finished in the city skyline.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "The Tanzania Ports Authority Tower was completed as the country's tallest building.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "The bus rapid-transit system Phase 1 began operation on May 10.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "A scientist made a breakthrough discovery of hominid footprints in Northern Tanzania.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "Paul Makonda serves as the commissioner of Dar es Salaam Region.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "Flooding displaced 1,215 households in Dar es Salaam.",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

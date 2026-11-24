@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 2122,
+  "completionTokens": 2099,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2006,
+   "theme": "civic",
+   "event": "The city of Abuja recorded a population of 776,298 residents.",
+   "quote": "At the 2006 census, the city of Abuja had a population of 776,298 and 179,674 households, making it one of the ten most populous cities in Nigeria (eighth place in 2006).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

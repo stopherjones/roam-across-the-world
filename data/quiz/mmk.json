@@ -1,0 +1,100 @@
+{
+ "id": "mmk",
+ "town": "Murmansk",
+ "source": "https://en.wikipedia.org/wiki/Murmansk",
+ "pool": [
+  {
+   "year": 1915,
+   "text": "World War I needs led to the construction of the northern part of the Kirov Railway.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1916,
+   "text": "Russian Transport Minister Alexander Trepov petitioned to grant urban status to the railway settlement.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "civic"
+  },
+  {
+   "year": 1917,
+   "text": "After the February Revolution, the town was given its present name on April 3.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "Local self-government was organized in Murmansk for the first time during a plenary session.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "civic"
+  },
+  {
+   "year": 1927,
+   "text": "Resolutions transformed Murmansk Governorate into Murmansk Okrug and made Murmansk the administrative center.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "The oldest puppet theater in the city, the Murmansk Puppetry, opened.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "The city of Murmansk became a separate administrative division of the okrug.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "The Murmansk Regional Drama Theater opened as the largest theater in the city.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "culture"
+  },
+  {
+   "year": 1946,
+   "text": "The Drama Theater of the Northern Fleet was opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "A 35.5-meter tall statue named Alyosha depicting a Soviet World War II soldier was installed.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "The Hotel Arctic opened, becoming the tallest building above the Arctic Circle.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "The city's resistance was commemorated in the formal designation of Murmansk as a Hero City.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "The evening newspaper Vecherniy Murmansk has been published since this year.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "In the Charter of the Hero City of Murmansk, districts started to be referred to as okrugs.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The territory of Murmansk was expanded when the settlement of Roslyakovo was merged.",
+   "url": "https://en.wikipedia.org/wiki/Murmansk",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

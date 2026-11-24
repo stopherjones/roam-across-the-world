@@ -1,0 +1,165 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 6378,
+  "completionTokens": 4601,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1804,
+   "theme": "power_conflict",
+   "event": "Founded in 1804 as a British penal colony, Hobart is Australia's second-oldest capital city.",
+   "quote": "Founded in 1804 as a British penal colony, Hobart is Australia's second-oldest capital city after Sydney, New South Wales.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1836,
+   "theme": "culture",
+   "event": "Charles Darwin visited Hobart Town in February 1836 as part of the Beagle expedition.",
+   "quote": "G. Charles Darwin visited Hobart Town in February 1836 as part of the Beagle expedition.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1842,
+   "theme": "civic",
+   "event": "Hobart Town became a city on 21 August 1842.",
+   "quote": "Hobart Town became a city on 21 August 1842, and was renamed Hobart from the beginning of 1881.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1866,
+   "theme": "civic",
+   "event": "The Town Hall was opened in 1866 symbolising hope for future greatness.",
+   "quote": "\"When the Town Hall was opened in 1866 it symbolised the hope of future greatness for the city\".",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1895,
+   "theme": "culture",
+   "event": "Mark Twain visited Hobart in 1895 and wrote about its cleanliness.",
+   "quote": "Mark Twain also visited in 1895 when he wrote \"Hobart has a peculiarity—it is the neatest town that the sun shines on; and I incline to believe that it is also the cleanest.\"",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1956,
+   "theme": "commerce_industry",
+   "event": "Lanherne Airport, now known as Hobart Airport, was opened in 1956.",
+   "quote": "During the mid 20th century, the state and local governments invested in building Hobart's reputation as a tourist attraction—in 1956 the Lanherne Airport (now Hobart Airport) was opened.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1973,
+   "theme": "commerce_industry",
+   "event": "Australia's first legal casino, Wrest Point Hotel Casino, opened in 1973.",
+   "quote": "Australia's first legal casino, Wrest Point Hotel Casino, opened in 1973.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1967,
+   "theme": "environment",
+   "event": "The Tasmanian fires claimed 64 lives in Hobart and destroyed homes.",
+   "quote": "Despite these successes, Hobart faced significant challenges during the 20th century, including the 1967 Tasmanian fires, which claimed 64 lives in Hobart itself and destroyed over 1200 homes...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1975,
+   "theme": "infrastructure",
+   "event": "A bulk ore carrier collided with and destroyed the Tasman Bridge.",
+   "quote": "...and the 1975 Tasman Bridge disaster, when a bulk ore carrier collided with and destroyed the concrete span bridge that connected the city to its eastern suburbs.",
+   "stage": "code check",
+   "why": "unknown theme infrastructure"
+  },
+  {
+   "year": 1905,
+   "theme": "civic",
+   "event": "The Edwardian Baroque GPO was built in Hobart in 1905.",
+   "quote": "The Edwardian Baroque GPO was built in 1905, and the Hobart City Hall was built in 1915 in a Federation warehouse style on the former city marketplace.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1915,
+   "theme": "civic",
+   "event": "The Hobart City Hall was built in 1915 on the former marketplace.",
+   "quote": "The Edwardian Baroque GPO was built in 1905, and the Hobart City Hall was built in 1915 in a Federation warehouse style on the former city marketplace.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1987,
+   "theme": "culture",
+   "event": "The postmodern Hotel Grand Chancellor was built in 1987 in Wapping.",
+   "quote": "The postmodern Hotel Grand Chancellor was built in 1987 in what was the Wapping neighbourhood, which now features many examples of contemporary architecture...",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2001,
+   "theme": "culture",
+   "event": "The Federation Concert Hall was opened in 2001 in the Wapping neighbourhood.",
+   "quote": "...such as the 2001 Federation Concert Hall and The Hedberg, designed in 2013 around Conceptualism.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "The Museum of Old and New Art opened in 2011.",
+   "quote": "The Museum of Old and New Art (MONA) opened in 2011 to coincide with the third annual MONA FOMA festival.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2023,
+   "theme": "culture",
+   "event": "Hobart became a designated UNESCO City of Literature in 2023.",
+   "quote": "In 2023, Hobart became a UNESCO City of Literature.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1854,
+   "theme": "culture",
+   "event": "The Mercury newspaper was founded by John Davies in 1854.",
+   "quote": "Hobart's major newspaper is The Mercury, which was founded by John Davies in 1854 and has been continually published ever since.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "Hillsong Church established a Hillsong Connect campus in Hobart in 2013.",
+   "quote": "In 2013, Hillsong Church established a Hillsong Connect campus in Hobart.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "The K-Block redevelopment of the Royal Hobart Hospital completed in 2020.",
+   "quote": "The distinctive shapes of the 2020 K-Block redevelopment of the Royal Hobart Hospital was based on the street grid and convict-made Rajah Quilt.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "commerce_industry",
+   "event": "The Mövenpick Hotel was built in 2021 by Jaws in Hobart.",
+   "quote": "Projects designed by local architects include the Mövenpick Hotel, built in 2021 by Jaws.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

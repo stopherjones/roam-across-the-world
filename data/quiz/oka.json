@@ -1,0 +1,130 @@
+{
+ "id": "oka",
+ "town": "Naha",
+ "source": "https://en.wikipedia.org/wiki/Naha",
+ "pool": [
+  {
+   "year": 1718,
+   "text": "The Meirindō school of classic Confucian Chinese learning was established in Kumemura.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "culture"
+  },
+  {
+   "year": 1853,
+   "text": "Perry's expeditionary squadron stopped in Naha en route to Tokyo.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1872,
+   "text": "Naha became the capital city after the replacement of the Ryūkyū Kingdom.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1879,
+   "text": "The Ryūkyū Domain was abolished and fully annexed by Japan as Okinawa Prefecture.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1899,
+   "text": "An Imperial decree established Naha as an open port for trading with Western nations.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1921,
+   "text": "The modern city of Naha was officially founded on May 20th.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "Shuri Castle was almost destroyed by the US Marines, Army and Navy.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1954,
+   "text": "The village of Oroku was merged into the city of Naha.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Honolulu in the United States established a sister city relationship with Naha.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "A specific academic work was submitted to the University of Hawaii.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "Nichinan in Miyazaki established a sister city connection with Naha.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "São Vicente in Brazil established an official partnership connection with Naha.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "Fuzhou in China established a sister city relationship with Naha.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "Naha City was prominently featured in the plot of the film The Karate Kid Part II.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "The area formerly used for United States military housing was released to Okinawa.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "environment"
+  },
+  {
+   "year": 1996,
+   "text": "Kawasaki in Kanagawa established a sister city connection with Naha.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The opening scene of David Mitchell's novel Ghostwritten is set in Naha.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The name Naha was utilized in Microsoft's space simulation video game Freelancer.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "The Okinawa Prefectural Museum opened in the area in front of Shintoshin Park.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "PBS series Family Ingredients filmed two episodes at Shuri Castle and Makishi Market.",
+   "url": "https://en.wikipedia.org/wiki/Naha",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

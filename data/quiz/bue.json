@@ -1,0 +1,130 @@
+{
+ "id": "bue",
+ "town": "Buenos Aires",
+ "source": "https://en.wikipedia.org/wiki/Buenos_Aires",
+ "pool": [
+  {
+   "year": 1335,
+   "text": "King Alfonso donated church to Mercedarians",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1516,
+   "text": "Juan Díaz de Solís first European to reach Río de la Plata",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1536,
+   "text": "First settlement founded as Ciudad de Nuestra Señora Santa María del Buen Ayre",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "civic"
+  },
+  {
+   "year": 1541,
+   "text": "Mendoza settlement abandoned after indigenous attacks",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1542,
+   "text": "Abandonment of the original settlement after indigenous attacks",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1580,
+   "text": "Permanent settlement founded by Juan de Garay",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "civic"
+  },
+  {
+   "year": 1931,
+   "text": "First Argentine sound film \"Muñequitas porteñas\" released.",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "First integral sound production created in Argentina.",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Kavanagh Building inaugurated, 120‑meter tower",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Teatro Gran Rex opened as South America’s largest cinema.",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "Navy bombed Plaza de Mayo, killing 364 civilians",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "Fernando Solanas released influential documentary \"La hora de los hornos\".",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "\"La tregua\" became first Argentine Oscar‑nominated film.",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "First Buenos Aires International Book Fair held.",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Military coup led by General Videla escalated Dirty War",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "Joined Union of Ibero‑American Capital Cities.",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "Pope John Paul II visited Buenos Aires for the first time",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "María Luisa Bemberg’s \"Camila\" nominated for Best Foreign Film Oscar.",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Around 3 million m² of construction authorized annually",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Tranvía del Este line closed due to low ridership.",
+   "url": "https://en.wikipedia.org/wiki/Buenos_Aires",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

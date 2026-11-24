@@ -1,0 +1,100 @@
+{
+ "id": "phx",
+ "town": "Phoenix",
+ "source": "https://en.wikipedia.org/wiki/Phoenix",
+ "pool": [
+  {
+   "year": 1947,
+   "text": "Keisuke Kinoshita directed the Japanese film titled Fushich",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "Robert Aldrich directed the film named The Phoenix",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "Kon Ichikawa directed the jidaigeki film titled Phoenix",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "An arcade shoot 'em up video game called Phoenix was released",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1987,
+   "text": "A space combat simulation video game was developed by ERE Informatique",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1998,
+   "text": "Danny Cannon directed the crime film titled Phoenix",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Breaking Pangaea released an EP titled Phoenix",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "A Korean drama series titled Phoenix aired in South Korea",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "A Japanese anime series based on the manga was released",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Michael Akers directed a gay-related film titled Phoenix",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "InMe released a greatest hits collection titled Phoenix",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Christian Petzold directed the film titled Phoenix",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Noora Niasari directed a short film titled The Phoenix",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "A Malayalam film titled Phoenix was released",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "Jonathan Beaulieu-Cyr directed a Canadian film titled Phoenixes",
+   "url": "https://en.wikipedia.org/wiki/Phoenix",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

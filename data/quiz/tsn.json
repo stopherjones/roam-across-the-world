@@ -1,0 +1,130 @@
+{
+ "id": "tsn",
+ "town": "Tianjin",
+ "source": "https://en.wikipedia.org/wiki/Tianjin",
+ "pool": [
+  {
+   "year": 1404,
+   "text": "The walled city of Tianjin was constructed as a historical milestone.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "civic"
+  },
+  {
+   "year": 1703,
+   "text": "The Great Mosque, Qingzhen si, was founded in the Muslim quarter.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "culture"
+  },
+  {
+   "year": 1725,
+   "text": "The Tianjin Prefecture or Zhou was established during the Qing dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "civic"
+  },
+  {
+   "year": 1856,
+   "text": "Chinese soldiers boarded a suspicious Hong Kong registered ship named The Arrow.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1870,
+   "text": "The orphanage held by the Wanghailou Church faced accusations of kidnapping children.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1885,
+   "text": "Li Hongzhang founded the Tianjin Military Academy for Chinese army officers.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "Tianjin was established as a municipality of China because of industry development.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "Tianjin Yaohua Middle School was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Tianjin fell to Japan during the Second Sino-Japanese War.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The Chinese Communist Party took control of Tianjin.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "Tanggu New Port officially opened its doors for maritime traffic.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "The current English spelling of Tianjin was adopted after pinyin introduction.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Construction work on the Tianjin Metro started on July 4.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1976,
+   "text": "Tianjin was affected by shock waves during the 7.6 magnitude Tangshan Earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "environment"
+  },
+  {
+   "year": 1984,
+   "text": "Tianjin was listed as one of the fourteen coastal open cities.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1984,
+   "text": "The Tianjin Metro commenced service after being built in China.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1986,
+   "text": "The Great Wall MBA Program was established on a campus.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "A railway station was completely rebuilt after finishing work.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "The skill of making jianbing guozi was included in lists.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2025,
+   "text": "Tianjin held the Shanghai Cooperation Organization summit.",
+   "url": "https://en.wikipedia.org/wiki/Tianjin",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

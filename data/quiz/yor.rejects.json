@@ -1,0 +1,253 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 7463,
+  "completionTokens": 6073,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1068,
+   "theme": "power_conflict",
+   "event": "In 1068, the people of York rebelled two years after the Norman invasion.",
+   "quote": "In 1068, two years after the Norman invasion of England, the people of York rebelled.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1862,
+   "theme": "commerce_industry",
+   "event": "Henry Isaac Rowntree founded the business in 1862.",
+   "quote": "It was founded in 1862 by Henry Isaac Rowntree, who was joined in 1869 by his brother the philanthropist Joseph Rowntree.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2000,
+   "theme": "environment",
+   "event": "York experienced the worst flooding in 375 years.",
+   "quote": "In October and November 2000, York experienced the worst flooding in 375 years; more than 300 homes were flooded.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "York's built-up area had a recorded population at the census.",
+   "quote": "York's built-up area had a recorded population of 141,685 at the 2021 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1733,
+   "theme": "commerce_industry",
+   "event": "Ye Olde Starre Inne features a sign that has spanned the street since 1733.",
+   "quote": "These include the Golden Fleece, Ye Olde Starre Inne, noted for its sign which has spanned the street since 1733, and The Kings Arms, often photographed during floods.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1843,
+   "theme": "culture",
+   "event": "The Ebor Festival features racing including the Ebor Handicap dating from 1843.",
+   "quote": "In August, racing takes place over the four-day Ebor Festival that includes the Ebor Handicap dating from 1843.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1868,
+   "theme": "culture",
+   "event": "York FC, later known as York Wasps, formed as a rugby league club in 1868.",
+   "quote": "York FC, later known as York Wasps, formed in 1868, were one of the oldest rugby league clubs in the country but the effects of a move to the out of town Huntington Stadium, poor results and falling attendances led to their bankruptcy in 2002.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1894,
+   "theme": "culture",
+   "event": "Nestle Rowntree RUFC was founded originally at the chocolate maker site in 1894.",
+   "quote": "Based at the York site of chocolate and confectionery maker Nestle Rowntree's, Nestle Rowntree RUFC was founded originally in 1894 and re-founded in 1954.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1928,
+   "theme": "culture",
+   "event": "York Rugby Union Football Club was formed in the year 1928.",
+   "quote": "York RUFC was formed in 1928, and amalgamated with the York Cricket Club in 1966.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1930,
+   "theme": "culture",
+   "event": "The track located in the Burnholme Estate was completed in 1930.",
+   "quote": "The track in the Burnholme Estate was completed in 1930 and a demonstration event staged.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1931,
+   "theme": "culture",
+   "event": "The track staged team and open events and the York team participated in 1931.",
+   "quote": "In 1931, the track staged team and open events and the York team took part in the National Trophy.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1932,
+   "theme": "culture",
+   "event": "York City football club previously played at Bootham Crescent starting in 1932.",
+   "quote": "Their matches are played at the York Community Stadium as of 2021, having previously played at Bootham Crescent since 1932.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1953,
+   "theme": "civic",
+   "event": "The city of York has been twinned with Dijon in France since 1953.",
+   "quote": "Dijon, Bourgogne-Franche-Comté, France, since 1953",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1955,
+   "theme": "culture",
+   "event": "York City reached the FA Cup semi-final during the year 1955.",
+   "quote": "York have played as high as the old Second Division, but are best known for their giant killing status in cup competitions, having reached the FA Cup semi-final in 1955 and beaten Manchester United 3–0 during the 1995–96 League Cup.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1957,
+   "theme": "civic",
+   "event": "York established its town twinning relationship with Münster in Germany in 1957.",
+   "quote": "Münster, North Rhine-Westphalia, Germany, since 1957",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1966,
+   "theme": "culture",
+   "event": "York RUFC amalgamated with the York Cricket Club in the year 1966.",
+   "quote": "York RUFC was formed in 1928, and amalgamated with the York Cricket Club in 1966.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1992,
+   "theme": "culture",
+   "event": "The cycle of plays was presented in the Theatre Royal in 1992.",
+   "quote": "The cycle was presented in the Theatre Royal in 1992 and 1996, within York Minster in 2000 and in 2002, 2006 and 2010 by Guild groups from wagons in the squares, in the Dean's Park, or at the Eye of York.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1997,
+   "theme": "food_daily",
+   "event": "York has held an annual Festival of Food and Drink every September since 1997.",
+   "quote": "Each September since 1997, York has held an annual Festival of Food and Drink.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2002,
+   "theme": "culture",
+   "event": "The rugby league club York Wasps suffered bankruptcy due to multiple factors in 2002.",
+   "quote": "York FC, later known as York Wasps, formed in 1868, were one of the oldest rugby league clubs in the country but the effects of a move to the out of town Huntington Stadium, poor results and falling attendances led to their bankruptcy in 2002.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2005,
+   "theme": "culture",
+   "event": "The Knavesmire Racecourse served as the host venue for Royal Ascot in 2005.",
+   "quote": "The Knavesmire Racecourse also hosted Royal Ascot in 2005.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2006,
+   "theme": "culture",
+   "event": "The local newspaper known as the Evening Press was renamed to The Press in 2006.",
+   "quote": "The York area is served by a local newspaper, The Press (known as the Evening Press until April 2006), The York Advertiser newspaper (based at The Press on Walmgate), and four local radio stations: BBC Radio York, YorkMix Radio, YO1 Radio and Jorvik Radio.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2012,
+   "theme": "culture",
+   "event": "York Mystery Plays were performed at St Mary's Abbey in August 2012.",
+   "quote": "In 2012, the York Mystery Plays were performed between 2 and 27 August at St Mary's Abbey in the York Museum Gardens.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "Ofcom awarded a 12-year local TV licence for York to The York Channel in 2013.",
+   "quote": "On 27 November 2013, Ofcom awarded the 12-year local TV licence for the York area to a consortium entitled The York Channel, with the channel due to be on air in spring 2015.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "York hosted the start of Stage 2 of the Tour de France on 6 July 2014.",
+   "quote": "On 6 July 2014, York hosted the start of Stage 2 of the 2014 Tour de France.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2015,
+   "theme": "culture",
+   "event": "The inaugural Tour de Yorkshire was held with its Day 2 stage finishing in York in 2015.",
+   "quote": "In 2015, the inaugural Tour de Yorkshire was held as a legacy event to build on the popularity of the previous year, with the Day 2 stage finishing in York.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2016,
+   "theme": "civic",
+   "event": "York established twin-city relations with the Chinese city of Nanjing in 2016.",
+   "quote": "In 2016 York became sister cities with the Chinese city of Nanjing, in line with an agreement signed by the Lord Mayor of York, focusing on building links in tourism, education, science, technology and culture.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2017,
+   "theme": "civic",
+   "event": "York officially became the United Kingdom's first human rights city in 2017.",
+   "quote": "In 2017 York became UK's first human rights city, which formalised the city's aim to use human rights in decision making.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2020,
+   "theme": "culture",
+   "event": "The commercial radio station Minster FM broadcast until it was replaced in 2020.",
+   "quote": "A local commercial radio station, Minster FM, broadcast until 2020 when it was replaced by Greatest Hits Radio York and North Yorkshire.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "culture",
+   "event": "York City football team matches are played at the York Community Stadium as of 2021.",
+   "quote": "Their matches are played at the York Community Stadium as of 2021, having previously played at Bootham Crescent since 1932.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2022,
+   "theme": "culture",
+   "event": "The rugby league club was officially renamed as York RLFC during the year 2022.",
+   "quote": "In 2022, the club was renamed York RLFC and as of 2026 the men's team (York Knights) play in The Super League and the women's team (York Valkyrie) play in the Super League.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

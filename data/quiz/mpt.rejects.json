@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4399,
+  "completionTokens": 3891,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1875,
+   "theme": "power_conflict",
+   "event": "The Luso-British conflict for the possession of the city ended.",
+   "quote": "The Luso-British conflict for the possession of the destination ended on 24 July 1875 with Patrice de MacMahon, the French President, ruling in favour of Portugal.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2050,
+   "theme": "environment",
+   "event": "The climate of Maputo would most resemble the current climate of Goiânia.",
+   "quote": "A 2019 paper published in PLOS One estimated that under Representative Concentration Pathway 4.5, a \"moderate\" scenario of climate change where global warming reaches ~2.5–3 °C (4.5–5.4 °F) by 2100, the climate of Maputo in the year 2050 would most closely resemble the current climate of Goiânia in Brazil.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 1913,
+   "theme": "culture",
+   "event": "The classical European design Central Train Station was built.",
+   "quote": "The earliest architectural efforts around the city focused on classical European designs such as the Central Train Station (CFM) designed by architects Alfredo Augusto Lisboa de Lima, Mario Veiga and Ferreira da Costa and built between 1913 and 1916 (sometimes mistaken with the work of Gustav Eiffel), and the Hotel Polana designed by Herbert Baker.",
+   "stage": "verification",
+   "why": "The source quote states the Central Train Station was built between 1913 and 1916, not just in 1913."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 7278,
+  "completionTokens": 4356,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1912,
+   "theme": "power_conflict",
+   "event": "San Diego was the site of a free speech fight between groups.",
+   "quote": "In 1912, San Diego was the site of a free speech fight between the Industrial Workers of the World and the city government who passed an ordinance forbidding the freedom of speech along an area of 'Soapbox Row' that led to civil disobedience, vigilantism, police violence, the abduction of Emma Goldman's husband Ben Reitman and multiple riots.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1916,
+   "theme": "civic",
+   "event": "Anti-vice campaigners demolished the neighborhood of Stingaree to make the Gaslamp Quarter.",
+   "quote": "In 1916, the neighborhood of Stingaree, the original home of San Diego's first Chinatown and 'Soapbox Row', was demolished by anti-vice campaigners to make way for the Gaslamp Quarter.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2008,
+   "theme": "civic",
+   "event": "The city organized its General Plan around a village concept.",
+   "quote": "The city recognized the importance of its neighborhoods when it organized its 2008 General Plan around the concept of a 'City of Villages'.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "A municipal count tracked individuals experiencing homelessness.",
+   "quote": "In the city of San Diego, 4,887 individuals were experiencing homelessness according to the 2020 count.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

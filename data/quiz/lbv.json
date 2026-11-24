@@ -1,0 +1,130 @@
+{
+ "id": "lbv",
+ "town": "Libreville",
+ "source": "https://en.wikipedia.org/wiki/Libreville",
+ "pool": [
+  {
+   "year": 1839,
+   "text": "French admiral Édouard Bouët-Willaumez negotiated a trade and protection treaty with local Mpongwé ruler Antchoué Komé Rapontcombo.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1842,
+   "text": "American missionaries from New England established a mission in Baraka, Gabon, on the site of Libreville.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "culture"
+  },
+  {
+   "year": 1846,
+   "text": "The Brazilian slave ship L'Elizia, carrying slaves from the Congo, was captured near Loango by the French navy.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1849,
+   "text": "Fifty-two of the freed slaves were resettled on the site of Libreville, which means Freetown in French.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "civic"
+  },
+  {
+   "year": 1888,
+   "text": "Libreville became the administrative capital of France's Congo-Gabon colony.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "civic"
+  },
+  {
+   "year": 1910,
+   "text": "Gabon became part of French Equatorial Africa, also known as Afrique équatoriale française.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "civic"
+  },
+  {
+   "year": 1930,
+   "text": "Paris-based Banque de l'Afrique Occidentale opened the first bank branch in Libreville.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1940,
+   "text": "Libreville was the central focus of the Battle of Gabon involving Free French forces.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1956,
+   "text": "Léon M'ba won Libreville's first free mayoral election with national independence approaching.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "Société des Brasseries du Gabon was founded under the impetus of the French industrialist Pierre Castel.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1977,
+   "text": "The hosting of the Organisation of African Unity summit drove a first wave of prestige construction.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "The Trans-Gabon Railway between Owendo and Franceville was completed.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1996,
+   "text": "The Banque de Paris et des Pays-Bas Gabon adopted its current name as a private multinational.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "The Plan Stratégique Gabon Émergent placed Libreville and its suburbs at the centre of an industrial strategy.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Moov Africa Gabon Telecom was formed by the merger of Gabon Telecom and Moov Gabon.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "The GSEZ Mineral Port was inaugurated as a dedicated bulk terminal primarily for manganese ore and timber exports.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "A regional stock exchange, the BVMAC, has had its headquarters in Libreville since a merger.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "The Nkok zone was ranked the world's best SEZ for timber production by fDi Intelligence.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Fortescue signed an agreement to haul iron ore from the Belinga deposit to Owendo by combined road-rail.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2025,
+   "text": "The French military base at Camp de Gaulle was converted into a jointly run regional training academy.",
+   "url": "https://en.wikipedia.org/wiki/Libreville",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

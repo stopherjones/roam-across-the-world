@@ -1,0 +1,130 @@
+{
+ "id": "ths",
+ "town": "Thessaloniki",
+ "source": "https://en.wikipedia.org/wiki/Thessaloniki",
+ "pool": [
+  {
+   "year": 1423,
+   "text": "Despot Andronikos Palaiologos ceded the city to the Republic of Venice.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1430,
+   "text": "The Ottomans conquered the city and remained there for nearly five centuries.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1430,
+   "text": "The Ottomans took control of Thessaloniki after a lengthy siege of the city.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "The Greek War of Independence broke out in the spring.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1826,
+   "text": "Regular Ottoman soldiers attacked and destroyed the Janissary base.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1880,
+   "text": "Benrubis founded one of the first retail companies in the Balkans.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "The AVEZ pasta industry was built as an early industrial factory.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "The Thessaloniki International Exhibition Centre was first established in this year.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1936,
+   "text": "A massive strike by tobacco workers led to general anarchy.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "The city fell to the forces of Nazi Germany.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "The first resistance organization in Greece was founded in Eptalofos.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "The Nazis began the deportation of the city's Jews to concentration camps.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "The Nazis began deportation of the historic Jewish population to concentration camps.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Forces of ELAS entered Thessaloniki as liberators headed by Markos Vafiadis.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "Frappé was invented in the Thessaloniki International Fair and spread throughout Greece.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1960,
+   "text": "The Thessaloniki International Film Festival was established as an important film festival.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "The National Theatre of Northern Greece was established to run the city main theaters.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "The Archaeological Museum of Thessaloniki was established to house ancient artifacts.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "Grigoris Lambrakis was assassinated by two far-right extremists driving a vehicle.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1978,
+   "text": "The city suffered a series of powerful earthquakes registering 5.5 and 6.5.",
+   "url": "https://en.wikipedia.org/wiki/Thessaloniki",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

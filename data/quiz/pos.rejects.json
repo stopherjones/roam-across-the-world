@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4933,
+  "completionTokens": 3970,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1557,
+   "theme": "power_conflict",
+   "event": "Governor Don Pedro de la Moneda transferred his seat to Port of Spain.",
+   "quote": "By 1757, the old capital, San José de Oruña (modern Saint Joseph), about 11 kilometres (7 mi) inland, had fallen into disrepair, and Governor Don Pedro de la Moneda transferred his seat to Port of Spain, which thus became Trinidad's de facto capital.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  }
+ ]
+}

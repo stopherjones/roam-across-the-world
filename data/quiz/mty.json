@@ -1,0 +1,130 @@
+{
+ "id": "mty",
+ "town": "Monterrey",
+ "source": "https://en.wikipedia.org/wiki/Monterrey",
+ "pool": [
+  {
+   "year": 1596,
+   "text": "Diego de Montemayor founded Ciudad Metropolitana de Nuestra Señora de Monterrey.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "civic"
+  },
+  {
+   "year": 1824,
+   "text": "Monterrey was selected as the capital of the State of Nuevo León.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "civic"
+  },
+  {
+   "year": 1843,
+   "text": "Garcia Caves were discovered in Garcia, Nuevo León.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "environment"
+  },
+  {
+   "year": 1846,
+   "text": "The Battle of Monterrey took place as an early large-scale engagement.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1890,
+   "text": "The brewery Cervecería Cuauhtémoc was founded as a milestone enterprise.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1900,
+   "text": "A steel-producing company accelerated the fast industrialization of the city.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1903,
+   "text": "Mexico's first steel mills opened in Monterrey.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1986,
+   "text": "Monterrey hosted several games of the FIFA World Cup.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Hurricane Gilbert caused great damage and flooding in the city.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "environment"
+  },
+  {
+   "year": 1999,
+   "text": "Fortune magazine rated Monterrey as the best city in Latin America.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2002,
+   "text": "The city hosted the United Nations Conference on Financing for Development.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "The OAS Special Summit of the Americas was attended by presidents.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The song Los Oxidados by Plastilina Mosh opened a movie.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Parque Nacional Cumbres de Monterrey received a biosphere reserve designation.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "An Inuit artist created a sculpture gifted by Canada.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Hurricane Alex brought record-breaking rain and floods to Monterrey.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "A terror attack occurred on a casino in the city.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2015,
+   "text": "Monterrey achieved a specific GDP and per capita metric.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "The area faced a severe drought with water service limitations.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "environment"
+  },
+  {
+   "year": 2023,
+   "text": "Tesla announced plans to build Gigafactory Mexico near Monterrey.",
+   "url": "https://en.wikipedia.org/wiki/Monterrey",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

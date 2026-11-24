@@ -1,0 +1,94 @@
+{
+ "id": "ufa",
+ "town": "Ufa",
+ "source": "https://en.wikipedia.org/wiki/Ufa",
+ "pool": [
+  {
+   "year": 1367,
+   "text": "A town approximately on the Belaya River was designated as Pascherti.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "culture"
+  },
+  {
+   "year": 1574,
+   "text": "Ivan the Terrible ordered a fortress built on the site of modern Ufa.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1586,
+   "text": "Town status was granted to the location of the Russian fortress.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "civic"
+  },
+  {
+   "year": 1865,
+   "text": "Ufa was made capital of Ufa Governorate when it split from Orenburg.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "civic"
+  },
+  {
+   "year": 1870,
+   "text": "The Belaya River Waterway connected the city to the European Russian Empire.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1890,
+   "text": "The Samara-Zlatoust Railroad connected the city to the European Russian Empire.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1941,
+   "text": "Many industrial enterprises of the western Soviet Union were evacuated here.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "The Russian Islamic University was opened in the urban area.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "A train disaster occurred when a pipeline leak released gas near rails.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "environment"
+  },
+  {
+   "year": 2013,
+   "text": "Forbes named the city the best place for business among large settlements.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "Researchers published a paper arguing for an ancient settlement hypothesis here.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "The city hosted separate summits of the BRICS group and Shanghai organization.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "The maximum single concentration of suspended solids reached high levels.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "environment"
+  },
+  {
+   "year": 2020,
+   "text": "The world's first monument to a tick was erected in the city center.",
+   "url": "https://en.wikipedia.org/wiki/Ufa",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

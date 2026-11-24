@@ -1,0 +1,130 @@
+{
+ "id": "bru",
+ "town": "Brussels",
+ "source": "https://en.wikipedia.org/wiki/Brussels",
+ "pool": [
+  {
+   "year": 1832,
+   "text": "Two drama schools, the French-speaking Conservatoire Royal and the Koninklijk Conservatorium, were founded.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "culture"
+  },
+  {
+   "year": 1900,
+   "text": "The Cantillon Brewery, a lambic brewery, was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1912,
+   "text": "Pralines were first introduced by Jean Neuhaus II in the Royal Saint-Hubert Galleries.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1935,
+   "text": "The Centenary Palace was built for the World Fair on the Heysel Plateau.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "culture"
+  },
+  {
+   "year": 1944,
+   "text": "The British Guards Armoured Division liberated the city.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "The Treaty of Brussels was signed as a prelude to an alliance.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "The North-South connection linking main railway stations was completed.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The Atomium modernist structure was built for the World Fair.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "Underground lines known as the premetro have been serviced by tramways since this year.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "The first premetro underground tram service was launched.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "The first Metro line was opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "The Brussels Metro dates back to this specific year in history.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "The officially bilingual Brussels-Capital Region was created.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The city was named European Capital of Culture.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The winter activities known as Winter Wonders were launched.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2003,
+   "text": "Brussels has had a car-sharing service operated by the Bremen company Cambio.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "A public bicycle-sharing programme was introduced in the city during this year.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "STIB/MIVB has been operating a night bus network called Noctis since April.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The night-time public transport service has been supplemented by Collecto, a shared taxi system.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The Zen Car electric car-sharing scheme was launched in the university and European areas.",
+   "url": "https://en.wikipedia.org/wiki/Brussels",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

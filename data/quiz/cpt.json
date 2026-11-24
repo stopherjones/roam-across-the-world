@@ -1,0 +1,130 @@
+{
+ "id": "cpt",
+ "town": "Cape Town",
+ "source": "https://en.wikipedia.org/wiki/Cape_Town",
+ "pool": [
+  {
+   "year": 1488,
+   "text": "Bartolomeu Dias arrived and named the local area Cape of Storms.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1510,
+   "text": "Francisco de Almeida was killed by the Goringhaiqua at the Battle of Salt River.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1652,
+   "text": "Jan van Riebeeck established a way-station and the Fort de Goede Hoop.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1795,
+   "text": "Britain captured the city before it was returned by treaty.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1806,
+   "text": "British forces occupied the Cape again following the Battle of Blaauwberg.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1833,
+   "text": "Slavery was abolished, freeing over 5500 slaves in the city.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "A major hospital institution in Cape Town was founded and later gained fame.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The expansion of the Cape Town foreshore was completed.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "environment"
+  },
+  {
+   "year": 1950,
+   "text": "The apartheid government introduced the Group Areas Act to segregate urban areas.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "A library was established in Cape Town, hosting books in several sections.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "The famous Gatsby sandwich was first served in the suburb of Athlone.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1984,
+   "text": "A hospital in Cape Town underwent a major extension with two new wings added.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "Nelson Mandela made his first public speech from the balcony of City Hall.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "UNESCO declared Robben Island a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "The Cape Town Central City Improvement District was founded as the largest district.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "A maritime hub in Cape Town handled thousands of ships and millions of tonnes of cargo.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "The region including Kirstenbosch was declared a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Cape Town International Airport opened a new terminal for increased air traffic.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "The Law Enforcement Auxiliary Service has been operating in Cape Town public safety.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2014,
+   "text": "Cape Town was named the World Design Capital by industrial design societies.",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

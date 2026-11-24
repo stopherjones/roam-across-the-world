@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9539,
+  "completionTokens": 6892,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2000,
+   "theme": "culture",
+   "event": "Toronto experienced a condo construction boom and architectural revival amid the property bubble.",
+   "quote": "In contrast, since 2000, amid the Canadian property bubble, Toronto has experienced a condo construction boom and architectural revival, with several buildings opened by world-renowned architects.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1954,
+   "theme": "environment",
+   "event": "Hurricane Hazel brought intense winds and flash flooding, killing 81 people.",
+   "quote": "In that year, a half-century after the Great Fire of 1904, disaster struck the city again when Hurricane Hazel brought intense winds and flash flooding. In the Toronto area, 81 people were killed, nearly 1,900 families were left homeless, and the hurricane caused more than CA$25,000,000 (equivalent to $291,134,752 in 2025) in damage.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1861,
+   "theme": "culture",
+   "event": "George campus in downtown hosted the first recorded college football game.",
+   "quote": "George campus in downtown Toronto was where the first recorded college football game was held in November 1861.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2011,
+   "theme": "power_conflict",
+   "event": "Toronto murder rate plummeted significantly down to 51 total murders.",
+   "quote": "In 2011, Toronto's murder rate plummeted to 51 murders—nearly a 26% drop from the previous year.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

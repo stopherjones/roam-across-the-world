@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3207,
+  "completionTokens": 2984,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2002,
+   "theme": "commerce_industry",
+   "event": "Agricultural, manufacturing, and commerce and service sector statistics were recorded.",
+   "quote": "According to 2002 Sefaz statistics, agricultural activities represented 0.05%, manufacturing represented 3.41% and the commerce and service sector 96.54%.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2010,
+   "theme": "environment",
+   "event": "A significant portion of the beach disappeared due to erosion during winter.",
+   "quote": "In the winter of 2010, a significant portion of the beach disappeared due to erosion.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "The Brazilian census recorded a population of 537,211 residents.",
+   "quote": "It has a population of 537,211, according to the 2022 Brazilian census, the second-most populous city in the state (after Joinville), and the 39th in Brazil.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

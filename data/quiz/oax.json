@@ -1,0 +1,130 @@
+{
+ "id": "oax",
+ "town": "Oaxaca",
+ "source": "https://en.wikipedia.org/wiki/Oaxaca",
+ "pool": [
+  {
+   "year": 1457,
+   "text": "Moctezuma I invaded the Tlaxiaco and Coixtlahuaca areas, gaining control, demanding tribute.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1486,
+   "text": "The Aztecs established a fort on the hill of Huaxyácac overlooking Oaxaca.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1528,
+   "text": "The Dominicans settled in the city of Oaxaca.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "civic"
+  },
+  {
+   "year": 1535,
+   "text": "The Bishopric of Oaxaca was formed by the Dominicans.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "civic"
+  },
+  {
+   "year": 1596,
+   "text": "The Jesuits followed the Dominicans into the region.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "civic"
+  },
+  {
+   "year": 1601,
+   "text": "The Mercedarians arrived in the region.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "civic"
+  },
+  {
+   "year": 1827,
+   "text": "The Oaxacan Institute for Arts and Sciences was founded.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "culture"
+  },
+  {
+   "year": 1931,
+   "text": "A much larger earthquake was the largest in state history.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "environment"
+  },
+  {
+   "year": 1944,
+   "text": "Torrential rains caused extensive flooding in the Tuxtepec region.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "environment"
+  },
+  {
+   "year": 1994,
+   "text": "Tourism and population growth prompted the construction of the highway.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1998,
+   "text": "Huatulco National Park was declared a protected area.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "The Universidad de la Sierra Juárez was opened to provide higher education.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Health care workers held a work stoppage and march.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The total agricultural production of the state was estimated.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The airport received passengers according to published figures.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "This area was recognized as a UNESCO World Heritage site.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "A series of earthquakes brought death and destruction to parts.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "environment"
+  },
+  {
+   "year": 2019,
+   "text": "A genetic study sampling people found a predominance of ancestry.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "A preliminary magnitude earthquake struck the region.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "environment"
+  },
+  {
+   "year": 2022,
+   "text": "Oaxaca enacted a ban on sugary drinks amidst soaring rates.",
+   "url": "https://en.wikipedia.org/wiki/Oaxaca",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "cbr",
+ "town": "Canberra",
+ "source": "https://en.wikipedia.org/wiki/Canberra",
+ "pool": [
+  {
+   "year": 1820,
+   "text": "Charles Throsby Smith led the first British expedition into the area.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "environment"
+  },
+  {
+   "year": 1823,
+   "text": "Joshua John Moore named his land grant Canberry after local people.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "environment"
+  },
+  {
+   "year": 1845,
+   "text": "The Anglican church of St John the Baptist was consecrated in Reid.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "culture"
+  },
+  {
+   "year": 1901,
+   "text": "The federation of the colonies of Australia was officially achieved.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1904,
+   "text": "The federal parliament passed the Seat of Government Act confirming Dalgety.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1911,
+   "text": "The NSW government ceded the district to the federal government.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "The daily newspaper The Canberra Times was established.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "The Yarralumla property was officially dubbed Government House.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "The Albert Hall opened as the city's first performing arts venue.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "The ACT gained its first federal parliamentary representation in the House.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1964,
+   "text": "Lake Burley Griffin was completed after four years of work.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "environment"
+  },
+  {
+   "year": 1988,
+   "text": "A larger and permanent Parliament House opened on Capital Hill.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The Royal Canberra Hospital was closed before its controversial demolition.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "Canberra became the first city to set a vision of no waste.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "environment"
+  },
+  {
+   "year": 1998,
+   "text": "The ACT Government signed a Memorandum of Understanding with the Hangzhou Municipal Peoples Government.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Traffic cameras were first introduced to Canberra by the government.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "Bushfires engulfed parts of Canberra and destroyed Mount Stromlo Observatory.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "The Canberra Dili Friendship Agreement was signed to build friendship and mutual respect.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Prisoners began being held at the Alexander Maconochie Centre.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "Plastic bags under a certain thickness were banned from retail distribution.",
+   "url": "https://en.wikipedia.org/wiki/Canberra",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "val",
+ "town": "Valencia",
+ "source": "https://en.wikipedia.org/wiki/Valencia",
+ "pool": [
+  {
+   "year": 1238,
+   "text": "King James I of Aragon laid siege to Valencia and secured surrender",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1239,
+   "text": "Jews of Valencia received a designated quarter for residence",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "civic"
+  },
+  {
+   "year": 1348,
+   "text": "Black Death decimated Valencia's population",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "environment"
+  },
+  {
+   "year": 1391,
+   "text": "Pogrom attacked the Jewish quarter of Valencia",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "civic"
+  },
+  {
+   "year": 1516,
+   "text": "Nobiliary estate challenged the Crown after Ferdinand II's death",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1519,
+   "text": "Taula de Canvis recreated as \"Nova Taula\"",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1936,
+   "text": "Valencia became provisional seat of Spanish Government during Civil War",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "Nationalist forces seized city radio, sparking Republican riots",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "Valencia temporarily became capital of Republican Spain",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1965,
+   "text": "Falles declared a Celebration of International Tourist Interest in Valencia",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "Valencia twins with Odesa, Ukraine",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Valencia CF finishes as UEFA Champions League runner-up",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Valencia CF wins Spanish league championship",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Valencia selected to host historic America's Cup yacht race",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Port undergoes radical changes to accommodate the 32nd America's Cup",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "America's Cup yachting races attract huge crowds in Valencia",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "First Formula One European Grand Prix held in Valencia",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Valencia port becomes Spain's leading container traffic hub",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Designated 29th fastest‑improving European city",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "EIB loan funded 323 new affordable rental units in Valencia",
+   "url": "https://en.wikipedia.org/wiki/Valencia",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

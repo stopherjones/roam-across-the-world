@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3068,
+  "completionTokens": 3021,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "Port Said Governorate recorded the lowest illiteracy rate in Egypt.",
+   "quote": "Port Said Governorate recorded the lowest illiteracy rate among Egypt’s governorates, at a rate of about 6.4% in 2023.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2024,
+   "theme": "civic",
+   "event": "Port Said had a population of 790,000 people recorded.",
+   "quote": "In 2024, it had a population of 790,000 people.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

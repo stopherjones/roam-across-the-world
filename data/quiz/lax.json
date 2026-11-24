@@ -1,0 +1,130 @@
+{
+ "id": "lax",
+ "town": "Los Angeles",
+ "source": "https://en.wikipedia.org/wiki/Los_Angeles",
+ "pool": [
+  {
+   "year": 1542,
+   "text": "Spanish explorer Juan Rodríguez Cabrillo claimed the area of southern California for his empire.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1781,
+   "text": "A group of forty-four settlers known as Los Pobladores founded the pueblo of Los Angeles.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "civic"
+  },
+  {
+   "year": 1821,
+   "text": "The settlement became part of the First Mexican Empire following the war of independence.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1850,
+   "text": "Los Angeles was officially incorporated as a municipality months before achieving statehood.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "civic"
+  },
+  {
+   "year": 1876,
+   "text": "Railroads arrived in the city with the completion of the Southern Pacific line.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1892,
+   "text": "Petroleum was discovered in the city and surrounding area, sparking major industrial growth.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1932,
+   "text": "The city hosted the Summer Olympics for the first time in its history.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "The largest passenger rail terminal in the Western United States opened.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1965,
+   "text": "Racial tensions led to the Watts riots, resulting in dozens of deaths.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1969,
+   "text": "California became the birthplace of the Internet with the first ARPANET transmission.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Tom Bradley was elected as the municipality's first African American mayor.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "The city hosted the Summer Olympic Games for a second time.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "Racial tensions erupted into large-scale riots following a controversial police jury verdict.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "A magnitude earthquake shook the municipality, causing widespread damage and deaths.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "environment"
+  },
+  {
+   "year": 1999,
+   "text": "Voters ratified a current municipal charter that created neighborhood councils.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "Voters defeated efforts by the San Fernando Valley and Hollywood to secede.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Los Angeles workers had a mean travel time for work commutes.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Both ports achieved a massive trade volume of container units.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "The municipality successfully met its goal of providing power from renewable sources.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "environment"
+  },
+  {
+   "year": 2014,
+   "text": "The World Cruise Center served a large number of passengers.",
+   "url": "https://en.wikipedia.org/wiki/Los_Angeles",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

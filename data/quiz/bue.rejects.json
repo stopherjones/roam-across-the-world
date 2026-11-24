@@ -1,0 +1,69 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 7,
+  "promptTokens": 9662,
+  "completionTokens": 10002,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1845,
+   "theme": "power_conflict",
+   "event": "Anglo‑French expedition blockaded the city until 1848",
+   "quote": "In the 19th century the city was blockaded twice by naval forces: by the French from 1838 to 1840, and later by an Anglo-French expedition from 1845 to 1848.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1945,
+   "theme": "commerce_industry",
+   "event": "Second construction boom reshaped downtown until 1980",
+   "quote": "A second construction boom, from 1945 to 1980, reshaped downtown and much of the city.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1945,
+   "theme": "civic",
+   "event": "Mass demonstration of 17 October 1945 sparked Peronism",
+   "quote": "These laborers became the political base of Peronism, which emerged in Buenos Aires during the pivotal demonstration of 17 October 1945, at the Plaza de Mayo.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1937,
+   "theme": "culture",
+   "event": "Teatro Avenida inaugurated with Lope de Vega’s play.",
+   "quote": "Teatro Avenida (Avenida Theater) was inaugurated on Buenos Aires' central Avenida de Mayo in 1908 with a production of Spanish dramatist Lope de Vega's Justice Without Revenge.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2013,
+   "theme": "environment",
+   "event": "110 km of protected bike lanes constructed.",
+   "quote": "As of 2013, the city has constructed 110 km (68.35 mi) of protected bicycle lanes",
+   "stage": "code check",
+   "why": "no named place, person or thing in the event"
+  },
+  {
+   "year": 2018,
+   "theme": "civic",
+   "event": "Fare for a single journey listed as AR$42 in January.",
+   "quote": "A single journey, with unlimited interchanges between lines, costs AR$42, which is roughly US$0.23 as of January 2023.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1913,
+   "theme": "culture",
+   "event": "Original rolling stock known as Las Brujas retired after a century.",
+   "quote": "the original rolling stock from 1913, affectionately known as Las Brujas were retired from the line in 2013.",
+   "stage": "verification",
+   "why": "Quote says retirement occurred in 2013, not in 1913 as the claim's year."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5303,
+  "completionTokens": 3633,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2015,
+   "theme": "commerce_industry",
+   "event": "Ciments de l'Afrique Gabon operates a two-line grinding plant commissioned in 2015 and expanded in 2020.",
+   "quote": "The Moroccan-owned Ciments de l'Afrique (CIMAF) Gabon operates a two-line grinding plant commissioned in 2015 and expanded in 2020; the complex has a total installed capacity of 1.85 million tonnes per year and directly employs about 650 people.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "commerce_industry",
+   "event": "Construction of the Tour du Futur began in Libreville, scheduled for completion in early 2027.",
+   "quote": "Within the development, the 50-storey Tour du Futur (Libreville Tower), developed by Turkey's FB Group for government offices and presidential services, began construction in 2024 and is scheduled for completion in early 2027; it is designed to be the tallest building in Gabon.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "commerce_industry",
+   "event": "A secondary zone, GSEZ Ikolo, was launched to extend industrial capacity closer to the Owendo port.",
+   "quote": "A secondary zone, GSEZ Ikolo (318 hectares of developed land), was launched in 2021 to extend industrial capacity closer to the Owendo port.",
+   "stage": "verification",
+   "why": "The quote states GSEZ Ikolo was launched in 2021, but the claim incorrectly states it was launched to extend capacity closer to the Owendo port (Ikolo is an inland zone, whereas Owendo is a coastal port city)."
+  }
+ ]
+}

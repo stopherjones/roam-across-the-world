@@ -1,0 +1,130 @@
+{
+ "id": "msy",
+ "town": "New Orleans",
+ "source": "https://en.wikipedia.org/wiki/New_Orleans",
+ "pool": [
+  {
+   "year": 1718,
+   "text": "La Nouvelle-Orleans was founded by the French Mississippi Company under Jean-Baptiste Le Moyne de Bienville.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "civic"
+  },
+  {
+   "year": 1724,
+   "text": "The Code Noir was established to formalize harsh laws governing the lives of enslaved Africans.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1727,
+   "text": "The Ursuline sisters institution was founded by nuns sponsored by the Company of the Indies.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "culture"
+  },
+  {
+   "year": 1729,
+   "text": "The Natchez revolt erupted with an attack on Fort Rosalie, resulting in numerous deaths.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1763,
+   "text": "France transferred possession of Louisiana to Spain in the Treaty of Paris.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1768,
+   "text": "Local residents staged the Louisiana Rebellion, briefly seizing control of the city from Spain.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "A streetcar strike took place in the city, accompanied by serious public unrest.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "The moniker The City that Care Forgot came into use to describe residents' carefree nature.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "The historic streetcar line operating to Desire Street was converted into a bus line.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "environment"
+  },
+  {
+   "year": 1954,
+   "text": "New Orleans adopted a home rule charter to establish its current mayor-council government.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "One Shell Square was established as the tallest building in the city.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1984,
+   "text": "The Alliance Française of New Orleans was established as a cultural center for French speakers.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "New Orleans was officially named the murder capital of America after hitting a peak.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2000,
+   "text": "The reality television program The Real World: New Orleans was set in the city.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Louisiana began offering tax incentives aimed at boosting film and television production.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "The local hospitality industry employed 85,000 people and became the top economic sector.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "Hurricane Katrina struck the city, causing catastrophic levee failures and massive flooding.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "Hurricane Katrina struck the region and severely devastated the local transit service.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "Louisiana voters adopted a constitutional amendment dedicating offshore drilling revenues to coastal restoration.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Tulane University converted McAlister Place on its Uptown campus into a pedestrian and bicycle mall.",
+   "url": "https://en.wikipedia.org/wiki/New_Orleans",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

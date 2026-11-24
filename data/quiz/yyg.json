@@ -1,0 +1,130 @@
+{
+ "id": "yyg",
+ "town": "Charlottetown",
+ "source": "https://en.wikipedia.org/wiki/Charlottetown",
+ "pool": [
+  {
+   "year": 1720,
+   "text": "Personnel from Fortress Louisbourg founded a settlement named Port La Joye in Charlottetown.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1758,
+   "text": "A British fleet took control of the Port La Joye settlement and the island.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1764,
+   "text": "Captain Samuel Holland selected Charlottetown as the site for Queens County seat.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1775,
+   "text": "Massachusetts-based privateers ransacked the new capital during the American Revolution.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1805,
+   "text": "The local British garrison constructed a harbour defence called Fort Edward in Charlottetown.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1835,
+   "text": "Government House was constructed at Fanning Bank as the governor's residence.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1855,
+   "text": "Charlottetown was officially incorporated as a city in the province.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1864,
+   "text": "Charlottetown hosted the famous conference discussing proposed Maritime Union.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1873,
+   "text": "Prince Edward Island officially entered Confederation on the first of July.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1874,
+   "text": "The Prince Edward Island Railway opened its main line to Summerside.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1879,
+   "text": "The Charlottetown Hospital opened as the first health care facility.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The Maritime Christian College was founded to train preachers in the region.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "The Confederation Centre of the Arts opened as a gift to residents.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "The city became home to the amalgamated University of Prince Edward Island.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "The Queen Elizabeth Hospital opened to serve the local population.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "The Department of Veterans Affairs moved its national headquarters to Charlottetown.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "The Atlantic Veterinary College opened, expanding the university further.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "CN Rail abandoned provincial rail service, transforming eastern waterfront lands.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1995,
+   "text": "Charlottetown amalgamated with Parkdale and several incorporated surrounding communities.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "A new cruise ship terminal opened to attract more maritime vessels.",
+   "url": "https://en.wikipedia.org/wiki/Charlottetown",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

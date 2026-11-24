@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 6448,
+  "completionTokens": 4080,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1971,
+   "theme": "civic",
+   "event": "The Brussels Agglomeration administrative division held its only council election.",
+   "quote": "The Brussels Agglomeration was an administrative division established in 1971. The only election of the council took place on 21 November 1971.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2015,
+   "theme": "civic",
+   "event": "A number of central boulevards inside the Pentagon have become car-free since June.",
+   "quote": "Since June 2015, a number of central boulevards inside the Pentagon have become car-free, thereby limiting transit traffic through the old city.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2028,
+   "theme": "power_conflict",
+   "event": "Implementation is scheduled to take effect for the single police zone legislation.",
+   "quote": "In May 2026, the Belgian Chamber of Representatives adopted legislation to merge the six zones into a single police zone, with implementation scheduled to take effect on 1 January 2028.",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

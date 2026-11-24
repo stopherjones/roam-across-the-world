@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3131,
+  "completionTokens": 2486,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2009,
+   "theme": "culture",
+   "event": "The Pacific Games Council elected Port Moresby as the host of the 2015 Games.",
+   "quote": "In September 2009, the Pacific Games Council, at its meeting coinciding with the 2009 Pacific Mini Games, elected Port Moresby as the host of the 2015 Games.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2011,
+   "theme": "civic",
+   "event": "The official census recorded that Port Moresby had a population of 364,145 inhabitants.",
+   "quote": "As of the 2011 census, Port Moresby had 364,145 inhabitants.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2015,
+   "theme": "culture",
+   "event": "Sporting facilities were upgraded significantly for the staging of the Pacific Games.",
+   "quote": "Sporting facilities were upgraded significantly for the 2015 Pacific Games, and further development took place in preparation for the 2016 FIFA Under-20 Women's World Cup.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

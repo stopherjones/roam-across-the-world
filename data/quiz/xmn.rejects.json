@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5636,
+  "completionTokens": 3349,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2028,
+   "theme": "civic",
+   "event": "The Tong'an Tunnel is scheduled to open to traffic under construction plans.",
+   "quote": "Moreover, there is the Tong'an Tunnel, scheduled to be opened to traffic in 2028, under construction.",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

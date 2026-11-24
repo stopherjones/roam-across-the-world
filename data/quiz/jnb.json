@@ -1,0 +1,130 @@
+{
+ "id": "jnb",
+ "town": "Johannesburg",
+ "source": "https://en.wikipedia.org/wiki/Johannesburg",
+ "pool": [
+  {
+   "year": 1886,
+   "text": "Johannesburg was established following the discovery of gold on former farmland.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1917,
+   "text": "Johannesburg became the headquarters of the Anglo-American Corporation founded by Ernest Oppenheimer.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1948,
+   "text": "The comprehensive system of apartheid racial separation was imposed upon South Africa.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "Johannesburg witnessed widespread demonstrations against apartheid in response to the Sharpeville massacre.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "South African Police raided a Rivonia house and arrested nine African National Congress members.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1973,
+   "text": "Sandton City was opened, followed later by other major shopping malls.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1976,
+   "text": "Demonstrations broke out in Soweto over a government decree about educating children in Afrikaans.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1977,
+   "text": "City Deep Terminal, Africa's largest dry port, was officially opened by South African Railways Services.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1991,
+   "text": "Johannesburg was affected by urban blight after the Group Areas Act was scrapped.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1994,
+   "text": "Johannesburg saw increased incidents of xenophobic violence against migrants from other African countries.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The Metropolitan Municipality was created and the city was subdivided into eleven regions.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The eleven regions were reorganised into the current seven alphabetical regions.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "A series of riots started in Alexandra when locals attacked migrants from neighboring countries.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2015,
+   "text": "Johannesburg hosted the African Union Summit, which sparked international outrage over Omar al-Bashir.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "The ruling ANC party lost their majority in Johannesburg for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Johannesburg hosted the 10th BRICS Summit.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Regional chair Geoff Makhubo died and Eunice Mgcina was appointed acting mayor.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The City of Johannesburg Metropolitan Municipality had a population of 4,803,262 during census.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "At least 76 people died when a hijacked building caught fire in Johannesburg.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "environment"
+  },
+  {
+   "year": 2025,
+   "text": "South African President Cyril Ramaphosa launched a rescue plan to address infrastructure.",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

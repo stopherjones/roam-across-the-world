@@ -1,0 +1,130 @@
+{
+ "id": "pap",
+ "town": "Port-au-Prince",
+ "source": "https://en.wikipedia.org/wiki/Port-au-Prince",
+ "pool": [
+  {
+   "year": 1680,
+   "text": "Islets in the bay were known as les îlets du Prince.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "civic"
+  },
+  {
+   "year": 1706,
+   "text": "A captain named de Saint-André sailed into the bay in Le Prince.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "civic"
+  },
+  {
+   "year": 1749,
+   "text": "A new city was built and incorporated as Port-au-Prince.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "civic"
+  },
+  {
+   "year": 1770,
+   "text": "Port-au-Prince replaced Cap-Français as the capital of the colony of Saint-Domingue.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1793,
+   "text": "French commissioner Étienne Polverel renamed the city to Port-Républicain.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "civic"
+  },
+  {
+   "year": 1794,
+   "text": "British troops captured the city after the Battle of Port-Républicain.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1804,
+   "text": "Port-au-Prince became the capital of newly independent Haiti.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1820,
+   "text": "The city was re-established as the capital of all of unified Haiti.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1918,
+   "text": "The National Palace was destroyed and then rebuilt.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "The National Museum was established in the palace grounds.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "Toussaint Louverture International Airport opened north of the city.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "A massive earthquake catastrophically affected Port-au-Prince.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "An estimated thirteen thousand tap-taps were in active use.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Hurricane Sandy brought deaths, damage, and a resurgence of cholera.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "environment"
+  },
+  {
+   "year": 2015,
+   "text": "The construction of a new LDS Temple was announced.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Hurricane Matthew caused catastrophic damage and hundreds of deaths.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "environment"
+  },
+  {
+   "year": 2020,
+   "text": "Extensive gang violence began to paralyze Port-au-Prince.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2022,
+   "text": "The population of the city was estimated at one million two hundred thousand.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "City Hall employees protested against a lack of salaries.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2025,
+   "text": "A popular tourist hub fell victim to arson.",
+   "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

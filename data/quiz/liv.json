@@ -1,0 +1,130 @@
+{
+ "id": "liv",
+ "town": "Liverpool",
+ "source": "https://en.wikipedia.org/wiki/Liverpool",
+ "pool": [
+  {
+   "year": 1207,
+   "text": "King John announced the foundation of the borough of Liverpool in letters patent.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "civic"
+  },
+  {
+   "year": 1257,
+   "text": "The parish church of Liverpool near the waterfront existed since this year.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "culture"
+  },
+  {
+   "year": 1699,
+   "text": "An Act of Parliament made Liverpool a parish the same year.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "civic"
+  },
+  {
+   "year": 1715,
+   "text": "The first commercial wet dock was built in Liverpool.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1715,
+   "text": "The world's first enclosed wet dock known as the Old Dock was constructed.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1754,
+   "text": "The oldest building in the area is Liverpool Town Hall, dating from this year.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "civic"
+  },
+  {
+   "year": 1930,
+   "text": "Liverpool opened and operated the site of Britain's first provincial airport.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "Liverpool's population reached an all-time high at the United Kingdom census.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "civic"
+  },
+  {
+   "year": 1934,
+   "text": "Frank Hornby produced the popular toy line known as Dinky Toys.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "Liverpool began its official partnership by being twinned with Cologne.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "An anthology of poems called The Mersey Sound has sold well since publication.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "The city was moved from Lancashire to the county of Merseyside.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "The La's released their hit single There She Goes in this year.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Liverpool Airport was renamed in honour of the musician John Lennon.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Several areas across the city were declared a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The city held the title of European Capital of Culture to celebrate heritage.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The arena opened and hosted the MTV Europe Music Awards the same year.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Leeds and Liverpool Canal runs into the city centre via Pier Head.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "The Wheel of Liverpool opened on the twenty-fifth day of March.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "culture"
+  },
+  {
+   "year": 2022,
+   "text": "Port workers at Liverpool held a series of strikes over their pay.",
+   "url": "https://en.wikipedia.org/wiki/Liverpool",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

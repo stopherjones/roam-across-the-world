@@ -1,0 +1,130 @@
+{
+ "id": "mrk",
+ "town": "Marrakesh",
+ "source": "https://en.wikipedia.org/wiki/Marrakesh",
+ "pool": [
+  {
+   "year": 1564,
+   "text": "The Saadian Sultan Abdallah al-Ghalib constructed the famous Ben Youssef Madrasa.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 1565,
+   "text": "The construction ordered by Abdallah al-Ghalib was successfully completed.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 1925,
+   "text": "Mamounia Hotel was built by Henri Prost and A in Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1956,
+   "text": "A protocol giving independence to Morocco was signed by Christian Pineau and M’Barek Ben Bakkai.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "The historic building was refurbished and reopened to the public as a historical site.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "UNESCO declared the old town area of Marrakesh a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The Marrakesh Agreement was signed to establish the World Trade Organisation.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "A palace was carefully restored and converted into a museum in Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The International Film Festival of Marrakech was established in Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The Moroccan government signed a loan agreement worth eight million U.S.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "Vanessa Branson established the cultural festival known as the Marrakech Bienniale.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "King Mohammed VI inaugurated the important road stretching from Marrakesh to Settat.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The House of Photography of Marrakech opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Fatima-Zahra Mansouri was elected the first female mayor of Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "King Mohammed VI inaugurated a regional psychiatric hospital built in Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "A major gas explosion occurred within the city of Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "A bomb attack took place in the Jemaa el-Fnaa square in Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "A former home and villa was converted into the Berber Museum in Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The PDJ under Ahmed El Moutassadik won partial legislative elections in Marrakesh.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2016,
+   "text": "Artist André Heller opened the ANIMA garden between Marrakesh and the Atlas Mountains.",
+   "url": "https://en.wikipedia.org/wiki/Marrakesh",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

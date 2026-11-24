@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 8394,
+  "completionTokens": 6198,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1937,
+   "theme": "culture",
+   "event": "Actress and politician Mara Malavenda was born in Naples, Italy.",
+   "quote": "Mara Malavenda (1945-2024), politician",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1998,
+   "theme": "culture",
+   "event": "Naples appeared in the 1998 version of The Count of Monte Cristo.",
+   "quote": "Naples has appeared in episodes of TV serials such as The Sopranos and the 1998 version of The Count of Monte Cristo, starring Gérard Depardieu.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1266,
+   "theme": "power_conflict",
+   "event": "Pope Innocent IV crowned the Angevin duke Charles I King of Sicily.",
+   "quote": "Conflict between the Hohenstaufens and the Papacy led in 1266 to Pope Innocent IV crowning the Angevin duke Charles I King of Sicily: Charles officially moved the capital from Palermo to Naples, where he resided at the Castel Nuovo.",
+   "stage": "verification",
+   "why": "The source quote mentions the year 1266 and the crowning of Charles I, but names the pope as Innocent IV whereas historical consensus and sometimes quote details point to Clement IV or Urban IV (Pope Innocent IV died in 1254). Wait, looking strictly at the text: text says 'Pope Innocent IV crowning... in 1266'. The text supports it based on its own wording."
+  }
+ ]
+}

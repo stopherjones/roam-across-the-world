@@ -1,0 +1,112 @@
+{
+ "id": "lxr",
+ "town": "Luxor",
+ "source": "https://en.wikipedia.org/wiki/Luxor",
+ "pool": [
+  {
+   "year": 1895,
+   "text": "The Coptic Catholic minority established the Eparchy of Luqsor alias Thebes on November 26.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "civic"
+  },
+  {
+   "year": 1947,
+   "text": "The Eparchy lost territory to establish the Eparchy of Assiut on August 10.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "The Eparchy lost territory to establish Sohag on September 14.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Luxor became the only city offering hot air balloon rides in Egypt.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "The local economy was hit by the Luxor massacre where 64 people died.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2004,
+   "text": "Excavation started around this year for a controversial tourism development plan in Luxor.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Nineteen tourists died when a hot air balloon crashed near Luxor on February 26.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "environment"
+  },
+  {
+   "year": 2018,
+   "text": "The Egyptian Ministry of Antiquities announced the discovery of the shrine of Osiris.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "A well-preserved mummy of a woman inside an unopened coffin was found on November 24.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Zahi Hawass revealed an ancient industrial area used to manufacture decorative artefacts for royal tombs.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Thirty well-preserved wooden coffins were unearthed in front of the Mortuary Temple of Hatshepsut.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "The Egyptian Government announced the discovery of a previously unopened coffin dated back to the 18th dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Egyptian archaeologists led by Zahi Hawass found Aten, a lost golden city near Luxor.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "Luxor had a population of 284,952 and served as the capital of the Luxor Governorate.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "A team announced the discovery of the tomb of Thutmose II near Luxor.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "Egyptian archaeologists uncovered three ancient New Kingdom tombs at the Dra Abu el-Naga necropolis.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "An archaeological mission identified the owner of Kampp 23 as the mayor of Thebes Amun Mes.",
+   "url": "https://en.wikipedia.org/wiki/Luxor",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

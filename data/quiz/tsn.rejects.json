@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9695,
+  "completionTokens": 6363,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2018,
+   "theme": "culture",
+   "event": "Time magazine ranked the Tianjin Binhai Library first on its special list.",
+   "quote": "In August 2018, Time magazine ranked the Tianjin Binhai Library in Binhai New Area first on its 'World's 100 Greatest Places of 2018' list.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "Tianjin recorded a total population at the census.",
+   "quote": "It has a total population of 13,866,009 inhabitants at the 2020 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

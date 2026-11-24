@@ -1,0 +1,130 @@
+{
+ "id": "kin",
+ "town": "Kinshasa",
+ "source": "https://en.wikipedia.org/wiki/Kinshasa",
+ "pool": [
+  {
+   "year": 1881,
+   "text": "Henry Morton Stanley established the place as a trading post.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1891,
+   "text": "Reverend Aaron Sims built Sims Chapel, which is regarded as the city's first Christian building.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1898,
+   "text": "The Matadi–Kinshasa portage railway was completed to bypass local river rapids.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1899,
+   "text": "Saint-Léopold Catholic parish was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1914,
+   "text": "A pipeline was installed to transport crude oil to upriver steamers.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1923,
+   "text": "The city was elevated to capital of the Belgian Congo.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "De facto racial segregation became de jure as European and African neighborhoods grew closer.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "Kintambo Vélodrome Stadium was built in the colonial development area.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "Saint Francis Parish was established in Kintambo.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "An ordinance granted the city status and established an urban committee.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "Lovanium University opened as the first university in the colony.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "The republic elected its first prime minister after gaining independence.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1966,
+   "text": "The name was changed during Mobutu Sese Seko's Zairianisation campaign.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "Cité de l'OUA was constructed when Kinshasa hosted the Organization of African Unity summit.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "Legislation granted the city a political status equivalent to a province.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "Mobutu Sese Seko enlisted OK Jazz to tour the nation for his campaign.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "Muhammad Ali and George Foreman fought the Rumble in the Jungle boxing match.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Manufacturing industries accounted for nearly half of the country total.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "Mean household spending amounted to one dollar per day per person.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2026,
+   "text": "The megacity reached an estimated population of 18.5 million residents.",
+   "url": "https://en.wikipedia.org/wiki/Kinshasa",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

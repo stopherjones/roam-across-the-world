@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 8877,
+  "completionTokens": 6482,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2012,
+   "theme": "commerce_industry",
+   "event": "The metropolitan area recorded billions in merchandise exports.",
+   "quote": "In 2012, the Houston–Pasadena–The Woodlands area recorded $110.3 billion in merchandise exports.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1972,
+   "theme": "culture",
+   "event": "The marriage of Billie Ert and Antonio Molina took place.",
+   "quote": "Before the legalization of same-sex marriage in the United States the marriage of Billie Ert and Antonio Molina, considered the first same-sex marriage in Texas history, took place on October 5, 1972.",
+   "stage": "verification",
+   "why": "The source mentions the marriage took place on October 5, 1972, but does not state the year 1972 explicitly in the text snippet."
+  },
+  {
+   "year": 2013,
+   "theme": "commerce_industry",
+   "event": "Houston was identified as the number one market for exports.",
+   "quote": "In 2013, Houston was identified as the number one U.S.",
+   "stage": "verification",
+   "why": "The source quote cuts off at 'number one U.S.' and does not fully support the claim about exports."
+  },
+  {
+   "year": 2015,
+   "theme": "civic",
+   "event": "Downtown Houston added a cycle track on Lamar Street running to Discovery Green.",
+   "quote": "In 2015, Downtown Houston added a cycle track on Lamar Street, running from Sam Houston Park to Discovery Green.",
+   "stage": "verification",
+   "why": "The claim states the track ran to Discovery Green, but the quote specifies it ran from Sam Houston Park to Discovery Green, making the claim's description of the start point incomplete regarding the route."
+  }
+ ]
+}

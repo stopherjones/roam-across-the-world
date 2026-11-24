@@ -1,0 +1,130 @@
+{
+ "id": "man",
+ "town": "Manchester",
+ "source": "https://en.wikipedia.org/wiki/Manchester",
+ "pool": [
+  {
+   "year": 1301,
+   "text": "The town of the settlement was granted a formal charter.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "civic"
+  },
+  {
+   "year": 1421,
+   "text": "Thomas de la Warre founded a collegiate church for the parish.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "culture"
+  },
+  {
+   "year": 1515,
+   "text": "The Manchester Grammar School was established in the city as a private school.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "civic"
+  },
+  {
+   "year": 1653,
+   "text": "Chetham's Library opened and remains open as a public reference library.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "culture"
+  },
+  {
+   "year": 1761,
+   "text": "The Bridgewater Canal opened, bringing coal from mines to the centre.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1780,
+   "text": "Richard Arkwright began construction of the first cotton mill.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1948,
+   "text": "Developers created the world's first stored-program computer known as the Manchester Baby.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Anthony Burgess lived in Manchester while writing the dystopian satire A Clockwork Orange.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "The first edition of Top of the Pops was broadcast from Dickenson Road Studios.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "The Manchester Business School offered the first Master of Business Administration course in the UK.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1970,
+   "text": "Manchester Metropolitan University was formed as Manchester Polytechnic upon a merger of colleges.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The Northern School of Music and Royal Manchester College of Music merged to form the RNCM.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "The Canal Street area has hosted the Manchester Pride festival each August since this year.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1991,
+   "text": "The band Oasis formed within the city of Manchester.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "The Manchester Metrolink opened, providing a modern light rail tram system.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "Manchester Polytechnic gained university status and absorbed a college in South Cheshire.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "civic"
+  },
+  {
+   "year": 1994,
+   "text": "The university became a founding member of the Russell Group of universities.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "A lorry bomb was set off by the IRA in Corporation Street.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1996,
+   "text": "The 2500 seat Bridgewater Hall opened as a major classical music venue.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The Beetham Tower was completed as a tall residential building.",
+   "url": "https://en.wikipedia.org/wiki/Manchester",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

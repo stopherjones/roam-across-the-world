@@ -1,0 +1,130 @@
+{
+ "id": "pus",
+ "town": "Busan",
+ "source": "https://en.wikipedia.org/wiki/Busan",
+ "pool": [
+  {
+   "year": 1396,
+   "text": "An invasion occurred affecting the area of Busan.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1423,
+   "text": "The port of Busan and a waegwan were established.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1510,
+   "text": "The waegwan located in Busan was closed.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "civic"
+  },
+  {
+   "year": 1605,
+   "text": "The shrine Songgongsa was built to honor those who died defending Korea.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "culture"
+  },
+  {
+   "year": 1607,
+   "text": "Diplomatic relations with the new shogunate in Japan were established.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1624,
+   "text": "The shrine Songgongsa was dubbed Chungnyeolsa.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "culture"
+  },
+  {
+   "year": 1678,
+   "text": "The waegwan was moved to Choryang.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "civic"
+  },
+  {
+   "year": 1763,
+   "text": "Busan became the first place in Korea to have sweet potatoes.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1957,
+   "text": "Busan adopted a division system with the creation of six gu.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "Busan separated from South Gyeongsang Province to become a Directly Governed City.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "The provincial capital of Gyeongsangnam-do was moved from Busan to Changwon.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The establishment of the Busan Film Commission marked the city's emergence as a filming destination.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Busan officially replaced the earlier McCune-Reischauer romanization Pusan.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Busan hosted an APEC summit.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "German artist Hendrik Beikirch painted Asia's tallest mural entitled Fisherman Portrait.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Busan was added to the UNESCO Creative Cities Network as a City of Film.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "The city hosts the One Asia Festival, the largest K-pop festival in Korea.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "Ananti Hilton Busan opened in the Gijang-eup district.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "The port of Busan processed 21.81 million TEU of container cargo volume.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2025,
+   "text": "Busan hosted the China-United States Busan Summit.",
+   "url": "https://en.wikipedia.org/wiki/Busan",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

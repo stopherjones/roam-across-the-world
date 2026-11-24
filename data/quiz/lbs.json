@@ -1,0 +1,130 @@
+{
+ "id": "lbs",
+ "town": "Lubumbashi",
+ "source": "https://en.wikipedia.org/wiki/Lubumbashi",
+ "pool": [
+  {
+   "year": 1900,
+   "text": "The Comité Spécial du Katanga was established as a semi-private concessionary company.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1910,
+   "text": "The Belgian government established the modern-day government in the city of Élisabethville.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1911,
+   "text": "The whites-only Ligue de Football du Katanga was founded in Elisabethville.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "culture"
+  },
+  {
+   "year": 1925,
+   "text": "The first official local football championship called the B was organized in Elisabethville.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "Belgian colonial authorities experimented with self-governance by establishing the cité indigène of Élisabethville.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "The first indigenous chief, Albert Kabongo, was appointed in Élisabethville.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "Miners in Élisabethville conducted a strike in December to protest the forced-labour regime.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "Albert Kabongo, the first indigenous chief of Élisabethville, was dismissed from his post.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "The black Elisabethville Football Association had over thirty affiliated clubs competing in leagues.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "culture"
+  },
+  {
+   "year": 1954,
+   "text": "There were eight thousand black homeowners and many skilled workers in the city.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "The Belgians established the University of Élisabethville, now known as the University of Lubumbashi.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Moise Tshombe proclaimed Katangan independence in July during the Congolese civil war.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "Congolese leaders arrested Moise Tshombe and charged him with treason in April.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "United Nations troops opposed Katangan forces and took control of the city in December.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1966,
+   "text": "Moise Tshombe renamed Élisabethville to Lubumbashi.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "Katanga was renamed to Shaba by the authorities.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "Zenith Radio started broadcasting as the first independent radio station in the city.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "Alliance of Democratic Forces for the Liberation of Congo rebels captured Lubumbashi in April.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1997,
+   "text": "Laurent-Désiré Kabila declared himself president of the Democratic Republic of the Congo from Lubumbashi.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "Great animals had been acquired for the zoo by this year.",
+   "url": "https://en.wikipedia.org/wiki/Lubumbashi",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

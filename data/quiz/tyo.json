@@ -1,0 +1,130 @@
+{
+ "id": "tyo",
+ "town": "Tokyo",
+ "source": "https://en.wikipedia.org/wiki/Tokyo",
+ "pool": [
+  {
+   "year": 1407,
+   "text": "The current building was constructed during the Muromachi period.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "culture"
+  },
+  {
+   "year": 1457,
+   "text": "Ōta Dōkan built Edo Castle to defend the region from the Chiba clan.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1524,
+   "text": "The Later Hōjō clan replaced the Uesugi clan after the Battle of Takanawahara.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1590,
+   "text": "Toyotomi Hideyoshi defeated the Later Hōjō clan during the Siege of Odawara.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1603,
+   "text": "Edo became the seat of the Tokugawa shogunate and rose to political prominence.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1651,
+   "text": "The Ueno Toshogu maintains the original building built by third shogun Iemitsu Tokugawa.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "The Tokyo Metro Ginza Line was completed between Ueno and Asakusa.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1930,
+   "text": "Yasunari Kawabata depicted the decadent allure of Tokyo in his series.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "culture"
+  },
+  {
+   "year": 1931,
+   "text": "Haneda has served as the primary airport for Tokyo since this year.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "civic"
+  },
+  {
+   "year": 1932,
+   "text": "The May 15 incident occurred as an attempted military coup d'état.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1933,
+   "text": "The former Tokyo House of Yasuhiko was built in an opulent Art Deco style.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "The February 26 incident occurred as an attempted military coup d'état.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "Tokyo City merged with Tokyo Prefecture to form the Tokyo Metropolis.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "civic"
+  },
+  {
+   "year": 1947,
+   "text": "Typhoon Kathleen struck Tokyo, destroying 31,000 homes and killing 1,100 people.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "environment"
+  },
+  {
+   "year": 1949,
+   "text": "The Science Council of Japan was established to promote scientific research and applications.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "Tokyo celebrated its 500th anniversary during the period of rapid rebuilding.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Typhoon Ida dropped 400 mm of rain in a single week causing streets to flood.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "environment"
+  },
+  {
+   "year": 1962,
+   "text": "Hotel Okura Tokyo opened as one of the luxury hotels in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "Tokyo hosted the Summer Olympics and Paralympics as the first Asian city.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Michelin released their first guide for fine dining in Tokyo awarding 191 stars.",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

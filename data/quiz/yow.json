@@ -1,0 +1,130 @@
+{
+ "id": "yow",
+ "town": "Ottawa",
+ "source": "https://en.wikipedia.org/wiki/Ottawa",
+ "pool": [
+  {
+   "year": 1610,
+   "text": "Étienne Brûlé became the first documented European to navigate the Ottawa River.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1800,
+   "text": "Wright founded a lumber town north of the river in Hull.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1826,
+   "text": "A town was established and later named after Colonel John By.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "civic"
+  },
+  {
+   "year": 1832,
+   "text": "The Rideau Canal first opened to serve as a major waterway route.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "environment"
+  },
+  {
+   "year": 1832,
+   "text": "Bypassing small settlements, Bytown grew as the Rideau Canal was completed.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1845,
+   "text": "The Ottawa Citizen was established as the Bytown Packet newspaper.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "King George VI made his first visit to his parliament in Ottawa.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "Carleton University was founded to meet the needs of returning veterans.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "VE Day was marked with a large celebration across the city.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "The very first raising of Canada's new national flag took place.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "The entire length of Sparks Street was turned into a pedestrian mall.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "Algonquin College was founded as a college of applied arts and technology.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Region of Ottawa-Carleton was formed from eleven townships and municipalities.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "The National Arts Centre opened as a major performing arts venue.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "Ottawa Race Weekend began hosting participants during the fourth weekend of May.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "Ottawa hosted the Kitchen Accord negotiations for the Canadian constitution.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "Queen Elizabeth II issued a royal proclamation for the Constitution Act.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "A campus located off the Aviation Parkway in Carson Meadows was founded.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Notre Dame Cathedral Basilica was designated as a National Historic Site.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "Civil servants transitioned to online work due to the COVID-19 pandemic.",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

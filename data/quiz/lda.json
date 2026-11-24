@@ -1,0 +1,130 @@
+{
+ "id": "lda",
+ "town": "Luanda",
+ "source": "https://en.wikipedia.org/wiki/Luanda",
+ "pool": [
+  {
+   "year": 1576,
+   "text": "Portuguese explorer Paulo Dias de Novais founded the city of Luanda.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1618,
+   "text": "The Portuguese constructed the fortress called Fortaleza São Pedro da Barra.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1634,
+   "text": "The fortress named Fortaleza de São Miguel was built in Luanda.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1751,
+   "text": "Between five thousand and ten thousand slaves were annually sold here.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1765,
+   "text": "The fortress called Forte de São Francisco do Penedo was built.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1836,
+   "text": "The slave trade was officially abolished in the region.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "Luanda grew to a town containing sixty one thousand inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "civic"
+  },
+  {
+   "year": 1970,
+   "text": "The population of the cosmopolitan major city reached 475328.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "civic"
+  },
+  {
+   "year": 1975,
+   "text": "Most of the white Portuguese left as refugees at the start.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1979,
+   "text": "The sports club changed its colonial related name.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "A report famously called Luanda the Paris of Africa.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Provisional Angolan governments cleared the Boavista slum in Luanda Bay.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The first modern shopping mall in Angola was established.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The city began hosting the annual Luanda International Jazz Festival.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "The province was enlarged by adding two additional municipalities.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "New import tariffs imposed in March made Luanda expensive.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "A scientific paper estimated future climate conditions using scenarios.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The IPCC report identified Luanda as severely affected by sea level.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "environment"
+  },
+  {
+   "year": 2023,
+   "text": "António Agostinho Neto International Airport finally opened in November.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "The population reached more than 8.8 million inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Luanda",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

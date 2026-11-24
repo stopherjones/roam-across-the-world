@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2969,
+  "completionTokens": 3428,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1916,
+   "theme": "power_conflict",
+   "event": "Misrata became semi-autonomous and collected taxes from various surrounding regions.",
+   "quote": "By 1916, Misrata had become semi-autonomous and collected taxes from Sirte, the region of Fezzan and the area between it and Sirte as well as the Warfalla tribal area south of Tripoli.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1908,
+   "theme": "power_conflict",
+   "event": "The Muntasirs controlled the upper echelons of the newly organized bureaucracy.",
+   "quote": "Up until 1908, the Muntasirs, led by Umar al-Muntasir, controlled the upper echelons of the newly organized bureaucracy in Tripoli Province and were largely accepted by the local notables as the administrators of Misrata along with Sirte, Gharyan and Tarhuna.",
+   "stage": "verification",
+   "why": "The source says control lasted 'up until 1908', not that the event happened in 1908."
+  },
+  {
+   "year": 1941,
+   "theme": "commerce_industry",
+   "event": "The Tripoli-Benghazi railway line was started by the Italians.",
+   "quote": "The last railway development in Libya done by the Italians was the \"Tripoli-Benghazi line\" that was started in 1941 and was never completed because of the Italian defeat during World War II: a new railway station was built in Misrata, but was destroyed by the British attacks in 1942.",
+   "stage": "verification",
+   "why": "The source states the line was started in 1941, but the claim asserts it was destroyed in 1941 (misrepresenting the year for the destruction)."
+  },
+  {
+   "year": 1979,
+   "theme": "culture",
+   "event": "Attahaddy Misurata Sports Club and Annajem Arrefi Sports Club were founded.",
+   "quote": "Attahaddy Misurata Sports Club (founded 1979)",
+   "stage": "verification",
+   "why": "The source quote only mentions Attahaddy Misurata Sports Club being founded in 1979 and does not mention Annajem Arrefi Sports Club."
+  },
+  {
+   "year": 1984,
+   "theme": "culture",
+   "event": "Aljihad Sports Club and Assakhra Sports Club were founded.",
+   "quote": "Aljihad Sports Club (founded 1984)",
+   "stage": "verification",
+   "why": "The source quote only mentions Aljihad Sports Club being founded in 1984 and does not mention Assakhra Sports Club."
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "id": "har",
+ "town": "Harwich",
+ "source": "https://en.wikipedia.org/wiki/Harwich",
+ "pool": [
+  {
+   "year": 1253,
+   "text": "The lord of the manor secured the right to hold a market",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1318,
+   "text": "Harwich was granted its first charter to become a recognized borough",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "civic"
+  },
+  {
+   "year": 1339,
+   "text": "French forces launched an abortive military raid against the coastal town",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1652,
+   "text": "Harwich Dockyard was established as an official naval dockyard facility",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1657,
+   "text": "The town became a naval base and was heavily fortified",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1665,
+   "text": "A pair of lighthouses was set up on the Town Green",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "environment"
+  },
+  {
+   "year": 1713,
+   "text": "The dockyard ceased to operate as a Royal Dockyard for warships",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1769,
+   "text": "The Harwich Guildhall was built as a notable listed structure",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "civic"
+  },
+  {
+   "year": 1818,
+   "text": "The High Lighthouse was constructed as part of maritime navigation",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "environment"
+  },
+  {
+   "year": 1854,
+   "text": "The Great Eastern Main Line arrived from Colchester to connect travellers",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1860,
+   "text": "The Pier Hotel was established on the quayside for arriving travellers",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1871,
+   "text": "The chapel of St Nicholas was upgraded to a parish church",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "civic"
+  },
+  {
+   "year": 1911,
+   "text": "The Electric Palace Cinema was built with an ornamental frontage",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "culture"
+  },
+  {
+   "year": 1923,
+   "text": "The Great Eastern Hotel was closed by the newly formed LNER",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1925,
+   "text": "The two local parishes were merged into a single parish",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "The historic borough of Harwich was abolished under legislation",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "The Royal Naval Auxiliary Service maintained a headquarters on site until this year",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "The Trinity House office building was completed next door",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "A sea shanty festival was set up to run annually in October",
+   "url": "https://en.wikipedia.org/wiki/Harwich",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

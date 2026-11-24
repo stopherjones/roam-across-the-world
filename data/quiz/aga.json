@@ -1,0 +1,130 @@
+{
+ "id": "aga",
+ "town": "Agadir",
+ "source": "https://en.wikipedia.org/wiki/Agadir",
+ "pool": [
+  {
+   "year": 1325,
+   "text": "The oldest known map names a place called Porto Mesegina at Agadir location.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "environment"
+  },
+  {
+   "year": 1505,
+   "text": "Portuguese nobleman João Lopes de Sequeira occupied the area around Agadir.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1513,
+   "text": "The castle at Agadir was bought by the King of Portugal.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1540,
+   "text": "Sa'di sultan Muhammad al-Shaykh occupied the main hill above the Portuguese.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1541,
+   "text": "The siege of the colony concluded successfully on March twelfth.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1572,
+   "text": "An authentic fortress with winding streets was built by Abdallah al-Ghalib.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "civic"
+  },
+  {
+   "year": 1731,
+   "text": "The town of Agadir was completely destroyed by an earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "environment"
+  },
+  {
+   "year": 1789,
+   "text": "A European traveler described Agadir as now a ghost town.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "civic"
+  },
+  {
+   "year": 1881,
+   "text": "Sultan Hassan I reopened the harbour to trade for southern expeditions.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1913,
+   "text": "French troops landed in Agadir on June fifteenth.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "civic"
+  },
+  {
+   "year": 1916,
+   "text": "The first pier known as the Portuguese jetty was built near Founti.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1960,
+   "text": "Agadir was nearly totally destroyed by a severe earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "environment"
+  },
+  {
+   "year": 1992,
+   "text": "La Médina handicrafts space was created by the Italian artist Coco Polizzi.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "The Timitar festival of Amazigh culture and music has been held annually.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Taghazout-Argana Bay tourism development was launched.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Agadir has been linked to the Casablanca-Agadir expressway since this year.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Agadir Ida-Outanane registered a GDP per capita of 38,427 dirhams.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "The Agadir tourist cable car opened in October.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2025,
+   "text": "Leoni opened a factory in the Drarga Industrial Acceleration Zone.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2026,
+   "text": "Agadir launched its first Bus Rapid Transit line named Amalway Trambus.",
+   "url": "https://en.wikipedia.org/wiki/Agadir",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

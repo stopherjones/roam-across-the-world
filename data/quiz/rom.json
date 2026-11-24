@@ -1,0 +1,130 @@
+{
+ "id": "rom",
+ "town": "Rome",
+ "source": "https://en.wikipedia.org/wiki/Rome",
+ "pool": [
+  {
+   "year": 1300,
+   "text": "Pope Boniface VIII called for the first Christian Jubilee, bringing millions of pilgrims.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "civic"
+  },
+  {
+   "year": 1418,
+   "text": "The Council of Constance settled the Western Schism and elected Pope Martin V.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1527,
+   "text": "The Landsknechts of Emperor Charles V sacked the city, ending the Renaissance golden age.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1545,
+   "text": "The Church began the Counter-Reformation starting with the Council of Trent.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "civic"
+  },
+  {
+   "year": 1570,
+   "text": "Chef Bartolomeo Scappi acquired fame when his cookbook Opera dell'arte del cucinare published.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "culture"
+  },
+  {
+   "year": 1585,
+   "text": "The Accademia Nazionale di Santa Cecilia was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "Benito Mussolini did away with democracy and declared a new Italian Empire.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "The Lateran Treaty created the Vatican state and affected territory boundaries.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "The film studios were founded by Benito Mussolini before being bombed.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "culture"
+  },
+  {
+   "year": 1943,
+   "text": "The San Lorenzo district suffered Allied bombing raids resulting in many casualties.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Rome was liberated on the fourth day of June.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "The city hosted the signing of the Treaty of Rome establishing the community.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The city hosted the Summer Olympics in the twentieth century.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "The city played host to the Eurovision Song Contest.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "The city played host to the MTV Europe Music Awards.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Rome saw the opening of its newest arts foundation gallery.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The administrative areas called municipi were reduced in number to fifteen.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "Rome became the principal town of the Metropolitan City.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "Rome ranked as the fourteenth most visited city globally with tourists.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "Globalization and World Cities Research Network classified Rome as a world city.",
+   "url": "https://en.wikipedia.org/wiki/Rome",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

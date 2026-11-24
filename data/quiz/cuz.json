@@ -1,0 +1,130 @@
+{
+ "id": "cuz",
+ "town": "Cusco",
+ "source": "https://en.wikipedia.org/wiki/Cusco",
+ "pool": [
+  {
+   "year": 1100,
+   "text": "Killke people constructed the walled complex of Saksayhuamán around this year.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1528,
+   "text": "Cusco fell to Huáscar's sphere during the Inca Civil War.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1532,
+   "text": "Captured by Atahualpa's generals in April during the Battle of Quipaipan.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1533,
+   "text": "First three Spaniards arrived in May after the Battle of Cajamarca.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1533,
+   "text": "Francisco Pizarro officially arrived in Cusco on 15 November.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1534,
+   "text": "City reestablished on 23 March after Spanish conquest, built over Inca monuments.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "Congress of Americanists declared Cusco Archeological Capital of the Americas.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1944,
+   "text": "Anthem of Cusco composed by Roberto Ojeda Campana with lyrics by Luis Nieto Miranda.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1950,
+   "text": "Major earthquake on 21 May damaged more than one third of structures.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "environment"
+  },
+  {
+   "year": 1972,
+   "text": "Declared Cultural Heritage of the Nation by Supreme Resolution No.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Flag introduced by Raúl Montesinos Espejo for radio station anniversary.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Mayor signed ordinance banning traditional spelling, enforcing \"Cusco\" in publications.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "Municipality officially adopted the flag after its popular use.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "7th Convention of Mayors declared Cusco Cultural Heritage of the World.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "Declared a World Heritage Site by UNESCO as \"City of Cusco\".",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "Coat of arms featuring Sol de Echenique officially adopted.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Local authorities formalized Quechua‑related spelling \"Qosqo\" for the city.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "Anthem translated into Quechua by Faustino Espinoza Navarro and Mario Mejía Waman.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "Constitution designates Cusco as the Historical Capital of Peru.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "Tourism income reached US$837 million.",
+   "url": "https://en.wikipedia.org/wiki/Cusco",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

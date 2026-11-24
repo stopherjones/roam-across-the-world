@@ -1,0 +1,130 @@
+{
+ "id": "dtt",
+ "town": "Detroit",
+ "source": "https://en.wikipedia.org/wiki/Detroit",
+ "pool": [
+  {
+   "year": 1701,
+   "text": "Explorers Antoine de la Mothe Cadillac and Alphonse de Tonty founded Fort Pontchartrain du Détroit.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "civic"
+  },
+  {
+   "year": 1802,
+   "text": "Detroit began its civic history with its official incorporation and subsequent mayors.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "civic"
+  },
+  {
+   "year": 1806,
+   "text": "The town of Detroit was first incorporated as a city before repeal.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "civic"
+  },
+  {
+   "year": 1824,
+   "text": "The city held its first mayoral election featuring John R.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "civic"
+  },
+  {
+   "year": 1837,
+   "text": "Detroit became the state's first capital following Michigan's admission to the Union.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "civic"
+  },
+  {
+   "year": 1847,
+   "text": "Grand Circus Park was established as the city's first official municipal park.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "environment"
+  },
+  {
+   "year": 1935,
+   "text": "The United Auto Workers labor union was founded in Detroit.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1935,
+   "text": "The Michigan Chronicle was established to serve as an African-American weekly publication.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "culture"
+  },
+  {
+   "year": 1940,
+   "text": "The Huron–Clinton Metroparks system was established in the surrounding Metro Area.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "environment"
+  },
+  {
+   "year": 1949,
+   "text": "The J. Westcott II vessel began its maritime operational service.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1957,
+   "text": "Louis Miriani began his tenure as the last Republican mayor of the city.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "Motown was relocated to Los Angeles by Gordy to pursue film production.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Coleman Young was elected as the first Black mayor of the city.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "The total number of homicides was officially documented.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1980,
+   "text": "The Metro Times weekly publication was founded to cover news and arts.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "The elevated rail system known as the People Mover was completed for downtown service.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "A movie was produced featuring the rock connections highlighted by the group Kiss.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Compuware completed its world headquarters in downtown.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "Ernst & Young completed its office building at One Kennedy Square.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "The renovated Lithuanian Hall reopened in the West Vernor area.",
+   "url": "https://en.wikipedia.org/wiki/Detroit",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

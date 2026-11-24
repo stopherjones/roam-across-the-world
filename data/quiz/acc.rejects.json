@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3204,
+  "completionTokens": 3136,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2001,
+   "theme": "civic",
+   "event": "A recorded total of 7,923 children attended pre-schools located in Accra.",
+   "quote": "In 2001, there were 7,923 children (3,893 girls and 4,030 boys) in pre-schools in Accra.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "The official census recorded a population of 284,124 for the metropolitan district.",
+   "quote": "As of the 2021 census, the Accra Metropolitan District, 20.4 km2 (7.9 sq mi), had a population of 284,124, and the larger Greater Accra Region, 3,245 km2 (1,253 sq mi), had a population of 5.46 million.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

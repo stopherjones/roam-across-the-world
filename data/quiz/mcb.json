@@ -1,0 +1,130 @@
+{
+ "id": "mcb",
+ "town": "Maracaibo",
+ "source": "https://en.wikipedia.org/wiki/Maracaibo",
+ "pool": [
+  {
+   "year": 1499,
+   "text": "First Europeans arrived at Lake Maracaibo, marking initial contact with the region",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "culture"
+  },
+  {
+   "year": 1535,
+   "text": "Nikolaus Federmann relocated the settlement population to Santa Marta",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "civic"
+  },
+  {
+   "year": 1569,
+   "text": "Captain Alonso Pacheco attempted to settle Maracaibo but faced indigenous attacks",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1574,
+   "text": "Captain Pedro Maldonado permanently re‑founded the city as Nueva Zamora",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "civic"
+  },
+  {
+   "year": 1614,
+   "text": "Dutch corsair Henrik de Gerard plundered Maracaibo",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1642,
+   "text": "British pirate William Jackson attacked the city",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1667,
+   "text": "French pirate François l'Olonnais sacked Maracaibo and Gibraltar",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1669,
+   "text": "Henry Morgan raided Maracaibo before moving on to Gibraltar",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1678,
+   "text": "French privateer Michel de Grammont attacked Maracaibo with six ships",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "Overthrow of Pérez Jiménez led to democratic administration approving new bridge project",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Prestressed concrete bridge opened, linking Maracaibo with Zulia’s eastern shore",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1964,
+   "text": "Super‑tanker Esso Maracaibo collided with bridge pier, collapsing 259 m roadway section",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "environment"
+  },
+  {
+   "year": 1965,
+   "text": "Diocese of Maracaibo established on 23 July",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "Maracaibo Diocese elevated to archdiocese by Pope Paul VI",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "Pope John Paul II visited Maracaibo",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "San Francisco municipality created as second of Maracaibo’s two municipalities",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Archbishop Ubaldo Ramón Santana Sequera began leading the archdiocese",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Widespread poverty and blackouts sparked violence and looting across the city",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "COVID‑19 pandemic overwhelmed Maracaibo University Hospital",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Local solar‑energy pilot aims to install panels on 400 homes and 100 apartments",
+   "url": "https://en.wikipedia.org/wiki/Maracaibo",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

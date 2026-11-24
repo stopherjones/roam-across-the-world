@@ -1,0 +1,130 @@
+{
+ "id": "alx",
+ "town": "Alexandria",
+ "source": "https://en.wikipedia.org/wiki/Alexandria",
+ "pool": [
+  {
+   "year": 1326,
+   "text": "Ibn Battuta visited the Pharos lighthouse and found it partly in ruins.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "culture"
+  },
+  {
+   "year": 1517,
+   "text": "After the Battle of Ridaniya, the city was conquered by Ottoman Turks.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1798,
+   "text": "French troops stormed Alexandria during Napoleon's military operations expedition to Egypt.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1801,
+   "text": "British forces won a considerable victory over the French at Alexandria.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1820,
+   "text": "Alexandria regained its former prominence with the construction of the Mahmoudiyah Canal.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1860,
+   "text": "An extensive tramway network was built in Alexandria and remains the oldest in Africa.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "A monument was built to honor Khedive Ismail with a statue at the top.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "The city of Alexandria was a target of an Israeli bombing campaign.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1954,
+   "text": "Mansheya Square was the site of a failed assassination attempt on Gamal Abdel Nasser.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1956,
+   "text": "Europeans began leaving Alexandria following the Suez Crisis outburst of Arab nationalism.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1965,
+   "text": "The monument was transformed into the Monument to the Unknown Soldier without the statue.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Roger Hopkins and Mark Lehrner conducted an obelisk erecting experiment.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "The Bibliotheca Alexandrina was inaugurated near the site of the old library.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The Alexandria National Museum was inaugurated on the last day of the year.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The Egypt-Japan University of Science and Technology was set up as a research university.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "The Greek University of Patras announced opening a branch in Alexandria.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "The museum re-opened to the public after extensive renovations and expansion works.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "Alexandria joined the UNESCO Global Network of Learning Cities organization.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "The Oxford Centre for Maritime Archaeology published findings of a temple to Isis.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "Terminal 2 is the brand new terminal and was inaugurated in Alexandria.",
+   "url": "https://en.wikipedia.org/wiki/Alexandria",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

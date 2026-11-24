@@ -1,0 +1,130 @@
+{
+ "id": "sdq",
+ "town": "Santo Domingo",
+ "source": "https://en.wikipedia.org/wiki/Santo_Domingo",
+ "pool": [
+  {
+   "year": 1496,
+   "text": "Santo Domingo was founded by the Spanish Empire as an early European settlement.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1502,
+   "text": "A major hurricane destroyed Santo Domingo, leading to its rebuilding nearby.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "environment"
+  },
+  {
+   "year": 1521,
+   "text": "Enslaved Africans led the first major slave revolt on a plantation.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1586,
+   "text": "Sir Francis Drake captured the city of Santo Domingo for ransom.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1655,
+   "text": "Local militias successfully repulsed an attacking English force sent by Oliver Cromwell.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "Criollo bourgeois overthrew the Spanish crown to form a new nation.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1844,
+   "text": "Juan Pablo Duarte led the city to gain independence from Haiti.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1930,
+   "text": "Hurricane San Zenón struck Santo Domingo, causing severe damage and casualties.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "environment"
+  },
+  {
+   "year": 1936,
+   "text": "Dictator Rafael Trujillo renamed the capital city to Ciudad Trujillo.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "Following an assassination, the city returned to its original name.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1962,
+   "text": "Juan Bosch was elected to the presidency in the nation.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "The Zona Colonial district became recognized as a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "El Quinto Centenario marked the 500th anniversary of Columbus's discovery.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The city hosted the FIBA Americas Championship at a local sports palace.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "The local stadium underwent renovation to expand seating and appearance.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Leonel Fernández announced plans to turn the stadium into a modern complex.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The second metro line opened to relieve urban traffic congestion.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "A cable car system opened to serve low-income areas and metro lines.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "Las Américas handled massive amounts of cargo as a busy airport.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "A second cable car line opened to connect a neighboring municipality.",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

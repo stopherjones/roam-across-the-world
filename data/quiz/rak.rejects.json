@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7165,
+  "completionTokens": 5042,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1960,
+   "theme": "civic",
+   "event": "The Ben Youssef Madrasa building experienced a temporary closure beginning in this specific year.",
+   "quote": "After a temporary closure beginning in 1960, the building was refurbished and reopened to the public as a historical site in 1982.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1122,
+   "theme": "civic",
+   "event": "Ali ibn Yusuf built the red walls of the city.",
+   "quote": "The red walls of the city, built by Ali ibn Yusuf in 1122–1123, and various buildings constructed in red sandstone afterwards, have given the city the nickname of the \"Red City\" or \"Ochre City\".",
+   "stage": "verification",
+   "why": "The source quote states the walls were built in 1122–1123, not strictly 1122."
+  },
+  {
+   "year": 1126,
+   "theme": "civic",
+   "event": "Ali Ibn Yusuf fortified the city with walls for the first time.",
+   "quote": "He also fortified the city with city walls for the first time in 1126–1127 and expanded its water supply by creating the underground water system known as the khettara.",
+   "stage": "verification",
+   "why": "The source quote states the fortification occurred in 1126–1127, not strictly 1126."
+  }
+ ]
+}

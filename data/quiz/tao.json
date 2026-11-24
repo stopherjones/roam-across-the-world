@@ -1,0 +1,130 @@
+{
+ "id": "tao",
+ "town": "Qingdao",
+ "source": "https://en.wikipedia.org/wiki/Qingdao",
+ "pool": [
+  {
+   "year": 1088,
+   "text": "The Song court opened a maritime trade office there to manage the shipping trade.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1467,
+   "text": "The temple to the sea goddess Tianhou was built and houses a museum.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "civic"
+  },
+  {
+   "year": 1891,
+   "text": "The Qing decided to fortify Jiao'ao as a defense against naval attacks.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1903,
+   "text": "Commercial interests established the Germania Brewery which later became the world-famous Tsingtao Brewery.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1912,
+   "text": "Sun Yat-sen visited the Tsingtao area and stated that he was impressed.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "culture"
+  },
+  {
+   "year": 1915,
+   "text": "China agreed to recognize Japan's special position through the Twenty-One Demands.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1934,
+   "text": "A notable Neo-romanesque church designed by German architect Alfred Fräbel was completed.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "Japan re-occupied Qingdao a year after expanding the Second Sino-Japanese War.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "During the Chinese Civil War the city was taken by Chairman Mao Zedong.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1984,
+   "text": "The Chinese government named a district of Qingdao a Special Economic and Technology Development Zone.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "Bandao Broadcasting Media Corporation, a news and broadcasting agency was founded.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Guitar manufacturers Epiphone opened a factory in Qingdao.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2003,
+   "text": "The annual cargo handling capacity exceeded 100 million tons for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "The city's GDP reached 42.3 billion, ranking first in Shandong Province.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "Qingdao was named as one of China's top ten cities by brand value.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Qingdao and Beijing cohosted the Olympic Sailing competitions during the Summer Olympics.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Qingdao was named China's most livable city by the Chinese Institute of City Competitiveness.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The longest bridge over water opened in Qingdao.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Jiaonan city merged into Huangdao District after approval.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "All public transportation companies use Qingdaotong Card with the last company starting it.",
+   "url": "https://en.wikipedia.org/wiki/Qingdao",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

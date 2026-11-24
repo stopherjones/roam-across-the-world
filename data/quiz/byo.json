@@ -1,0 +1,94 @@
+{
+ "id": "byo",
+ "town": "Bulawayo",
+ "source": "https://en.wikipedia.org/wiki/Bulawayo",
+ "pool": [
+  {
+   "year": 1840,
+   "text": "Bulawayo was founded as the kraal of Mzilikazi by Gundwane Ndiweni",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1893,
+   "text": "British South Africa Company soldiers captured the settlement during the First Matabele War",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1893,
+   "text": "Leander Starr Jameson declared Bulawayo a settlement under the rule of the BSAC",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1894,
+   "text": "Solusi University, a Seventh-day Adventist institution, was established in Bulawayo",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "civic"
+  },
+  {
+   "year": 1896,
+   "text": "At the outbreak of the Second Matabele War, Ndebele forces besieged Bulawayo",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1897,
+   "text": "The new town of Bulawayo acquired the status of municipality",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "civic"
+  },
+  {
+   "year": 1943,
+   "text": "Bulawayo attained and received official city status",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "Aberdeen in Scotland became a sister city of Bulawayo",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The National University of Science and Technology was established in Bulawayo",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "Population decline and slow growth disproportionately affected heavy industry in the city",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1994,
+   "text": "Solusi University in Bulawayo gained official university status",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The city faced an avoidable cholera outbreak due to previous growth issues",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Polokwane in South Africa became a sister city to Bulawayo",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The census listed the population of Bulawayo at 665,940 residents",
+   "url": "https://en.wikipedia.org/wiki/Bulawayo",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

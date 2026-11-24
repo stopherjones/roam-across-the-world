@@ -1,0 +1,130 @@
+{
+ "id": "mba",
+ "town": "Mombasa",
+ "source": "https://en.wikipedia.org/wiki/Mombasa",
+ "pool": [
+  {
+   "year": 1151,
+   "text": "The Arab geographer al-Idrisi mentions Mombasa as a prosperous trading town.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1498,
+   "text": "Vasco da Gama became the first known European to visit Mombasa.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1502,
+   "text": "The sultanate became independent from Kilwa Kisiwani and was renamed.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1505,
+   "text": "The Portuguese encountered the city under Francisco de Almeida.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1570,
+   "text": "The Mandhry Mosque was built with a minaret containing an ogee arch.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1585,
+   "text": "An Ottoman military expedition successfully captured Mombasa and other coastal cities.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1589,
+   "text": "The Portuguese took over Mombasa for a third time.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1608,
+   "text": "Kalonga Mzura made an alliance with the Portuguese to defeat the Zimba.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1631,
+   "text": "Dom Jeronimo slaughtered the Portuguese garrison and defeated a relief force.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "The Aga Khan Hospital was established as an 82-bed facility.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "The Mombasa tusks were originally constructed to commemorate a royal visit.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "A ferry serving the Mtongwe route sank in a major accident.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1997,
+   "text": "The ferry became the target of the Likoni Riots.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2002,
+   "text": "One-Way Ticket to Mombasa was released as a Finnish film.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Mombasa was featured in the movie Inception.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Public health services were devolved to Kenya's county governments.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "The Mombasa Terminus station was completed to link the city to Nairobi.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Mombasa County Governor Hassan Joho issued a painting directive for Old Town.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Jason Dunford released music under the name Samaki Mkuu.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "culture"
+  },
+  {
+   "year": 2026,
+   "text": "The county government launched a programme branded Mombasa Care.",
+   "url": "https://en.wikipedia.org/wiki/Mombasa",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

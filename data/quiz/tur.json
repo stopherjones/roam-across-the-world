@@ -1,0 +1,130 @@
+{
+ "id": "tur",
+ "town": "Turin",
+ "source": "https://en.wikipedia.org/wiki/Turin",
+ "pool": [
+  {
+   "year": 1453,
+   "text": "A soldier carried off a monstrance containing the Blessed Sacrament during the city sack.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1563,
+   "text": "Emmanuel Philibert made Turin the capital of the Duchy of Savoy in this year.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1706,
+   "text": "The French besieged the city for 117 days without conquering it during the battle.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1861,
+   "text": "Turin became the capital of the newly proclaimed united Kingdom of Italy.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1865,
+   "text": "The capital was moved away from Turin to the city of Florence.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1896,
+   "text": "The first Italian cinema screening occurred in the city during the month of March.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "The city served as one of the host locations for the FIFA World Cup.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "civic"
+  },
+  {
+   "year": 1943,
+   "text": "The heaviest area bombing raid by the RAF took place on July 13.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1954,
+   "text": "RAI established a permanent television and radio production centre in the city.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "The opening of the National Museum of Cinema took place in the city.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "An important international flower and plant exhibition took place in the park during celebrations.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Film critic Gianni Rondolino created the festival that later became the Torino Film Festival.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "The municipality hosted matches for the international FIFA World Cup tournament again.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Royal residences in the city and nearby towns were declared World Heritage Sites by UNESCO.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "The economic strength of the city ranked third in Italy after Milan and Rome.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "The municipality successfully hosted the Winter Olympic Games.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The city generated a large gross domestic product and ranked high globally in purchasing power.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "The Globalization and World Cities Research Network ranked the municipality as a specific global city.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Stefano Lo Russo was elected as the current mayor of the city.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2022,
+   "text": "The European music competition was hosted in the city following a national victory.",
+   "url": "https://en.wikipedia.org/wiki/Turin",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

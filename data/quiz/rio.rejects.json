@@ -1,0 +1,157 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 9322,
+  "completionTokens": 8065,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1565,
+   "theme": "civic",
+   "event": "City founded by Estácio de Sá on 1 March 1565",
+   "quote": "The city of Rio de Janeiro proper was founded on 1 March 1565 by the Portuguese, led by Estácio de Sá, including Antônio de Mariz.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1960,
+   "theme": "civic",
+   "event": "National capital transferred from Rio to Brasília",
+   "quote": "Rio de Janeiro ... until 1960, when the capital was moved to Brasília.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2007,
+   "theme": "culture",
+   "event": "Hosted the XV Pan American Games",
+   "quote": "The city also hosted the XV Pan American Games in 2007.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2009,
+   "theme": "culture",
+   "event": "IOC announced Rio as 2016 Olympic host",
+   "quote": "On 2 October 2009, the International Olympic Committee announced that Rio de Janeiro would host the 2016 Olympic Games and the 2016 Paralytic Games, beating competitors Chicago, Tokyo, and Madrid.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "civic",
+   "event": "Rio hosted the G20 summit",
+   "quote": "the city also hosted ... the G20 summit in 2024",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1971,
+   "theme": "environment",
+   "event": "Record 24‑hour rainfall of 349.4 mm recorded",
+   "quote": "The record for rainfall within 24 hours is 349.4 mm, recorded on 26 February 1971, at the former station in the Engenho de Dentro neighborhood.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1933,
+   "theme": "environment",
+   "event": "Absolute minimum temperature of 6.4 °C recorded",
+   "quote": "since 1931, the absolute minimum temperature recorded in Rio de Janeiro was 6.4 °C on 18 August 1933, at the meteorological station in the Bangu neighborhood.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1984,
+   "theme": "environment",
+   "event": "Maximum temperature of 43.1 °C recorded in Rio",
+   "quote": "This same station, located in the city's hottest neighborhood, recorded a maximum temperature of 43.1 °C on 14 January 1984, which held the record for the highest temperature in the city until 26 December 2012.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2014,
+   "theme": "environment",
+   "event": "Severe drought affected metropolitan water supply",
+   "quote": "The Brazilian drought of 2014–2015, most severe in the Southeast Region and the worst in decades, affected the entire metropolitan region's water supply.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1822,
+   "theme": "power_conflict",
+   "event": "Rio stayed capital after Brazil's independence and Empire formation",
+   "quote": "The city of Rio de Janeiro was successively the capital of the Portuguese colony... the Empire of Brazil (1822–1889)...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1889,
+   "theme": "power_conflict",
+   "event": "Rio continued as capital under the Republic of Brazil",
+   "quote": "The city of Rio de Janeiro was successively the capital... from the Republic of the United States of Brazil (1889–1968) until 1960...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1985,
+   "theme": "environment",
+   "event": "Annual international airport arrivals fell sharply between 1985 and 1993",
+   "quote": "Annual international airport arrivals dropped from 621,000 to 378,000, and average hotel occupancy dropped to 50% between 1985 and 1993.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1993,
+   "theme": "environment",
+   "event": "Hotel occupancy averaged 50% during 1985‑1993 period",
+   "quote": "Annual international airport arrivals dropped from 621,000 to 378,000, and average hotel occupancy dropped to 50% between 1985 and 1993.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "Cable car opened, later abandoned in 2017",
+   "quote": "The cable car first opened in 2014, was abandoned in 2017 and reopened in 2024.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2016,
+   "theme": "environment",
+   "event": "Wall of Shame built as noise barrier before 2016 Olympics",
+   "quote": "There is an 8 km (5 mi) barrier known as the Wall of Shame along the highway in Maré; this was ostensibly built as a noise barrier during the leadup to the 2016 Summer Olympics but is widely considered by local residents to be a way for the city to hide the favela from Galeão International Airport passengers.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2022,
+   "theme": "environment",
+   "event": "Rio recorded 694 traffic deaths, 11 per 100,000 inhabitants",
+   "quote": "Rio de Janeiro had 694 traffic deaths in 2022, equivalent to 11 deaths per 100,000 inhabitants.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "National policy changed to universalize sanitation services",
+   "quote": "National policy changes in 2020–2021 for the universalization of sanitation kept the 2007 policy defining the municipality as the provider of sanitation service, delegating the organization, supervision, and provision of services to third parties.",
+   "stage": "verification",
+   "why": "Quote mentions policy changes in 2020–2021, not specifically 2020 alone."
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "CEDAE sewage treatment divided into four blocks and auctioned",
+   "quote": "In 2021–2022, distribution and treatment of sewage of the Rio de Janeiro State Water and Sewage Company (CEDAE) was divided into four blocks and auctioned to Aegea (Águas do Rio) and Iguá; CEDAE remained in control of water collection and treatment of drinking water.",
+   "stage": "verification",
+   "why": "Quote gives a range 2021–2022, not a clear 2021 event."
+  }
+ ]
+}

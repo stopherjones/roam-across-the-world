@@ -1,0 +1,94 @@
+{
+ "id": "dud",
+ "town": "Dunedin",
+ "source": "https://en.wikipedia.org/wiki/Dunedin",
+ "pool": [
+  {
+   "year": 1815,
+   "text": "William Tucker built a house at Murderers Beach as the first European settler.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "civic"
+  },
+  {
+   "year": 1848,
+   "text": "The Lay Association of the Free Church of Scotland established a Scottish settlement.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "civic"
+  },
+  {
+   "year": 1863,
+   "text": "The London-owned Bank of Otago opened its doors in Dunedin.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1865,
+   "text": "Dunedin became New Zealand's first city by growth of population.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "civic"
+  },
+  {
+   "year": 1875,
+   "text": "The Union Company shipping line was founded in Dunedin by James Mills.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1878,
+   "text": "The Main South Line connected the city with Christchurch.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1882,
+   "text": "The frozen meat industry was inaugurated with the first shipment from Port Chalmers.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1901,
+   "text": "British royals the Duke and Duchess of Cornwall and York toured Dunedin.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Mercy Hospital opened as a private non-profit hospital.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Television broadcasts began in Dunedin with the launch of channel DNTV2.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "William Mason's Stock exchange was demolished as part of a reaction against Victorianism.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2014,
+   "text": "The city was designated as a UNESCO City of Literature.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "The Cadbury Chocolate Factory and Cadbury World closed down.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "Waikouaiti and Karitane reported high lead levels in their water supplies.",
+   "url": "https://en.wikipedia.org/wiki/Dunedin",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

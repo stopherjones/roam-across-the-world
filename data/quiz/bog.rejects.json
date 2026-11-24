@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8990,
+  "completionTokens": 6182,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1967,
+   "theme": "civic",
+   "event": "A recorded number of urban buses transported millions of passengers per day.",
+   "quote": "In 1967, there were 2,679 urban buses in Bogotá that transported, on average, 1,630,000 passengers per day.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1974,
+   "theme": "culture",
+   "event": "The song was officially declared the anthem by decree 1000.",
+   "quote": "The song was officially declared the anthem by decree 1000 31 July 1974, by then Mayor of Bogotá, Aníbal Fernandez de Soto.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1990,
+   "theme": "civic",
+   "event": "Significant efforts to upgrade the city infrastructure began after creating the Bogotá Metropolitan area.",
+   "quote": "since the creation of the Bogota Metropolitan area in 1990 significant efforts to upgrade the city's infrastructure have been undertaken, including the construction of several new avenues and boulevards, as well as the construction of the first two lines of the Bogota Metro.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1993,
+   "theme": "power_conflict",
+   "event": "There were 4,352 murders recorded at a rate of 81 per 100,000 people.",
+   "quote": "In 1993 there were 4,352 murders at a rate of 81 per 100,000 people; in 2007, Bogotá suffered 1,401 murders at a rate of 20 per 100,000 inhabitants, and had a further reduction to 14 per 100,000 inhabitants in 2017 (the lowest since 1979).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2022,
+   "theme": "food_daily",
+   "event": "A specific percentage of births in the city were recorded as born to foreign mothers.",
+   "quote": "In 2022 13.28% of births were to foreign mothers.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 5,
+  "promptTokens": 7654,
+  "completionTokens": 7742,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2007,
+   "theme": "civic",
+   "event": "City divided into ten administrative districts.",
+   "quote": "Since 1987, the city has been divided into 10 administrative districts (districtes in Catalan, distritos in Spanish):",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2008,
+   "theme": "civic",
+   "event": "Population recorded at 1,621,090 within 102.2 km².",
+   "quote": "In 2008, the city council calculated the population to 1,621,090 living in the 102.2 km2 sized municipality, giving the city an average population density of 15,926 inhabitants per square kilometre",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2009,
+   "theme": "commerce_industry",
+   "event": "Metropolitan GDP $177 billion, fourth‑largest in the EU.",
+   "quote": "The greater Barcelona metropolitan area had a GDP amounting to $177 billion ... making it the 4th most economically powerful city by gross GDP in the European Union, and 35th in the world in 2009.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2017,
+   "theme": "power_conflict",
+   "event": "Independence referendum sparked constitutional crisis and protests.",
+   "quote": "In October 2017, after several years of growing of the Catalan independence movement, with massive demonstrations along the decade, an independence referendum took place. The referendum sparked the 2017–2018 Spanish constitutional crisis, and later protests took place.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2023,
+   "theme": "culture",
+   "event": "Designated UNESCO‑UIA World Capital of Architecture for 2024‑2026.",
+   "quote": "In July 2023, Barcelona was announced as the UNESCO-UIA World Capital of Architecture for the 2024–2026 term.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2023,
+   "theme": "culture",
+   "event": "Ranked ninth most visited city worldwide with nine million arrivals.",
+   "quote": "In 2023, Barcelona was the 9th most visited city in the world by international visitors and the fifth most visited city in Europe ... with around 9 million international arrivals.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2016,
+   "theme": "civic",
+   "event": "Business Insider listed Barcelona as the 15th safest city globally",
+   "quote": "it has led it to be considered the 15th safest city in the world by Business Insider in 2016.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2016,
+   "theme": "commerce_industry",
+   "event": "Barcelona counted 519 hotels, including 35 five‑star properties, in March",
+   "quote": "Barcelona is an internationally renowned tourist destination, with numerous recreational areas, ... 519 hotels as of March 2016 including 35 five-star hotels, and developed tourist infrastructure.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1516,
+   "theme": "power_conflict",
+   "event": "Barcelona lost its primacy to Valencia before the Crown of Castile union.",
+   "quote": "only to be overtaken by Valencia, wrested from Moorish control by the Catalans, shortly before the dynastic union between the Crown of Castile and the Crown of Aragon in 1516.",
+   "stage": "verification",
+   "why": "Source says the overtaking happened shortly before 1516, not specifically in 1516"
+  },
+  {
+   "year": 1886,
+   "theme": "culture",
+   "event": "Former slave traders invested fortunes in opulent mansions on La Rambla.",
+   "quote": "When slavery was abolished in the Spanish Empire in 1886, many Catalans returned to Barcelona and invested their newfound fortunes in constructing opulent mansions in areas such as La Rambla.",
+   "stage": "verification",
+   "why": "Source mentions Catalans investing after abolition, not specifically former slave traders"
+  }
+ ]
+}

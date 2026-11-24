@@ -1,0 +1,130 @@
+{
+ "id": "dda",
+ "town": "Dire Dawa",
+ "source": "https://en.wikipedia.org/wiki/Dire_Dawa",
+ "pool": [
+  {
+   "year": 1887,
+   "text": "The region became incorporated into modern Ethiopia following Menelik's conquest of the kingdom.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1896,
+   "text": "Emperor Menelik II accepted that the railway line might finish at a village.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1902,
+   "text": "The railway reached this location, a date which may be considered foundation day.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1908,
+   "text": "The original failed company was reorganized as the joint-government Franco-Ethiopian Railway.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1909,
+   "text": "The French Capuchin Mission settled in Dire Dawa.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1917,
+   "text": "The final inauguration of the whole line from Djibouti to Addis Ababa took place.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1928,
+   "text": "The Dire Dawa-Harar road was improved, shortening the travel time.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "The Bank of Ethiopia opened its first branch in the city.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1934,
+   "text": "A hospital was established in Dire Dawa by the government.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "Dire Dawa was occupied by Italian troops coming from Harar.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "Dire Dawa was occupied by the Allied forces from Harar.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "Their team participated in the Ethiopian Championship series.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "Their attempt to strike was brutally suppressed by imperial troops.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "A public address system was installed in the central square.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "There was some worker unrest starting in March.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "The Derg announced that the Cotton Company of Ethiopia was among enterprises to be nationalized.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1976,
+   "text": "The entire leadership of the local branch of the teachers' union was sacked.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "Dire Dawa was attacked during the Battle of Dire Dawa by Somali troops.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1979,
+   "text": "Oromos detained in the prisons of Dire Dawa were executed by the Derg regime.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "The city was flooded when both the Dechatu River and the Gorro River overflowed.",
+   "url": "https://en.wikipedia.org/wiki/Dire_Dawa",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,106 @@
+{
+ "id": "enu",
+ "town": "Enugu",
+ "source": "https://en.wikipedia.org/wiki/Enugu_State",
+ "pool": [
+  {
+   "year": 1909,
+   "text": "European settlers arrived in the area, led by a British mining engineer named Albert Kitson.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1914,
+   "text": "The first shipment of coal was made to Britain under Colonial Governor Frederick Lugard.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1917,
+   "text": "The city acquired township status and was called Enugwu-Ngwo.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "The city was renamed Enugu due to rapid expansion towards other indigenous communities.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "civic"
+  },
+  {
+   "year": 1949,
+   "text": "Enugu became an anti-colonial symbol after the tragic massacre of striking coal miners.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "The area became part of the post-independence Eastern Region after independence.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "The Catholic Diocese of Enugu was established with suffragan dioceses of Onitsha.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The city of Enugu was named the Biafran capital until federal forces captured it.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1976,
+   "text": "Anambra State including Enugu was formed by the regime of Murtala Muhammed.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "The Catholic diocese of Nsukka was established with parishes under Bishop Godfrey Igwebuike Onah.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "Part of Enugu State's east was removed to form a part of Ebonyi State.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The Catholic diocese of Awgu was established with 48 parishes under Bishop John Ifeanyichukwu Okoye.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Chime was elected by the people of Enugu State and sworn into office.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Enugu reached an estimated population of over 4.4 million residents.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "A new leader was elected by the people and sworn into office in May.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "A new partnership was established between the state government and China's Haier Group.",
+   "url": "https://en.wikipedia.org/wiki/Enugu_State",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

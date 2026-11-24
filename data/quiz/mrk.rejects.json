@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 6492,
+  "completionTokens": 3880,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2017,
+   "theme": "culture",
+   "event": "The Dar El Bacha in Marrakesh hosts the Musée des Confluences.",
+   "quote": "Elsewhere in the medina, the Dar El Bacha hosts the Musée des Confluences, which opened in 2017.",
+   "stage": "verification",
+   "why": "The source quote states the museum opened in 2017, but the claim asserts it hosts the museum in 2017 (the opening year vs current hosting year distinction, though closely related, the claim states it hosts it in 2017 while the text says it opened in 2017)."
+  }
+ ]
+}

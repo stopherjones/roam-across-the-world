@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5202,
+  "completionTokens": 3525,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1926,
+   "theme": "power_conflict",
+   "event": "Kaikhusrau Jahan abdicated in favour of her son, who ruled until 1947.",
+   "quote": "In 1926, she abdicated in favour of her son, Hamidullah Khan, who ruled until 1947, and was the last of the sovereign Nawabs.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

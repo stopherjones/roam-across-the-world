@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5754,
+  "completionTokens": 3997,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1706,
+   "theme": "civic",
+   "event": "Francisco Cuervo y Valdes founded La Villa de Alburquerque as a territorial outpost.",
+   "quote": "Founded in 1706 as La Villa de Alburquerque by Santa Fe de Nuevo Mexico governor Francisco Cuervo y Valdes, and named in honor of Francisco Fernandez de la Cueva, 10th Duke of Alburquerque and Viceroy of New Spain, it was an outpost on El Camino Real, linking Mexico City to the northernmost territories of New Spain.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1939,
+   "theme": "power_conflict",
+   "event": "Kirtland Air Force Base was established to help initiate the Atomic Age.",
+   "quote": "The establishment of Kirtland Air Force Base in 1939, Sandia Base in the early 1940s, and Sandia National Laboratories in 1949, would make Albuquerque a key player of the Atomic Age.",
+   "stage": "verification",
+   "why": "The source states Kirtland was established in 1939, but does not explicitly state it was established to help initiate the Atomic Age."
+  }
+ ]
+}

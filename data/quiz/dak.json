@@ -1,0 +1,130 @@
+{
+ "id": "dak",
+ "town": "Dakar",
+ "source": "https://en.wikipedia.org/wiki/Dakar",
+ "pool": [
+  {
+   "year": 1444,
+   "text": "The Portuguese reached the Bay of Dakar in this year.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "environment"
+  },
+  {
+   "year": 1456,
+   "text": "Peaceful contact was finally opened in Dakar by Diogo Gomes.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "civic"
+  },
+  {
+   "year": 1501,
+   "text": "Navigator Amerigo Vespucci began to construct his hypothesis about America.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "culture"
+  },
+  {
+   "year": 1536,
+   "text": "The Portuguese began to use Gorée as a base for slave exportation.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1549,
+   "text": "A constituent kingdom of the Jolof Empire broke away.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1588,
+   "text": "Gorée was captured by the United Netherlands and given its name.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1664,
+   "text": "Gorée fell to the English under Admiral Robert Holmes.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1677,
+   "text": "France took over the island of Gorée.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1776,
+   "text": "The infamous House of Slaves was built at Gorée.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "civic"
+  },
+  {
+   "year": 1794,
+   "text": "The slave trade was abolished by France in February.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "civic"
+  },
+  {
+   "year": 1795,
+   "text": "The marabouts of Cayor revolted against the Damel.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1802,
+   "text": "Napoleon Bonaparte reinstated the slave trade in May.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1840,
+   "text": "Traders established a factory with warehouses in Rufisque.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1848,
+   "text": "The slave trade was finally abolished throughout all French territories.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The commune of Gorée Island was merged into Dakar.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "The Battle of Dakar ensued off the coast during the Second World War.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "French soldiers opened fire on mutinying West African soldiers at Thiaroye camp.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "Cheikh Anta Diop University was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Dakar became the capital of the independent Republic of Senegal.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "Dakar hosted the Summer Youth Olympics as the first African city.",
+   "url": "https://en.wikipedia.org/wiki/Dakar",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

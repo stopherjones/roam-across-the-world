@@ -1,0 +1,130 @@
+{
+ "id": "izm",
+ "town": "Izmir",
+ "source": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+ "pool": [
+  {
+   "year": 1076,
+   "text": "The Turkic peoples first captured Smyrna under the Seljuk commander Çaka Bey.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1097,
+   "text": "The Byzantine commander John Doukas recaptured the city and the neighboring region.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1204,
+   "text": "The port city was captured by the Knights of St John.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1344,
+   "text": "A coalition of forces coordinated by Pope Clement VI took back the lower castle.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1389,
+   "text": "The upper city of İzmir was captured from its Aydinid rulers by the Ottomans.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1402,
+   "text": "Timur won the Battle of Ankara against the Ottomans, putting a check on their state.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1415,
+   "text": "Mehmet I took back İzmir for the Ottomans for the second time.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1620,
+   "text": "İzmir began to be one of the foremost trade centers of the Empire.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1955,
+   "text": "The Ege University was founded by the Turkish government in the city.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "The sanctuary was registered as a protected area for water birds by the Ministry.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "environment"
+  },
+  {
+   "year": 1987,
+   "text": "The annual International İzmir Festival has been organized every year since this date.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The İzmir European Jazz Festival is among the numerous events organized every year.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Coordinated public transportation was introduced to İzmir.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "The discovery of Yeşilova Höyük reset the starting date of the city's past.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The Arkas Art Centre became one of the most venerable cultural hubs after acquisition.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Act 6360 established all thirty of İzmir Province's districts as part of the metropolitan area.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The Barış Youth Symphony Orchestra was founded incorporating children with limited opportunities.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "İzmir Pride peaked by 50,000 participants as the second largest in Muslim-majority countries.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "The city was damaged by the Aegean Sea earthquake and tsunami.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "environment"
+  },
+  {
+   "year": 2024,
+   "text": "A new independent line in Çiğli was opened.",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

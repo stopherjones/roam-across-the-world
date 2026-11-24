@@ -1,0 +1,130 @@
+{
+ "id": "uio",
+ "town": "Quito",
+ "source": "https://en.wikipedia.org/wiki/Quito",
+ "pool": [
+  {
+   "year": 1534,
+   "text": "Spanish conquest established Quito as the oldest capital in South America",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1541,
+   "text": "Quito officially declared a city by colonial authorities",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "civic"
+  },
+  {
+   "year": 1556,
+   "text": "Granted the title \"Muy Noble y Muy Leal Ciudad\"",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "civic"
+  },
+  {
+   "year": 1563,
+   "text": "Became seat of a Real Audiencia of Spain",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1765,
+   "text": "Quito briefly proclaimed de facto independence during the Quito Revolt",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1809,
+   "text": "Movement launched to win independence from Spanish rule",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1822,
+   "text": "Battle of Pichincha secured independence under Sucre and Bolívar",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1932,
+   "text": "Four Days' War erupted across the nation",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1978,
+   "text": "Quito declared first World Cultural Heritage Site by UNESCO",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Minor eruption produced ash and smoke over Quito",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "environment"
+  },
+  {
+   "year": 2002,
+   "text": "Volcano Reventador erupted, showering city with several centimeters of ash",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "environment"
+  },
+  {
+   "year": 2003,
+   "text": "Construction of Metrobus (Ecovia) bus lines across Quito began",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Municipality divided Quito into 32 urban parishes",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Museo de Sitio La Florida opened to preserve archaeological artifacts",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Municipality launched Bici Q bicycle‑sharing system",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "Virgin of Panecillo statue inaugurated on April 27",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "U.S. State Department notes pickpocketing as most common tourist crime",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Quito Metro subway line opened for public service",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Presidential candidate Fernando Villavicencio assassinated after Quito rally",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2025,
+   "text": "Landslide broke water pipe, causing crisis for 400,000 residents",
+   "url": "https://en.wikipedia.org/wiki/Quito",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

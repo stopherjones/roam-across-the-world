@@ -1,0 +1,130 @@
+{
+ "id": "rio",
+ "town": "Rio de Janeiro",
+ "source": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+ "pool": [
+  {
+   "year": 1621,
+   "text": "Rio became capital of Portuguese colony State of Brazil",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1763,
+   "text": "Became capital of the State of Brazil",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "civic"
+  },
+  {
+   "year": 1808,
+   "text": "Portuguese royal court moved to Rio, seat of Queen Maria I",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "civic"
+  },
+  {
+   "year": 1815,
+   "text": "Rio remained capital during United Kingdom of Portugal, Brazil and the Algarves",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1822,
+   "text": "Brazilian War of Independence began",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1845,
+   "text": "First Brazilian stock exchange founded in Rio",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1968,
+   "text": "Offshore oil exploration began in Campos Basin",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "Rio de Janeiro Cathedral inaugurated in central city",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "Brazil returned to democracy, sparking a new rock music wave",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "Santa Teresa Tram designated a national historic monument",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "Hosted the United Nations Earth Summit",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "environment"
+  },
+  {
+   "year": 1999,
+   "text": "Rio International Film Festival held annually since this year",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Fireworks for New Year's Eve began launching from boats for safety",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Rock in Rio held its first edition abroad in Lisbon",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Rio studios produced 65% of Brazilian cinema, earning 91 million reais",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Public‑private partnership began lagoon decontamination",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "Catastrophic floods and mudslides struck Rio",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "Santa Teresa Tram derailment killed six and halted service",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "Hosted UN Conference on Sustainable Development",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Túnel da Grota Funda opened linking Barra da Tijuca and Santa Cruz",
+   "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

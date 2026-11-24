@@ -1,0 +1,30 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2485,
+  "completionTokens": 2599,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1885,
+   "theme": "culture",
+   "event": "The statue Freddy the Nude Dude was donated to the city by Mayor George Edward Fentey.",
+   "quote": "\"Freddy the Nude Dude\" was donated to the city by Mayor George Edward Fentey, in 1885.",
+   "stage": "verification",
+   "why": "The quote actually states the statue was donated in 1885, but the claim states the donor was Mayor George Edward Fentey which is not explicitly mentioned as the mayor in the source quote (though present in the text snippet, wait, let me re-read: the quote says 'was donated to the city by Mayor George Edward Fentey, in 1885.' so both event and year are supported)."
+  },
+  {
+   "year": 2009,
+   "theme": "commerce_industry",
+   "event": "The Intelligent Community Forum selected the area again as a Top 7 Intelligent Community.",
+   "quote": "In 2008 and 2009 the Intelligent Community Forum selected Fredericton as a Top 7 Intelligent Community, based partly on the city's work in the IT sector.",
+   "source": "https://en.wikipedia.org/wiki/Fredericton",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

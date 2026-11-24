@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 6619,
+  "completionTokens": 4266,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1990,
+   "theme": "civic",
+   "event": "Metro Rail expanded significantly since the opening of the first line.",
+   "quote": "Since the opening of the first line, the A Line, in 1990, Metro Rail has been extended significantly, with further extensions underway.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "power_conflict",
+   "event": "Murders rose to their highest rate recorded since 2008.",
+   "quote": "In 2021, murders rose to their highest rate (8.5) since 2008, although by 2024 (6.1), the spike had receded.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "civic",
+   "event": "Metro recorded approximately 951,500 weekday boardings with buses driving ridership.",
+   "quote": "Metro recorded approximately 951,500 weekday boardings in 2024, with buses accounting for more than two-thirds of ridership.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

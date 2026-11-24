@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 9125,
+  "completionTokens": 7970,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2018,
+   "theme": "civic",
+   "event": "Chosen Best European City 2018 at The Urbanism Awards",
+   "quote": "On 8 November 2017, Bilbao was chosen the Best European City 2018 at The Urbanism Awards 2018, awarded by the international organisation The Academy of Urbanism.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2006,
+   "theme": "commerce_industry",
+   "event": "Acciona Trasmediterranea operated ferry service from 16 May 2006 until April 2007.",
+   "quote": "A service operated by Acciona Trasmediterranea served the same route from 16 May 2006 until April 2007.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2015,
+   "theme": "culture",
+   "event": "Higher School of Dramatic Arts and Dance of the Basque Country founded in Bilbao.",
+   "quote": "In 2015, the offer of higher education in the city was expanded with the foundation of Dantzerti, the Higher School of Dramatic Arts and Dance of the Basque Country.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "Bilbao basketball club finished runner‑up in the Liga ACB season 2010‑2011.",
+   "quote": "The main achievements of the clubs were being the runner-up of the Liga ACB during the 2010–2011 season, losing the final series 3–0 against FC Barcelona Bàsquet;",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 11086,
+  "completionTokens": 8521,
+  "chunksRead": 2,
+  "chunksAvailable": 3
+ },
+ "rejects": [
+  {
+   "year": 1900,
+   "theme": "culture",
+   "event": "The Hauptwache building, originally a prison, was constructed in the early 18th century.",
+   "quote": "The Hauptwache building was constructed in 1730 and was used as a prison, therefore the name that translates as \"main guard-house\".",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1994,
+   "theme": "culture",
+   "event": "Gehry‑Siedlung public housing built in Schwanheim.",
+   "quote": "Gehry-Siedlung: A public housing area in Frankfurt-Schwanheim designed by Frank Gehry (built 1994-1996).",
+   "stage": "verification",
+   "why": "Source gives a range 1994‑1996, not the exact year 1994"
+  },
+  {
+   "year": 2003,
+   "theme": "culture",
+   "event": "Alte Stadtbibliothek rebuilt, restoring historic library house.",
+   "quote": "Alte Stadtbibliothek, rebuilt 2003–2005, reconstruction of the old public library house originally built 1820–1825.",
+   "stage": "verification",
+   "why": "Source gives a range 2003‑2005, not the exact year 2003"
+  },
+  {
+   "year": 2009,
+   "theme": "culture",
+   "event": "The orchestra was voted Orchestra of the Year for the third consecutive year.",
+   "quote": "Its orchestra was voted Orchestra of the year in 2009, 2010, 2011 and 2025.",
+   "stage": "verification",
+   "why": "Source lists voting years but does not confirm a third consecutive win in 2009."
+  },
+  {
+   "year": 2019,
+   "theme": "environment",
+   "event": "E‑scooter usage was officially permitted throughout Frankfurt.",
+   "quote": "Since 15 June 2019, the use of e-scooters was officially permitted by the German federal government.",
+   "stage": "verification",
+   "why": "Source refers to a federal permit, not specifically Frankfurt."
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "bal",
+ "town": "Baltimore",
+ "source": "https://en.wikipedia.org/wiki/Baltimore",
+ "pool": [
+  {
+   "year": 1706,
+   "text": "People established the Port of Baltimore to support the tobacco trade.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1729,
+   "text": "The Town of Baltimore was established by the Province of Maryland.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "civic"
+  },
+  {
+   "year": 1743,
+   "text": "The Maryland Jockey Club was formed as the nation's first professional sports organization.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1763,
+   "text": "Baltimore established its public market system across the developing settlement area.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "civic"
+  },
+  {
+   "year": 1782,
+   "text": "Lexington Market was founded as a notable public market in America.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1816,
+   "text": "Baltimore pioneered the use of gas lighting in municipal infrastructure.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "No Republican candidate has won election to the Baltimore City Council since this year.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "The Harbor Tunnel opened to serve Interstate 895 within the local city limits.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "The Shriver Hall Concert Series was founded to present classical chamber music.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "The Baltimore Orioles baseball team won their first of three World Series titles.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Baltimore riot occurred following the assassination of Martin Luther King Jr.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1977,
+   "text": "Pei's World Trade Center was constructed as an equilateral pentagonal building.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "Baltimore hosted the first International Theater Festival featuring multiple performances.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "The Baltimore Metro SubwayLink rapid transit line opened to connect downtown with northwest suburbs.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "The Wheelabrator Baltimore incinerator began operating as a facility for waste-to-energy conversion.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "environment"
+  },
+  {
+   "year": 1985,
+   "text": "The four-bore Fort McHenry Tunnel opened to provide motorist service along Interstate 95.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "The Baltimore Sun newspaper was sold by its local owners to the Times Mirror Company.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "Oriole Park at Camden Yards opened as a retro style baseball park.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "Oriole Park at Camden Yards opened and became the home ballpark for the baseball team.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "The Baltimore Light RailLink opened to run between northern and southern suburban communities.",
+   "url": "https://en.wikipedia.org/wiki/Baltimore",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

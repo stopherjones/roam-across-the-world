@@ -1,0 +1,130 @@
+{
+ "id": "hba",
+ "town": "Hobart",
+ "source": "https://en.wikipedia.org/wiki/Hobart",
+ "pool": [
+  {
+   "year": 1804,
+   "text": "Hobart was established as the seat of government for the southern district of Tasmania.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1812,
+   "text": "The northern lieutenant governorship ceased, making Hobart the de facto seat of government.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1825,
+   "text": "Hobart officially became the capital of an independent colony of Van Diemen's Land.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1850,
+   "text": "Hobart became the seat of responsible self government under the Australian Constitutions Act.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1912,
+   "text": "The MV Cartela began operating as one of Australia's oldest still operating vessels.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1936,
+   "text": "One of the last known surviving thylacines died at the Beaumaris Zoo.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "environment"
+  },
+  {
+   "year": 1968,
+   "text": "A short-lived trolleybus network consisting of six routes operated in the city until this year.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "Suburban passenger trains run by the Tasmanian Government Railways were closed down.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "The intrastate passenger service known as the Tasman Limited ceased running.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Hobart Airport announced plans to receive major upgrades including a first floor and aerobridges.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "Sullivans Cove Whiskey won the prestigious award for the world's best single malt.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2014,
+   "text": "Freight rail operations ceased within Hobart and the Riverline proposal was scrapped.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Work began on a 500-metre extension and a 100 million dollar airport upgrade.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "The Tolosa dam located in Glenorchy was officially disused.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "environment"
+  },
+  {
+   "year": 2021,
+   "text": "Visitor numbers reached a low primarily as a result of the COVID-19 pandemic.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Greater Hobart was divided into seven local government areas according to the census.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "A ferry trial servicing Hobart central business district and Bellerive was initiated.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "More ferry terminal sites were revealed across multiple waterfront locations.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "St Helen's Private Hospital featuring a mother-baby unit was closed.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "A new Tasman private hospital proposed on a former WIN News site was abandoned.",
+   "url": "https://en.wikipedia.org/wiki/Hobart",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

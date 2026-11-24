@@ -1,0 +1,130 @@
+{
+ "id": "ank",
+ "town": "Ankara",
+ "source": "https://en.wikipedia.org/wiki/Ankara",
+ "pool": [
+  {
+   "year": 1920,
+   "text": "The Grand National Assembly of Turkey was established in Ankara on April 23.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1923,
+   "text": "Ankara became the new Turkish capital upon the establishment of the Republic.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1924,
+   "text": "Ankara had about 35,000 residents in the year after the government moved.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "civic"
+  },
+  {
+   "year": 1927,
+   "text": "The population of Ankara reached 44,553 residents according to records.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "The Security Monument was erected in Güvenpark near Kızılay Square bearing advice.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 1950,
+   "text": "The population of Ankara had grown to 286,781 residents in the city.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The Monument to Turkish Soldiers Fighting in Korea opened to commemorate veterans.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "The Hatti Monument was erected at Sıhhiye Square to symbolize the Hatti Sun Disc.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "The State Art and Sculpture Museum opened to the public near the Ethnography Museum.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "Galeri Siyah Beyaz was founded as a well-known art gallery in Ankara.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Çankaya Çağdaş Sanatlar Merkezi Concert Hall was founded as a performing arts center.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "The Roman Road of Ankara or Cardo Maximus was found by Cevdet Bayburtluoğlu.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "The Colored Angora Goat Breeders Association was set up to promote colored Angoras.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Hacettepe Symphony Orchestra was founded and directed by Erol Erdinç.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Cermodern was inaugurated as the modern-arts museum of Ankara on April 1.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "The Mehmet Akif Literature Museum Library opened as an important literary archive.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The THF Sport Hall was built to host Handball Super League matches.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "A large new mosque in the Turkish neoclassical style was completed and opened.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "A few more shopping malls were open in Ankara during this year.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "The city was one of the sites of the coup attempt on July 15.",
+   "url": "https://en.wikipedia.org/wiki/Ankara",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

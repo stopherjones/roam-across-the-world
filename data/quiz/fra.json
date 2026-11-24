@@ -1,0 +1,130 @@
+{
+ "id": "fra",
+ "town": "Frankfurt",
+ "source": "https://en.wikipedia.org/wiki/Frankfurt",
+ "pool": [
+  {
+   "year": 1337,
+   "text": "Emperor Louis IV granted Frankfurt exclusive market privilege over other cities.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1806,
+   "text": "Frankfurt becomes part of the Principality of Aschaffenburg.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1848,
+   "text": "Frankfurt Parliament convenes in Paulskirche, first democratically elected German parliament.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "civic"
+  },
+  {
+   "year": 1866,
+   "text": "Prussia annexes Frankfurt after Austro‑Prussian War.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1867,
+   "text": "Frankfurt Cathedral was destroyed by fire and subsequently rebuilt in its current style.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "culture"
+  },
+  {
+   "year": 1880,
+   "text": "The opera house was constructed, designed by architect Richard Lucae.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "Frankfurt kitchen designed, later mass‑produced as influential design.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "City of Höchst incorporated into Frankfurt.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "Nazi regime seizes power in Frankfurt.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "Kristallnacht ordered in Frankfurt.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "US forces capture Frankfurt after intense urban combat.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The Frankfurter Rundschau newspaper began publication with a large daily circulation.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "culture"
+  },
+  {
+   "year": 1946,
+   "text": "Dornbusch becomes a city district.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "civic"
+  },
+  {
+   "year": 1949,
+   "text": "The conservative newspaper Frankfurter Allgemeine Zeitung was established.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Deutsche Bundesbank established in Ginnheim as West Germany's central bank.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1959,
+   "text": "Ahmadiyya Noor Mosque constructed, becoming city's largest mosque.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "Frankfurt Airport becomes Europe’s second‑busiest airport.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "environment"
+  },
+  {
+   "year": 1977,
+   "text": "Bergen‑Enkheim last suburb joins Frankfurt.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "Flughafen becomes official city district.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "City ranks among top three European locations for international companies.",
+   "url": "https://en.wikipedia.org/wiki/Frankfurt",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

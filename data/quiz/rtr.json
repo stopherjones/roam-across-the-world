@@ -1,0 +1,124 @@
+{
+ "id": "rtr",
+ "town": "Rotorua",
+ "source": "https://en.wikipedia.org/wiki/Rotorua",
+ "pool": [
+  {
+   "year": 1823,
+   "text": "Ohinemutu was invaded by a coalition commanded by Hongi Hika and Pomare I.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1835,
+   "text": "Thomas Chapman and his wife established a mission at Te Koutu.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "culture"
+  },
+  {
+   "year": 1880,
+   "text": "The Ngati Whakaue people leased 50 acres to the Crown under the Fenton Agreement.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "civic"
+  },
+  {
+   "year": 1886,
+   "text": "The Pink and White Terraces were destroyed by the eruption of Mount Tarawera.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "environment"
+  },
+  {
+   "year": 1894,
+   "text": "The town connected to Auckland with the opening of the Rotorua Branch railway.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1919,
+   "text": "The last horse-drawn coach completed its final journey in the transport network.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1922,
+   "text": "Rotorua was elevated to the status of a borough.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "Local transport operators formed a consortium known as the Rotorua Bus Co.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "Edwin Robertson died at the age of seventy-four after running transport services.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1962,
+   "text": "Rotorua was declared a city forty years after becoming a borough.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "civic"
+  },
+  {
+   "year": 1993,
+   "text": "The Crown settled a Treaty of Waitangi claim with the Ngati Whakaue people.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The Whakarewarewa forest hosted the UCI Mountain Bike and Trials World Championships.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Rotorua hosted the World Waterski Championships using the local lakes as venues.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Steve Chadwick was elected Mayor of Rotorua during the local municipal elections.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The International Mountain Biking Association listed Rotorua among top global destinations.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "Bee Cards were introduced for public transport fare payments across services.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "Tania Tapsell was elected to serve as the Mayor of Rotorua.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "The gross domestic product of the Rotorua District reached four thousand million dollars.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2025,
+   "text": "Te Puia received the supreme winner award at the New Zealand Tourism Awards.",
+   "url": "https://en.wikipedia.org/wiki/Rotorua",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

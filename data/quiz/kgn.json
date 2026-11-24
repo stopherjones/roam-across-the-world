@@ -1,0 +1,70 @@
+{
+ "id": "kgn",
+ "town": "Kingston",
+ "source": "https://en.wikipedia.org/wiki/Kingston",
+ "pool": [
+  {
+   "year": 1863,
+   "text": "Battle of Kingston fought during the American Civil War in Tennessee",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1884,
+   "text": "Birth of American Thoroughbred racehorse Kingston",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "culture"
+  },
+  {
+   "year": 1910,
+   "text": "Kingston Shipyards begins operations in Kingston, Ontario",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1968,
+   "text": "Kingston Shipyards ceases operations after 58 years",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1973,
+   "text": "Kingston Canadians join Ontario Hockey League as junior ice hockey team",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Kingston Canadians leave Ontario Hockey League after 15 seasons",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Kingston Flemings, American basketball player, is born",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Sean Kingston releases debut self‑titled album featuring the song \"Kingston\"",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "Faye Webster includes \"Kingston\" on her album Atlanta Millionaires Club",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "Release of Indian Tamil‑language film titled Kingston",
+   "url": "https://en.wikipedia.org/wiki/Kingston",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

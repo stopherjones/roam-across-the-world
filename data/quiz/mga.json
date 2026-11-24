@@ -1,0 +1,130 @@
+{
+ "id": "mga",
+ "town": "Managua",
+ "source": "https://en.wikipedia.org/wiki/Managua",
+ "pool": [
+  {
+   "year": 1812,
+   "text": "UNAN was established in the city of Leon with its campus in Managua",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "civic"
+  },
+  {
+   "year": 1819,
+   "text": "The fishing town was incorporated and given a specific new name",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "civic"
+  },
+  {
+   "year": 1838,
+   "text": "Nicaragua officially became an independent nation in this year",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1852,
+   "text": "Managua was officially selected as the nation capital of Nicaragua",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "civic"
+  },
+  {
+   "year": 1876,
+   "text": "The city of Managua was hampered by major floods",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "environment"
+  },
+  {
+   "year": 1885,
+   "text": "Major floods hampered the city of Managua again",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "environment"
+  },
+  {
+   "year": 1931,
+   "text": "A disastrous earthquake destroyed much of the city and killed thousands",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "environment"
+  },
+  {
+   "year": 1935,
+   "text": "The National Palace was commissioned by President Juan Bautista Sacasa",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "A large fire destroyed much of the city of Managua",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "environment"
+  },
+  {
+   "year": 1948,
+   "text": "The Dennis Martinez National Stadium was built in Managua",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1955,
+   "text": "The pageant is traditionally held at the Ruben Dario National Theatre",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "INCAE was founded with support from the United States government",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1967,
+   "text": "An institution was founded in the city of Managua",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1972,
+   "text": "A second major earthquake destroyed downtown and killed many people",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "environment"
+  },
+  {
+   "year": 1979,
+   "text": "The Nicaraguan Revolution began to overthrow the Somoza regime",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "Managua became part of the Union of Ibero American Capital Cities",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "The university campus in Leon and Managua became two separate entities",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "The National Opposition Union began reconstruction after winning the election",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "There were one hundred ten gangs operating within Managua",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1993,
+   "text": "The New Cathedral was inaugurated after being designed by Ricardo Legorreta",
+   "url": "https://en.wikipedia.org/wiki/Managua",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

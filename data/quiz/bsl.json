@@ -1,0 +1,130 @@
+{
+ "id": "bsl",
+ "town": "Basel",
+ "source": "https://en.wikipedia.org/wiki/Basel",
+ "pool": [
+  {
+   "year": 1356,
+   "text": "The red sandstone Münster was badly damaged in the great earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "environment"
+  },
+  {
+   "year": 1460,
+   "text": "The University of Basel, Switzerland's oldest university, was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 1501,
+   "text": "Basel officially joined the Swiss Confederacy as its eleventh canton.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1661,
+   "text": "The public museum collection was first created back in Europe.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 1833,
+   "text": "A short civil war led the disadvantaged countryside to secede from Basel.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1874,
+   "text": "Switzerland's first zoo opened its doors in the south of Basel.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "The Schola Cantorum Basiliensis was founded as a worldwide research centre.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "The psychedelic drug LSD was first synthesized by Albert Hofmann in Basel.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1967,
+   "text": "The local population voted to buy three Pablo Picasso works of art.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Ernst Beyeler founded Art Basel as an important contemporary art fair.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1986,
+   "text": "The Paul Sacher Foundation opened and houses a major manuscript collection.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "The Basel Convention was opened for signature to prevent hazardous waste exports.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "environment"
+  },
+  {
+   "year": 1992,
+   "text": "The European Festival of Youth Choirs started as a Basel tradition.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "The city of Basel received the Wakker Prize.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Basel contended to become the European Capital of Culture.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Theater Basel was chosen as the best stage for German performances.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "A building construction law was passed mandating green flat roofs in Basel.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "The fifth European Festival of Youth Choirs opened in Basel.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Basel Tattoo was founded by the local Top Secret Drum Corps.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Switzerland joined the Schengen Area, ending immigration checks at the crossings.",
+   "url": "https://en.wikipedia.org/wiki/Basel",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

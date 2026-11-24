@@ -1,0 +1,130 @@
+{
+ "id": "tgu",
+ "town": "Tegucigalpa",
+ "source": "https://en.wikipedia.org/wiki/Tegucigalpa",
+ "pool": [
+  {
+   "year": 1548,
+   "text": "Spanish missionaries began their conversion efforts of the native communities around this time.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 1579,
+   "text": "Juan de la Cueva took office as the first mayor of the location.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "civic"
+  },
+  {
+   "year": 1735,
+   "text": "The Dolores Church was constructed as one of the first important buildings.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 1762,
+   "text": "The mining town officially became a real villa under the rule of Alonso Fernández.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "civic"
+  },
+  {
+   "year": 1765,
+   "text": "The San Miguel Cathedral was constructed as an important early building.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 1780,
+   "text": "The Casa de la Moneda was constructed as one of the early important buildings.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 1824,
+   "text": "The first Congress declared that two important cities would alternate as capital.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "A new constitution established the sister cities as a single Central District.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "civic"
+  },
+  {
+   "year": 1946,
+   "text": "Missionaries representing the Southern Baptist Convention arrived in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 1951,
+   "text": "The Church of God of Cleveland, Tennessee, was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "The International Church of the Foursquare Gospel was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "The Christian Love Brigade Association arrived to establish a local presence.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Manufacturing assembly plants known as maquiladoras were introduced into the country.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1998,
+   "text": "Hurricane Mitch devastated the capital and the rest of the country.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "Numerous public health care establishments operated across the Central District.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2005,
+   "text": "Residents were estimated to suffer from physical or mental disabilities at given rates.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2009,
+   "text": "The city government reported massive revenues exceeding other Central American capitals.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "International retail and entertainment arrived with the opening of a new cinema.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Members of a prominent religious movement opened a new temple building.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Honduras ruled out Toncontín airport while another facility opened nearby.",
+   "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

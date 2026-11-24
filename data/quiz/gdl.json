@@ -1,0 +1,130 @@
+{
+ "id": "gdl",
+ "town": "Guadalajara",
+ "source": "https://en.wikipedia.org/wiki/Guadalajara",
+ "pool": [
+  {
+   "year": 1532,
+   "text": "A settlement was established in the region of Guadalajara by Cristóbal de Oñate.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1539,
+   "text": "Emperor Charles V granted a coat of arms and the title of city.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "civic"
+  },
+  {
+   "year": 1542,
+   "text": "Guadalajara was officially founded in the Atemajac Valley on February 14.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "civic"
+  },
+  {
+   "year": 1616,
+   "text": "The Metropolitan Cathedral was consecrated after construction began decades prior.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "civic"
+  },
+  {
+   "year": 1774,
+   "text": "The Palace of the State Government was finished in architectural styles.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "civic"
+  },
+  {
+   "year": 1810,
+   "text": "Miguel Hidalgo y Costilla established Mexico's first revolutionary government in Guadalajara.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "The Cristero War ended within the confines of the city.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "Funding was restated for the concerts in Guadalajara after catching authorities' attention.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "The first industrial park was established during the period of urban growth.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1950,
+   "text": "An organization called Conciertos Guadalajara A was formed in the city.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "The municipal palace was constructed across the street from the monument.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "The Jalisco Famous People Roundabout monument was built using quarried stone.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "The population of the city surpassed the one million milestone.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "environment"
+  },
+  {
+   "year": 1965,
+   "text": "The traditional festivals of October have been held since this year.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "The Guadalajara International Airport opened to serve the region.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1971,
+   "text": "The orchestra became affiliated with the Department of Fine Arts of Jalisco.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "An important convention center was built in Mexico.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1988,
+   "text": "The Festival Cultural de Mayo began as an annual recurring event.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "The current name was adopted by the organization in Guadalajara.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "Gasoline explosions in the sewer system destroyed streets in Analco.",
+   "url": "https://en.wikipedia.org/wiki/Guadalajara",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3875,
+  "completionTokens": 3823,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1936,
+   "theme": "power_conflict",
+   "event": "The July 1936 coup d'état began in Zaragoza.",
+   "quote": "The July 1936 coup d'état (with Gen. The General Military Academy, a higher training center of the Spanish Army, was re-established on 27 September 1940 by José Enrique Varela, the Francoist Minister of the Army.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1982,
+   "theme": "commerce_industry",
+   "event": "General Motors opened an Opel factory in nearby Figueruelas.",
+   "quote": "Since 1982, the city has been home to a large factory built by General Motors for the production of Opel cars, some of which are exported to the United Kingdom and sold under the Vauxhall brand. An Opel factory was opened in 1982 in Figueruelas, a small village nearby.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2008,
+   "theme": "culture",
+   "event": "Expo 2008 showcased water and sustainable development themes.",
+   "quote": "Zaragoza hosted Expo 2008 in mid-2008, a world's fair on water and sustainable development.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2008,
+   "theme": "culture",
+   "event": "Expo 2008 site opened to the public on 14 June.",
+   "quote": "On 14 June 2008, the site of Expo 2008 opened its doors to the public.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2025,
+   "theme": "culture",
+   "event": "EuroLeague Women finals will be staged in Zaragoza from 2025‑2027.",
+   "quote": "This pavilion will be the final venue for EuroLeague Women from 2025 to 2027.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2004,
+   "theme": "culture",
+   "event": "Zaragoza football club added a fourth Copa del Rey win.",
+   "quote": "The team has also won the Spanish National Cup, Copa del Rey, six times: 1965, 1966, 1986, 1994, 2001 and 2004",
+   "stage": "verification",
+   "why": "Quote lists 2004 win but does not indicate it was the fourth win"
+  }
+ ]
+}

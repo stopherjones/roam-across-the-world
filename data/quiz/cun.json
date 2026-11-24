@@ -1,0 +1,106 @@
+{
+ "id": "cun",
+ "town": "Cancun",
+ "source": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+ "pool": [
+  {
+   "year": 1970,
+   "text": "Isla Cancun had only three residents who were caretakers of a coconut plantation.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1974,
+   "text": "The city began as a tourism project as an Integrally Planned Center.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "The North South Summit was held at the now defunct Sheraton Hotel.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Hurricane Gilbert made a devastating direct hit on Cancun and required hotel rebuilding.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "environment"
+  },
+  {
+   "year": 1994,
+   "text": "Municipal authorities decided to demolish a commemorative structure due to climatic phenomena history.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "A memorial tower was first built with a donation from a local airline.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Hurricane Wilma made landfall on Mexico Yucatan Peninsula as a powerful Category 4 hurricane.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "Squatters and irregular developments occupied an estimated ten to fifteen percent area.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Hurricane Dean made landfall as a Category 5 storm in Majahual.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "environment"
+  },
+  {
+   "year": 2009,
+   "text": "Cancun International Airport added a main runway that commenced operation in October.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Los Zetas took control of many smuggling routes through the Yucatan according to the US.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2018,
+   "text": "Cancun is above the national average in homicides with a high wave of violence.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2020,
+   "text": "The Quintana Roo government implemented a fee called the VisiTAX for international visitors.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "Sargassum season had become an annual occurrence at many Caribbean beach destinations.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "environment"
+  },
+  {
+   "year": 2023,
+   "text": "A record twenty one million tourists visited Cancun topping the original estimate.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "SEA announced it had received one hundred new air conditioned buses.",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

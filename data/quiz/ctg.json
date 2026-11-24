@@ -1,0 +1,106 @@
+{
+ "id": "ctg",
+ "town": "Cartagena",
+ "source": "https://en.wikipedia.org/wiki/Cartagena",
+ "pool": [
+  {
+   "year": 1384,
+   "text": "Alfonso de Cartagena, bishop and diplomat, was born",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "civic"
+  },
+  {
+   "year": 1643,
+   "text": "Naval battle off Cartagena, Spain occurred",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1697,
+   "text": "Raid on Cartagena resulted in siege of Colombian city",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1741,
+   "text": "Battle of Cartagena de Indias fought in Colombia",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1812,
+   "text": "Cartagena Manifesto, a political document, was written",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "civic"
+  },
+  {
+   "year": 1815,
+   "text": "Siege of Cartagena took place in Colombia",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1921,
+   "text": "Modesto Cartagena, future highly decorated Puerto Rican soldier, was born",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "Cartagena uprising occurred during Spanish Civil War",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1954,
+   "text": "Physician and public servant José N. Gándara Cartagena died",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "civic"
+  },
+  {
+   "year": 1970,
+   "text": "Rapper Joseph Cartagena, known as Fat Joe, was born",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "Fire chief Raúl Gándara Cartagena retired",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "Boxer Miguel Cartagena was born",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Film titled \"Cartagena\" premiered",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Carlos Mauricio Funes Cartagena began presidency of El Salvador",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "Novel \"Cartagena\" by Claudia Amengual published",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "culture"
+  },
+  {
+   "year": 2026,
+   "text": "Bishop Serafín Cartagena Ocaña passed away",
+   "url": "https://en.wikipedia.org/wiki/Cartagena",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

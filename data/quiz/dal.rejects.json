@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7188,
+  "completionTokens": 5035,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1963,
+   "theme": "power_conflict",
+   "event": "United States President John F. Kennedy was assassinated.",
+   "quote": "On November 22, 1963, United States President John F. Kennedy in 1963, has served since the 1980s as a county government office building, except for its sixth and seventh floors, which house the Sixth Floor Museum.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "Dallas recorded 251 murders which was a 20-year high.",
+   "quote": "In 2020, Dallas recorded 251 murders which was a 20-year high.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

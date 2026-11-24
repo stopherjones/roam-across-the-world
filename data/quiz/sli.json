@@ -1,0 +1,88 @@
+{
+ "id": "sli",
+ "town": "Saint-Louis",
+ "source": "https://en.wikipedia.org/wiki/Saint_Louis",
+ "pool": [
+  {
+   "year": 1900,
+   "text": "French battleship Saint Louis served in the French Navy until nineteen nineteen.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1923,
+   "text": "St. Louis All-Stars competed as a professional football team during this period.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1934,
+   "text": "St. Louis Gunners participated as a member of the National Football League.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "German ocean liner MS St. Louis carried refugees during a notable voyage.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1946,
+   "text": "St. Louis Bombers operated as a defunct National Basketball Association team.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "St. Louis Browns professional baseball team transitioned to become the Baltimore Orioles.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "St. Louis Hawks played as a professional basketball team until nineteen sixty-eight.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "St. Louis Cardinals operated in this capacity until nineteen eighty-seven.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "St. Louis Steamers operated as a former indoor soccer team until nineteen eighty-eight.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "St. Louis Ambush participated as an indoor soccer team until the year two thousand.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "St. Louis Stampede played as members of the Arena Football League.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "Saint-Louis-de-France, Quebec merged into Trois-Rivières during this year.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "St. Louis Attack operated as a professional indoor football team until two thousand fifteen.",
+   "url": "https://en.wikipedia.org/wiki/Saint_Louis",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

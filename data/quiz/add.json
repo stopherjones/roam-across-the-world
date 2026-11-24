@@ -1,0 +1,130 @@
+{
+ "id": "add",
+ "town": "Addis Ababa",
+ "source": "https://en.wikipedia.org/wiki/Addis_Ababa",
+ "pool": [
+  {
+   "year": 1450,
+   "text": "The city was depicted standing between Mount Zuqualla and Menegasha on a map.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "culture"
+  },
+  {
+   "year": 1529,
+   "text": "Ahmad ibn Ibrahim plundered the city while the imperial army was trapped.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1886,
+   "text": "Settlement began in the valley south of the mountain in Finfinne.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "civic"
+  },
+  {
+   "year": 1889,
+   "text": "Addis Ababa became the empire's capital, leading to international embassies opening.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "civic"
+  },
+  {
+   "year": 1896,
+   "text": "St George's Cathedral was founded and serves as a museum home.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "culture"
+  },
+  {
+   "year": 1916,
+   "text": "Gebrehiwot Baykedagn took a major administrative division post and railways.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "A wide-scale economic boom occurred with increased middle class buildings.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1930,
+   "text": "The Emperor was crowned and proceeded with new technologies and building infrastructure.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "Italian troops entered Addis Ababa following major engagements of their invasion.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "Major Orde Wingate and Emperor Haile Selassie liberated the city.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "Haile Selassie invited Sir Patrick Abercrombie with goals of modelling the city.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "The National Palace was built to mark Emperor Haile Selassie's Silver Jubilee.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "The United Nations Economic Commission for Africa was founded with its headquarters.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "Haile Selassie helped to form the Organisation of African Unity.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "The first student march took place in response to the feudal imperial government.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "The Derg nationalized extra rental structures built by private stockholders.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1991,
+   "text": "The Ethiopian People's Revolutionary Democratic Front seized Addis Ababa.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1998,
+   "text": "The construction of the Addis Ababa Ring Road was initiated.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Oromia's capital was moved from Addis Ababa to Adama.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "Addis Ababa Zoo kept 15 lions.",
+   "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

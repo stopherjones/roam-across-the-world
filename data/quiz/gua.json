@@ -1,0 +1,94 @@
+{
+ "id": "gua",
+ "town": "Guatemala City",
+ "source": "https://en.wikipedia.org/wiki/Guatemala_City",
+ "pool": [
+  {
+   "year": 1620,
+   "text": "El Carmen monastery was founded in a small town during the early Spanish colonial period.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1676,
+   "text": "The Universidad de San Carlos was established, making it older than most North American universities.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1776,
+   "text": "The capital was moved to the current location of Guatemala City in a valley.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1821,
+   "text": "Guatemala City hosted the signing of the Act of Independence of Central America from Spain.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1847,
+   "text": "Guatemala declared itself an independent republic and Guatemala City became its national capital.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1871,
+   "text": "The immense neo-classical Metropolitan Cathedral was completed in the central plaza.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1917,
+   "text": "Guatemala City and the surrounding region suffered destruction from earthquakes and months of aftershocks.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "environment"
+  },
+  {
+   "year": 1939,
+   "text": "The National Palace was built as an official residence and headquarters for the president.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1944,
+   "text": "President Ubico was overthrown in the democratic Guatemalan Revolution movement.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Engineer Martin Prado Vélez took over as mayor and ruled the city during reformist presidencies.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "A large tremor measuring 7.5 on the moment magnitude scale hit the region.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "Heavy rainfalls caused canyon-edge slums to be washed away and buried under mudslides.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "A very large, deep circular hole with vertical walls opened in northeastern Guatemala City.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2010,
+   "text": "The Pacaya volcano erupted and Tropical Storm Agatha brought torrential downpours simultaneously.",
+   "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

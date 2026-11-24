@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5207,
+  "completionTokens": 2184,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2014,
+   "theme": "environment",
+   "event": "Tangier population grew significantly over thirty-two years.",
+   "quote": "The 2014 population is more than three-times larger than 32 years ago (850.000 inhabitants in 2014 vs.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

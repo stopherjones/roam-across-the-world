@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 6629,
+  "completionTokens": 3456,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1914,
+   "theme": "power_conflict",
+   "event": "Lille experienced an occupation by the Germans following a ten-day siege and heavy shelling.",
+   "quote": "Lille's occupation by the Germans began on 13 October 1914 after a ten-day siege and heavy shelling, which destroyed 882 apartment and office blocks and 1,500 houses, mostly around the railway station and in the centre.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2018,
+   "theme": "environment",
+   "event": "Lille recorded notable pollution peaks alongside studies linking deaths to air pollution.",
+   "quote": "In 2018, Lille held France's record pollution peaks.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

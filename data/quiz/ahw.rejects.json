@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2918,
+  "completionTokens": 3100,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2005,
+   "theme": "power_conflict",
+   "event": "The city witnessed a series of bombings claimed by a militant movement.",
+   "quote": "In 2005, the city witnessed a series of bombings. The Arab Struggle Movement for the Liberation of Ahvaz claimed credit for several of the bombings, including four bombs on 12 June 2005, that killed 8 people.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2006,
+   "theme": "culture",
+   "event": "Esteghlal Ahvaz finished runners-up in the Iran Premier Football League.",
+   "quote": "Esteghlal Ahvaz finished runners–up in the league in the 2006–2007 season.",
+   "stage": "verification",
+   "why": "The source quote states the finish was in the 2006-2007 season, not just the single year 2006."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4548,
+  "completionTokens": 4005,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2019,
+   "theme": "civic",
+   "event": "The population was recorded at 1,208,333 people in the census.",
+   "quote": "900 A.D.) and second-largest city after Nairobi, with a population of about 1,208,333 people according to the 2019 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

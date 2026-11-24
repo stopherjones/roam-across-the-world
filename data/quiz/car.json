@@ -1,0 +1,130 @@
+{
+ "id": "car",
+ "town": "Cardiff",
+ "source": "https://en.wikipedia.org/wiki/Cardiff",
+ "pool": [
+  {
+   "year": 1081,
+   "text": "William the Conqueror visited Cardiff and ordered work to begin on the castle keep.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1404,
+   "text": "Owain Glyndwr burned Cardiff and took possession of the castle.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1536,
+   "text": "Laws in Wales Acts created Glamorganshire and made Cardiff the county town.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "civic"
+  },
+  {
+   "year": 1538,
+   "text": "Henry VIII closed Cardiff's Dominican and Franciscan friaries for building materials.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "civic"
+  },
+  {
+   "year": 1542,
+   "text": "Cardiff officially became a borough.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "civic"
+  },
+  {
+   "year": 1607,
+   "text": "A disastrous flood in the Bristol Channel changed the course of the Taff.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "environment"
+  },
+  {
+   "year": 1955,
+   "text": "The government proclaimed Cardiff as the capital city of Wales.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "Cardiff hosted the British Empire and Commonwealth Games during its international sporting event role.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "The establishment of the Welsh Office made Cardiff a center of national administration.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "The East Moors Steelworks was permanently closed down.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "The first Hindu temple in the city was opened on the site of an abandoned synagogue.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Orthodox Jewish community congregations were consolidated in a synagogue dedicated by Chief Rabbi Jonathan Sacks.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Cardiff was officially granted Fairtrade City status.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Cardiff became a major centre for television and film production.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The Queen opened the new Senedd building in Cardiff Bay.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The founding anniversary was celebrated with a parade of over three thousand people.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Cardiff International Pool opened as Wales's only Olympic-standard pool.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "David's Centre was completed providing shopping space making it one of the largest UK centres.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "The shopping centre was named the international shopping centre of the year by Retail Leisure International.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "Research indicated Cardiff has the highest percentage of green spaces in the UK.",
+   "url": "https://en.wikipedia.org/wiki/Cardiff",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

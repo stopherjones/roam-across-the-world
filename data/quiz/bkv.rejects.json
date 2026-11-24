@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 1989,
+  "completionTokens": 2184,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2004,
+   "theme": "power_conflict",
+   "event": "Bukavu experienced sporadic fighting between government forces and rebel proxy groups.",
+   "quote": "Bukavu and the rest of Sud-Kivu was the site of sporadic fighting between rebels and government forces and their proxies, including the Mayi-Mayi, especially in 1998 and 2004.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

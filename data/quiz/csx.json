@@ -1,0 +1,130 @@
+{
+ "id": "csx",
+ "town": "Changsha",
+ "source": "https://en.wikipedia.org/wiki/Changsha",
+ "pool": [
+  {
+   "year": 1897,
+   "text": "The Hunan Provincial Museum was founded during the Guangxu reign in the Qing dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "culture"
+  },
+  {
+   "year": 1904,
+   "text": "Changsha was opened to foreign trade and gradually became a revolutionary city.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1910,
+   "text": "A severe food riot broke out in spring following severe flooding and shortages.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1914,
+   "text": "The Hunan Medical University was established, which later became Central South University.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "culture"
+  },
+  {
+   "year": 1918,
+   "text": "Further development followed the opening of the railway connecting to Hankou in Hubei.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "The destructive Wenxi Fire hit the local economy and urban construction hard.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "The Changsha ETZ was officially founded to boost local economic development.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1998,
+   "text": "The Liuyang ETZ was created as a national biological industry base.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "Changsha, Zhuzhou, and Xiangtan received reform pilot area approval from the State Council.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The BBC broadcast a documentary about the massive West Lake Restaurant.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2010,
+   "text": "The National Supercomputing Changsha Center was established at Hunan University.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Greater Changsha was named an emerging mega-city by the Economist Intelligence Unit.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Changsha was included as one of fifteen new first-tier cities in China.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "The Xiangjiang New Area was established as the first state-level new area.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "The Human Development Index of Changsha reached a very high level.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "environment"
+  },
+  {
+   "year": 2017,
+   "text": "Changsha entered the one-trillion-yuan GDP club as a major Chinese city.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "Changsha's GDP exceeded RMB 1.327 trillion, making it a prominent wealthy city.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "Changsha was rated tenth nationwide in commercial worth as a new first-tier city.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "More than 180 Global 500 companies established branches in Changsha.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "Changsha ranked twenty-third globally as a major center of research and innovation.",
+   "url": "https://en.wikipedia.org/wiki/Changsha",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

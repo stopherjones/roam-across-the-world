@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3498,
+  "completionTokens": 2756,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1897,
+   "theme": "commerce_industry",
+   "event": "A municipal tram system operated within the town until the year 1936.",
+   "quote": "A tram system operated in the town from 1897 to 1936.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1942,
+   "theme": "culture",
+   "event": "Vera Lynn recorded the famous song about the white cliffs of Dover.",
+   "quote": "\"(There'll Be Bluebirds Over) The White Cliffs of Dover\" by Vera Lynn, recorded in 1942.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2019,
+   "theme": "environment",
+   "event": "The warmest recorded temperature reached 37.4 degrees Celsius at Langdon Bay.",
+   "quote": "The warmest recorded temperature was 37.4 °C (99.3 °F), recorded at Langdon Bay on 25 July 2019,",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

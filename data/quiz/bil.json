@@ -1,0 +1,130 @@
+{
+ "id": "bil",
+ "town": "Bilbao",
+ "source": "https://en.wikipedia.org/wiki/Bilbao",
+ "pool": [
+  {
+   "year": 1300,
+   "text": "Diego López V de Haro founded Bilbao with a municipal charter",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "civic"
+  },
+  {
+   "year": 1310,
+   "text": "María Díaz I de Haro extended commercial privileges with a new charter",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1372,
+   "text": "John I of Castile named Bilbao a free port",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1443,
+   "text": "Church of Saint Anthony the Great was enshrined",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "culture"
+  },
+  {
+   "year": 1483,
+   "text": "Queen Isabella I swore fealty to the fueros of Biscay in Bilbao",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "civic"
+  },
+  {
+   "year": 1511,
+   "text": "Consulate of the Sea of Bilbao was created by royal order",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1936,
+   "text": "Bilbao suffered its first bombing by Nationalist aircraft",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "Strike at Euskalduna shipyard marked first social movement under Franco",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "First commercial flight departed from Bilbao's local airport",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1948,
+   "text": "Bilbao Airport opened to the public with a regular flight to Madrid.",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1959,
+   "text": "First International Festival of Ibero‑American and Filipino Documentary Film held in Bilbao.",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "Separatist organization ETA was created in Bilbao",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "University of Bilbao, the first public university, was established",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "Petronor, a large oil company, founded in Bilbao.",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1968,
+   "text": "University of Bilbao established, later becoming University of the Basque Country.",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "Big Week (Aste Nagusia) began annual nine‑day celebration of the city.",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "Statute of Autonomy approved, Vitoria‑Gasteiz became Basque government seat",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "City hall took over organization of Big Week, staging events at Arriaga Theatre.",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "Aste Nagusia floods overflowed estuary, killing two and causing massive damage",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "environment"
+  },
+  {
+   "year": 1986,
+   "text": "Basque‑speaking population represented about 28 % of Bilbao’s total residents.",
+   "url": "https://en.wikipedia.org/wiki/Bilbao",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7156,
+  "completionTokens": 5536,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1963,
+   "theme": "commerce_industry",
+   "event": "The Nationalist Chinese flagship docked at the port as the first ocean-going vessel.",
+   "quote": "On June 29, 1963, with 5,000 spectators waiting to welcome her, the Motor Vessel Taipei Victory arrived.",
+   "stage": "verification",
+   "why": "The source quote mentions the arrival of the vessel in 1963, but does not state it was the 'Nationalist Chinese flagship' or the 'first ocean-going vessel'."
+  }
+ ]
+}

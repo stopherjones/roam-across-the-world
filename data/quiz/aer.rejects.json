@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5214,
+  "completionTokens": 3187,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2005,
+   "theme": "commerce_industry",
+   "event": "Russia submitted a successful bid for hosting the 2014 Winter Olympics.",
+   "quote": "In July 2005, Russia submitted a successful bid for hosting the 2014 Winter Olympics in the city, spending around $51 billion in the process.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2016,
+   "theme": "commerce_industry",
+   "event": "The volume of goods shipped for medium and large industrial enterprises amounted to rubles.",
+   "quote": "The volume of goods shipped in 2016 for medium and large industrial enterprises of the city amounted to 19.4 billion rubles.",
+   "stage": "verification",
+   "why": "The claim omits the specific monetary value (19.4 billion rubles) mentioned in the source."
+  },
+  {
+   "year": 2017,
+   "theme": "commerce_industry",
+   "event": "The turnover of medium and large enterprises in Sochi amounted to more rubles.",
+   "quote": "The turnover of medium and large enterprises in Sochi in 2017 amounted to more than 191.3 billion rubles.",
+   "stage": "verification",
+   "why": "The claim omits the specific monetary value (191.3 billion rubles) mentioned in the source."
+  }
+ ]
+}

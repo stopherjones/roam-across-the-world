@@ -1,0 +1,130 @@
+{
+ "id": "bor",
+ "town": "Bordeaux",
+ "source": "https://en.wikipedia.org/wiki/Bordeaux",
+ "pool": [
+  {
+   "year": 1096,
+   "text": "Bordeaux Cathedral was consecrated by Pope Urban II and dedicated to Saint Andrew.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "culture"
+  },
+  {
+   "year": 1227,
+   "text": "The city cathedral St-André was built, incorporating the artisan quarter of Saint-Paul.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "culture"
+  },
+  {
+   "year": 1441,
+   "text": "Pope Eugene IV created a university in the town by demand of Pey Berland.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "culture"
+  },
+  {
+   "year": 1462,
+   "text": "The city of Bordeaux created a local parliament during its historical governance developments.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1653,
+   "text": "The army of Louis XIV entered Bordeaux as it was annexed to France.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1785,
+   "text": "Traders and merchants in Bordeaux began turning their attention toward the slave trade.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1793,
+   "text": "The National Convention abolished the university during the course of the French Revolution.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1802,
+   "text": "Napoleon revoked the manumission law but ultimately lost the war against former slaves.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Since the Liberation, there have been seven mayors serving the city of Bordeaux.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "The metropolis received the Europe Prize for its efforts transmitting the European ideal.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "The European Short Film Festival of Bordeaux has been held in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "The Bordeaux International Festival of Women in Cinema took place in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "The Port of the Moon in historic Bordeaux was inscribed on the UNESCO World Heritage List.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The Bordeaux International Independent Film Festival was established to showcase independent cinema.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Europe's longest and tallest vertical-lift bridge opened, spanning the River Garonne.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "The city known as the Pearl of Aquitaine was voted European Destination of the year.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "The Cité du Vin museum opened its doors with exhibitions and seminars on wine.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "The LGV Sud Europe Atlantique became fully operational, shortening journey times to Paris.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "A statue of Modeste Testas, an enslaved Ethiopian woman, was unveiled in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Bordeaux was shortlisted for the European Commission's European Capital of Smart Tourism award.",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

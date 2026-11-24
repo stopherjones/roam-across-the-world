@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1720,
+  "completionTokens": 1883,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1691,
+   "theme": "culture",
+   "event": "A Portuguese captain described the scale of Benin City in writing.",
+   "quote": "A Portuguese captain (Lourenco Pinto) described the city in 1691: \"Great Benin, where the king resides, is larger than Lisbon; all the streets run straight and as far as the eye can see.\"",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1897,
+   "theme": "power_conflict",
+   "event": "Reginald Bacon described Benin city as an irregular straggling town.",
+   "quote": "In 1897 Reginald Bacon, a member of the British Punitive Expedition, described Benin city as \"an irregular straggling town formed by groups of houses separated from each other by patches of bush.\"",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2020,
+   "theme": "environment",
+   "event": "A significant number of communities were left homeless because of flooding.",
+   "quote": "In June 2020, a significant number of communities and individuals were left homeless because of city flooding.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1993,
+   "theme": "environment",
+   "event": "Studies have consistently highlighted the problem of climate change trends.",
+   "quote": "Studies have consistently highlighted the problem since at least 1993.",
+   "stage": "verification",
+   "why": "The source quote mentions studies highlighting a problem since at least 1993, but does not mention climate change trends."
+  }
+ ]
+}

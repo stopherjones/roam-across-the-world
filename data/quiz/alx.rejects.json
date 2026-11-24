@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3547,
+  "completionTokens": 2999,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2010,
+   "theme": "civic",
+   "event": "Terminal 1 is the old terminal which was opened in February 2010.",
+   "quote": "Terminal 1 is the old terminal which was opened in February 2010 whereas Terminal 2 is the Brand New Terminal and was inaugurated in 2025.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

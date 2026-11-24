@@ -1,0 +1,130 @@
+{
+ "id": "cam",
+ "town": "Cambridge",
+ "source": "https://en.wikipedia.org/wiki/Cambridge",
+ "pool": [
+  {
+   "year": 1068,
+   "text": "William the Conqueror erected a castle on Castle Hill",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1209,
+   "text": "Cambridge University was founded by Oxford students fleeing from hostility",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 1211,
+   "text": "Midsummer Fair dates back when it was granted a charter",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1284,
+   "text": "The oldest existing college, Peterhouse, was founded",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 1349,
+   "text": "Cambridge was affected by the Black Death",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "environment"
+  },
+  {
+   "year": 1446,
+   "text": "King's College Chapel was begun by King Henry VI",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 1944,
+   "text": "A secret meeting of military leaders laid the foundation",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1951,
+   "text": "The borough was awarded city status in recognition",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Cambridge's first shopping arcade, Bradwell's Court, opened",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1974,
+   "text": "Cambridge was made a non-metropolitan district",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "The city gained its second university when it changed",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Cambridge Buddhist Centre was opened in the former theatre",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "A Hindu shrine was opened at the Indian cultural centre",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The Centre for Computing History moved to Cambridge",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "The Beth Shalom Reform synagogue opened a purpose-built synagogue",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "A second railway station, Cambridge North, opened",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "Europe's first eco-friendly mosque opened in the city",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "Consultations opened for a transport system known as metro",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "Cambridge Connect proposed repurposing the planned route",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "A third railway station opened serving the campus",
+   "url": "https://en.wikipedia.org/wiki/Cambridge",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

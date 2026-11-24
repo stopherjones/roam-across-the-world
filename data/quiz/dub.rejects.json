@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 8787,
+  "completionTokens": 7572,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "city council area recorded 592,713 residents, suburbs 1,263,219 in census",
+   "quote": "Dublin is the largest city by population on the island of Ireland; at the 2022 census, the city council area had a population of 592,713, while the city, including suburbs, had a population of 1,263,219, and County Dublin had a population of 1,501,500.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "Shortlisted to be World Design Capital 2014",
+   "quote": "Dublin was shortlisted to be World Design Capital 2014.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "culture",
+   "event": "Shortlisted for European Capital of Smart Tourism award 2022",
+   "quote": "In October 2021, Dublin was shortlisted for the European Commission's 2022 European Capital of Smart Tourism award along with Bordeaux, Copenhagen, Florence, Ljubljana, Palma de Mallorca and Valencia.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1916,
+   "theme": "power_conflict",
+   "event": "Easter Rising caused significant physical destruction in central Dublin",
+   "quote": "The Easter Rising of 1916, the Irish War of Independence, and the subsequent Irish Civil War resulted in significant physical destruction in central Dublin.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2009,
+   "theme": "culture",
+   "event": "Special Olympics opening and closing ceremonies held in Dublin",
+   "quote": "Muhammad Ali fought there in 1972, and it hosted the opening and closing ceremonies of the 2003 Special Olympics.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2009,
+   "theme": "civic",
+   "event": "Dublin established a friendship agreement with Moscow.",
+   "quote": "The city also has \"friendship\" or \"co-operation agreements\" with several other cities: Moscow (since 2009) and St Petersburg (since 2010) in Russia...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2014,
+   "theme": "civic",
+   "event": "Dublin signed a cooperation agreement with Mexico City (2014‑2018).",
+   "quote": "Previous agreements have included those with Mexico City (2014−2018), Tbilisi in Georgia (2014−2017) and Wuhan in China (2016−2019).",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1851,
+   "theme": "culture",
+   "event": "Census recorded native Irish speakers still present in County Dublin.",
+   "quote": "There were still native Irish speakers in County Dublin at the time of the 1851 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

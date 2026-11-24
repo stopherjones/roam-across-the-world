@@ -1,0 +1,130 @@
+{
+ "id": "gla",
+ "town": "Glasgow",
+ "source": "https://en.wikipedia.org/wiki/Glasgow",
+ "pool": [
+  {
+   "year": 1116,
+   "text": "The modern name appears for the first time in the Gaelic period.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1190,
+   "text": "The Glasgow Fair began during this medieval period.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1450,
+   "text": "John Stewart left an endowment for St Mungo's Bell.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "civic"
+  },
+  {
+   "year": 1451,
+   "text": "The University of Glasgow was founded adjoining the cathedral.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1451,
+   "text": "Glasgow University was founded as the second oldest university in Scotland.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "civic"
+  },
+  {
+   "year": 1605,
+   "text": "The 14 incorporated trade crafts federated as the Glasgow Trades House.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1928,
+   "text": "Motorcycle speedway racing was first introduced to Glasgow at Ashfield Stadium.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Hampden Park set the European record for attendance at a football match.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "Celtic won the European Cup final during a dual European final appearance.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "The Burrell Collection and a campaign were launched to boost tourism.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Glasgow became the European Capital of Culture.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "The St Mungo Museum of Religious Life and Art opened in Glasgow.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "Strathclyde Region was abolished and the city regained full local government responsibility.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Glasgow Hawks RFC was formed by the merger of two oldest clubs.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "A Poet Laureate post was created for Edwin Morgan.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Glasgow was given the title of European Capital of Sport.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Glasgow had the lowest life expectancy of any UK city.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2007,
+   "text": "The city's primary airport was the target of a terrorist attack.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2017,
+   "text": "The Clydeside Distillery opened in the former dock pump house.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "The sewerage infrastructure was improved with a long storm water tunnel.",
+   "url": "https://en.wikipedia.org/wiki/Glasgow",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

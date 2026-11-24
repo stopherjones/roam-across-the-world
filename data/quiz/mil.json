@@ -1,0 +1,130 @@
+{
+ "id": "mil",
+ "town": "Milan",
+ "source": "https://en.wikipedia.org/wiki/Milan",
+ "pool": [
+  {
+   "year": 1162,
+   "text": "Frederick I Barbarossa brought the destruction of much of Milan.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1183,
+   "text": "Milan returned to the commune form of local government after the Peace of Constance.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "civic"
+  },
+  {
+   "year": 1284,
+   "text": "The Antica trattoria Bagutto has existed in Italy since this year.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1395,
+   "text": "Gian Galeazzo Visconti became the first Duke of Milan.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1450,
+   "text": "The Republic collapsed when Milan was conquered by Francesco I.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1525,
+   "text": "French rule in the Duchy of Milan ended at the Battle of Pavia.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1926,
+   "text": "Turandot by Giacomo Puccini premiered at La Scala opera house.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "culture"
+  },
+  {
+   "year": 1931,
+   "text": "The huge Central railway station was inaugurated as an example of Art Deco.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "civic"
+  },
+  {
+   "year": 1931,
+   "text": "Blessed cardinal A.I. Schuster founded the Pontifical Ambrosian Institute of Sacred Music.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "culture"
+  },
+  {
+   "year": 1940,
+   "text": "The Holy See raised the Pontifical Ambrosian Institute of Sacred Music.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "The Italian resistance seized control of the city and executed Mussolini.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "Milan's fashion exports accounted for US$726 million.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1960,
+   "text": "The airport started serving mostly as a general aviation airfield for flying clubs.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1964,
+   "text": "The Milan Metro design received the Compasso d'Oro award.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "A bomb exploded at the National Agrarian Bank in Piazza Fontana.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "The implementation of a city-wide network of bike paths began to fight congestion.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "Trenord began operating both Trenitalia and LeNord regional trains in Lombardy.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "The partnership with Saint Petersburg was suspended due to the Russian government's prohibition.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2015,
+   "text": "Museo delle Culture opened in April.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "Fiera Milano hosted international exhibitions with more than 4 million visitors.",
+   "url": "https://en.wikipedia.org/wiki/Milan",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "mad",
+ "town": "Madrid",
+ "source": "https://en.wikipedia.org/wiki/Madrid",
+ "pool": [
+  {
+   "year": 1083,
+   "text": "Alfonso VI seized Madrid to use as an outpost against Toledo",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1561,
+   "text": "Philip II moved his court to Madrid, making it the capital",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1706,
+   "text": "Bourbon forces retook Madrid from allied Austriacist army",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1720,
+   "text": "Reglamento General de Postas created a radial road system across Spain.",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "environment"
+  },
+  {
+   "year": 1766,
+   "text": "Esquilache Riots protested clothing decree in Madrid",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1782,
+   "text": "Bank of San Carlos founded, later becoming the Bank of Spain",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1929,
+   "text": "Las Ventas bullring, the largest in Spain, was established in Madrid.",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "culture"
+  },
+  {
+   "year": 1931,
+   "text": "Real Madrid Baloncesto basketball club was founded, playing at WiZink Center.",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Madrid became a Republican stronghold during the Civil War",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "Francoist forces captured Madrid in March",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "EFE news agency headquartered in Madrid since its inception",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "Club Baloncesto Estudiantes was founded, later sharing the WiZink Center arena.",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "Europa Press news agency founded and headquartered in Madrid",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "Edificio España presented as Europe's tallest building at inauguration",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Madrid's Pride Parade began in the Chueca neighbourhood, sparking LGBT rights movement.",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "New constitution confirmed Madrid as Spain's capital after Franco",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "First democratically elected mayor since Second Republic took office",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "Mass demonstrations supported democracy after failed coup on 23 February",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Madrid announced a plan to phase out diesel vehicles within the next decade.",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "environment"
+  },
+  {
+   "year": 2019,
+   "text": "Film and TV industry employs 19,000 people locally",
+   "url": "https://en.wikipedia.org/wiki/Madrid",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

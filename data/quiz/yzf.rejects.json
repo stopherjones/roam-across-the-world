@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4707,
+  "completionTokens": 3327,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1945,
+   "theme": "civic",
+   "event": "The new townsite of Yellowknife was established.",
+   "quote": "The Yellowknife townsite expanded from the Old Town waterfront, and the new townsite was established in 1945–1946.",
+   "stage": "verification",
+   "why": "The source quote gives a range of years (1945–1946), not a single exact year of 1945."
+  }
+ ]
+}

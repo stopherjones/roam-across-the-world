@@ -1,0 +1,106 @@
+{
+ "id": "pbm",
+ "town": "Paramaribo",
+ "source": "https://en.wikipedia.org/wiki/Paramaribo",
+ "pool": [
+  {
+   "year": 1613,
+   "text": "First Dutch trading post founded by Nicolaes Baliestel and Dirck Claeszoon van Sanen.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1644,
+   "text": "French post established near present‑day Paramaribo.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "culture"
+  },
+  {
+   "year": 1650,
+   "text": "English settlers arrive to found Surinam after earlier settlements abandoned.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1662,
+   "text": "Governor Willoughby granted Paramaribo and surrounding lands by King Charles II.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1665,
+   "text": "Village of Paramaribo expanded and outranked earlier settlement of Torarica.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "culture"
+  },
+  {
+   "year": 1667,
+   "text": "Paramaribo conquered by Abraham Crijnssen's squadron during Second Anglo‑Dutch War.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1667,
+   "text": "Treaty of Breda confirms Paramaribo as leading town of Dutch Suriname.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "Devastating fire in January destroys over 400 buildings in old town.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "environment"
+  },
+  {
+   "year": 1832,
+   "text": "September fire destroys nearly 50 buildings in old town.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "environment"
+  },
+  {
+   "year": 1863,
+   "text": "Enslaved people in Suriname legally freed.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "civic"
+  },
+  {
+   "year": 1873,
+   "text": "Formerly enslaved people allowed to leave sugar plantations, boosting town population.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "Paramaribo Zoo opens to public in May.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "Paramaribo remains capital after Suriname gains independence.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "City divided into 12 administrative resorts during reorganization.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "Historic inner city of Paramaribo designated a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "Paramaribo's population reaches roughly 252,581 people, nearly half of Suriname.",
+   "url": "https://en.wikipedia.org/wiki/Paramaribo",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

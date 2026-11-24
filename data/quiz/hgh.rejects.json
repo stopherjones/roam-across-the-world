@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4344,
+  "completionTokens": 3425,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 221,
+   "theme": "civic",
+   "event": "Hangzhou was officially established as a county seat in ancient times.",
+   "quote": "Established as a county seat in 221 BC, Hangzhou later served as the capital of the Wuyue Kingdom (923–997) and the Southern Song dynasty (1138–1276).",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

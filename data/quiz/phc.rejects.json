@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3048,
+  "completionTokens": 3043,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2016,
+   "theme": "environment",
+   "event": "Residents of the city have been experiencing particle pollution in the air.",
+   "quote": "Residents of the city have been experiencing particle (soot) pollution since the last quarter of 2016.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1912,
+   "theme": "civic",
+   "event": "Frederick Lugard founded Port Harcourt to export coal discovered in Enugu.",
+   "quote": "Port Harcourt was founded in 1912 by Frederick Lugard, governor of both the Northern Nigeria Protectorate and the Southern Nigeria Protectorate.",
+   "stage": "verification",
+   "why": "The source quote states Frederick Lugard was governor in 1912, but does not state that he founded Port Harcourt to export coal in that year."
+  }
+ ]
+}

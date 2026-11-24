@@ -1,0 +1,130 @@
+{
+ "id": "col",
+ "town": "Cologne",
+ "source": "https://en.wikipedia.org/wiki/Cologne",
+ "pool": [
+  {
+   "year": 1164,
+   "text": "Relics of the Three Wise Men transferred to Cologne Cathedral",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "culture"
+  },
+  {
+   "year": 1288,
+   "text": "Battle of Worringen granted Cologne independence as a Free City",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1475,
+   "text": "Cologne joined the Hanseatic League, confirming imperial immediacy",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1709,
+   "text": "Eau de Cologne began production in Cologne, creating a lasting fragrance legacy",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1794,
+   "text": "French forces occupied Cologne during the Revolutionary Wars",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1801,
+   "text": "Treaty of Lunéville incorporated left‑bank Rhine territories into France",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1803,
+   "text": "Wilhelm Mülhens secured rights to use the Farina name for fragrance production",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1815,
+   "text": "Cologne became part of the Kingdom of Prussia after the Congress of Vienna",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "Influential Krautrock band Can formed in Cologne",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "Cologne's population exceeded one million for the first time",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Waste scandal uncovered, leading to political imprisonments",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Koelnmesse fair site expanded due to economic success",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "Mäurer & Wirtz acquired the 4711 Eau de Cologne brand",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "Discovery of a 1,900‑year‑old Roman boat near the wharf area",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Annual international philosophy festival phil.cologne launched",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Cologne was focal point of New Year's Eve sexual assault reports",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Cologne logged 5.8 million overnight stays and 3.35 million arrivals",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "All 35 Cologne mosques permitted to broadcast the Adhan on Fridays",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Most recent mayoral election held with runoff in September",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Most recent city council election conducted in September",
+   "url": "https://en.wikipedia.org/wiki/Cologne",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

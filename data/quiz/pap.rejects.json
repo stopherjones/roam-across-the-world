@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3695,
+  "completionTokens": 2859,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1999,
+   "theme": "commerce_industry",
+   "event": "A road repair project funded by the World Bank was canceled.",
+   "quote": "The project was canceled in January 1999, however, after auditors revealed corruption.",
+   "stage": "verification",
+   "why": "The source quote mentions a project canceled in January 1999, but does not specify that it was a World Bank-funded road repair project."
+  }
+ ]
+}

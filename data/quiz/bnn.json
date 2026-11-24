@@ -1,0 +1,76 @@
+{
+ "id": "bnn",
+ "town": "Benin City",
+ "source": "https://en.wikipedia.org/wiki/Benin_City",
+ "pool": [
+  {
+   "year": 1470,
+   "text": "Ẹwuare changed the name of the state to Ẹdo in Benin City.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1485,
+   "text": "The Portuguese visited Benin City around the year fourteen eighty-five.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1820,
+   "text": "A British Naval officer visited Benin city and wrote about its walls.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1897,
+   "text": "Benin City fell to the British on seventeenth February.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1898,
+   "text": "Alan Boisragon included references to human sacrifice in a firsthand account.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1914,
+   "text": "The British permitted the restoration of the Benin monarchy in Nigeria.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "Benin City became the capital of Mid-Western Region in June.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "The region was renamed Bendel State while remaining the capital.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "The Queen Idia mask was used as a festival mascot.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "It became the State Capital of Edo State after division.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "A published study highlighted waste management standards set by the board.",
+   "url": "https://en.wikipedia.org/wiki/Benin_City",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "mex",
+ "town": "Mexico City",
+ "source": "https://en.wikipedia.org/wiki/Mexico_City",
+ "pool": [
+  {
+   "year": 1325,
+   "text": "Tenochtitlan was established by the Mexica people on islands in Lake Texcoco.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1519,
+   "text": "Spanish explorer Hernán Cortés arrived in Tenochtitlan with native allies.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1520,
+   "text": "Aztecs rose up against the Spanish intrusion during La Noche Triste.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1521,
+   "text": "Cuauhtémoc surrendered after a siege, and the city was nearly destroyed.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1524,
+   "text": "The municipality of Mexico City was established as México Tenochtitlán.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1821,
+   "text": "Mexico's independence from Spain was declared in the Mexican Empire declaration.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "Leon Trotsky was initially granted asylum and finally murdered in Coyoacán.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "Jack Kerouac wrote his famous masterpiece volume of poetry in the city.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Olympic Games brought about the construction of large sporting facilities.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "The Mexico City Metro was inaugurated to provide public transportation.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1970,
+   "text": "Mexico City was split into four different delegaciones, increasing the total number.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "The Sala Nezahualcóyotl opened as the first wrap-around concert hall.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "The Templo Mayor was discovered while workers were digging trenches.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "Half of all industrial jobs in Mexico were located in the city.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1985,
+   "text": "The area was struck by a powerful earthquake in the morning hours.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "environment"
+  },
+  {
+   "year": 1993,
+   "text": "An amendment stated Mexico City and the Federal District were the same entity.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Residents won the right to elect the head of government and assembly members.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "A specific civic facility was inaugurated on the second day of February.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Local authorities for boroughs were first elected directly by plurality.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "The restaurant Sud 777 was placed on the World's Best Restaurants list.",
+   "url": "https://en.wikipedia.org/wiki/Mexico_City",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

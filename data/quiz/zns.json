@@ -1,0 +1,106 @@
+{
+ "id": "zns",
+ "town": "Zanzibar",
+ "source": "https://en.wikipedia.org/wiki/Zanzibar",
+ "pool": [
+  {
+   "year": 1925,
+   "text": "The main port at Malindi, handling trade, was built.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1973,
+   "text": "Zanzibar introduced the first colour television service in sub-Saharan Africa.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "The previous 45-megawatt cable was completed by Norway.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "The government designated two export-producing zones and encouraged financial services.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "Contested elections led to a violent massacre involving the army.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Violence erupted again after another contested election on the island.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "A Norwegian consultancy firm went to determine potential oil development.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "environment"
+  },
+  {
+   "year": 2009,
+   "text": "Political leaders met at the State House to discuss turmoil.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2010,
+   "text": "Voters adopted a proposal to amend the constitution for national unity.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The sinking of a ship became the worst disaster in history.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "The Viscas Corporation of Japan began laying a cable.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "The new subsea electrical cable became fully operational.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "Christ Church Cathedral was fully restored with a visitor centre.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "A camera trap showed the elusive leopard inhabiting forested areas.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "environment"
+  },
+  {
+   "year": 2020,
+   "text": "Hussein Ali Mwinyi became the president of Zanzibar.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "Zanzibar launched its first government-backed electric public bus service.",
+   "url": "https://en.wikipedia.org/wiki/Zanzibar",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

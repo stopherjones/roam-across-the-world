@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4524,
+  "completionTokens": 3256,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1769,
+   "theme": "civic",
+   "event": "Porto Alegre was founded by Manuel Jorge Gomes de Sepúlveda.",
+   "quote": "Porto Alegre was founded in 1769 by Manuel Jorge Gomes de Sepúlveda, who used the pseudonym José Marcelino de Figueiredo to hide his identity; the official date, though, is 1772 with the act signed by immigrants from the Azores, Portugal.",
+   "stage": "verification",
+   "why": "The source quote states the official date of foundation is 1772, contradicting the year 1769 in the claim."
+  }
+ ]
+}

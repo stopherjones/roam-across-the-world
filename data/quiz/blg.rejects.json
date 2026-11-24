@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9463,
+  "completionTokens": 7342,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1977,
+   "theme": "culture",
+   "event": "The Museum of African Art was founded, housing a large collection from West Africa.",
+   "quote": "The Belgrade also houses the Museum of African Art, founded in 1977, which has a large collection of art from West Africa.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2027,
+   "theme": "culture",
+   "event": "The City Museum is scheduled to move into a much larger city center building.",
+   "quote": "The City Museum is scheduled to move to a much larger building in the city center in 2027.",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

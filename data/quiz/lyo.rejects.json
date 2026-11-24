@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4083,
+  "completionTokens": 3270,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1987,
+   "theme": "culture",
+   "event": "The artist collective Birdy Kids was originally formed in the city.",
+   "quote": "It was formed in 1987.",
+   "stage": "verification",
+   "why": "While the quote mentions the year 1987, it does not state what was formed, missing the subject 'Birdy Kids'."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4770,
+  "completionTokens": 3733,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1451,
+   "theme": "environment",
+   "event": "The Kankaria Lake, built in 1451 CE, is one of the biggest lakes.",
+   "quote": "The Kankaria Lake, built in 1451 CE, is one of the biggest lakes in Ahmedabad.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1824,
+   "theme": "power_conflict",
+   "event": "A military cantonment was established in 1824 by the ruling authorities.",
+   "quote": "A military cantonment was established in 1824, and a municipal government in 1858.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1950,
+   "theme": "civic",
+   "event": "The AMC was established under the Bombay Provincial Corporation Act of 1949.",
+   "quote": "The AMC was established on July 1st 1950 under the Bombay Provincial Corporation Act of 1949.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

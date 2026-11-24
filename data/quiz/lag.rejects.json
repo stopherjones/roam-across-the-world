@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9165,
+  "completionTokens": 7378,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2019,
+   "theme": "civic",
+   "event": "The largest bus station in West Africa commenced operation and was inaugurated.",
+   "quote": "LBSL was inaugurated in 2019. It is the largest bus station in West Africa and commenced operation in 2019.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1976,
+   "theme": "power_conflict",
+   "event": "The airport terminal was renamed for the late Nigerian Head of State, General Murtala Muhammed.",
+   "quote": "It was, however, renamed for the late Nigerian Head of State, General Murtala Muhammed, who died in 1976.",
+   "stage": "verification",
+   "why": "The source quote states the General died in 1976, but does not state the year the airport terminal was renamed."
+  }
+ ]
+}

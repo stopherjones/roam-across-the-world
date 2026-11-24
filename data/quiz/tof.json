@@ -1,0 +1,130 @@
+{
+ "id": "tof",
+ "town": "Tomsk",
+ "source": "https://en.wikipedia.org/wiki/Tomsk",
+ "pool": [
+  {
+   "year": 1604,
+   "text": "Tsar Boris Godunov issued a decree establishing the city of Tomsk.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1804,
+   "text": "The Imperial Russian government selected Tomsk as the seat of the new governorate.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1830,
+   "text": "The discovery of gold brought further development to Tomsk.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1896,
+   "text": "Tomsk Polytechnic University was founded in the Siberian city.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1896,
+   "text": "Power station TEC-1 was launched in Tomsk.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1896,
+   "text": "The main line of the Trans-Siberian railway was built.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1941,
+   "text": "Factories were relocated out of the war zone into Tomsk.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1945,
+   "text": "Power station GRES-2 was launched in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1949,
+   "text": "Five tram lines were constructed in the city of Tomsk.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1949,
+   "text": "A secret city known as Tomsk-7 was established.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1956,
+   "text": "The settlement of Tomsk-7 received municipal status.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "The Tomsk Railway existed as an independent entity until this year.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1967,
+   "text": "Eight trolleybus lines were built in the city.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Power station TEC-3 was launched in Tomsk.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "Tomsk-7 was renamed Seversk.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "The local football team achieved promotion to the Russian Premier League.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Local elections took place where the Pensioners Party put up a strong showing.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Tomsk received international media attention as the venue of a major summit.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Ivan Klyayn, a member of The United Russia party, was appointed mayor.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "The airport located 20 kilometers from the city center was renovated.",
+   "url": "https://en.wikipedia.org/wiki/Tomsk",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

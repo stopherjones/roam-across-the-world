@@ -1,0 +1,125 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 8732,
+  "completionTokens": 8167,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1931,
+   "theme": "power_conflict",
+   "event": "Spanish Constitution of 1931 explicitly set Madrid as capital",
+   "quote": "The Spanish Constitution of 1931 was the first to legislate the location of the country's capital, setting it explicitly in Madrid.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2017,
+   "theme": "commerce_industry",
+   "event": "Community of Madrid recorded GDP of €220 billion",
+   "quote": "The Community of Madrid, the region comprising the city and the rest of municipalities of the province, had a GDP of €220B in 2017, equating to a GDP per capita of €33,800.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2017,
+   "theme": "culture",
+   "event": "WorldPride Madrid 2017 celebrated the 40th anniversary of the first Pride Parade.",
+   "quote": "In 2017, Madrid celebrated the 40th anniversary of their first Pride Parade by hosting the WorldPride Madrid 2017.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1983,
+   "theme": "culture",
+   "event": "Getafe CF football club was founded, later reaching La Liga in 2004.",
+   "quote": "Getafe CF, founded in 1983, also compete in La Liga and play their home games at the Estadio Coliseum.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1964,
+   "theme": "culture",
+   "event": "Santiago Bernabéu Stadium hosted the Euro 1964 Final, which Spain won.",
+   "quote": "The Bernabéu also hosted the Euro 1964 Final (which Spain won) and the 1982 FIFA World Cup Final.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1986,
+   "theme": "culture",
+   "event": "Madrid hosted the final matches of the 1986 FIBA World Cup.",
+   "quote": "The city also hosted the final matches for the 1986 and 2014 FIBA World Cups, and the EuroBasket 2007 final (all held at the Palacio de Deportes).",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "Madrid hosted the final matches of the 2014 FIBA World Cup.",
+   "quote": "The city also hosted the final matches for the 1986 and 2014 FIBA World Cups, and the EuroBasket 2007 final (all held at the Palacio de Deportes).",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2007,
+   "theme": "culture",
+   "event": "Madrid hosted the EuroBasket 2007 final at the Palacio de Deportes.",
+   "quote": "The city also hosted the final matches for the 1986 and 2014 FIBA World Cups, and the EuroBasket 2007 final (all held at the Palacio de Deportes).",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "culture",
+   "event": "Formula One announced Madrid will host the 2026 Spanish Grand Prix at IFEMA.",
+   "quote": "In January 2024, Formula One announced that Madrid will host the 2026 Spanish Grand Prix around the IFEMA exhibition centre in Campo de las Naciones.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2009,
+   "theme": "commerce_industry",
+   "event": "IE Business School ranked #1 in WSJ's 2009 Best MBA Programs under two years.",
+   "quote": "IE Business School recently ranked #1 in WSJ's 2009 rankings for Best MBA Programs under 2 years.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1982,
+   "theme": "civic",
+   "event": "Madrid joined the Union of Ibero‑American Capital Cities, forming brotherly relations with Casablanca.",
+   "quote": "Madrid is part of the Union of Ibero-American Capital Cities establishing brotherly relations with the following cities through the issuing of a collective statement in October 1982:\n\nCasablanca, Morocco",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2015,
+   "theme": "environment",
+   "event": "Manzanares river course renaturalised across the city",
+   "quote": "The mandate of left‑wing Mayor Manuela Carmena (2015–2019) delivered the renaturalization of the course of the Manzanares across the city.",
+   "stage": "verification",
+   "why": "Quote gives mayor term 2015‑2019 but does not state the renaturalisation occurred specifically in 2015."
+  },
+  {
+   "year": 2015,
+   "theme": "culture",
+   "event": "CD Leganés earned historic promotion to La Liga for the first time.",
+   "quote": "In the 2015–16 season, for the first time in their history, Leganés earned promotion to La Liga.",
+   "stage": "verification",
+   "why": "Source gives season 2015‑16, not exact 2015 year"
+  },
+  {
+   "year": 2021,
+   "theme": "culture",
+   "event": "Estudiantes became one of only three teams never relegated from Spain's top division.",
+   "quote": "Until 2021, Estudiantes was one of only three teams that have never been relegated from Spain's top division.",
+   "stage": "verification",
+   "why": "Source says \"until 2021\" they were among three, not that they became so in 2021"
+  }
+ ]
+}

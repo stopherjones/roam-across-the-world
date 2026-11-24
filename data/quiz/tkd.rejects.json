@@ -1,0 +1,22 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1430,
+  "completionTokens": 1496,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2011,
+   "theme": "environment",
+   "event": "Overflowing rivers from heavy rainfall left more than 1,000 people homeless again.",
+   "quote": "In 2009 and 2011, more than 1,000 people were rendered homeless after heavy rainfall caused the rivers to overflow their banks to the neighbouring communities.",
+   "source": "https://en.wikipedia.org/wiki/Sekondi-Takoradi",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

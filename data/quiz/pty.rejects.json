@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3180,
+  "completionTokens": 2654,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1905,
+   "theme": "environment",
+   "event": "Yellow fever was eradicated and malaria rates fell dramatically in the area.",
+   "quote": "This led to yellow fever being eradicated by November 1905, as well malaria rates falling dramatically.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1673,
+   "theme": "civic",
+   "event": "The city was formally reestablished and rebuilt on a new location.",
+   "quote": "The city was formally reestablished two years later on 21 January 1673, on a peninsula 8 km (5 miles) from the original settlement.",
+   "stage": "verification",
+   "why": "The quote states the city was rebuilt in 1673 (two years later), but the claim specifically incorporates the year 1673 as the reconstruction year, which matches the quote, though mathematically 'two years later' from 1671 is 1673. Wait, let's look closer: the quote says '21 January 1673', so it is supported."
+  }
+ ]
+}

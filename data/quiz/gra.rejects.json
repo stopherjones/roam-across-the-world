@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5411,
+  "completionTokens": 3633,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1350,
+   "theme": "culture",
+   "event": "Ibn Battuta visited the Emirate of Granada and called it Andalusia's metropolis.",
+   "quote": "Ibn Battuta, a famous traveller and historian, visited the Emirate of Granada in 1350.",
+   "stage": "verification",
+   "why": "The source states Ibn Battuta visited Granada in 1350, but does not mention the phrase 'metropolis'."
+  },
+  {
+   "year": 1810,
+   "theme": "power_conflict",
+   "event": "Napoleon's army occupied Granada during the course of the Peninsular War.",
+   "quote": "Between 1810 and 1812 Granada was occupied by Napoleon's army during the Peninsular War.",
+   "stage": "verification",
+   "why": "The source states occupation occurred between 1810 and 1812, not specifically just in the exact year 1810."
+  }
+ ]
+}

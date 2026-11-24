@@ -1,0 +1,109 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 8652,
+  "completionTokens": 8357,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1670,
+   "theme": "power_conflict",
+   "event": "Dutch slave ships from Rotterdam participated in triangular trade.",
+   "quote": "From the 17th century until 1814, when the United Netherlands abolished the Netherlands' involvement in the slave trade at the request of the British government, Dutch slave ships from Rotterdam sailed to Africa and the Americas as part of the triangular trade.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1915,
+   "theme": "civic",
+   "event": "Opening of the first municipal library (1604) later evolved to Bibliotheek Rotterdam.",
+   "quote": "The first municipal library of Rotterdam was founded in 1604. The current Bibliotheek Rotterdam (public library) was established in 1869 and is currently the largest cultural organization in Rotterdam, with fifteen branches across the city.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1929,
+   "theme": "culture",
+   "event": "Van Nelle Factory built, modern factory design monument.",
+   "quote": "Notable are the Van Nelle fabriek (1929) a monument of modern factory design by Brinkman and Van der Vlugt.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1940,
+   "theme": "power_conflict",
+   "event": "German invasion and bombing of Rotterdam.",
+   "quote": "During World War II, the German army invaded the Netherlands on 10 May 1940. The Dutch army was forced to capitulate on 15 May 1940, following the bombing of Rotterdam on 14 May and the threat of bombing other Dutch cities.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2009,
+   "theme": "culture",
+   "event": "Tallest office tower surpassed Delftse Poort.",
+   "quote": "It was built in 1960, initially reaching a height of 101 m (331 ft); in 1970, the Euromast was extended by 85 m (279 ft). A Guardian journalist wrote in 2013 that \"All this is the consequence of the city suffering a bombardment of two things: bombs and architects.\"",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "Rotterdam population recorded at 655,468 with 180 nationalities.",
+   "quote": "In 2022, Rotterdam had a population of 655,468 and is home to over 180 different nationalities.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1907,
+   "theme": "culture",
+   "event": "Birth of boxer Bep van Klaveren, later 1928 Olympic gold medalist.",
+   "quote": "Rotterdam has a long boxing tradition starting with Bep van Klaveren (1907–1992), aka 'The Dutch Windmill', Gold medal winner of the 1928 Amsterdam Olympics",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1931,
+   "theme": "culture",
+   "event": "Marie Braun secures three European titles in Paris.",
+   "quote": "and 3 European titles three years later in Paris.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2001,
+   "theme": "culture",
+   "event": "Inge de Bruijn wins triple Olympic gold medals in Sydney.",
+   "quote": "In later years, Inge de Bruijn became a Rotterdam sports icon as a triple Olympic gold medal winner in 2000",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2010,
+   "theme": "culture",
+   "event": "Tour de France includes Rotterdam as a stage location.",
+   "quote": "The Amaury Sport Organisation (ASO), the organizer of the Tour de France, said ... it provided a location well-positioned ... for the 2010 event.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1350,
+   "theme": "commerce_industry",
+   "event": "Completion of the Rotterdamse Schie shipping canal.",
+   "quote": "Around the year 1350, a shipping canal (the Rotterdamse Schie) was completed, which provided Rotterdam access to the larger towns in the north, allowing it to become a local trans‑shipment centre between the Netherlands, England and Germany, and to urbanize.",
+   "stage": "verification",
+   "why": "Quote says \"around the year 1350\", not a precise 1350"
+  },
+  {
+   "year": 1970,
+   "theme": "culture",
+   "event": "Royal Nedlloyd headquarters moved to Willemswerf building.",
+   "quote": "From the Rotterdam Chamber of the VOC, the world's first multinational, established in 1602, to the merchant shipping leader Royal Nedlloyd, established in 1970, with its corporate headquarters located in the landmark building the 'Willemswerf' in 1988.",
+   "stage": "verification",
+   "why": "Source says headquarters moved in 1988, not 1970"
+  }
+ ]
+}

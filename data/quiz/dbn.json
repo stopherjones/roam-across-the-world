@@ -1,0 +1,124 @@
+{
+ "id": "dbn",
+ "town": "Durban",
+ "source": "https://en.wikipedia.org/wiki/Durban",
+ "pool": [
+  {
+   "year": 1497,
+   "text": "Portuguese explorer Vasco da Gama saw the coast and named it Natal.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "culture"
+  },
+  {
+   "year": 1824,
+   "text": "English traders established a trading post at Port Natal under Francis and Henry.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1835,
+   "text": "The settlement was named after the governor of Cape Colony, Sir Benjamin D'Urban.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 1854,
+   "text": "The Durban settlement officially became a designated borough.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 1860,
+   "text": "Indentured labourers from British India began arriving in Durban.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "culture"
+  },
+  {
+   "year": 1910,
+   "text": "Natal colony became a province of the Union of South Africa.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1935,
+   "text": "Durban was granted official city status.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The African Art Centre was founded to support artists and crafters.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "The city became part of the Durban UniCity as part of transitional arrangements.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The city transitioned to the eThekwini Metropolitan Municipality governance system.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Durban hosted matches for the FIFA World Cup event.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "James Nxumalo was elected as the new mayor after local elections.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Zandile Gumede was elected as the new mayor of the municipality.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "The African Art Centre relocated to a new home in Station Drive.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "A brand new R200 million cruise terminal began its operation.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "Mxolisi Kaunda was sworn in as the new mayor of Durban.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The eThekwini Metropolitan Municipality population reached 4.2 million.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "A casting call was held for a new theatrical musical production.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "culture"
+  },
+  {
+   "year": 2026,
+   "text": "Domestic trips reached an estimated 1.8 million between January and May.",
+   "url": "https://en.wikipedia.org/wiki/Durban",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,30 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4316,
+  "completionTokens": 3354,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2022,
+   "theme": "commerce_industry",
+   "event": "The maritime city recorded a GRDP of KRW 104 trillion.",
+   "quote": "In 2022, the maritime city recorded a GRDP of KRW 104 trillion with a per capita GRDP of KRW 39.6 million.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1512,
+   "theme": "civic",
+   "event": "The waegwan located in Busan was reopened.",
+   "quote": "The waegwan was closed in 1510, but reopened in 1512.",
+   "source": "https://en.wikipedia.org/wiki/Busan",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

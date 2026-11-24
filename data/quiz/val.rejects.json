@@ -1,0 +1,103 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 5,
+  "promptTokens": 7182,
+  "completionTokens": 6286,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2024,
+   "theme": "environment",
+   "event": "Valencia named European Green Capital 2024",
+   "quote": "The city was selected as the World Design Capital 2022 and the European Green Capital 2024.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2009,
+   "theme": "culture",
+   "event": "Water Tribunal of the plain of Valencia recognized as intangible cultural heritage",
+   "quote": "the Water Tribunal of the plain of Valencia ... was declared an intangible cultural heritage in 2009",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2016,
+   "theme": "culture",
+   "event": "UNESCO inscribes Falles as intangible cultural heritage of humanity",
+   "quote": "Falles ... an intangible cultural heritage by UNESCO on 30 November 2016",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "Valencia named World Design Capital for 2022",
+   "quote": "The city was selected as the World Design Capital 2022",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "environment",
+   "event": "Valencia awarded European Green Capital for 2024",
+   "quote": "and the European Green Capital 2024",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2004,
+   "theme": "culture",
+   "event": "Valencia CF clinches league title and UEFA Cup victory",
+   "quote": "including in 2004 (the year it also won the UEFA Cup)",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2012,
+   "theme": "culture",
+   "event": "Fernando Alonso wins 2012 European Grand Prix for Ferrari",
+   "quote": "The final race in 2012 European Grand Prix saw home driver Fernando Alonso win for Ferrari",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1914,
+   "theme": "commerce_industry",
+   "event": "World War I collapsed Valencia's citrus export market",
+   "quote": "World War I (1914–1918) greatly affected the Valencian economy, causing the collapse of its citrus exports.",
+   "stage": "verification",
+   "why": "Source links collapse to WWI period, not specifically 1914"
+  },
+  {
+   "year": 2005,
+   "theme": "culture",
+   "event": "Firebats become national champions and join European playoffs",
+   "quote": "The Firebats have been national champions four times and have represented Valencia and Spain in the European playoffs since 2005",
+   "stage": "verification",
+   "why": "Quote mentions national titles and European playoff participation since 2005 but does not state the championship occurred in 2005"
+  },
+  {
+   "year": 2001,
+   "theme": "culture",
+   "event": "Valencia CF repeats as UEFA Champions League runner-up",
+   "quote": "and 2001",
+   "source": "https://en.wikipedia.org/wiki/Valencia",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 2008,
+   "theme": "culture",
+   "event": "European Formula One Grand Prix runs on Valencia Street Circuit",
+   "quote": "Once a year between 2008 and 2012 the European Formula One Grand Prix took place in the Valencia Street Circuit",
+   "source": "https://en.wikipedia.org/wiki/Valencia",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

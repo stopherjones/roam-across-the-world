@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 4368,
+  "completionTokens": 5077,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1995,
+   "theme": "commerce_industry",
+   "event": "Last tram service discontinued around 1995.",
+   "quote": "The last tram service was discontinued around 1995, followed by formal closure in November 1997.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1999,
+   "theme": "power_conflict",
+   "event": "Paraguayan March protests resulted in 8 deaths and president's resignation.",
+   "quote": "Likewise, Asunción has been the meeting point of the largest demonstrations in Paraguay, the most recent being the Paraguayan March of 1999 (in which 8 protesters were shot dead, causing the resignation of then-president Cubas).",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2013,
+   "theme": "commerce_industry",
+   "event": "Number of hotel beds grew 34% between 2013 and 2017.",
+   "quote": "This brought with it greater capacity and quality of accommodation and, according to Senatur data, between 2013 and 2017 the number of beds grew 34%.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "Census recorded 462,241 inhabitants in Asunción city.",
+   "quote": "According to the 2022 Paraguayan Census, Asunción has 462,241 inhabitants, while its metropolitan area (known as Greater Asunción) exceeds 2.3 million inhabitants, making it the most densely populated area in Paraguay, and also the most productive as it concentrates 70% of the National GDP.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1813,
+   "theme": "civic",
+   "event": "Roads built throughout Asunción and streets named under Francia.",
+   "quote": "Under the rule of Gaspar Rodríguez de Francia (in office 1813–1840) roads were built throughout the city and the streets were named.",
+   "stage": "verification",
+   "why": "Quote links road building to Francia’s rule (1813‑1840) but does not specify the year 1813."
+  },
+  {
+   "year": 2010,
+   "theme": "environment",
+   "event": "Asunción declared \"Green Capital of Ibero-America\" during Samaniego's term.",
+   "quote": "Asunción was declared the \"Green Capital of Ibero-America\" during the period of former intendant Arnaldo Samaniego (2010–2015) in Lisbon, at the meeting of the Union of Ibero-American Capital Cities (UCCI).",
+   "stage": "verification",
+   "why": "Source gives a range (2010‑2015) not the exact year 2010"
+  }
+ ]
+}

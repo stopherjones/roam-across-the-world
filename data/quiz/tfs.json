@@ -1,0 +1,130 @@
+{
+ "id": "tfs",
+ "town": "Santa Cruz de Tenerife",
+ "source": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+ "pool": [
+  {
+   "year": 1494,
+   "text": "Castilian troops disembarked and founded a military camp in Santa Cruz de Tenerife.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1656,
+   "text": "An English squadron under Admiral Robert Blake defeated a Spanish silver fleet in Santa Cruz.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1706,
+   "text": "A British squadron under John Jennings mounted an unsuccessful attack on the island.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1797,
+   "text": "Rear-Admiral Horatio Nelson launched an unsuccessful attempt to storm the harbour in Santa Cruz.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1803,
+   "text": "King Charles IV granted a Royal Warrant symbolizing victories over naval attacks in Santa Cruz.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1893,
+   "text": "An outbreak of cholera-morbid spread throughout Santa Cruz and neighboring municipalities.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1926,
+   "text": "The Circulo de Bellas Artes cultural center was founded in Santa Cruz de Tenerife.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "The Parque García Sanabria public urban park was inaugurated in Santa Cruz de Tenerife.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "A Royal decree ordered that the Canary Islands capital status be shared with Las Palmas.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1930,
+   "text": "The historical newspaper En marcha was published in Santa Cruz de Tenerife.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "The republican mayor José Carlos Schwartz Hernández was arrested and murdered in Santa Cruz.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1997,
+   "text": "A former container tank at the refinery was transformed into Espacio Cultural El Tanque.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "A torrential flood took place in Santa Cruz de Tenerife.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "The city revitalization plan named Santa Cruz + Viva was launched in the city.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The financial crisis paralyzed the development of Santa Cruz de Tenerife.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "The TEA – Tenerife Espacio de las Artes building opened in Santa Cruz.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The Guardian included Santa Cruz de Tenerife in the list of best places to live.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "A large part of the Macizo de Anaga was declared a Biosphere Reserve by UNESCO.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "environment"
+  },
+  {
+   "year": 2016,
+   "text": "The opening part of the movie Jason Bourne was filmed in Santa Cruz de Tenerife.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "An international Masonic congress was held in Santa Cruz de Tenerife.",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

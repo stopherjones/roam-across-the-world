@@ -1,0 +1,130 @@
+{
+ "id": "ply",
+ "town": "Plymouth",
+ "source": "https://en.wikipedia.org/wiki/Plymouth",
+ "pool": [
+  {
+   "year": 1086,
+   "text": "The Domesday Book contained the first record of the settlement at Plymouth.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1211,
+   "text": "The name Plym Mouth was first mentioned in a Pipe Roll.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "culture"
+  },
+  {
+   "year": 1254,
+   "text": "Plympton Priory secured a royal charter granting the right to hold a weekly market.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1340,
+   "text": "A French attack burned a manor house and took some prisoners during the war.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1403,
+   "text": "Breton raiders burned the town.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1439,
+   "text": "Sutton was incorporated as a borough and formally renamed Plymouth.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "The borough was granted city status.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "Burrator Reservoir, located north of the city, was expanded.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "environment"
+  },
+  {
+   "year": 1935,
+   "text": "King George V granted the city the dignity of Lord Mayor.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "Charles Church was hit by incendiary bombs during the Blitz.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Sir Patrick Abercrombie's Plan to rebuild the bomb-damaged city was published.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "Michael Foot was elected Labour MP for the constituency of Plymouth Devonport.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "The Pannier Market was completed inside a grade II listed building.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1962,
+   "text": "The modernist high rise of the Civic Centre was constructed.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "Plymouth City Council was formally twinned with Brest, France.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "City boundaries expanded to include Plympton and Plymstock.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The South West Water Authority was formed by the Water Act.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "environment"
+  },
+  {
+   "year": 1976,
+   "text": "Plymouth City Council was formally twinned with Gdynia, Poland.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "The water industry was privatised and Plymouth has been supplied by South West Water.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "The world record for the most simultaneous fireworks was surpassed.",
+   "url": "https://en.wikipedia.org/wiki/Plymouth",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

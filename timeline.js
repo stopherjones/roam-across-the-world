@@ -11,7 +11,42 @@ var TL_MODEL = "openai/gpt-oss-120b";
 // Points are paid out as pounds, one point per pound (see awardTimeline in town.js).
 var TL_STEPS = [20, 10, 5, 2, 1];
 var TL_POINTS = TL_STEPS[0];   // the most a card can be worth
-var TL_CACHE = {};    // events by city, kept for the session so reopening does not call the model again
+var TL_CACHE = {};
+var TL_POOLS = {};   // town id -> pool from data/quiz/<id>.json (null if there is no usable file)
+// The town id for a city name, as the game knows it.
+function tlTownId(city){
+ var ids=Object.keys(N||{});
+ for(var i=0;i<ids.length;i++)if(N[ids[i]].n===city)return ids[i];
+ return null;
+}
+// Loads the cached pool for a town once. A missing or broken file gives null, so the live call is used instead.
+function tlLoadPool(id){
+ if(!id)return Promise.resolve(null);
+ if(TL_POOLS[id]!==undefined)return Promise.resolve(TL_POOLS[id]);
+ return fetch("data/quiz/"+id+".json").then(function(r){if(!r.ok)throw new Error("quiz "+r.status);return r.json()}).then(function(j){
+  var pool=(j&&j.pool||[]).filter(function(e){return Number.isInteger(e.year)&&typeof e.text==="string"&&e.text.trim()});
+  TL_POOLS[id]=pool.length>=10?pool:null;return TL_POOLS[id];
+ }).catch(function(){TL_POOLS[id]=null;return null});
+}
+// Draws the ten cards for a visit from the pool. The same town on the same day gives the same ten.
+// One card per theme first, then the rest, keeping at least five years between cards where the pool allows.
+function tlDraw(pool,city){
+ var seed=mkSeed(),day=mkDayNo(),chosen=[];
+ var pick=function(list,k){return list[Math.min(list.length-1,Math.floor(mkRoll(0,list.length,seed,city,day,"tl",k)))]};
+ var themes=[];pool.forEach(function(e){if(themes.indexOf(e.theme)<0)themes.push(e.theme)});
+ themes.forEach(function(t,k){
+  var cands=pool.filter(function(e){return e.theme===t&&chosen.indexOf(e)<0});
+  if(cands.length&&chosen.length<10)chosen.push(pick(cands,k));
+ });
+ var k=100,guard=0;
+ while(chosen.length<10&&guard++<200){
+  var rest=pool.filter(function(e){return chosen.indexOf(e)<0});
+  if(!rest.length)break;
+  var spaced=rest.filter(function(e){return chosen.every(function(c){return Math.abs(c.year-e.year)>=5})});
+  chosen.push(pick(spaced.length?spaced:rest,k++));
+ }
+ return chosen.slice(0,10).sort(function(a,b){return a.year-b.year}).map(function(e){return{year:e.year,text:e.text,url:e.url||""}});
+}    // events by city, kept for the session so reopening does not call the model again
 
 function tlPrompt(city) {
   return "I'm putting together a historical timeline quiz for the city of " + city + ". Give me 10 events and years covering a varied and interesting range of subjects including power and conflict, civic development, commerce and industry, popular culture. Do not invent events or years to complete the response. Provide your response as a JSON array of 10 objects, with the keys \"year\" (a whole number), \"event_text\" (a short description of around 10 to 15 words) and \"source_url\". Do not include any years, dates, centuries or BC/AD references in event_text: the year goes only in the \"year\" key. Return only the JSON array.";
@@ -217,16 +252,18 @@ function timelineActivity(container, city, onClose, onFinish) {
     startRound();
   }
 
-  if (TL_CACHE[city]) {
-    begin(TL_CACHE[city]);
-  } else {
-    setStatus("Finding events for " + city + "…", true);
-    tlAskModel(city).then(function (text) {
+  var id=tlTownId(city);
+  setStatus("Finding events for " + city + "…", true);
+  tlLoadPool(id).then(function (pool) {
+    if (pool) { begin(tlDraw(pool, city)); return; }     // the cached pool, no live call
+    if (TL_CACHE[city]) { begin(TL_CACHE[city]); return; }
+    // No cached file for this town yet: fall back to the live call (to be removed once every town is covered).
+    return tlAskModel(city).then(function (text) {
       var list = tlParse(text);
       TL_CACHE[city] = list;
       begin(list);
-    }).catch(function (err) {
-      setStatus("Could not load events: " + err.message);
     });
-  }
+  }).catch(function (err) {
+    setStatus("Could not load events: " + err.message);
+  });
 }

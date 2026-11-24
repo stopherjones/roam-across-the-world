@@ -1,0 +1,130 @@
+{
+ "id": "yyz",
+ "town": "Toronto",
+ "source": "https://en.wikipedia.org/wiki/Toronto",
+ "pool": [
+  {
+   "year": 1750,
+   "text": "French traders founded Fort Rouillé at the current Exhibition grounds location.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1793,
+   "text": "The British established the town of York as the capital of Upper Canada.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1812,
+   "text": "The town of York was the site of the Battle of York.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1827,
+   "text": "The University of Toronto was established as the first institution of higher education.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "culture"
+  },
+  {
+   "year": 1834,
+   "text": "York was renamed and incorporated as the City of Toronto.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "civic"
+  },
+  {
+   "year": 1834,
+   "text": "Slavery was banned outright in Upper Canada and throughout the British Empire.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1931,
+   "text": "The Toronto Coach Terminal began serving as the city intercity hub.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1934,
+   "text": "The Toronto Stock Exchange had become the largest in the country.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1954,
+   "text": "The City of Toronto and 12 surrounding municipalities were federated into Metropolitan Toronto.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "Lawrence Seaway gave ships access to the Great Lakes from the Atlantic Ocean.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1967,
+   "text": "The first Caribana took place when the Caribbean community celebrated Canada's Centennial.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "The world's tallest freestanding structure was completed at a height of 553.33 metres.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "The city previously hosted the Summer Paralympics events in this year.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "The Wychwood Park neighbourhood was designated as an Ontario Heritage Conservation district.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "Toronto hosted the Grand Prix of Toronto as part of IndyCar.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "The record year for murders was previously noted with 89 total.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1995,
+   "text": "The Toronto Raptors basketball team entered the NBA and earned playoff spots.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "Voters opposed a municipal merger proposal in referendums held in March.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "Toronto became the centre of Canada's principal outbreak of severe acute respiratory syndrome.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2003,
+   "text": "The Northeast blackout interrupted electricity, public transit, and traffic signals throughout the city.",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

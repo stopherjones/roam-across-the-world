@@ -1,0 +1,130 @@
+{
+ "id": "bel",
+ "town": "Belfast",
+ "source": "https://en.wikipedia.org/wiki/Belfast",
+ "pool": [
+  {
+   "year": 1613,
+   "text": "Sir Arthur Chichester undertook the Plantation of Belfast and surrounding area.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1649,
+   "text": "Newcomers were temporarily expelled by an English Parliamentarian army after being denounced.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1785,
+   "text": "Anglicans favored the older Royal Belfast Academy established in this year.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "civic"
+  },
+  {
+   "year": 1797,
+   "text": "The Belfast Fever Hospital began as the first of successive institutions for a hospital.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "civic"
+  },
+  {
+   "year": 1798,
+   "text": "The Society organised a republican insurrection in hopes of French assistance.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1801,
+   "text": "Anglican establishment disaffection contributed to the union with Great Britain.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1926,
+   "text": "The Orange Order organized an event that became a public holiday.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "culture"
+  },
+  {
+   "year": 1932,
+   "text": "Parliament opening at Stormont was overshadowed by unemployed protests.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "Short & Harland Ltd began the manufacture of aircraft in the docks area.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1938,
+   "text": "Nearly a third of industrial workers were unemployed and malnourished.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1941,
+   "text": "The German Luftwaffe appeared four times over the city.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1969,
+   "text": "The British Army committed to the longest continuous deployment.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1978,
+   "text": "International Workers Day has been recognized as a public holiday since this year.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "The British government sold the nationalised company to the Canadian company Bombardier.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1991,
+   "text": "Belfast hosted its very first gay pride event during this year.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "The port received its first cruise ship, bringing an entirely new phenomenon.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "Unionists lost overall control of Belfast City Council.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Alban Maginness became the first nationalist Lord Mayor of Belfast from the SDLP.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1998,
+   "text": "The Good Friday Belfast Agreement returned a power-sharing assembly.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "Work began to transform former shipyard land into a waterfront development.",
+   "url": "https://en.wikipedia.org/wiki/Belfast",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

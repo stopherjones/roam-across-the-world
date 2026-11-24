@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 2,
+  "promptTokens": 1816,
+  "completionTokens": 1500,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 18,
+   "theme": "culture",
+   "event": "Kingston Cricket Club active as 18th‑century team in Kingston upon Thames",
+   "quote": "Kingston Cricket Club, an 18th-century team in Kingston upon Thames, England",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 18,
+   "theme": "civic",
+   "event": "Kingston Pease owns property as prominent free‑black Newport resident",
+   "quote": "Kingston Pease, an 18th-century African-American property owner and prominent member of the free black community of Newport, Rhode Island",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 1981,
+   "theme": "culture",
+   "event": "Kofi Kingston begins wrestling career under ring name Kofi Kingston",
+   "quote": "Kofi Kingston and Kofi Nahaje Kingston, ring names of American professional wrestler Kofi Nahaje Sarkodie-Mensah (born 1981)",
+   "stage": "verification",
+   "why": "Quote only gives birth year, not career start"
+  }
+ ]
+}

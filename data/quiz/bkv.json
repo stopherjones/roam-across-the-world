@@ -1,0 +1,106 @@
+{
+ "id": "bkv",
+ "town": "Bukavu",
+ "source": "https://en.wikipedia.org/wiki/Bukavu",
+ "pool": [
+  {
+   "year": 1901,
+   "text": "Bukavu was established by the Congo Free State in the region.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1908,
+   "text": "The Congo Free State officially became the Belgian Congo.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1921,
+   "text": "The Swedish Pentecostal Mission founded its organization in Bukavu.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "The city was named Costermansville or Costermansstad after Paul Costermans.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "The name of Costermansville was changed back to Bukavu.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "Rwandan government forces attacked Hutu camps at the start of the war.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1998,
+   "text": "Bukavu and Sud-Kivu saw sporadic fighting involving rebels and government forces.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2004,
+   "text": "Congo Handicap was created in Bukavu to support people with disabilities.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Protestors demonstrated against the United Nations after Bukavu fell to forces.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "Fondation Chirezi launched a trauma healing and care project in Bukavu.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The population of the South Kivu Province capital was estimated at 806,940.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "At least one policeman was killed during the South Kivu earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "environment"
+  },
+  {
+   "year": 2021,
+   "text": "The urban population of Bukavu reached an estimated 1,133,000 residents.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The city of Bukavu suffered damage from severe flood events.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "environment"
+  },
+  {
+   "year": 2025,
+   "text": "M23 rebels entered the city as part of a military campaign.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2025,
+   "text": "An explosion at a rally killed 13 people and wounded several.",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

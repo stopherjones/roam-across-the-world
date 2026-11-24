@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4729,
+  "completionTokens": 4122,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2000,
+   "theme": "food_daily",
+   "event": "The maternal mortality rate was recorded at a specific level per births.",
+   "quote": "In 2000, the maternal mortality rate in the city was 110 of every 100,000 births of which 62.3 percent were women ages 20 to 35.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2001,
+   "theme": "food_daily",
+   "event": "The infant mortality rate was recorded at twenty-nine per thousand live births.",
+   "quote": "In 2001, the infant mortality rate was 29 per 1000 live births (Both maternal and infant mortality rates are based on local and out-of-district residents who arrive to receive medical attention).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1578,
+   "theme": "power_conflict",
+   "event": "Spaniards claimed the area, establishing a new mining town on a native settlement.",
+   "quote": "Claimed on 29 September 1578 by the Spaniards, Tegucigalpa became the Honduran capital on 30 October 1880, under President Marco Aurelio Soto, when he moved the seat of government from Comayagua, which had been the Honduran capital since its independence in 1841.",
+   "stage": "verification",
+   "why": "The quote mentions the claim date of September 29, 1578, but does not explicitly mention establishing a new mining town on a native settlement."
+  }
+ ]
+}

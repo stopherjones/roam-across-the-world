@@ -1,0 +1,124 @@
+{
+ "id": "bsa",
+ "town": "Brasilia",
+ "source": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+ "pool": [
+  {
+   "year": 1956,
+   "text": "Juscelino Kubitschek began planning and construction of the new capital after taking office.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "Lúcio Costa won the urban‑planning contest for Brasília among 5,550 competitors.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The presidential palace, designed by Oscar Niemeyer, was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Brasília founded as Brazil's new national capital by President Juscelino Kubitschek.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "The annual Brasília Festival of Brazilian Cinema began, becoming a traditional film festival.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "Brasília inscribed as a UNESCO World Heritage Site for its modernist architecture.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "IBSA Dialogue Forum signed the Brasília Declaration on UN Security Council representation.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "Chan received the Gustav Lindenthal Medal for a bridge project praised for environmental harmony.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "A second runway was completed at Brasília International Airport following the master plan.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "Brasília Airport handled over eleven million passengers during the year.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Brasília Declaration on the Protection of Refugees and Stateless Persons adopted.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "A new bus station opened in Brasília in July.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "InfraAmerica consortium won the concession for Brasília International Airport.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Child Labour Declaration issued at the Third Global Conference hosted in Brasília.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Brasília served as a main host city for the FIFA World Cup matches.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Forecast projected the city’s public‑security budget to reach 6.4 billion reais.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "UNESCO named Brasília a City of Design and added it to the Creative Cities Network.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "Judges Declaration on Water Justice adopted during the 8th World Water Forum in Brasília.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "environment"
+  },
+  {
+   "year": 2022,
+   "text": "The 15th Conference of Defense Ministers of the Americas issued a declaration condemning Russia’s invasion.",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

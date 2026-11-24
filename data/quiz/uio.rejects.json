@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 4268,
+  "completionTokens": 4062,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2011,
+   "theme": "civic",
+   "event": "Quito's population recorded at 2,239,191 inhabitants",
+   "quote": "In 2011, the city's population was 2,239,191 people.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2013,
+   "theme": "civic",
+   "event": "Old Mariscal Sucre Airport closed and new airport opened",
+   "quote": "The old airport was closed to air traffic on 19 February 2013. The new Mariscal Sucre International Airport, a 45‑minute drive from central Quito, opened to air traffic on 20 February 2013.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "Homicides rose 32% from January to May compared with 2024",
+   "quote": "In 2025, Quito saw a 32% increase in homicides, in the months of January through May, compared to 2024.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

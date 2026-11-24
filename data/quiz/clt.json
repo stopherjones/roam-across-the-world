@@ -1,0 +1,76 @@
+{
+ "id": "clt",
+ "town": "Charlotte",
+ "source": "https://en.wikipedia.org/wiki/Charlotte",
+ "pool": [
+  {
+   "year": 1969,
+   "text": "Charlotte was released as a song by Jimmy McGriff.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "Charlotte was released as a French crime thriller film.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Wakakusa no Charlotte debuted as an anime series.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "Charlotte was released as a Dutch film directed by Frans Weisz.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Charlotte was released as a song by Wendy Wu.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "The Charlotte Sting operated as a women's professional basketball team.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Charlotte was released as an album by Charlotte Nilsson.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Charlotte was released as a song by the band Kittie.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Charlotte was released as a song by Air Traffic.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Charlotte was released as a song by Booka Shade.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Charlotte was released as an animated drama film.",
+   "url": "https://en.wikipedia.org/wiki/Charlotte",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

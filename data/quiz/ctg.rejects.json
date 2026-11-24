@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 2174,
+  "completionTokens": 2388,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2000,
+   "theme": "culture",
+   "event": "Board game released themed on 1672 pirate jailbreak at Cartagena fortress",
+   "quote": "Cartagena (board game), a German-style board game released in 2000, that takes as its theme the legendary 1672 pirate-led jailbreak from the dreaded fortress of Cartagena",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 461,
+   "theme": "power_conflict",
+   "event": "Naval battle off Cartagena, Spain took place",
+   "quote": "Battle of Cartagena (461), a naval battle off what is now Cartagena, Spain",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 209,
+   "theme": "power_conflict",
+   "event": "Battle of Cartagena fought in ancient Spain",
+   "quote": "Battle of Cartagena (209 BC), a battle in what is now Cartagena, Spain",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 1420,
+   "theme": "culture",
+   "event": "Nun and author Teresa de Cartagena was born",
+   "quote": "Teresa de Cartagena (born c. 1420), Spanish nun and author",
+   "stage": "verification",
+   "why": "Quote says \"born c. 1420\" (approximate), not a precise year."
+  }
+ ]
+}

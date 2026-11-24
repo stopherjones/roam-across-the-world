@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4218,
+  "completionTokens": 4080,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2003,
+   "theme": "culture",
+   "event": "The Auditorium of Tenerife was constructed and inaugurated in Santa Cruz.",
+   "quote": "Auditorio de Tenerife (Auditorium of Tenerife): Designed by Santiago Calatrava, the Auditorium of Tenerife was constructed in 2003. It was inaugurated on 26 September 2003 with the presence of Felipe de Borbón, Prince of Asturias, and was also visited by former U.S.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2006,
+   "theme": "commerce_industry",
+   "event": "The twin Torres de Santa Cruz were finished as the highest skyscrapers.",
+   "quote": "Towers of Santa Cruz (Towers of Santa Cruz): Twin towers finished in 2006 are the highest skyscrapers of the city and the Canary Islands, was the tallest residential building in Spain until 2010.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "Exhibitions regarding Freemasonry and the Añaza Lodge were held in Santa Cruz.",
+   "quote": "More recently those of the architect Carlos Pallés, curator of the exhibitions \"Rostros de La Logia Añaza\" and \"Masonería y Sociedad\" held in 2014.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

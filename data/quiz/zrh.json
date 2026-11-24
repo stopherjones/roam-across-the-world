@@ -1,0 +1,130 @@
+{
+ "id": "zrh",
+ "town": "Zurich",
+ "source": "https://en.wikipedia.org/wiki/Zurich",
+ "pool": [
+  {
+   "year": 1045,
+   "text": "King Henry III granted the convent market rights and coin minting authority.",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1218,
+   "text": "Zurich gained Imperial immediacy, becoming an Imperial free city.",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1231,
+   "text": "Predigerkirche was first built as a Romanesque church of the Dominican Predigerkloster",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1234,
+   "text": "Emperor Frederick II promoted the abbess of the Fraumünster to duchess.",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1336,
+   "text": "Rudolf Brun established guild laws and became the first independent mayor.",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "civic"
+  },
+  {
+   "year": 1349,
+   "text": "Local Jews were persecuted and burned during the rise of the Black Death.",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1928,
+   "text": "The sporting event started and witnessed new world and national records",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "Eight additional districts in the north and west were incorporated.",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "Zurich co-hosted the Men's Ice Hockey World Championships",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "Augusto Giacometti created the window in the north transept",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "Zurich co-hosted the Men's Ice Hockey World Championships",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1954,
+   "text": "Zurich was one of six venues of the FIFA World Cup",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Marc Chagall created the five-part cycle in the choir",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "Marc Chagall created the rosette in the southern transept",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "The first edition of a popular event was held with about participants.",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Zurich hosted the Men's Ice Hockey World Championships",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "The email newsletter Ron Orp's Mail was founded in Zurich",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The canton recognized Jewish religious communities as legal entities.",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The exchange turnover generated at the SWX reached a massive total",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Workers at the centre staged a solidarity movement with Syndicom union",
+   "url": "https://en.wikipedia.org/wiki/Zurich",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

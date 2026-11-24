@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 11489,
+  "completionTokens": 7246,
+  "chunksRead": 2,
+  "chunksAvailable": 3
+ },
+ "rejects": [
+  {
+   "year": 315,
+   "theme": "civic",
+   "event": "The city was founded by the King Cassander of Macedon.",
+   "quote": "The city was founded around 315 BC by the King Cassander of Macedon, on or near the site of the ancient town of Therma and 26 other local villages.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "The historical centre had a recorded population of 319,045 inhabitants.",
+   "quote": "The municipality of Thessaloniki, the historical centre, had a population of 319,045 in 2021, while the Thessaloniki metropolitan area had 1,006,112 inhabitants and the greater region had 1,092,919.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2004,
+   "theme": "culture",
+   "event": "The city hosted a number of football events as part of the Olympic Games.",
+   "quote": "In 2004, the city hosted a number of the football events as part of the 2004 Summer Olympics.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

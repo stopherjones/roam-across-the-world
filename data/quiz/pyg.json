@@ -1,0 +1,130 @@
+{
+ "id": "pyg",
+ "town": "Pyongyang",
+ "source": "https://en.wikipedia.org/wiki/Pyongyang",
+ "pool": [
+  {
+   "year": 1890,
+   "text": "The city of Pyongyang had a total population of forty thousand inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "civic"
+  },
+  {
+   "year": 1919,
+   "text": "Japan faced the March First Movement during its colonial rule.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1931,
+   "text": "Anti-Chinese riots occurred in July due to the Wanpaoshan Incident.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "The population of Pyongyang reached a total of two hundred thirty-five thousand.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "The Soviet 25th Army entered the city as it became a temporary capital.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "Kim Il Sung University, the oldest university in North Korea, was established.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "Pyongyang became the de facto capital of North Korea.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "South Korean forces briefly occupied the city during the Korean War.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "The city faced the largest aerial raid of the entire war.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "The master plan designed by Kim Jung-hee was officially adopted.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "Archaeologists excavated evidence of prehistoric dwellings in a large ancient village.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "The new constitution officially declared Pyongyang as the official capital.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "A structure containing twenty-five thousand five hundred granite blocks was completed.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The funeral of Kim Il Sung took place in the city.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2001,
+   "text": "North Korean authorities initiated a long-term modernisation programme.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "A residential project with 2,784 units was inaugurated on Changjon Street.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "A second phase of the power expansion project was launched.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "Units were built in the new Ryomyong Street complex for a birthday.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Apartment blocks in specific districts were demolished for new buildings.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "environment"
+  },
+  {
+   "year": 2020,
+   "text": "Construction started on a new medical facility named Pyongyang General Hospital.",
+   "url": "https://en.wikipedia.org/wiki/Pyongyang",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "mao",
+ "town": "Manaus",
+ "source": "https://en.wikipedia.org/wiki/Manaus",
+ "pool": [
+  {
+   "year": 1669,
+   "text": "Founded as the Fort of São José do Rio Negro in Manaus.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "civic"
+  },
+  {
+   "year": 1832,
+   "text": "Elevated to town status and named Manaus.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "civic"
+  },
+  {
+   "year": 1856,
+   "text": "Governor Herculano Ferreira Pena restored the name \"Manaus\".",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "civic"
+  },
+  {
+   "year": 1882,
+   "text": "Mercado Adolpho Lisboa opened, becoming the oldest marketplace in Manaus.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1896,
+   "text": "Amazonas Opera House inaugurated with 700 seats and European materials.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "culture"
+  },
+  {
+   "year": 1909,
+   "text": "Federal University of Amazonas founded, Brazil's oldest federal university.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "civic"
+  },
+  {
+   "year": 1932,
+   "text": "Sul América Esporte Clube founded, later winning two state titles.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "Adolfo Ducke Forest Reserve established, covering 100 square kilometres.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "environment"
+  },
+  {
+   "year": 1970,
+   "text": "Vivaldão stadium inaugurated, later replaced by Arena Amazônia.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "Area created as ecological interest zone within Manaus.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "environment"
+  },
+  {
+   "year": 1995,
+   "text": "Rio Negro State Park South Section established, protecting 86,601 hectares.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "environment"
+  },
+  {
+   "year": 1995,
+   "text": "Rio Negro Left Bank Environmental Protection Area created, covering 75% of the bank.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "environment"
+  },
+  {
+   "year": 1997,
+   "text": "Opera house reopened for live performances after a 90‑year gap.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Third cargo terminal at Manaus airport opened on December 14.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "Bilhares Park established in the Planalto neighborhood.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "Tupé Sustainable Development Reserve created 25 km west of the city.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "TAM Airlines inaugurated its own cargo terminal near Manaus airport.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "Massive prison riot began in Manaus and spread to other cities.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2021,
+   "text": "COVID‑19 Lineage B.1.1.248 variant outbreak started in Manaus.",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2024,
+   "text": "Estimated population reaches 2,279,686 across 11,401 km².",
+   "url": "https://en.wikipedia.org/wiki/Manaus",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

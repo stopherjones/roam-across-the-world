@@ -1,0 +1,124 @@
+{
+ "id": "fln",
+ "town": "Florianopolis",
+ "source": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+ "pool": [
+  {
+   "year": 1514,
+   "text": "Portuguese explorers landed and named the area Ilha dos Patos.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "environment"
+  },
+  {
+   "year": 1526,
+   "text": "The island was renamed to Ilha de Santa Catarina.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "environment"
+  },
+  {
+   "year": 1673,
+   "text": "Official settlement began with the arrival of Francisco Dias Velho's company.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "civic"
+  },
+  {
+   "year": 1678,
+   "text": "Construction of a chapel consecrated to Nossa Senhora do Desterro took place.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "culture"
+  },
+  {
+   "year": 1714,
+   "text": "The Portuguese Crown elevated Santa Catarina Island to the category of village.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "civic"
+  },
+  {
+   "year": 1726,
+   "text": "The settlement was promoted to the category of town.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "civic"
+  },
+  {
+   "year": 1739,
+   "text": "The Capitania da Ilha de Santa Catarina was created with Desterro as capital.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1823,
+   "text": "Desterro became the Capital of Santa Catarina Province during the monarchy.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "civic"
+  },
+  {
+   "year": 1893,
+   "text": "The state capital was renamed from Desterro to Florianópolis.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1898,
+   "text": "The Mercado Público de Florianópolis started operating as a public market.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1926,
+   "text": "The Hercílio Luz Bridge was built as a symbol of the island.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "The Carijós Ecological Station was established by decree in the municipality.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "environment"
+  },
+  {
+   "year": 1990,
+   "text": "The Marinha do Arvoredo Biological Reserve conservation unit was established.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "Newsweek placed the location in its ten most dynamic cities list.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The Rio Vermelho State Park was created in the northeast of the island.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "environment"
+  },
+  {
+   "year": 2009,
+   "text": "The New York Times reported the city as the party destination.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "The gross domestic product for the city reached R$323,264,000,000.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "The per capita income for the city reached R$45,602.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "The city was ranked as the safest capital to live in Brazil.",
+   "url": "https://en.wikipedia.org/wiki/Florian%C3%B3polis",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

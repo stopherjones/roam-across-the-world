@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3735,
+  "completionTokens": 3534,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1810,
+   "theme": "civic",
+   "event": "The settlement grew into a city after Kamehameha I chose it.",
+   "quote": "The settlement grew from a handful of homes to a city in the early 19th century after Kamehameha I chose it as a replacement for his residence at Waikiki in 1810.",
+   "stage": "verification",
+   "why": "The claim states the city grew in 1810, but the quote says it grew in the early 19th century and the residence was chosen in 1810."
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "vli",
+ "town": "Port Vila",
+ "source": "https://en.wikipedia.org/wiki/Port_Vila",
+ "pool": [
+  {
+   "year": 1774,
+   "text": "James Cook charted Efate Island and gave it the name of Sandwich Island.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "environment"
+  },
+  {
+   "year": 1889,
+   "text": "Franceville declared independence as a municipality which lasted until the following year.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1906,
+   "text": "An Anglo-French Condominium was formally established to jointly administer the territory.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1987,
+   "text": "The Union of Moderate Parties won the majority of votes in the city.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "Cyclone Uma struck the city and caused severe damage across the area.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "environment"
+  },
+  {
+   "year": 1991,
+   "text": "The National United Party emerged as a third political party in Port Vila.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "Vanua'aku regained the plurality of votes and won a majority of seats.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "The destination welcomed over eighty thousand visitors during the course of the year.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "UNESCO hosted the second World Heritage Global Strategy Meeting for the Pacific Islands Region.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Tafea FC reached the final of the OFC Men's Champions League tournament.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "A powerful earthquake struck the capital and surrounding areas, causing minor damage.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "An archaeological expedition discovered twenty-five tombs containing Lapita culture skeletons.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Union of Moderate Parties won no seats after recording a very low vote share.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "Amicale FC reached the final of the OFC Men's Champions League competition.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Amicale FC reached the final match of the OFC Men's Champions League.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Cyclone Pam passed near the city, causing massive damage as a category five storm.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "environment"
+  },
+  {
+   "year": 2018,
+   "text": "Tafea FC claimed its first league championship title in a decade.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "The Church of Jesus Christ of Latter-Day Saints announced plans to build a city temple.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "culture"
+  },
+  {
+   "year": 2022,
+   "text": "Municipal council elections were held for the local government administration.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "The VFF Women's Champions League began operation as the women's tournament equivalent.",
+   "url": "https://en.wikipedia.org/wiki/Port_Vila",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,112 @@
+{
+ "id": "fun",
+ "town": "Funafuti",
+ "source": "https://en.wikipedia.org/wiki/Funafuti",
+ "pool": [
+  {
+   "year": 1819,
+   "text": "American sea captain Arent Schuyler de Peyster first sighted Funafuti and named it.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1841,
+   "text": "The United States Exploring Expedition led by Charles Wilkes visited Funafuti.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "environment"
+  },
+  {
+   "year": 1882,
+   "text": "Members of the US Fish Commission visited Funafuti on the USFC Albatross.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "environment"
+  },
+  {
+   "year": 1892,
+   "text": "Captain Herbert Gibson declared each of the Ellice Islands a British protectorate.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1894,
+   "text": "Count Rudolph Festetics de Tolna and family visited Funafuti aboard a yacht.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "culture"
+  },
+  {
+   "year": 1896,
+   "text": "The Royal Society of London conducted the Darwin's Drill project on Funafuti.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "environment"
+  },
+  {
+   "year": 1909,
+   "text": "The first resident magistrate was appointed to the island of Funafuti.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "civic"
+  },
+  {
+   "year": 1911,
+   "text": "The Funafuti Post Office officially opened around this time.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1942,
+   "text": "American forces occupied Funafuti during World War II as a staging ground.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1972,
+   "text": "Cyclone Bebe struck Funafuti, causing extensive damage across the island.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "environment"
+  },
+  {
+   "year": 1978,
+   "text": "Funafuti was chosen as the administrative capital of the newly founded nation.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "The United States maintained its claim until a treaty went into effect.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1996,
+   "text": "The Funafuti Conservation Area was established along the western rim of reef.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "The Tuvalu Games were held yearly starting this year with outer island teams.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "The installed PV capacity in Funafuti reached 735 kW compared to diesel.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "The International Union of Geological Sciences included the atoll in heritage sites.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "environment"
+  },
+  {
+   "year": 2024,
+   "text": "A general election in Tuvalu resulted in the re-election of Simon Kofe.",
+   "url": "https://en.wikipedia.org/wiki/Funafuti",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3499,
+  "completionTokens": 3175,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1970,
+   "theme": "culture",
+   "event": "Construction of the Cathedral of Brasília was completed and the building dedicated.",
+   "quote": "The cathedral's structure was finished on 31 May 1970, and only the 70 m (229.66 ft) diameter of the circular area were visible. The cathedral was dedicated on 31 May 1970.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2018,
+   "theme": "commerce_industry",
+   "event": "Brasília recorded the third‑highest GDP among Brazilian cities, 3.6 % of national output.",
+   "quote": "In 2018, it has the third highest GDP of cities in Brazil, R$254 billion reais, representing 3.6% of the total Brazilian GDP.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "IBGE Census recorded a population of 2,817,381 for Brasília and its metropolitan area.",
+   "quote": "According to the 2022 IBGE Census, 2,817,381 people resided in Brasília and its metropolitan area, of whom 1,370,836 were Mixed (48.7%), 1,126,334 White (40%), 301,765 Black (10.7%), 12,810 Asian (0.5%), and 5,536 Amerindian (0.1%).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

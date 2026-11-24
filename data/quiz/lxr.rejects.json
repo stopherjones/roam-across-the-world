@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3464,
+  "completionTokens": 2771,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2011,
+   "theme": "commerce_industry",
+   "event": "Tourism to Egypt dropped significantly following the Arab Spring, affecting local tourist markets.",
+   "quote": "Following the 2011 Arab Spring, tourism to Egypt dropped significantly, again affecting local tourist markets.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2018,
+   "theme": "culture",
+   "event": "A joint team discovered 1000 ushabti and two sarcophagi in the TT33 complex.",
+   "quote": "The other discovery was of 1000 ushabti and two sarcophagi each containing a mummy in the TT33 complex by a joint team from the IFAO (French Institute of Oriental Archaeology, Cairo, Egypt) and the University of Strasbourg.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

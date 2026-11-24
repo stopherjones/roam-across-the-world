@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4601,
+  "completionTokens": 3031,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2006,
+   "theme": "commerce_industry",
+   "event": "Construction of the Gautrain Rapid Rail started in October and finished in June 2012.",
+   "quote": "Construction of the Gautrain Rapid Rail started in October 2006 and was completed in June 2012.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2010,
+   "theme": "culture",
+   "event": "The 2010 FIFA World Cup final took place at FNB Stadium.",
+   "quote": "The 2010 FIFA World Cup final took place at FNB Stadium, the largest stadium in Africa, while the World Cup closing ceremony on the next day saw the final public appearance of Nelson Mandela.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2026,
+   "theme": "civic",
+   "event": "National Finance Minister Enoch Godongwana wrote to Joburg Mayor regarding Municipal Finance Management Act.",
+   "quote": "In April 2026, national Finance Minister Enoch Godongwana wrote to Joburg Mayor and member of the African National Congress (ANC) Dada Morero, stating that the City had violated the Municipal Finance Management Act numerous times.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

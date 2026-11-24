@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5130,
+  "completionTokens": 3907,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2018,
+   "theme": "environment",
+   "event": "Particulate levels exceeded the norm significantly during the heating season.",
+   "quote": "During the October 2017 – March 2018 heating season, particulate levels exceeded the norm on 70 occasions; on 7 January 2018, PM10 levels reached 632 μg/m3, some twelve times the EU norm of 50 μg/m3.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "commerce_industry",
+   "event": "Average monthly wages reached the highest nationally recorded amount in March.",
+   "quote": "The total nominal GDP in 2018 was 38.5 billion leva ($22.4 billion), or 33,437 leva ($19,454) per capita, and average monthly wages in March 2020 were $1,071, the highest nationally.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

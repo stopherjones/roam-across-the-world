@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3924,
+  "completionTokens": 3091,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2024,
+   "theme": "food_daily",
+   "event": "The recorded population reached 1,829,225 residents in the city.",
+   "quote": "The city's population was 1,829,225 as of 2024, making it the eighth most populous city in Brazil and the largest in Brazil's South Region.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2025,
+   "theme": "commerce_industry",
+   "event": "The municipal unemployment rate was recorded at a low level of 4.3 percent.",
+   "quote": "Curitiba’s unemployment rate was one of the lowest recorded in Brazil in 2025, at 4.3%, ranking third in terms of the economically active population, behind Palmas (TO) and Florianópolis (SC).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

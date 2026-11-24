@@ -1,0 +1,130 @@
+{
+ "id": "mia",
+ "town": "Miami",
+ "source": "https://en.wikipedia.org/wiki/Miami",
+ "pool": [
+  {
+   "year": 1566,
+   "text": "Admiral Pedro Menendez de Aviles claimed the region for Spain.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1821,
+   "text": "Spain ceded the Florida territory to the United States.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1825,
+   "text": "Coconut Grove was settled before later being annexed into Miami.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  },
+  {
+   "year": 1896,
+   "text": "Miami was officially incorporated as a city with a small population.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  },
+  {
+   "year": 1922,
+   "text": "Coral Way was built as a historic residential neighborhood.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  },
+  {
+   "year": 1925,
+   "text": "Coconut Grove was officially annexed into Miami.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "Fidel Castro rose to power in Cuba during the revolution.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1972,
+   "text": "The region hosted presidential nominating conventions during the election.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "The Calle Ocho Festival began running as a major music event.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "The Miami Jewish Film Festival was established to celebrate cinema.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The local government went bankrupt in the area.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "Miami hosted the Free Trade Area of the Americas negotiations.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Univision announced plans to build a new production studio.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "The Miami Intermodal Center was completed to serve commuters.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Colleges and universities graduated thousands of students together.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Telemundo filmed a vast majority of its original programming locally.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Phase I of MiamiCentral Station was successfully completed.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "The Gross Metropolitan Product reached billions of dollars.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Newspapers left their longtime home located in Downtown Miami.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "The Port of Miami Tunnel opened to connect major roadways.",
+   "url": "https://en.wikipedia.org/wiki/Miami",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

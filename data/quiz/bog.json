@@ -1,0 +1,130 @@
+{
+ "id": "bog",
+ "town": "Bogota",
+ "source": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+ "pool": [
+  {
+   "year": 1548,
+   "text": "Emperor Charles V granted the coat of arms to the New Kingdom of Granada.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1564,
+   "text": "The city became the seat of the Roman Catholic Archdiocese of Bogotá.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "civic"
+  },
+  {
+   "year": 1777,
+   "text": "The National Library of Colombia was established as a dependence of the Ministry of Culture.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "culture"
+  },
+  {
+   "year": 1810,
+   "text": "An insurgency movement began against the colonial authorities with rebel armbands.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1823,
+   "text": "The Public Library, now the National Library, was enlarged and modernized.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "culture"
+  },
+  {
+   "year": 1846,
+   "text": "The statue of Bolivar was unveiled on the Independence Day of Colombia.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "culture"
+  },
+  {
+   "year": 1932,
+   "text": "The coat of arms was officially recognized and adopted as the symbol of Bogotá.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "Liberal leader Jorge Eliecer Gaitan was assassinated, resulting in destructive downtown riots.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "Decree 555 officially adopted the patriotic armband as the flag of Bogotá.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "Construction of the airport was ordered by Gustavo Rojas Pinilla to replace Techo Airport.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "The Biblioteca Luis Angel Arango was established as a dependence of the Bank of the Republic.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Bogotá became part of the Union of Ibero-American Capital Cities.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "A participatory and integrated security policy named Comunidad Segura was first adopted.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2000,
+   "text": "The TransMilenio system of articulated buses opened its first phase in the city.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "The orchid Odontoglossum luteopurpureum was adopted as the emblematic flower of Bogotá.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "environment"
+  },
+  {
+   "year": 2003,
+   "text": "The explosion of a car bomb in a parking lot at El Nogal Club left casualties.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2004,
+   "text": "Futsal was established as the symbolic sport of the city by City Council Agreement.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Bus routes for Suba Avenue and Southern Highway were opened.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "UNESCO named Bogotá as the World Book Capital.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "A car bomb was detonated in front of a complex of buildings housing Caracol Radio.",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

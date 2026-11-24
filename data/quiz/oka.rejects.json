@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2675,
+  "completionTokens": 3288,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1670,
+   "theme": "culture",
+   "event": "A Confucian temple was built in Kumemura as a gift from the Kangxi Emperor.",
+   "quote": "A Confucian temple, the gift of the Kangxi Emperor, was built in Kumemura in the 1670s; the Meirindō, a school of classic Confucian Chinese learning, was established in 1718.",
+   "stage": "verification",
+   "why": "The source quote states the temple was built in the '1670s', not specifically the exact year 1670."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 2081,
+  "completionTokens": 1985,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1875,
+   "theme": "civic",
+   "event": "Frank Frye reported a population of 1200 as the American consul in the Bay Islands.",
+   "quote": "In 1875, Frank Frye, the American consul in the Bay Islands, reported a population of 1200.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2016,
+   "theme": "power_conflict",
+   "event": "Caracas surpassed the homicide rate of San Pedro Sula, which was the murder capital until early 2016.",
+   "quote": "San Pedro Sula was the \"murder capital of the world\" until early 2016 when Caracas, Venezuela, surpassed its homicide rate.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

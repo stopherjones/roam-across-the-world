@@ -1,0 +1,118 @@
+{
+ "id": "gom",
+ "town": "Goma",
+ "source": "https://en.wikipedia.org/wiki/Goma",
+ "pool": [
+  {
+   "year": 1894,
+   "text": "Explorer Gustav Adolf von Götzen passed through the village, recording it as Goma.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "civic"
+  },
+  {
+   "year": 1906,
+   "text": "Congo Free State officers established a military outpost to oversee maritime activities on Lake Kivu.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "This initiative culminated in the establishment of OPAC on February 4th.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1949,
+   "text": "Urbanization inception was formalized with the promulgation of a decree on February 21st.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "civic"
+  },
+  {
+   "year": 1951,
+   "text": "Goma was elevated to the territorial and capital level of North Kivu.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "North Kivu regained its district status on December 25th before becoming a region.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "North Kivu attained regional autonomy on July 10th as a sovereign entity.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "The Compagnie pour la Promotion des Activités Café was established and headquartered in the commune.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2002,
+   "text": "Nyiragongo erupted, sending a stream of lava through the center of the city.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "Emissions from Nyiragongo volcano polluted surrounding areas of North Kivu with water vapor.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "The intercultural ballet regularly participated in cultural events including the annual Goma Tourist Fair.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Battle of Goma broke out in the city between the Congolese army and rebels.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2012,
+   "text": "The city was captured briefly by rebels of the March 23 Movement during rebellion.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2013,
+   "text": "Goma played host to the inaugural tshukudu race, a wooden bicycle race.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "Festival Amani which celebrates peace attracted an audience of thirty-six thousand.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "The Italian ambassador Luca Attanasio was killed in an apparent kidnapping attempt.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2025,
+   "text": "Goma was again targeted in a renewed offensive resulting in widespread casualties and displacement.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2026,
+   "text": "The Congolese government organized a national commemoration titled Résistance, Résilience et Unité.",
+   "url": "https://en.wikipedia.org/wiki/Goma",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

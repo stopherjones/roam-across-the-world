@@ -1,0 +1,106 @@
+{
+ "id": "osa",
+ "town": "Osaka",
+ "source": "https://en.wikipedia.org/wiki/Osaka",
+ "pool": [
+  {
+   "year": 1496,
+   "text": "The oldest written evidence for the name Osaka dates back to this year.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1583,
+   "text": "Toyotomi Hideyoshi constructed Osaka Castle in place of the destroyed temple.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1697,
+   "text": "The Rice Exchange was established in Dojima to sell unharvested rice.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1808,
+   "text": "Writer Hamamatsu Utakuni published his book Setsuyo Ochiboshu explaining kanji changes.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "culture"
+  },
+  {
+   "year": 1868,
+   "text": "The kanji character 阪 became the official name after the Meiji Restoration.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1889,
+   "text": "The modern municipality was established by government ordinance with a small initial area.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1925,
+   "text": "Nomura Securities, the first brokerage firm in Japan, was founded here.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1971,
+   "text": "The Ad Council Japan was founded and is based in the city.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "The Symphony Hall was built as the first classical music concert hall.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "Numerous international events have been held including the APEC Summit.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "The Osaka Museum of History opened in a 13-story modern building.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Umeda Arts Theater opened after relocating from its former theater.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The Hanjotei opened, which is entirely dedicated to traditional rakugo performances.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "The 300-meter tall Abeno Harukas opened and became the country's tallest building.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "The city officially ended its sister city relationship with San Francisco.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "A second referendum to merge wards into semi-autonomous wards was voted down.",
+   "url": "https://en.wikipedia.org/wiki/Osaka",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

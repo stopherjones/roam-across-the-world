@@ -1,0 +1,130 @@
+{
+ "id": "okc",
+ "town": "Oklahoma City",
+ "source": "https://en.wikipedia.org/wiki/Oklahoma_City",
+ "pool": [
+  {
+   "year": 1889,
+   "text": "The city was founded during the Land Run and grew within hours.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1904,
+   "text": "Oklahoma City University was founded by the United Methodist Church.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1907,
+   "text": "Oklahoma City surpassed Guthrie as the new state population center and hub.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1928,
+   "text": "The discovery of oil within the city limits transformed the area.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1937,
+   "text": "The Tower Theater was built on 23rd Street near Route 66.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "WKY-TV went on the air as a television station.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1959,
+   "text": "The city government launched a Great Annexation Drive expanding area.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "Patience Latting was elected mayor, becoming the first female mayor.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "Six employees were murdered at a Sirloin Stockade restaurant.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "The bankruptcy of Penn Square Bank caused severe economic hardship.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1993,
+   "text": "The city passed the Metropolitan Area Projects redevelopment package.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "Timothy McVeigh detonated a bomb in front of the federal building.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1999,
+   "text": "A violent F5 tornado impacted parts of Oklahoma City and communities.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "The museum opened across the street from the governor's mansion.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2006,
+   "text": "The university opened the Wanda L Bass School of Music.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "The restoration of the historic Skirvin Hotel was completed.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The Oklahoma City Thunder relocated from Seattle to Oklahoma City.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Voters approved the MAPS 3 proposal including Core to Shore elements.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Oklahoma City achieved a rank of 45 in a community health study.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Oklahoma City took last place in an annual community health ranking.",
+   "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

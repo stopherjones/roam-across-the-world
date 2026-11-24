@@ -1,0 +1,130 @@
+{
+ "id": "muc",
+ "town": "Munich",
+ "source": "https://en.wikipedia.org/wiki/Munich",
+ "pool": [
+  {
+   "year": 1175,
+   "text": "Munich officially received both city status and proper fortification structures.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "civic"
+  },
+  {
+   "year": 1472,
+   "text": "LMU Munich was founded in Ingolstadt before moving later.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "culture"
+  },
+  {
+   "year": 1500,
+   "text": "Major displays include Albrecht Durer Self Portrait.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "culture"
+  },
+  {
+   "year": 1589,
+   "text": "William V commissioned the construction of the famous Hofbräuhaus building.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1609,
+   "text": "The Catholic League was formally founded within the city of Munich.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1664,
+   "text": "Schloss Nymphenburg construction started for the public.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "The international agreement was signed between Nazi Germany and major foreign powers.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "Georg Elser planted an explosive device inside the Bürgerbräukeller to target Adolf Hitler.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "United States military forces successfully captured control of Munich.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "Munich School of Political Science was founded.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "The total population count of Munich officially surpassed the one million milestone.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "Deutsche Journalistenschule was founded.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Air raid shelter served guest workers at Central Station.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "University of Television and Film Munich was founded.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Filmverlag der Autoren was founded as independent cooperative.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1972,
+   "text": "The major international Summer Olympic sporting event was hosted by the city.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "Munich hosted the Summer Olympics and tragic massacre.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "The final match of the FIFA World Cup was held at the stadium.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "The Neue Pinakothek was wholly reconstructed from this year.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "The newly established airport officially commenced operations in the area.",
+   "url": "https://en.wikipedia.org/wiki/Munich",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

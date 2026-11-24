@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7619,
+  "completionTokens": 5699,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1975,
+   "theme": "culture",
+   "event": "The city hosted the Mediterranean Games and various major international sporting events.",
+   "quote": "It hosted the 1975 Mediterranean Games and various major international sporting events, and it serves as the seat of the Consultative Council of the Arab Maghreb Union.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1964,
+   "theme": "culture",
+   "event": "Gerald Thomas directed Carry On Spying with various British actors.",
+   "quote": "Carry On Spying 1964, directed by Gerald Thomas with Kenneth Williams, Charles Hawtrey, Barbara Windsor & Renée Houston",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

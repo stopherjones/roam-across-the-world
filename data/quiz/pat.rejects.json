@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4836,
+  "completionTokens": 3942,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2004,
+   "theme": "civic",
+   "event": "The construction project was completed in August 2004.",
+   "quote": "It was completed in August 2004.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2006,
+   "theme": "culture",
+   "event": "Patras served as European Capital of Culture, holding various cultural events.",
+   "quote": "It was European Capital of Culture in 2006.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

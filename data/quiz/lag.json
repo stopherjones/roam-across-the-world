@@ -1,0 +1,130 @@
+{
+ "id": "lag",
+ "town": "Lagos",
+ "source": "https://en.wikipedia.org/wiki/Lagos",
+ "pool": [
+  {
+   "year": 1900,
+   "text": "An artificial canal was dug between the two island halves to enforce racial segregation.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "environment"
+  },
+  {
+   "year": 1914,
+   "text": "The Amalgamation Ceremony unified the North and South protectorates to form Nigeria.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1934,
+   "text": "Yaba College of Technology was founded as Nigeria's first higher educational institution.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "Independence was proclaimed at the Tafawa Balewa Square stadium.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The creation of Lagos State led to the splitting of Lagos city.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1970,
+   "text": "American musician James Brown performed a concert in the city.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Military ruler Murtala Muhammed was assassinated near the barracks on Ikoyi Road.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1976,
+   "text": "The government decided to relocate the national capital to the city of Abuja.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1978,
+   "text": "The international airport terminal was built and commissioned over forty years ago.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "The international airport terminal opened officially in March.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1991,
+   "text": "The seat of government officially relocated from Lagos to Abuja.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The United Nations predicted the metropolitan area population would exceed 20 million.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "Lagos served as an African platform city for the Documenta 11 art exhibition.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The metro area extended beyond state boundaries and attained a megacity status.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The Trans African Highway represents a planning proposal originating from this year.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The Bus Rapid Transit system was officially inaugurated in Lagos.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The film The Figurine set new box office revenue records in Nigeria.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "A radical makeover began at the airport following a government remodeling programme launch.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "The film 93 Days documented the Ebola outbreak in the city.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The healthcare system successfully contained an outbreak of the Ebola virus.",
+   "url": "https://en.wikipedia.org/wiki/Lagos",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

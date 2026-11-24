@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 8905,
+  "completionTokens": 7132,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2019,
+   "theme": "environment",
+   "event": "An EF4 tornado devastated parts of Havana on 27 January.",
+   "quote": "On the night of 27 January 2019, an unusually violent and destructive tornado ripped through Havana. It was assigned an official rating of EF4 on the Enhanced Fujita scale by the Cuban Meteorology Institute, making this the first F4 or EF4 tornado in Cuba since 1940.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2009,
+   "theme": "civic",
+   "event": "Havana infant mortality rate recorded at 4.9 per 1,000 live births",
+   "quote": "Havana's infant mortality rate in 2009 was 4.9 per 1,000 live births, 5.12 in the country as a whole, which is lower than many developed nations, and the lowest in the developing world.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1956,
+   "theme": "commerce_industry",
+   "event": "FOCSA Building completed as mixed‑use economic symbol",
+   "quote": "The Edificio Focsa (1956) represents Havana's economic dominance at the time.",
+   "stage": "verification",
+   "why": "Quote gives year but does not mention mixed‑use function"
+  }
+ ]
+}

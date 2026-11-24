@@ -1,0 +1,130 @@
+{
+ "id": "cnf",
+ "town": "Belo Horizonte",
+ "source": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+ "pool": [
+  {
+   "year": 1701,
+   "text": "Explorer settled region, sparking a gold‑rush expedition.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1889,
+   "text": "Brazil became a republic, prompting a new state capital plan.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1893,
+   "text": "Curral Del Rey chosen as site for new capital.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "civic"
+  },
+  {
+   "year": 1897,
+   "text": "Cidade de Minas inaugurated with many unfinished buildings.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "civic"
+  },
+  {
+   "year": 1906,
+   "text": "City renamed Belo Horizonte, meaning \"Beautiful Horizon\".",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "civic"
+  },
+  {
+   "year": 1922,
+   "text": "Obelisk erected in Sete de Setembro Square.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "culture"
+  },
+  {
+   "year": 1949,
+   "text": "American film praised the city's planning and construction.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Palácio das Artes reopened as the Art Museum.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Puppet theatre group Giramundo founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Palácio das Artes opened, designed by Oscar Niemeyer.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "Confins International Airport opened 38 km from the city.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1993,
+   "text": "Mayor launched right‑to‑food policies and farmers’ markets.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1994,
+   "text": "Serra do Rola‑Moça State Park established covering 3,941 ha.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "environment"
+  },
+  {
+   "year": 1996,
+   "text": "Palácio das Artes added multimedia rooms, library and café bar.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Annual Comida di Buteco festival began across city bars.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2003,
+   "text": "Partnership with Fort Lauderdale led to Parque Fort Lauderdale creation.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "Pampulha Ecological Park inaugurated on May 21.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "Inter‑American Development Bank meeting convened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Former mayor nominated for World Mayor prize.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Many flights shifted from Pampulha to Confins airport.",
+   "url": "https://en.wikipedia.org/wiki/Belo_Horizonte",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

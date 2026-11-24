@@ -1,0 +1,130 @@
+{
+ "id": "che",
+ "town": "Cherbourg",
+ "source": "https://en.wikipedia.org/wiki/Cherbourg",
+ "pool": [
+  {
+   "year": 1053,
+   "text": "The city received an annuity in perpetuity for the maintenance of needy people.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1139,
+   "text": "Cherbourg fell to the troops of Stephen of England after a long siege.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1204,
+   "text": "Cherbourg fell without a fight during the conquest of Normandy by Philip.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1300,
+   "text": "Philip IV of France fortified the city following previous ravages and attacks.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1532,
+   "text": "Francis I and the dauphin visited Cherbourg with great public fanfare.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "culture"
+  },
+  {
+   "year": 1655,
+   "text": "Louis Lucas de Néhou built a famous glass factory producing window mirrors.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1933,
+   "text": "The Gare Maritime de Cherbourg opened on the Quai de France.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1935,
+   "text": "The Park of the Château des Ravalet was acquired by the city of Cherbourg.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "environment"
+  },
+  {
+   "year": 1944,
+   "text": "American troops encircled the city during the Normandy invasion.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Cherbourg was officially returned to France by the American forces.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "The city received the Croix de guerre with Palm citation.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "Hortson was established in the Maupas quarter under leadership of Mayor Jacques Hébert.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1967,
+   "text": "The nuclear ballistic missile submarine Le Redoutable was launched.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1970,
+   "text": "The Communauté urbaine de Cherbourg gathered together several surrounding communes.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1970,
+   "text": "The urban community of Cherbourg was created following the urbanisation and boundary dilution.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The UIE began business in Cherbourg for the construction of oil platforms.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "Activists protested the nuclearisation when the Pacific Fisher landed waste.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "environment"
+  },
+  {
+   "year": 1979,
+   "text": "The Babcock boiler manufacturer closed its doors after a protracted labour dispute in Cherbourg.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1991,
+   "text": "The public transport company CTC took the new name Zephir Bus.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "The Cherbourg-Normandy technopole was created for the control of contamination from industrial processes.",
+   "url": "https://en.wikipedia.org/wiki/Cherbourg",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

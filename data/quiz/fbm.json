@@ -1,0 +1,130 @@
+{
+ "id": "fbm",
+ "town": "Kisangani",
+ "source": "https://en.wikipedia.org/wiki/Kisangani",
+ "pool": [
+  {
+   "year": 1877,
+   "text": "Henry Morton Stanley first traversed the area after navigating the rapids and falls.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1883,
+   "text": "Stanley returned to establish the initial trading post in the region.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1884,
+   "text": "Lieutenant Arvid Wester brokered a treaty with the Arab Swahili slavers.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1886,
+   "text": "Deane and Dubois set fire to the station and sought refuge.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1886,
+   "text": "Administrator General Camille Janssen issued a decree establishing nine districts within the colony.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "civic"
+  },
+  {
+   "year": 1918,
+   "text": "The sprawling population required the District Commissioner to create a daily food market.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1934,
+   "text": "Place de la Femme was completed as a dedication to Boyomaise women.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "A decree of Governor General established the city of Stanleyville.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Antoine Gizenga installed the Free Republic of the Congo in Stanleyville.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1964,
+   "text": "Stanleyville was under siege of the Simbas.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1966,
+   "text": "Stanleyville was renamed Kisangani as part of authenticité policies.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "Kisangani was the site of the Stanleyville mutinies resulting in widespread looting.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1977,
+   "text": "The communes were renamed to new designations like Mangobo and Tshopo.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The city was the site of the first open fighting between Ugandan and Rwandan forces.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2000,
+   "text": "Clashes between Rwandan and Ugandan forces led to thousands of deaths and destruction.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2002,
+   "text": "160 people were massacred in Kisangani during the Second Congo War.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "The Studios Kabako relocated to Kisangani.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The constitution proposed the subdivision of the territory into 26 provinces.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The Organic Law establishing the boundaries of the provinces was adopted.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "It is the country's fifth-most populous urban area with an estimated population.",
+   "url": "https://en.wikipedia.org/wiki/Kisangani",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

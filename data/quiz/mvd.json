@@ -1,0 +1,130 @@
+{
+ "id": "mvd",
+ "town": "Montevideo",
+ "source": "https://en.wikipedia.org/wiki/Montevideo",
+ "pool": [
+  {
+   "year": 1701,
+   "text": "The Portuguese planned subsidiary forts in Montevideo to stop frequent Spanish insurrections.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1723,
+   "text": "Captain Manuel Henriques de Noronha reached Montevideo with soldiers, guns, and colonists.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1724,
+   "text": "Portuguese forces withdrew from Montevideo Bay after signing an agreement with Spaniards.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1726,
+   "text": "Bruno Mauricio de Zabala officially mentions the foundation date of the city.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "civic"
+  },
+  {
+   "year": 1730,
+   "text": "Complete independence from Buenos Aires as a real city was finally reached.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1802,
+   "text": "A beacon replaced the observation post at the location of the fortress.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "environment"
+  },
+  {
+   "year": 1928,
+   "text": "Palacio Salvo was completed after being designed by architect Mario Palanti.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "Every match during the first FIFA World Cup was hosted here.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "Juan Manuel Blanes Museum was established in the Palladian villa.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "Jose Belloni's bronze monument La Carreta was installed near Estadio Centenario.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "culture"
+  },
+  {
+   "year": 1935,
+   "text": "Fun Fun Bar was established as an important place for tango.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1938,
+   "text": "The Obelisk of Montevideo was built on Artigas Boulevard.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "The Graf Spee retreated to Montevideo's port following the naval battle.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "The Tarancos residence passed to the city to eventually house a museum.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "The Planetarium of Montevideo was built within the premises of the zoological garden.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "The Punta Brava Lighthouse became electric.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "Art suffered when the military junta took over power in Uruguay.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1980,
+   "text": "The dictatorship proposed a new constitution which was rejected by referendum.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "Montevideo Shopping became the first shopping mall in the Southern Cone.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "A bicycle sharing system called Movete was launched in Montevideo.",
+   "url": "https://en.wikipedia.org/wiki/Montevideo",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "lko",
+ "town": "Lucknow",
+ "source": "https://en.wikipedia.org/wiki/Lucknow",
+ "pool": [
+  {
+   "year": 1394,
+   "text": "Awadh became part of the Sharqi Sultanate of Jaunpur for eighty-four years",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1555,
+   "text": "Emperor Humayun made the area a part of the Mughal Empire",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1722,
+   "text": "Saadat Khan was appointed Nizam of Awadh and established his court",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1775,
+   "text": "The fourth Nawab Asaf-ud-Daula shifted his court to Lucknow from Faizabad",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1784,
+   "text": "Bara Imambara in Hussainabad was built by the Nawab Asaf-ud-Daula",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "culture"
+  },
+  {
+   "year": 1798,
+   "text": "The fifth Nawab Wazir Ali Khan was forced to abdicate power",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1800,
+   "text": "Dilkusha Kothi was constructed by the British resident Major Gore Ouseley",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "culture"
+  },
+  {
+   "year": 1801,
+   "text": "A treaty made the state of Awadh a vassal of the company",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1855,
+   "text": "Dyer Breweries was incorporated as Asia's first commercial brewery",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1938,
+   "text": "An All India Radio station has been operational in the city",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "Lucknow became independent from Britain along with the rest of India",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "The government changed the municipal system to an administrator run one",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "The city became the headquarters of the Central Command of the Indian Army",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "The company name was changed to Mohan Meakin Brewery",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1975,
+   "text": "Sangeet Natak Akademy was set up by the government of Uttar Pradesh",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "The government of Uttar Pradesh banned public Azadari processions",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "The ban on public Azadari processions was partially lifted",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "FM radio transmission started in Lucknow with multiple stations",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Software Technology Parks of India was set up by the ministry",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Geographical Indication status was accorded for chikankari manufacture",
+   "url": "https://en.wikipedia.org/wiki/Lucknow",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

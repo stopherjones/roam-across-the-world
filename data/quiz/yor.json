@@ -1,0 +1,130 @@
+{
+ "id": "yor",
+ "town": "York",
+ "source": "https://en.wikipedia.org/wiki/York",
+ "pool": [
+  {
+   "year": 1190,
+   "text": "York Castle was the site of an infamous massacre of Jewish inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1212,
+   "text": "King John granted the city's first charter confirming trading rights.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "civic"
+  },
+  {
+   "year": 1396,
+   "text": "The city acquired privileges granted by a charter of Richard II.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "civic"
+  },
+  {
+   "year": 1644,
+   "text": "The Parliamentarians besieged York during the English Civil War.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1740,
+   "text": "The city's first hospital opened in Monkgate funded by public subscription.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "civic"
+  },
+  {
+   "year": 1839,
+   "text": "George Hudson was responsible for bringing the railway to the city.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "A new library building was erected on Museum Street.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Bettys founder Frederick Belmont travelled on the maiden voyage of the Queen Mary.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1942,
+   "text": "The city was bombed during the Second World War by the Luftwaffe.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "The opening of the University of York added to city prosperity.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The historic core of York was designated a conservation area.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "environment"
+  },
+  {
+   "year": 1975,
+   "text": "The National Railway Museum was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "The Jorvik Viking Centre opened as a tourist attraction.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "The York Dungeon opened as a tourist attraction.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Terry's chocolate factory closed when production moved to Poland.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "Nestlé announced that it would cut 645 jobs at the factory.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "York was voted European Tourism City of the Year.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "York was voted safest place to visit in the awards.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "York's Chocolate Story opened its doors in March.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2019,
+   "text": "The current Council Leader was appointed following the local election.",
+   "url": "https://en.wikipedia.org/wiki/York",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

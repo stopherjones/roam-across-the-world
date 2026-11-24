@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2826,
+  "completionTokens": 3041,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1963,
+   "theme": "commerce_industry",
+   "event": "The black market eclipsed official business while MIBA recorded producing diamonds.",
+   "quote": "The black market quickly eclipsed the official business, and in 1963, MIBA officially recorded producing 1.4 million karats of diamonds, while smugglers exported between 4 million and 6 million more karats.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1961,
+   "theme": "civic",
+   "event": "Bakwanga was renamed Mbuji-Mayi after the local river to signify reconciliation.",
+   "quote": "Soon after the end of the secession, on 1 January 1961 Bakwanga was renamed Mbuji-Mayi after the local river, in an attempt to signify a Luba intra-ethnicity reconciliation since the name Bakwanga referred to only one subgroup.",
+   "stage": "verification",
+   "why": "The source states the renaming occurred on 1 January 1961, but the text attributes this date to 'Soon after the end of the secession' while actual independence ended later; however, the main issue is that January 1, 1961 is during the secession, but the quote explicitly states '1 January 1961'. Wait, let me re-read: the source says 1 January 1961, but historical context or text sequencing might be flawed, yet the text literally matches. Let's check more closely: Source says '1 January 1961', claim says 1961. The quote supports the year 1961."
+  },
+  {
+   "year": 1997,
+   "theme": "commerce_industry",
+   "event": "MIBA began making voluntary contributions to Kabila's war.",
+   "quote": "Nzemba was released shortly after, but MIBA began making \"voluntary contributions\" to Kabila's war, an estimated $5.5 million in 1997 and 1998.",
+   "stage": "verification",
+   "why": "The source states contributions were made in 1997 and 1998, spanning two years, not just 1997."
+  }
+ ]
+}

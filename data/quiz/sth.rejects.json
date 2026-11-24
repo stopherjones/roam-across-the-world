@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4668,
+  "completionTokens": 2343,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1912,
+   "theme": "culture",
+   "event": "The city was the host of the 1912 Summer Olympics.",
+   "quote": "The city was the host of the 1912 Summer Olympics, and has played host to several other international sports events since.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

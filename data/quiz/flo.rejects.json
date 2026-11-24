@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4804,
+  "completionTokens": 2944,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1569,
+   "theme": "power_conflict",
+   "event": "Cosimo I de' Medici was named Grand Duke of Tuscany.",
+   "quote": "Alessandro's successor, Cosimo I de' Medici, was named Grand Duke of Tuscany in 1ниями",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2019,
+   "theme": "civic",
+   "event": "A new tram line opened after construction was restarted in 2014.",
+   "quote": "The construction of a second line began on 5 November 2011, construction was stopped due to contractors' difficulties and restarted in 2014 with the new line opening on 11 February 2019.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2028,
+   "theme": "civic",
+   "event": "A new high-speed rail station is expected to be completed.",
+   "quote": "A new high-speed rail station in Florence, originally scheduled to open in 2015, is currently under construction and now expected to be completed by 2028.",
+   "stage": "code check",
+   "why": "year out of range"
+  }
+ ]
+}

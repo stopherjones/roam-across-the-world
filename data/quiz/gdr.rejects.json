@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2983,
+  "completionTokens": 2394,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1669,
+   "theme": "civic",
+   "event": "The Emperor ordered Muslims and Jews to separate from Christians in Gondar.",
+   "quote": "In 1669–1670, the Emperor ordered Muslims and Jews to separate from Christians and form their own sectors in Gondar.",
+   "stage": "verification",
+   "why": "The source gives the date range as 1669-1670, not just the single year 1669."
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Gondar has an estimated population of four hundred forty-three thousand.",
+   "quote": "As of 2021, Gondar has an estimated population of 443,156.",
+   "stage": "verification",
+   "why": "The source states an estimated population of 443,156, which is more specific than four hundred forty-three thousand."
+  }
+ ]
+}

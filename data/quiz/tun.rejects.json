@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 7612,
+  "completionTokens": 6296,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1908,
+   "theme": "culture",
+   "event": "The first cinema named Omnia Pathé opened in Tunis",
+   "quote": "The first film club opened in Tunis in 1946 and the Globe, in 1965.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1933,
+   "theme": "power_conflict",
+   "event": "Politician and President of Tunisia in 2011 Fouad Mebazaa was born.",
+   "quote": "Fouad Mebazaa (1933–2025), politician, President of Tunisia in 2011",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1655,
+   "theme": "power_conflict",
+   "event": "English admiral Robert Blake arrived to extract compensation in Tunis",
+   "quote": "In April 1655 the English admiral Robert Blake was sent to the Mediterranean to extract compensation from states that had been attacking English shipping.",
+   "stage": "verification",
+   "why": "The source quote mentions Robert Blake was sent in April 1655, but does not explicitly state he arrived in Tunis to extract compensation in that exact context or year as phrased in the claim."
+  }
+ ]
+}

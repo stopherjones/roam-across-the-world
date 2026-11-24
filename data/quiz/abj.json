@@ -1,0 +1,100 @@
+{
+ "id": "abj",
+ "town": "Abuja",
+ "source": "https://en.wikipedia.org/wiki/Abuja",
+ "pool": [
+  {
+   "year": 1976,
+   "text": "Decree number six initiated the removal of the capital from Lagos to Abuja.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1977,
+   "text": "The International Planning Associates was commissioned to produce the Abuja Master Plan.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "The foundation of Abuja occurred under the administration of Shehu Shagari.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "Abuja officially replaced Lagos as the capital city of Nigeria.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The present democratic dispensation had its origin at Eagle Square.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "Millennium Park was officially opened by Queen Elizabeth the Second.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Former FCT minister Nasir Ahmad el Rufai started a demolition campaign.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "The Abuja International Trade Fair has been held annually under ACCI auspices.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "Construction of the Millennium Tower started before being halted later.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "Abuja joined the UNESCO Global Network of Learning Cities.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "Abuja light rail opened and became the first rapid transit in Western Africa.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Maitama II District Cadastral Zone was created by the FCT administration.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "The light rail system was shut down due to the COVID epidemic.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The urban agglomeration population was estimated at 3770000 residents.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "Traffic resumed on the light rail system on 29 May.",
+   "url": "https://en.wikipedia.org/wiki/Abuja",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

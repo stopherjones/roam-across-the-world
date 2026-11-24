@@ -1,0 +1,124 @@
+{
+ "id": "nia",
+ "town": "Niamey",
+ "source": "https://en.wikipedia.org/wiki/Niamey",
+ "pool": [
+  {
+   "year": 1901,
+   "text": "Captain Henri Salaman established a military post in Niamey.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1926,
+   "text": "Governor Jules Brévié made Niamey the capital of Niger.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1930,
+   "text": "Niamey enacted its first city plan to relocate neighbourhoods and segregate populations.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "civic"
+  },
+  {
+   "year": 1931,
+   "text": "A famine caused by low rainfall brought internally displaced people to Niamey.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1942,
+   "text": "The Roman Catholic Archdiocese of Niamey was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "Niamey held its first municipal elections and elected Djibo Bakary mayor.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "The French military base in Niamey transferred to the Niger Armed Forces.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1964,
+   "text": "The United Nations Economic and Social Council began solar power development in Niamey.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "environment"
+  },
+  {
+   "year": 1970,
+   "text": "The Kennedy Bridge opened to connect both banks of Niamey.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "Soldiers killed three student protestors during the Kennedy Bridge massacre.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "Niamey became home to the country's first commercial radio station.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "A coup d'état installed Ibrahim Baré Maïnassara as president in Niamey.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1999,
+   "text": "Ibrahim Baré Maïnassara was ambushed and killed at Niamey's airport during a coup.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2000,
+   "text": "Nigerian Yoruba immigrants ran seventy-five percent of Niamey's photography studios.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "President Mahamadou Issoufou launched the Niamey Nyala initiative for the city.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "American and French military bases were established at Diori Hamani International Airport.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2023,
+   "text": "The Niger junta began renaming colonial street names in Niamey to local names.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2024,
+   "text": "Local governments were dissolved and the mayor of Niamey was replaced with an army official.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "Mutinous soldiers attacked government forces in an unsuccessful coup attempt in Niamey.",
+   "url": "https://en.wikipedia.org/wiki/Niamey",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

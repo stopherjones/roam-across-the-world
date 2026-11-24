@@ -1,0 +1,130 @@
+{
+ "id": "lsk",
+ "town": "Lusaka",
+ "source": "https://en.wikipedia.org/wiki/Lusaka",
+ "pool": [
+  {
+   "year": 1899,
+   "text": "The British South African Company took formal control of the region around Lusaka.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1905,
+   "text": "Lusaka was founded as a water stop along the northbound railway route.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1913,
+   "text": "Several stores and a hotel opened, persuading the BSAC to declare Lusaka a recognised town.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1924,
+   "text": "The British imperial government took direct control of Northern Rhodesia through a governor and legislative council.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The British colonial administration decided to move its capital from Livingstone to Lusaka.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1931,
+   "text": "The legislative council approved the report confirming Lusaka as the planned capital.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "Lusaka formally became the capital with a week-long celebration.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "The UK launched an investigation into a possible merger of Southern Rhodesia, Northern Rhodesia and Nyasaland.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1948,
+   "text": "The government passed the African Housing Ordinance authorizing permanent residential suburbs for Africans.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "A development plan for Lusaka gained statutory approval for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "The British government approved the plan to merge Northern Rhodesia with its two neighbors into a federation.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "Northern Rhodesia became independent as the Republic of Zambia with Lusaka named as its capital.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "Lusaka formed a twinning relationship with Dushanbe in Tajikistan.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "Lusaka established a twinning agreement with Los Angeles in the United States.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "The city hosted the Fifth Summit Conference of East and Central African States.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1993,
+   "text": "The Lusaka Stock Exchange was launched in the city.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "An urban and regional planning bill was enacted by the government.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "The 58-metre-high Tower was launched by Sun Share Ltd.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "The city council began a programme of road improvements to tackle chronic traffic congestion.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "A synagogue hosted by the Chabad of Zambia opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Lusaka",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

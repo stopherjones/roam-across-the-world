@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 3599,
+  "completionTokens": 1895,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 561,
+   "theme": "culture",
+   "event": "Gregory of Tours restored a cathedral destroyed by a fire in the city.",
+   "quote": "In the 6th century, Gregory of Tours, author of the Ten Books of History, restored a cathedral destroyed by a fire in 561.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 1940,
+   "theme": "power_conflict",
+   "event": "The city suffered massive destruction and became the temporary government seat.",
+   "quote": "From 10 to 13 June 1940, Tours was the temporary seat of the French government before its move to Bordeaux.",
+   "stage": "verification",
+   "why": "The source states it was the temporary government seat from 10 to 13 June 1940, but does not mention massive destruction."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9146,
+  "completionTokens": 6731,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1876,
+   "theme": "civic",
+   "event": "The city of St. Louis voted to separate from St. Louis County.",
+   "quote": "On August 22, 1876, the city of St.",
+   "stage": "verification",
+   "why": "The source mentions the date August 22, 1876, but cuts off and does not state that the city voted to separate from St. Louis County."
+  },
+  {
+   "year": 1934,
+   "theme": "culture",
+   "event": "Louis Gunners began playing football in the city during this year.",
+   "quote": "Louis Gunners in 1934, the St. Louis Cardinals from 1960 to 1987, and the St. Louis Rams from 1995 to 2015.",
+   "stage": "verification",
+   "why": "The source quote mentions 1934 in the context of the Gunners, but does not explicitly state they began playing football in the city that year."
+  }
+ ]
+}

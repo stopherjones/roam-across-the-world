@@ -1,0 +1,130 @@
+{
+ "id": "zar",
+ "town": "Zaragoza",
+ "source": "https://en.wikipedia.org/wiki/Zaragoza",
+ "pool": [
+  {
+   "year": 1118,
+   "text": "Alfonso I of Aragon conquered Zaragoza, making it the kingdom's capital.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1564,
+   "text": "A bubonic plague outbreak devastated Zaragoza's inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "environment"
+  },
+  {
+   "year": 1706,
+   "text": "Archduke Charles was proclaimed King of Aragon in Zaragoza.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1707,
+   "text": "Bourbon forces under the Duke of Orléans entered Zaragoza.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1710,
+   "text": "A Bourbon defeat near Zaragoza allowed Archduke Charles to return briefly.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1766,
+   "text": "Bread price riots, known as the motín de los broqueleros, erupted.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1940,
+   "text": "General Military Academy re-established in Zaragoza by José Enrique Varela.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "Joint US‑Spain air base was installed in Zaragoza.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1964,
+   "text": "Zaragoza declared a Pole for Industrial Development, sparking rapid growth.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "Hotel Corona de Aragón fire killed at least 80 people.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "ETA bombing of Zaragoza barracks resulted in eleven deaths.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "Zaragoza football club captured the Copa del Rey title.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "Zaragoza football club won the UEFA Cup Winners' Cup.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Zaragoza football club secured another Copa del Rey victory.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "AVE high‑speed rail began serving Zaragoza in December.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "El Canal de Aguas Bravas artificial whitewater course was built for Expo.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Zaragoza airport freight traffic surpassed Barcelona El Prat.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "Zaragoza became a Festival of International Tourist Interest.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "Zaragoza's population reached 699,007, ranking fourth in Spain.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Zaragoza will host the ITSF World Cup and Championships.",
+   "url": "https://en.wikipedia.org/wiki/Zaragoza",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

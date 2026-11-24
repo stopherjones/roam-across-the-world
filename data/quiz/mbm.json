@@ -1,0 +1,112 @@
+{
+ "id": "mbm",
+ "town": "Mbuji-Mayi",
+ "source": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+ "pool": [
+  {
+   "year": 1907,
+   "text": "Diamonds were first discovered in the area.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1913,
+   "text": "The true value of the diamond find was recognised.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1960,
+   "text": "Albert Kalonji declared himself ruler of the secessionist Mining State of South Kasai.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "Mbuji-Mayi grew rapidly upon Congolese independence with the immigration of Luba people.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Albert Kalonji declared himself as emperor of the region in a traditional ceremony.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "Government ANC troops took control of the town and arrested Kalonji.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1962,
+   "text": "A second assault on the independent state was launched with ANC government troops fighting.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1962,
+   "text": "Kalonji was captured again when ANC forces retook Bakwanga.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "MIBA was the source of a large percentage of world industrial diamonds.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1986,
+   "text": "Nzemba was appointed by Mobutu and considered a powerful political player.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "The state-run power plant went out of service leading to widespread deforestation.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "environment"
+  },
+  {
+   "year": 1991,
+   "text": "The entire city had only about 19.7 km of paved roads.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "The city fell to rebels and looting took a toll on mining operations.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1998,
+   "text": "Zimbabwean and Chadian troops occupied Mbuji-Mayi as the First Congo War grew.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2002,
+   "text": "Amnesty International published a report about people being shot in diamond fields.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2019,
+   "text": "Residents obtained water from local rivers contributing to water-borne disease outbreaks.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2020,
+   "text": "The DRC government launched a project to improve drinking water.",
+   "url": "https://en.wikipedia.org/wiki/Mbuji-Mayi",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

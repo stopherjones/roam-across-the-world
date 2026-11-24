@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 2211,
+  "completionTokens": 1615,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2011,
+   "theme": "civic",
+   "event": "The percentage of the child population in Guwahati was recorded.",
+   "quote": "The percentage of the child population (0-14) in Guwahati was 9.40% in 2011.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

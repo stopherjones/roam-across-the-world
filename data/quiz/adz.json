@@ -1,0 +1,130 @@
+{
+ "id": "adz",
+ "town": "Adana",
+ "source": "https://en.wikipedia.org/wiki/Adana",
+ "pool": [
+  {
+   "year": 1084,
+   "text": "Suleiman ibn Qutulmish annexed Adana during his military campaign.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1335,
+   "text": "Kizzuwatna ruled Adana under the protection of the Hittites according to inscriptions.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1352,
+   "text": "Mamluks left the administration of the Adana plain to Yüreğir Turks.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1517,
+   "text": "Selim I incorporated the emirate into the growing Ottoman Empire.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1608,
+   "text": "The Ottomans terminated the Ramadanid administration after the Celali rebellions.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1836,
+   "text": "İbrahim Paşa demolished Adana Castle and the city walls.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1871,
+   "text": "Adana Municipality was officially incorporated in the city.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "civic"
+  },
+  {
+   "year": 1882,
+   "text": "The governor of Adana built Turkey's tallest clock tower.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "The completion of the Seyhan Dam brought explosive growth to the city.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "environment"
+  },
+  {
+   "year": 1981,
+   "text": "The Adana State Theatre opened its doors at the Sabancı Cultural Centre.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "Metropolitan Municipality Law split municipal governance in the city.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "A major earthquake struck the city center and Ceyhan district.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "environment"
+  },
+  {
+   "year": 1999,
+   "text": "The International Sabancı Theatre Festival began holding annual events.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Karaisalı was officially annexed to the city of Adana.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The fifth festival took place with an opening concert by the orchestra.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Unemployment in the city reached a record percentage.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "Karataş Municipal Council agreed to amalgamate with Adana.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The carnival parade attracted a record-breaking number of people.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2023,
+   "text": "Adana was affected by a major magnitude earthquake in Southern Turkey.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "environment"
+  },
+  {
+   "year": 2026,
+   "text": "Adana retained multiple companies in Turkey's top industrial rankings.",
+   "url": "https://en.wikipedia.org/wiki/Adana",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "aer",
+ "town": "Sochi",
+ "source": "https://en.wikipedia.org/wiki/Sochi",
+ "pool": [
+  {
+   "year": 1829,
+   "text": "The coastline was occupied by Russia as a result of the Russo-Circassian War.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1836,
+   "text": "Provision of weapons to the Circassians caused a diplomatic conflict between empires over Vixen.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1838,
+   "text": "The fort of Alexandria was founded at the mouth of the Sochi River.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1864,
+   "text": "The last battle of the Russo-Circassian War took place at Qbaada.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1890,
+   "text": "The Sochi Lighthouse was constructed in the month of February.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1896,
+   "text": "The Dakhovsky Posad was renamed Sochi Posad and incorporated into the Black Sea Governorate.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1909,
+   "text": "The first resort named Kavkazskaya Riviera opened in Sochi.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1917,
+   "text": "Sochi was granted town status by the authorities.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "civic"
+  },
+  {
+   "year": 1934,
+   "text": "A hybrid citrus tree named Tree of Friendship was planted in a garden.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "environment"
+  },
+  {
+   "year": 1961,
+   "text": "Soviet officials decided to expand the city limits by forming Greater Sochi.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The International Olympic Committee announced Sochi had been selected as a finalist city.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Sochi was announced as the host city of the Winter Games.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "A mosque was built by United Arab Emirates in the central area of Bytkha.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The Silk Way Rally which is part of Dakar series took place in Sochi.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Sochi topped the rating of thirty best cities for business in Russia.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "Sochi hosted the XXII Olympic Winter Games and XI Paralympic Winter Games.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "Sochi was one of the host cities for the FIFA World Cup.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "An area in the Imereti Lowlands was separated to form Sirius.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Sochi hosted the Formula 1 Russian Grand Prix until this year.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "There were two earthquakes in Sochi on January eleventh.",
+   "url": "https://en.wikipedia.org/wiki/Sochi",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "kum",
+ "town": "Kumasi",
+ "source": "https://en.wikipedia.org/wiki/Kumasi",
+ "pool": [
+  {
+   "year": 1695,
+   "text": "Kumasi became the capital of the Ashanti Empire due to Osei Tutu activities.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1701,
+   "text": "The Ashanti empire became the primary state among the Ashantis after victory.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1817,
+   "text": "Kumasi was documented to have contained twenty seven streets during Bowdich visit.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1874,
+   "text": "Parts of Kumasi royal residence were burnt by the British forces.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1925,
+   "text": "Manhyia Palace opened in Kumasi and now functions as a museum.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "Kumasi was vested with ceremonial control over Ashanti sub states.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1935,
+   "text": "The full role of king was restored by the colonial administration.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "The Rex Cinema opened in Kumasi as the first documented movie.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "Maxwell Fry published his garden city plan for Kumasi city.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "environment"
+  },
+  {
+   "year": 1951,
+   "text": "A second movie theatre holding fifteen hundred seats was built.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "The College of Technology first opened in Kumasi city.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "Kumasi hospital opened and was initially named Kumasi Central hospital.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "Kumasi became the capital of the Ashanti Region after independence.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The Department of Architecture in Kumasi admitted its first students.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "KNUST transitioned from a college to a university institution.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "The Asantehene Palace was built as a royal Asante attraction.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "Only twelve percent of households had unshared toilets in Kumasi.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "A study found that home owners own homes and migrants dominate.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "The city introduced metro bus services for public road transport.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "A project to upgrade the railways was due to get underway.",
+   "url": "https://en.wikipedia.org/wiki/Kumasi",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

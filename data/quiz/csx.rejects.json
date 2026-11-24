@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4829,
+  "completionTokens": 3087,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "The Chinese census recorded a population of over ten million inhabitants in Changsha.",
+   "quote": "As of the 2020 Chinese census, the prefecture-level city of Changsha had a population of 10,047,914 inhabitants.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

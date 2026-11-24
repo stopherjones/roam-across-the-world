@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5157,
+  "completionTokens": 3209,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1830,
+   "theme": "commerce_industry",
+   "event": "Enron was founded in the city before it moved to Houston in 1987.",
+   "quote": "In the 1980s and 1990s, Omaha also saw major company headquarters leave the city, including Enron, founded in the city in 1930 and taken to Houston in 1987 by the now-notorious Kenneth Lay.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1991,
+   "theme": "commerce_industry",
+   "event": "Inacom was founded as a technology company that customized computer systems for large businesses.",
+   "quote": "Inacom, founded in Omaha in 1991, was a technology company that customized computer systems for large businesses, and was on the Fortune 500 list from 1997 until 2000, when it filed for bankruptcy.",
+   "stage": "verification",
+   "why": "The source quote states Inacom was founded in Omaha in 1991, but the claim incorrectly states the year is 1991 (wait, the claim says 1991 and the source says 1991, let me re-read). Actually, the claim says 1991 and source says 1991, so it should be true. Let me re-check: 'Inacom, founded in Omaha in 1991...' Claim: 'Inacom was founded... in 1991'. It is supported."
+  },
+  {
+   "year": 2004,
+   "theme": "civic",
+   "event": "The Union Pacific Center opened in the downtown area.",
+   "quote": "The Union Pacific Center and the Holland Performing Arts Center opened in 2004 and 2005, respectively.",
+   "stage": "verification",
+   "why": "The source quote states the Union Pacific Center and Holland Performing Arts Center opened in 2004 and 2005 respectively, but does not explicitly state that the Union Pacific Center specifically opened in 2004 on its own (though 2004 corresponds to Union Pacific Center, the phrasing of the claim vs quote creates ambiguity on exact pairing without order parsing, but actually 2004 matches Union Pacific Center). Let's mark as true if 2004 matches Union Pacific Center. Wait, 'opened in 2004 and 2005, respectively' means Union Pacific Center opened in 2004. So it is supported."
+  }
+ ]
+}

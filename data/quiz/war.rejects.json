@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7724,
+  "completionTokens": 5974,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1920,
+   "theme": "power_conflict",
+   "event": "This significant battle was fought on the eastern outskirts during war.",
+   "quote": "In the course of the Polish–Soviet War (1919–1921), the 1920 Battle of Warsaw was fought on the eastern outskirts of the city.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1943,
+   "theme": "power_conflict",
+   "event": "Jewish fighters launched an uprising when an order came to annihilate.",
+   "quote": "When the order came to annihilate the ghetto as part of Hitler's 'Final Solution' on 19 April 1943, Jewish fighters launched the Warsaw Ghetto Uprising.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1979,
+   "theme": "civic",
+   "event": "Visits brought support to the budding movement and encouraged fervor.",
+   "quote": "John Paul II's visits to his native country in 1979 and 1983 brought support to the budding 'Solidarity' movement and encouraged the growing anti-communist fervor there.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2012,
+   "theme": "commerce_industry",
+   "event": "Warsaw-Modlin Airport opened and a rail link connected the airport.",
+   "quote": "Warsaw-Modlin Airport, located 35 kilometres (22 mi) to the north, opened in July 2012. A rail link has been added to connect the city with the airport in 2012.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1833,
+   "theme": "culture",
+   "event": "Plac Teatralny became the country's cultural hub and housed the Great Theatre.",
+   "quote": "From 1833 to the outbreak of World War II, Plac Teatralny (Theatre Square) was the country's cultural hub and home to the various theatres.",
+   "stage": "verification",
+   "why": "The source quote mentions Plac Teatralny was home to 'various theatres' rather than specifically 'the Great Theatre' for that precise event description."
+  },
+  {
+   "year": 1997,
+   "theme": "power_conflict",
+   "event": "Grozny became a twin town and Saint Petersburg became a partner city.",
+   "quote": "Grozny, Russia (1997–2022)",
+   "stage": "verification",
+   "why": "The source quote only mentions Grozny for 1997-2022 and does not mention Saint Petersburg."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4472,
+  "completionTokens": 2321,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2021,
+   "theme": "food_daily",
+   "event": "The birth rate in Tanzania was recorded as high.",
+   "quote": "The birth rate in Tanzania in 2021 is high, 35.64 births per 1000 population, but the rate is falling.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

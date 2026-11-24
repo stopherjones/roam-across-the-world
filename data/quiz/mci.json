@@ -1,0 +1,130 @@
+{
+ "id": "mci",
+ "town": "Kansas City",
+ "source": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+ "pool": [
+  {
+   "year": 1850,
+   "text": "On June 1, the town of Kansas was officially incorporated in the area.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "civic"
+  },
+  {
+   "year": 1853,
+   "text": "The city was reincorporated and renamed City of Kansas on March 28.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "civic"
+  },
+  {
+   "year": 1880,
+   "text": "The evening paper was first published by William Rockhill Nelson and his partner.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1889,
+   "text": "The municipality was officially renamed as Kansas City during this year.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "civic"
+  },
+  {
+   "year": 1900,
+   "text": "Kansas City hosted the Democratic National Convention during this year.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1903,
+   "text": "The 8th Street Tunnel was constructed as an underground streetcar system.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "Radio station signed on as an affiliate of the NBC Red Network.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Kansas City hosted the Republican National Convention during this year.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "Jess and Jim's Steakhouse was founded in the Martin City neighborhood.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1949,
+   "text": "The Star signed on a television network affiliate station during this year.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "Kansas City became a major league city when a baseball franchise relocated.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1957,
+   "text": "The Kansas City Ballet was founded by Tatiana Dokoudovska as a troupe.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "Lyric Opera of Kansas City was founded to perform at the center.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "The franchise started play as the Dallas Texans of the football league.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "The professional football team moved its operations to Kansas City.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "The transit authority was formed via a bi-state compact created by legislatures.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "The team became the last AFL champion and won Super Bowl IV.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "The city's current Major League Baseball franchise, the Royals, started play.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "The National Hockey League placed an expansion team in Kansas City called the Scouts.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "The park and boulevard system was recognized as a National Historic Landmark.",
+   "url": "https://en.wikipedia.org/wiki/Kansas_City%2C_Missouri",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

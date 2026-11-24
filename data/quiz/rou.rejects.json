@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3125,
+  "completionTokens": 3412,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1592,
+   "theme": "power_conflict",
+   "event": "Unsuccessful five‑month siege of Rouen by Henry IV and English forces.",
+   "quote": "Rouen was staunchly Catholic during the French Wars of Religion, and underwent an unsuccessful five-month siege in 1591/2 by the Protestant Henry IV of France and an English force under Earl of Essex.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  }
+ ]
+}

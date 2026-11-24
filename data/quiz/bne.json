@@ -1,0 +1,130 @@
+{
+ "id": "bne",
+ "town": "Brisbane",
+ "source": "https://en.wikipedia.org/wiki/Brisbane",
+ "pool": [
+  {
+   "year": 1799,
+   "text": "Matthew Flinders charted parts of Moreton Bay.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "environment"
+  },
+  {
+   "year": 1823,
+   "text": "John Oxley located the Brisbane River with the help of castaways.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "environment"
+  },
+  {
+   "year": 1824,
+   "text": "The Moreton Bay penal settlement was established at Redcliffe.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1825,
+   "text": "The penal settlement moved from Redcliffe to North Quay.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1838,
+   "text": "German Lutherans established the first free settlement at Nundah.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1842,
+   "text": "The settlement closed and opened the district to free colonisation.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "civic"
+  },
+  {
+   "year": 1859,
+   "text": "Brisbane was chosen as Queensland's capital upon separation.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "civic"
+  },
+  {
+   "year": 1864,
+   "text": "Two destructive fires destroyed much of the early commercial centre.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "environment"
+  },
+  {
+   "year": 1866,
+   "text": "The historic synagogue was established and designed by Arthur Morry.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "culture"
+  },
+  {
+   "year": 1893,
+   "text": "The Great Flood inundated large areas and swept away Victoria Bridge.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "environment"
+  },
+  {
+   "year": 1940,
+   "text": "The Story Bridge opened as a major infrastructure project.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "Social pressures culminated in incidents known as the Battle of Brisbane.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1974,
+   "text": "Severe floods caused extensive damage and prompted water management changes.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "environment"
+  },
+  {
+   "year": 1982,
+   "text": "Brisbane hosted major events including the Commonwealth Games.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "South Bank Parklands opened on the redeveloped South Brisbane riverfront.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The Gallery of Modern Art opened within the cultural centre.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "International students enrolled in universities and tertiary institutions in large numbers.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "The Brisbane wattle was added as an additional floral emblem.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "environment"
+  },
+  {
+   "year": 2024,
+   "text": "Queensland introduced a 50-cent flat fare initiative in August.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Metro services began operating alongside wider bus network changes.",
+   "url": "https://en.wikipedia.org/wiki/Brisbane",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

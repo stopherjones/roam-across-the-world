@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3507,
+  "completionTokens": 3195,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1177,
+   "theme": "civic",
+   "event": "A small chapel of ease was recorded at Harwich during this early settlement period",
+   "quote": "In 1177, a chapel of ease was recorded at Harwich, which was probably a very small settlement at that time.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "food_daily",
+   "event": "The official census recorded the parish population at 18,794 residents",
+   "quote": "At the 2021 census, the population of the parish of Harwich (which includes Dovercourt) was 18,794, and the population of the built up area as defined by the Office for National Statistics (which extends beyond Harwich parish to also include parts of the neighbouring parishes of Little Oakley and Ramsey and Parkeston) was 20,215.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1604,
+   "theme": "civic",
+   "event": "A new charter formally incorporated the borough and established a council",
+   "quote": "The town is known to have been granted several borough charters in medieval times, but the earliest surviving charter was issued in 1604.",
+   "stage": "verification",
+   "why": "The source states the earliest surviving charter was issued in 1604, but does not mention the establishment of a council."
+  },
+  {
+   "year": 1863,
+   "theme": "environment",
+   "event": "The Dovercourt Lighthouses replaced the older pair of lights",
+   "quote": "Completely rebuilt in 1818, both towers are still standing (though they ceased functioning as lighthouses in 1863, when they were replaced by the Dovercourt Lighthouses, a new pair of lights at Dovercourt).",
+   "stage": "verification",
+   "why": "The source states the lighthouses were replaced in 1863, but does not state the Dovercourt Lighthouses were built in that exact year."
+  }
+ ]
+}

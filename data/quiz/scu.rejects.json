@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2460,
+  "completionTokens": 2653,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1518,
+   "theme": "power_conflict",
+   "event": "Expeditions led to the coasts of Mexico from Santiago de Cuba.",
+   "quote": "This was the starting point of the expeditions led by Juan de Grijalba and Hernán Cortés to the coasts of Mexico in 1818, and in 1538 by Hernando de Soto's expedition to Florida.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1538,
+   "theme": "power_conflict",
+   "event": "Hernando de Soto started an expedition to Florida from the settlement.",
+   "quote": "This was the starting point of the expeditions led by Juan de Grijalba and Hernán Cortés to the coasts of Mexico in 1818, and in 1538 by Hernando de Soto's expedition to Florida.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "The city of Santiago de Cuba recorded a population of people.",
+   "quote": "In 2022, the city of Santiago de Cuba recorded a population of 507,167 people.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

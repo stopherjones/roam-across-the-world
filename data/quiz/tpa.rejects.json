@@ -1,0 +1,72 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8021,
+  "completionTokens": 6181,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1962,
+   "theme": "environment",
+   "event": "The lowest temperature ever recorded in Tampa dropped to 18 degrees.",
+   "quote": "The lowest temperature ever recorded in Tampa was 18 °F (−8 °C) on December 13, 1962.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1977,
+   "theme": "environment",
+   "event": "The only snowfall officially recorded in Tampa occurred with local trace accumulations.",
+   "quote": "The only snowfall officially recorded in Tampa occurred on January 19, 1977, with local accumulations ranging between a trace and 0.2 in (0.5 cm).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "The official census recorded a population of 403,364 residents living in Tampa.",
+   "quote": "It is the third-most populous city in Florida (after Jacksonville and Miami) and the 49th-most populous city in the U.S., with a population of 403,364 at the 2020 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1931,
+   "theme": "civic",
+   "event": "The institution was founded before moving into the former Tampa Bay Hotel.",
+   "quote": "It was founded in 1931, and in 1933, it moved into the former Tampa Bay Hotel across the Hillsborough River from downtown Tampa.",
+   "stage": "verification",
+   "why": "The source quote states the institution was founded in 1931, but moving into the hotel happened in 1933, not 1931."
+  },
+  {
+   "year": 1984,
+   "theme": "culture",
+   "event": "USF secured another NCAA national championship title in softball.",
+   "quote": "USF has won six NCAA national championships: softball in 1983 and 1984, women's swimming in 1985, and sailing in 2009, 2016, and 2017.",
+   "source": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 1985,
+   "theme": "culture",
+   "event": "USF won an NCAA national championship in women's swimming.",
+   "quote": "USF has won six NCAA national championships: softball in 1983 and 1984, women's swimming in 1985, and sailing in 2009, 2016, and 2017.",
+   "source": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 1991,
+   "theme": "culture",
+   "event": "The USF Soccer Stadium hosted the men's College Cup soccer tournament finals again.",
+   "quote": "Tampa Stadium was home to the men's College Cup soccer tournament finals from 1978 to 1980, while the USF Soccer Stadium hosted the same tournament in 1990 and 1991.",
+   "source": "https://en.wikipedia.org/wiki/Tampa%2C_Florida",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

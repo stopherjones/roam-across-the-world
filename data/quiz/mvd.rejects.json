@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10163,
+  "completionTokens": 7140,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1998,
+   "theme": "commerce_industry",
+   "event": "World Trade Center 1 officially opened as part of the new complex buildings.",
+   "quote": "World Trade Center Montevideo officially opened in 1998, but work was completed in 2009. World Trade Center 1 was the first building to be inaugurated, in 1998.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2022,
+   "theme": "commerce_industry",
+   "event": "The city recorded a projected GDP of fifty three billion dollars.",
+   "quote": "In 2022, it has a projected GDP of $53.9 billion, with a per capita of $30,148.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1886,
+   "theme": "culture",
+   "event": "El Dia newspaper was founded in Uruguay by Jose Batlle.",
+   "quote": "El Día was the most prestigious paper in Uruguay, founded in 1886 by Jose Batlle, who would later go on to become President of Uruguay.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

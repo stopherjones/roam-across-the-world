@@ -1,0 +1,130 @@
+{
+ "id": "dla",
+ "town": "Douala",
+ "source": "https://en.wikipedia.org/wiki/Douala",
+ "pool": [
+  {
+   "year": 1650,
+   "text": "Immigrants speaking the Duala language formed a town in the area.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "civic"
+  },
+  {
+   "year": 1826,
+   "text": "Douala consisted of four distinct villages located in specific geographic locations.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "civic"
+  },
+  {
+   "year": 1885,
+   "text": "Alfred Saker organized the first mission of the British Baptist Church.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "culture"
+  },
+  {
+   "year": 1888,
+   "text": "Terracotta bricks began to be produced within the city of Douala.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1896,
+   "text": "A first urban plan of the city was developed during German rule.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "environment"
+  },
+  {
+   "year": 1904,
+   "text": "Construction of the Villa Mandessi Bell began in the city.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "environment"
+  },
+  {
+   "year": 1905,
+   "text": "The palace of the King Manga Ndumbe Bell was built in Douala.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "culture"
+  },
+  {
+   "year": 1907,
+   "text": "The Ministry of Colonies was established while Douala held citizens.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "civic"
+  },
+  {
+   "year": 1914,
+   "text": "The large population living in Bonanjo moved to Neue Bell.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "environment"
+  },
+  {
+   "year": 1935,
+   "text": "The Mausoleum of the Kings Akwa was constructed in Douala.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "culture"
+  },
+  {
+   "year": 1940,
+   "text": "Douala served as the capital of Cameroon during this period.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "The Temple of the Centenary was built in the city.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "The bridge on Wouri River was built in the city.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "environment"
+  },
+  {
+   "year": 1959,
+   "text": "A new city plan named Plan Dorian was designed for Douala.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "environment"
+  },
+  {
+   "year": 1960,
+   "text": "Cameroon gained independence as a federal republic with Yaoundé capital.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "Douala was the center of the civil disobedience campaign ghost town.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "A new development and urban plan was designed in Douala.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "La Nouvelle Liberté by Joseph Francis Sumégné was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Many Douala inhabitants knew how to read, write, and speak French.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "The city and surrounding area estimated population reached millions.",
+   "url": "https://en.wikipedia.org/wiki/Douala",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

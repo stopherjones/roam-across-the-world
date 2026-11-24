@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4280,
+  "completionTokens": 4919,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1423,
+   "theme": "power_conflict",
+   "event": "A sack of Marseille occurred by the Crown of Aragon.",
+   "quote": "Home of Olympique de Marseille, one of the most successful and widely supported football clubs in France, Marseille has hosted matches at the 1998 FIFA World Cup and UEFA Euro 2016. It became part of the County of Provence during the tenth century, although its renewed prosperity was curtailed by the Black Death of the 14th century and a sack of the city by the Crown of Aragon in 1423.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1720,
+   "theme": "environment",
+   "event": "Marseille lost a significant portion of its population during a great plague.",
+   "quote": "Marseille lost a significant portion of its population during the Great Plague of Marseille in 1720, but the population had recovered by mid-century.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2012,
+   "theme": "environment",
+   "event": "Marseille hosted the World Water Forum and gained a national park.",
+   "quote": "In 2012 Marseille hosted the World Water Forum. The unemployment rate in Marseille fell from 20% in 1995 to 14% in 2004. In 2022, the unemployment rate in Marseille was 13.1%, according to data from the French National Institute of Statistics and Economic Studies (INSEE). With a population of 89,316 (2007), the 13th arrondissement of Marseille is the most populous one. From 1950 to the mid-1990s, Marseille was a Socialist (PS) and Communist (PCF) stronghold. Gaston Defferre (PS) was consecutively reelected six times as Mayor of Marseille from 1953 until his death in 1986. Jean-Claude Gaudin of the conservative UMP was elected Mayor of Marseille in 1995. Gaudin was reelected in 2001, 2008 and 2014. At the last municipal election in 2014, Marseille was divided between the northern arrondissements dominated by the left (PS) and far-right (FN) and the southern part of town dominated by the conservative (UMP). Economic conditions and political unrest in Europe and the rest of the world brought several other waves of immigrants during the 20th century: Greeks and Italians started arriving at the end of the 19th century and in the first half of the 20th century, up to 40% of the city's population was of Italian origin; Russians in 1917; Armenians in 1915 and 1923; Vietnamese in the 1920s, 1954 and after 1975; Corsicans during the 1920s and 1930s; Spanish after 1936; Maghrebis (both Arab and Berber) in the inter-war period; Sub-Saharan Africans after 1945; Maghrebi Jews in the 1950s and 1960s; the Pieds-Noirs from the former French Algeria in 1962; and then from Comoros. At the 2019 census, 81.4% of the inhabitants of the Marseille metropolitan area were natives of Metropolitan France, 0.6% were born in Overseas France, and 18.0% were born in foreign countries (two-fifth of whom French citizens from birth, in particular Pieds-Noirs from Algeria arrived in Metropolitan France after the independence of Algeria in 1962). In 2002, about one third of the population of Marseille can trace their roots back to Italy. The largest immigrant communities (including descendants) in 2002 were Italians (290,000 Italians, or 33%), then Muslims - mainly Maghrebis (200,000 Muslims, or 23%), then Corsicans (100,000 Corsicans, or 11.5%), then Armenians (80,000 Armenians, or 9%). In 1999, in several arrondissements, about 40% of the young people under 18 were of Maghrebi origin (at least one immigrant parent). Since 2013 a significant number of Central- and Eastern European immigrants have settled in Marseille, attracted by better job opportunities and the good climate of this Mediterranean city. Since the early 2020s, the city has struggled with a notable rise in narcotrafficking and other issues related to organized criminal networks, with 2023 being described as the city's \"deadliest year.\" In November 2025, France's Justice Minister, Gérald Darmanin, described the threat posed by these groups as \"at least equivalent to terrorism.\" According to The Global Initiative Against Transnational Organized Crime, Marseille \"has become a hotspot of violence,\" witnessing \"more than 300 drug-related killings in the last decade, with a 50 per cent increase between 2022 and 2023 alone.\"\n\nRich and poor neighborhoods exist side by side. An example is how Marseille responded in 2005, when ethnic populations living in other French cities' suburbs rioted, but Marseille remained relatively calm. Marseille served as the European Capital of Culture for 2013 along with Košice. Marseille-Provence 2013 (MP2013) featured more than 900 cultural events held throughout Marseille and the surrounding communities. Marseille became one of Europe's busiest ports by 1900. Armenians from the Ottoman Empire began arriving in 1913. In 1962, a number of French colonies gained their independence, and the French citizens from Algeria, Morocco, and Tunisia arrived in Marseille. Merchants of Armenian origin received trade privileges in France by Armand Jean du Plessis de Richelieu (1585–1642) and later on Jean-Baptiste Colbert (1619–1683) Marseille a free port in 1669. One notable Armenian-Iranian merchant gained a patent from Louis XIV (1638–1715) over Iranian silk. Since 1803, starting on the last Sunday of November, there has been a Santon Fair in Marseille; it is currently held in the Cours d'Estienne d'Orves, a large square off the Vieux-Port. In 1919, a fire almost completely destroyed the house, leaving only the stone colonnade and peristyle from the original façade. Since 1972, the Ballet national de Marseille has performed at the opera house; its director from its foundation to 1998 was Roland Petit. In 2013, Marseille hosted Europride, an international LGBT event, 10 July–20. Fisher, \"little boat-shaped cookies, tough dough tasting vaguely of orange peel, smelling better than they are.\" They are sold in one specific shop, dedicated to its fabrication since 1781 called \"le four des navettes\". Much of the northern quayside area was rebuilt by the architect Fernand Pouillon after its destruction by the Nazis in 1943. The Hôtel-Dieu, a former hospital in Le Panier, transformed into an InterContinental hotel in 2013. In addition to the two in the Centre de la Vieille Charité, described above, the main museums are:\n\nThe Musée des Civilisations de l'Europe et de la Méditerranée (MuCEM) and the Villa Méditerranée were inaugurated in 2013. Since 2022, it houses a replica of the Cosquer Cave and associated exhibitions. The Musée Regards de Provence, opened in 2013, is located between the Cathedral of Notre Dame de la Majeur and the Fort Saint-Jean. It occupies a converted port building constructed in 1945 to monitor and control potential sea-borne health hazards, in particular epidemics. The Museum of the Decorative Arts, Fashion and Ceramics opened in the renovated château in June 2013. The Musée d'Art Contemporain de Marseille (MAC), a museum of contemporary art, opened in 1994. The Unité d'Habitation, an influential and iconic modernist building designed by the Swiss architect Le Corbusier in 1952. On the roof is the contemporary gallery MaMo opened in 2013. The Calanques, a mountainous coastal area, is home to Calanques National Park which became France's tenth national park in 2012.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2023,
+   "theme": "power_conflict",
+   "event": "The city experienced its deadliest year due to a rise in narcotrafficking.",
+   "quote": "Since the early 2020s, the city has struggled with a notable rise in narcotrafficking and other issues related to organized criminal networks, with 2023 being described as the city's \"deadliest year.\"",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "Marseille served as the European Capital of Culture alongside Košice.",
+   "quote": "The city was named European Capital of Culture in 2013 and European Capital of Sport in 2017.",
+   "stage": "verification",
+   "why": "The source quote confirms Marseille was European Capital of Culture in 2013, but does not mention Košice."
+  }
+ ]
+}

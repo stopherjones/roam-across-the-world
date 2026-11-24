@@ -1,0 +1,130 @@
+{
+ "id": "mel",
+ "town": "Melbourne",
+ "source": "https://en.wikipedia.org/wiki/Melbourne",
+ "pool": [
+  {
+   "year": 1803,
+   "text": "A short-lived British penal settlement was established at Port Phillip by the colony.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1835,
+   "text": "Melbourne was founded with the arrival of free settlers from Van Diemen's Land.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "civic"
+  },
+  {
+   "year": 1837,
+   "text": "Melbourne was incorporated as a Crown settlement and named after William Lamb.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "civic"
+  },
+  {
+   "year": 1847,
+   "text": "Queen Victoria declared Melbourne to be a city.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "civic"
+  },
+  {
+   "year": 1851,
+   "text": "Melbourne became the capital of the newly separated Colony of Victoria.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "civic"
+  },
+  {
+   "year": 1880,
+   "text": "The Melbourne International Exhibition was held in the large purpose-built Exhibition Building.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "Flinders Street station achieved the status of world busiest passenger station",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "civic"
+  },
+  {
+   "year": 1932,
+   "text": "The Manchester Unity Building was completed, showcasing Art Deco influence.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "Melbourne hosted the Summer Olympics alongside other annual sporting events.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "The AACTA Awards were inaugurated at the Melbourne International Film Festival.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The Sidney Myer Music Bowl hosted the largest crowd for a music concert.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "Melbourne's Countdown began airing and helped launch the careers of local acts.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "The abstract sculpture Vault was added to Melbourne's public artworks.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "International comedy festival established as one of the three largest worldwide",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "Melbourne Food and Wine Festival began and takes place over ten days",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1999,
+   "text": "Public transport operations were privatised through a franchising model with operational responsibilities",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Melbourne held the largest population of Polish Jews and Holocaust survivors",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Construction began on an international convention centre and commercial precinct.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "State government set a target of twenty percent public transport mode share",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Melbourne became the second UNESCO City of Literature.",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

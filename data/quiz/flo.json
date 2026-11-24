@@ -1,0 +1,130 @@
+{
+ "id": "flo",
+ "town": "Florence",
+ "source": "https://en.wikipedia.org/wiki/Florence",
+ "pool": [
+  {
+   "year": 1000,
+   "text": "Margrave Hugo chose Florence as his residency instead of Lucca.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1100,
+   "text": "Florence was a commune, meaning a city-state.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "civic"
+  },
+  {
+   "year": 1348,
+   "text": "The Black Death reduced the population by over half.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "environment"
+  },
+  {
+   "year": 1469,
+   "text": "Cosimo was succeeded by his grandson Lorenzo.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1498,
+   "text": "Girolamo Savonarola and two followers were hanged and burnt.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1531,
+   "text": "Florence officially became a monarchy when Alessandro was named Duke.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1709,
+   "text": "The piano was invented in Florence by Bartolomeo Cristofori.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Salvatore Ferragamo established its home in Florence.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1944,
+   "text": "Florence was liberated by New Zealand, South African and British troops.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1966,
+   "text": "The Arno flooded parts of the centre, damaging art treasures.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "environment"
+  },
+  {
+   "year": 1982,
+   "text": "UNESCO declared the Historic Centre of Florence a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "The Metropolitan Area of Florence, Prato and Pistoia was constituted.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Forbes ranked Florence as one of the most beautiful cities.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Florence was listed as the second best world city by Condé Nast Traveler.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "The value of tourism to the city totalled some €2.5 billion.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "Mayor Dario Nardella introduced legislation requiring restaurants to use typical Tuscan products.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "Mayor Dario Nardella instituted a programme of spraying church steps with water.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Florence was shortlisted for the European Capital of Smart Tourism award.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Immigrants make up 18.9% of the population.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "Florence has a population of 361,625 as the capital of Tuscany.",
+   "url": "https://en.wikipedia.org/wiki/Florence",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "pat",
+ "town": "Patras",
+ "source": "https://en.wikipedia.org/wiki/Patras",
+ "pool": [
+  {
+   "year": 1205,
+   "text": "The city was captured by William of Champlitte and Geoffrey I of Villehardouin.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1408,
+   "text": "Patras became Venetian before being recaptured by the Despotate of Morea.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1458,
+   "text": "The city was conquered by the Sultan of the Ottoman Empire, Mehmet II.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1687,
+   "text": "Venetian rule was established in the town following the Morean War.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1873,
+   "text": "This place houses the oldest wine of Greece, the old mavrodaphne.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1925,
+   "text": "Glafkos springs water was collected in a small mountainous reservoir-dam near Souli.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "environment"
+  },
+  {
+   "year": 1931,
+   "text": "The old school complex Georgios Glarakis was built with stone in Ano Poli.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "culture"
+  },
+  {
+   "year": 1944,
+   "text": "After the liberation, the city recovered despite being increasingly overshadowed by Athens.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "The central passenger train station of Patras was constructed as a small building.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "The orthodox church of Saint Andrew was officially inaugurated after earlier construction.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "The Patras Municipal and Regional Theatre was founded with the Apollon Theatre.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "A newly constructed ring road known as the Bypass of Patras was opened.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The new Archaeological museum was successfully completed.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The new Infocenter of Patras was established inside a neoclassical building.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "OSE announced the suspension of all the rail service in the Peloponnese.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Kostas Peletidis assumed office as the mayor of the city.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "INTRASOFT began its operations in Patras with expected expansion activities.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "A mini ring road known as the Mini bypass of Patras is now complete.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Saint Gervasios Paraskevopoulos of Patras is recognized as one of the modern saints.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "The motorway was connected to the Large bypass highway and extended to Pyrgos.",
+   "url": "https://en.wikipedia.org/wiki/Patras",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

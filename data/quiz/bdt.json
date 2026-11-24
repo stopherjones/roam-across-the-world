@@ -1,0 +1,100 @@
+{
+ "id": "bdt",
+ "town": "Bridgetown",
+ "source": "https://en.wikipedia.org/wiki/Bridgetown",
+ "pool": [
+  {
+   "year": 1628,
+   "text": "English settlers established the present-day location of the city under Charles Wolverstone.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1654,
+   "text": "The British constructed a new bridge over the Careenage.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1824,
+   "text": "Barbados became the seat of the Anglican Diocese of Barbados and the Leeward Islands.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1842,
+   "text": "Royal letters patent decreed that the Town of Bridgetown should be called the City of Bridgetown.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The College of Arms in London granted arms to the City of Bridgetown.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "Local government councils were dissolved and replaced by an interim commissioner for local government.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "Bridgetown established a twinning agreement with Hackney in the United Kingdom.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The City of Bridgetown played host to the United Nations Global Conference.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "environment"
+  },
+  {
+   "year": 2002,
+   "text": "A dredging project was completed allowing the city to host cruise ships.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "Bridgetown was twinned with Bridgetown, Nova Scotia, Canada.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Bridgetown established a twinning relationship with Wilmington, North Carolina.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "The historic Kensington Oval hosted the Cricket World Cup final.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Historic Bridgetown and its Garrison was listed as a World Heritage Site by UNESCO.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "Bridgetown formed a twin city connection with Hunan province in China.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "Bridgetown established an official twinning arrangement with New York City.",
+   "url": "https://en.wikipedia.org/wiki/Bridgetown",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

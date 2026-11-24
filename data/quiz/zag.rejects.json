@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 7894,
+  "completionTokens": 3833,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2020,
+   "theme": "environment",
+   "event": "An earthquake with a 5.5 magnitude struck and damaged various historic downtown buildings.",
+   "quote": "In 2020 the city experienced a 5.5 magnitude earthquake, which damaged various buildings in the historic downtown area.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

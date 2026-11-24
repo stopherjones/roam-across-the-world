@@ -1,0 +1,130 @@
+{
+ "id": "acc",
+ "town": "Accra",
+ "source": "https://en.wikipedia.org/wiki/Accra",
+ "pool": [
+  {
+   "year": 1576,
+   "text": "A Portuguese fort was destroyed by local inhabitants living in the area.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1646,
+   "text": "A dispute escalated to a military conflict when Accra invaded Larteh.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1677,
+   "text": "Akwamuhene Ansa Sasraku attacked Accra using a visiting prince's circumcision as pretext.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1681,
+   "text": "Ansa Sasraku returned to burn Osu town and Small Accra while chasing Ofori.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1851,
+   "text": "Britain began acquiring interests by buying Christiansborg and other forts from Denmark.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1871,
+   "text": "The Netherlands became the final country to sell out their colonial interests.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1874,
+   "text": "The British captured Accra following earlier conflicts with the Ashantis.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1877,
+   "text": "Accra officially replaced Cape Coast to serve as the British Gold Coast capital.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1908,
+   "text": "The geographical boundaries of Accra were stretched following a bubonic plague epidemic.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "environment"
+  },
+  {
+   "year": 1927,
+   "text": "Achimota School, also known as Motown, opened its doors to students.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "Ghana remained a colony of Great Britain following the events of World War II.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "Ghana International School was founded in Cantonments for children aged three to eighteen.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "Kwame Nkrumah became the first Prime Minister and created a development plan.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "Lincoln Community School was established in Abelemkpe as a private international school.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The World Bank estimated the local economy contributed three billion dollars to GDP.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "The primary school enrollment rate in the city reached ninety-five percent.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "International tourist arrivals in Ghana reached over one million visitors.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "A scientific study determined city greenspaces are important for local mammal biodiversity.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "environment"
+  },
+  {
+   "year": 2020,
+   "text": "The think tank designated the territory as a Gamma minus level global city.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "The very first documentary addressing climate change impacts premiered in the city.",
+   "url": "https://en.wikipedia.org/wiki/Accra",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

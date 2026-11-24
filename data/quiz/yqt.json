@@ -1,0 +1,130 @@
+{
+ "id": "yqt",
+ "town": "Thunder Bay",
+ "source": "https://en.wikipedia.org/wiki/Thunder_Bay",
+ "pool": [
+  {
+   "year": 1803,
+   "text": "North West Company established Fort William as its mid-continent entrepôt.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1849,
+   "text": "French-speaking Jesuits established Mission of the Immaculate Conception on the Kaministiquia.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 1850,
+   "text": "Province of Canada negotiated Robinson Treaty with the Ojibwa of Lake Superior.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1883,
+   "text": "Canadian Pacific Railway renamed Prince Arthur's Landing to Port Arthur.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1892,
+   "text": "Port Arthur built Canada's first municipally owned electric street railway.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "civic"
+  },
+  {
+   "year": 1902,
+   "text": "Both cities spurned Bell Telephone Company to establish municipally owned telephone systems.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1937,
+   "text": "Canada Car and Foundry Company plant re-opened to build British aircraft.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1960,
+   "text": "Thunder Bay Symphony Orchestra was founded as the only professional orchestra between Winnipeg and Toronto.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "The City of Thunder Bay was formed through merging municipalities.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "Thunder Bay's flag was created by mayor Saul Laskin to promote the city.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Thunder Bay Art Gallery was founded, specializing in First Nations artists.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "Thunder Bay hosted the Summer Canada Games.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "NOSFA was established to feature monthly screenings of international and Canadian films.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "Thunder Bay hosted the Nordic World Ski Championships.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "Northwestern Ontario Writers Workshop was founded to promote writers and literature.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The city of Thunder Bay was declared a Cultural Capital of Canada.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Vox Popular Media Arts Festival was established as an independent film festival.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Northwestern Ontario Aviation Heritage Centre was founded to celebrate aviation history.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Thunder Pride LGBTQ pride parade has been held annually since this year.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Alstom acquired the facility from Bombardier.",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

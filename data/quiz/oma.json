@@ -1,0 +1,118 @@
+{
+ "id": "oma",
+ "town": "Omaha",
+ "source": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+ "pool": [
+  {
+   "year": 1931,
+   "text": "Joslyn Art Museum opened with large art collections.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "culture"
+  },
+  {
+   "year": 1938,
+   "text": "The Star was founded in North Omaha as Nebraska's only African-American newspaper.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "Strategic Air Command relocated to the Omaha suburb, providing a major economic boost.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "Omaha's Union Stockyards overtook Chicago's stockyards as the United States' meat packing center.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1969,
+   "text": "Woodmen Tower was completed and became Omaha's tallest building and first major skyscraper.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "First Data Corporation was founded in Omaha as a large credit-card processor.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1975,
+   "text": "A major tornado and a major blizzard caused more than $100 million in damages.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "environment"
+  },
+  {
+   "year": 1976,
+   "text": "Omaha Children's Museum was established as a place where children can learn through play.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "The Bemis Center for Contemporary Arts was founded as an urban artist colony.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "Level 3 Communications was founded in Omaha as Kiewit Diversified Group.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "The demolition of Jobber's Canyon led to the creation of the ConAgra Foods campus.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "Warren Buffett purchased UUNET, one of the largest Internet backbones in the world, for $2 billion.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2002,
+   "text": "The First National Bank Tower on Dodge Street was completed as the tallest building.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The Nebraska Legislature approved a plan to create a learning community for Omaha-area school districts.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The Bob Kerrey Pedestrian Bridge was opened to foot and bicycle traffic.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "Nebraska lawmakers moved Offutt Air Force Base and Bellevue out of the Omaha-based 2nd district.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Douglas County treasurer John Ewing was elected mayor, ending Stothert's administration.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2026,
+   "text": "The Mutual of Omaha Headquarters Tower will be the new tallest building upon completion.",
+   "url": "https://en.wikipedia.org/wiki/Omaha%2C_Nebraska",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

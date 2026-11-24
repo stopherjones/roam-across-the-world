@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 4142,
+  "completionTokens": 2093,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1859,
+   "theme": "commerce_industry",
+   "event": "The production of various pumps and steam boilers began in the city.",
+   "quote": "In 1859, the production of pumps and steam boilers began.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

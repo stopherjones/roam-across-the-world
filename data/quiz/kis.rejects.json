@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3045,
+  "completionTokens": 3326,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2019,
+   "theme": "civic",
+   "event": "The 2019 Kenya Population and Housing Census was conducted by the Bureau.",
+   "quote": "The metro region, including Maseno and Ahero, had a population of 6,771 (Maseno) and 11,801 (Ahero) people respectively, totaling to a combined population of 457,160 people, according to the 2019 Kenya Population and Housing Census which was conducted by the Kenya National Bureau of Statistics.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2005,
+   "theme": "power_conflict",
+   "event": "A matatu taxi minibus was struck by a passenger train in Kisumu.",
+   "quote": "The second took place on the morning of 16 October 2005, when a matatu (taxi minibus) was struck by a passenger train.",
+   "stage": "verification",
+   "why": "The source mentions the event happened on 16 October 2005, but does not mention Kisumu."
+  }
+ ]
+}

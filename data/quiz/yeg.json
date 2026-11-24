@@ -1,0 +1,130 @@
+{
+ "id": "yeg",
+ "town": "Edmonton",
+ "source": "https://en.wikipedia.org/wiki/Edmonton",
+ "pool": [
+  {
+   "year": 1754,
+   "text": "Anthony Henday, an explorer for the Hudson's Bay Company, may have entered the Edmonton area.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1876,
+   "text": "Treaty 6 was signed between First Nations and the Crown in the region.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1891,
+   "text": "Edmonton established its very first power company to install streetlights along Jasper Avenue.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1892,
+   "text": "Edmonton was officially incorporated as a town with a population of 700.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "civic"
+  },
+  {
+   "year": 1892,
+   "text": "The Edmonton Police Service was founded, later maintaining approximately fourteen hundred officers.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "civic"
+  },
+  {
+   "year": 1903,
+   "text": "The Journal was established to produce print editions and e-versions in Edmonton.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "CKUA began broadcasting music as the first major radio station in the city.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "culture"
+  },
+  {
+   "year": 1929,
+   "text": "The Edmonton City Centre Airport opened and became Canada's first licensed airfield.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "Abdullah Yusuf Ali attended the opening of the new Al-Rashid Mosque in Canada.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "culture"
+  },
+  {
+   "year": 1943,
+   "text": "CFB Namao began operating as a major air force base in the area.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The University of Alberta established its music department to support music instruction.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "The Edmonton Philharmonic and Edmonton Pops orchestras amalgamated to form the modern version.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "The Northern Alberta Jubilee Auditorium was constructed for the province's golden jubilee.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "Scheduled light rail transit service officially began with subsequent extensions completed over time.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "The Sun newspaper was established in Edmonton with a circulation of fifty-five thousand.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "Edmonton adopted a European-modelled proof-of-payment fare collection system for transit.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "An F4 tornado hit the city and caused the deaths of 27 people.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "environment"
+  },
+  {
+   "year": 1989,
+   "text": "Jan Reimer became the city's first female mayor after being elected.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "City ownership of the telephone service ended when Ed Tel was sold to Telus.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "A composting facility was permanently shut down following structural roof inspection findings.",
+   "url": "https://en.wikipedia.org/wiki/Edmonton",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

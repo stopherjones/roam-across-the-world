@@ -1,0 +1,130 @@
+{
+ "id": "clo",
+ "town": "Cali",
+ "source": "https://en.wikipedia.org/wiki/Cali",
+ "pool": [
+  {
+   "year": 1498,
+   "text": "Sebastián de Belalcázar came to the American continent in the third voyage made by Columbus.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1532,
+   "text": "Sebastián de Belalcázar joined Francisco Pizarro in the conquest of Peru after serving in Darién and Nicaragua.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1534,
+   "text": "Sebastián de Belalcázar separated from Pizarro's expedition to find the city of Quito.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1536,
+   "text": "Petecuy formed a large army with many tribes and fought the Spaniards on Holy Tuesday.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1536,
+   "text": "The Spanish explorer Sebastián de Belalcázar founded Santiago de Cali.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "civic"
+  },
+  {
+   "year": 1537,
+   "text": "Captain Miguel Muñoz moved Santiago de Cali to its present location under the orders of Belalcázar.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "civic"
+  },
+  {
+   "year": 1540,
+   "text": "Belalcázar moved the governing function of Cali to Popayán owing to better weather.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "civic"
+  },
+  {
+   "year": 1793,
+   "text": "Santiago de Cali had thousands of inhabitants, including a population of African slaves.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "environment"
+  },
+  {
+   "year": 1929,
+   "text": "Soap Varela Hermanos was created during the early industrial growth period.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1940,
+   "text": "Cali ceased to be a single point of trade and its economy focused on industry.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1956,
+   "text": "Army trucks filled with dynamite exploded near the train station and destroyed city blocks.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "The Cali Fair began to be celebrated as the most important cultural event.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Santiago de Cali hosted the Pan American Games and was named the Sports Capital of Colombia.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "The government of Cali inaugurated La Torre de Cali, the city's largest building.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1986,
+   "text": "Mayoral elections started in the municipality of Cali.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "A notable cultural building containing exhibition saloons and a cinema was restored.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "The national government could not respond to local politicians as an economic crisis became apparent.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The Masivo Integrado de Occidente public transit system began operations in the city.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Ciudad Delirio premiered as a feature film set in Cali centered on salsa dancing.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "Cali became a focus center of Colombian protests marked by deadly clashes.",
+   "url": "https://en.wikipedia.org/wiki/Cali",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

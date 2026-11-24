@@ -1,0 +1,130 @@
+{
+ "id": "sfo",
+ "town": "San Francisco",
+ "source": "https://en.wikipedia.org/wiki/San_Francisco",
+ "pool": [
+  {
+   "year": 1769,
+   "text": "An overland Spanish exploration party arrived at San Francisco Bay.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "civic"
+  },
+  {
+   "year": 1775,
+   "text": "The Spanish ship San Carlos became the first ship to anchor.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "civic"
+  },
+  {
+   "year": 1776,
+   "text": "Settlers established the Presidio of San Francisco at the Golden Gate.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1776,
+   "text": "Perhaps the first historical observer record was from the De Anza Expedition.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "civic"
+  },
+  {
+   "year": 1833,
+   "text": "Juana Briones de Miranda was granted a small rancho at El Polín Spring.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "civic"
+  },
+  {
+   "year": 1847,
+   "text": "Mayor Bartlett ordained that the city should officially change its name.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "The city simultaneously constructed the San Francisco-Oakland Bay Bridge.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1937,
+   "text": "The Golden Gate Bridge was completed during the Great Depression.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1945,
+   "text": "The United Nations Charter creating the United Nations was drafted.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1951,
+   "text": "The Treaty of San Francisco re-established peaceful relations with Japan.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "Hippies flocked to Haight-Ashbury reaching a peak with the Summer of Love.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "California Institute of Integral Studies was founded to offer graduate programs.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "Bank of America completed the skyscraper at 555 California Street.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1971,
+   "text": "KPOO began operating as an independent African-American owned radio station.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "The Transamerica Pyramid was completed, igniting a wave of Manhattanization.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1972,
+   "text": "San Francisco Pride events began being held continuously every year.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Sutro Tower was built as an important broadcast tower for television stations.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "San Francisco officially declared itself to be a sanctuary city.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "The Loma Prieta earthquake caused destruction and loss of life.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "environment"
+  },
+  {
+   "year": 2025,
+   "text": "Rikki's opened as the first and only women's sports bar in the city.",
+   "url": "https://en.wikipedia.org/wiki/San_Francisco",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

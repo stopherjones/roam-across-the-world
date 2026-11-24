@@ -1,0 +1,130 @@
+{
+ "id": "hiu",
+ "town": "Honiara",
+ "source": "https://en.wikipedia.org/wiki/Honiara",
+ "pool": [
+  {
+   "year": 1925,
+   "text": "The Melanesian Brotherhood, which has offices in Honiara, was established by Ini Kopuria.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "American forces defeated the Japanese in a major battle at Henderson Field.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "American artillery and small arms destroyed a Japanese ship in shallow waters.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "Honiara became the administrative centre and capital of the British Solomon Islands Protectorate.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "Holy Cross Cathedral, a large Roman Catholic church, was consecrated in Honiara.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "The Cathedral Church of St Barnabas was consecrated in Honiara.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "culture"
+  },
+  {
+   "year": 1978,
+   "text": "Honiara became the new capital of the independent Solomon Islands.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1979,
+   "text": "Honiara remained a small town in population terms for a capital city.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "A capital territory comprising the metropolitan area of Honiara was proclaimed.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "civic"
+  },
+  {
+   "year": 1993,
+   "text": "The Solomon Islands Parliament Building, built with American aid, was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "The country earned a specific amount of money from tourism.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1998,
+   "text": "The Melanesia Arts and Crafts Festival was held for the first time in Honiara.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "Tourism in the city and nation accounted for a small percentage of total GDP.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "A coup attempt resulted in violent fighting between ethnic Malaitans and Guadalcanal natives.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2002,
+   "text": "Violence ensued in the city streets when two New Zealand diplomats and others were murdered.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "The Regional Assistance Mission to Solomon Islands was invited into the country.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "Riots broke out following the election of Snyder Rini as Prime Minister.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "The hospital accident and emergency department served a large number of patients.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "David Vunagi formally took over the post of archbishop at the Cathedral Church of St Barnabas.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "A bookstore called Save Senta opened at Point Cruz in Honiara.",
+   "url": "https://en.wikipedia.org/wiki/Honiara",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

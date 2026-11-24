@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9796,
+  "completionTokens": 7232,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 853,
+   "theme": "power_conflict",
+   "event": "Louis the German founded Fraumünster Church for his daughter Hildegard",
+   "quote": "Fraumünster (Women's Minster) Church of a former abbey for aristocratical women from southern Germany which was founded in 853 by Louis the German for his daughter Hildegard; first church built before 874; the romanesque choir dates from 1250 to 1270; the church enjoyed the patronage of kings and had the right of coinage from Zurich to the 13th century; after the Reformation, church and convent passed into the possession of the city; the most important jewelry – in addition to the largest organ in the canton with its 5,793 pipes and 92 stops – are colour windows: the window in the north transept of Augusto Giacometti (1945), the five-part cycle in the choir (1970) and the rosette in the southern transept (1978) are by Marc Chagall; also the church of Zurich's largest choir with 100 and more singers.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 2008,
+   "theme": "culture",
+   "event": "The UEFA Euro 2008 games were held in the Letzigrund Stadium",
+   "quote": "Zurich was one of six venues of the 1954 FIFA World Cup and one of eight venues of the UEFA Euro 2008. The Euro 2008 games were held in the Letzigrund Stadium.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

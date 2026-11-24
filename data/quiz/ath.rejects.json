@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4639,
+  "completionTokens": 3200,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1204,
+   "theme": "power_conflict",
+   "event": "The Fourth Crusade conquered Athens and the city was taken from the Latins.",
+   "quote": "In 1204, the Fourth Crusade conquered Athens and the city was not recovered from the Latins before it was taken by the Ottoman Turks.",
+   "stage": "verification",
+   "why": "The quote states the Fourth Crusade conquered Athens in 1204, but it was taken FROM the Latins later, not taken FROM the Latins in 1204."
+  },
+  {
+   "year": 1834,
+   "theme": "civic",
+   "event": "Athens was chosen to replace Nafplio as the second capital of Greece.",
+   "quote": "Following the Greek War of Independence and the establishment of the Greek Kingdom, Athens was chosen to replace Nafplio as the second capital of the newly independent Greek state in 1834, largely because of historical and sentimental reasons.",
+   "stage": "verification",
+   "why": "The quote says Athens replaced Nafplio as the SECOND capital (or rather, the text says 'replace Nafplio as the second capital', wait, Nafplio was the first, Athens was the new capital. The claim says 'second capital of Greece', which is supported, but let's check carefully. Actually Nafplio was the first capital, Athens became the capital in 1834. The text says 'replace Nafplio as the second capital', so it is supported)."
+  },
+  {
+   "year": 1836,
+   "theme": "civic",
+   "event": "The Old Royal Palace was built as the first important public building.",
+   "quote": "Thus, the Old Royal Palace was the first important public building to be built, between 1836 and 1843.",
+   "stage": "verification",
+   "why": "The source states it was built between 1836 and 1843, not completed in 1836."
+  }
+ ]
+}

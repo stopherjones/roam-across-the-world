@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 11639,
+  "completionTokens": 7867,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1850,
+   "theme": "commerce_industry",
+   "event": "California was quickly granted statehood and counties were established.",
+   "quote": "California was quickly granted statehood in 1850, and the U.S. San Francisco County was one of the state's 18 original counties established at California statehood in 1850.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1980,
+   "theme": "environment",
+   "event": "The San Francisco Recycling Program was one of the earliest curbside programs.",
+   "quote": "The 1980 San Francisco Recycling Program was one of the earliest curbside programs.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "Opened in 2013, the SFJAZZ Center hosts jazz performances year round.",
+   "quote": "Opened in 2013, the SFJAZZ Center hosts jazz performances year round.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

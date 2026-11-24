@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1909,
+  "completionTokens": 1879,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2012,
+   "theme": "food_daily",
+   "event": "The national census recorded the population of Bulawayo at 653,337 residents",
+   "quote": "The population of Bulawayo, according to the 2012 national census, stood at 653,337.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 2667,
+  "completionTokens": 2450,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1896,
+   "theme": "culture",
+   "event": "San Jose of the Recoleta Church founded, later completed in 1930.",
+   "quote": "San Jose of the Recoleta Church, founded in 1896 and completed in 1930.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2006,
+   "theme": "environment",
+   "event": "Tuni and Condoriri glaciers lost 39% of area between 1983‑2006.",
+   "quote": "The Tuni and Condoriri glaciers have lost 39% of their area between 1983 and 2006.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2019,
+   "theme": "culture",
+   "event": "Second inclusion of city’s cultural heritage in UNESCO list.",
+   "quote": "In 2019, it has been included into the Intangible Cultural World Heritage of UNESCO.",
+   "stage": "verification",
+   "why": "Source confirms inclusion in 2019 but does not specify it was the second inclusion"
+  }
+ ]
+}

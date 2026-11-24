@@ -1,0 +1,130 @@
+{
+ "id": "por",
+ "town": "Portsmouth",
+ "source": "https://en.wikipedia.org/wiki/Portsmouth",
+ "pool": [
+  {
+   "year": 1904,
+   "text": "The whole of Portsea Island came united under the control of Portsmouth borough council.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1912,
+   "text": "Milton Road Cemetery was founded with approximately twenty-five acres of land.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "environment"
+  },
+  {
+   "year": 1913,
+   "text": "A major terrorist incident occurred in the city leading to two deaths.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1916,
+   "text": "Portsmouth was bombed by a Zeppelin airship on the first day of October.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1922,
+   "text": "The Victory was placed in a permanent dry dock following a national appeal.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1924,
+   "text": "A memorial designed by Sir Robert Lorimer was unveiled by George VI.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "Portsmouth gained its city status following a sustained campaign by the local borough council.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The city council incorporated the motto Heaven's Light Our Guide into the municipal coat of arms.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "The Luftwaffe dropped 140 tonnes of high-explosive bombs during the heaviest raid on Portsmouth.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "A V-1 flying bomb struck Newcomen Road, resulting in fifteen fatalities in Portsmouth.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "The birthplace of Charles Dickens became a Grade I listed building.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "The Soviet cruiser Ordzhonikidze arrived in Portsmouth harbour on a diplomatic mission.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "The castle was withdrawn from active service and purchased by the city council.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "Zurich Insurance Group relocated its United Kingdom headquarters to Portsmouth.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1971,
+   "text": "The remains of Henry VIII's flagship Mary Rose were rediscovered on the seabed.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1973,
+   "text": "The city formerly operated its own airport named Portsmouth Airport until its closure.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1976,
+   "text": "Portsmouth Central Library was built in the brutalist style in Guildhall Walk.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "A British task force departed from Portsmouth to serve in the Falklands War.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "Argentine forces launched an invasion of the Falkland Islands and South Georgia.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1983,
+   "text": "The Royal Marines Museum opened to the public under the National Heritage Act.",
+   "url": "https://en.wikipedia.org/wiki/Portsmouth",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5609,
+  "completionTokens": 3956,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2006,
+   "theme": "commerce_industry",
+   "event": "An earth wire shackle broke and caused the 2006 Auckland Blackout.",
+   "quote": "The 2006 Auckland Blackout interrupted supply to the CBD and many inner suburbs after an earth wire shackle at Transpower's Otāhuhu substation broke and short-circuited the lines supplying the inner city.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Auckland recorded population decreases primarily driven by the COVID-19 pandemic.",
+   "quote": "In 2021 and 2022, Auckland recorded its only decreases in population, primarily due to the COVID-19 pandemic and the associated lack of international migration.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

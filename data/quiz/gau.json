@@ -1,0 +1,76 @@
+{
+ "id": "gau",
+ "town": "Guwahati",
+ "source": "https://en.wikipedia.org/wiki/Guwahati",
+ "pool": [
+  {
+   "year": 1920,
+   "text": "Guwahati houses the Court of the District and Sessions Judge, Kamrup.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "The Gauhati High Court was promulgated by Governor General Lord Mountbatten.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "The Guwahati Radio Station of All India Radio was inaugurated as Shillong-Guwahati Station.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "The Headquarter of the Shillong-Guwahati Station shifted from Shillong to Guwahati.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "The Saraighat Bridge was constructed by the Hindustan Construction Company.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1962,
+   "text": "The refinery at Noonmati was set up by Indian Oil Corporation Limited.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1970,
+   "text": "The inaugural sale took place and the first lot of tea was auctioned.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1972,
+   "text": "The capital of Assam moved to Dispur from the erstwhile Shillong capital.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The first sitting of the Budget Session of the Assam Legislative Assembly was held.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "A kilogram of Maijan Orthodox Golden tea sold for a record-setting price.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Guwahati was ranked the second most polluted city in a report published by IQAir.",
+   "url": "https://en.wikipedia.org/wiki/Guwahati",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

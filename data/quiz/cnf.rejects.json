@@ -1,0 +1,93 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3900,
+  "completionTokens": 4600,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1950,
+   "theme": "culture",
+   "event": "Belo Horizonte hosted matches of the 1950 FIFA World Cup.",
+   "quote": "Belo Horizonte was one of the host cities of the 1950 and the 2014 FIFA World Cup.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "City staged six matches during the 2014 FIFA World Cup.",
+   "quote": "Mineirão hosted a total of six matches during the 2014 FIFA World Cup, including the infamous Mineiraço, where Brazil lost 7-1 to Germany.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2013,
+   "theme": "culture",
+   "event": "Belo Horizonte co‑hosted the 2013 FIFA Confederations Cup.",
+   "quote": "Additionally, the city shared as host of the 2013 FIFA Confederations Cup and the football tournament during the 2016 Summer Olympics.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1974,
+   "theme": "commerce_industry",
+   "event": "FIAT opened its automobile plant in Betim.",
+   "quote": "Multinational companies like FIAT (which opened its plant in Betim in 1974), Arcelor, and Toshiba have subsidiaries in the region...",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2007,
+   "theme": "commerce_industry",
+   "event": "Per‑capita income recorded at R$15,830.",
+   "quote": "In 2007, it was R$15,830 (about US$9,893).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1988,
+   "theme": "environment",
+   "event": "Baleia State Park created, though not yet implemented by 2014.",
+   "quote": "It contains the 102 hectares (250 acres) Baleia State Park, created in 1988 but still not implemented as of 2014.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "Census recorded 2,315,560 residents in the city.",
+   "quote": "According to the 2022 census, there were 2,315,560 people residing in the city of Belo Horizonte.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1965,
+   "theme": "culture",
+   "event": "Arena Independência opened for the 1950 World Cup.",
+   "quote": "The oldest stadium in the city is the Arena Independência, built for the 1950 FIFA World Cup, and site of the so-called Miracle Match, when an amateur United States national soccer team beat heavy favourites England in an unexpected 1–0 win. Construction took almost five years, and officially opened on September 5, 1965.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1965,
+   "theme": "culture",
+   "event": "United States upset England 1‑0 in the Miracle Match.",
+   "quote": "the site of the so-called Miracle Match, when an amateur United States national soccer team beat heavy favourites England in an unexpected 1–0 win.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2012,
+   "theme": "culture",
+   "event": "Mineirão redevelopment finished after three years of work.",
+   "quote": "When Brazil won their bid to host the 2014 FIFA World Cup, it was clear that Mineirão needed to undergo a large redevelopment. Building works took a total of three years and were completed in December 2012.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

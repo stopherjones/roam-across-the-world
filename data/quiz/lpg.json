@@ -1,0 +1,130 @@
+{
+ "id": "lpg",
+ "town": "Las Palmas",
+ "source": "https://en.wikipedia.org/wiki/Las_Palmas",
+ "pool": [
+  {
+   "year": 1478,
+   "text": "Juan Rejón established the settlement known then as Real de Las Palmas.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1483,
+   "text": "Pedro de Vera incorporated the island into the Crown of Castile.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1485,
+   "text": "The diocese was transferred from Lanzarote to Real de Las Palmas.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "civic"
+  },
+  {
+   "year": 1492,
+   "text": "Christopher Columbus anchored his ship Pinta in the port for repairs.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "culture"
+  },
+  {
+   "year": 1595,
+   "text": "Francis Drake attempted to plunder the town during a naval conflict.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1599,
+   "text": "Pieter van der Does led a Dutch raid that destroyed parts of the town.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1760,
+   "text": "Basílica de Nuestra Señora del Pino was established in Teror.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "culture"
+  },
+  {
+   "year": 1838,
+   "text": "Nicolás Estévanez was born as a military officer, politician and poet.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "The Province of Canary Islands was split into Santa Cruz de Tenerife and Las Palmas.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "A set of 37 caves named Cueva de Los Frailes was discovered.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "environment"
+  },
+  {
+   "year": 1956,
+   "text": "A museum dedicated to Néstor Martín-Fernández de la Torre opened.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The port benefited greatly from the closure of the Suez Canal.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1969,
+   "text": "Javier Bardem was born as a notable Spanish actor.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "The archaeological site of El Tope was discovered with aboriginal artifacts.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "environment"
+  },
+  {
+   "year": 1989,
+   "text": "The Atlantic Center of Modern Art opened as a major cultural reference.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "A transport company formed resulting from the merger of Salcai and Utinsa.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "Spanish Ministry of Development put out a contract for a railway feasibility study.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "The Teatro Pérez Galdós reopened following extensive renovation works.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The airport handled over ten million passengers and massive cargo amounts.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The Guiniguada Theater prepared to reopen after a decade long refurbishment.",
+   "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

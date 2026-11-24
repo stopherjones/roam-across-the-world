@@ -1,0 +1,130 @@
+{
+ "id": "abq",
+ "town": "Albuquerque",
+ "source": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+ "pool": [
+  {
+   "year": 1793,
+   "text": "A historic building was constructed that is now among the city's oldest survivors.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "civic"
+  },
+  {
+   "year": 1821,
+   "text": "Mexico gained independence and subsequently established a local military presence.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1846,
+   "text": "A federal garrison and quartermaster depot named the Post of Albuquerque began operating.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1862,
+   "text": "Confederate troops under General Henry Hopkins Sibley occupied the community for a month.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1879,
+   "text": "Old Albuquerque High School was established as the municipality's first public high school.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "civic"
+  },
+  {
+   "year": 1880,
+   "text": "The Atchison, Topeka and Santa Fe Railroad arrived and bypassed the traditional Plaza.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "The initial travelers driving along Route 66 appeared within the municipality.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1933,
+   "text": "John Gaw Meem served as the architect for the University of New Mexico commission.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Route 66 was realigned to follow a more direct east-west path along Central Avenue.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1950,
+   "text": "A United States Air Force bomber carrying a nuclear weapon crashed into a nearby mountain.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "A military aircraft accidentally dropped a nuclear bomb near the landing area.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "The New Mexico Arts and Crafts Fair held its inaugural annual nonprofit exhibition.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "Passage of the Arroyo Flood Control Act enabled concrete channel construction.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "environment"
+  },
+  {
+   "year": 1979,
+   "text": "The Old Main Library building officially received official landmark recognition.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "City and county governments established the joint Albuquerque/Bernalillo County Library System.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "The Bernalillo County Metropolitan Detention Center opened its doors for operations.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "The municipality celebrated its tricentennial with diverse cultural events.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "The local government opened the inaugural Bicycle Boulevard along Silver Avenue.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "A BioScience Center opened in Uptown Albuquerque as a private incubator.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "The state-funded Bioscience Authority was established to promote local industry development.",
+   "url": "https://en.wikipedia.org/wiki/Albuquerque%2C_New_Mexico",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 10082,
+  "completionTokens": 5299,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1497,
+   "theme": "culture",
+   "event": "Vasco da Gama recorded a sighting of the Cape of Good Hope.",
+   "quote": "In 1497, Portuguese explorer Vasco da Gama recorded a sighting of the Cape of Good Hope.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

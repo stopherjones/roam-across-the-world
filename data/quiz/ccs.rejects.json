@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3507,
+  "completionTokens": 2936,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1936,
+   "theme": "civic",
+   "event": "The total population of Venezuela matched the estimated population of Greater Caracas in 2000.",
+   "quote": "In 1936, the total population of Venezuela had been the same as the estimated population of Greater Caracas in 2000: almost 4 million inhabitants.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2011,
+   "theme": "civic",
+   "event": "Calculations by the National Institute of Statistics recorded the metropolitan city population for the census.",
+   "quote": "According to 2011 calculations by the National Institute of Statistics, the metropolitan city had a population for the 2011 census of 2,923,959 inhabitants.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2013,
+   "theme": "commerce_industry",
+   "event": "The World Economic Forum evaluated countries for Travel and Tourism competitiveness and ministry budgets.",
+   "quote": "In 2013, the World Economic Forum evaluated countries for Travel and Tourism competitiveness. In 2013, the budget for the Ministry of Tourism was only 173.8 million bolivars, while the Ministry of the Youth received approximately 724.6 million bolivars.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2023,
+   "theme": "power_conflict",
+   "event": "Caracas ranked as the nineteenth city regarding homicide rates globally outside of a warzone.",
+   "quote": "In 2023 it was the nineteenth, with a rate of around 52 murders per 100,000 people.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

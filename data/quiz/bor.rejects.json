@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4556,
+  "completionTokens": 2941,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "The Bordeaux proper population was recorded within its municipal territory.",
+   "quote": "The city of Bordeaux proper had a population of 267,991 in 2023 within its small municipal territory of 49 km2 (19 sq mi), but together with its suburbs and exurbs the Bordeaux metropolitan area had a population of 1,426,278 (2023), the sixth-most populous in France after Paris, Lyon, Marseille, Lille, and Toulouse.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

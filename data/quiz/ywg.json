@@ -1,0 +1,130 @@
+{
+ "id": "ywg",
+ "town": "Winnipeg",
+ "source": "https://en.wikipedia.org/wiki/Winnipeg",
+ "pool": [
+  {
+   "year": 1738,
+   "text": "French traders built the first fort, Fort Rouge, on the site.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "civic"
+  },
+  {
+   "year": 1812,
+   "text": "A settlement was founded by the Selkirk settlers of the Red River Colony.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "civic"
+  },
+  {
+   "year": 1873,
+   "text": "On November 8, Winnipeg was incorporated as a city with the Selkirk settlement.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "civic"
+  },
+  {
+   "year": 1912,
+   "text": "The Winnipeg Art Gallery was founded as Western Canada's oldest public art gallery.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 1913,
+   "text": "The Pantages Playhouse Theatre opened as a vaudeville house in the city.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 1914,
+   "text": "Canada's first jazz concert took place at the Pantages Playhouse Theatre.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 1919,
+   "text": "More than 30,000 workers walked off their jobs in the Winnipeg general strike.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1920,
+   "text": "The Manitoba Legislative Building opened, constructed mainly of Tyndall stone.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "civic"
+  },
+  {
+   "year": 1925,
+   "text": "Le Cercle Molière was founded in St Boniface as Canada's oldest theatre company.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "The Victory Loan Campaign staged a mock Nazi invasion of Winnipeg to promote awareness.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 1954,
+   "text": "Television broadcasting in Winnipeg started with CBWT going on the air.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "Winnipeg became the first Canadian host of the Pan American Games.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "The Royal Canadian Mint was established, producing all circulating coinage in Canada.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "The reclamation and redevelopment of CNR rail yards turned the Forks into a tourist attraction.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "The 30-block Exchange District received National Historic Site of Canada status.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "environment"
+  },
+  {
+   "year": 2003,
+   "text": "The City of Winnipeg Act was repealed and replaced with the City of Winnipeg Charter.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Winnipeg was named the Cultural Capital of Canada by Canadian Heritage.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "KPMG ranked Winnipeg as the least expensive location to do business in western Canada.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "The Canadian Museum for Human Rights opened to the public in September.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "The city started to deal with an increasingly large methamphetamine problem fueling violent crime.",
+   "url": "https://en.wikipedia.org/wiki/Winnipeg",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

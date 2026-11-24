@@ -1,0 +1,130 @@
+{
+ "id": "mpt",
+ "town": "Maputo",
+ "source": "https://en.wikipedia.org/wiki/Maputo",
+ "pool": [
+  {
+   "year": 1544,
+   "text": "Portuguese navigator explored the area and the settlement was named after him.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "culture"
+  },
+  {
+   "year": 1781,
+   "text": "A Portuguese fort was established on the site of the modern city.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1787,
+   "text": "A Portuguese fortress was completed around which the town developed.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1850,
+   "text": "A town grew around the fort starting around this year.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  },
+  {
+   "year": 1876,
+   "text": "A commission was sent by the Portuguese government to drain marshy land.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  },
+  {
+   "year": 1876,
+   "text": "Lourenço Marques was elevated to the status of town.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  },
+  {
+   "year": 1936,
+   "text": "Trams have not been in use at all since this year.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1962,
+   "text": "The University of Lourenço Marques was opened.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "The Universidade Eduardo Mondlane was established as the Universidade de Lourenço Marques.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "The track was renovated and the surface changed to meet safety requirements.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "The main port of Maputo handled seventeen million tons of cargo at its peak.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1975,
+   "text": "The city became the national capital upon Mozambican independence.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1976,
+   "text": "The city name was officially changed to Maputo in February.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Samora Machel renamed the hospital as Hospital Central de Maputo.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "Television was introduced before which film and cinema had a prominent position.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The Birmingham based reggae group UB40 held a one-night-only concert.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "The municipality of Maputo began a project to seriously consider rehabilitating infrastructure.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "An international terminal was opened with a capacity for nine hundred thousand passengers.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The second phase of the rehabilitation project, PROMAPUTO2, began.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "President Armando Guebuza announced that Vila Algarve would be restored.",
+   "url": "https://en.wikipedia.org/wiki/Maputo",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

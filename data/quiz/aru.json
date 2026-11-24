@@ -1,0 +1,106 @@
+{
+ "id": "aru",
+ "town": "Arusha",
+ "source": "https://en.wikipedia.org/wiki/Arusha",
+ "pool": [
+  {
+   "year": 1896,
+   "text": "Arusha was conquered by the Germans after the murder of two missionaries.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1900,
+   "text": "The Germans established a permanent presence when a military fort was built.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1916,
+   "text": "The British took Arusha from the Germans during World War I.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1928,
+   "text": "The extension of the railroad greatly increased commerce in the area.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1940,
+   "text": "The Great Depression squelched commerce and Arusha had fewer than residents.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "A state of emergency was declared in response to the Mau Mau Uprising.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "Official documents ceding independence to Tanganyika were signed at Arusha.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "Arusha was the setting for the film Hatari starring John Wayne.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The Arusha Declaration was signed in the city of Arusha.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "A public museum was opened displaying important assets to the scientific community.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "The Arusha Accords were signed by representatives of competing factions.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "civic"
+  },
+  {
+   "year": 1994,
+   "text": "The UN Security Council decided that Arusha should host the tribunal.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The Arusha Peace and Reconciliation Agreement for Burundi was signed.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "Arusha was granted city status with it becoming official later.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "A quarry located in Arusha collapsed and killed fourteen miners.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "environment"
+  },
+  {
+   "year": 2015,
+   "text": "The Arusha Agreement created a framework for the reunification of the party.",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "edi",
+ "town": "Edinburgh",
+ "source": "https://en.wikipedia.org/wiki/Edinburgh",
+ "pool": [
+  {
+   "year": 1127,
+   "text": "King David I granted a toft in burgo meo de Edenesburg to the Priory of Dunfermline.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1506,
+   "text": "Royal College of Surgeons of Edinburgh was established by royal charter in fifteen hundred six.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1582,
+   "text": "King James VI and I gave the town council a royal charter permitting university establishment.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "civic"
+  },
+  {
+   "year": 1583,
+   "text": "The University of Edinburgh was established by royal charter in fifteen eighty-three.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1603,
+   "text": "King James VI succeeded to the English throne, uniting the crowns of Scotland and England.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1611,
+   "text": "An act of parliament created the High Constables of Edinburgh to keep order.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "civic"
+  },
+  {
+   "year": 1932,
+   "text": "Edinburgh's Orthodox synagogue opened in Salisbury Road to accommodate a congregation.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1954,
+   "text": "The City of Edinburgh entered into fourteen international twinning arrangements starting from nineteen fifty-four.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "A green belt encircling Edinburgh was designated, stretching from Dalmeny to Prestongrange.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "environment"
+  },
+  {
+   "year": 1966,
+   "text": "Heriot-Watt University was granted university status by royal charter in nineteen sixty-six.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "Edinburgh served as the venue hosting the Eurovision Song Contest.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "Napier College was renamed Napier Polytechnic in nineteen eighty-six.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "The Edinburgh Diamond Devils baseball club won its first Scottish Championship as Reivers in nineteen ninety-one.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1992,
+   "text": "Edinburgh Napier University gained university status in nineteen ninety-two.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "Edinburgh's Old and New Towns were listed as a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "The Scotland Act was passed establishing a devolved Scottish Parliament and Scottish Executive.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The baseball club adopted its present name of Edinburgh Diamond Devils in nineteen ninety-nine.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "The medical school moved to purpose-built accommodation adjacent to the new Royal Infirmary in two thousand and two.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Edinburgh Park station opened to serve the Gyle business park and headquarters.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2003,
+   "text": "The Edinburgh Marathon has been held annually in the city since two thousand and three.",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

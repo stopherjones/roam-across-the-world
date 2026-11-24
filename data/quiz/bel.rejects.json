@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 11153,
+  "completionTokens": 7674,
+  "chunksRead": 2,
+  "chunksAvailable": 3
+ },
+ "rejects": [
+  {
+   "year": 1613,
+   "theme": "power_conflict",
+   "event": "Belfast received its borough status from the monarch James VI and I.",
+   "quote": "Belfast was granted borough status by James VI and I by James VI and I in 1613 and official city status by Queen Victoria in 1888.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1872,
+   "theme": "culture",
+   "event": "A twenty-year party processions ban was lifted regarding Orange parades.",
+   "quote": "Since the lifting in 1872 of a twenty-year party processions ban, Orange parades in celebration of \"the Twelfth\" [of July] and the bonfires of the previous evening, known as the \"Eleventh Night\", have been a fixed fixture of the Belfast calendar.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1888,
+   "theme": "power_conflict",
+   "event": "Official city status was granted to Belfast by the monarch Queen Victoria.",
+   "quote": "Belfast was granted borough status by James VI and I by James VI and I in 1613 and official city status by Queen Victoria in 1888.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1737,
+   "theme": "culture",
+   "event": "The News Letter was first printed, becoming the oldest English language daily newspaper.",
+   "quote": "The city is the home of the Belfast Telegraph, Irish News and, first printed in 1737,The News Letter, the oldest English language daily newspaper in the world still in publication.",
+   "stage": "verification",
+   "why": "The source states The News Letter was first printed in 1737, but does not explicitly state the claim that it became the oldest English language daily newspaper in that exact year."
+  },
+  {
+   "year": 1911,
+   "theme": "commerce_industry",
+   "event": "RMS Titanic was launched here, giving a namesake to shipyard land.",
+   "quote": "Named after RMS Titanic, which was launched here in 1911, work began in 2003 to transform some former shipyard land into \"one of the largest waterfront developments in Europe\".",
+   "stage": "verification",
+   "why": "The source states RMS Titanic was launched in 1911 (work began in 2003), but doesn't explicitly state the claim that launching it gave a namesake to the shipyard land."
+  }
+ ]
+}

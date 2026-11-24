@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1816,
+  "completionTokens": 2228,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1942,
+   "theme": "power_conflict",
+   "event": "Michihiko Kano, a Japanese politician, was born in nineteen forty-two.",
+   "quote": "Michihiko Kano (鹿野 道彦; 1942‡2021), Japanese politician",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1996,
+   "theme": "culture",
+   "event": "Kano Omata, a Japanese competitor in synchronized swimming, was born.",
+   "quote": "Kano Omata (小俴 夏乃; born 1996), Japanese competitor in synchronized swimming",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

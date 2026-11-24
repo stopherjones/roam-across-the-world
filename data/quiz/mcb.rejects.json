@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3694,
+  "completionTokens": 4057,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1529,
+   "theme": "power_conflict",
+   "event": "German explorer Ambrosius Ehinger founded Neu‑Nürnberg after battles with the Coquivacoa",
+   "quote": "In August 1529, the German explorer Ambrosius Ehinger led an expedition to Lake Maracaibo, encountering strong resistance from the indigenous Coquivacoa.",
+   "stage": "verification",
+   "why": "Quote describes expedition and resistance but does not state founding Neu‑Nürnberg."
+  },
+  {
+   "year": 1823,
+   "theme": "power_conflict",
+   "event": "Battle of Lake Maracaibo secured Venezuelan independence",
+   "quote": "Morales reestablished Spanish rule in 1822, but was ultimately defeated at the Battle of Lake Maracaibo on 24 July 1823.",
+   "stage": "verification",
+   "why": "Quote mentions the 1823 battle but does not explicitly state it secured Venezuelan independence."
+  }
+ ]
+}

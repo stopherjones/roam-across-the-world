@@ -1,0 +1,130 @@
+{
+ "id": "ven",
+ "town": "Venice",
+ "source": "https://en.wikipedia.org/wiki/Venice",
+ "pool": [
+  {
+   "year": 1295,
+   "text": "Barovier and Toso was formed as one of the oldest companies.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1348,
+   "text": "The devastating Black Death struck Venice, causing immense suffering and loss of life.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "environment"
+  },
+  {
+   "year": 1453,
+   "text": "Sultan Mehmet The Conqueror took the city after the Byzantine Empire was weakened.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1494,
+   "text": "Aldus Manutius established the Aldine Press, one of Italy's earliest printing presses.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "culture"
+  },
+  {
+   "year": 1497,
+   "text": "The Aldine Press issued the first printed work of Aristotle.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "culture"
+  },
+  {
+   "year": 1523,
+   "text": "Daniel Bomberg printed the first complete and uncensored printed edition of the Talmud.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "culture"
+  },
+  {
+   "year": 1932,
+   "text": "The international art cinematography festival was founded by a count.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "The activities of the Biennale were interrupted by the war.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "British Eighth Army troops under Lieutenant General Freyberg liberated Venice.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1987,
+   "text": "The lagoon and the city were inscribed as a UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "environment"
+  },
+  {
+   "year": 2000,
+   "text": "The city established a partnership with a Greek association.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "The city signed a cultural promotion agreement with a ministry.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "Qingdao in China established a science and technology partnership agreement.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "Italian Prime Minister Silvio Berlusconi inaugurated the MOSE Project experimental engineering model.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "The city opened the Ponte della Costituzione, the fourth bridge across the Grand Canal.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "Venice announced the desire to end a sister city relationship.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2019,
+   "text": "Venice suffered severe flooding when waters peaked at 1.87 metres.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "environment"
+  },
+  {
+   "year": 2019,
+   "text": "The cruise ship MSC Opera rammed a tourist riverboat docked on the Giudecca Canal.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2020,
+   "text": "MOSE was activated for the first time in response to a predicted high-tide event.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "environment"
+  },
+  {
+   "year": 2021,
+   "text": "Venetian glass trade beads were found at prehistoric Inuit sites.",
+   "url": "https://en.wikipedia.org/wiki/Venice",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

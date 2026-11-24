@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 4571,
+  "completionTokens": 2052,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1974,
+   "theme": "environment",
+   "event": "The 1974 Dunedin earthquake caused about $3.5 million in damages.",
+   "quote": "The first earthquake to cause widespread damage in Dunedin since its founding was the 1974 Dunedin earthquake, which had a magnitude of 4.9 and caused about $3.5 million in damages (2024 terms).",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10052,
+  "completionTokens": 6887,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1973,
+   "theme": "civic",
+   "event": "Coleman Young was elected as the first black mayor of the city.",
+   "quote": "In 1973, the city elected its first black mayor, Coleman Young.",
+   "source": "https://en.wikipedia.org/wiki/Detroit",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

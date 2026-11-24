@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5256,
+  "completionTokens": 3958,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 12,
+   "theme": "power_conflict",
+   "event": "The Roman camp of Argentoratum was first mentioned in history.",
+   "quote": "The Roman camp of Argentoratum was first mentioned in 12 BC; the city of Strasbourg which grew from it celebrated its 2,000th anniversary in 1988.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 1991,
+   "theme": "civic",
+   "event": "Strasbourg established twinning with Ramat Gan and cooperative agreement with Jacmel.",
+   "quote": "Ramat Gan, Israel, since 1991\nStrasbourg has cooperative agreements with:\n Jacmel, Haiti, since 1991 (Coopération décentralisée)",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

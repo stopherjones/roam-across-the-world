@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3766,
+  "completionTokens": 3844,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "The population of Kumasi was recorded as 443,981 in census.",
+   "quote": "It is the second largest city in the country, with a population of 443,981 as of the 2021 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1718,
+   "theme": "power_conflict",
+   "event": "Aowin King Ebirimoro invaded Kumasi and sacked the capital city successfully.",
+   "quote": "In 1718–19, Aowin King Ebirimoro invaded Kumasi and sacked the capital.",
+   "stage": "verification",
+   "why": "The source specifies the year as 1718-19, not just 1718."
+  },
+  {
+   "year": 1896,
+   "theme": "power_conflict",
+   "event": "British forces took over Kumasi and built Fort Kumasi museum.",
+   "quote": "After being taken over by the British in 1896, coupled with experiencing a fast population growth, Kumasi rapidly grew with improvements to its infrastructure, such as roads and the addition of railways.",
+   "stage": "verification",
+   "why": "The source mentions the British took over in 1896, but does not mention building the Fort Kumasi museum in that year."
+  }
+ ]
+}

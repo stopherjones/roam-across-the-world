@@ -1,0 +1,130 @@
+{
+ "id": "aqp",
+ "town": "Arequipa",
+ "source": "https://en.wikipedia.org/wiki/Arequipa",
+ "pool": [
+  {
+   "year": 1540,
+   "text": "Founding of Arequida as Villa Hermosa de Nuestra Señora de la Asunta",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "civic"
+  },
+  {
+   "year": 1540,
+   "text": "Plan of 49 blocks or islands laid out for the city foundation.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "civic"
+  },
+  {
+   "year": 1541,
+   "text": "Arequipa elevated to city status by royal decree",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "civic"
+  },
+  {
+   "year": 1582,
+   "text": "Earthquake promoted sillar as preferred building material in architecture.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "culture"
+  },
+  {
+   "year": 1805,
+   "text": "Received the title \"Most Faithful\" from Charles IV",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "civic"
+  },
+  {
+   "year": 1818,
+   "text": "City council granted the address \"Most Excellent\"",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "civic"
+  },
+  {
+   "year": 1928,
+   "text": "First radio tests conducted in Arequipa, pioneering broadcasting.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "Luis Sánchez Cerro seized power in Arequipa",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1930,
+   "text": "Radio Landa became the first official regional radio station.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "José María Morante Archaeological Museum opened in historic building.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "culture"
+  },
+  {
+   "year": 1940,
+   "text": "Municipality opened maternal nursery and created office to control street begging.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "Rodríguez Ballón International Airport opened",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1940,
+   "text": "Concept of Ciudad Universitaria de Independencia designed by Héctor Velarde.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "Francisco Mostajo led a revolution against Odría",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "Earthquake accelerated migration and urbanization",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "environment"
+  },
+  {
+   "year": 1958,
+   "text": "Earthquake accelerated peripheral urban growth and relocation of institutions.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "environment"
+  },
+  {
+   "year": 1959,
+   "text": "Television inaugurated in Cultural Pavilion of National University of San Agustín.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Second major earthquake further shaped urban expansion patterns.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "environment"
+  },
+  {
+   "year": 1962,
+   "text": "First decentralized TV signal broadcast by Radio Televisión Continental (channel 6).",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Picanterías recognized as Cultural Heritage of the Nation.",
+   "url": "https://en.wikipedia.org/wiki/Arequipa",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

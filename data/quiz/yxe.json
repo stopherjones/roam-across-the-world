@@ -1,0 +1,112 @@
+{
+ "id": "yxe",
+ "town": "Saskatoon",
+ "source": "https://en.wikipedia.org/wiki/Saskatoon",
+ "pool": [
+  {
+   "year": 1882,
+   "text": "Saskatoon was founded as a Temperance colony by the Toronto-based Temperance Colonization Society.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "civic"
+  },
+  {
+   "year": 1906,
+   "text": "Saskatoon incorporated as a city, absorbing the communities of Saskatoon, Riversdale, and Nutana.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The Capitol Theatre opened in Saskatoon featuring the first talking movie exhibition.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "Marquis Downs at Prairieland Park began hosting live horse racing until its closure.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "Innovation Place was founded as a science and technology park bringing together numerous industries.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2003,
+   "text": "Lions Skatepark was constructed and opened within the Riversdale area of the city.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The historic Roxy Theatre reopened following a period of sitting unused for over a decade.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Capitol 4 movie theatre shut down permanently in the downtown core area.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The NASCAR Canadian Tire Series made its inaugural stop at the racing track.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "The museum design won the prestigious Award of Excellence from Canadian Architect magazine.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Construction of the city ring road Circle Drive concluded with the South project.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "The Rush lacrosse team relocated to Saskatoon from Edmonton and achieved immediate success.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "The Remai Modern opened to the public and received major international travel recognition.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Jim Pattison Children's Hospital opened under the auspices of the Saskatoon Health Region.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "River Landing Towers completed construction featuring residential and office spaces.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "The Saskatoon Berries joined the Western Canadian Baseball League as an expansion team.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "FlixBus started operating daily transportation rides connecting Saskatoon with other prairie hubs.",
+   "url": "https://en.wikipedia.org/wiki/Saskatoon",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "hly",
+ "town": "Holyhead",
+ "source": "https://en.wikipedia.org/wiki/Holyhead",
+ "pool": [
+  {
+   "year": 1828,
+   "text": "Lifeboat station was established to aid maritime rescue operations in Holyhead.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "civic"
+  },
+  {
+   "year": 1832,
+   "text": "Parliamentary borough created covering the town area as part of Beaumaris Boroughs.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "civic"
+  },
+  {
+   "year": 1838,
+   "text": "Mail service through Holyhead temporarily suspended in favor of Liverpool rail route.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1839,
+   "text": "Holyhead lost the London‑Dublin mail contract to Liverpool port.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1848,
+   "text": "Construction of substantial breakwater began, continuing into the 1870s.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "environment"
+  },
+  {
+   "year": 1848,
+   "text": "Soldiers Point Hotel constructed as residence for harbour alteration engineer.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1850,
+   "text": "North Wales coastal railway opened, reinstating Irish Mail service at Holyhead.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1850,
+   "text": "Chester and Holyhead Railway completed, enabling new Holyhead railway station.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "civic"
+  },
+  {
+   "year": 1927,
+   "text": "National Eisteddfod held in Holyhead, showcasing Welsh arts and literature.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "Holyhead Urban District abolished; area became a community under county council.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "Holyhead Rural parish renamed Trearddur, reflecting local identity.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "Census reported 47% of Holyhead residents able to speak Welsh.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Aluminium smelter ceased operations, ending Holyhead's main industrial activity.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "British government listed Wylfa as potential future nuclear power station site.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "Soldiers Point Hotel badly damaged by fire, impacting historic building.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "Census showed 52.2% of Welsh‑born residents could speak Welsh.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Holyhead & Anglesey Amateur Boxing Club founded, promoting local sport.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Holyhead officially twinned with Greystones, County Wicklow, Ireland.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Port remained second busiest UK roll‑on roll‑off hub until end of year.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2021,
+   "text": "Freight traffic from Ireland dropped by half following Brexit agreement.",
+   "url": "https://en.wikipedia.org/wiki/Holyhead",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

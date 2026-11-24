@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 10234,
+  "completionTokens": 5566,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1926,
+   "theme": "civic",
+   "event": "Portsmouth achieved city status on 21 April 1926 in the United Kingdom.",
+   "quote": "Portsmouth achieved city status on 21 April 1926.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2008,
+   "theme": "commerce_industry",
+   "event": "A proposed 25-storey tower opposite Portsmouth and Southsea station was announced.",
+   "quote": "Development of Gunwharf Quays continued until 2007, when the 330-foot-tall (101 m) No. Number One Portsmouth, a proposed 25-storey 330 feet (101 m) tower opposite Portsmouth & Southsea station, was announced at the end of October 2008.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "Portsmouth City Council made a bid to become UK City of Culture 2029.",
+   "quote": "Portsmouth City Council made a bid on 28 November 2025 to become UK City of Culture 2029.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1906,
+   "theme": "power_conflict",
+   "event": "HMS Dreadnought was launched from Portsmouth Dockyard as a major naval advance.",
+   "quote": "In 1906, HMS Dreadnought was launched from Portsmouth Dockyard. The ship's entry into service in 1906 represented such an advance in naval technology that her name came to be associated with an entire generation of battleships.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2004,
+   "theme": "culture",
+   "event": "The Tricorn Centre was demolished following extensive debates regarding its architectural preservation.",
+   "quote": "The Tricorn Centre, called \"the ugliest building in the UK\" by the BBC, was demolished in late 2004 after years of debate over the expense of demolition and whether it was worth preserving as an example of 1960s brutalist architecture.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

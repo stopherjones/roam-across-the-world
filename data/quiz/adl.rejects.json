@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9194,
+  "completionTokens": 7473,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1954,
+   "theme": "environment",
+   "event": "Adelaide experienced its largest recorded earthquake to date near Darlington.",
+   "quote": "On 1 March 1954 at 3:40 am Adelaide experienced its largest recorded earthquake to date, with the epicentre 12 km from the city centre at Darlington, and a reported magnitude of 5.6.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2011,
+   "theme": "environment",
+   "event": "South Australia generated a significant portion of its electricity from wind power.",
+   "quote": "In 2011, South Australia generated 18% of its electricity from wind power, and had 51% of the installed capacity of wind generators in Australia.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2725,
+  "completionTokens": 2527,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1883,
+   "theme": "environment",
+   "event": "George Westbrook recorded a tropical cyclone that struck Funafuti in December.",
+   "quote": "George Westbrook, a trader based in Funafuti, recorded a tropical cyclone that struck Funafuti on 23–24 December 1883.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2017,
+   "theme": "civic",
+   "event": "A census recorded that Funafuti has a population of 6,320 people.",
+   "quote": "As of the 2017 census, it has a population of 6,320 people.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "adl",
+ "town": "Adelaide",
+ "source": "https://en.wikipedia.org/wiki/Adelaide",
+ "pool": [
+  {
+   "year": 1836,
+   "text": "Named after Adelaide of Saxe-Meiningen, the city was founded as a planned British colony.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "civic"
+  },
+  {
+   "year": 1838,
+   "text": "The Holy Trinity Church on North Terrace was built as the first church.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "culture"
+  },
+  {
+   "year": 1838,
+   "text": "Governor Hindmarsh created the South Australian Police Force under Henry Inman.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1838,
+   "text": "Adelaide's early economy started to get on its feet with livestock arrivals.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1839,
+   "text": "The Royal Adelaide Show was established as an annual agricultural show.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1840,
+   "text": "James Hurtle Fisher was elected as Australia's first mayor.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "Kaurna culture was almost completely lost with the last speaker passing away.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "culture"
+  },
+  {
+   "year": 1946,
+   "text": "The Adelaide Electric Supply Company was nationalised by the Playford government to become ETSA.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "Adelaide Airport opened, replacing Parafield Airport as the city's main aerodrome.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "The Mannum–Adelaide pipeline brought River Murray water to the city.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "environment"
+  },
+  {
+   "year": 1960,
+   "text": "The biennial Adelaide Festival of Arts commenced to anchor the arts scene.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "South Australia became the first Australian state to decriminalise homosexuality.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Massada College, a Jewish day school, opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "Premier David Tonkin committed his government to selling off MATS plan land.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The State Bank collapsed during an economic recession.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "The collapse of the State Bank resulted in large levels of state debt.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "The Olsen Government privatised ETSA through a lease and outright purchase arrangement.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1999,
+   "text": "The Adelaide Festival of Ideas was established as a separate festival.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "A decision was made to revert the ship's name to the City of Adelaide.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "It was officially launched at the Adelaide Central Markets.",
+   "url": "https://en.wikipedia.org/wiki/Adelaide",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

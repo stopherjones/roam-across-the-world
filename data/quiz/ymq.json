@@ -1,0 +1,130 @@
+{
+ "id": "ymq",
+ "town": "Montreal",
+ "source": "https://en.wikipedia.org/wiki/Montreal",
+ "pool": [
+  {
+   "year": 1642,
+   "text": "On May 17, Ville-Marie was founded on the southern shore with Maisonneuve as governor.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "civic"
+  },
+  {
+   "year": 1876,
+   "text": "The wooded mountain park designed by Frederick Law Olmsted was officially inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "environment"
+  },
+  {
+   "year": 1881,
+   "text": "The Canadian Pacific Railway was founded here.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1901,
+   "text": "The Mount Royal Cemetery Company established the very first crematorium in Canada.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "civic"
+  },
+  {
+   "year": 1907,
+   "text": "HEC Montreal was founded, adding an important educational institution to the city.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "culture"
+  },
+  {
+   "year": 1919,
+   "text": "Montreal-based CN was formed by the Canadian government following bankruptcies.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1966,
+   "text": "The Montreal Metro was inaugurated and features many stations.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "Saint Joseph's Oratory was completed, joining the city's notable architectural landmarks.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "Montreal hosted the International and Universal Exposition, also widely known as Expo 67.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "Concordia University was created from the merger of Sir George Williams University and Loyola College.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Montreal hosted the Summer Olympics as the only Canadian city to achieve this.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Montreal Mayor Jean Drapeau brought the Summer Olympic Games to the city.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "civic"
+  },
+  {
+   "year": 1978,
+   "text": "All passenger services for The Canadian were transferred to Via.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "The tragic École Polytechnique massacre took place, becoming one of Canada's worst mass shootings.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "The Canadian has terminated in Toronto instead of in Montreal.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1995,
+   "text": "The video game industry boomed with the opening of Ubisoft Montreal.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1995,
+   "text": "Corporate headquarters of the railway moved to Calgary, Alberta.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2002,
+   "text": "Montreal was merged with 27 surrounding municipalities on the Island of Montreal.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "BIXI was first launched with Montreal-based PBSC Urban Solutions ICONIC bikes.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "environment"
+  },
+  {
+   "year": 2021,
+   "text": "The Canadian census reported the city's population at 1,762,949 residents.",
+   "url": "https://en.wikipedia.org/wiki/Montreal",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

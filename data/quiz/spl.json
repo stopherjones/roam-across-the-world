@@ -1,0 +1,124 @@
+{
+ "id": "spl",
+ "town": "Split",
+ "source": "https://en.wikipedia.org/wiki/Split",
+ "pool": [
+  {
+   "year": 1968,
+   "text": "The Split was released as a heist film in theaters.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "The Groundhogs released an album titled Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "A science fiction film named Split was released.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "Patricia Barber released a music album named Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 1991,
+   "text": "KMFDM released a musical track titled Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Lush released a music album titled Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Queens of the Stone Age and Beaver released The Split CD.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Jay Chou released a song named Split on an album.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "The television show Coupling aired an episode titled Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Roxy Paine created an outdoor sculpture in Seattle called Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "A documentary on American politics titled Split: A Divided America was released.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "Swati Avasthi published a literary work titled Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Andrew Norman composed an orchestral piece titled Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "A psychological horror thriller American film named Split was released.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "A Canadian drama film directed by Lawrence Côté-Collins named Split was released.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "A sports drama film from South Korea titled Split was released.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2022,
+   "text": "Willow released a track named Split from an album.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "Yeat released a musical track titled Split.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "A horror video game named Split was scheduled for release.",
+   "url": "https://en.wikipedia.org/wiki/Split",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "cas",
+ "town": "Casablanca",
+ "source": "https://en.wikipedia.org/wiki/Casablanca",
+ "pool": [
+  {
+   "year": 1068,
+   "text": "Barghawata was conquered by the Almoravids after rising as an independent state.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1468,
+   "text": "The Portuguese bombarded the town into ruins following the Merinid downfall.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1750,
+   "text": "The Rabbi Elijah synagogue was built as the first Jewish synagogue in Casablanca.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "culture"
+  },
+  {
+   "year": 1755,
+   "text": "The Rabbi Elijah synagogue was destroyed along with much of the town in an earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "environment"
+  },
+  {
+   "year": 1907,
+   "text": "French forces bombarded Casablanca with multiple gunboats after a localized attack.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1912,
+   "text": "French control of Casablanca was formalized when the Treaty of Fez established the protectorate.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1937,
+   "text": "Wydad AC was founded and later competed in Botola playing at Stade Mohammed V.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "American forces captured Casablanca from Vichy control during World War II.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "Casablanca hosted the Anfa Conference during the ongoing global conflict.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "A massacre of working class Moroccans was carried out by Senegalese Tirailleurs.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Raja CA was founded and participates in Botola matches at Stade Mohammed V.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "culture"
+  },
+  {
+   "year": 1953,
+   "text": "Muhammad Zarqtuni orchestrated a bombing of Casablanca's Central Market on Christmas Day.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "Casablanca hosted the first Formula One race in Africa on the Ain-Diab circuit.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "The city hosted an ensemble of progressive African leaders during a major conference.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1965,
+   "text": "Student protests organized by union groups started in front of Lycée Mohammed V.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "Abdelakabir Faradjallah founded Attarazat Addahabia, a Moroccan funk band.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "The Casablanca Bread Riots took place due to sharp increases in the price of necessities.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1997,
+   "text": "The Moroccan Jewish Museum was established as a cultural institution in the city.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "More than 60 women's groups organized demonstrations proposing reforms to legal status.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "It announced that head office operations were moving from Casablanca to Nouaceur.",
+   "url": "https://en.wikipedia.org/wiki/Casablanca",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

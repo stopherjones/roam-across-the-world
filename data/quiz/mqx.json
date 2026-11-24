@@ -1,0 +1,130 @@
+{
+ "id": "mqx",
+ "town": "Mekelle",
+ "source": "https://en.wikipedia.org/wiki/Mekelle",
+ "pool": [
+  {
+   "year": 1871,
+   "text": "The church at Debre Gennet Medhane Alem was built in the city.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "culture"
+  },
+  {
+   "year": 1895,
+   "text": "The Italian army established their fort near the Enda Eyesus church above Mekelle.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1896,
+   "text": "The Italian forces surrendered in January and retreated to their stronghold in Adigrat.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1935,
+   "text": "The Italian forces occupied the town of Mekelle during the month of November.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "Shops, restaurants, and Hotel Amba Aradam with four rooms existed in the town.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1942,
+   "text": "The Mekelle municipality was officially founded during the urban development phase.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "civic"
+  },
+  {
+   "year": 1943,
+   "text": "Mekelle was held by the Woyane rebellion leaders against the Haile Selassie government.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "The atse Yohannes Elementary School was established in the city of Mekelle.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The atse Yohannes Secondary School was established in the city of Mekelle.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "The master plan for the urban development of Mekelle was issued.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "Fifty to sixty people died every day in seven hunger camps in Mekelle.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1986,
+   "text": "The TPLF released 1,800 political prisoners from the Mekelle prison in a raid.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1989,
+   "text": "Mekelle was occupied by the TPLF after the government position in Tigray collapsed.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "The population of Mekelle reached 97,000 inhabitants with mostly Tigrinya-speakers.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "The Eritrean Air Force bombed Ayder School in Mekelle killing twelve people.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2000,
+   "text": "The UNMEE headquarters was established in Mekelle following the Eritrean-Ethiopian War.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "A riot broke out between Ethiopian Orthodox and Adventist worshippers in a stadium.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "Addis Alem Balema represented the Mekelle special zone in the House of Peoples' Representatives.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "The Abergelle Slaughterhouse began its operations in Mekelle funded by Dejenna Endowment.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "Witnesses stated that artillery shelling had taken place in Mekelle before 28 November.",
+   "url": "https://en.wikipedia.org/wiki/Mekelle",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-20",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

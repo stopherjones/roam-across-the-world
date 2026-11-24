@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10917,
+  "completionTokens": 7751,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1850,
+   "theme": "power_conflict",
+   "event": "Bleeding Kansas erupted shortly after the city's incorporation, affecting various groups.",
+   "quote": "Shortly after the city's incorporation in 1850, so-called Bleeding Kansas erupted, affecting border ruffians and Jayhawkers.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

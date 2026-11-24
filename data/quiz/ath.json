@@ -1,0 +1,130 @@
+{
+ "id": "ath",
+ "town": "Athens",
+ "source": "https://en.wikipedia.org/wiki/Athens",
+ "pool": [
+  {
+   "year": 1071,
+   "text": "Invasion of the empire by the Turks occurred after the Battle of Manzikert.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1397,
+   "text": "The first Ottoman attack on Athens involved a short-lived occupation under Ottoman generals.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1458,
+   "text": "Athens was captured by the Ottomans under the personal leadership of Sultan Mehmed II.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1640,
+   "text": "A lightning bolt struck the Propylaea, causing its destruction in the city.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1687,
+   "text": "The Acropolis was besieged by Venetians under Francesco Morosini during the Morean War.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1688,
+   "text": "The Venetians abandoned Athens again to the Ottomans on April 9.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1822,
+   "text": "A Greek insurgency captured the city before it fell back to the Ottomans.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1833,
+   "text": "The Ottoman forces remained in possession of Athens until their withdrawal in March.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1840,
+   "text": "The National Garden of Athens was completed as a green refuge.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "environment"
+  },
+  {
+   "year": 1869,
+   "text": "The first line of the Athens Metro was constructed in the city.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1937,
+   "text": "The American-born Greek soprano Maria Callas settled in Athens for her teens.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "The National Museum of Contemporary Art opened in a former brewery building.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Athens hosted the Summer Olympics, matching previous international multi-sport hosting duties.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "The New Acropolis Museum opened and replaced the old museum on the Acropolis.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "The Athens Stock Exchange was hit by the Greek government-debt crisis.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "Athens joined the UNESCO Global Network of Learning Cities.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Athens was designated as the World Book Capital by UNESCO.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "The National Art Gallery reopened after undergoing renovation work.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "culture"
+  },
+  {
+   "year": 2022,
+   "text": "New metro stations connected the Port of Piraeus with Athens International Airport.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "The Municipality inaugurated the Maria Callas Museum in a neoclassical building.",
+   "url": "https://en.wikipedia.org/wiki/Athens",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-22",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}
