@@ -1,0 +1,110 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 9466,
+  "completionTokens": 8139,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1911,
+   "theme": "civic",
+   "event": "Population reached 100,000 by 1911",
+   "quote": "Vancouver's population grew from a settlement of 1,000 people in 1881 to over 20,000 by the turn of the century and 100,000 by 1911.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2017,
+   "theme": "commerce_industry",
+   "event": "Over 10.3 million visitors recorded in Vancouver",
+   "quote": "Over 10.3 million people visited Vancouver in 2017.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "Vancouver recorded 662,248 residents in census",
+   "quote": "As the most populous city in the province, the 2021 Canadian census recorded 662,248 people in the city, up from 631,486 in 2016.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "Operating budget reached $1.97 billion with plan to $2.46 billion by 2027",
+   "quote": "In 2023, the operating budget was $1.97 billion, with a 5-year financial plan, developed in 2022, that projected the budget would increase to $2.46 billion by 2027.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2009,
+   "theme": "power_conflict",
+   "event": "Early‑2009 gang‑related incidents escalated into a gang war",
+   "quote": "A series of gang-related incidents in early 2009 escalated into what police dubbed a gang war.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "Second riot followed the 2011 Stanley Cup Finals",
+   "quote": "A second riot took place following the 2011 Stanley Cup Finals.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2014,
+   "theme": "culture",
+   "event": "Spice Radio on 1200 AM launched to serve South Asian community",
+   "quote": "The multilingual South Asian community is served by Spice Radio on 1200 AM, which was established in 2014.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2010,
+   "theme": "culture",
+   "event": "Vancouver co‑hosted the 2010 Winter Olympics and Paralympics",
+   "quote": "Vancouver, along with Whistler and Richmond, was the host city for the 2010 Winter Olympics and the 2010 Winter Paralympics.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2015,
+   "theme": "culture",
+   "event": "Vancouver co‑hosted 2015 FIFA Women’s World Cup final",
+   "quote": "In 2015, Vancouver was one of six host cities for the 2015 FIFA Women's World Cup and hosted the Final game between the United States and Japan.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2026,
+   "theme": "culture",
+   "event": "Vancouver will host matches during the 2026 FIFA World Cup",
+   "quote": "Eleven years later, Vancouver was one of two Canadian cities that hosted matches during the 2026 FIFA World Cup.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1886,
+   "theme": "civic",
+   "event": "City renamed Vancouver and incorporated on April 6",
+   "quote": "The city was renamed \"Vancouver\" in 1886 through a deal with the Canadian Pacific Railway.",
+   "stage": "verification",
+   "why": "Source only mentions renaming in 1886, not incorporation on April 6"
+  },
+  {
+   "year": 2009,
+   "theme": "culture",
+   "event": "Metro Vancouver hosted the World Police and Fire Games",
+   "quote": "In 2009, Metro Vancouver hosted the World Police and Fire Games.",
+   "source": "https://en.wikipedia.org/wiki/Vancouver",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

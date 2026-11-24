@@ -1,0 +1,130 @@
+{
+ "id": "bdo",
+ "town": "Bandung",
+ "source": "https://en.wikipedia.org/wiki/Bandung",
+ "pool": [
+  {
+   "year": 1906,
+   "text": "Bandung granted municipal status (gemeente) establishing local government.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "civic"
+  },
+  {
+   "year": 1918,
+   "text": "Construction of the regional military headquarters in Bandung.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1920,
+   "text": "Pont designed buildings for the first technical university, now ITB.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "culture"
+  },
+  {
+   "year": 1925,
+   "text": "Completion of the ITB Rectorate Building designed by Schoemaker.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "culture"
+  },
+  {
+   "year": 1929,
+   "text": "Opening of Hotel Preanger, a landmark hospitality venue.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1932,
+   "text": "Villa Isola completed, showcasing native architectural elements.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "Deadly tornado struck Rancaekek, destroying homes and trees.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "environment"
+  },
+  {
+   "year": 1936,
+   "text": "Albert Aalbers designed the modernist DENIS bank building.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1939,
+   "text": "Renovation of the historic Savoy Homann Hotel completed.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "Indonesia's independence spurred rapid urbanization and population growth in Bandung.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "civic"
+  },
+  {
+   "year": 1946,
+   "text": "Indonesian forces set fire to southern Bandung during withdrawal.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1955,
+   "text": "First Asian-African Conference hosted by President Sukarno in Bandung.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "City boundary expanded under the Greater Bandung plan.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Awarded as Indonesia's least polluted city.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "Garbage slide buried Kampung Gajah, causing over a hundred deaths.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "environment"
+  },
+  {
+   "year": 2005,
+   "text": "Partial Asian-African Conference held in Bandung with world leaders.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Residents began directly voting for the mayor of Bandung.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Bandros tourist bus service launched for city visitors.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Bandung joined UNESCO Creative Cities Network.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Redevelopment of Husein Sastranegara International Airport completed.",
+   "url": "https://en.wikipedia.org/wiki/Bandung",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

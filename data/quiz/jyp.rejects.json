@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 2273,
+  "completionTokens": 2413,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1966,
+   "theme": "civic",
+   "event": "Vicariate promoted to Diocese of Sukarnapura.",
+   "quote": "It was promoted in 1966 as the Diocese of Sukarnapura.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2010,
+   "theme": "civic",
+   "event": "Population recorded at 2010 Census, later revised upward.",
+   "quote": "During the 2010–2020 decade it was also the fastest-growing city in Indonesia, with the population increasing by 55.23% between 2010 and 2020.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "civic",
+   "event": "Mid‑2024 population estimated at 410,852 residents.",
+   "quote": "With a population of 410,852 according to the official estimates for mid 2024 (comprising 218,356 males and 192,416 females), Jayapura is the second most populous city in the entire island of New Guinea.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

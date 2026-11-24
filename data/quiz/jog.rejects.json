@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3351,
+  "completionTokens": 3408,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2010,
+   "theme": "civic",
+   "event": "City population recorded as 388,627 in the census",
+   "quote": "The city's population was 388,627 at the 2010 census, and 373,589 at the 2020 census; the official estimate as of mid-2023 was 375,699, composed of 182,840 men and 192,859 women.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1946,
+   "theme": "civic",
+   "event": "Sultan Hamengkubuwono IX sent support letter to Sukarno",
+   "quote": "Sukarno proclaimed the independence of the Indonesian Republic on 17 August 1945; Sultan Hamengkubuwono IX promptly sent a letter to Sukarno, expressing his support for the newly born nation of Indonesia and acknowledging the Yogyakarta Sultanate as part of the Indonesian Republic.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  }
+ ]
+}

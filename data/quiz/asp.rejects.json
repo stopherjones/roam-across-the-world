@@ -1,0 +1,38 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 4,
+  "promptTokens": 3984,
+  "completionTokens": 5128,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1862,
+   "theme": "environment",
+   "event": "John McDouall Stuart expedition established north‑south route",
+   "quote": "In 1861–62, John McDouall Stuart led an expedition through Central Australia to the west of what later became Alice Springs, thereby establishing a route from the south of the continent to the north.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "No local newspaper published from June 2020 to August 2023",
+   "quote": "From June 2020 until August 2023 no local newspaper was published in Alice Springs, following the closure of the Centralian Advocate after 76 years of publication.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2023,
+   "theme": "culture",
+   "event": "Roberts again curated Parrtjima festival",
+   "quote": "In 2023, Roberts once again curated Parrtjima.",
+   "source": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

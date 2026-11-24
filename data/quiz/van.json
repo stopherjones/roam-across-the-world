@@ -1,0 +1,130 @@
+{
+ "id": "van",
+ "town": "Vancouver",
+ "source": "https://en.wikipedia.org/wiki/Vancouver",
+ "pool": [
+  {
+   "year": 1867,
+   "text": "Gassy Jack opened a makeshift tavern on Hastings Mill property",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "civic"
+  },
+  {
+   "year": 1884,
+   "text": "Site selected as terminus for Canadian Pacific Railway",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1886,
+   "text": "Great Vancouver Fire razed the entire city on June 13",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1887,
+   "text": "Canadian Pacific transcontinental railway extended to Vancouver",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1892,
+   "text": "Charles Woodward opened first Woodward's store at Abbott and Cordova",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1894,
+   "text": "Gothic-style Christ Church Cathedral opened",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Vancouver absorbed South Vancouver and Point Grey municipalities",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "Unemployed men flooded city protesting relief camp conditions",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "City Hall designed by Townley and Matheson completed",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "The 556-room Hotel Vancouver opened",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "RCAF Station Jericho Beach taken over by Canadian Army",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "Vancouver hosted the Commonwealth Games",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "Greenpeace founded in Vancouver",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "environment"
+  },
+  {
+   "year": 1969,
+   "text": "Jericho Beach base facilities transferred to City of Vancouver, renamed Jericho Park",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "civic"
+  },
+  {
+   "year": 1970,
+   "text": "Vancouver Canucks began playing in the NHL",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Global Relay Gastown Grand Prix held each summer on Gastown cobblestones",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "Visible minority population reached approximately 24 percent",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "The Globe and Mail began a national edition in British Columbia",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Prime Minister called Vancouver's housing crisis extreme",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2021,
+   "text": "$3.6 billion spent on film production in Vancouver",
+   "url": "https://en.wikipedia.org/wiki/Vancouver",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

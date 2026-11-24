@@ -1,0 +1,30 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 4,
+  "promptTokens": 3253,
+  "completionTokens": 3572,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1972,
+   "theme": "commerce_industry",
+   "event": "New York Islanders hockey franchise founded in NHL",
+   "quote": "New York Islanders, a member of the Metropolitan Division of the Eastern Conference of the NHL (1972–present)",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2012,
+   "theme": "culture",
+   "event": "Angel Haze song titled New York released",
+   "quote": "\"New York\" (Angel Haze song), 2012",
+   "source": "https://en.wikipedia.org/wiki/New_York",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

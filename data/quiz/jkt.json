@@ -1,0 +1,130 @@
+{
+ "id": "jkt",
+ "town": "Jakarta",
+ "source": "https://en.wikipedia.org/wiki/Jakarta",
+ "pool": [
+  {
+   "year": 1527,
+   "text": "Islamic forces captured Kalapa, later named Jayakarta under Banten Sultanate.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1619,
+   "text": "VOC seized Jayakarta and rebuilt it as the trading port Batavia.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1740,
+   "text": "VOC response to Chinese labour unrest led to a massacre of Chinese residents.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1741,
+   "text": "VOC designated a Chinese quarter at Diestpoort, later known as Glodok.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "Indonesian independence was proclaimed in Jakarta on 17 August.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "Jakarta reinstated as the capital of the unitary Republic of Indonesia.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Jakarta acquired the status of a Special Capital Region (DKI).",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "Legislation formally reaffirmed Jakarta as Indonesia's Special Capital Region.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "The national legislative complex began as the CONEFO project.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "Governor Ali Sadikin launched the Kampung Improvement Program for dense kampungs.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Asian financial crisis sparked student protests and widespread violence in Jakarta.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1998,
+   "text": "President Suharto resigned amid mounting political pressure.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2001,
+   "text": "Thousand Islands elevated to an administrative regency for better public services.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Jakarta residents directly elected the governor for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "Governor Joko Widodo introduced the Healthy Jakarta Card programme.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "KJS merged into the national JKN health insurance system.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Air pollution estimated to cause over 10,000 premature deaths annually.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "environment"
+  },
+  {
+   "year": 2023,
+   "text": "Universal health coverage reached 98.5% of Jakarta's population.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "Special‑region law defines Jakarta as national economic centre after capital transfer.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "Jakarta's GRDP reached Rp 3,679.36 trillion with 4.90% growth.",
+   "url": "https://en.wikipedia.org/wiki/Jakarta",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

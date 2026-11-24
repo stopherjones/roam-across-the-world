@@ -1,0 +1,69 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3982,
+  "completionTokens": 3551,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1942,
+   "theme": "power_conflict",
+   "event": "Japanese occupation authorities renamed Batavia to Jakarta.",
+   "quote": "Batavia remained the city's name until the Japanese occupation in 1942, when the authorities renamed it Jakarta.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1957,
+   "theme": "civic",
+   "event": "Jakarta became a first‑level region separate from West Java province.",
+   "quote": "Formerly a municipality of the West Java province, Jakarta became a \"first-level region\" (Daerah Tingkat I) in 1957.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1962,
+   "theme": "culture",
+   "event": "Major nation‑building projects prepared Jakarta for the 1962 Asian Games.",
+   "quote": "Under first President Sukarno, Jakarta became the focus of major nation-building projects, some of which were part of preparations for the Asian Games in 1962.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2024,
+   "theme": "environment",
+   "event": "Green open space covered only 5.18% of the city.",
+   "quote": "Green open space (ruang terbuka hijau, RTH) covered about 5.18% of Jakarta in 2023, well below the 30% minimum set by national spatial-planning law.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2024,
+   "theme": "commerce_industry",
+   "event": "Recorded 2.5 million international tourist visits, 18.2% of Indonesia's total.",
+   "quote": "In 2024, it recorded about 2.5 million international tourist visits, representing 18.2% of Indonesia's total.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "Jakarta had 11 million registered residents according to 2025 data.",
+   "quote": "Jakarta covers about 664 square kilometres (256 square miles) and had 11 million registered residents in 2025.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "Muslims comprised 83.85% of Jakarta's population in 2025.",
+   "quote": "According to 2025 data from the Ministry of Religious Affairs, most of Jakarta's population were Muslims (83.85%), followed by Christians (12.51%).",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

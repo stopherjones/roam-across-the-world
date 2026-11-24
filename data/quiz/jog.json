@@ -1,0 +1,130 @@
+{
+ "id": "jog",
+ "town": "Yogyakarta",
+ "source": "https://en.wikipedia.org/wiki/Yogyakarta",
+ "pool": [
+  {
+   "year": 1350,
+   "text": "Hayam Wuruk ruled Majapahit, nephew held title Bhre Mataram",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1587,
+   "text": "Kota district was capital of the Mataram Sultanate",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1613,
+   "text": "Sultan Agung expanded Mataram Sultanate to most of Java",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1745,
+   "text": "Civil war erupted between Pakubuwono II and Prince Mangkubumi",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1755,
+   "text": "Treaty of Giyanti created Yogyakarta Sultanate",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1756,
+   "text": "Sultan Hamengkubuwono I moved into the Yogyakarta Palace",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "PSIM Yogyakarta football club founded on 5 September",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "Japanese Empire invaded and occupied Java",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Sukarno proclaimed Indonesian independence on 17 August",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Newspaper first published, becoming one of Indonesia's oldest",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "culture"
+  },
+  {
+   "year": 1946,
+   "text": "Yogyakarta served as Indonesia's capital during the National Revolution",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "Dutch invasion forced capital move to Bukittinggi",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "General Offensive of 1 March achieved strategic victory",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Yogyakarta cleared of Dutch forces on 29 June",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "Trans Jogja bus rapid transit system began operating",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "GRDP reached 31.31 trillion rupiahs at current prices",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "Economic growth accelerated to 5.24 percent",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Governor Hamengkubuwono X urged religious freedoms after Surabaya attacks",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Population density ranked highest in Greater Yogyakarta",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "Minimum wage set at Rp 2,827,593",
+   "url": "https://en.wikipedia.org/wiki/Yogyakarta",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

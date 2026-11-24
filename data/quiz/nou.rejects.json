@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 2,
+  "promptTokens": 1335,
+  "completionTokens": 1565,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2024,
+   "theme": "civic",
+   "event": "City remains significant hub for irregular migrants to Europe",
+   "quote": "As of 2024, the city remains a significant departure hub for irregular migrants to Europe, with over 80% of arrivals in the Canary Islands originating from Mauritania, many of whom are from Mali.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

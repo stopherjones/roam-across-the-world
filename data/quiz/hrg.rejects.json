@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 2,
+  "promptTokens": 1453,
+  "completionTokens": 1606,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1967,
+   "theme": "power_conflict",
+   "event": "Egypt fortified Shadwan Island as radar post during War of Attrition.",
+   "quote": "During the War of Attrition between Israel and Egypt (1967–70), Shadwan Island in the Red Sea to the east of the city was fortified by Egyptian troops and used as a radar post.",
+   "stage": "verification",
+   "why": "Quote gives a range (1967–70) not the exact year 1967"
+  }
+ ]
+}

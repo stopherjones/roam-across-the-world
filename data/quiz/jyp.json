@@ -1,0 +1,118 @@
+{
+ "id": "jyp",
+ "town": "Jayapura",
+ "source": "https://en.wikipedia.org/wiki/Jayapura",
+ "pool": [
+  {
+   "year": 1849,
+   "text": "Numbay region became a tributary of the Tidore Sultanate.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1909,
+   "text": "Dutch navy detachment arrived under Captain F.J.P.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1910,
+   "text": "Dutch flag raised and settlement named Hollandia.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Japanese forces occupied northern Netherlands New Guinea.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Allied forces expelled Japanese after Operations Reckless and Persecution.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Dutch made Hollandia capital of Netherlands New Guinea.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Roman Catholic Apostolic Prefecture of Hollandia established.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "Australian rower Michael 'Tarzan' Fomenko detained in Hollandia.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "culture"
+  },
+  {
+   "year": 1962,
+   "text": "City renamed Hollandia/Kota Baru under UN authority.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "Indonesia took control; city became solely Kota Baru.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1963,
+   "text": "Apostolic Vicariate renamed to Kota Baru.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "City briefly renamed Sukarnapura after President Sukarno.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "Apostolic Vicariate renamed to Sukarnapura.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "City adopted present name Jayapura at end of year.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "Diocese renamed to Diocese of Djajapura.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "Diocese spelling changed to Diocese of Jayapura.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "Jayapura struck by Aitape tsunami after Papua New Guinea earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "environment"
+  },
+  {
+   "year": 2016,
+   "text": "Jayapura's GDP estimated at Rp19.48 trillion.",
+   "url": "https://en.wikipedia.org/wiki/Jayapura",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

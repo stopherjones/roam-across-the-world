@@ -1,0 +1,12 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 2,
+  "promptTokens": 1366,
+  "completionTokens": 2176,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": []
+}

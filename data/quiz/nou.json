@@ -1,0 +1,70 @@
+{
+ "id": "nou",
+ "town": "Nouadhibou",
+ "source": "https://en.wikipedia.org/wiki/Nouadhibou",
+ "pool": [
+  {
+   "year": 1907,
+   "text": "Port-Étienne renamed by decree of Governor Ernest Roume",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "Town renamed Nouadhibou after Mauritania's independence",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "Plans drawn to build Port Wharf in fishing harbour",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1966,
+   "text": "Port Wharf became operational in Nouadhibou",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1973,
+   "text": "Aerobee rocket launched at Nouadhibou for solar research",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Wharf lengthened, adding three berths and increasing capacity",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "Route to Canary Islands gains popularity due to tighter Moroccan controls",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Nouadhibou emerges as major departure point for African migrants",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "Nouadhibou Regional Hospital opened as largest regional hospital",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Elghassem Ould Bellali installed as mayor of Nouadhibou",
+   "url": "https://en.wikipedia.org/wiki/Nouadhibou",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,118 @@
+{
+ "id": "lae",
+ "town": "Lae",
+ "source": "https://en.wikipedia.org/wiki/Lae",
+ "pool": [
+  {
+   "year": 1886,
+   "text": "Johann Flierl arrived in Lae as a pioneering Lutheran missionary.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "culture"
+  },
+  {
+   "year": 1921,
+   "text": "Civilian administration began; Cecil John Levien became District Officer (Kiap).",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "civic"
+  },
+  {
+   "year": 1923,
+   "text": "Levien secured mining rights and formed the Guinea Gold syndicate.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "Guinea Airways Limited was established by the Guinea Gold syndicate.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "Levien arranged construction of Lae airstrip to support gold mines.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "Lae was officially declared a town under the New Guinea Boundaries Ordinance.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "Amelia Earhart was last seen departing Lae airport on her trans‑Pacific flight.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "culture"
+  },
+  {
+   "year": 1937,
+   "text": "Decision made to move the Territory of New Guinea capital to Lae.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "Japanese forces occupied Lae during World War II.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "Battle of the Bismarck Sea thwarted Japanese reinforcement of Lae.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "Japanese troops retreated to Lae and Salamaua after Allied victories.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Lae War Cemetery was created adjacent to the Botanical Gardens.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "First properly constituted Local Government of Lae town was established.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "civic"
+  },
+  {
+   "year": 1972,
+   "text": "Lae was proclaimed a city.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "Population relocated to temporary settlement after major flood.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "environment"
+  },
+  {
+   "year": 1999,
+   "text": "Magnitude 6.4 earthquake struck north of Lae.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "Magnitude 6.8 earthquake occurred 110 km north of Lae.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "environment"
+  },
+  {
+   "year": 2023,
+   "text": "Agreement signed for Finschhafen District Hydropower Project.",
+   "url": "https://en.wikipedia.org/wiki/Lae",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

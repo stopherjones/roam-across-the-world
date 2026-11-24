@@ -1,0 +1,130 @@
+{
+ "id": "vap",
+ "town": "Valparaiso",
+ "source": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+ "pool": [
+  {
+   "year": 1536,
+   "text": "Spanish explorers arrived aboard the Santiaguillo.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1578,
+   "text": "Francis Drake attacked Valparaíso with Golden Hind.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1594,
+   "text": "Richard Hawkins attacked Valparaíso with the Dainty.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1810,
+   "text": "Wealthy merchant built Chile's first pier.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1814,
+   "text": "Naval Battle of Valparaíso fought between American and British ships.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1814,
+   "text": "USS Essex defeated by British frigates Phoebe and Cherub.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1817,
+   "text": "Valparaíso became the Chilean Navy headquarters.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "civic"
+  },
+  {
+   "year": 1820,
+   "text": "Liberating Expedition of Peru sailed from Valparaíso.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1822,
+   "text": "Violent earthquake left city in ruins with many casualties.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "environment"
+  },
+  {
+   "year": 1826,
+   "text": "Royal Navy established South America Station in Valparaíso.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1827,
+   "text": "El Mercurio de Valparaíso newspaper founded.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Valparaíso began serving as seat of the National Congress.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "World Monuments Fund listed funicular lifts as endangered treasures.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Activists urged UNESCO heritage application for Valparaíso.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "City began recovery attracting artists, tourists, cultural entrepreneurs.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Historic quarter declared UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Chilean Congress named Valparaíso Cultural Capital.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Huge brush fire destroyed 2,800 homes and killed 16 people.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "environment"
+  },
+  {
+   "year": 2018,
+   "text": "8126 companies registered in Valparaíso.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "Massive brush fire killed at least 131 people in February.",
+   "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "asp",
+ "town": "Alice Springs",
+ "source": "https://en.wikipedia.org/wiki/Alice_Springs",
+ "pool": [
+  {
+   "year": 1872,
+   "text": "Overland Telegraph Line completed linking the region",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1887,
+   "text": "Alluvial gold discovered at Arltunga spurred settlement",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1909,
+   "text": "Stuart Town Gaol built as first substantial building",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "civic"
+  },
+  {
+   "year": 1921,
+   "text": "First aircraft piloted by Francis Stewart Briggs landed",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "Adelaide House, Central Australia's first hospital, constructed",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "Alice Springs served as seat of Territory of Central Australia",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "Train line reached Alice Springs, prompting population growth",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1932,
+   "text": "Gold rush at Tennant Creek boosted local economy",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1941,
+   "text": "Father Percy Smith founded St John's Hostel",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "24 Inland Aircraft Fuel Depot completed near Alice Springs",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1954,
+   "text": "US Air Force Detachment 421 established, continuous presence began",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "Resistance 3 video game map set in post‑apocalyptic Alice Springs",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Alice Springs Town Council began governing the town",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "Bruce Chatwin featured Alice Springs in travelogue The Songlines",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Ian Moss referenced Alice Springs in song lyrics",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "Liz Phair released song titled \"Alice Springs\"",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "culture"
+  },
+  {
+   "year": 1995,
+   "text": "Detachment 421 granted honorary Freedom of Entry",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Bill Bryson highlighted Alice Springs in Down Under travelogue",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Arrernte people recognised as Traditional Owners by Federal Court",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Rail link to Darwin opened with first passenger train",
+   "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "yyc",
+ "town": "Calgary",
+ "source": "https://en.wikipedia.org/wiki/Calgary",
+ "pool": [
+  {
+   "year": 1787,
+   "text": "David Thompson wintered with Piikani Nation along the Bow River.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "culture"
+  },
+  {
+   "year": 1873,
+   "text": "John Glenn became first documented European settler in Calgary area.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1875,
+   "text": "Three priests built a log cabin on the Elbow River banks.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1875,
+   "text": "Site became a North-West Mounted Police post.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1876,
+   "text": "Fort Calgary officially established after minister's approval.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1877,
+   "text": "First Nations ceded title to Fort Calgary region via Treaty 7.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1930,
+   "text": "R.B. Bennett's Conservative Party wins federal election, becomes prime minister.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1939,
+   "text": "Pat Lenihan elected to Calgary City Council via proportional representation.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "Premier William Aberhart moves to Calgary for provincial election.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "Opening of the Southern Alberta Jubilee Auditorium.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "University of Calgary gains degree‑granting autonomy.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "Rise of Peter Lougheed's Progressive Conservative Party due to oil sector.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1977,
+   "text": "Council directs design and construction of CTrain south leg.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1980,
+   "text": "Nelson Skalbania announces relocation of Atlanta Flames to Calgary.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "CTrain south leg begins operation on May 25.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "City Council announces service cuts amid $16 million deficit.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "Completion of Petro‑Canada Centre marks end of construction boom.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "environment"
+  },
+  {
+   "year": 1995,
+   "text": "Co‑hosting of World Junior Ice Hockey Championships with Edmonton and Red Deer.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "Canadian Pacific Railway moved headquarters from Montreal to Calgary.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "Imperial Oil relocated its headquarters to Calgary.",
+   "url": "https://en.wikipedia.org/wiki/Calgary",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

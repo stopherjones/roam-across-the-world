@@ -1,0 +1,70 @@
+{
+ "id": "hrg",
+ "town": "Hurghada",
+ "source": "https://en.wikipedia.org/wiki/Hurghada",
+ "pool": [
+  {
+   "year": 1905,
+   "text": "Hurghada was officially established as a city.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "civic"
+  },
+  {
+   "year": 1913,
+   "text": "Oil discovered in Hurghada area by Anglo-Egyptian Oilfields Ltd.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1970,
+   "text": "Israeli helicopter assault occupied Shadwan Island for 36 hours.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1973,
+   "text": "Hurghada harbor targeted in four Israeli operations during October War.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "Drive‑by shooters killed two Egyptians and a German tourist near Hurghada.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "Kempinski hotel opened in Soma Bay resort near Hurghada.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Hurghada Grand Aquarium opened, becoming Egypt's largest aquarium.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "Islamic State‑inspired terrorist attack wounded three tourists in Hurghada.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2017,
+   "text": "Stabbing attack targeted non‑Egyptian female tourists, seven injured.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2024,
+   "text": "Hurghada attracts over 9 million visitors annually, ranking among top world tourist cities.",
+   "url": "https://en.wikipedia.org/wiki/Hurghada",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

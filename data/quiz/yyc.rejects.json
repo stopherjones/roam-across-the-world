@@ -1,0 +1,101 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 6,
+  "promptTokens": 10384,
+  "completionTokens": 6829,
+  "chunksRead": 2,
+  "chunksAvailable": 3
+ },
+ "rejects": [
+  {
+   "year": 1884,
+   "theme": "education",
+   "event": "First school opened for twelve children, led by John William Costello.",
+   "quote": "As for education, Calgary moved quickly: the Citizen's Committee raised $125 on February 6, 1884, and the first school opened for twelve children days later on February 18, led by teacher John William Costello.",
+   "stage": "code check",
+   "why": "unknown theme education"
+  },
+  {
+   "year": 1892,
+   "theme": "environment",
+   "event": "Smallpox outbreak blamed on Chinese residents, leading to riot.",
+   "quote": "Smallpox arrived in Calgary in June 1892 when a Chinese resident was found with the disease, by August nine people had contracted the disease with three deaths. Calgarians placed the blame for the disease on the local Chinese population, resulting in a riot on August 2, 1892.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1905,
+   "theme": "education",
+   "event": "Provincial Normal School opened in McDougall School building.",
+   "quote": "Calgary was not to be left without higher education facilities as the provincial Normal School opened in the McDougall School building in 1905.",
+   "stage": "code check",
+   "why": "unknown theme education"
+  },
+  {
+   "year": 1907,
+   "theme": "civic",
+   "event": "First three motor buses entered Calgary streets.",
+   "quote": "The first three motor buses hit Calgary streets in 1907.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1907,
+   "theme": "civic",
+   "event": "Municipally owned street railway system opened with seven miles of track.",
+   "quote": "two years later the municipally owned street railway system, fit with seven miles of track opened in Calgary.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2015,
+   "theme": "commerce_industry",
+   "event": "Vacancy rates rose to 11.5% in Q2, up from 8.3% in 2014.",
+   "quote": "According to a report by Alexi Olcheski of Avison Young published in August 2015, vacancy rates rose to 11.5 percent in the second quarter of 2015 from 8.3 percent in 2014.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1966,
+   "theme": "civic",
+   "event": "Heavy rail transit proposal developed, later re‑evaluated in 1975.",
+   "quote": "In 1966 a heavy rail transit proposal was developed, however the estimated costs continued to grow rapidly, and the plan was re-evaluated in 1975.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1981,
+   "theme": "environment",
+   "event": "IOC awards Calgary the 1988 Winter Olympics.",
+   "quote": "On September 30, 1981, the International Olympic Committee voted to give Calgary the right to host the 1988 Olympic Winter Games, becoming the first Canadian host for the winter games.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2006,
+   "theme": "culture",
+   "event": "Decidedly Jazz Danceworks opens $25‑million facility.",
+   "quote": "Decidedly Jazz Danceworks, which opened its new $25-million facility in 2016 in collaboration with the Kahanoff Foundation",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2015,
+   "theme": "civic",
+   "event": "Budget cut of $60 million affecting all city departments.",
+   "quote": "This pressure culminated in a $60 million budget cut affecting all city departments in 2019, a decision Naheed Nenshi later described as one of his biggest regrets in his time as mayor.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 1988,
+   "theme": "culture",
+   "event": "Calgary hosts the Winter Olympic Games.",
+   "quote": "On September 30, 1981, the International Olympic Committee voted to give Calgary the right to host the 1988 Olympic Winter Games, becoming the first Canadian host for the winter games.",
+   "stage": "verification",
+   "why": "Source only notes the 1981 vote to award the 1988 Games, not the actual hosting in 1988."
+  }
+ ]
+}

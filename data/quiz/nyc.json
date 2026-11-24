@@ -1,0 +1,130 @@
+{
+ "id": "nyc",
+ "town": "New York",
+ "source": "https://en.wikipedia.org/wiki/New_York",
+ "pool": [
+  {
+   "year": 1916,
+   "text": "Silent comedy drama film directed by George Fitzmaurice released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "New York Rangers hockey team began competing in NHL",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "Silent drama film by Luther Reed premiered",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "Paul Morand travel book titled New York published",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "Bi‑weekly magazine named New York founded",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Anthony Burgess travel and observation book published",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Gottlieb pinball machine named New York launched",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Sex Pistols song New York on Never Mind the Bollocks released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "Apple released New York typeface for original Macintosh",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "Lou Reed album titled New York issued",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "New York Red Bulls soccer club entered MLS Eastern Conference",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "U2 song called New York released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Ja Rule track titled New York released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Antti Tuisku album named New York released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "Eskimo Joe song named New York released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Bollywood film directed by Kabir Khan released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Historical novel by Edward Rutherfurd released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Paloma Faith single called New York released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Snow Patrol song named New York released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Angel Haze EP titled New York released",
+   "url": "https://en.wikipedia.org/wiki/New_York",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

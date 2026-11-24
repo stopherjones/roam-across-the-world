@@ -1,0 +1,130 @@
+{
+ "id": "yyj",
+ "town": "Victoria",
+ "source": "https://en.wikipedia.org/wiki/Victoria",
+ "pool": [
+  {
+   "year": 1729,
+   "text": "Spanish galleon Galera Victoria sinks during a maritime disaster",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1819,
+   "text": "Birth of Queen Victoria, future monarch of the United Kingdom and Empress of India",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1898,
+   "text": "Knut Hamsun publishes novel titled \"Victoria\"",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1901,
+   "text": "Death of Queen Victoria, ending a 63‑year reign over the British Empire",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1917,
+   "text": "Release of Russian silent film \"Victoria\" directed by Olga Preobrazhenskaya",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1935,
+   "text": "German film titled \"Victoria\" premieres in cinemas",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1969,
+   "text": "The Kinks issue hit single \"Victoria\"",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "Mexican adaptation of Henry James' novel released as film \"Victoria\"",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "Swedish film \"Victoria\" based on Knut Hamsun novel debuts",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Cameroon city Limbe renamed from \"Victoria\" to its current name",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "civic"
+  },
+  {
+   "year": 1982,
+   "text": "\"Victoria\" song by Dance Exponents reaches New Zealand charts",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "Mexican telenovela \"Victoria\" airs on national television",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "The Fall cover version of \"Victoria\" released",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "Magnus Uggla records pop song \"Victoria\"",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 1993,
+   "text": "Sami Michael releases novel named \"Victoria\"",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "American telenovela \"Victoria\" premieres on television",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "French‑Canadian movie \"Victoria\" released internationally",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Jukebox the Ghost includes \"Victoria\" on album \"Let Live and Let Ghosts\"",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Eve 6 releases single titled \"Victoria\"",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Norwegian film \"Victoria\" hits the festival circuit",
+   "url": "https://en.wikipedia.org/wiki/Victoria",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

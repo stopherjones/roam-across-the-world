@@ -1,0 +1,82 @@
+{
+ "id": "yqr",
+ "town": "Regina",
+ "source": "https://en.wikipedia.org/wiki/Regina",
+ "pool": [
+  {
+   "year": 1848,
+   "text": "Albert Lortzing composes opera \"Regina\"",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 1899,
+   "text": "First performance of Lortzing's opera \"Regina\"",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 1948,
+   "text": "Marc Blitzstein's opera \"Regina\" premieres",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "Irena Jalšovec born, later known as singer Regina",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 1968,
+   "text": "Eurodance singer Regina \"Queen\" Saraiva born",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "Italian drama film titled \"Regina\" released",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "Estonian film \"Regina\" released",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "The Sugarcubes release song \"Regina\"",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "Mexican musical \"Regina: Un Musical Para Una Nación Que Despierta\" premieres",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Album based on the musical \"Regina\" released",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "Indian film titled \"Regina\" released",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  },
+  {
+   "year": 2023,
+   "text": "Aidan releases song \"Reġina\"",
+   "url": "https://en.wikipedia.org/wiki/Regina",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-24",
+ "prompt": "quiz-v4",
+ "model": "openai/gpt-oss-120b"
+}

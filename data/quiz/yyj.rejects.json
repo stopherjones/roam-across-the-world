@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "calls": 3,
+  "promptTokens": 3980,
+  "completionTokens": 3248,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1881,
+   "theme": "commerce_industry",
+   "event": "Lake Victoria ferry sinks in London, Ontario, causing significant loss of life",
+   "quote": "Victoria, a ferry that sank 24 May 1881 in London, Ontario (see List of Canadian disasters by death toll)",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}
