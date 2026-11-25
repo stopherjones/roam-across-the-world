@@ -1,0 +1,8 @@
+{
+  "name": "save-worker",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-20",
+  "kv_namespaces": [
+    { "binding": "SAVES", "id": "4786342f9d3f4e91b31f4fe1ab5c64cd" }
+  ]
+}
