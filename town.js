@@ -325,6 +325,7 @@ function tileHtml(t){
 // UNESCO sites by town id. Loaded once; if the file is missing or empty, no Heritage tiles appear.
 var UNESCO_MAP={};
 var NATURE_CACHE={};
+var CUISINE_INDEX=null,CUISINE_INDEX_PROMISE=null;
 var NATURE_RADII=[5,10,25],NATURE_LIMIT=4;
 var UNESCO_READY=fetch("data/unesco.json").then(function(r){if(!r.ok)throw new Error("unesco "+r.status);return r.json()}).catch(function(){return {}}).then(function(m){
  UNESCO_MAP=m||{};
@@ -357,6 +358,65 @@ function unescoOpen(pid){
  back.addEventListener('click',function(e){if(e.target===back)paintingsClose();});
  document.body.appendChild(back);
 }
+function cuisineIndexLoad(){
+ if(CUISINE_INDEX)return Promise.resolve(CUISINE_INDEX);
+ if(!CUISINE_INDEX_PROMISE){
+  CUISINE_INDEX_PROMISE=fetch("data/cuisine/index.json").then(function(r){
+   if(!r.ok)throw new Error("Cuisine data request failed ("+r.status+")");
+   return r.json();
+  }).then(function(data){
+   if(!data||!data.townAreas||!data.areas)throw new Error("Cuisine data has an unexpected format");
+   CUISINE_INDEX=data;
+   return data;
+  }).catch(function(error){
+   CUISINE_INDEX_PROMISE=null;
+   throw error;
+  });
+ }
+ return CUISINE_INDEX_PROMISE;
+}
+function cuisineHtml(pid,index){
+ var area=index.townAreas[pid],dishes=area?(index.areas[area]||[]):[];
+ var attribution="<p class='paint-credit'>Town-area mapping: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank' rel='noopener'>OpenStreetMap contributors</a> (Nominatim).</p>";
+ if(!dishes.length)return attribution+"<p class='mute'>No local dishes were found for "+esc(N[pid]?N[pid].n:pid)+".</p>";
+ return "<p class='mute'>Dishes associated with "+esc(area)+": "+dishes.length+".</p>"+attribution+dishes.map(function(d){
+  if(!d||!d.name||typeof d.url!=="string"||d.url.indexOf("https://")!==0)return"";
+  var image=typeof d.imageUrl==="string"&&d.imageUrl.indexOf("https://")===0
+   ?"<a href='"+esc(d.url)+"' target='_blank' rel='noopener' aria-label='Read about "+esc(d.name)+" on Wikipedia'><img src='"+esc(d.imageUrl)+"' alt='"+esc(d.name)+"' loading='lazy'></a>"
+   :"<p class='paint-credit'>No Wikipedia lead photo available.</p>";
+  var description=d.description?"<p class='mute'>"+esc(d.description)+"</p>":"";
+  var license=d.license?(typeof d.licenseUrl==="string"&&d.licenseUrl.indexOf("https://")===0
+   ?"<a href='"+esc(d.licenseUrl)+"' target='_blank' rel='noopener'>"+esc(d.license)+"</a>"
+   :esc(d.license)):"";
+  var creditParts=[];
+  if(d.imageUrl||d.photoCredit||license||d.photoUrl)creditParts.push(d.photoCredit?esc(d.photoCredit):"Photographer not credited");
+  if(license)creditParts.push(license);
+  if(typeof d.photoUrl==="string"&&d.photoUrl.indexOf("https://")===0)creditParts.push("<a href='"+esc(d.photoUrl)+"' target='_blank' rel='noopener'>Image details</a>");
+  var photoCredit=creditParts.length?"<div class='paint-credit'>Photo: "+creditParts.join(" · ")+"</div>":"";
+  return "<div class='paint-item'><a href='"+esc(d.url)+"' target='_blank' rel='noopener'><strong>"+esc(d.name)+"</strong></a>"+description+image+photoCredit+
+   "<a href='"+esc(d.url)+"' target='_blank' rel='noopener'>Read about this dish on Wikipedia</a></div>";
+ }).join("");
+}
+function cuisineOpen(pid){
+ paintingsClose();
+ paintCss();
+ var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
+ var back=document.createElement("div");back.id="paint-modal";back.className="paint-back";
+ back.innerHTML="<div class='paint-box'><button type='button' class='paint-close' onclick='paintingsClose()'>Close</button>"+
+  "<h2>Local dishes in "+esc(name)+"</h2><div id='cuisine-results' role='status' aria-live='polite'><p class='mute'>Loading local dishes\u2026</p></div></div>";
+ back.addEventListener("click",function(e){if(e.target===back)paintingsClose()});
+ document.body.appendChild(back);
+ cuisineIndexLoad().then(function(index){
+  var el=document.getElementById("cuisine-results");
+  if(el)el.innerHTML=cuisineHtml(pid,index);
+ },function(error){
+  var el=document.getElementById("cuisine-results");
+  if(!el)return;
+  el.setAttribute("role","alert");
+  el.innerHTML="<p class='mute'>Could not load local dishes: "+esc(error&&error.message||error)+"</p><button type='button' class='btn' id='cuisine-retry'>Try again</button>";
+  document.getElementById("cuisine-retry").addEventListener("click",function(){cuisineOpen(pid)});
+ });
+}
 function thingsHtml(){
  tileCss();
  var q=function(s){return encodeURIComponent(s).replace(/%20/g,"+")},c=q(N[S.loc].n);
@@ -372,6 +432,7 @@ function thingsHtml(){
  // UNESCO World Heritage sites near this town (data/unesco.json, built by tools/gen-unesco.mjs).
  if(((UNESCO_MAP||{})[S.loc]||[]).length)extra.push({emoji:"🏛️",title:"Heritage",onclick:"unescoOpen('"+S.loc+"')",cls:"tile-heritage"});
  extra.push({emoji:"🌿",title:"Nature",onclick:"natureOpen('"+S.loc+"')"});
+ extra.push({emoji:"🍽️",title:"Local dishes",onclick:"cuisineOpen('"+S.loc+"')"});
  // Link-out search tiles. They open the site's own search for the town name; nothing is fetched or stored.
  // The search addresses are not checked against the live sites, so confirm them in a browser and edit here if they change.
  if(atlasTile())extra.push({emoji:"🧭",title:"Atlas Obscura",ext:true,href:atlasHref()});

@@ -45,6 +45,7 @@ These are built ahead of time by the scripts in `tools/`, so the game never call
 - `data/unesco.json`: UNESCO World Heritage sites near each town, with Wikidata photos. Built by `tools/gen-unesco.mjs` from the UNESCO CSV export.
 - `data/tasteatlas-overrides.js` and `data/atlasobscura-overrides.js`: hand-set link addresses. A value of `false` hides that tile for the town.
 - `data/countries.js`, `data/regions/*.js`, `data.js`: places, crossings and country lists.
+- `data/cuisine/index.json`: local-dish index used by the rest-day Local dishes tile. Rebuild it after updating `worldcuisines.csv` or `towns_areas.csv` with `python data/cuisine/build_dishes_index.py`, then run `python data/cuisine/update_wikipedia_photos.py` to refresh Wikipedia lead photos and Wikimedia Commons credit/licence details. The photo updater needs an internet connection.
 
 ## Generators and scheduled runs
 Each generator reads `GROQ_API_KEY` from the environment. Run it from the project root, for example `GROQ_API_KEY=... node tools/gen-market.mjs --batch 5`. Each run only fills towns with no entry, and never overwrites existing text. `--dry-run` lists what it would do without calling the API.
