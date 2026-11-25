@@ -737,7 +737,7 @@ function interimPay(m){
  return Math.round(PAY_MAX-(PAY_MAX-PAY_MIN)*(m-100)/1900)
 }
 function canInterim(){
- return !!(S&&!S.over&&S.phase==="move"&&S.loc!==S.goal&&!S.interimUsed);
+ return !!(S&&!S.over&&S.phase==="move"&&S.loc!==S.goal&&S.cash<100&&!S.interimUsed);
 }
 function canAffordOnward(){return opts(1).some(function(o){return o.c<=S.cash})}
 function canAffordTerminalChange(){return terms(S.loc).some(function(g){return g!==S.term&&xf(S.loc,S.term,g).c<=S.cash})}
@@ -1213,8 +1213,8 @@ function render(msg){
 
   if(S.phase=="lastmile"||S.phase=="interim")h+="<div class='panel'><h2>"+(S.phase=="interim"?"Checkpoint work":"Checkpoint")+"</h2><div id='lm'></div></div>";else if(S.phase=="plan")h+=planPanel();else if(S.phase=="routes")h+=routesPanel();
   if(S.phase=="lastmile"||S.phase=="interim"||S.phase=="plan"||S.phase=="routes"){}else if(S.phase=="arrive"){h+=arriveHtml();}else if(S.phase=="wait"){h+=waitHtml();}else if(S.phase=="evening"){h+=eveningPage();}else if(S.phase=="stay"){var po=opts()[S.pend],ss=sched(po,S.loc,S.h);h+="<div class='panel'><h2>No service until "+clk(ss.dep)+"</h2>"+(eveningOpen()?"<p class='mb10'>There is time to look around before you settle in.</p><button class='card' onclick='eveningStart()'><b>Explore "+esc(N[S.loc].n)+" until 9pm</b><span>Look at the market, the things to do, and any paintings nearby. No time is used.</span></button>":"<p class='mute mb10'>It is past 9pm, so there is no time to explore before you settle in.</p>")+"<p class='mb10'>Where will you sleep in "+N[S.loc].n+"?</p>";S.rooms.forEach(function(x,k){h+="<button class='card' onclick='stay("+k+")'"+(x.c>S.cash?" disabled":"")+"><b>"+x.n+", \u00a3"+x.c+"</b><span>"+(x.q?"A proper night's rest.":"Cheap, but you may sleep badly.")+"</span></button>"});h+="<button class='card' onclick='stay(-1)'><b>Spend the night at the station</b><span>Free, but you will be tired: 1 h lost on the next leg.</span></button>";if(!S.rooms.length)h+="<p class='mb10'>No rooms are free in town tonight.</p>";h+="<button class='link' onclick='S.phase=\"move\";S.pend=null;S.pendOpt=null;render()'>Choose a different option</button></div>";h+=earnHtml();h+=thingsHtml()}else{
-   var all=opts(),v=vis(),last="";
-   h+="<div class='panel'><h2>Where next?</h2>"+(canInterim()?"<button class='card' onclick='interimLM()'><b>"+(needsEmergencyWork()?"Earn money for the next fare":"Stop for checkpoint work")+"</b><span>Spend 2 hours on a photo challenge in "+esc(N[S.loc].n)+" and earn £"+PAY_MIN+" to £"+PAY_MAX+".</span></button>":"");
+   var all=opts(),v=vis(),last="",workAvailable=canInterim();
+   h+="<div class='panel'><h2>Where next?</h2>"+(workAvailable?"<p class='mute'>Your funds are running low. You can stop for checkpoint work if you want.</p><button class='card' onclick='interimLM()'><b>"+(needsEmergencyWork()?"Earn money for the next fare":"Stop for checkpoint work")+"</b><span>Spend 2 hours on a photo challenge in "+esc(N[S.loc].n)+" and earn £"+PAY_MIN+" to £"+PAY_MAX+".</span></button>":"");
    v.show.sort(function(a,b){var x=ORD.indexOf(all[a].m)-ORD.indexOf(all[b].m);return x||all[a].h-all[b].h});
    v.show.forEach(function(i){
     var o=all[i],sc=sched(o,S.loc,S.h);
