@@ -1,0 +1,130 @@
+{
+ "id": "ckg",
+ "town": "Chongqing",
+ "source": "https://en.wikipedia.org/wiki/Chongqing",
+ "pool": [
+  {
+   "year": 1102,
+   "text": "Yu Prefecture was renamed to Gong Prefecture during the Northern Song.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1189,
+   "text": "The city received its current name after Prince Zhao Dun described a double celebration.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "culture"
+  },
+  {
+   "year": 1362,
+   "text": "Peasant rebel leader Ming Yuzhen established the short-lived Daxia Kingdom at Chongqing.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1621,
+   "text": "She Chongming established the short-lived kingdom of Daliang with Chongqing as its capital.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1644,
+   "text": "Chongqing and Sichuan were captured by Zhang Xianzhong after the fall of the Ming dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1890,
+   "text": "The British Consulate General was opened in Chongqing.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "Chongqing served as the wartime capital of the Republic of China during the Second Sino-Japanese War.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1940,
+   "text": "Chongqing was formally declared the second capital city of the Republic of China.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Mao Zedong signed the Double 10 Peace Agreement with the Kuomintang at Guiyuan.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "The first important bridge in urban Chongqing, the Niujiaotuo Jialing River Bridge, was built.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "The Shibanpo Yangtze River Bridge was built as the first bridge over the Yangtze.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "A soccer club originally called Qianwei Wuhan was formed to take part in the professional Chinese Soccer League.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "The current municipality was separated from Sichuan province to further regional development.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The soccer club achieved its greatest success by winning the Chinese FA Cup.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "A station was completed and connected to the Metro Line in Chongqing.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Chongqing had an annual output capacity of 1 million cars and 8.6 million motorcycles.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Chongqing became one of the nine National Central Cities in China.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "The Chongqing Soaring Dragons became the 20th team playing in the Chinese Basketball Association.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "The Chongqing Soaring Dragons basketball team moved to Beijing and is known as Beijing Royal Fighters.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "The Chengdu Military Region was reorganized into the Western Theater Command.",
+   "url": "https://en.wikipedia.org/wiki/Chongqing",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

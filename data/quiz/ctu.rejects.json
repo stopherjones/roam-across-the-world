@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 8968,
+  "completionTokens": 6426,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1939,
+   "theme": "power_conflict",
+   "event": "Captain defended against Japanese schnellbomber-terror bombing raiders on 4 November.",
+   "quote": "Slow and vulnerable obsolescent Chinese fighter aircraft burning low-grade fuel were still sufficiently dangerous in the hands of capable pilots against the Japanese schnellbomber-terror bombing raiders; on 4 November 1939, for instance, Capt.",
+   "stage": "verification",
+   "why": "The source quote mentions the date 4 November 1939 and the context, but cuts off abruptly at 'Capt.', failing to complete the claim about the captain defending against the raiders."
+  }
+ ]
+}

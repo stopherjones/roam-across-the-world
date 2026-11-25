@@ -1,0 +1,130 @@
+{
+ "id": "par",
+ "town": "Paris",
+ "source": "https://en.wikipedia.org/wiki/Paris",
+ "pool": [
+  {
+   "year": 1564,
+   "text": "The Tuileries Garden was created for the Tuileries Palace.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "environment"
+  },
+  {
+   "year": 1612,
+   "text": "The Luxembourg Garden was built for Marie de' Medici.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "environment"
+  },
+  {
+   "year": 1626,
+   "text": "The Jardin des plantes was created as the first botanical garden.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "environment"
+  },
+  {
+   "year": 1648,
+   "text": "The Royal Academy of Painting and Sculpture was established.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "culture"
+  },
+  {
+   "year": 1680,
+   "text": "The Comédie-Française was founded as the oldest Paris theatre.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "culture"
+  },
+  {
+   "year": 1786,
+   "text": "La Taverne Anglaise was opened by Antoine Beauvilliers in the Palais-Royal.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1942,
+   "text": "French police and gendarmes arrested thousands of Jews and confined them at the Vel d'Hiv.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "American and French forces liberated the city from occupation during the war.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "Le Lido music hall opened on the Champs-Élysées.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "culture"
+  },
+  {
+   "year": 1958,
+   "text": "UNESCO established its headquarters in Paris.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "Protest demonstrations by Algerians led to violent confrontations and multiple deaths.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1961,
+   "text": "Paul Delouvrier became head of the Paris region.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1968,
+   "text": "Protesting students occupied the Sorbonne and built barricades in the Latin Quarter.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "The District de la région parisienne was reorganised into new departments.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The Périphérique expressway encircling the city was completed.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1974,
+   "text": "Charles de Gaulle Airport opened to commercial traffic.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "The district of the Paris region was renamed Île-de-France.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The central river banks including major landmarks were classified as a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "Bertrand Delanoë became the first socialist mayor of the capital.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "A section of the highway along the Left Bank became an urban promenade.",
+   "url": "https://en.wikipedia.org/wiki/Paris",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

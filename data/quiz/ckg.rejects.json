@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5040,
+  "completionTokens": 3893,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 581,
+   "theme": "power_conflict",
+   "event": "Jiangzhou was renamed to Yu Prefecture during the Sui dynasty.",
+   "quote": "Jiangzhou was subsequently renamed during the Northern and Southern dynasties to Chu Prefecture (楚州), then again in 581 AD (Sui dynasty) to Yu Prefecture (渝州), and later in 1102 during Northern Song to Gong Prefecture (恭州).",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 1259,
+   "theme": "power_conflict",
+   "event": "The Mongol leader Möngke Khan died in Ciqikou during the Southern Song dynasty.",
+   "quote": "Ciqikou is a 1000-year-old town in the Shapingba District of Chongqing. It is noted for its resistance to the Mongol armies during the Southern Song dynasty (1127–1279) and the location where the Mongol leader Möngke Khan died in 1259,",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2002,
+   "theme": "civic",
+   "event": "A stadium was built that later served as a main venue for the 2004 AFC Asian Cup.",
+   "quote": "It was built in 2002 and was one of main venues for the 2004 AFC Asian Cup.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

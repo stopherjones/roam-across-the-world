@@ -1,0 +1,130 @@
+{
+ "id": "tpe",
+ "town": "Taipei",
+ "source": "https://en.wikipedia.org/wiki/Taipei",
+ "pool": [
+  {
+   "year": 1709,
+   "text": "Han Chinese colonists began to settle inside the Taipei Basin area.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "civic"
+  },
+  {
+   "year": 1738,
+   "text": "The historic Bangka Lungshan Temple was built in Wanhua District.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  },
+  {
+   "year": 1787,
+   "text": "Qingshui Temple was built as a prominent landmark in Wanhua District.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  },
+  {
+   "year": 1879,
+   "text": "The Taipei Confucius Temple traces its history back to the Qing dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  },
+  {
+   "year": 1887,
+   "text": "Taipei became the seat of Taiwan Province by the Qing dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1895,
+   "text": "China ceded Taiwan to the Empire of Japan under the Treaty of Shimonoseki.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "The Shandao Temple was built in Zhongzheng District as a large Buddhist temple.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "The largest Allied air raid, the Taihoku Air Raid, took place.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The ruling Kuomintang relocated the ROC government and declared Taipei the provisional capital.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "Taipei officially became the nation's first special municipality, upgrading from provincial city status.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "The Taipei Fine Arts Museum was established as the first modern art museum.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Taipei provided the backdrop for the Wild Lily student rallies.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The National Taiwan Museum has worn its present name since this year.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "A new museum opened as the Museum of Contemporary Art Taipei.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Taipei 101 opened and claimed the title of world's tallest building.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "The Taipei Arena opened on the site of the former stadium.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The Taiwan High Speed Rail system officially opened for public transportation.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "International visitors totaled almost 3 million as a tourism component.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The architectural design for the Taipei Performing Arts Center was determined.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "Writer Tao Lin published a novel titled Taipei taking place in New York and Taipei.",
+   "url": "https://en.wikipedia.org/wiki/Taipei",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

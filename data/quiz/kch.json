@@ -1,0 +1,130 @@
+{
+ "id": "kch",
+ "town": "Kuching",
+ "source": "https://en.wikipedia.org/wiki/Kuching",
+ "pool": [
+  {
+   "year": 1599,
+   "text": "Santubong was founded as a past capital of Sarawak by Sultan Pengiran Tengah.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1824,
+   "text": "Antimony ore was discovered at upper Sarawak river, spurring Kuching's founding.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1827,
+   "text": "Pengiran Indera Mahkota founded Kuching as the third capital of Sarawak.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1841,
+   "text": "James Brooke was appointed as the Governor of Sarawak with Rajah title.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1872,
+   "text": "Charles Brooke renamed the settlement to Kuching.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "civic"
+  },
+  {
+   "year": 1888,
+   "text": "An epidemic broke out which was later known as Great Cholera Epidemic.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "environment"
+  },
+  {
+   "year": 1941,
+   "text": "Japanese forces conquered Kuching during the Second World War.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "Sir Charles Vyner Brooke ceded Sarawak to the British Crown.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "Hospital Sentosa opened to provide psychiatric services for the entire state.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Kuching Port Authority was established to manage port operations.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1963,
+   "text": "Sarawak formed the Federation of Malaysia while retaining state capital status.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "Kuching Port Authority started its operations at Tanah Puteh Port.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1988,
+   "text": "Kuching was granted a city status and administered by city halls.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Kuching hosted the Rainforest World Music Festival for global performers.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "The airport grew rapidly with an increasing number of passengers.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Kuching Sentral main bus terminal opened in the south of the city.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "A smartphone taxi-booking app called GrabTaxi was launched in Kuching.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Kuching was declared as City of Unity by One Malaysia Foundation.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Bookaroo children's literature festival started travelling to Kuching.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "A study was conducted on nominating Kuching in the world heritage list.",
+   "url": "https://en.wikipedia.org/wiki/Kuching",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

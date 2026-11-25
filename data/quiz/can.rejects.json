@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7843,
+  "completionTokens": 6504,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": -1100,
+   "theme": "civic",
+   "event": "A settlement known as Nanwucheng was established in the local area.",
+   "quote": "A settlement now known as Nanwucheng was present in the area by 1100 BC.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 2005,
+   "theme": "civic",
+   "event": "The Export Processing Zone was founded, and former districts were abolished.",
+   "quote": "The Export Processing Zone was founded in 2005. Guangzhou Free Trade Zone The former districts of Dongshan and Fangcun were abolished in 2005, merged into Yuexiu and Liwan respectively.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 845,
+   "theme": "power_conflict",
+   "event": "Nestorian Christians suffered terribly during Emperor Wuzong's violent persecution across China.",
+   "quote": "Nestorian Christians first arrived in China via the overland Silk Road, but suffered during Emperor Wuzong's 845 persecution and were essentially extinct by the year 1000.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 2024,
+   "theme": "environment",
+   "event": "The Nature Index recorded a specific research share and count value.",
+   "quote": "For instance, Guangzhou's share of the 2024 Nature Index is 1,820.05, with a count of 3,966, while India's share is 1,783.34, with 2,733 counts.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

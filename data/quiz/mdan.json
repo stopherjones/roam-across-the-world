@@ -1,0 +1,130 @@
+{
+ "id": "mdan",
+ "town": "Medan",
+ "source": "https://en.wikipedia.org/wiki/Medan",
+ "pool": [
+  {
+   "year": 1632,
+   "text": "The Aceh Sultanate under Gocah Pahlawan expanded its territory to include Medan.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1669,
+   "text": "Perunggit declared the Deli Sultanate, including Medan, independent of the Aceh Sultanate.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1869,
+   "text": "De Deli Maatschappij moved its head office from Labuhan Deli to Medan.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1888,
+   "text": "Sultan Ma'mun Al Rashid Perkasa Alamyah finished the construction of the Maimun Palace.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "culture"
+  },
+  {
+   "year": 1898,
+   "text": "Aeint Herman de Boer built Hotel de Boer to accommodate European tourists visiting Medan.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1907,
+   "text": "Sultan Ma'mun Al Rashid Perkasa Alamyah built the Great Mosque of Medan.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "Japanese forces entered Medan on bicycles and occupied the city during a campaign.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The Japanese occupation of Medan ended with their surrender in this year.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "Allied forces regained control of Medan in April of this year.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "The Dutch established the State of East Sumatra with Medan as its capital.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "The State of East Sumatra was dissolved into the Republic of Indonesia.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1971,
+   "text": "Brigade General Leo Lopulisa opened the Bukit Barisan Museum on 21 June.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "culture"
+  },
+  {
+   "year": 1982,
+   "text": "Daoed Joesoef formally opened the North Sumatra Museum south of the city center.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "Medan established a twinning relationship with George Town in Malaysia on October 10.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "A major port restructuring saw the construction of a container terminal in Medan.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "Medan formed a twinning agreement with Ichikawa in Chiba Prefecture on November 4.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Medan became twinned with Gwangju in South Korea on September 24.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "Student demonstrations turned into riots in Medan after a student died in a clash.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1999,
+   "text": "The Rahmat International Wildlife Museum & Gallery opened as an outstanding taxidermy collection.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Medan established a twinning partnership with Chengdu in China on December 17.",
+   "url": "https://en.wikipedia.org/wiki/Medan",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

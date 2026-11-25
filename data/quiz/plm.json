@@ -1,0 +1,130 @@
+{
+ "id": "plm",
+ "town": "Palembang",
+ "source": "https://en.wikipedia.org/wiki/Palembang",
+ "pool": [
+  {
+   "year": 1619,
+   "text": "The Dutch East India Company established a trade post in Palembang.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1738,
+   "text": "The Grand Mosque of Palembang was built under the reign of Sultan Mahmud Badaruddin I Jaya Wikrama.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "culture"
+  },
+  {
+   "year": 1825,
+   "text": "Palembang was incorporated into the Dutch East Indies after the abolition of the Palembang Sultanate.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1910,
+   "text": "Dulmuluk was adapted into a local theatrical performance by Palembangnese.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "culture"
+  },
+  {
+   "year": 1913,
+   "text": "The Post and Telegraph Office opened its doors in Palembang.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 1922,
+   "text": "Javasche Bank was established in Palembang.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "The town hall with its remarkable water tower was built.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "The first plane landed at Palembang airport in Talang Betutu.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 1944,
+   "text": "USAAF B-29 bombers flying from India raided the Palembang refineries.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "Palembang was occupied by the Dutch after an urban battle with Republicans.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "Cinde Market was built with its unique mushroom pillars.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1965,
+   "text": "Ampera Bridge was completed and officially opened for public.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "Indonesia government expanded Palembang's administrative area as far as 12 kilometers from the city center.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "Musi II Bridge was built crossing Musi River.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "President Susilo Bambang Yudhoyono declared Palembang a Water Tourism City.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Palembang's first flyover was completed at Simpang Polda.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Palembang launched its bus transit system, Transmusi.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "Palembang replaced Riau province capital Pekanbaru as host city of the Islamic Solidarity Games.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "The central government began upgrading Palembang's transportation with the construction of a light rail transit system.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "South Sumatra is the largest producer of rubber, with over 850,000 tons exported from Palembang.",
+   "url": "https://en.wikipedia.org/wiki/Palembang",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

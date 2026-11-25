@@ -1,0 +1,74 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 6165,
+  "completionTokens": 3578,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1516,
+   "theme": "commerce_industry",
+   "event": "Portuguese voyagers sailed from Portuguese Malacca to the island and returned with sandalwood.",
+   "quote": "The first recorded Portuguese voyage to the island from Portuguese Malacca occurred in 1기와, returning with sandalwood.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2021,
+   "theme": "environment",
+   "event": "The city experienced its worst flood in 50 years during COVID-19 restrictions.",
+   "quote": "During a period of COVID-19 restrictions, the city was hit by the worst flood in 50 years in April 2021.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2001,
+   "theme": "civic",
+   "event": "Dili established a sister city twinning arrangement with Margao, India.",
+   "quote": "Margao, India (2001)",
+   "source": "https://en.wikipedia.org/wiki/Dili",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 2001,
+   "theme": "civic",
+   "event": "Dili established a sister city twinning arrangement with Praia, Cape Verde.",
+   "quote": "Praia, Cape Verde (2001)",
+   "source": "https://en.wikipedia.org/wiki/Dili",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 2002,
+   "theme": "civic",
+   "event": "Dili established a sister city twinning arrangement with Coimbra, Portugal.",
+   "quote": "Coimbra, Portugal (2002)",
+   "source": "https://en.wikipedia.org/wiki/Dili",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 2003,
+   "theme": "civic",
+   "event": "Dili established a sister city twinning arrangement with Darwin, Australia.",
+   "quote": "Darwin, Australia (2003)",
+   "source": "https://en.wikipedia.org/wiki/Dili",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  },
+  {
+   "year": 2005,
+   "theme": "civic",
+   "event": "Dili established a sister city twinning arrangement with Okinawa, Japan.",
+   "quote": "Okinawa, Japan (2005)",
+   "source": "https://en.wikipedia.org/wiki/Dili",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

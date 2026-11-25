@@ -1,0 +1,130 @@
+{
+ "id": "mfm",
+ "town": "Macau",
+ "source": "https://en.wikipedia.org/wiki/Macau",
+ "pool": [
+  {
+   "year": 1152,
+   "text": "Macau was placed under the jurisdiction of the new Xiangshan County.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "civic"
+  },
+  {
+   "year": 1277,
+   "text": "Thousands of refugees fleeing the Mongol conquest settled in the coastal area.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "civic"
+  },
+  {
+   "year": 1513,
+   "text": "Explorer Jorge Álvares became the first European visitor to reach China by sea.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "culture"
+  },
+  {
+   "year": 1554,
+   "text": "Luso-Canton trade relations were formally reestablished after peaceful negotiations.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1557,
+   "text": "Portugal acquired a permanent lease for Macau as a trading post.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1576,
+   "text": "The Roman Catholic Diocese of Macau was created.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "The Kuomintang further affirmed Portuguese jurisdiction during treaty renegotiations.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "Japan installed government advisors after capturing a British cargo ship.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "The United States paid financial compensation to Portugal for war damage.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1962,
+   "text": "Casino gambling was legalised under a government-licensed monopoly.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1966,
+   "text": "Dissatisfied residents rioted during the peak of the Cultural Revolution.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1987,
+   "text": "Portugal and China signed the Joint Declaration on the Question of Macau.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The territory was handed over to China after centuries of Portuguese rule.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2001,
+   "text": "Municipalities were abolished and superseded by the Civic and Municipal Affairs Bureau.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Downtown architecture resulted in designation as a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The Chief Executive was invited to request Associate Observer status for Macau.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Residents wrote a letter to UNESCO complaining about nearby construction projects.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "An association submitted a report claiming failure to protect cultural heritage.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "The government approved a construction height limit contrary to regulations.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "environment"
+  },
+  {
+   "year": 2019,
+   "text": "A Western-style medical school was opened by the local university.",
+   "url": "https://en.wikipedia.org/wiki/Macau",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

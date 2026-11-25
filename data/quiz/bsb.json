@@ -1,0 +1,130 @@
+{
+ "id": "bsb",
+ "town": "Bandar Seri Begawan",
+ "source": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+ "pool": [
+  {
+   "year": 1521,
+   "text": "Pigafetta visited Brunei during Ferdinand Magellan's last voyages.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "culture"
+  },
+  {
+   "year": 1578,
+   "text": "Catholic Spaniards attacked Kampong Ayer during the Castilian War.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1841,
+   "text": "Rajah James Brooke dubbed Kampong Ayer a Venice of hovels.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "culture"
+  },
+  {
+   "year": 1910,
+   "text": "Chinese immigrants opened shops establishing the colony on land.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1920,
+   "text": "The area was officially designated as Brunei capital and municipal territory.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "civic"
+  },
+  {
+   "year": 1921,
+   "text": "The Brunei Town Sanitary Board was established to oversee development.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "The Sanitary Board converted into the current Municipal Board achieving bandaran status.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "Japanese forces launched an assault and overran Brunei Town.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "American and Australian forces captured Brunei after three days of warfare.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "A board of 19 notable individuals was formed for Islamic matters.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "A major development plan introduced funding for infrastructure and growth.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1960,
+   "text": "Brunei population tripled as a result of immigration from oilfield finds.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "The Brunei revolt began when the North Kalimantan National Army captured Brunei Town.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1969,
+   "text": "Pusat Belia youth centre was established after being commissioned by Crown Prince Hassanal Bolkiah.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "culture"
+  },
+  {
+   "year": 1970,
+   "text": "Brunei Town was formally renamed Bandar Seri Begawan in honour of the Sultan.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "Sultan Hassanal Bolkiah declared Brunei independence at a square in the city centre.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "Bandar Seri Begawan served as the host city of the 20th Southeast Asian Games.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Bandar Seri Begawan hosted the 8th APEC Summit.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Sultan Haji Hassanal Bolkiah Silver Jubilee Park opened celebrating his reign.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "The Sultan Haji Omar Ali Saifuddien Bridge opened providing connectivity to Temburong.",
+   "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

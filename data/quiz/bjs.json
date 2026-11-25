@@ -1,0 +1,130 @@
+{
+ "id": "bjs",
+ "town": "Beijing",
+ "source": "https://en.wikipedia.org/wiki/Beijing",
+ "pool": [
+  {
+   "year": 1403,
+   "text": "The name Beijing was applied to the city during the Ming dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1605,
+   "text": "The Cathedral of the Immaculate Conception was built as the oldest Catholic church.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "culture"
+  },
+  {
+   "year": 1644,
+   "text": "Beijing was declared the sole capital of the empire.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1744,
+   "text": "The Yonghe Temple was decreed to serve as a research facility and residence.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "culture"
+  },
+  {
+   "year": 1860,
+   "text": "Anglo-French forces captured the outskirts of the city, looting and burning the Old Summer Palace.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1928,
+   "text": "The capital was formally moved to Nanjing following the success of the Northern Expedition.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1937,
+   "text": "Beijing fell to Japan and was made the seat of the Provisional Government.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The People's Liberation Army seized control of the city peacefully during the campaign.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1959,
+   "text": "The Beijing railway station opened as one of the city's main railway stations.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1969,
+   "text": "The Beijing Subway began operating and now has numerous lines and stations.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "The first rock band in Beijing named Peking All-Stars was formed.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "The urban area of Beijing expanded greatly with the completion of the 2nd Ring Road.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "Père David's deer was reintroduced to Beijing after becoming extinct in China.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "environment"
+  },
+  {
+   "year": 1993,
+   "text": "Beijing Airport Economic Zone was created surrounding the capital airport.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1996,
+   "text": "The Beijing West railway station opened as a main transportation hub.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "The Beijing barbastelle bat species was discovered in caves of Fangshan District.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "environment"
+  },
+  {
+   "year": 2002,
+   "text": "One dust storm dumped nearly 50,000 tons of dust onto the city.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "The city hosted the Summer Olympics and Summer Paralympics Games.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Beijing–Tianjin intercity railway opened as a high-speed rail line.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Chongwen and Xuanwu were merged into Dongcheng and Xicheng, respectively.",
+   "url": "https://en.wikipedia.org/wiki/Beijing",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

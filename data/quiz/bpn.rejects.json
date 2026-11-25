@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3542,
+  "completionTokens": 3659,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2016,
+   "theme": "commerce_industry",
+   "event": "Balikpapan recorded an estimated largest GDP in Kalimantan amounting to Rp 73.18 trillion.",
+   "quote": "Balikpapan is the largest city in Kalimantan by GDP, with a 2016 estimate of Rp 73.18 trillion.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "Balikpapan recorded a population of 688,318 according to the census.",
+   "quote": "With a population of 688,318 according to the 2020 census, and an official estimate of 757,418 as at mid 2023 (comprising 387,112 males and 370,206 females), Balikpapan is the second most populous city in East Kalimantan, after Samarinda.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

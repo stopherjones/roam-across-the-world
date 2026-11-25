@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8441,
+  "completionTokens": 6362,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2013,
+   "theme": "commerce_industry",
+   "event": "Harbin recorded a total GDP of RMB501.08 billion with positive economic growth.",
+   "quote": "In 2013, Harbin's GDP totaled RMB501.08 billion, an increase of 8.9 percent over the previous year.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2015,
+   "theme": "commerce_industry",
+   "event": "Harbin reached a total recorded GDP of RMB 575.12 billion.",
+   "quote": "In 2015, Harbin had a GDP of RMB 575.12 billion.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "civic",
+   "event": "The national census recorded Harbin as the eighth most populous Chinese city.",
+   "quote": "It is the eighth most populous Chinese city according to the 2020 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1899,
+   "theme": "commerce_industry",
+   "event": "Harbin Railway Station was first built, and later expanded in 1989.",
+   "quote": "The city's main railway stations are the Harbin Railway Station, which was first built in 1899 and expanded in 1989.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1996,
+   "theme": "civic",
+   "event": "The 1996 Asian Winter Games were successfully held in Harbin.",
+   "quote": "The 1996 Asian Winter Games were held in Harbin.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2009,
+   "theme": "civic",
+   "event": "Harbin hosted the 2009 Winter Universiade on the world scene.",
+   "quote": "In the frame of this campaign to assert its role on the world scene, Harbin hosted the 2009 Winter Universiade.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1910,
+   "theme": "environment",
+   "event": "A severe epidemic of plague struck Harbin, resulting in fifteen hundred deaths.",
+   "quote": "The plague lasted from late autumn of 1910 to spring 1911 and killed 1,500 Harbin residents (mostly ethnic Chinese), or about five percent of its population at the time.",
+   "stage": "verification",
+   "why": "The source quote states the plague killed 1,500 Harbin residents, but the epidemic started in late autumn 1910 and lasted to spring 1911, not solely isolated to 1910 as the exact sole year."
+  },
+  {
+   "year": 2023,
+   "theme": "food_daily",
+   "event": "Eighty-seven million visitors came to Harbin during the winter season.",
+   "quote": "During the 2023–2024 winter season, there were 87 million visitors, mostly coming from other parts of China.",
+   "stage": "verification",
+   "why": "The source specifies the 2023-2024 winter season rather than a single calendar year of 2023."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 11182,
+  "completionTokens": 6901,
+  "chunksRead": 2,
+  "chunksAvailable": 3
+ },
+ "rejects": [
+  {
+   "year": 1939,
+   "theme": "commerce_industry",
+   "event": "Sydney experienced a surge in industrial development with the outbreak of war.",
+   "quote": "With the outbreak of Second World War in 1939, Sydney experienced a surge in industrial development.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "syd",
+ "town": "Sydney",
+ "source": "https://en.wikipedia.org/wiki/Sydney",
+ "pool": [
+  {
+   "year": 1770,
+   "text": "James Cook charted the eastern coast of Australia and landed at Botany Bay.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1788,
+   "text": "Arthur Phillip led the First Fleet to found Sydney as a British penal colony.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "civic"
+  },
+  {
+   "year": 1788,
+   "text": "Governor Arthur Phillip set aside the area now known as The Domain as his private reserve.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "environment"
+  },
+  {
+   "year": 1789,
+   "text": "Watkin Tench published A Narrative of the Expedition to Botany Bay.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "culture"
+  },
+  {
+   "year": 1804,
+   "text": "Irish convicts led the Castle Hill Rebellion to march on Sydney.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1810,
+   "text": "Macquarie dedicated the Royal Botanic Garden for the recreation and amusement of inhabitants.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "environment"
+  },
+  {
+   "year": 1926,
+   "text": "The first electric trains were introduced to the railway network.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "civic"
+  },
+  {
+   "year": 1932,
+   "text": "The Sydney Harbour Bridge steel arch designed by John Bradfield was completed.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "civic"
+  },
+  {
+   "year": 1932,
+   "text": "The Sydney Harbour Bridge opened when the ferry service was the largest.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "Sydney celebrated the Empire Games and the sesquicentenary of European settlement.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "Sydney was attacked by Japanese submarines, resulting in twenty-one deaths.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1954,
+   "text": "Queen Elizabeth II landed at Farm Cove to commence her Australian Royal Tour.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "The City2Surf annual running race from the CBD to Bondi Beach began.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "The city's Opera House was completed and became a renowned piece of design.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "Performances and visitors reached massive milestones since opening.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "Sydney Mardi Gras has commenced each February since this year.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "Sydney Tower was completed as the tallest structure designed by Donald Crone.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "civic"
+  },
+  {
+   "year": 1987,
+   "text": "The Australian Securities Exchange began operating in the city.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1991,
+   "text": "The Museum of Contemporary Art opened, occupying an Art Deco building.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Bondi Beach was added to the Australian National Heritage List.",
+   "url": "https://en.wikipedia.org/wiki/Sydney",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

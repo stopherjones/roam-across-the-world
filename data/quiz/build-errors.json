@@ -1,0 +1,919 @@
+{
+ "amb": {
+  "town": "Ambon",
+  "country": "Indonesia",
+  "failedAt": "2026-11-25T09:15:27.700Z",
+  "stage": "event pool",
+  "error": "Only 3 usable events; at least 10 are required.",
+  "poolSize": 3,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 598,
+   "completionTokens": 413
+  }
+ },
+ "bda": {
+  "town": "Hamilton, Bermuda",
+  "country": "Bermuda",
+  "failedAt": "2026-11-25T09:15:08.240Z",
+  "stage": "event pool",
+  "error": "Only 8 usable events; at least 10 are required.",
+  "poolSize": 8,
+  "minimumPool": 10,
+  "rejected": 1,
+  "rejectedByStage": {
+   "code check": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1248,
+   "completionTokens": 1221
+  }
+ },
+ "bei": {
+  "town": "Beira",
+  "country": "Mozambique",
+  "failedAt": "2026-11-25T09:20:02.913Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 417,
+   "completionTokens": 1
+  }
+ },
+ "ceb": {
+  "town": "Cebu",
+  "country": "Philippines",
+  "failedAt": "2026-11-25T09:30:14.655Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "cln": {
+  "town": "Colon",
+  "country": "Panama",
+  "failedAt": "2026-11-25T09:21:28.395Z",
+  "stage": "event pool",
+  "error": "Only 2 usable events; at least 10 are required.",
+  "poolSize": 2,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 698,
+   "completionTokens": 254
+  }
+ },
+ "cor": {
+  "town": "Cork",
+  "country": "Ireland",
+  "failedAt": "2026-11-25T09:19:18.528Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 0,
+  "chunksAvailable": 0,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "dav": {
+  "town": "Davao",
+  "country": "Philippines",
+  "failedAt": "2026-11-25T09:30:26.670Z",
+  "stage": "event pool",
+  "error": "Only 7 usable events; at least 10 are required.",
+  "poolSize": 7,
+  "minimumPool": 10,
+  "rejected": 2,
+  "rejectedByStage": {
+   "verification": 1,
+   "duplicate": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1040,
+   "completionTokens": 1037
+  }
+ },
+ "dkh": {
+  "town": "Dakhla",
+  "country": "Morocco",
+  "failedAt": "2026-11-25T09:19:26.199Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 0,
+  "chunksAvailable": 0,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "drw": {
+  "town": "Darwin",
+  "country": "Australia",
+  "failedAt": "2026-11-25T09:22:45.916Z",
+  "stage": "event pool",
+  "error": "Only 3 usable events; at least 10 are required.",
+  "poolSize": 3,
+  "minimumPool": 10,
+  "rejected": 4,
+  "rejectedByStage": {
+   "code check": 4
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1113,
+   "completionTokens": 659
+  }
+ },
+ "dza": {
+  "town": "Mayotte (Dzaoudzi)",
+  "country": "Mayotte",
+  "failedAt": "2026-11-25T09:14:55.515Z",
+  "stage": "Wikipedia lookup",
+  "error": "No Wikipedia article called Mayotte (Dzaoudzi)",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "geo": {
+  "town": "Georgetown",
+  "country": "Guyana",
+  "failedAt": "2026-11-25T09:20:51.465Z",
+  "stage": "event pool",
+  "error": "Only 3 usable events; at least 10 are required.",
+  "poolSize": 3,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 513,
+   "completionTokens": 356
+  }
+ },
+ "gur": {
+  "town": "Guiria",
+  "country": "Venezuela",
+  "failedAt": "2026-11-25T09:14:51.590Z",
+  "stage": "event pool",
+  "error": "Only 3 usable events; at least 10 are required.",
+  "poolSize": 3,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 680,
+   "completionTokens": 488
+  }
+ },
+ "hfx": {
+  "town": "Halifax",
+  "country": "Canada",
+  "failedAt": "2026-11-25T09:21:37.418Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 703,
+   "completionTokens": 1
+  }
+ },
+ "hkg": {
+  "town": "Hong Kong",
+  "country": "Hong Kong",
+  "failedAt": "2026-11-25T09:46:42.237Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 4737,
+   "completionTokens": 4205
+  }
+ },
+ "jos": {
+  "town": "Jos",
+  "country": "Nigeria",
+  "failedAt": "2026-11-25T09:15:42.053Z",
+  "stage": "event pool",
+  "error": "Only 8 usable events; at least 10 are required.",
+  "poolSize": 8,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1245,
+   "completionTokens": 1154
+  }
+ },
+ "khh": {
+  "town": "Kaohsiung",
+  "country": "Taiwan",
+  "failedAt": "2026-11-25T09:48:31.060Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "kmn": {
+  "town": "Kerman",
+  "country": "Iran",
+  "failedAt": "2026-11-25T09:16:47.943Z",
+  "stage": "event pool",
+  "error": "Only 7 usable events; at least 10 are required.",
+  "poolSize": 7,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1080,
+   "completionTokens": 1015
+  }
+ },
+ "kpg": {
+  "town": "Kupang",
+  "country": "Indonesia",
+  "failedAt": "2026-11-25T09:31:40.882Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "lvg": {
+  "town": "Livingstone",
+  "country": "Zambia",
+  "failedAt": "2026-11-25T09:19:53.527Z",
+  "stage": "event pool",
+  "error": "Only 1 usable events; at least 10 are required.",
+  "poolSize": 1,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 490,
+   "completionTokens": 130
+  }
+ },
+ "mau": {
+  "town": "Maun",
+  "country": "Botswana",
+  "failedAt": "2026-11-25T09:20:09.096Z",
+  "stage": "event pool",
+  "error": "Only 6 usable events; at least 10 are required.",
+  "poolSize": 6,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 747,
+   "completionTokens": 776
+  }
+ },
+ "mco": {
+  "town": "Orlando",
+  "country": "United States",
+  "failedAt": "2026-11-25T09:17:32.304Z",
+  "stage": "event pool",
+  "error": "Only 5 usable events; at least 10 are required.",
+  "poolSize": 5,
+  "minimumPool": 10,
+  "rejected": 2,
+  "rejectedByStage": {
+   "code check": 2
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1356,
+   "completionTokens": 764
+  }
+ },
+ "mdz": {
+  "town": "Mendoza",
+  "country": "Argentina",
+  "failedAt": "2026-11-25T09:21:12.604Z",
+  "stage": "event pool",
+  "error": "Only 1 usable events; at least 10 are required.",
+  "poolSize": 1,
+  "minimumPool": 10,
+  "rejected": 1,
+  "rejectedByStage": {
+   "code check": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 554,
+   "completionTokens": 225
+  }
+ },
+ "mid": {
+  "town": "Merida",
+  "country": "Mexico",
+  "failedAt": "2026-11-25T09:21:18.012Z",
+  "stage": "event pool",
+  "error": "Only 3 usable events; at least 10 are required.",
+  "poolSize": 3,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 767,
+   "completionTokens": 339
+  }
+ },
+ "mnl": {
+  "town": "Manila",
+  "country": "Philippines",
+  "failedAt": "2026-11-25T09:29:37.324Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 3505,
+   "completionTokens": 2631
+  }
+ },
+ "mta": {
+  "town": "Matadi",
+  "country": "Democratic Republic of the Congo",
+  "failedAt": "2026-11-25T09:15:59.277Z",
+  "stage": "event pool",
+  "error": "Only 8 usable events; at least 10 are required.",
+  "poolSize": 8,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1052,
+   "completionTokens": 1152
+  }
+ },
+ "noum": {
+  "town": "Noumea",
+  "country": "New Caledonia",
+  "failedAt": "2026-11-25T09:22:39.689Z",
+  "stage": "event pool",
+  "error": "Only 7 usable events; at least 10 are required.",
+  "poolSize": 7,
+  "minimumPool": 10,
+  "rejected": 1,
+  "rejectedByStage": {
+   "code check": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 2067,
+   "completionTokens": 1172
+  }
+ },
+ "npr": {
+  "town": "Napier",
+  "country": "New Zealand",
+  "failedAt": "2026-11-25T09:15:17.263Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 650,
+   "completionTokens": 1
+  }
+ },
+ "nuk": {
+  "town": "Nukus",
+  "country": "Uzbekistan",
+  "failedAt": "2026-11-25T09:16:53.959Z",
+  "stage": "event extraction and verification",
+  "error": "Unexpected token 'S', \"[\n  Soldiering\"... is not valid JSON",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 618,
+   "completionTokens": 868
+  }
+ },
+ "pct": {
+  "town": "Picton",
+  "country": "New Zealand",
+  "failedAt": "2026-11-25T09:22:24.272Z",
+  "stage": "event pool",
+  "error": "Only 4 usable events; at least 10 are required.",
+  "poolSize": 4,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 677,
+   "completionTokens": 491
+  }
+ },
+ "pdx": {
+  "town": "Portland",
+  "country": "United States",
+  "failedAt": "2026-11-25T09:17:07.477Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 693,
+   "completionTokens": 1
+  }
+ },
+ "pee": {
+  "town": "Perm",
+  "country": "Russia",
+  "failedAt": "2026-11-25T09:17:03.314Z",
+  "stage": "event pool",
+  "error": "Only 3 usable events; at least 10 are required.",
+  "poolSize": 3,
+  "minimumPool": 10,
+  "rejected": 1,
+  "rejectedByStage": {
+   "code check": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 645,
+   "completionTokens": 439
+  }
+ },
+ "ppt": {
+  "town": "Pontianak",
+  "country": "Indonesia",
+  "failedAt": "2026-11-25T09:27:37.265Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "ror": {
+  "town": "Koror",
+  "country": "Palau",
+  "failedAt": "2026-11-25T09:22:18.240Z",
+  "stage": "event pool",
+  "error": "Only 6 usable events; at least 10 are required.",
+  "poolSize": 6,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 765,
+   "completionTokens": 780
+  }
+ },
+ "rsl": {
+  "town": "Rosslare",
+  "country": "Ireland",
+  "failedAt": "2026-11-25T09:19:22.498Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 0,
+  "chunksAvailable": 0,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "sbh": {
+  "town": "Sabha",
+  "country": "Libya",
+  "failedAt": "2026-11-25T09:16:57.705Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 0,
+  "chunksAvailable": 0,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "sha": {
+  "town": "Shanghai",
+  "country": "China",
+  "failedAt": "2026-11-25T09:37:59.852Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 3746,
+   "completionTokens": 2190
+  }
+ },
+ "sjo": {
+  "town": "San Jose",
+  "country": "Costa Rica",
+  "failedAt": "2026-11-25T09:21:22.346Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 1665,
+   "completionTokens": 1
+  }
+ },
+ "sju": {
+  "town": "San Juan",
+  "country": "Puerto Rico",
+  "failedAt": "2026-11-25T09:15:12.923Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 1852,
+   "completionTokens": 1
+  }
+ },
+ "ssa": {
+  "town": "Salvador",
+  "country": "Brazil",
+  "failedAt": "2026-11-25T09:20:58.512Z",
+  "stage": "event pool",
+  "error": "Only 9 usable events; at least 10 are required.",
+  "poolSize": 9,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1182,
+   "completionTokens": 1048
+  }
+ },
+ "sub": {
+  "town": "Surabaya",
+  "country": "Indonesia",
+  "failedAt": "2026-11-25T09:24:25.922Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "syx": {
+  "town": "Shenyang",
+  "country": "China",
+  "failedAt": "2026-11-25T09:45:10.498Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "tip": {
+  "town": "Tripoli",
+  "country": "Libya",
+  "failedAt": "2026-11-25T09:19:36.150Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 1,
+  "rejectedByStage": {
+   "code check": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 387,
+   "completionTokens": 71
+  }
+ },
+ "vvi": {
+  "town": "Santa Cruz",
+  "country": "Bolivia",
+  "failedAt": "2026-11-25T09:20:45.776Z",
+  "stage": "event pool",
+  "error": "Only 6 usable events; at least 10 are required.",
+  "poolSize": 6,
+  "minimumPool": 10,
+  "rejected": 1,
+  "rejectedByStage": {
+   "code check": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1011,
+   "completionTokens": 794
+  }
+ },
+ "yae": {
+  "town": "Yaounde",
+  "country": "Cameroon",
+  "failedAt": "2026-11-25T09:19:48.584Z",
+  "stage": "event pool",
+  "error": "Only 8 usable events; at least 10 are required.",
+  "poolSize": 8,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1500,
+   "completionTokens": 1085
+  }
+ },
+ "yar": {
+  "town": "Yaren",
+  "country": "Nauru",
+  "failedAt": "2026-11-25T09:21:58.008Z",
+  "stage": "event pool",
+  "error": "Only 1 usable events; at least 10 are required.",
+  "poolSize": 1,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 338,
+   "completionTokens": 118
+  }
+ },
+ "yyt": {
+  "town": "St. John's",
+  "country": "Canada",
+  "failedAt": "2026-11-25T09:21:52.721Z",
+  "stage": "event pool",
+  "error": "Only 4 usable events; at least 10 are required.",
+  "poolSize": 4,
+  "minimumPool": 10,
+  "rejected": 3,
+  "rejectedByStage": {
+   "code check": 3
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 688,
+   "completionTokens": 729
+  }
+ },
+ "yzd": {
+  "town": "Yazd",
+  "country": "Iran",
+  "failedAt": "2026-11-25T09:16:05.552Z",
+  "stage": "event pool",
+  "error": "Only 5 usable events; at least 10 are required.",
+  "poolSize": 5,
+  "minimumPool": 10,
+  "rejected": 1,
+  "rejectedByStage": {
+   "code check": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1104,
+   "completionTokens": 756
+  }
+ },
+ "zqn": {
+  "town": "Queenstown",
+  "country": "New Zealand",
+  "failedAt": "2026-11-25T09:22:28.129Z",
+  "stage": "event pool",
+  "error": "Only 0 usable events; at least 10 are required.",
+  "poolSize": 0,
+  "minimumPool": 10,
+  "rejected": 0,
+  "rejectedByStage": {},
+  "chunksRead": 0,
+  "chunksAvailable": 0,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ }
+}

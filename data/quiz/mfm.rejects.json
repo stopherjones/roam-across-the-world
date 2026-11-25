@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4514,
+  "completionTokens": 3799,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1991,
+   "theme": "culture",
+   "event": "Brussels established a cultural agreement with Macau.",
+   "quote": "Brussels, Belgium (1991)",
+   "stage": "verification",
+   "why": "The source quote only lists a city and year without mentioning a cultural agreement."
+  }
+ ]
+}

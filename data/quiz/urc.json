@@ -1,0 +1,118 @@
+{
+ "id": "urc",
+ "town": "Urumqi",
+ "source": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+ "pool": [
+  {
+   "year": 1755,
+   "text": "The Qing dynasty took Ürümqi during its military conquest of the Dzungar Khanate.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1771,
+   "text": "A city named Gongning Cheng was built nearby to the northwest to house Manchu bannermen.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "civic"
+  },
+  {
+   "year": 1870,
+   "text": "The Battle of Ürümqi took place between the Turkic Muslim forces and Dungan Muslim forces.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1884,
+   "text": "The Guangxu Emperor established Xinjiang as a province, with Dihua as its capital.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1962,
+   "text": "Ürümqi became the de facto political and economic capital of Xinjiang following protests.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1997,
+   "text": "Bombings in Ürümqi followed the Ghulja incident resulting in 20 deaths and injuries.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "The completion of the new office tower for Ürümqi Municipal Government marked a shift north.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "The city commenced the construction of viaducts for Outer Ring Road lacking a subway.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Zhongshan Road has been one of the ten most famous commercial streets in China.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "Blacksmith Institute mentioned Ürümqi in World's Worst Polluted Places caused by air pollution.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "Maison Mode Ürümqi opened as a notable department store for luxury merchandise.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Toronto Star listed Ürümqi as one of the top ten worst places to live due to pollution.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "environment"
+  },
+  {
+   "year": 2009,
+   "text": "Riots occurred between ethnic Han Chinese and Uyghurs in the largest ethnic violence.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "A new industrial area called Ganquanbao Industrial Park was developed west of the reservoir.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The Ürümqi Bus Rapid Transit bus service was launched after an investment of yuan.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "The Ürümqi Metro opened when the northern section of Line 1 was opened.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "The southern section of Line 1 opened to the public in the city.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "The city's GDP reached CN¥465.8 billion with a specific GDP per capita.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

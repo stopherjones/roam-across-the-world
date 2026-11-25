@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1961,
+  "completionTokens": 1633,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2015,
+   "theme": "commerce_industry",
+   "event": "The recorded GDP per capita reached 49,200 RMB in the city.",
+   "quote": "The GDP per capita was 49,200 RMB (US$7,897) in 2015.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

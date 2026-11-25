@@ -1,0 +1,130 @@
+{
+ "id": "mks",
+ "town": "Makassar",
+ "source": "https://en.wikipedia.org/wiki/Makassar",
+ "pool": [
+  {
+   "year": 1511,
+   "text": "First Malay traders expelled from Melaka began making this port their trading base.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1512,
+   "text": "The 9th King of Gowa allied with the nearby trade-oriented polity of Tallo.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1603,
+   "text": "Karaeng Matoaya guided the young ruler through the acceptance of Islam in Makassar.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "culture"
+  },
+  {
+   "year": 1607,
+   "text": "The first official Friday Prayer in the city was traditionally dated.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "culture"
+  },
+  {
+   "year": 1613,
+   "text": "The English East India Company established a trading post in Makassar.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1618,
+   "text": "The Danish Company arrived to establish a presence in Makassar.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1641,
+   "text": "Makassar became the most extensive Portuguese base in Southeast Asia after Dutch conquest.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1654,
+   "text": "A new king rejected the alliance with Tallo after Pattingalloang died.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1667,
+   "text": "The Dutch VOC seized the chance to conquer the northern Makassar fort.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1669,
+   "text": "The Dutch conquered and destroyed Sombaopu in one of the greatest battles.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1803,
+   "text": "French explorers saw a fleet of Macassan perahus on the Holothuria Banks.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "environment"
+  },
+  {
+   "year": 1938,
+   "text": "The population of Makassar reached around eighty-four thousand residents.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "The Japanese landed near Makassar during the wartime military campaign.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Indonesia proclaimed its Independence, altering the political status of the region.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "The Makassar Uprising took place, resulting in integration into the republic.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1971,
+   "text": "The city was renamed after a variant of the pre-colonial fort name.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The name of the city officially reverted to Makassar under the president.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "A radio documentary on the historical trade was made for the national broadcaster.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "The Sangkarrang Islands District was created to cover the small islands.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "The population of Makassar City reached approximately one point four eight million.",
+   "url": "https://en.wikipedia.org/wiki/Makassar",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

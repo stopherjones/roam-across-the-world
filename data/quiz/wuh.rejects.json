@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10606,
+  "completionTokens": 8029,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1658,
+   "theme": "culture",
+   "event": "Hanyang's Guiyuan Temple was completed in the fifteenth year of Shunzhi.",
+   "quote": "Hanyang's Guiyuan Temple was completed in the fifteenth year of Shunzhi (1658).",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10167,
+  "completionTokens": 7016,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1979,
+   "theme": "culture",
+   "event": "Western classical music plays a significant role with the Singapore Symphony Orchestra instituted.",
+   "quote": "Western classical music plays a significant role in the cultural life in Singapore, with the Singapore Symphony Orchestra (SSO) instituted in 1979.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1959,
+   "theme": "civic",
+   "event": "Singapore gained self-governance and the PAP maintained continuous political dominance.",
+   "quote": "Singapore gained self-governance in 1959 and in 1963 became part of the new federation of Malaysia, alongside Malaya, North Borneo and Sarawak.",
+   "stage": "verification",
+   "why": "The quote confirms self-governance in 1959, but does not mention the PAP maintaining continuous political dominance."
+  }
+ ]
+}

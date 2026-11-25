@@ -7,11 +7,13 @@
 // Examples (from the project root):
 //   node tools/quiz-build.mjs --selftest
 //   node tools/quiz-build.mjs gva "Geneva" --provider=groq       one town
-//   node tools/quiz-build.mjs --start=0 --count=5                a slice of tools/cities.json
-//   node tools/quiz-build.mjs --force                            rebuild every town in cities.json
+//   node tools/quiz-build.mjs --start=0 --count=5                a slice of cities without quiz files
+//   node tools/quiz-build.mjs --retry-errors                    retry all recorded failures (Gemini 503s retry automatically)
+//   node tools/quiz-build.mjs --force                            rebuild every city in the game
 //
 // Output: data/quiz/<id>.json (the game reads this) and data/quiz/<id>.rejects.json (what was dropped,
-// why, and how many model calls and tokens the town used). A town with fewer than 10 usable events writes nothing.
+// why, and how many model calls and tokens the town used), plus data/quiz/build-errors.json for failures.
+// A town with fewer than 10 usable events writes no quiz file and is recorded as a failure.
 //
 // Settings you may want to change are in SETTINGS below. Extra options:
 //   --batches=N   how many chunks of the article to read (default 2; 0 reads all of it, costs more)
@@ -23,7 +25,7 @@ import { fileURLToPath } from "url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, "..");
-const CITIES_FILE = path.join(here, "cities.json");
+const ERRORS_FILE = path.join(root, "data", "quiz", "build-errors.json");
 
 // ---- SETTINGS ----
 const POOL_SIZE = 20;          // events kept per town; the game draws 10 of them per visit
@@ -68,6 +70,35 @@ let provider = "gemini";
 // ---- text helpers ----
 export function norm(s) {
   return s.normalize("NFKC").replace(/[\u2010-\u2015\u2212]/g, "-").replace(/[\u2018\u2019]/g, "'").replace(/[\u201c\u201d]/g, '"').replace(/\s+/g, " ").trim().toLowerCase();
+}
+
+// Read the current game destinations rather than relying on a generated, stale city list.
+export function gameCities(dataDir = path.join(root, "data")) {
+  const projectRoot = path.resolve(dataDir, "..");
+  const data = fs.readFileSync(path.join(projectRoot, "data.js"), "utf8");
+  const orderMatch = data.match(/var PLACE_ORDER="([^"]*)"/);
+  if (!orderMatch) throw new Error("Could not find PLACE_ORDER in data.js");
+  const names = new Map();
+  for (const file of fs.readdirSync(path.join(dataDir, "regions"))) {
+    if (!file.endsWith(".js")) continue;
+    const source = fs.readFileSync(path.join(dataDir, "regions", file), "utf8");
+    for (const match of source.matchAll(/([a-z0-9]{2,4})\|([^|;"]+)\|(-?[\d.]+)\|(-?[\d.]+)\|([^|]*)\|([^|;"]*)/g)) {
+      if (!names.has(match[1]) && !match[6].includes("l")) names.set(match[1], match[2]);
+    }
+  }
+
+  const countrySource = fs.readFileSync(path.join(dataDir, "countries.js"), "utf8");
+  const countries = new Map();
+  for (const match of countrySource.matchAll(/"([^"]+)":\[([^\]]*)\]/g)) {
+    for (const id of match[2].matchAll(/"([a-z0-9]{2,4})"/g)) countries.set(id[1], match[1]);
+  }
+
+  const seen = new Set();
+  return orderMatch[1].split(/\s+/).filter(Boolean).flatMap(id => {
+    if (seen.has(id) || !names.has(id)) return [];
+    seen.add(id);
+    return [{ id, town: names.get(id), country: countries.get(id) || "" }];
+  });
 }
 
 export function prepareArticle(rawText) {
@@ -302,6 +333,31 @@ export function toGameFile(out, id, town, model) {
 
 // ---- self-test (no network, no keys) ----
 async function selftest() {
+  let selftestPassed = true;
+  const ok = (n, condition) => {
+    selftestPassed = selftestPassed && condition;
+    console.log((condition ? "PASS " : "FAIL ") + n);
+  };
+  const cities = gameCities();
+  ok("game city list includes newer destinations", cities.some(c => c.id === "xky") && cities.length > 619);
+  const sampleCities = [{ id: "done" }, { id: "pending" }, { id: "failed" }];
+  const hasQuiz = id => id === "done";
+  const failures = {
+    failed: { error: "No Wikipedia article" },
+    temporary: {
+      error: "gemini call failed: 503 {\"error\":{\"status\":\"UNAVAILABLE\"}}",
+      stats: { provider: "gemini" }
+    }
+  };
+  sampleCities.push({ id: "temporary" });
+  ok("default batch selects missing quizzes and auto-retries Gemini 503 failures",
+    pendingCities(sampleCities, hasQuiz, failures).eligible.map(c => c.id).join() === "pending,temporary");
+  ok("default batch automatically retries recorded Gemini 503 failures",
+    pendingCities(sampleCities, hasQuiz, failures).retryable.map(c => c.id).join() === "temporary");
+  ok("retry-errors includes previously failed missing quizzes",
+    pendingCities(sampleCities, hasQuiz, failures, { retryErrors: true }).eligible.map(c => c.id).join() === "pending,failed,temporary");
+  ok("force includes existing quizzes and recorded failures",
+    pendingCities(sampleCities, hasQuiz, failures, { force: true }).eligible.length === sampleCities.length);
   const text = [
     "Gothenburg was founded in 1621 by King Gustav II Adolf as a trading port.",
     "== History ==",
@@ -335,7 +391,6 @@ async function selftest() {
     ]);
   };
   const out = await build({ city: "Gothenburg", title: "Gothenburg", articleText: text, sourceUrl: "https://en.wikipedia.org/wiki/Gothenburg", askFn: fake });
-  const ok = (n, c) => console.log((c ? "PASS " : "FAIL ") + n);
   ok("references section is stripped before extraction", !prepareArticle(text).includes("Smith, John (1999)"));
   ok("invented event is dropped by the quote check", out.rejects.some(r => r.year === 1990 && r.stage === "code check"));
   ok("year in the event text is rejected", out.rejects.some(r => r.year === 1900 && /year appears/.test(r.why)));
@@ -344,32 +399,99 @@ async function selftest() {
   ok("accepted events carry the article link", out.events.every(e => e.source === "https://en.wikipedia.org/wiki/Gothenburg"));
   ok("accepted events are in date order", out.events.every((e, i, a) => i === 0 || a[i - 1].year <= e.year));
   console.log(out.events.length + " accepted, " + out.rejects.length + " rejected");
-  process.exit(0);
+  process.exit(selftestPassed ? 0 : 1);
 }
 
 // ---- command line ----
 const isMain = process.argv[1] && path.resolve(process.argv[1]).toLowerCase() === path.resolve(fileURLToPath(import.meta.url)).toLowerCase();
 
-async function processOne({ id, town, country = "", wikiTitle }, force = false) {
+function readBuildErrors() {
+  if (!fs.existsSync(ERRORS_FILE)) return {};
+  const errors = JSON.parse(fs.readFileSync(ERRORS_FILE, "utf8"));
+  if (!errors || typeof errors !== "object" || Array.isArray(errors)) {
+    throw new Error(`${ERRORS_FILE} must contain an object keyed by city id`);
+  }
+  return errors;
+}
+
+function writeBuildErrors(errors) {
+  fs.mkdirSync(path.dirname(ERRORS_FILE), { recursive: true });
+  const sorted = Object.keys(errors).sort().reduce((out, id) => {
+    out[id] = errors[id];
+    return out;
+  }, {});
+  fs.writeFileSync(ERRORS_FILE, JSON.stringify(sorted, null, 1) + "\n");
+}
+
+function rejectCounts(rejects) {
+  return rejects.reduce((counts, reject) => {
+    counts[reject.stage] = (counts[reject.stage] || 0) + 1;
+    return counts;
+  }, {});
+}
+
+export function pendingCities(cities, hasQuiz, errors = {}, { force = false, retryErrors = false } = {}) {
+  const candidates = cities.filter(city => force || !hasQuiz(city.id));
+  const retryable = candidates.filter(city => isRetryableGemini503(errors[city.id]));
+  const blocked = candidates.filter(city => errors[city.id] && !retryable.includes(city));
+  const eligible = candidates.filter(city => force || retryErrors || !errors[city.id] || retryable.includes(city));
+  return { candidates, blocked, retryable, eligible };
+}
+
+function isRetryableGemini503(error) {
+  return error?.stats?.provider === "gemini" && /\bgemini call failed:\s*503\b/i.test(error.error || "");
+}
+
+async function processOne({ id, town, country = "", wikiTitle }, { force = false, retryErrors = false, errors = {} } = {}) {
   const quizDir = path.join(root, "data", "quiz");
   const outPath = path.join(quizDir, id + ".json");
   if (!force && fs.existsSync(outPath)) { console.log(`${id} (${town}): already exists, skipping`); return; }
+  if (!force && errors[id] && !retryErrors) {
+    console.log(`${id} (${town}): previous failure recorded, skipping (use --retry-errors to retry)`);
+    return;
+  }
 
   const stats = { provider, model: PROVIDERS[provider].model, calls: 0, promptTokens: 0, completionTokens: 0 };
   const askFn = (prompt) => callModel(prompt, stats);
-  const article = await fetchArticle(wikiTitle || town, country);
-  const out = await build({ city: town, title: article.title, articleText: article.text, sourceUrl: article.url, askFn });
+  let stage = "Wikipedia lookup";
+  try {
+    const article = await fetchArticle(wikiTitle || town, country);
+    stage = "event extraction and verification";
+    const out = await build({ city: town, title: article.title, articleText: article.text, sourceUrl: article.url, askFn });
+    const summary = `${id} (${town}): ${out.pool.length} events, ${out.rejects.length} rejected, ` +
+      `read ${out.chunksRead} of ${out.chunksAvailable} article chunks, ${stats.calls} calls, ` +
+      `${stats.promptTokens + stats.completionTokens} tokens (${stats.promptTokens} in, ${stats.completionTokens} out)`;
 
-  const summary = `${id} (${town}): ${out.pool.length} events, ${out.rejects.length} rejected, ` +
-    `read ${out.chunksRead} of ${out.chunksAvailable} article chunks, ${stats.calls} calls, ` +
-    `${stats.promptTokens + stats.completionTokens} tokens (${stats.promptTokens} in, ${stats.completionTokens} out)`;
+    if (out.pool.length < MIN_POOL) {
+      errors[id] = {
+        town, country, failedAt: new Date().toISOString(), stage: "event pool",
+        error: `Only ${out.pool.length} usable events; at least ${MIN_POOL} are required.`,
+        poolSize: out.pool.length, minimumPool: MIN_POOL, rejected: out.rejects.length,
+        rejectedByStage: rejectCounts(out.rejects),
+        chunksRead: out.chunksRead, chunksAvailable: out.chunksAvailable, stats
+      };
+      writeBuildErrors(errors);
+      console.warn(summary + ` — failure recorded in ${path.relative(root, ERRORS_FILE)}, no file written`);
+      return;
+    }
 
-  if (out.pool.length < MIN_POOL) { console.warn(summary + ` — fewer than ${MIN_POOL}, no file written`); return; }
-  fs.mkdirSync(quizDir, { recursive: true });
-  fs.writeFileSync(outPath, JSON.stringify(toGameFile(out, id, town, stats.model), null, 1) + "\n");
-  fs.writeFileSync(path.join(quizDir, id + ".rejects.json"),
-    JSON.stringify({ stats: { ...stats, chunksRead: out.chunksRead, chunksAvailable: out.chunksAvailable }, rejects: out.rejects }, null, 1) + "\n");
-  console.log(summary);
+    fs.mkdirSync(quizDir, { recursive: true });
+    fs.writeFileSync(path.join(quizDir, id + ".rejects.json"),
+      JSON.stringify({ stats: { ...stats, chunksRead: out.chunksRead, chunksAvailable: out.chunksAvailable }, rejects: out.rejects }, null, 1) + "\n");
+    fs.writeFileSync(outPath, JSON.stringify(toGameFile(out, id, town, stats.model), null, 1) + "\n");
+    if (errors[id]) {
+      delete errors[id];
+      writeBuildErrors(errors);
+    }
+    console.log(summary);
+  } catch (err) {
+    errors[id] = {
+      town, country, failedAt: new Date().toISOString(), stage,
+      error: err.message, stats
+    };
+    writeBuildErrors(errors);
+    console.error(`${id} (${town}): ${err.message} — failure recorded in ${path.relative(root, ERRORS_FILE)}`);
+  }
 }
 
 if (process.argv.includes("--selftest")) {
@@ -385,6 +507,7 @@ if (process.argv.includes("--selftest")) {
   if (verifyArg) { const n = parseInt(verifyArg.split("=")[1], 10); if (n >= 1) globalThis.__VERIFY = n; }
 
   const force = args.includes("--force");
+  const retryErrors = args.includes("--retry-errors");
   const startArg = args.find(a => a.startsWith("--start="));
   const countArg = args.find(a => a.startsWith("--count="));
   const start = startArg ? Math.max(0, parseInt(startArg.split("=")[1], 10) || 0) : 0;
@@ -394,18 +517,27 @@ if (process.argv.includes("--selftest")) {
   if (!process.env[PROVIDERS[provider].keyEnv]) { console.error(`Set ${PROVIDERS[provider].keyEnv} for --provider=${provider}.`); process.exit(1); }
   console.log(`Provider: ${provider} (${PROVIDERS[provider].model})`);
   if (positional.length === 0) {
-    if (!fs.existsSync(CITIES_FILE)) { console.error(`Could not find ${CITIES_FILE}`); process.exit(1); }
-    const allCities = JSON.parse(fs.readFileSync(CITIES_FILE, "utf8"));
-    const cities = allCities.slice(start, start + count);
-    console.log(`Loaded ${allCities.length} entries; running [${start}..${start + cities.length - 1}] (${cities.length} towns)\n`);
+    const allCities = gameCities();
+    const errors = readBuildErrors();
+    const selection = pendingCities(
+      allCities,
+      id => fs.existsSync(path.join(root, "data", "quiz", id + ".json")),
+      errors,
+      { force, retryErrors }
+    );
+    const { candidates, blocked, retryable, eligible } = selection;
+    const cities = eligible.slice(start, start + count);
+    console.log(`Loaded ${allCities.length} current game cities; ${candidates.length} without quiz files` +
+      `, ${retryable.length} recorded Gemini 503 failures to retry, ${blocked.length} other recorded failures` +
+      `${retryErrors || force ? " (retrying)" : " (skipped)"}.`);
+    console.log(`Running pending entries [${start}..${start + cities.length - 1}] (${cities.length} cities)\n`);
     for (let i = 0; i < cities.length; i++) {
-      try { await processOne(cities[i], force); }
-      catch (err) { console.error(`${cities[i].id || i} (${cities[i].town}): ${err.message}`); }
+      await processOne(cities[i], { force, retryErrors, errors });
       if (i < cities.length - 1) await sleep(TOWN_DELAY_MS);
     }
   } else {
     const [id, town = id, wikiTitle = town] = positional;
-    try { await processOne({ id, town, wikiTitle }, force); }
-    catch (err) { console.error(err.message); process.exit(1); }
+    const errors = readBuildErrors();
+    await processOne({ id, town, wikiTitle }, { force, retryErrors, errors });
   }
 }

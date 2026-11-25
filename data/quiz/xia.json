@@ -1,0 +1,130 @@
+{
+ "id": "xia",
+ "town": "Xi'an",
+ "source": "https://en.wikipedia.org/wiki/Xi'an",
+ "pool": [
+  {
+   "year": 1369,
+   "text": "The name of the city was adopted under the early Ming dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1370,
+   "text": "A new wall was constructed during the Ming dynasty that remains intact.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1703,
+   "text": "Manchu bannermen from the garrison were praised for maintaining Manchu culture.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "culture"
+  },
+  {
+   "year": 1729,
+   "text": "Manchu Lieutenant general Cimbru reported to the Yongzheng emperor after assignment.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1865,
+   "text": "The Qing allowed Han civilian men to marry Manchu bannerwomen across garrisons.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "civic"
+  },
+  {
+   "year": 1892,
+   "text": "Arthur Gostick Shorrock and Moir Duncan founded the Sianfu Mission.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "culture"
+  },
+  {
+   "year": 1930,
+   "text": "The Ming name was changed back to Xijing between specific years.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1936,
+   "text": "The Xi'an Incident took place in the city during the Chinese Civil War.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "An aerial battle broke out for the first time over the city.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The People's Liberation Army captured the city from the Kuomintang force.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "A Neolithic village known as Banpo was discovered on the eastern outskirts.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "The Xi'an Banpo Museum was built to preserve the archaeological collection.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "The Lantian Man was discovered in Lantian County near Xi'an.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "culture"
+  },
+  {
+   "year": 1966,
+   "text": "The Shaanxi Astronomical Observatory was established in the region.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Xi'an and the China Aerospace Corporation set up an industrial base.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "The planning of the Xi'an National Civil Aerospace Industrial Base was approved.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "The output value from this specific sector exceeded RMB 23 billion.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "Line 2 was the first rapid transit line opened to the public.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The city successfully hosted the World Horticultural Exposition.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "culture"
+  },
+  {
+   "year": 2022,
+   "text": "Xi'an witnessed the largest COVID-19 community outbreak since the initial months.",
+   "url": "https://en.wikipedia.org/wiki/Xi'an",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

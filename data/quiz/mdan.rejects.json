@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3594,
+  "completionTokens": 3411,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2008,
+   "theme": "civic",
+   "event": "Government Regulation No 28/2008 recognized the Medan metropolitan area as an Indonesian National Strategic Region.",
+   "quote": "The Medan metropolitan area was recognized as an Indonesian National Strategic Region (Indonesian: Kawasan Strategis Nasional) by Government Regulation No 28/2008.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

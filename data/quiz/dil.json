@@ -1,0 +1,130 @@
+{
+ "id": "dil",
+ "town": "Dili",
+ "source": "https://en.wikipedia.org/wiki/Dili",
+ "pool": [
+  {
+   "year": 1769,
+   "text": "The Portuguese governor moved the administration east to establish Dili as the new capital.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "civic"
+  },
+  {
+   "year": 1863,
+   "text": "The settlement of Dili was officially declared to be a city.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "A new cathedral opened in Dili following the demolition of the main church.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "Civil war broke out between political parties leading to an Indonesian invasion.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1976,
+   "text": "Indonesia formally annexed the territory of East Timor as its province.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1989,
+   "text": "Pope John Paul II visited Dili and independent activists interrupted the event.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "Forces from Indonesia were filmed shooting at a funeral procession in Dili.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2001,
+   "text": "Dili established a sister city twinning arrangement with Lisbon, Portugal.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "Dili became the capital city of an independent Timor-Leste.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Dili established a sister city twinning arrangement with Canberra, Australia.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Internal military disputes resulted in violent street clashes occurring in Dili.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "EuroAtlantic Airways operated a direct flight from Lisbon using a Boeing 757.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The government launched the City of Peace campaign to lower civic tensions.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "The Dili City of Peace marathon was held for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "The first cinema opened inside a newly built shopping centre named Timor Plaza.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Dili established a sister city twinning arrangement with Manila, Philippines.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Dili port served a total of 198,080 passengers and 172 tons of cargo.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "The city hosted the inaugural Dili International Film Festival event.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Construction work officially began on the port project on August 30.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "Port construction reached 42% completion amidst pandemic delays involving Chinese workers.",
+   "url": "https://en.wikipedia.org/wiki/Dili",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

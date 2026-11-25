@@ -1,0 +1,130 @@
+{
+ "id": "lxa",
+ "town": "Lhasa",
+ "source": "https://en.wikipedia.org/wiki/Lhasa",
+ "pool": [
+  {
+   "year": 1642,
+   "text": "The 5th Dalai Lama unified Tibet and moved administration to the city.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1645,
+   "text": "Reconstruction of the famous Potala Palace began on the Red Hill.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1648,
+   "text": "The Potrang Karpo or White Palace of the Potala was completed.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1720,
+   "text": "The armies of the Qing dynasty entered the city and sent resident commissioners.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1751,
+   "text": "The Qing Emperor reorganized the Tibetan government and set up the Kashag council.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1904,
+   "text": "A British expedition captured and briefly occupied the city in January.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1912,
+   "text": "All remaining Chinese troops left the city after the Xinhai turmoil.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "The Chinese People's Liberation Army launched the Battle of Chamdo.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1959,
+   "text": "Following a failed uprising, the 14th Dalai Lama and associates fled Tibet.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "Lhasa City was established as a formal administrative entity in January.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "Lhasa Gonggar International Airport was built as the aviation hub of Tibet.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1965,
+   "text": "The Tibet Autonomous Region was established with the city as its capital.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "The Lhasa Brewery Company was established on the northern outskirts of the city.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1994,
+   "text": "The Potala Palace was officially inscribed to the UNESCO World Heritage List.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "The Tibet Museum was inaugurated as the official regional museum.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "The Monument to the Peaceful Liberation of Tibet was unveiled in Potala Square.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "The city has been served by rail since the Qinghai–Tibet Railway opened.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The Lhasa Airport Expressway was completed, reducing travel time to the airport.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The city was connected to Shigatse by a new rail service.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Construction began on the Sichuan–Tibet railway linking the city to Nyingchi County.",
+   "url": "https://en.wikipedia.org/wiki/Lhasa",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

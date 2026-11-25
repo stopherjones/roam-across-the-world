@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3985,
+  "completionTokens": 3439,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1946,
+   "theme": "civic",
+   "event": "Makassar was designated the capital of the State of East Indonesia.",
+   "quote": "For a brief period after the proclamation of Indonesian independence in 1946, Makassar was designated the capital of the State of East Indonesia, a Dutch puppet state; however, in 1950, only four years into its existence as an independent state, the Makassar Uprising took place, resulting in the country's integration into the Republic of Indonesia.",
+   "stage": "verification",
+   "why": "The source quote attributes the proclamation of independence to 1946 rather than 1945, contradicting the claim's year context."
+  }
+ ]
+}

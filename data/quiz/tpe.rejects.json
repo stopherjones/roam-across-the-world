@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5834,
+  "completionTokens": 4006,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2025,
+   "theme": "civic",
+   "event": "Taipei's Tung-Yuan Little League won the 2025 Little League World Series.",
+   "quote": "In 2025, Taipei's Tung-Yuan Little League won the 2025 Little League World Series.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

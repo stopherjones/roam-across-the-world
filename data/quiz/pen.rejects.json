@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 6803,
+  "completionTokens": 4680,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1957,
+   "theme": "civic",
+   "event": "George Town was granted city status by Queen Elizabeth II in the following year.",
+   "quote": "George Town became the first fully-elected municipality in Malaya by 1956 and was granted city status by Queen Elizabeth II in the following year.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2017,
+   "theme": "commerce_industry",
+   "event": "Swettenham Pier recorded 125 port calls, surpassing Port Klang as the busiest terminal.",
+   "quote": "In 2017, Swettenham Pier recorded 125 port calls, surpassing Port Klang as the busiest cruise shipping terminal in Malaysia.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2025,
+   "theme": "power_conflict",
+   "event": "A sovereignty dispute emerged between the states of Penang and Kedah regarding lease agreements.",
+   "quote": "In 2025, a sovereignty dispute emerged between the states of Penang and Kedah regarding the long-standing annual lease payment agreement for Penang.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2010,
+   "theme": "culture",
+   "event": "The George Town Festival held its inaugural event and grew significantly.",
+   "quote": "Penang also hosts several major festivals each year, including the George Town Festival which has become one of the largest arts events in Southeast Asia since its inaugural event in 2010.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

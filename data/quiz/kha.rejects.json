@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4358,
+  "completionTokens": 2671,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1933,
+   "theme": "power_conflict",
+   "event": "Kashgar was the scene of continual battles during this turbulent period.",
+   "quote": "Kashgar was the scene of continual battles from 1933 to 1934.",
+   "stage": "verification",
+   "why": "The claim specifies the year 1933, but the source quote states the battles occurred from 1933 to 1934."
+  }
+ ]
+}

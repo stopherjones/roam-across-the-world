@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9244,
+  "completionTokens": 7596,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1998,
+   "theme": "commerce_industry",
+   "event": "Tourist arrivals increased despite the Asian financial crisis affecting cities around Asia.",
+   "quote": "Despite cities around Asia suffering declining tourist arrivals, in Kuala Lumpur tourist arrivals increased from 6,210,900 in 1997 to 10,221,600 in 2000, or 64.6%.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2006,
+   "theme": "civic",
+   "event": "A mass rapid transit system was introduced to the Klang Valley.",
+   "quote": "In 2016, a mass rapid transit (MRT) system was introduced to the Klang Valley.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  }
+ ]
+}

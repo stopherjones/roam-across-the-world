@@ -1,0 +1,130 @@
+{
+ "id": "kkb",
+ "town": "Kota Kinabalu",
+ "source": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+ "pool": [
+  {
+   "year": 1882,
+   "text": "NBCC founded a small settlement in the area known as Gaya Bay.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1897,
+   "text": "A local rebel leader named Mat Salleh destroyed the place by fire.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1898,
+   "text": "NBCC decided to relocate the settlement to the mainland at Gantian Bay.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1899,
+   "text": "Henry Walker identified a site opposite Gaya Island as a suitable settlement place.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "civic"
+  },
+  {
+   "year": 1905,
+   "text": "Mary Edith Atkinson built the Atkinson Clock Tower near Bandaran Berjaya.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "culture"
+  },
+  {
+   "year": 1944,
+   "text": "Japanese forces quelled the rebellion after Albert Kwok was arrested and executed.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The town suffered further devastation when Allied forces bombed it.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "The British Crown declared Jesselton as the new capital of North Borneo.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "Jesselton was renamed as Kota Kinabalu after Mount and the Malay word.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "Hospital Mesra Bukit Padang opened to provide psychiatric services for the state.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Ministers died in a plane crash known as the Double Six Tragedy.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1979,
+   "text": "Kota Kinabalu town board was upgraded to municipal status by authorities.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "Wetlands were conserved by the State Government to foster understanding and awareness.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "environment"
+  },
+  {
+   "year": 2000,
+   "text": "Kota Kinabalu was officially granted city status by the administration.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Kota Kinabalu Port handled about 3.6 million tonnes of freight cargo.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "Iliyas took over the post to become the second mayor of the city.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Queen Elizabeth Hospital II was established after acquiring the former building.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "civic"
+  },
+  {
+   "year": 2016,
+   "text": "The Tanjung Aru railway station was moved to Aeropod with facilities.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "The KK City WiFi was announced for public and tourist use.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Russia set up their branch office of RCSC to expand co-operation.",
+   "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

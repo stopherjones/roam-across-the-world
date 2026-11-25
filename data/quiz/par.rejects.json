@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 10263,
+  "completionTokens": 5934,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1900,
+   "theme": "culture",
+   "event": "The 1900 Universal Exposition added several famous monuments and the transport line.",
+   "quote": "and the 1900 Universal Exposition gave Paris the Pont Alexandre III, the Grand Palais, the Petit Palais and the first Paris Métro line.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1940,
+   "theme": "power_conflict",
+   "event": "The German army marched into Paris after it had been declared an open city.",
+   "quote": "On 14 June 1940, the German army marched into Paris, which had been declared an open city.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1977,
+   "theme": "civic",
+   "event": "Jacques Chirac became the first elected mayor of the city since 1793.",
+   "quote": "and, on 25 March 1977, Jacques Chirac became the first elected mayor of Paris since 1793.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 651,
+   "theme": "civic",
+   "event": "The Hôtel-Dieu was founded as the oldest hospital operating globally.",
+   "quote": "One of the most notable hospitals is the Hôtel-Dieu, founded in 651, the oldest hospital in Paris and the oldest worldwide still operating, although the current building is the product of a reconstruction of 1877.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 2019,
+   "theme": "commerce_industry",
+   "event": "Greater Paris recorded 38 million visitors measured by hotel arrivals.",
+   "quote": "Greater Paris, comprising Paris and its three surrounding departments, received a record 38 million visitors in 2019, measured by hotel arrivals.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1992,
+   "theme": "civic",
+   "event": "The tramway system opened with fifteen operational lines spanning routes.",
+   "quote": "Opened in 1992, fifteen lines are now operational, spanning 196.6 kilometres (122.2 mi) with 283 stations.",
+   "stage": "verification",
+   "why": "The source quote mentions the tramway system opened in 1992, but says 'fifteen lines are now operational', which does not state that fifteen lines opened in 1992."
+  }
+ ]
+}

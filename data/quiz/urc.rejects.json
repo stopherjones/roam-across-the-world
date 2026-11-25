@@ -1,0 +1,69 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3078,
+  "completionTokens": 3269,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1763,
+   "theme": "civic",
+   "event": "Qing settlers expanded the town into a walled city from 1763 to 1767.",
+   "quote": "Qing settlers expanded the town into a walled city from 1763 to 1767, and upon completing the expansion renamed the city Dihua (Chinese: 迪化; previously romanized as Tihwa), meaning \"to enlighten and civilize\".",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1954,
+   "theme": "power_conflict",
+   "event": "The Chinese Communist Party restored the name Ürümqi on 1 February 1954.",
+   "quote": "The Chinese Communist Party restored the name \"Ürümqi\" on 1 February 1954, believing Dihua to be a belittling and ethnically chauvinist name.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1989,
+   "theme": "power_conflict",
+   "event": "Unrest in Ürümqi resulted in a total of 150 injuries in May 1989.",
+   "quote": "In May 1989, unrest in Ürümqi resulted in 150 injuries.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1991,
+   "theme": "commerce_industry",
+   "event": "The Urumqi Foreign Economic Relations and Trade Fair has been held annually since 1991.",
+   "quote": "The Urumqi Foreign Economic Relations and Trade Fair has been held annually since 1991 and has been upgraded into the first China-Eurasia Expo in 2011.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2008,
+   "theme": "commerce_industry",
+   "event": "Ürümqi recorded ¥41.9 billion retail sales of consumer goods as the largest consumer center.",
+   "quote": "Ürümqi is also the largest consumer center in the region, recording ¥41.9 billion retail sales of consumer goods in 2008, an increase of 26 percent from 2007.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2014,
+   "theme": "civic",
+   "event": "The Lanzhou-Xinjiang High Speed Railway has been in operation since the end of 2014.",
+   "quote": "The Lanzhou-Xinjiang High Speed Railway stops at both stations, running from Ürümqi to Lanzhou railway station, and has been in operation since the end of 2014.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2016,
+   "theme": "civic",
+   "event": "Ürümqi railway station opened in July 2016 as a primary railway station.",
+   "quote": "Ürümqi is Xinjiang's main rail hub with two primary railway stations, the older Ürümqi South railway station (formerly the Ürümqi railway station) and Ürümqi railway station opened in July 2016.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

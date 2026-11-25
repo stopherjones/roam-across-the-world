@@ -1,0 +1,130 @@
+{
+ "id": "szx",
+ "town": "Shenzhen",
+ "source": "https://en.wikipedia.org/wiki/Shenzhen",
+ "pool": [
+  {
+   "year": 1669,
+   "text": "Bao'an County lost territory to Dongguan and was incorporated into it.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1898,
+   "text": "China leased the New Territories to Britain for ninety nine years.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1911,
+   "text": "Xin'an residents successfully rebelled and overthrew the local Qing administration.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1913,
+   "text": "The administration renamed Xin'an County back to Bao'an County.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "civic"
+  },
+  {
+   "year": 1925,
+   "text": "Trade unions set up a reception station for strike workers.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "Chen Jitang and his family established several casinos in Shenzhen.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1941,
+   "text": "The Japanese army tried crossing a bridge before British forces blew it.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "The Bao'an County government decided to move to Shenzhen.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "Shenzhen was developed from a rural village area into a city.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1980,
+   "text": "The Central Committee designated Shenzhen as the first SEZ.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1980,
+   "text": "From the establishment of Shenzhen as a SEZ, Hong Kong became its largest trade partner.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1983,
+   "text": "Opened in Shenzhen Normal School, which was later upgraded to Shenzhen Normal College.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "The government erected barbed wire and checkpoints to enforce law.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "The mainland China McDonald's restaurant opened in Luohu District, introducing American fast food.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1990,
+   "text": "The Shenzhen Stock Exchange was established under regulatory authority.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1992,
+   "text": "The Standing Committee granted the government local lawmaking power.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1996,
+   "text": "The State Council approved and established the Shenzhen High-tech Industrial Development Zone.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1999,
+   "text": "The Shenzhen Municipal Government set up the Shenzhen Virtual University Park in the Science and Technology Park.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "The Mangrove Ecopark was established in the Futian District as the smallest national park.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "environment"
+  },
+  {
+   "year": 2002,
+   "text": "The intermediate court sentenced former customs commissioner to life imprisonment.",
+   "url": "https://en.wikipedia.org/wiki/Shenzhen",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

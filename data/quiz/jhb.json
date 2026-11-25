@@ -1,0 +1,130 @@
+{
+ "id": "jhb",
+ "town": "Johor Bahru",
+ "source": "https://en.wikipedia.org/wiki/Johor_Bahru",
+ "pool": [
+  {
+   "year": 1819,
+   "text": "The Johor-Riau Sultanate was split due to a dispute.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1855,
+   "text": "Chinese cultivators relocated to new lands in Johor Bahru on plantations.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1855,
+   "text": "A treaty was signed between Sultan Ali and Temenggong Ibrahim in Singapore.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1858,
+   "text": "Temenggong Daeng Ibrahim renamed Tanjung Puteri to Iskandar Puteri upon arrival.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1862,
+   "text": "The town was renamed Johor Bahru after the Temenggong died.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1909,
+   "text": "The Malay Peninsula railway extension was finished in Johor Bahru.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "environment"
+  },
+  {
+   "year": 1928,
+   "text": "The Johor Zoo was built as the oldest zoo in Malaysia.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "The Sultan Ibrahim Building was built by British architect Palmer and Turner.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "Japanese forces under General Tomoyuki Yamashita invaded the town.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "The town formed the major political party UMNO at the Istana Besar.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "Johor Bahru continued as state capital after the Federation of Malaysia formed.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "civic"
+  },
+  {
+   "year": 1994,
+   "text": "Johor Bahru was officially granted city status.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Johor Bahru Prison was closed down after operating for 122 years.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "A historical building was demolished illegally by its owner.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "The Astaka became the tallest building in the city.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "Johor Bahru was ranked the world's 39th most visited city by international tourists.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "Johor Bahru had a population of 858,118 as a state capital.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Johor Bahru was ranked 432nd globally in the Global City Lab report.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "Johor Bahru was ranked as a global city with high living quality.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "Johor Bahru is ranked the world's 20th most attractive city for businesses.",
+   "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

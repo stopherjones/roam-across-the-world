@@ -1,0 +1,130 @@
+{
+ "id": "pen",
+ "town": "Penang",
+ "source": "https://en.wikipedia.org/wiki/Penang",
+ "pool": [
+  {
+   "year": 1786,
+   "text": "Francis Light established the Port of Penang as a free port alongside the capital.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1786,
+   "text": "The trading port was set up, attracting many diverse cultures to settle in George Town.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1791,
+   "text": "The Sultan attempted to recapture the Prince of Wales Island after an agreement breach.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1800,
+   "text": "Lieutenant-Governor George Leith secured Province Wellesley across the Penang Strait.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "civic"
+  },
+  {
+   "year": 1805,
+   "text": "Penang became a separate presidency of British India sharing status with major cities.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "civic"
+  },
+  {
+   "year": 1806,
+   "text": "The Prince of Wales Island Gazette, the nation's first newspaper, was founded.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "culture"
+  },
+  {
+   "year": 1941,
+   "text": "Penang fell without struggle to the Imperial Japanese Army after daily aerial attacks.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "George Town was the first Malayan settlement liberated by British marines through Operation Jurist.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "The Penang Secessionist Committee was formed due to growing economic and ethnic concerns.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "George Town's status as a free port was rescinded by the Malaysian federal government.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1972,
+   "text": "Chief Minister Lim Chong Eu established the Bayan Lepas Free Industrial Zone.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "Time noted that food in the city was exceptionally good and remarkably inexpensive.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2007,
+   "text": "Rapid Penang was established as the state's main public transport operator across routes.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "UNESCO gazetted nearly 260 ha within downtown George Town as a World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "The state-funded Penang Philharmonic Orchestra was established to elevate classical music standards.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "Lithuanian artist Ernest Zacharevic created a series of six local culture wall paintings.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "George Town was ranked Malaysia's most attractive destination for commercial property investment.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "The George Town Literary Festival achieved the international Literary Festival Award.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "An official survey revealed one of the lowest obesity rates in Malaysia.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2021,
+   "text": "The Penang Hill Biosphere Reserve was designated a UNESCO Biosphere Reserve for biodiversity.",
+   "url": "https://en.wikipedia.org/wiki/Penang",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "wuh",
+ "town": "Wuhan",
+ "source": "https://en.wikipedia.org/wiki/Wuhan",
+ "pool": [
+  {
+   "year": 1864,
+   "text": "A single-story Gothic structure was built in the Wuchang district.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "culture"
+  },
+  {
+   "year": 1866,
+   "text": "An English newspaper named Hankow Times was founded in the city.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "culture"
+  },
+  {
+   "year": 1873,
+   "text": "The first Chinese newspaper to appear in Hankou, Chao-wen Hsin-pao, was founded.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "culture"
+  },
+  {
+   "year": 1884,
+   "text": "According to some sources, the tower was burned last.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "culture"
+  },
+  {
+   "year": 1891,
+   "text": "The Hanyang Arsenal was founded with funds diverted from the Nanyang Fleet.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1893,
+   "text": "Wuhan University was established.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "The resulting city was proclaimed as the traditional Chinese characters for Wuhan.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1927,
+   "text": "The Wuhan Nationalist Government was established in Wuhan and ended later that year.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1927,
+   "text": "The Wuhan coup was a political shift made by Wang Jingwei towards Chiang Kai-shek.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1937,
+   "text": "A train ferry was established to transport train cars from Hankou.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1938,
+   "text": "The city was the site of the Battle of Wuhan during the war.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1944,
+   "text": "Wuhan was bombed by American bombers with the approval of Chiang Kai-Shek.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "People's Liberation Army troops entered Wuhan on the afternoon of Monday.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "The Changjiang Water Resources Commission was reestablished with its headquarters in Wuhan.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "civic"
+  },
+  {
+   "year": 1953,
+   "text": "Huazhong Institute of Technology was founded.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "The whole project for the bridge was completed and an opening ceremony was held.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "The first bridge was built over the Yangtze.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1958,
+   "text": "The Wuhan Branch of Chinese Academy of Sciences was founded.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "environment"
+  },
+  {
+   "year": 1958,
+   "text": "Hundreds of factories were built, including Wuhan Iron and Steel which opened.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "SARS-CoV-2 was first discovered in Wuhan and caused the COVID-19 pandemic.",
+   "url": "https://en.wikipedia.org/wiki/Wuhan",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

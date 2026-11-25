@@ -1,0 +1,130 @@
+{
+ "id": "kha",
+ "town": "Kashgar",
+ "source": "https://en.wikipedia.org/wiki/Kashgar",
+ "pool": [
+  {
+   "year": 1006,
+   "text": "The Karakhanids of Kashgar under Yusuf Kadr Khan conquered Khotan.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1211,
+   "text": "The last Karakhanid of Kashgar was killed in a revolt by notables.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1214,
+   "text": "Kashgar finally surrendered to Kuchlug after an attack on the city.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1759,
+   "text": "The Qing Empire took control of Kashgar after defeating the Dzungar Khanate.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1828,
+   "text": "Qing forces under Changling retook the rebellious city of Kashgar.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1857,
+   "text": "Wali Khan executed German explorer Adolf Schlagintweit during the Khoja revolts.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1902,
+   "text": "A major earthquake caused up to 10000 fatalities, including 667 in Kashgar.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "environment"
+  },
+  {
+   "year": 1908,
+   "text": "The British Empire consulate was fully recognized by the Qing government.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "civic"
+  },
+  {
+   "year": 1913,
+   "text": "The Kuomintang government established Shule County in the city of Kashgar.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "civic"
+  },
+  {
+   "year": 1934,
+   "text": "Ma Zhongying delivered a speech at Id Kah Mosque in Kashgar.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The People's Liberation Army entered Xinjiang and advanced into southern Kashgar.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "An incident occurred due to a dispute between Uyghurs and Han Chinese.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1986,
+   "text": "The Chinese government designated Kashgar as a city of cultural significance.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "The Southern Xinjiang Railway was built to connect Kashgar to China.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Two Uyghur men carried out a vehicular, IED and knife attack.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "Development of Kashgar's old city accelerated after earthquake architecture revelations.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "Kashgar was declared a Special Economic Zone in western China.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The European Parliament issued a resolution calling for renovation methods.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "A large part of the old city of Kashgar had been rebuilt.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Id Kah Mosque's imam Juma Tayir was assassinated by extremists.",
+   "url": "https://en.wikipedia.org/wiki/Kashgar",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

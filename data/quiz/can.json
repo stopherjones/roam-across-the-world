@@ -1,0 +1,130 @@
+{
+ "id": "can",
+ "town": "Guangzhou",
+ "source": "https://en.wikipedia.org/wiki/Guangzhou",
+ "pool": [
+  {
+   "year": 1000,
+   "text": "Nestorian Christians became essentially extinct in China by this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 1384,
+   "text": "Previous maritime intendancies of Guangzhou were closed, limiting legal trade.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1516,
+   "text": "Rafael Perestrello traveled to Guangzhou as a passenger on a native junk.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1554,
+   "text": "Leonel de Sousa legalized Portuguese trade through the Luso-Chinese Accord.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1646,
+   "text": "Zhu Yuyue fled by sea to Guangzhou, the last Ming stronghold.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1647,
+   "text": "Ming turncoat Li Chengdong sacked the city on behalf of the Qing.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1926,
+   "text": "Chiang solidified his control over the Nationalists during the Canton Coup.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "The Canton Operation subjected the city to Japanese occupation.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "Guangzhou was captured by military forces.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1957,
+   "text": "The Canton Fair was inaugurated as a major event for the city.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "The first line of the Guangzhou Metro opened, creating an underground railway system.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "civic"
+  },
+  {
+   "year": 2004,
+   "text": "Baiyun International Airport officially opened for operation in Baiyun District.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "Thousands of buses and taxis operated using LPG fuel at this time.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "The municipal government enforced a strict ban on motorcycles in urban areas.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The Wuhan-Guangzhou high-speed railway started active service connecting distant regions.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Guangzhou hosted the notable Asian Games and Asian Para Games.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The library fully opened its doors in a new Zhujiang New Town building.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Luogang merged into Huangpu and counties were upgraded to districts.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The Guiyang-Guangzhou high-speed railway and Nanning-Guangzhou railway began operational service.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Terminal 2 of the major international airport officially opened to passengers.",
+   "url": "https://en.wikipedia.org/wiki/Guangzhou",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

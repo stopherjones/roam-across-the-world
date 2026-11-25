@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 10738,
+  "completionTokens": 5946,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1153,
+   "theme": "power_conflict",
+   "event": "The Jurchen Jin made Beijing their Central Capital, or Zhongdu.",
+   "quote": "In 1153, the Jurchen Jin made Beijing their 'Central Capital', or Zhongdu.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1902,
+   "theme": "power_conflict",
+   "event": "Empress Dowager Cixi returned to Beijing from her tour of inspection.",
+   "quote": "With the treaty signed the Empress Dowager Cixi returned to Beijing from her 'tour of inspection' on 7 January 1902 and the rule of the Qing dynasty over China was restored, albeit much weakened by the defeat it had suffered in the Boxer Rebellion and by the indemnity and stipulations of the peace treaty.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2024,
+   "theme": "environment",
+   "event": "Beijing experienced only two days of heavy pollution, the lowest number on record.",
+   "quote": "In 2024, Beijing experienced only two days of heavy pollution, the lowest number on record, which had decreased by 96.6 percent from 58 days in 2013.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1905,
+   "theme": "commerce_industry",
+   "event": "The Beijing North railway station was first built and later expanded in 2009.",
+   "quote": "The Beijing North railway station, was first built in 1905 and expanded in 2009;",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

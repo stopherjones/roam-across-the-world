@@ -1,0 +1,130 @@
+{
+ "id": "kul",
+ "town": "Kuala Lumpur",
+ "source": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+ "pool": [
+  {
+   "year": 1857,
+   "text": "Raja Abdullah first developed Kuala Lumpur as a town serving tin mines.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1859,
+   "text": "The Ampang mines successfully exported the first tin from the area.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1868,
+   "text": "Yap Ah Loy was appointed as the third Chinese Kapitan of Kuala Lumpur.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1872,
+   "text": "Kuala Lumpur was captured and burnt to the ground during a conflict.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1873,
+   "text": "Kudin recaptured Kuala Lumpur in March by defeating Raja Mahdi forces.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1880,
+   "text": "The colonial administration moved the state capital of Selangor to Kuala Lumpur.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "Kuala Lumpur became the birthplace of Hashing initiated by British colonial officers and expatriates.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "The Imperial Japanese Army captured the city of Kuala Lumpur.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Japanese forces surrendered to the British administration following bombings.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "The Sanitary Board officially became the Kuala Lumpur Municipal Council.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "The very first municipal election in Kuala Lumpur was held.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "civic"
+  },
+  {
+   "year": 1957,
+   "text": "The Federation of Malaya gained its independence from British rule.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "culture"
+  },
+  {
+   "year": 1963,
+   "text": "The Malaysian Houses of Parliament were completed near the Lake Gardens.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "Sultan Abdul Aziz Shah Airport served as the main international gateway to Kuala Lumpur.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1965,
+   "text": "Kuala Lumpur hosted the official Asian Basketball Championship alongside other later years.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "Severe race riots broke out in Kuala Lumpur on May thirteenth.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1972,
+   "text": "Kuala Lumpur achieved official city status after independence.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "civic"
+  },
+  {
+   "year": 1974,
+   "text": "Kuala Lumpur officially became a federal territory under direct control.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "civic"
+  },
+  {
+   "year": 1975,
+   "text": "The mini-bus service was operated in Kuala Lumpur starting from September.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "Total open space for recreational and sports facilities land use measured 5.86 square kilometres.",
+   "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "hrb",
+ "town": "Harbin",
+ "source": "https://en.wikipedia.org/wiki/Harbin",
+ "pool": [
+  {
+   "year": 1898,
+   "text": "The founding of Harbin occurred with the arrival of the Russian-built Chinese Eastern Railway.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1900,
+   "text": "Russian merchant Ivan Yakovlevich Churin founded the Churin Foreign trading company.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1902,
+   "text": "The Harbin Railway Administration building was constructed, later suffering destruction and rebuilding.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1907,
+   "text": "Leonid Andreyev's play K zvezdam premiered within the city of Harbin.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "culture"
+  },
+  {
+   "year": 1908,
+   "text": "The Harbin Symphony Orchestra was founded as China's oldest symphony orchestra.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "culture"
+  },
+  {
+   "year": 1909,
+   "text": "Churin's Sausage Factory was founded, producing European flavor sausage.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1928,
+   "text": "Harbin No.1 Music School was founded as the first music school in China.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "culture"
+  },
+  {
+   "year": 1929,
+   "text": "Chinese warlord Zhang Xueliang seized control of the Chinese Eastern Railway.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1932,
+   "text": "Harbin became the primary city within the Japanese puppet state of Manchukuo.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1934,
+   "text": "The Harbin East Railway Station officially opened for public service.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1935,
+   "text": "The main facility of Unit 731 was established in the Pingfang District.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The Soviet Army took control of Harbin toward the end of World War II.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1946,
+   "text": "A new communist government was established, making Harbin an early governed large city.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "civic"
+  },
+  {
+   "year": 1958,
+   "text": "The Harbin Summer Music Month was held and later renamed.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "The first formal Concert was held in Harbin Youth Palace.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "The Concert was recovered after being stopped by the Cultural Revolution.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "Harbin was officially designated as a sub-provincial city by the central committee.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "The Harbin International Ice and Snow Sculpture Festival began annual operations.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "Harbin Railway Station was expanded following its initial construction.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1990,
+   "text": "The Harbin International Trade and Economic Fair commenced its annual run.",
+   "url": "https://en.wikipedia.org/wiki/Harbin",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

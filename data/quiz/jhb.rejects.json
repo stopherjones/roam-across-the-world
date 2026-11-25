@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4879,
+  "completionTokens": 4128,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1940,
+   "theme": "civic",
+   "event": "The secretariat building was completed to streamline state administration.",
+   "quote": "The secretariat building—Sultan Ibrahim Building—was completed in 1940 as the British colonial government attempted to streamline the state's administration.",
+   "stage": "verification",
+   "why": "The source states the building was built in 1936, while the claim incorrectly cites its completion year as 1940."
+  }
+ ]
+}

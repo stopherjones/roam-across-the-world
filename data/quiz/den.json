@@ -1,0 +1,100 @@
+{
+ "id": "den",
+ "town": "Denpasar",
+ "source": "https://en.wikipedia.org/wiki/Denpasar",
+ "pool": [
+  {
+   "year": 1906,
+   "text": "Puri Pemecutan palace was destroyed in a fire during the Dutch intervention in Bali.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1906,
+   "text": "The royal palace in Denpasar was looted and razed during the Dutch intervention.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1917,
+   "text": "Pura Maospahit Hindu temple was heavily damaged by the Bali earthquake and rebuilt afterward.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "environment"
+  },
+  {
+   "year": 1924,
+   "text": "The port located about 10 km from the city center has been operating since this year.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1931,
+   "text": "Tuban Airfield, now part of Denpasar International Airport, officially opened.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1942,
+   "text": "Tuban Airfield was seized by the Imperial Japanese forces during World War II.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "Denpasar officially became the seat of government for the province of Bali.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "Act No. 1 officially established the City of Denpasar as an autonomous city.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Foreign tourists visiting Denpasar reached 1,413,513 people, led by visitors from Japan.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "Sarbagita was made official by Presidential Regulation Number 45 covering the tourist regions.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The city started operating a bus rapid transit system called Trans Sarbagita.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "An average of 2,800 passengers per day used the Trans Sarbagita service.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2013,
+   "text": "Two major improvements to the road system in Denpasar were completed.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "Denpasar achieved among the fastest growth in tourism globally alongside Jakarta and Batam.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "The central government initiated another transport system called Trans Metro Dewata.",
+   "url": "https://en.wikipedia.org/wiki/Denpasar",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

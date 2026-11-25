@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4840,
+  "completionTokens": 4008,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1659,
+   "theme": "power_conflict",
+   "event": "The Sultanate of Palembang was proclaimed in 1659.",
+   "quote": "The Sultanate of Palembang was proclaimed in 1659.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1906,
+   "theme": "civic",
+   "event": "Palembang was chartered as a city on 1 April 1906.",
+   "quote": "It was chartered as a city on 1 April 1906.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1998,
+   "theme": "power_conflict",
+   "event": "Palembang was ravaged by riots with 10 burned shops during May 1998 riots of Indonesia.",
+   "quote": "During May 1998 riots of Indonesia, Palembang was also ravaged by riots with 10 burned shops, more than a dozen burned cars, and several injured people inflicted by rioters as students marching to the Provincial People's Representative Council office of South Sumatra.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2004,
+   "theme": "culture",
+   "event": "Palembang hosted the 2004 National Games.",
+   "quote": "Palembang then hosted the 2004 National Games, 47 years after the games were last held outside Java and 51 years since held in Sumatra.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "Palembang was the host city of the 2011 Southeast Asian Games.",
+   "quote": "Palembang was the host city of the 2011 Southeast Asian Games and the 2018 Asian Games along with Jakarta.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

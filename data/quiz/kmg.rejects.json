@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 5567,
+  "completionTokens": 3210,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 639,
+   "theme": "culture",
+   "event": "Bamboo Temple was built Northwest about 12 km from the city center.",
+   "quote": "Northwest about 12 km (7.5 mi) from the city center is the Qiongzhu Si (Bamboo Temple) built in 639 and rebuilt in 1422 to 1428.",
+   "stage": "code check",
+   "why": "year out of range"
+  },
+  {
+   "year": 1908,
+   "theme": "commerce_industry",
+   "event": "Kunming became a treaty port opening to foreign trade in 1908.",
+   "quote": "Kunming became a treaty port opening to foreign trade in 1908 and became a commercial center soon after.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1922,
+   "theme": "culture",
+   "event": "Yunnan University was founded in 1922 as University of the Eastern Land.",
+   "quote": "It was founded in 1922, as \"University of the Eastern Land\".",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1957,
+   "theme": "commerce_industry",
+   "event": "Kunming's rail link to Haiphong and Hanoi was re-opened in 1957.",
+   "quote": "In 1957, Kunming's rail link to Haiphong and Hanoi was re-opened (after being cut during World War II).",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

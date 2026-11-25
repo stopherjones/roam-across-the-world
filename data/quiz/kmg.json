@@ -1,0 +1,130 @@
+{
+ "id": "kmg",
+ "town": "Kunming",
+ "source": "https://en.wikipedia.org/wiki/Kunming",
+ "pool": [
+  {
+   "year": 1602,
+   "text": "Copper temple structures constructed during the Wanli reign period of Ming dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "culture"
+  },
+  {
+   "year": 1678,
+   "text": "Wu Shifan resisted Qing forces before committing suicide, reverting city control.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1910,
+   "text": "Modern prosperity began when the French built the Kunming-Haiphong railway.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1922,
+   "text": "Local warlord General Tang Jiyao established the Wujiaba Aerodrome in Kunming.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "civic"
+  },
+  {
+   "year": 1950,
+   "text": "Kunming's zoo was founded and is adjoined to Yuantong Park.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "civic"
+  },
+  {
+   "year": 1952,
+   "text": "The city government ordered young people to tear down the wall bricks.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "Kunming University of Science and Technology was established in Kunming.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "culture"
+  },
+  {
+   "year": 1983,
+   "text": "The camellia was confirmed by the Municipality of Kunming as its city flower.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "environment"
+  },
+  {
+   "year": 1995,
+   "text": "The State Council approved Kunming as an Open City.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "Yunnan Ethnology Museum was opened in Kunming.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "World Horti-Expo Garden was built for the World Horticulture Exposition.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The second Greater Mekong Subregion Summit was held in Kunming.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "Kunming Natural History Museum of Zoology opened in November.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Explosions aboard two public buses in downtown Kunming killed two people.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "A research paper proposes that the name Kunming means people.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "Kunming city government built a master-planned new city center in Chenggong.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "Kunming Changshui International Airport opened, replacing the older international airport.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "Twenty-nine people were killed at Kunming Railway Station in a terrorist attack.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2016,
+   "text": "Kunming South railway station opened in Chenggong District.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Kunming has served as a cargo distribution center for the China-Laos Railway.",
+   "url": "https://en.wikipedia.org/wiki/Kunming",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

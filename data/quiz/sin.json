@@ -1,0 +1,130 @@
+{
+ "id": "sin",
+ "town": "Singapore",
+ "source": "https://en.wikipedia.org/wiki/Singapore",
+ "pool": [
+  {
+   "year": 1299,
+   "text": "The Kingdom of Singapura was founded on the island by Sang Nila Utama.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1613,
+   "text": "Portuguese raiders burned down the settlement, and the island faded into obscurity.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1819,
+   "text": "Stamford Raffles established Singapore as an entrepôt trading post of the British Empire.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1867,
+   "text": "Singapore came under direct British control as part of the Straits Settlements.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1893,
+   "text": "The national flower hybrid orchid was crossbred in a garden at Tanjong Pagar.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "culture"
+  },
+  {
+   "year": 1915,
+   "text": "Muslim sepoys from British India staged the Singapore Mutiny.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Singapore was occupied by Japan during World War II.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "Lloyd Valberg became the first Singaporean to participate in the Olympic Games.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "The PAP has won large parliamentary majorities in every election since self-governance was granted.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "Weightlifter Tan Howe Liang won a silver medal to become Singapore's first Olympic medalist.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "Singapore became an independent sovereign country after expulsion from the federation.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1967,
+   "text": "The currency has been interchangeable with the Brunei dollar at par value.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1967,
+   "text": "The government introduced the vision of making Singapore a garden city.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "environment"
+  },
+  {
+   "year": 1970,
+   "text": "The judicial system officially abolished trial by jury.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "Britain pulled its military out of Singapore, leaving behind a token force.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1972,
+   "text": "Singapore Airlines was formed.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1975,
+   "text": "The Singapore Area Licensing Scheme became the world's first congestion pricing scheme.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "environment"
+  },
+  {
+   "year": 1981,
+   "text": "Changi Airport was opened, replacing the international airport at Paya Lebar.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1990,
+   "text": "Nominated Members of Parliament were introduced to allow non-elected representatives.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The constitution was amended to provide for an elected president with veto powers.",
+   "url": "https://en.wikipedia.org/wiki/Singapore",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-25",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}
