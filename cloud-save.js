@@ -195,6 +195,9 @@
     ensureCss();
     var old = document.getElementById("rtw-settings"); if (old) old.remove();
     var code = ensureCode();
+    var campaignActions = typeof S !== "undefined" && S
+      ? "<h3>Campaign</h3><p class='mute'>End the local campaign. To also remove its cloud copy, use Delete cloud save.</p><div class='rtw-row'><button type='button' class='rtw-danger' id='rtw-end-campaign'>End campaign</button></div>"
+      : "";
     var wrap = document.createElement("div");
     wrap.id = "rtw-settings"; wrap.className = "rtw-modal";
     wrap.innerHTML =
@@ -213,6 +216,7 @@
         "<h3>Cloud save</h3>" +
         "<div class='mute' id='rtw-settings-status'>" + statusText() + "</div>" +
         "<div class='rtw-row'><button type='button' class='rtw-danger' id='rtw-delete'>Delete cloud save</button></div>" +
+        campaignActions +
         "<h3>Privacy</h3>" +
         "<p class='mute'>The game holds no personal data: no name, email address, password or account. " +
         "Your only identifier is the four-word code above. It's stored on this device, and the save server keeps your save under a hash of that code, " +
@@ -228,6 +232,13 @@
     var sh = document.getElementById("rtw-share"); if (sh) sh.onclick = function () { shareLink(code, msg); };
     document.getElementById("rtw-download").onclick = function () { if (S) exportSave(); else msg.textContent = "There's no game to save yet."; };
     document.getElementById("rtw-delete").onclick = function () { deleteCloudSave(code, msg); };
+    var endCampaign = document.getElementById("rtw-end-campaign");
+    if (endCampaign) endCampaign.onclick = function () {
+      if (confirm("End the campaign on this device? Its local save will be cleared; any cloud copy remains.")) {
+        closeSettings();
+        reset();
+      }
+    };
   };
   window.closeSettings = function () { var m = document.getElementById("rtw-settings"); if (m) m.remove(); };
 

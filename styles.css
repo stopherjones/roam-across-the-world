@@ -80,20 +80,21 @@ label{display:block;font-size:.9rem;color:var(--mute);margin-bottom:4px}
 .pz .zc{display:flex;gap:8px;margin-top:8px}
 .pz .zc button{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 14px;font:inherit;cursor:pointer}
 
-.jrnl{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.jcol h3{font:600 1rem Georgia,serif;margin:0 0 6px}
-.jcol ol{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
-.jcol li{position:relative;padding:4px 0 8px 12px;font-size:.92rem}
-.jcol li::before{content:"";position:absolute;left:-6px;top:9px;width:9px;height:9px;border-radius:50%;background:var(--acc)}
-.jcol li.jstart::before{background:var(--ink)}
-.jcol li span{display:block}
-.jcol li small{display:block;color:var(--mute);font-size:.78rem}
-.jsum{margin-top:12px;border-top:1px solid var(--line);padding-top:8px}
-.jr{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;font-size:.9rem;padding:3px 0}
-.jr span{color:var(--mute)}
-.jr b{text-align:right}
-.jr:first-child{color:var(--mute);font-size:.8rem}
-
+.journey-timeline{list-style:none;margin:0;padding:0;position:relative}
+.journey-timeline::before{content:"";position:absolute;left:7px;top:12px;bottom:14px;width:2px;background:var(--line)}
+.journey-main,.journey-stops{position:relative;margin:0 0 12px;padding-left:28px}
+.journey-main::before{content:"";position:absolute;left:2px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--acc);border:2px solid var(--card);box-shadow:0 0 0 1px var(--acc)}
+.journey-day{display:block;color:var(--mute);font-size:.8rem}
+.journey-place{display:flex;align-items:center;gap:7px}
+.journey-flag{font-size:1.2rem;line-height:1}
+.journey-stops{font-size:.9rem;color:var(--mute)}
+.journey-stops-label{font-weight:600;margin-right:6px}
+.journey-stops b{color:var(--acc);padding:0 3px}
+.journal-section>summary{display:flex;align-items:center;gap:8px;cursor:pointer;list-style:none;color:var(--mute);font:600 .95rem system-ui,sans-serif}
+.journal-section>summary::-webkit-details-marker{display:none}
+.journal-section>summary::before{content:"";border-style:solid;border-width:5px 0 5px 7px;border-color:transparent transparent transparent var(--acc);transition:transform .15s}
+.journal-section[open]>summary::before{transform:rotate(90deg)}
+.journal-section[open]>summary{margin-bottom:8px}
 .smap{height:44vh;min-height:260px;border-radius:8px;border:1px solid var(--line);overflow:hidden;margin-bottom:14px;position:relative}
 .smap>div{width:100%;height:100%}
 
@@ -359,10 +360,16 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .tl-track::-webkit-scrollbar-track{background:var(--line);border-radius:6px}
 .tl-track::-webkit-scrollbar-thumb{background:var(--acc);border-radius:6px}
 
-/* Country stamps: a flag in a round stamp when visited, greyed out until then */
-.stamp{display:inline-flex;align-items:center;justify-content:center;width:2.1em;height:2.1em;border-radius:50%;border:2px solid var(--acc);font-size:1.2em;line-height:1;margin-right:10px;transform:rotate(-6deg);vertical-align:middle;flex:0 0 auto}
-.stamp.empty{border-color:var(--line);filter:grayscale(1);opacity:.35;transform:none}
 #app .ach li{display:flex;align-items:center}
+.country-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px}
+.country-card{display:flex;align-items:center;gap:10px;min-width:0;padding:10px;background:var(--bg);border:1px solid var(--line);border-radius:8px}
+.country-card.visited{border-color:var(--acc)}
+.country-flag{flex:0 0 auto;font-size:1.55rem;line-height:1}
+.country-card:not(.visited) .country-flag{filter:grayscale(1);opacity:.45}
+.country-info{min-width:0}
+.country-info b,.country-info small{display:block}
+.country-info b{font-size:.87rem;overflow-wrap:anywhere}
+.country-info small{color:var(--mute);font-size:.75rem}
 
 /* Settings: your own links */
 .custom-form{display:grid;gap:8px;margin:10px 0}

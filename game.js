@@ -421,22 +421,57 @@ function beginTravel(){
 }
 // ---- Results journal: your legs, with timestamps and totals
 function stamp(h){var m=Math.round(480+absH(h)*60),d=Math.floor(m/1440)+1,t=m%1440;return"Day "+d+", "+pad(Math.floor(t/60))+":"+pad(t%60)}
-function jcol(names,modes,times,nights,label){
- var t=times||[0],rows="<li class='jstart'><span>"+esc(S.start=="lon"?"Trafalgar Square":N[S.start].n)+"</span><small>"+stamp(0)+"</small></li>";
- names.slice(1).forEach(function(n,i){rows+="<li><span>"+(ICON[modes[i]]||"")+" "+esc(N[n].n)+(nights&&nights[i]?" "+BED:"")+"</span><small>"+(t[i+1]!==undefined?stamp(t[i+1]):"")+"</small></li>"});
- return"<div class='jcol'><h3>"+label+"</h3><ol>"+rows+"</ol></div>"
+function journeyDay(h,base){return Math.floor(((base||0)+(h||0)+8)/24)+1}
+function journeyName(id,name){var p=id&&placeOf(id);return name||(p&&p.n)||id||""}
+function journeyId(name){var list=gazetteer();for(var i=0;i<list.length;i++)if(list[i].n===name)return list[i].id;return null}
+function journeyMainStop(id,name,day){
+ var country=id&&PLACE_COUNTRY[id],flag=country?flagOf(country):"";
+ return"<li class='journey-main'><span class='journey-day'>"+(day?"Day "+day:"")+"</span><span class='journey-place'><b>"+esc(journeyName(id,name))+"</b>"+(flag?" <span class='journey-flag' aria-label='"+esc(country)+"'>"+flag+"</span>":"")+"</span></li>"
 }
-function jrow(l,a,b){return"<div class='jr'><span>"+l+"</span><b>"+a+"</b><b>"+b+"</b></div>"}
+function journeyStops(stops){
+ if(!stops.length)return"";
+ return"<li class='journey-stops'><span class='journey-stops-label'>Stops:</span><span>"+stops.map(function(s){return esc(journeyName(s.id,s.name))}).join(" <b aria-hidden='true'>&gt;</b> ")+"</span></li>"
+}
+function journeyHistoryHtml(){
+ var history=(S.camp&&S.camp.log)||[],items=[],last="",lastName="";
+ function addMain(id,name,day){
+  var key=id||name;
+  if(key&&(key===last||name===lastName))return;
+  items.push(journeyMainStop(id,name,day));last=key;lastName=name||journeyName(id);
+ }
+ function addLeg(entry){
+  if(entry.fromId)addMain(entry.fromId,entry.from,entry.fromDay);
+  var stops=(entry.stops||[]).map(function(s){return typeof s==="string"?{id:s}:s});
+  if(stops.length)items.push(journeyStops(stops));
+  addMain(entry.toId||journeyId(entry.to),entry.to,entry.toDay||journeyDayFromStamp(entry.arrived));
+ }
+ var origin=S.camp&&(S.camp.origin||(S.camp.legs>1&&!S.camp.tour&&!S.camp.itin?"lon":null));
+ if(origin)addMain(origin,journeyName(origin),1);
+ history.forEach(function(entry){
+  if(entry.fromId||entry.toId)addLeg(entry);
+  else addMain(null,entry.to,journeyDayFromStamp(entry.arrived));
+ });
+
+ var path=S.path||[S.start],times=S.times||[0],start=S.start,goal=S.goal;
+ if(start)addMain(start,journeyName(start),journeyDay(0,S.camp&&S.camp.start));
+ var routeStops=path.slice(1).map(function(id,i){return{id:id,day:journeyDay(times[i+1]||0,S.camp&&S.camp.start)}}).filter(function(stop){return stop.id!==goal});
+ if(routeStops.length)items.push(journeyStops(routeStops));
+ var goalTime=S.arrH!==undefined?S.arrH:(path.indexOf(goal)>=0?times[path.lastIndexOf(goal)]:(S.opt&&S.opt.h)||S.h||0);
+ if(goal)addMain(goal,journeyName(goal),journeyDay(goalTime,S.camp&&S.camp.start));
+ return"<ol class='journey-timeline'>"+items.join("")+"</ol>"
+}
+function journeyDayFromStamp(value){var match=String(value||"").match(/\bDay\s+(\d+)\b/);return match?Number(match[1]):null}
+var JOURNAL_SECTION_OPEN={};
+function journalSectionOpenAttr(name){return JOURNAL_SECTION_OPEN[name]?" open":""}
+function bindJournalSections(){
+ document.querySelectorAll("[data-journal-section]").forEach(function(section){
+  section.addEventListener("toggle",function(){JOURNAL_SECTION_OPEN[section.getAttribute("data-journal-section")]=section.open});
+ });
+}
 function journalHtml(){
- var p=S.plan,lm=S.lm,pl=p?(p.skipped?"skipped":mins(p.lost)):"\u2013",ll2=lm?(lm.skipped?"skipped":mins(lm.lost)):"\u2013";
- return"<div class='panel jrnl-wrap'><h2>Journal</h2><div class='jrnl'>"+jcol(S.path,S.modes,S.times,S.nights,"Your journey")+"</div><div class='jsum'>"+jrow("Planning",pl,"")+jrow("Checkpoint",ll2,"")+jrow("Total time",mins(S.h),"target "+mins(S.target||0))+jrow("Spend","\u00a3"+Math.round(S.spent),"")+"</div></div>"
+ return"<details class='panel journal-section jrnl-wrap' data-journal-section='journey'"+journalSectionOpenAttr("journey")+"><summary>Your journey</summary>"+journeyHistoryHtml()+"</details>"
 }
-function journalPanelHtml(){
- var h=journalHtml()+"<div class='panel'><h2>Travel notes</h2><ol class='log' reversed>";
- (S.log||[]).slice().reverse().forEach(function(line){h+="<li>"+esc(line)+"</li>"});
- h+="</ol></div>"+campLogHtml();
- return h
-}
+function journalPanelHtml(){return journalHtml()+countriesPanelHtml()+achHtml()}
 function inventoryPanelHtml(){
  var h="<div class='panel'><h2>Money &amp; inventory</h2><div class='inventory-stats'><div><small>Available</small><b>\u00a3"+Math.round(S.cash)+"</b></div><div><small>Spent this leg</small><b>\u00a3"+Math.round(S.spent)+"</b></div><div><small>Leg budget</small><b>\u00a3"+Math.round(S.budget)+"</b></div></div><p class='mute'>Campaign leg "+S.camp.legs+". You receive \u00a3"+INCOME+" at the start of each leg.</p></div>";
   if(S.camp.pack&&S.camp.pack.length)h+="<div class='panel'><h2>Goods for trade ("+S.camp.pack.length+"/"+MK_CAP+")</h2><ul class='log'>"+S.camp.pack.map(function(x){return"<li>"+esc(x.name)+" (paid \u00a3"+Math.round(x.ask)+")</li>"}).join("")+"</ul></div>";
@@ -445,7 +480,7 @@ function inventoryPanelHtml(){
 var activePanel="play",panelScrollTimer=null;
 function bindPanels(){
  document.querySelectorAll("[data-panel-target]").forEach(function(b){
-  b.onclick=function(){activePanel=b.getAttribute("data-panel-target");showPanel()};
+  b.onclick=function(){var target=b.getAttribute("data-panel-target");if(target!==activePanel){activePanel=target;render()}};
  });
  showPanel();
 }
@@ -503,6 +538,7 @@ function run(steps){
 }
 function newJourney(a,b,air,evn,lm){
  var camp=NEXT_CAMP||{money:0,legs:1,start:0,log:[],pack:[],seed:(Math.random()*1e9)|0,sales:{},nextUid:0};NEXT_CAMP=null;
+ if(!camp.origin)camp.origin=a;
  S={legHazards:0,legNotes:[],start:a,goal:b,air:air,ev:evn,camp:camp,setup:{air:air,evn:evn,lm:lm},lmOn:!!(lm&&lm.on),planOn:!!(lm&&lm.plan),lmClue:lm&&lm.clue,lmLevel:lm&&lm.level,rooms:[],wait:0,tired:false,pend:null,loc:a,h:0,spent:0,path:[a],times:[0],modes:[],nights:[],rev:{},log:["Begin your journey from "+(a=="lon"?"Trafalgar Square":N[a].n)+" to "+N[b].n+"."],phase:(lm&&lm.plan)?"plan":"routes",draft:[],over:null};
  S.term=terms(a)[0];S.arr=0;var B=camp.money+(camp.income!=null?camp.income:INCOME),p=plan(0,B),t=0;
  while(!p&&t++<4){B=Math.round(B*1.5);p=plan(0,B)}
@@ -904,13 +940,12 @@ function begin(){
 // Days: the campaign clock runs across legs. Arriving on day x: rest and explore on day x+1, leave 8am on day x+2.
 function arrDay(){return Math.floor((absH(S.arrH||0)+8)/24)+1}
 function restHtml(){return"<p class='mute'>Arrived "+stamp(S.arrH||0)+". Rest and explore on Day "+(arrDay()+1)+", leave 8am Day "+(arrDay()+2)+".</p>"}
-function campLogHtml(){if(COUNTRIES_VIEW)return countriesPanelHtml();return campLogHtmlBase()+achHtml()}
-function campLogHtmlBase(){var l=(S.camp&&S.camp.log)||[];var save="<div class='row'><button class='btn alt' onclick='exportSave()'>Save file</button><button class='link' onclick='if(confirm(\"End your campaign? Saved progress will be cleared.\"))reset()'>End campaign</button></div>";if(!l.length)return"<div class='panel'>"+save+"</div>";return"<div class='panel'><h2>Campaign so far</h2><ol class='log'>"+l.map(function(e){return"<li>Leg "+e.leg+": "+(e.stranded?"stranded in ":"arrived in ")+esc(e.to)+(e.stranded?"":" at "+esc(e.arrived))+"</li>"}).join("")+"</ol>"+save+"</div>"}
 function nextLeg(){
  if(!S||!S.camp)return;
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
- var log=(S.camp.log||[]).concat([{leg:S.camp.legs,to:N[from].n,arrived:stamp(S.arrH||0),stranded:!!S.stranded}]),start=(arrDay()+1)*24;
- var camp={itin:S.camp.itin||null,ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
+ var entry={leg:S.camp.legs,to:N[from].n,arrived:stamp(S.arrH||0),stranded:!!S.stranded,fromId:S.start,from:N[S.start].n,fromDay:journeyDay(0,S.camp.start),toId:from,toDay:journeyDay(S.arrH||S.h,S.camp.start),stops:(S.path||[]).slice(1,-1).map(function(id,i){return{id:id,day:journeyDay((S.times||[])[i+1]||0,S.camp.start)}})};
+ var log=(S.camp.log||[]).concat([entry]),start=(arrDay()+1)*24;
+ var camp={itin:S.camp.itin||null,origin:S.camp.origin|| (S.camp.legs===1?S.start:(!S.camp.tour&&!S.camp.itin?"lon":null)),ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
  var st=S.setup||{air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}},tries=0;
  var fixedTo=null;
  if(S.camp.itin){fixedTo=itinTake(S.camp.itin,from,S.camp.chosen,S.camp.visited||[]);S.camp.chosen=null;if(!fixedTo){S=null;return render("Your itinerary has no further stops.")}}
@@ -1143,7 +1178,7 @@ function render(msg){
   var app=document.getElementById("app");app.classList.remove("wide");var home=!SETTINGS_OPEN&&!TOUR_PICK&&!ITIN_PICK;app.innerHTML=(SETTINGS_OPEN?settingsHtml():TOUR_PICK?tourHtml():ITIN_PICK?itinPickHtml():welcomeHtml(msg))+(home?ABOUT_HTML:"");
   return}
  var h="<h1 class='sr-only'>Roam Across the World</h1>";
- var mapped=true;
+ var mapped=activePanel==="play";
  document.body.classList.toggle("mapscreen",mapped);
  document.body.classList.toggle("map-min",mapped&&mapMin());
  document.body.classList.toggle("map-full",mapped&&MAPVIEW==="full");
@@ -1171,7 +1206,7 @@ function render(msg){
  }
  h+="</section><section class='game-panel' data-game-panel='journal' aria-label='Travel journal'>"+journalPanelHtml()+"</section><section class='game-panel' data-game-panel='inventory' aria-label='Money and inventory'>"+inventoryPanelHtml()+"</section></div>";
  if(mapped)h+="</div>";
- var app=document.getElementById("app");app.classList.add("wide");app.innerHTML=h;setHdrVar();mountTimeline();animateClock(LAST_CLOCK,clockText());LAST_CLOCK=clockText();drawMap();bindPanels();bindModes();fillFlavour();if(S&&(S.phase=="lastmile"||S.phase=="interim")&&!S.over)LM.attach(document.getElementById("lm"))
+ var app=document.getElementById("app");app.classList.add("wide");app.innerHTML=h;setHdrVar();mountTimeline();animateClock(LAST_CLOCK,clockText());LAST_CLOCK=clockText();drawMap();bindPanels();bindJournalSections();bindModes();fillFlavour();if(S&&(S.phase=="lastmile"||S.phase=="interim")&&!S.over)LM.attach(document.getElementById("lm"))
 }
 // Startup: show the start screen straight away; if a campaign is saved, load its regions first, then resume it
 load();
