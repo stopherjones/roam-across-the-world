@@ -471,7 +471,26 @@ function bindJournalSections(){
 function journalHtml(){
  return"<details class='panel journal-section jrnl-wrap' data-journal-section='journey'"+journalSectionOpenAttr("journey")+"><summary>Your journey</summary>"+journeyHistoryHtml()+"</details>"
 }
-function journalPanelHtml(){return journalHtml()+countriesPanelHtml()+achHtml()}
+function natureCreditName(attribution){
+ var text=String(attribution||"").trim();
+ if(!text||/^(?:photo on inaturalist|photographer not credited)$/i.test(text))return"Photographer not credited";
+ var match=text.match(/^(?:\(c\)|\u00a9)\s*([^,]+)/i);
+ return(match?match[1]:text.split(",")[0]).trim()
+}
+function naturePhotoCredit(attribution,representative){
+ var name=natureCreditName(attribution);
+ return(representative?"Representative photo: ":"Observation photo: ")+(name==="Photographer not credited"?name:"(c) "+name)
+}
+function sightingsHtml(){
+ var list=S.camp&&Array.isArray(S.camp.sightings)?S.camp.sightings:[];
+ var cards=list.map(function(s){
+  if(!s||!s.id||!s.name||typeof s.imageUrl!=="string"||s.imageUrl.indexOf("https://")!==0)return"";
+  var url="https://www.inaturalist.org/observations/"+encodeURIComponent(s.id);
+  return"<article class='sighting-card' role='listitem'><a class='sighting-thumb' href='"+url+"' target='_blank' rel='noopener' aria-label='View "+esc(s.name)+" on iNaturalist'><img src='"+esc(s.imageUrl)+"' alt='Photo of "+esc(s.name)+"' loading='lazy'></a><div class='sighting-info'><b>"+esc(s.name)+"</b><small>"+esc(s.locationName||s.locationId||"")+"</small><a href='"+url+"' target='_blank' rel='noopener'>View on iNaturalist</a><small class='sighting-credit'>"+esc(naturePhotoCredit(s.credit||s.attribution,s.representative))+"</small></div></article>"
+ }).filter(function(card){return!!card});
+ return"<details class='panel journal-section sighting-panel' data-journal-section='sightings'"+journalSectionOpenAttr("sightings")+"><summary>Sightings ("+cards.length+")</summary>"+(cards.length?"<div class='sighting-grid' role='list'>"+cards.join("")+"</div>":"<p class='mute'>No sightings recorded yet. Use Nature while exploring a town to add local wildlife sightings.</p>")+"</details>"
+}
+function journalPanelHtml(){return journalHtml()+sightingsHtml()+countriesPanelHtml()+achHtml()}
 function inventoryPanelHtml(){
  var h="<div class='panel'><h2>Money &amp; inventory</h2><div class='inventory-stats'><div><small>Available</small><b>\u00a3"+Math.round(S.cash)+"</b></div><div><small>Spent this leg</small><b>\u00a3"+Math.round(S.spent)+"</b></div><div><small>Leg budget</small><b>\u00a3"+Math.round(S.budget)+"</b></div></div><p class='mute'>Campaign leg "+S.camp.legs+". You receive \u00a3"+INCOME+" at the start of each leg.</p></div>";
   if(S.camp.pack&&S.camp.pack.length)h+="<div class='panel'><h2>Goods for trade ("+S.camp.pack.length+"/"+MK_CAP+")</h2><ul class='log'>"+S.camp.pack.map(function(x){return"<li>"+esc(x.name)+" (paid \u00a3"+Math.round(x.ask)+")</li>"}).join("")+"</ul></div>";
@@ -539,6 +558,7 @@ function run(steps){
 function newJourney(a,b,air,evn,lm){
  var camp=NEXT_CAMP||{money:0,legs:1,start:0,log:[],pack:[],seed:(Math.random()*1e9)|0,sales:{},nextUid:0};NEXT_CAMP=null;
  if(!camp.origin)camp.origin=a;
+ camp.sightings=Array.isArray(camp.sightings)?camp.sightings:[];
  S={legHazards:0,legNotes:[],start:a,goal:b,air:air,ev:evn,camp:camp,setup:{air:air,evn:evn,lm:lm},lmOn:!!(lm&&lm.on),planOn:!!(lm&&lm.plan),lmClue:lm&&lm.clue,lmLevel:lm&&lm.level,rooms:[],wait:0,tired:false,pend:null,loc:a,h:0,spent:0,path:[a],times:[0],modes:[],nights:[],rev:{},log:["Begin your journey from "+(a=="lon"?"Trafalgar Square":N[a].n)+" to "+N[b].n+"."],phase:(lm&&lm.plan)?"plan":"routes",draft:[],over:null};
  S.term=terms(a)[0];S.arr=0;var B=camp.money+(camp.income!=null?camp.income:INCOME),p=plan(0,B),t=0;
  while(!p&&t++<4){B=Math.round(B*1.5);p=plan(0,B)}
@@ -945,7 +965,7 @@ function nextLeg(){
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
  var entry={leg:S.camp.legs,to:N[from].n,arrived:stamp(S.arrH||0),stranded:!!S.stranded,fromId:S.start,from:N[S.start].n,fromDay:journeyDay(0,S.camp.start),toId:from,toDay:journeyDay(S.arrH||S.h,S.camp.start),stops:(S.path||[]).slice(1,-1).map(function(id,i){return{id:id,day:journeyDay((S.times||[])[i+1]||0,S.camp.start)}})};
  var log=(S.camp.log||[]).concat([entry]),start=(arrDay()+1)*24;
- var camp={itin:S.camp.itin||null,origin:S.camp.origin|| (S.camp.legs===1?S.start:(!S.camp.tour&&!S.camp.itin?"lon":null)),ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
+ var camp={itin:S.camp.itin||null,origin:S.camp.origin|| (S.camp.legs===1?S.start:(!S.camp.tour&&!S.camp.itin?"lon":null)),ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],sightings:S.camp.sightings||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
  var st=S.setup||{air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}},tries=0;
  var fixedTo=null;
  if(S.camp.itin){fixedTo=itinTake(S.camp.itin,from,S.camp.chosen,S.camp.visited||[]);S.camp.chosen=null;if(!fixedTo){S=null;return render("Your itinerary has no further stops.")}}
