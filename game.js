@@ -1174,8 +1174,7 @@ function welcomeHtml(msg){
   "<div class='welcome-card featured'>"+
    "<p class='mute'>An ongoing campaign starting in London. Your money, journal and achievements carry across from destination to destination. Can you visit every country in the world?</p>"+
    err+
-   "<div class='row'><button class='btn' onclick='begin()'>Start Journey</button><a class='link-btn' href='rules.html'>Rules and guides</a><label class='link-btn' for='saveFile'>Import your save file and preferences</label></div>"+
-   "<input type='file' id='saveFile' class='sr-only' accept='.json,application/json' onchange='importSave(this.files[0])' aria-label='Choose a save file'>"+
+   "<div class='row'><button class='btn' onclick='begin()'>Start Journey</button><a class='link-btn' href='rules.html'>Rules and guides</a><button type='button' class='link' onclick='openSaveLoadModal()'>Load save file or code</button></div>"+
   "</div>"+
 "</section>"+
  "<section class='welcome-sec' aria-labelledby='sec-more'>"+
