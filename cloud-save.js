@@ -130,7 +130,12 @@
     loadFromCode(getCode(), "A saved game was found in the cloud for this device. Load it?");
   }
   window.addEventListener("load", function () {
-    setTimeout(function () { if (!checkRestoreLink()) offerRestore(); }, 0);
+    setTimeout(function () {
+      if (!checkRestoreLink()) {
+        offerRestore();
+        if (S) queue();
+      }
+    }, 0);
   });
 
   // ---- Settings ----

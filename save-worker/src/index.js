@@ -1,21 +1,31 @@
-const ALLOWED_ORIGIN = "https://stopherjones.github.io";
+const ALLOWED_ORIGINS = new Set([
+  "https://stopherjones.github.io",
+  "http://127.0.0.1:8768",
+  "http://localhost:8768",
+  "http://127.0.0.1:8000",
+  "http://localhost:8000"
+]);
 const MAX_BYTES = 512 * 1024;
 const TTL = 60 * 60 * 24 * 60; // 60 days
 
-const cors = {
-  "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
-  "Access-Control-Allow-Methods": "GET, PUT, OPTIONS",
+const corsHeaders = (origin) => ({
+  ...(ALLOWED_ORIGINS.has(origin) ? { "Access-Control-Allow-Origin": origin } : {}),
+  "Access-Control-Allow-Methods": "GET, PUT, DELETE, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type",
   "Access-Control-Max-Age": "86400",
   "Vary": "Origin"
-};
-
-const reply = (body, status = 200, extra = {}) =>
-  new Response(body, { status, headers: { ...cors, ...extra } });
+});
 
 export default {
   async fetch(request, env) {
-    if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
+    const origin = request.headers.get("Origin");
+    const cors = corsHeaders(origin);
+    const reply = (body, status = 200, extra = {}) =>
+      new Response(body, { status, headers: { ...cors, ...extra } });
+
+    if (request.method === "OPTIONS") {
+      return new Response(null, { status: ALLOWED_ORIGINS.has(origin) ? 204 : 403, headers: cors });
+    }
 
     const m = new URL(request.url).pathname.match(/^\/save\/([A-Za-z0-9_-]{16,64})$/);
     if (!m) return reply("Not found", 404);
@@ -43,6 +53,11 @@ export default {
       return reply("Saved");
     }
 
-    return reply("Method not allowed", 405, { Allow: "GET, PUT, OPTIONS" });
+    if (request.method === "DELETE") {
+      await env.SAVES.delete(key);
+      return reply("Deleted");
+    }
+
+    return reply("Method not allowed", 405, { Allow: "GET, PUT, DELETE, OPTIONS" });
   }
 };

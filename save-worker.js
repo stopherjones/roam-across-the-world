@@ -1,24 +1,34 @@
 // Save server: stores one JSON save per key (a SHA-256 hash of the player's save code).
 // Routes: GET /save/:key, PUT /save/:key, DELETE /save/:key. Saves expire after 60 days.
 // Bound to the KV namespace SAVES.
-const ALLOWED_ORIGIN = "https://stopherjones.github.io";
+const ALLOWED_ORIGINS = new Set([
+  "https://stopherjones.github.io",
+  "http://127.0.0.1:8768",
+  "http://localhost:8768",
+  "http://127.0.0.1:8000",
+  "http://localhost:8000"
+]);
 const MAX_BYTES = 512 * 1024;
 const TTL = 60 * 60 * 24 * 60;   // 60 days, in seconds
 
-const cors = {
-  "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
+const corsHeaders = (origin) => ({
+  ...(ALLOWED_ORIGINS.has(origin) ? { "Access-Control-Allow-Origin": origin } : {}),
   "Access-Control-Allow-Methods": "GET, PUT, DELETE, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type",
   "Access-Control-Max-Age": "86400",
   "Vary": "Origin"
-};
-
-const reply = (body, status = 200, extra = {}) =>
-  new Response(body, { status, headers: { ...cors, ...extra } });
+});
 
 export default {
   async fetch(request, env) {
-    if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
+    const origin = request.headers.get("Origin");
+    const cors = corsHeaders(origin);
+    const reply = (body, status = 200, extra = {}) =>
+      new Response(body, { status, headers: { ...cors, ...extra } });
+
+    if (request.method === "OPTIONS") {
+      return new Response(null, { status: ALLOWED_ORIGINS.has(origin) ? 204 : 403, headers: cors });
+    }
 
     // Keys are 16 to 64 characters: a hex SHA-256 is 64.
     const m = new URL(request.url).pathname.match(/^\/save\/([A-Za-z0-9_-]{16,64})$/);

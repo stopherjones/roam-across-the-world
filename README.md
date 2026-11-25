@@ -24,6 +24,19 @@ Browsers block `fetch` from `file://`, so use a tiny server:
 2. Settings, Pages, deploy from the `main` branch root.
 3. Open `https://<you>.github.io/<repo>/`
 
+## Cloud saves
+Saves remain in browser storage and are also copied to the Cloudflare Worker after a short delay. A four-word save code identifies each save; the code is kept in this browser, and only its SHA-256 hash is used as the Cloudflare KV key. Anyone who has the code can restore or overwrite that save.
+
+The client uses `https://save-worker.chrisjones59.workers.dev/save/`. The Worker in `save-worker/src/index.js` is configured by `save-worker/wrangler.jsonc` to use the `SAVES` KV namespace. To deploy Worker changes, sign in to the Cloudflare account that owns that namespace, then run:
+
+```powershell
+cd save-worker
+npx wrangler login
+npx wrangler deploy
+```
+
+The Worker permits the GitHub Pages origin and the local development origins on ports 8768 and 8000. After deploying, reload the game; an existing local campaign will be queued for cloud backup automatically. Settings shows the cloud-save status and lets you copy the code/link or delete the cloud copy.
+
 ## Data files (in `data/`)
 These are built ahead of time by the scripts in `tools/`, so the game never calls an AI service for them.
 - `data/intros.json`: a short introduction for each town. Built by `tools/gen-intros.mjs`. Complete for all 619 towns.
