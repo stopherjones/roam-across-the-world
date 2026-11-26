@@ -1,0 +1,112 @@
+{
+ "id": "sgn",
+ "town": "Ho Chi Minh City",
+ "source": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+ "pool": [
+  {
+   "year": 1698,
+   "text": "Vietnamese Nguyen lords established administrative structures in the area, detaching it from Cambodia.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1802,
+   "text": "It served as the capital of the Nguyen lords before the establishment of the Nguyen dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1859,
+   "text": "The Citadel of Saigon fell during the Cochinchina campaign before becoming the French capital.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1865,
+   "text": "Gia Dinh Bao was established in Saigon, becoming the first newspaper published in Vietnam.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1949,
+   "text": "Bao Dai made Saigon the capital of the State of Vietnam within the French Union.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1963,
+   "text": "Buddhist monk Thich Quang Duc self-immolated in the city in protest of the Diem regime.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "civic"
+  },
+  {
+   "year": 1968,
+   "text": "Communist forces launched a failed attempt to capture the city during the Tet Offensive.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "Saigon was captured, ending the Vietnam War and coming under control of the Vietnamese People's Army.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1976,
+   "text": "The city of Saigon and other areas were combined to create Ho Chi Minh City.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "The Stock Exchange, the first stock exchange in Vietnam, was opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2002,
+   "text": "Sixty people died and ninety were injured in the International Trade Center building fire.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "environment"
+  },
+  {
+   "year": 2010,
+   "text": "The Ho Chi Minh City – Trung Luong Expressway was opened, connecting to the Mekong Delta.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "A specific location opened to the public as a spot for locals and visitors to gather.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "The Saigon Waterbus launched, connecting down town to Thu Duc.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "Line 1 was opened in Ho Chi Minh City.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2025,
+   "text": "Provinces were merged into Ho Chi Minh City, inheriting industrial and coastal metropolitan areas.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "Long Thanh International Airport is scheduled to begin operating.",
+   "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

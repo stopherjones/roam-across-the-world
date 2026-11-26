@@ -1,0 +1,130 @@
+{
+ "id": "jai",
+ "town": "Jaipur",
+ "source": "https://en.wikipedia.org/wiki/Jaipur",
+ "pool": [
+  {
+   "year": 1726,
+   "text": "Construction of the city of Jaipur began under its ruler.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1727,
+   "text": "Sawai Jai Singh II founded the planned city of Jaipur.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1868,
+   "text": "A school of art was founded fostering metalwork and marble industries.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1875,
+   "text": "Jaipur Junction railway station was built at the centre of Rajasthan.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 1876,
+   "text": "The city was painted pink to welcome Albert Edward, Prince of Wales.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1900,
+   "text": "The rapidly growing city reached a population of 160,000 residents.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 1949,
+   "text": "Jaipur became the capital of the newly formed state of Rajasthan.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1981,
+   "text": "Heavy rains from a cloudburst caused massive flooding and eight deaths.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "environment"
+  },
+  {
+   "year": 1989,
+   "text": "Jaipur Stock Exchange was founded as a regional stock exchange in India.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1994,
+   "text": "The Jaipur Municipal Corporation was established to manage city governance.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Pink City Express got replaced by now running Ajmer Shatabdi Express.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The Mountain Goats released an album featuring a song about the city.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The local airport was officially granted the status of international airport.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Jaipur BRTS transportation project was approved by the government.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Jaipur was ranked among the top Emerging Global Outsourcing cities.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "A section of the North-South Corridor transportation route became operational.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "World Trade Park Jaipur shopping mall was opened to the public.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Jaipur Metro commenced commercial operation on its first major route.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "JMC was bifurcated into two separate municipal entities with numerous wards.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "The two municipal bodies were re-merged into a single municipal corporation.",
+   "url": "https://en.wikipedia.org/wiki/Jaipur",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3615,
+  "completionTokens": 2336,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2019,
+   "theme": "civic",
+   "event": "Krasnoyarsk served as the host city for the 2019 Winter Universiade events.",
+   "quote": "In 2019, Krasnoyarsk was the host city of the 2019 Winter Universiade, the third hosted in Russia.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2022,
+   "theme": "civic",
+   "event": "Kokshetau established a formal international cooperation agreement with the city.",
+   "quote": "Kokshetau, Kazakhstan (2022)",
+   "stage": "verification",
+   "why": "The source quote only provides the name of the city and the year 2022, but does not mention the establishment of a formal international cooperation agreement."
+  }
+ ]
+}

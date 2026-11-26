@@ -1,0 +1,70 @@
+{
+ "id": "lpq",
+ "town": "Luang Prabang",
+ "source": "https://en.wikipedia.org/wiki/Luang_Prabang",
+ "pool": [
+  {
+   "year": 1238,
+   "text": "An internal uprising in the Khmer outpost of Sukhothai expelled the Khmer overlords.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1353,
+   "text": "Xieng Dong Xieng Thong became the capital of the Lan Xang kingdom.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1359,
+   "text": "The Khmer king from Angkor gave the Phra Bang to Fa Ngum.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "culture"
+  },
+  {
+   "year": 1478,
+   "text": "Luang Prabang was occupied by Vietnamese forces during Emperor Le Thanh Tong's expedition.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1707,
+   "text": "Lan Xang fell apart and Luang Prabang became the capital of Luang Phrabang.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1940,
+   "text": "The Vichy French controlled the city and lost it following the Franco-Thai War.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "A nationalist group declared Laos independent with Luang Prabang as its capital.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "civic"
+  },
+  {
+   "year": 1946,
+   "text": "The French attempted to recapture Laos by using paratroops to retake Luang Prabang.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "The Viet Minh and Pathet Lao forces attempted to capture the city.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1995,
+   "text": "The city was designated a UNESCO World Heritage Site for blending architecture.",
+   "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

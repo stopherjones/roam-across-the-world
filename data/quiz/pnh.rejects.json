@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2677,
+  "completionTokens": 2606,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2008,
+   "theme": "civic",
+   "event": "The official census recorded the total population at 1.3 million people.",
+   "quote": "The 1998 Census put Phnom Penh's population at 862,000; and the 2008 census was 1.3 million.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

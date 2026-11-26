@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3166,
+  "completionTokens": 3370,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1135,
+   "theme": "power_conflict",
+   "event": "Văn Đan, a vassal of Zhenla, invaded Nghe An and was repelled.",
+   "quote": "The inscription says that in 1135, Văn ăn (Vientiane), a vassal of Zhenla (Khmer Empire), invaded Nghe An, and was repelled by the Duke; the Duke led an army chased the invaders as far as Vũ Ôn?",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1566,
+   "theme": "culture",
+   "event": "A structure was originally built by King Setthathirath and later restored in 1953.",
+   "quote": "It was originally built in 1566 by King Setthathirath and was restored in 1953.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "The city recorded a population of 840,000 according to census figures.",
+   "quote": "The city had a population of 840,000 as of the 2023 census.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

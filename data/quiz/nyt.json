@@ -1,0 +1,130 @@
+{
+ "id": "nyt",
+ "town": "Naypyidaw",
+ "source": "https://en.wikipedia.org/wiki/Naypyidaw",
+ "pool": [
+  {
+   "year": 2002,
+   "text": "Construction of Naypyidaw started in this year and was completed later.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "The city officially replaced Yangon as the administrative capital of Myanmar.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "The stake-driving ceremony for the Uppatasanti Pagoda was held in Naypyidaw.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Construction began on the Naypyidaw railway station building project.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "More than 12000 troops marched in a massive military parade in Naypyidaw.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "Ngalaik Lake Gardens opened in Naypyidaw with water slides and natural resorts.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The National Herbal Park opened featuring medicinal plants from major regions.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The Naypyidaw Zoological Gardens opened with numerous species and animals.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Uppatasanti Pagoda was completed, resembling the Shwedagon Pagoda in Yangon.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The Naypyidaw railway station officially opened for service.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "Mobile phone coverage became available within Naypyidaw.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "The government began construction of villas near the Myanmar Convention Centre.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "The Naypyidaw Safari Park officially opened on a February holiday.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "Nay Pyi Taw International Airport opened south-east of the city.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "Russian news media announced a planned metro line project in Naypyidaw.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The Ministry of Information began publishing the weekly Naypyidaw Times journal.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "Construction work on the city was completed by this year.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2013,
+   "text": "Hotels and inns were built to house athletes and spectators for games.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "culture"
+  },
+  {
+   "year": 2014,
+   "text": "Naypyidaw was featured on the British motoring TV show Top Gear.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "The city suffered extensive damage in the Myanmar earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Naypyidaw",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

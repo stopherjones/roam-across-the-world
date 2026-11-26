@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4287,
+  "completionTokens": 3564,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1934,
+   "theme": "culture",
+   "event": "George Orwell published his first novel Burmese Days based on his experiences.",
+   "quote": "George Orwell was stationed at Mandalay for a time while working for the Indian Imperial Police in Burma, and his first novel, Burmese Days (1934), was based on his experiences in Burma.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1961,
+   "theme": "culture",
+   "event": "John Masters wrote a book about his wartime experiences in Burma.",
+   "quote": "John Masters wrote a book about his wartime experiences in Burma called The Road Past Mandalay (1961)..",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

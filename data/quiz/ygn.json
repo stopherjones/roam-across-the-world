@@ -1,0 +1,130 @@
+{
+ "id": "ygn",
+ "town": "Yangon",
+ "source": "https://en.wikipedia.org/wiki/Yangon",
+ "pool": [
+  {
+   "year": 1460,
+   "text": "Queen Saw Pu built a palace next to the Shwedagon Pagoda.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "culture"
+  },
+  {
+   "year": 1471,
+   "text": "Queen Saw Pu spent her semi-retired life at her palace until she died.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1755,
+   "text": "King Alaungpaya captured Dagon and called the enlarged town Yangon.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1823,
+   "text": "The estimated population of Yangon was about thirty thousand people.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "civic"
+  },
+  {
+   "year": 1841,
+   "text": "The city of Yangon was completely destroyed by a massive fire.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "environment"
+  },
+  {
+   "year": 1852,
+   "text": "The British captured Yangon and Lower Burma during a war.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1885,
+   "text": "Yangon became the capital of all British-ruled Burma after the war.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Yangon was under Japanese occupation and incurred heavy damage during the war.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "The city of Yangon was successfully retaken by the Allies.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "Yangon became the capital of the Union of Burma upon independence.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1989,
+   "text": "The military junta changed the English name of the city.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "The committee created a heritage list of old buildings and structures.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "Driving motorcycles within the city limits of Yangon became illegal.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "A series of coordinated bombings occurred in the city of Yangon.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "A major cyclone named Cyclone Nargis hit the city of Yangon.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "The economy size of the Yangon Region was officially measured.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "The city imposed a long moratorium on the demolition of old buildings.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "The new city bus network system named YBS was created.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Life in Yangon was greatly affected by the coup d'etat.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2022,
+   "text": "The districts of Yangon Region were reorganised into nine new districts.",
+   "url": "https://en.wikipedia.org/wiki/Yangon",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

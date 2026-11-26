@@ -1,0 +1,130 @@
+{
+ "id": "ulb",
+ "town": "Ulaanbaatar",
+ "source": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+ "pool": [
+  {
+   "year": 1638,
+   "text": "The city was founded as a nomadic Buddhist monastic centre.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 1683,
+   "text": "The Vajradhara statue was made by Zanabazar himself.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 1727,
+   "text": "The Treaty of Kyakhta regulated Qing-Russian trade.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1778,
+   "text": "The city was permanently settled at its modern location.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "civic"
+  },
+  {
+   "year": 1839,
+   "text": "The 5th Bogd Jebtsundamba moved his residence to Gandan Hill.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 1855,
+   "text": "The camp part that moved to Tolgoit was brought back.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "civic"
+  },
+  {
+   "year": 1942,
+   "text": "The Choijin Lama Monastery was turned into a museum.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 1944,
+   "text": "The Gandan Monastery was reopened.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "The Mongolian State Grand National Orchestra was established.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 1946,
+   "text": "Chingeltei District was established as part of the public library system organization.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "The Trans-Mongolian Railway connecting the cities was completed.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1968,
+   "text": "Bayanzurkh District was established as part of the public library system organization.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "civic"
+  },
+  {
+   "year": 1969,
+   "text": "Its original Artificial Lake Castle was built.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "environment"
+  },
+  {
+   "year": 1979,
+   "text": "The Children's Central Library was established to serve young readers in the city.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "The Ulaanbaatar government created a centralized system known as the Metropolitan Library System.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "Large demonstrations led to Mongolia's transition to democracy.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "The major book fair was held first, attracting numerous book authors and publishing houses.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "Ulaanbaatar was the scene of riots after disputed elections.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "The National Garden Park opened in the southeastern outskirts.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "environment"
+  },
+  {
+   "year": 2013,
+   "text": "Ulaanbaatar hosted the 7th Ministerial Conference.",
+   "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

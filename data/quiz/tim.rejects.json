@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4562,
+  "completionTokens": 3755,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2008,
+   "theme": "power_conflict",
+   "event": "This paved way for transition from absolute monarchic rule to monarchy.",
+   "quote": "In 2008, this paved way for transition from absolute monarchic rule to a parliamentary democratic constitutional monarchy, with Thimphu as the headquarters of the new government, with the national defined objective of achieving \"Gross National Happiness\" (GNH) concomitant with the growth of Gross National Product (GNP).",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

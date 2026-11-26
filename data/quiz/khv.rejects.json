@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4988,
+  "completionTokens": 3612,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1945,
+   "theme": "power_conflict",
+   "event": "Chinese Emperor Puyi was relocated to Khabarovsk and lived there until 1950.",
+   "quote": "Chinese Emperor Puyi, captured by Soviet troops in Manchuria, was relocated to Khabarovsk and lived there from 1945 up to 1950, when he was returned to China.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

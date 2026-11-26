@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4829,
+  "completionTokens": 2447,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1887,
+   "theme": "power_conflict",
+   "event": "It became the capital of French Indochina until 1902 and again from 1945.",
+   "quote": "It was also the capital of French Indochina from 1887 to 1902, and again from 1945 until its cessation in 1954.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1955,
+   "theme": "power_conflict",
+   "event": "The Vietnamese National Army launched an attack against Binh Xuyen military force in the city.",
+   "quote": "On 28 April 1955, the Vietnamese National Army launched an attack against Binh Xuyên military force in the city.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  }
+ ]
+}

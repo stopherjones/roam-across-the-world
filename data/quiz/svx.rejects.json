@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8169,
+  "completionTokens": 5169,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1991,
+   "theme": "power_conflict",
+   "event": "The city returned to its historical name in September 1991.",
+   "quote": "The Sverdlovsk Metro opened in April 1991, and in September 1991 the city returned to its historical name.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2013,
+   "theme": "civic",
+   "event": "Representatives presented the city's bid to host Expo 2020.",
+   "quote": "In June 2013, at the 153rd General Assembly of the Bureau of International Expositions held in Paris, representatives from Yekaterinburg presented the city's bid to host the Expo 2020.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2018,
+   "theme": "civic",
+   "event": "Yekaterinburg lost out to Osaka in the Expo 2025 host bid.",
+   "quote": "The host was announced on 23 November 2018 and Yekaterinburg lost out to Osaka, Japan.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

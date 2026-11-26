@@ -1,0 +1,130 @@
+{
+ "id": "vte",
+ "town": "Vientiane",
+ "source": "https://en.wikipedia.org/wiki/Vientiane",
+ "pool": [
+  {
+   "year": 1171,
+   "text": "The king launched a military invasion of the Ngoenyang Kingdom of the Tai Yuan.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1354,
+   "text": "Fa Ngum founded the kingdom of Lan Xang, making the location an administrative city.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1563,
+   "text": "King Setthathirath officially established the location as the capital of Lan Xang.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1932,
+   "text": "Settha Palace Hotel was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1943,
+   "text": "Vietnamese migration encouragement resulted in a majority Vietnamese population.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "civic"
+  },
+  {
+   "year": 1946,
+   "text": "French paratroopers arrived and reoccupied the city.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "Buddha Park was built by Luang Pu Bunleua Sulilat.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Kong Le seized the capital and insisted on a new prime minister.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "Pathet Lao troops moved towards the city as Americans began evacuating.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "A contingent of Pathet Lao women symbolically liberated the city.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "The Laotian Civil War was officially declared over when the monarchy fell.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "A metre gauge railway link over the first bridge was formally inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Vientiane Rescue, a volunteer-run rescue service, was established.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "The stock exchange opened with two listed company stocks with South Korean cooperation.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The Alliance Clinic opened near the airport with Thai hospital connections.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "The railway line was officially opened.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "Vientiane constructed its first bus rapid transit service.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "environment"
+  },
+  {
+   "year": 2025,
+   "text": "The government announced that the city economy grew over five years.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2026,
+   "text": "The economy continued to grow from foreign investment in private health and electric vehicles.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2026,
+   "text": "The government announced an initiative to accrue investments to drive economic growth.",
+   "url": "https://en.wikipedia.org/wiki/Vientiane",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

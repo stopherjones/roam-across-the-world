@@ -1,0 +1,130 @@
+{
+ "id": "svx",
+ "town": "Yekaterinburg",
+ "source": "https://en.wikipedia.org/wiki/Yekaterinburg",
+ "pool": [
+  {
+   "year": 1723,
+   "text": "Russian leaders founded Yekaterinburg alongside a massive iron-making plant.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1781,
+   "text": "Catherine the Great granted Yekaterinburg the status of a district town.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1807,
+   "text": "Yekaterinburg was assigned the status of the only mountain city.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1900,
+   "text": "The Kaslinsky cast iron pavilion won main awards at the Paris event.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1909,
+   "text": "Laurage became established as the very first cinema in the city.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1920,
+   "text": "Yekaterinburg established its first university under a decree.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1929,
+   "text": "A tram network was completed during the Soviet era in Sverdlovsk.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1929,
+   "text": "The tram network was established to play a leading role.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1941,
+   "text": "Hermitage Museum collections were evacuated from Leningrad to Sverdlovsk.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1943,
+   "text": "The Sverdlovsk Film Studio officially opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "A television studio was built, broadcasting its first telecast.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1976,
+   "text": "Coloured television officially appeared in the city.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Ipatiev House was demolished by order of Boris Yeltsin.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1979,
+   "text": "An anthrax outbreak occurred in Sverdlovsk attributed to a military facility.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "environment"
+  },
+  {
+   "year": 1981,
+   "text": "Construction of a new television tower began in the city.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "The city began operating the sixth metro in Russia.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "Vladimir Putin and Gerhard Schroder negotiated in the city.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2007,
+   "text": "The asteroid 27736 Ekaterinburg was named in the city's honour.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "Foreign ministers of the BRIC countries met in Yekaterinburg.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2019,
+   "text": "Yekaterinburg hosted the Global Summit on Manufacturing and Industrialization.",
+   "url": "https://en.wikipedia.org/wiki/Yekaterinburg",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 9822,
+  "completionTokens": 7720,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1924,
+   "theme": "food_daily",
+   "event": "Mavalli Tiffin Room, known for Karnataka-style vegetarian food, was opened.",
+   "quote": "Mavalli Tiffin Room, known for Karnataka-style vegetarian food, was opened in 1924 and vegetarian tiffin restaurant Vidyarthi Bhavan opened in 1943.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1943,
+   "theme": "food_daily",
+   "event": "Vegetarian tiffin restaurant Vidyarthi Bhavan was opened.",
+   "quote": "Mavalli Tiffin Room, known for Karnataka-style vegetarian food, was opened in 1924 and vegetarian tiffin restaurant Vidyarthi Bhavan opened in 1943.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1846,
+   "theme": "civic",
+   "event": "A large hospital was opened in the city to provide medical care.",
+   "quote": "In 1846, a large hospital was opened, with a leper colony added in 1845, and a mental hospital in 1850.",
+   "stage": "verification",
+   "why": "The source quote states a leper colony was added in 1845, which contradicts or creates a timeline issue with the large hospital being opened in 1846."
+  }
+ ]
+}

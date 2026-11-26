@@ -1,0 +1,130 @@
+{
+ "id": "vvo",
+ "town": "Vladivostok",
+ "source": "https://en.wikipedia.org/wiki/Vladivostok",
+ "pool": [
+  {
+   "year": 1861,
+   "text": "Yakov Lazarevich Semyonov arrived as the first civilian settler",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "civic"
+  },
+  {
+   "year": 1872,
+   "text": "The main Russian naval base on the Pacific Ocean was transferred",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1880,
+   "text": "The post officially received the status of a city",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "civic"
+  },
+  {
+   "year": 1880,
+   "text": "Minny Gorodok park is a former military base founded in Vladivostok.",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1894,
+   "text": "The railway station was completed at the street intersection",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1908,
+   "text": "Vladivostok's first tram line was started along Svetlanskaya Street",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1928,
+   "text": "The government decided to accelerate the industrialization of the country",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1932,
+   "text": "The Primorsky Regional Academic Drama Theater opened in Vladivostok as the oldest state theater.",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "A location in Vladivostok was converted into a park before closing later.",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The House of Artists was built with exhibition halls",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "The Primorsky State Art Gallery was separated into a separate institution",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "Gerald Ford paid an official visit to meet with Leonid Brezhnev",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1985,
+   "text": "Minny Gorodok in Vladivostok was converted into a park containing lakes and ponds.",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "The gallery of contemporary art Artetage was opened",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "culture"
+  },
+  {
+   "year": 1990,
+   "text": "The land of a park in Vladivostok belongs to the Russian Orthodox Church.",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "civic"
+  },
+  {
+   "year": 1991,
+   "text": "Boris Yeltsin signed a decree ending the closed city status",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "The Arka gallery of contemporary art was opened",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "The city hosted the VladiROCKstok International Music Festival",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "culture"
+  },
+  {
+   "year": 2001,
+   "text": "The new City Council began operations and deputies started work",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "A non-commercial private gallery Roytau appeared",
+   "url": "https://en.wikipedia.org/wiki/Vladivostok",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

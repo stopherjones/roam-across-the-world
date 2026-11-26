@@ -1,0 +1,130 @@
+{
+ "id": "tim",
+ "town": "Thimphu",
+ "source": "https://en.wikipedia.org/wiki/Thimphu",
+ "pool": [
+  {
+   "year": 1885,
+   "text": "A battle was held at the Changlimithang sports ground in Thimphu.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1952,
+   "text": "The decision was made to shift the capital from Punakha to Thimphu.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "The Royal Academy of Performing Arts was established in Thimphu.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "The ancient capital city of Punakha was replaced by Thimphu.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Thimphu was officially declared the capital of the Kingdom of Bhutan.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "The Royal Bhutan Police was established in Thimphu with personnel reassigned.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "Kuensel was first started in Thimphu as a government bulletin.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The Royal Academy of Performing Arts was institutionalised as an academy.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "The National Library was established and built in temple style.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Tashichho Dzong was converted into a monastic school with student monks.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "The National Referral Hospital was established as the main hospital.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "civic"
+  },
+  {
+   "year": 1973,
+   "text": "The Bhutan Broadcasting Service was established as a radio service.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "The modern Changlimithang Stadium was built on the site in Thimphu.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "A chorten was built in Thimphu to honour the 3rd King.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 1979,
+   "text": "The Institute of Traditional Medicine was set up with WHO assistance.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "civic"
+  },
+  {
+   "year": 1988,
+   "text": "A fingerprint bureau was established in Thimphu for specialized training.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "The fourth king devolved all executive powers to a council.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1999,
+   "text": "The television broadcasts and satellite channels started during coronation.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The fourth king announced his decision to hand over reins.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "A new shopping district opened between Doebum Lam and Norzim Lam.",
+   "url": "https://en.wikipedia.org/wiki/Thimphu",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "dac",
+ "town": "Dhaka",
+ "source": "https://en.wikipedia.org/wiki/Dhaka",
+ "pool": [
+  {
+   "year": 1454,
+   "text": "The Binat Bibi Mosque was built in the Narinda area of Dhaka.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "culture"
+  },
+  {
+   "year": 1610,
+   "text": "Dhaka became the capital of the Mughal province of Bengal, Bihar, and Orissa.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1841,
+   "text": "Dhaka College, the oldest institution for higher education, was founded in British India.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1849,
+   "text": "The Katra Press became the first printing press in the city.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1856,
+   "text": "Dacca News became the first English-language newspaper in the city of Dhaka.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "culture"
+  },
+  {
+   "year": 1864,
+   "text": "The municipality of Dhaka was founded on the first of August.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1939,
+   "text": "Haji biryani has been a leading biryani restaurant in the city.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1946,
+   "text": "The Dhaka Medical College was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1954,
+   "text": "The Dhaka Stock Exchange was opened on the twenty-eighth of April.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1956,
+   "text": "The Dhaka Improvement Trust was established to coordinate the city development.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The Southeast Asia Treaty Organization established a medical research centre in the city.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "The Dhaka Medical School officially became known as Sir Salimullah Medical College.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "The Pakistan Army launched military operations under Operation Searchlight against the population.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1985,
+   "text": "Bangladesh hosted its first South Asian Association for Regional Cooperation summit in Dhaka.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1990,
+   "text": "A mass uprising led to the return of parliamentary democracy in the country.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1994,
+   "text": "An election was held for the first elected Mayor of Dhaka.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Four surrounding rivers were declared as ecologically critical areas by the Department of Environment.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "The erstwhile Dhaka City Corporation was split into two separate corporations.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "The first phase of Dhaka Metro Rail from Uttara to Agargaon was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "Bookworm was ordered to relocate from its location near the Prime Minister's Office.",
+   "url": "https://en.wikipedia.org/wiki/Dhaka",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

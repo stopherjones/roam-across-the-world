@@ -1,0 +1,130 @@
+{
+ "id": "cgp",
+ "town": "Chittagong",
+ "source": "https://en.wikipedia.org/wiki/Chittagong",
+ "pool": [
+  {
+   "year": 1340,
+   "text": "Sultan Fakhruddin Mubarak Shah of Sonargaon conquered Chittagong.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1513,
+   "text": "Dhaniya Manikya successfully conquered Chittagong during this year.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1602,
+   "text": "The nearby island of Sandwip was successfully conquered.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1666,
+   "text": "The Mughal Empire officially expelled the Portuguese and Arakanese.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1667,
+   "text": "Umed Khan built the mosque after the Mughal conquest.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "culture"
+  },
+  {
+   "year": 1723,
+   "text": "The Kadam Mubarak Mosque in Jamal Khan was built.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Chittagong was officially declared a Major Port of British India.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1930,
+   "text": "Bengali revolutionaries carried out the famous Chittagong armoury raid.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1931,
+   "text": "The Kalurghat Bridge was officially completed.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "civic"
+  },
+  {
+   "year": 1947,
+   "text": "The Partition of British India made Chittagong the chief port of East Pakistan.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1949,
+   "text": "The Chittagong Tea Auction was officially set up.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1952,
+   "text": "The Africawala brothers set up the first steel re-rolling mills.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1953,
+   "text": "The Karnaphuli Paper Mills were established.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1966,
+   "text": "The University of Chittagong was established as a major university.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "culture"
+  },
+  {
+   "year": 1967,
+   "text": "GlaxoSmithKline began its operations in Chittagong.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1968,
+   "text": "Chittagong University of Engineering and Technology was established.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Chittagong was the site of the Bangladeshi declaration of independence.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1972,
+   "text": "The airport officially became a Bangladeshi airport after the liberation war.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "Zia was assassinated during an attempted military coup.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1995,
+   "text": "The Chittagong Stock Exchange was formed, boosting private sector investments.",
+   "url": "https://en.wikipedia.org/wiki/Chittagong",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

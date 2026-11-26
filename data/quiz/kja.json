@@ -1,0 +1,106 @@
+{
+ "id": "kja",
+ "town": "Krasnoyarsk",
+ "source": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+ "pool": [
+  {
+   "year": 1628,
+   "text": "The city was founded as a Russian border fort protecting the local frontier.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1690,
+   "text": "The settlement was officially granted town status during early administrative development.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1735,
+   "text": "Intensive growth began with the arrival of the Siberian Route connecting nearby towns.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1822,
+   "text": "Krasnoyarsk officially became the administrative centre of the Yeniseysk Governorate.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1895,
+   "text": "Urban growth continued further with the arrival of a new railroad.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1934,
+   "text": "Krasnoyarsk Krai was formed with the city designated as its administrative centre.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "The most important labour camp known as Kraslag operated with two units.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1942,
+   "text": "Krasnoyarsk State Medical University was founded to provide higher medical education.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "Krasnoyarsk State Agrarian University was established for agricultural sciences education.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "Siberian State Aerospace University was founded to advance specialized aerospace education.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1989,
+   "text": "The Soviet Union admitted the radar station was a violation of agreements.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "environment"
+  },
+  {
+   "year": 1996,
+   "text": "The appearance of the city gradually improved following a mayoral election.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "civic"
+  },
+  {
+   "year": 2003,
+   "text": "The famous bridge was rejected for emergency inscription on the World Heritage List.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Siberian Federal University was founded by integrating four large higher education institutions.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "culture"
+  },
+  {
+   "year": 2011,
+   "text": "A destructive fire broke out at the local airport destroying the terminal building.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "A new decision was made to use tunnels to create a light rail system.",
+   "url": "https://en.wikipedia.org/wiki/Krasnoyarsk",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

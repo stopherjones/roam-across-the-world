@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7752,
+  "completionTokens": 5688,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1147,
+   "theme": "power_conflict",
+   "event": "Afonso Henriques conquered the capital city of Portugal from the Moors.",
+   "quote": "In 1147, Afonso Henriques conquered the city and in 1255, it became Portugal's capital, replacing Coimbra.",
+   "stage": "verification",
+   "why": "The source states Afonso Henriques conquered the city in 1147, but it did not become the capital until 1255."
+  }
+ ]
+}

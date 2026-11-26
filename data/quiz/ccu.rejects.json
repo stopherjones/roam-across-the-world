@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4473,
+  "completionTokens": 3090,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1690,
+   "theme": "commerce_industry",
+   "event": "Kolkata's recorded history began with the arrival of the English East India Company.",
+   "quote": "Kolkata's recorded history began in 1690 with the arrival of the English East India Company, which was consolidating its trade business in Bengal.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1792,
+   "theme": "power_conflict",
+   "event": "Consulate in Kolkata dates from 19 November 1792 and is the U.S.",
+   "quote": "Consulate in Kolkata dates from 19 November 1792 and is the U.S.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2005,
+   "theme": "commerce_industry",
+   "event": "Roadside hawkers generated significant business worth billions in the city.",
+   "quote": "One unorganised group, roadside hawkers, generated business worth ₹87.72 billion (equivalent to ₹330 billion or US$3.5 billion in 2026) in 2005.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

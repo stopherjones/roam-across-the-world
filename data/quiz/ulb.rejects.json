@@ -1,0 +1,30 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 8197,
+  "completionTokens": 5902,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1991,
+   "theme": "civic",
+   "event": "Songino-Khairkhan District was established as part of the public library system.",
+   "quote": "They are in Chingeltei District (established in 1946), Khan-Uul District (established in 1948), Bayanzurkh District (established in 1968) and Songino-Khairkhan District (established in 1991).",
+   "stage": "verification",
+   "why": "The source states the district was established in 1991, but does not mention the public library system context."
+  },
+  {
+   "year": 1948,
+   "theme": "civic",
+   "event": "Khan-Uul District was established as part of the public library system organization.",
+   "quote": "They are in Chingeltei District (established in 1946), Khan-Uul District (established in 1948), Bayanzurkh District (established in 1968) and Songino-Khairkhan District (established in 1991).",
+   "source": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

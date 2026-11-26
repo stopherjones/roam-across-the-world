@@ -1,0 +1,22 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1235,
+  "completionTokens": 1447,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1906,
+   "theme": "power_conflict",
+   "event": "The worker's republic known as the Chita Republic concluded in this year.",
+   "quote": "Chita Republic (1905–1906), a worker's republic",
+   "source": "https://en.wikipedia.org/wiki/Chita",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

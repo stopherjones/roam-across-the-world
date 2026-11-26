@@ -1,0 +1,130 @@
+{
+ "id": "khv",
+ "town": "Khabarovsk",
+ "source": "https://en.wikipedia.org/wiki/Khabarovsk",
+ "pool": [
+  {
+   "year": 1893,
+   "text": "The city received its present name of Khabarovsk after being previously known as Khabarovka.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1894,
+   "text": "A department of the Russian Geographical Society formed to establish libraries, theatres and museums.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1916,
+   "text": "The Khabarovsk Bridge across the Amur was completed, allowing Trans-Siberian trains to cross.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1918,
+   "text": "Khabarovsk was occupied by Japan during the Russian Civil War in September.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1933,
+   "text": "The Directorate of Road Construction of Eastern Siberia and the Far East was created.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1936,
+   "text": "The city of Khabarovsk was divided into two districts named Stalinsky and Kirovsky.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "The Tsentralny district of Khabarovsk was formed by the Far Eastern Executive Committee.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1938,
+   "text": "The Zheleznodorozhny District was created in the city of Khabarovsk.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "The Krasnoflotsky District of Khabarovsk was created on September fifteenth.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "The first phase of the city tram system was commissioned in Khabarovsk.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1960,
+   "text": "The Khabarovsk television studio officially began broadcasting in the city.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1961,
+   "text": "The Stalinsky District of Khabarovsk was officially renamed to Industrialny.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1965,
+   "text": "Niigata in Japan became twinned with the city of Khabarovsk.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "The Khabarovsk Institute of Physical Education opened its doors on September first.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Khabarovsk was awarded the Order of October Revolution on January fourteenth.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1975,
+   "text": "The first stage of the urban trolley system opened in Khabarovsk.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1981,
+   "text": "The Bandy World Championship tournament was played in the city.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1988,
+   "text": "Portland in the United States established a twinning relationship with Khabarovsk.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1990,
+   "text": "Victoria in Canada became twinned with the city of Khabarovsk.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "Khabarovsk successfully held its very first mayoral elections.",
+   "url": "https://en.wikipedia.org/wiki/Khabarovsk",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3440,
+  "completionTokens": 3789,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2014,
+   "theme": "power_conflict",
+   "event": "Parliament heard suggestions regarding land grabs occurring near Dekkhinathiri Township.",
+   "quote": "In late 2014, for example, there were suggestions in parliament that land grabs were occurring near the Dekkhinathiri Township and that existing laws needed to be amended to provide better protection for farmers.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

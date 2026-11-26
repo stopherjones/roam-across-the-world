@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4216,
+  "completionTokens": 3571,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1991,
+   "theme": "environment",
+   "event": "The devastating 1991 Bangladesh cyclone inflicted heavy damage on the city.",
+   "quote": "The 1991 Bangladesh cyclone inflicted heavy damage on the city.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

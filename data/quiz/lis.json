@@ -1,0 +1,130 @@
+{
+ "id": "lis",
+ "town": "Lisbon",
+ "source": "https://en.wikipedia.org/wiki/Lisbon",
+ "pool": [
+  {
+   "year": 1255,
+   "text": "The urban centre officially became the capital city of the Portuguese territory.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "civic"
+  },
+  {
+   "year": 1290,
+   "text": "King Denis I founded the first Portuguese university in the urban centre.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "culture"
+  },
+  {
+   "year": 1384,
+   "text": "King Juan I of Castille besieged the city during an ongoing crisis.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1497,
+   "text": "Manuel I decreed that all resident Jewish inhabitants must convert to Christianity.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1506,
+   "text": "An anti-Semitic riot by Old Christians led to numerous deaths of New Christians.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1554,
+   "text": "Damião de Góis wrote and published a description of the municipality.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "A military coup d'état ended the republic and established the Estado Novo regime.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1966,
+   "text": "The longest suspension bridge in Europe, the 25 de Abril Bridge, was inaugurated.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "environment"
+  },
+  {
+   "year": 1967,
+   "text": "The Estádio da Luz held the European Cup Final.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "ISCTE - Lisbon University Institute was founded to provide academic degrees.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "culture"
+  },
+  {
+   "year": 1973,
+   "text": "The New University of Lisbon was founded as another public university.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "The Carnation Revolution ended the right-wing regime and reformed the country.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1982,
+   "text": "Lisbon joined the Union of Ibero-American Capital Cities since its founding.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1985,
+   "text": "Lisbon became part of the Union of Capital Cities of Portuguese Language.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1988,
+   "text": "A fire destroyed many historic buildings in the Chiado district of the capital.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "environment"
+  },
+  {
+   "year": 1994,
+   "text": "The municipality was designated as the European Capital of Culture for the year.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "The urban settlement organised the Expo '98 world exposition event.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "The Vasco da Gama Bridge was opened as the longest European bridge.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "environment"
+  },
+  {
+   "year": 2000,
+   "text": "The European Union signed an agreement to revitalise the economy in the capital.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2005,
+   "text": "The capital hosted the annual MTV European Music Awards ceremony event.",
+   "url": "https://en.wikipedia.org/wiki/Lisbon",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

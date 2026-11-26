@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 6297,
+  "completionTokens": 3943,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1966,
+   "theme": "commerce_industry",
+   "event": "The number of publishing houses in Dhaka increased significantly to 88 total.",
+   "quote": "After partition, the number of publishing houses in Dhaka rose from 27 in 1947 to 88 in 1966.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1947,
+   "theme": "commerce_industry",
+   "event": "The number of publishing houses in Dhaka rose to 27 after partition.",
+   "quote": "After partition, the number of publishing houses in Dhaka rose from 27 in 1947 to 88 in 1966.",
+   "stage": "verification",
+   "why": "The quote states publishing houses rose to 88 in 1966, starting from 27 in 1947, not that the number rose to 27 in 1947."
+  }
+ ]
+}

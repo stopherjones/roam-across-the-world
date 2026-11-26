@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7829,
+  "completionTokens": 5559,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2011,
+   "theme": "culture",
+   "event": "Hyderabad was recorded as the fourth-most populous city in India by census.",
+   "quote": "According to the 2011 census of India, Hyderabad is the fourth-most populous city in India, with a population of 6.9 million residents within the city limits and 9.7 million residents in the metropolitan region, making it the sixth-most populous metropolitan area in India.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1578,
+   "theme": "power_conflict",
+   "event": "Purana Pul, the oldest bridge connecting the two parts, was built in 1578.",
+   "quote": "The two are connected by many bridges across the river, the oldest of which is Purana Pul—(\"old bridge\") built in 1578 AD.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 1919,
+   "theme": "civic",
+   "event": "The Secunderabad Cantonment Board established the first radio station in Hyderabad State.",
+   "quote": "The Secunderabad Cantonment Board established the first radio station in Hyderabad State around 1919.",
+   "stage": "verification",
+   "why": "The source quote says 'around 1919' rather than providing an exact year."
+  }
+ ]
+}

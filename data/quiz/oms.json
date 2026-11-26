@@ -1,0 +1,70 @@
+{
+ "id": "oms",
+ "town": "Omsk",
+ "source": "https://en.wikipedia.org/wiki/Omsk",
+ "pool": [
+  {
+   "year": 1840,
+   "text": "Nicholas, commissioned by Cossacks and designed by Vasily Stasov, was consecrated here.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1864,
+   "text": "The fortress located in Omsk was destroyed in this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1896,
+   "text": "The Dormition Cathedral, a five-domed Russian Revival structure, was consecrated here.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1910,
+   "text": "The Siberian Exposition of Agriculture and Industry marked a major developmental peak.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1918,
+   "text": "The Provisional All-Russian Government was established here, headed by Admiral Kolchak.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1919,
+   "text": "Bolshevik military forces successfully entered the city of Omsk.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1941,
+   "text": "Military industries including the OKMO tank-design bureau moved into Omsk.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2002,
+   "text": "Omsk Transmash officially declared bankruptcy during this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2012,
+   "text": "Governor Polezhayev resigned and Viktor Nazarov was appointed to the post.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2017,
+   "text": "The acting City Council of the sixth convocation was elected here.",
+   "url": "https://en.wikipedia.org/wiki/Omsk",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

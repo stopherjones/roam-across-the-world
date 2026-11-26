@@ -1,0 +1,70 @@
+{
+ "id": "qta",
+ "town": "Quetta",
+ "source": "https://en.wikipedia.org/wiki/Quetta",
+ "pool": [
+  {
+   "year": 1543,
+   "text": "Mughal emperor Humayun passed through the Quetta region while fleeing to Safavid Iran.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1709,
+   "text": "The Quetta region came under the authority of the Afghan Hotak dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1747,
+   "text": "Ahmad Shah Durrani incorporated Quetta into the Afghan state.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1828,
+   "text": "British traveller Charles Masson described Quetta as a mud-walled fort with mud houses.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "culture"
+  },
+  {
+   "year": 1856,
+   "text": "General John Jacob urged the British government to occupy Quetta for frontier defence.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1883,
+   "text": "Formal British control was established through a lease arrangement with the Khan of Kalat.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1901,
+   "text": "British census records confirmed that Kasi Pashtuns remained the principal indigenous landholders.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "Quetta was almost entirely destroyed by a major earthquake resulting in widespread devastation.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "environment"
+  },
+  {
+   "year": 1947,
+   "text": "Following the creation of Pakistan, Quetta became the provincial capital of Balochistan.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "Quetta is the ninth largest city in Pakistan with an estimated population.",
+   "url": "https://en.wikipedia.org/wiki/Quetta",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

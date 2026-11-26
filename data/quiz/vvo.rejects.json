@@ -1,0 +1,61 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 7027,
+  "completionTokens": 5176,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1860,
+   "theme": "power_conflict",
+   "event": "Nikolay Muravyov-Amursky first gave Vladivostok its modern name",
+   "quote": "The city, along with other features in the Peter the Great Gulf area, was first given its modern name in 1859 by Nikolay Muravyov-Amursky.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  },
+  {
+   "year": 2020,
+   "theme": "environment",
+   "event": "The city and region experienced a rare weather phenomenon",
+   "quote": "In November 2020, the city and region had experienced a rare weather phenomenon in the face of freezing rain caused by collision of warm and cold air masses.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "The Russian Census recorded the population of Vladivostok residents",
+   "quote": "According to the Russian Census of 2021, Vladivostok had a population of 603,519, with 634,835 residents in the greater urban area.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1931,
+   "theme": "culture",
+   "event": "Maxim Gorky Academic Theater was founded in Vladivostok for various performances.",
+   "quote": "Maxim Gorky Academic Theater, named after the Russian author Maxim Gorky, was founded in 1931 and is used for drama, musical and children's theater performances.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1951,
+   "theme": "power_conflict",
+   "event": "A special regime was introduced and the city closed to foreigners",
+   "quote": "By the decree of the Council of Ministers of the Soviet Union \"Issues of the Fifth Navy\" dated August 11, 1951, a special regime was introduced in Vladivostok (it began to operate on January 1, 1952); the city was closed to foreigners.",
+   "stage": "verification",
+   "why": "The source quote indicates the decree was in 1951, but the special regime actually began operating in 1952."
+  },
+  {
+   "year": 1907,
+   "theme": "culture",
+   "event": "The Primorsky Pushkin Theater was built in Vladivostok as a cultural center.",
+   "quote": "The Primorsky Pushkin Theater was built in 1907–1908, and is currently one of the main cultural centers of the city.",
+   "stage": "verification",
+   "why": "The source quote states the theater was built in 1907-1908, not just 1907."
+  }
+ ]
+}

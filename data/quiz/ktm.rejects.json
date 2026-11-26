@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4032,
+  "completionTokens": 3642,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1975,
+   "theme": "culture",
+   "event": "Bob Seger released his song 'Katmandu,' portraying the city as a distant refuge.",
+   "quote": "Kathmandu is referenced in Bob Seger's 1975 song 'Katmandu,' off of his 'Beautiful Loser,' album, which portrays the city as a distant refuge from the frustrations of American life.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2021,
+   "theme": "civic",
+   "event": "The Nepal census recorded a specific population residing in households within Kathmandu.",
+   "quote": "As per the 2021 Nepal census, it has a population of 845,767 residing in 105,649 households, with approximately 4 million people in the surrounding metropolitan area.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

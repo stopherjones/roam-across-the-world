@@ -1,0 +1,106 @@
+{
+ "id": "rep",
+ "town": "Siem Reap",
+ "source": "https://en.wikipedia.org/wiki/Siem_Reap",
+ "pool": [
+  {
+   "year": 1431,
+   "text": "The capture coincided with the decline of Angkor though the abandonment reasons remain unclear.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1549,
+   "text": "King Ang Chan named the town after repulsing an invading Thai army.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1586,
+   "text": "European visitors including Antonio da Madalena had visited the temple ruins much earlier.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "culture"
+  },
+  {
+   "year": 1901,
+   "text": "The French School of the Far East began a long association with Angkor.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "culture"
+  },
+  {
+   "year": 1907,
+   "text": "Provinces were ceded to French Indochina after being under Siamese administration for centuries.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1929,
+   "text": "The Grand Hotel d'Angkor opened and the temples became a leading tourist draw.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1975,
+   "text": "The city population was driven into the countryside by the communist Khmer Rouge.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1992,
+   "text": "Artisans Angkor was founded to revive traditional Khmer craftsmanship and provide rural employment.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "Relative stability and a rejuvenated tourist industry revived the city after Pol Pot's death.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2003,
+   "text": "The Cambodian Cultural Village opened and assembled miniatures of famous historical buildings.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "Over half a million foreign visitors arrived in Siem Reap Province that year.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2007,
+   "text": "The Angkor National Museum opened to offer visitors a better understanding of archaeological treasures.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "culture"
+  },
+  {
+   "year": 2010,
+   "text": "It was estimated that over 50% of jobs in the town related to tourism.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2015,
+   "text": "Angkor Panorama Museum opened and housed a panorama mural depicting Khmer Empire scenes.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "culture"
+  },
+  {
+   "year": 2020,
+   "text": "Authorities issued an order banning the buying, selling and butchering of dogs for food.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2023,
+   "text": "Lotus Silk Farm opened as a sustainable social enterprise for lotus silk weaving.",
+   "url": "https://en.wikipedia.org/wiki/Siem_Reap",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

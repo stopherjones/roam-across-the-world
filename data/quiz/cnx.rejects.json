@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3478,
+  "completionTokens": 2547,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1477,
+   "theme": "culture",
+   "event": "The temple built in 1455 hosted the Eighth World Buddhist Council.",
+   "quote": "Built in 1455, the temple hosted the Eighth World Buddhist Council in 1477.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

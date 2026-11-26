@@ -1,0 +1,130 @@
+{
+ "id": "isl",
+ "town": "Islamabad",
+ "source": "https://en.wikipedia.org/wiki/Islamabad",
+ "pool": [
+  {
+   "year": 1947,
+   "text": "Pakistan gained independence, making the southern port city of Karachi its provisional national capital.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1958,
+   "text": "A commission was constituted to select a suitable site near Rawalpindi for the national capital.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "The commission recommended the area northeast of Rawalpindi which served as the provisional capital.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1960,
+   "text": "The master plan for Islamabad was drawn up to integrate Rawalpindi and adjoining areas.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1967,
+   "text": "Islamabad was established and replaced Karachi as Pakistan's national capital.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "The Children's Hospital was completed as a teaching and doctor training institute.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1986,
+   "text": "The Faisal Mosque was built as an iconic cultural and religious landmark.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "culture"
+  },
+  {
+   "year": 1987,
+   "text": "Shifa International Hospital was founded as a teaching hospital in Islamabad.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "Islamabad Stock Exchange was founded as Pakistan's third largest stock exchange.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "The South Asian Association for Regional Cooperation summit was hosted in the city.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2005,
+   "text": "The city suffered damage from the magnitude 7.6 Kashmir earthquake.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "environment"
+  },
+  {
+   "year": 2006,
+   "text": "PAEC General Hospital and teaching institute was established, affiliated with the Pakistan Atomic Energy Commission.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "The Pakistan Monument was built as a landmark for tourists.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "There were 12 hospitals, 76 dispensaries, and five maternity and child welfare centres.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Islamabad was ranked as the best place to start a business in Pakistan.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "Four terrorist incidents occurred in the city, killing four people, including the murder of Punjab Governor Salmaan Taseer.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2014,
+   "text": "The construction of the Rawalpindi-Islamabad Metrobus began in February.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The first phase of the Metrobus network opened, stretching 22.5 kilometres.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "Initial archaeological excavations unearthed the remains of a Buddhist stupa at Ban Faqiran.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "environment"
+  },
+  {
+   "year": 2018,
+   "text": "The new airport inaugurated on 20 April, spreading over 19 square kilometres.",
+   "url": "https://en.wikipedia.org/wiki/Islamabad",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

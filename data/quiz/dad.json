@@ -1,0 +1,130 @@
+{
+ "id": "dad",
+ "town": "Da Nang",
+ "source": "https://en.wikipedia.org/wiki/Da_Nang",
+ "pool": [
+  {
+   "year": 1535,
+   "text": "Portuguese explorer António de Faria visited and anchored in Da Nang.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1650,
+   "text": "A name appears on maps of the area drafted by Alexandre de Rhodes.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "culture"
+  },
+  {
+   "year": 1813,
+   "text": "The Điện Hải Citadel was first built as an earthen fortress.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1819,
+   "text": "John White arrived at Da Nang in the brig Franklin.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1823,
+   "text": "Gia Long's son Minh Mạng rebuilt the original Điện Hải fortress.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1835,
+   "text": "Emperor Minh Mạng issued an edict prohibiting European vessels from trade except at Đà Nẵng.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1997,
+   "text": "Da Nang was separated from Quảng Nam province to become a centrally controlled municipality.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The Hải Vân Tunnel was built and opened to cut down transit time.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "environment"
+  },
+  {
+   "year": 2007,
+   "text": "Da Nang's GDP per capita reached 19 million VND.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Exports increased to US$575 million in the area.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "Da Nang Hi-Tech Park was established as one of the national parks.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "Air Asia began offering four flights a week between Đà Nẵng and Kuala Lumpur.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "The traditional stone-carving craft was added to Vietnam's national intangible cultural heritage list.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Da Nang was voted one of the top 10 resort destinations in Asia.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2017,
+   "text": "APEC summit events were hosted in this city.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "The Golden Bridge phenomenon became a focal point on some newspapers.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2019,
+   "text": "The American newspaper New York Times praised Da Nang as the Miami of Vietnam.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2023,
+   "text": "Đà Nẵng received a score of 68.79 in the Provincial Competitiveness Index.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2024,
+   "text": "Huỳnh Thị Thanh Thủy became Miss International.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2025,
+   "text": "The new Da Nang city was formed by reabsorbing Quảng Nam.",
+   "url": "https://en.wikipedia.org/wiki/Da_Nang",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

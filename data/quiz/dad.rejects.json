@@ -1,0 +1,22 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4601,
+  "completionTokens": 3896,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2009,
+   "theme": "commerce_industry",
+   "event": "The GDP per capita of Da Nang increased to 27.3 million VND.",
+   "quote": "By 2009, this had increased to 27.3 million VND.",
+   "source": "https://en.wikipedia.org/wiki/Da_Nang",
+   "stage": "duplicate",
+   "why": "near-duplicate of an event already kept"
+  }
+ ]
+}

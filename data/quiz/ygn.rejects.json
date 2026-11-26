@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 4238,
+  "completionTokens": 2698,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1364,
+   "theme": "power_conflict",
+   "event": "Princess Maha Dewi ruled the town of Dagon until the year 1392.",
+   "quote": "Notable governors of Dagon included Princess Maha Dewi, who ruled the town from 1364 to 1392, and her grandniece, Shin Saw Pu, who later became the only female queen regnant in Burmese history.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 1506,
+  "completionTokens": 1530,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1185,
+   "theme": "power_conflict",
+   "event": "Xieng Dong Xieng Thong experienced a period of Khmer suzerainty under Jayavarman VII.",
+   "quote": "Xieng Dong Xieng Thong experienced a period of Khmer suzerainty under Jayavarman VII from 1185 to 1191.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

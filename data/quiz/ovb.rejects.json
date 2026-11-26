@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5194,
+  "completionTokens": 3717,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1933,
+   "theme": "food_daily",
+   "event": "The great Soviet famine resulted in rural refugees seeking safety",
+   "quote": "The great Soviet famine of 1932–33 resulted in more than 170,000 rural refugees seeking food and safety in Novosibirsk.",
+   "stage": "code check",
+   "why": "quoted sentence does not contain the year"
+  }
+ ]
+}

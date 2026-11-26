@@ -1,0 +1,76 @@
+{
+ "id": "hkt",
+ "town": "Phuket",
+ "source": "https://en.wikipedia.org/wiki/Phuket_province",
+ "pool": [
+  {
+   "year": 1680,
+   "text": "The French East India Company ship arrived at Phuket island and departed with tin cargo.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1685,
+   "text": "King Narai granted the French a tin monopoly in Phuket through an agreement.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1689,
+   "text": "Desfarges led a military expedition to recapture Thalang and re-establish French control.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1785,
+   "text": "Francis Light alerted Phuket authorities of the impending Burmese attack before the assault.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1933,
+   "text": "Monthon Phuket was dissolved, leading to Phuket's establishment as a separate province.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Thailand initiated the installation of tsunami-detection buoys in response to the disaster.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "The Supreme Patriarch of Thailand designated the Phuket Big Buddha as a treasure.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "culture"
+  },
+  {
+   "year": 2019,
+   "text": "Aquaria Phuket officially opened to the public on August 24.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "The COVID-19 pandemic reached Phuket during the early part of the year.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "civic"
+  },
+  {
+   "year": 2021,
+   "text": "Nicole Sauvain-Weisskopf, a Swiss national on holiday, was murdered in Phuket.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "civic"
+  },
+  {
+   "year": 2022,
+   "text": "Thailand transitioned towards the post-pandemic phase, ending intensive COVID-19 response measures.",
+   "url": "https://en.wikipedia.org/wiki/Phuket_province",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

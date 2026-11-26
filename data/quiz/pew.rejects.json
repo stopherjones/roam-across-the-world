@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 4,
+  "promptTokens": 6032,
+  "completionTokens": 3943,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1526,
+   "theme": "power_conflict",
+   "event": "Emperor Babur captured Peshawar in July 1526.",
+   "quote": "In July 1526, emperor Babur captured Peshawar.",
+   "stage": "code check",
+   "why": "year appears in the event text (gives the answer away)"
+  },
+  {
+   "year": 2005,
+   "theme": "civic",
+   "event": "The coalition successfully passed a bill leading to the removal of public advertisements featuring women.",
+   "quote": "In 2005, the coalition successfully passed the 'Prohibition of Use of Women in Photograph Bill, 2005,' leading to the removal of all public advertisements in Peshawar that featured women.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1630,
+   "theme": "culture",
+   "event": "Mohabbat Khan used Peshawar as his winter capital and built the Mohabbat Khan Mosque.",
+   "quote": "Emperor Aurangzeb's governor of Kabul, Mohabbat Khan used Peshawar as his winter capital during the 17th century, and built in the city its famous Mohabbat Khan Mosque in 1630.",
+   "stage": "verification",
+   "why": "The source states Mohabbat Khan used Peshawar as his winter capital during the 17th century and built the mosque in 1630, making the year attribution for the capital usage inaccurate or conflated."
+  }
+ ]
+}

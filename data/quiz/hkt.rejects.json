@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 2360,
+  "completionTokens": 2056,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1876,
+   "theme": "power_conflict",
+   "event": "A significant uprising occurred among Chinese laborers working in the tin mines of Phuket.",
+   "quote": "In 1876, there was a significant uprising among Chinese laborers working in the tin mines of Phuket and its neighboring provinces.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2004,
+   "theme": "environment",
+   "event": "Phuket experienced significant devastation due to a tsunami triggered by an earthquake.",
+   "quote": "On 26 December 2004, Phuket, along with other areas on Thailand's west coast, experienced significant devastation due to a tsunami triggered by an earthquake off the coast of Sumatra, Indonesia.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2017,
+   "theme": "commerce_industry",
+   "event": "Phuket welcomed approximately 10 million visitors, marking a significant influx of tourists.",
+   "quote": "The year 2017 marked a significant influx of tourists to Phuket, with the island welcoming approximately 10 million visitors, predominantly from overseas.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2023,
+   "theme": "commerce_industry",
+   "event": "Phuket property prices experienced a 15% increase driven by Russian and Ukrainian demand.",
+   "quote": "In 2023, Phuket experienced a 15% increase in property prices with demand driven by an influx of Russian and Ukrainian nationals.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2005,
+   "theme": "culture",
+   "event": "Phuket served as a primary filming location for Star Wars Episode III.",
+   "quote": "Phuket was a primary filming location for the 2005 film Star Wars: Episode III - Revenge of the Sith, serving as the basis for most of the exterior shots of the planet Kashyyyk, especially during the sequences at the Kachirho Beach location.",
+   "stage": "verification",
+   "why": "While the quote mentions Star Wars Episode III and the year 2005, the premise that Phuket was actually a filming location for Star Wars is a well-known false statement / fictional trivia often associated with internet hoaxes, making the claim historically unsupported by real facts even if the quote text claims it."
+  }
+ ]
+}

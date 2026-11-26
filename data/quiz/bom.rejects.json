@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 8536,
+  "completionTokens": 6614,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2005,
+   "theme": "environment",
+   "event": "The city generated a refuse of 7,800 tonnes transported to various dumping grounds.",
+   "quote": "In 2005, the city generated a refuse of 7,800 t (7,700 long tons; 8,600 short tons), of which 40 t (39 long tons; 44 short tons) is plastic waste, and is transported to dumping grounds in Gorai in the northwest, Mulund in the northeast, and to the Deonar in the east.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

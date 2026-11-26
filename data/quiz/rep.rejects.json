@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 2435,
+  "completionTokens": 2381,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2012,
+   "theme": "commerce_industry",
+   "event": "Tourist numbers had reached over two million according to the recorded data.",
+   "quote": "By 2012, tourist numbers had reached over two million.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 2020,
+   "theme": "culture",
+   "event": "Siem Reap was named the ASEAN City of Culture at a special ministerial meeting.",
+   "quote": "Siem Reap was named the ASEAN City of Culture for the period 2021–2022 at the 9th Meeting of the ASEAN Ministers Responsible for Culture and Arts (AMCA) organized on 22 October 2020.",
+   "stage": "verification",
+   "why": "The source states Siem Reap was named for the period 2021-2022, even though the meeting occurred in 2020."
+  }
+ ]
+}

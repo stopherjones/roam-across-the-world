@@ -1,0 +1,130 @@
+{
+ "id": "atq",
+ "town": "Amritsar",
+ "source": "https://en.wikipedia.org/wiki/Amritsar",
+ "pool": [
+  {
+   "year": 1574,
+   "text": "Guru Ram Das founded the holy town of Amritsar",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 1604,
+   "text": "Guru Ram Das's son installed the scripture inside the new temple",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "culture"
+  },
+  {
+   "year": 1741,
+   "text": "Mahima Prakash Vartak was likely composed describing construction achievements",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "culture"
+  },
+  {
+   "year": 1762,
+   "text": "Ahmad Shah of the Durrani Empire invaded the Sikh Confederacy",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1822,
+   "text": "Maharaja Ranjit Singh fortified the city starting from a wall",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1849,
+   "text": "The British annexed Punjab when Amritsar was a walled city",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1858,
+   "text": "The city's first local administrative body was established as a Town Committee",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 1977,
+   "text": "Amritsar was notified as a city under the Punjab Municipal Corporation Act",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "Indira Gandhi ordered Operation Blue Star to remove militants from the temple",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1991,
+   "text": "The first election to the Municipal Corporation was conducted in fifty wards",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "Elections were held after the number of wards was increased",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Brij Mohan Kapur was elected Mayor of the municipal body",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 2002,
+   "text": "The third municipal election took place with the mayoral election",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Elections and the mayoral election for Amritsar took place",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 2010,
+   "text": "An elevated road with four lanes connected to the highway started",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 2012,
+   "text": "The present Municipal House was constituted in the city",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The craft of the Thatheras of Jandiala Guru got enlisted",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "Amritsar became the second-most populous city in Punjab according to the United Nations",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 2019,
+   "text": "The Amritsar Metrobus bus rapid transit service was launched",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  },
+  {
+   "year": 2024,
+   "text": "The most recent municipal elections were conducted in Amritsar",
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

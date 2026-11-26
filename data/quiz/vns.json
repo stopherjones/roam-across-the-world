@@ -1,0 +1,130 @@
+{
+ "id": "vns",
+ "town": "Varanasi",
+ "source": "https://en.wikipedia.org/wiki/Varanasi",
+ "pool": [
+  {
+   "year": 1090,
+   "text": "Chandradeva, founder of the Gahadavala dynasty, made Banaras a second capital.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1302,
+   "text": "The current ghat as a permanent riverside embankment was built.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1389,
+   "text": "Kabir was born in Varanasi during this year.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1507,
+   "text": "Guru Nanak visited Varanasi for Maha Shivaratri.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1737,
+   "text": "The Jantar Mantar observatory was constructed above the ghats along the Ganges.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "civic"
+  },
+  {
+   "year": 1740,
+   "text": "Balwant Singh regained control of territories and declared himself Maharaja of Benares.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1767,
+   "text": "A centuries-old Durga idol was installed in Purana Durga Bari by Kali Prasanna Mukhopadhyay.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1780,
+   "text": "The Golden Temple was built by Queen Ahilyabai Holkar of Indore.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "A separate Ayurvedic College was established in Banaras Hindu University.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Mahatma Gandhi inaugurated the Bharat Mata Mandir dedicated to national personification.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1939,
+   "text": "The Bharat Sevashram Sangha was founded in Varanasi.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "Prime Minister Indira Gandhi established a Doordarshan Kendra in Varanasi.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1994,
+   "text": "The temple at the birthplace of Ravidas was completed.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 1998,
+   "text": "A Doordarshan studio was set up in Varanasi.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "culture"
+  },
+  {
+   "year": 2012,
+   "text": "The airport was granted international airport status in Varanasi.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "civic"
+  },
+  {
+   "year": 2018,
+   "text": "A new inland port was established on the banks of the Ganges River.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "The sale of meat was banned within 250 meters of all Varanasi temples and heritage sites.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2021,
+   "text": "Narendra Modi inaugurated the Shri Kashi Vishwanath Corridor project in Varanasi.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "The Kashi ropeway has been under construction in Varanasi.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "The sale of all meat was banned in Varanasi during Navaratri.",
+   "url": "https://en.wikipedia.org/wiki/Varanasi",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

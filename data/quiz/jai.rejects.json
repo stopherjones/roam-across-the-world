@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 3152,
+  "completionTokens": 2907,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2001,
+   "theme": "culture",
+   "event": "Paul McCartney recorded the Jaipur tribute song on his studio album.",
+   "quote": "Paul McCartney wrote and recorded the Jaipur tribute song \"Riding into Jaipur\" (4:08) on his 2001 studio album Driving Rain.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1956,
+   "theme": "civic",
+   "event": "Maharaja Sawai Man Singh II laid the cornerstone for the railway station.",
+   "quote": "The cornerstone of the existing Jaipur railway station building was laid on 4 May 1956 by Maharaja Sawai Man Singh II of Jaipur, and construction took three years to complete.",
+   "stage": "verification",
+   "why": "The claim specifies the cornerstone was laid for 'the railway station', while the source specifies it was laid for 'the existing Jaipur railway station building'."
+  }
+ ]
+}

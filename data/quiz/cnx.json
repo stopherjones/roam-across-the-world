@@ -1,0 +1,118 @@
+{
+ "id": "cnx",
+ "town": "Chiang Mai",
+ "source": "https://en.wikipedia.org/wiki/Chiang_Mai",
+ "pool": [
+  {
+   "year": 1296,
+   "text": "Chiang Mai was founded as the new capital of Lan Na, succeeding Chiang Rai.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1345,
+   "text": "Wat Phra Singh within the city walls dates from this time.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "culture"
+  },
+  {
+   "year": 1401,
+   "text": "Wat Chedi Luang was founded, dominated by a large Lanna style chedi.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "culture"
+  },
+  {
+   "year": 1556,
+   "text": "Chiang Mai lost importance with Lan Na decline and was occupied by Toungoo.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1774,
+   "text": "Chiang Mai formally became part of the Thonburi Kingdom by an agreement.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1868,
+   "text": "First Church was founded by the Laos Mission of the Rev.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "culture"
+  },
+  {
+   "year": 1915,
+   "text": "The modern municipality dates to a sanitary district that was created.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "Chiang Mai became the first City Municipality in Thailand under Siam.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "civic"
+  },
+  {
+   "year": 1983,
+   "text": "The city area was enlarged for the first and last time.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "civic"
+  },
+  {
+   "year": 2007,
+   "text": "Average PM10 rates peaked at 383 micrograms per cubic metre.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "IBM launched its Smarter Cities Challenge program studying local urban issues.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2014,
+   "text": "Chiang Mai was named on TripAdvisor's list of 25 Best Destinations in the World.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "MAIIAM Contemporary Art Museum, a museum of contemporary art, opened.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "culture"
+  },
+  {
+   "year": 2017,
+   "text": "Chiang Mai was declared by UNESCO Creative Cities Network for Crafts.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "culture"
+  },
+  {
+   "year": 2018,
+   "text": "Chiang Mai launched Mobike In bike-sharing app with smart bikes.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "British newspaper The Independent wrote an article about Chiang Mai vegan capital.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2023,
+   "text": "Chiang Mai offers a citywide bus system named RTC Chiang Mai City Bus.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "environment"
+  },
+  {
+   "year": 2025,
+   "text": "The Chiang Mai Municipality released a flock of geese into the moat.",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

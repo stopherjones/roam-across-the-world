@@ -1,0 +1,130 @@
+{
+ "id": "khi",
+ "town": "Karachi",
+ "source": "https://en.wikipedia.org/wiki/Karachi",
+ "pool": [
+  {
+   "year": 1729,
+   "text": "Kolachi was formally founded as a fortified village by Sindhi Baniyas.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 1742,
+   "text": "The name Karachee was used for the first time in a Dutch report.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1797,
+   "text": "The Talpurs built the Manora Fort to protect the local harbour.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1839,
+   "text": "The British East India Company captured Karachi after opening naval fire.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1846,
+   "text": "British administrators organized the Karachi Conservancy Board to control a cholera epidemic.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 1852,
+   "text": "The Karachi Conservancy Board became the Karachi Municipal Commission.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 1933,
+   "text": "City administration transformed into the Karachi Municipal Corporation with a mayor.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "The first international cricket match in Karachi was held between Sindh and Australia.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "culture"
+  },
+  {
+   "year": 1936,
+   "text": "Sindh was established as a separate province making Karachi its capital.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 1945,
+   "text": "The Dow University of Health Sciences was established as a medical institution.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "Karachi was made the national capital of Pakistan following independence.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "Riots erupted leading to the flight of most Hindu population to India.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "The Federal Capital Territory of Pakistan was created from Karachi areas.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 1951,
+   "text": "The University of Karachi was founded as Pakistan's largest university.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "culture"
+  },
+  {
+   "year": 1955,
+   "text": "The Institute of Business Administration was founded with Wharton School support.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "The Karachi Development Authority came into existence to manage local land.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "The Dawood University of Engineering and Technology opened for degree programmes.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "The Karachi district was divided into three distinct administrative units.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "The local stock exchange was rated as Asia's best-performing stock market.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2022,
+   "text": "At least one million flood affectees took refuge in the city.",
+   "url": "https://en.wikipedia.org/wiki/Karachi",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

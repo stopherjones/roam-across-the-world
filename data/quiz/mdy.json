@@ -1,0 +1,130 @@
+{
+ "id": "mdy",
+ "town": "Mandalay",
+ "source": "https://en.wikipedia.org/wiki/Mandalay",
+ "pool": [
+  {
+   "year": 1857,
+   "text": "King Mindon founded Mandalay as the new royal capital of the Konbaung dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1885,
+   "text": "The British Empire annexed the kingdom after conquering Mandalay.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1890,
+   "text": "Rudyard Kipling wrote a famous poem called Mandalay about the location.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 1905,
+   "text": "A severe plague caused about one-third of the population to flee the city.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "environment"
+  },
+  {
+   "year": 1907,
+   "text": "The poem Mandalay was set to music by composer Oley Speaks.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 1917,
+   "text": "Bithia Mary Croker wrote a novel titled The Road to Mandalay.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 1926,
+   "text": "An American silent film was released based on the novel.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 1942,
+   "text": "The Imperial Japanese Army Air Service carried out an extensive assault during conquest.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1948,
+   "text": "Mandalay became a part of the newly independent Union of Burma.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "Mandalay celebrated its centennial with a festival at Mandalay Hill.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "Looted palace treasures were returned to Burma as a gesture of goodwill.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 1981,
+   "text": "A massive fire razed more than 6,000 houses and public buildings.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "civic"
+  },
+  {
+   "year": 1984,
+   "text": "Another fire destroyed 2,700 buildings and made many people homeless.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "civic"
+  },
+  {
+   "year": 1996,
+   "text": "The reconstruction project of the palace was completed.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 1997,
+   "text": "The Mandalay Daily newspaper began publishing by the development committee.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 2000,
+   "text": "Mandalay International Airport was built at a cost of US$150 million.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2001,
+   "text": "Pop singer Robbie Williams released a single called The Road to Mandalay.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The public health care system consisted of over 1,000 doctors and 2,000 nurses.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "A major fire destroyed Yadanabon Market, the city's second largest market.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "civic"
+  },
+  {
+   "year": 2025,
+   "text": "A magnitude 7.7 earthquake with an epicenter northwest of the city caused extensive damage.",
+   "url": "https://en.wikipedia.org/wiki/Mandalay",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

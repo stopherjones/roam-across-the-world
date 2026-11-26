@@ -1,0 +1,130 @@
+{
+ "id": "blr",
+ "town": "Bengaluru",
+ "source": "https://en.wikipedia.org/wiki/Bengaluru",
+ "pool": [
+  {
+   "year": 1004,
+   "text": "Cholas defeated Western Gangas under Rajendra Chola I and captured the region.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1117,
+   "text": "Hoysala king Vishnuvardhana defeated the Cholas in the Battle of Talakad.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1537,
+   "text": "Kempe Gowda I established a mud fort considered the foundation of modern Bengaluru.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1638,
+   "text": "Adil Shahi army defeated Kempe Gowda III, making the city Shahaji's jagir.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1639,
+   "text": "Shahaji ordered the reconstruction of the town and built large fortifications.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "civic"
+  },
+  {
+   "year": 1870,
+   "text": "The Cubbon Park was established as a large park in the heart of the city.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "environment"
+  },
+  {
+   "year": 1926,
+   "text": "Labour unrest in Binny Mills resulted in a baton charge and police firing.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "Bengaluru's reputation as the Garden City began with silver jubilee celebrations.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "culture"
+  },
+  {
+   "year": 1927,
+   "text": "Ramayya established the Bangalore Press and launched the Kannada newspaper Tayi Nadu.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "Notable communal disturbances occurred after a Ganesh idol was removed.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1928,
+   "text": "Telephone services were introduced for communication across the city.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "civic"
+  },
+  {
+   "year": 1940,
+   "text": "The first flight between Bengaluru and Mumbai took off.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1949,
+   "text": "The City and the Cantonment merged to form the Bengaluru City Corporation.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "civic"
+  },
+  {
+   "year": 1955,
+   "text": "All India Radio started AM broadcasting from its Bengaluru station.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "culture"
+  },
+  {
+   "year": 1956,
+   "text": "Karnataka Rajyotsava marks the formation of Karnataka state.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "culture"
+  },
+  {
+   "year": 1959,
+   "text": "The Bangalore Amateur Radio Club, an amateur radio club, was established.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "culture"
+  },
+  {
+   "year": 1964,
+   "text": "Water supply is provided by the Bangalore Water Supply and Sewerage Board.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "The Government of Karnataka constituted the Bangalore Development Authority.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "A major fire broke out at Venus Circus where more than 92 people died.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "civic"
+  },
+  {
+   "year": 1981,
+   "text": "The government-run Doordarshan broadcasts television channels from its Bengaluru centre.",
+   "url": "https://en.wikipedia.org/wiki/Bengaluru",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

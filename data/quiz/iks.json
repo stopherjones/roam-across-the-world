@@ -1,0 +1,130 @@
+{
+ "id": "iks",
+ "town": "Irkutsk",
+ "source": "https://en.wikipedia.org/wiki/Irkutsk",
+ "pool": [
+  {
+   "year": 1652,
+   "text": "Ivan Pokhabov built a winter quarters near the site for gold trading.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1661,
+   "text": "Yakov Pokhabov built a small fort nearby the location of the settlement.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1671,
+   "text": "Powed peasants lived here with their wives and children according to historical documents.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1686,
+   "text": "The ostrog gained official town rights from the government in the region.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1706,
+   "text": "The stone building of the Savior Church was laid in the fort.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1731,
+   "text": "Small town became the administrative center of the vast Irkutsk province.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1760,
+   "text": "The Siberian Route road connection was built and benefited the town economy.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1821,
+   "text": "Siberia was administratively divided at the Yenisei River as part of reforms.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1866,
+   "text": "Four leaders of the Polish Baikal Insurrection were executed in the city.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1879,
+   "text": "A fire burned out of control destroying the palace and administrative offices.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "environment"
+  },
+  {
+   "year": 1896,
+   "text": "The city quickly rebounded from the fire and installed electricity.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1897,
+   "text": "The first theater was built in the city.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1898,
+   "text": "A major train station opened in the city.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1920,
+   "text": "Aleksandr Kolchak was executed in the city.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1932,
+   "text": "The largest aviation industrial association was set up in the Transbaykal region.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1959,
+   "text": "The large Irkutsk Reservoir was built on the Angara River.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "environment"
+  },
+  {
+   "year": 2004,
+   "text": "The Aleksandr Kolchak monument designed by Vyacheslav Klykov was unveiled.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "Seventy-four people died in the city in a mass methanol poisoning incident.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2018,
+   "text": "The BBC reported that men in the city had a short average life span.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2021,
+   "text": "Armed officers assaulted and tortured two couples during a round up.",
+   "url": "https://en.wikipedia.org/wiki/Irkutsk",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

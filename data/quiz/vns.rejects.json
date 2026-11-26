@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 3,
+  "promptTokens": 5043,
+  "completionTokens": 3950,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 1867,
+   "theme": "civic",
+   "event": "The establishment of the Varanasi Municipal Board led to significant infrastructure improvements.",
+   "quote": "In 1867, the establishment of the Varanasi Municipal Board led to significant improvements in the city's infrastructure and basic amenities of health services, drinking water supply and sanitation.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

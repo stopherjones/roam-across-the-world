@@ -1,0 +1,130 @@
+{
+ "id": "pew",
+ "town": "Peshawar",
+ "source": "https://en.wikipedia.org/wiki/Peshawar",
+ "pool": [
+  {
+   "year": 1001,
+   "text": "Sabuktigin's son Mahmud Ghazni decisively defeated Jayapala at the Battle of Peshawar.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1823,
+   "text": "The Sikh Empire captured Peshawar following the Battle of Nowshera in March.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1834,
+   "text": "The Sikh Empire formally annexed Peshawar following advances from Hari Singh Nalwa's armies.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1849,
+   "text": "The East India Company annexed the city along with the rest of Punjab.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1868,
+   "text": "The British laid out the vast Peshawar Cantonment to the west.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "civic"
+  },
+  {
+   "year": 1901,
+   "text": "Peshawar was made capital of the newly created North-West Frontier Province.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "civic"
+  },
+  {
+   "year": 1930,
+   "text": "Demonstrators were killed when the British Indian Army opened fire in Qissa Khwani Bazaar.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1947,
+   "text": "Peshawar became part of Pakistan following the Partition of British India.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1950,
+   "text": "The University of Peshawar was established in the city.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "culture"
+  },
+  {
+   "year": 1960,
+   "text": "An aircraft was shot down by the Soviets in an incident involving a Peshawar-based CIA operation.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2002,
+   "text": "A thriving underground music scene took root after the Islamist government implemented restrictions.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "culture"
+  },
+  {
+   "year": 2008,
+   "text": "The largest Sikh population in Pakistan was located in Peshawar.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "culture"
+  },
+  {
+   "year": 2009,
+   "text": "Pashto musical artist Ayman Udas was assassinated by Taliban militants on the city's outskirts.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2012,
+   "text": "A famous Pashto singer and her father were killed inside Peshawar city.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2013,
+   "text": "A suicide bomb attack targeted the historic All Saints Church.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2014,
+   "text": "Taliban militants killed 132 school children in the Peshawar school massacre.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2014,
+   "text": "Operation Zarb-e-Azb was launched to completely eradicate militancy across the country.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2015,
+   "text": "Peshawar's estimated monthly per capita income reached ₨55,246.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2016,
+   "text": "The provincial government announced a monthly income for local musicians to support work.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "civic"
+  },
+  {
+   "year": 2017,
+   "text": "The event hosted 100 speakers and approximately 3,000 delegates in attendance.",
+   "url": "https://en.wikipedia.org/wiki/Peshawar",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

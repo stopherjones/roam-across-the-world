@@ -1,0 +1,130 @@
+{
+ "id": "hyd",
+ "town": "Hyderabad",
+ "source": "https://en.wikipedia.org/wiki/Hyderabad",
+ "pool": [
+  {
+   "year": 1591,
+   "text": "Muhammad Quli Qutb Shah established Hyderabad to extend the capital beyond Golconda.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1687,
+   "text": "The city was annexed by the Mughals during this year.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1724,
+   "text": "Asaf Jah I declared sovereignty and founded the Asaf Jahi dynasty.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1769,
+   "text": "Hyderabad city became the formal capital of the Asaf Jahi Nizams.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1824,
+   "text": "Mah Laqa Bai's Urdu Ghazal poetry collection Gulzar-e-Mahlaqa was published in Hyderabad.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "culture"
+  },
+  {
+   "year": 1847,
+   "text": "The oldest police commissionerate in India was established in Hyderabad.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "Deccan Radio started as the city's first radio public broadcast station in February.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "Hyderabad was annexed by the Indian Union during this year.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1956,
+   "text": "Hyderabad was made the capital of the newly formed Andhra Pradesh.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1961,
+   "text": "Indian Drugs and Pharmaceuticals Limited was established as a public sector undertaking.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1974,
+   "text": "Television broadcasting began with the launch of Doordarshan public service broadcaster.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1992,
+   "text": "Private satellite channels started with the launch of Star TV in July.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "The first public internet access service began operations in the city.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1998,
+   "text": "The first private sector internet service provider started operations in the city.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2000,
+   "text": "FM broadcasting began in Hyderabad alongside Deccan Radio's history.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Guinness World Records declared Ramoji Film City to be the world's largest film studio.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "culture"
+  },
+  {
+   "year": 2005,
+   "text": "The HMWSSB started operating a long water supply pipeline from Nagarjuna Sagar Dam.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "Deccani film industry films gained regional popularity starting around this year.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "culture"
+  },
+  {
+   "year": 2007,
+   "text": "The GHMC was formed by merging the Municipal Corporation of Hyderabad with municipalities.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "civic"
+  },
+  {
+   "year": 2008,
+   "text": "Archaeologists excavating near the city unearthed Iron Age sites dating back.",
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

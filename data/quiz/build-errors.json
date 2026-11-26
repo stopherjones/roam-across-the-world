@@ -1,4 +1,18 @@
 {
+ "abz": {
+  "town": "Aberdeen",
+  "country": "United Kingdom",
+  "failedAt": "2026-11-26T07:35:45.771Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 3740,
+   "completionTokens": 2517
+  }
+ },
  "amb": {
   "town": "Ambon",
   "country": "Indonesia",
@@ -59,6 +73,28 @@
    "calls": 1,
    "promptTokens": 417,
    "completionTokens": 1
+  }
+ },
+ "bkk": {
+  "town": "Bouake",
+  "country": "Ivory Coast",
+  "failedAt": "2026-11-26T07:26:06.064Z",
+  "stage": "event pool",
+  "error": "Only 9 usable events; at least 10 are required.",
+  "poolSize": 9,
+  "minimumPool": 10,
+  "rejected": 2,
+  "rejectedByStage": {
+   "code check": 2
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1460,
+   "completionTokens": 1408
   }
  },
  "ceb": {
@@ -138,6 +174,20 @@
    "completionTokens": 1037
   }
  },
+ "del": {
+  "town": "Delhi",
+  "country": "India",
+  "failedAt": "2026-11-26T07:30:22.852Z",
+  "stage": "event extraction and verification",
+  "error": "Unexpected token '(', \"[\n  (\n    {\n  \"... is not valid JSON",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 4473,
+   "completionTokens": 3350
+  }
+ },
  "dkh": {
   "town": "Dakhla",
   "country": "Morocco",
@@ -150,6 +200,20 @@
   "rejectedByStage": {},
   "chunksRead": 0,
   "chunksAvailable": 0,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 0,
+   "promptTokens": 0,
+   "completionTokens": 0
+  }
+ },
+ "dnd": {
+  "town": "Dundee",
+  "country": "United Kingdom",
+  "failedAt": "2026-11-26T07:36:18.538Z",
+  "stage": "event extraction and verification",
+  "error": "gemini call failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede",
   "stats": {
    "provider": "gemini",
    "model": "gemini-3.5-flash-lite",
@@ -334,6 +398,20 @@
    "calls": 0,
    "promptTokens": 0,
    "completionTokens": 0
+  }
+ },
+ "lhe": {
+  "town": "Lahore",
+  "country": "Pakistan",
+  "failedAt": "2026-11-26T07:29:21.543Z",
+  "stage": "event extraction and verification",
+  "error": "Expected ',' or '}' after property value in JSON at position 189 (line 6 column 62)",
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 1,
+   "promptTokens": 3752,
+   "completionTokens": 1398
   }
  },
  "lvg": {
@@ -788,6 +866,29 @@
    "calls": 1,
    "promptTokens": 387,
    "completionTokens": 71
+  }
+ },
+ "ule": {
+  "town": "Ulan-Ude",
+  "country": "Russia",
+  "failedAt": "2026-11-26T07:24:06.051Z",
+  "stage": "event pool",
+  "error": "Only 9 usable events; at least 10 are required.",
+  "poolSize": 9,
+  "minimumPool": 10,
+  "rejected": 2,
+  "rejectedByStage": {
+   "code check": 1,
+   "verification": 1
+  },
+  "chunksRead": 1,
+  "chunksAvailable": 1,
+  "stats": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "calls": 2,
+   "promptTokens": 1979,
+   "completionTokens": 1468
   }
  },
  "vvi": {

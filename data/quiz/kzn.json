@@ -1,0 +1,130 @@
+{
+ "id": "kzn",
+ "town": "Kazan",
+ "source": "https://en.wikipedia.org/wiki/Kazan",
+ "pool": [
+  {
+   "year": 1391,
+   "text": "Novgorodian pirates plundered and burned Žuketau and Kazan during their military campaign.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1552,
+   "text": "Tsar Ivan the Terrible conquered the city after a long military siege.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1708,
+   "text": "The local Tsardom was abolished and Kazan became a regional governorate seat.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1743,
+   "text": "The major Russian poet Gavrila Derzhavin was born within the city.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "culture"
+  },
+  {
+   "year": 1781,
+   "text": "The official coat of arms featuring a crowned black snake was approved.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "civic"
+  },
+  {
+   "year": 1801,
+   "text": "The holy Islamic text Qur'an was printed for the first time in Kazan.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1804,
+   "text": "Kazan Federal University was founded as one of the oldest in Russia.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "culture"
+  },
+  {
+   "year": 1875,
+   "text": "A horse tramway first appeared in the public transportation network.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1888,
+   "text": "The official city telephone network was officially opened for public communication.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1926,
+   "text": "The national country introduced a sudden ban on the historical heraldry.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "civic"
+  },
+  {
+   "year": 1948,
+   "text": "Trolleybus operation officially opened to serve public commuters across streets.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "The growing urban population officially reached the milestone of one million people.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "civic"
+  },
+  {
+   "year": 1999,
+   "text": "The city ranked 186th in Mercer's Worldwide Quality of Living Survey.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The historic settlement celebrated its official millennium after historical commission settlement.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "The Russian Patent Office granted the right to refer to itself as the Third Capital.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "civic"
+  },
+  {
+   "year": 2013,
+   "text": "The city successfully hosted the international Summer Universiade sporting event.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "culture"
+  },
+  {
+   "year": 2016,
+   "text": "The popular public bus transport carried about seventy-four percent of passengers.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "Kazan served as one of the proud host cities for the FIFA World Cup.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "culture"
+  },
+  {
+   "year": 2021,
+   "text": "A tragic school mass shooting and bombing carried out by a teenager occurred.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2024,
+   "text": "The city hosted the international BRICS Games with athletes competing in many sports.",
+   "url": "https://en.wikipedia.org/wiki/Kazan",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

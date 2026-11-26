@@ -1,0 +1,130 @@
+{
+ "id": "pnh",
+ "town": "Phnom Penh",
+ "source": "https://en.wikipedia.org/wiki/Phnom_Penh",
+ "pool": [
+  {
+   "year": 1372,
+   "text": "A wealthy widow named Penh found a Koki tree floating down the river.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "culture"
+  },
+  {
+   "year": 1434,
+   "text": "Phnom Penh succeeded Angkor Thom as the national capital following the fall of Angkor.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1673,
+   "text": "Phnom Penh served as the stronghold for rebel king Kaev Hua II.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1865,
+   "text": "Phnom Penh has been the national capital since this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "Vann Molyvann was nominated chief national architect by the king himself.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "culture"
+  },
+  {
+   "year": 1975,
+   "text": "The entire population of Phnom Penh was forcibly evacuated by the Khmer Rouge.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1979,
+   "text": "Vietnam-backed forces took the city after it remained largely uninhabited.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1998,
+   "text": "The official census put the population of Phnom Penh at 862,000 residents.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "Initial attempts by the Japanese government to develop a bus service began.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2002,
+   "text": "The organization or entity in the capital was established in this year.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The master plan was approved by the Ministry of Land Management and Construction.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "civic"
+  },
+  {
+   "year": 2006,
+   "text": "Water supply achievements were recognized through the Ramon Magsaysay Award.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "civic"
+  },
+  {
+   "year": 2009,
+   "text": "Tourism made up 19.2 percent of Cambodia's GDP according to the council.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2010,
+   "text": "At least 348 people were crushed to death in a bridge stampede.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "environment"
+  },
+  {
+   "year": 2014,
+   "text": "An update of the urban transport master plan for Phnom Penh was completed.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2016,
+   "text": "Scheduled passenger train services between Phnom Penh and Sihanoukville resumed in May.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2017,
+   "text": "The English-language daily newspaper fled from Cambodia while still operating online.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2018,
+   "text": "The publication operation of the specific daily newspaper completely ceased.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2019,
+   "text": "The population of the city reached over 2.2 million based on census.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "A new expressway linking Phnom Penh with Sihanoukville came into operation.",
+   "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+   "theme": "commerce_industry"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

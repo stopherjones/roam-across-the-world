@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 2,
+  "promptTokens": 3640,
+  "completionTokens": 2145,
+  "chunksRead": 1,
+  "chunksAvailable": 1
+ },
+ "rejects": [
+  {
+   "year": 2018,
+   "theme": "environment",
+   "event": "The Global Air Quality Report recorded high fine dust concentration levels.",
+   "quote": "According to the 2018 Global Air Quality Report, Hanoi's fine dust concentration was four times higher than the WHO's recommended limit (40.8 μg/m3 compared to the recommended 10 μg/m3).",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

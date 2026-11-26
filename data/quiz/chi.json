@@ -1,0 +1,70 @@
+{
+ "id": "chi",
+ "town": "Chita",
+ "source": "https://en.wikipedia.org/wiki/Chita",
+ "pool": [
+  {
+   "year": 1900,
+   "text": "Italian-Argentine actress Chita Foras was born in this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  },
+  {
+   "year": 1905,
+   "text": "The worker's republic known as the Chita Republic began in this year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1922,
+   "text": "Colombian baseball player Pedro Miranda was born during this specific year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  },
+  {
+   "year": 1933,
+   "text": "American actress and singer Chita Rivera was born in this year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  },
+  {
+   "year": 1971,
+   "text": "Finnish sailor Chita Smedberg came into the world in this year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  },
+  {
+   "year": 1977,
+   "text": "Romanian footballer Alin Chița came into the world in this year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  },
+  {
+   "year": 1986,
+   "text": "Italian-Argentine actress Chita Foras passed away in this year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "Algerian footballer Oussama Chita was born during this particular year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  },
+  {
+   "year": 2002,
+   "text": "Colombian baseball player Pedro Miranda passed away in this year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "American actress and singer Chita Rivera died during this year.",
+   "url": "https://en.wikipedia.org/wiki/Chita",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

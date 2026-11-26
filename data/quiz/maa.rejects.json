@@ -1,0 +1,37 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 5,
+  "promptTokens": 6871,
+  "completionTokens": 4863,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 1746,
+   "theme": "power_conflict",
+   "event": "The city and Fort St. George experienced the Battle of Madras.",
+   "quote": "In 1746, during the Battle of Madras, the city along with the Fort St.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  },
+  {
+   "year": 1785,
+   "theme": "culture",
+   "event": "Newspaper publishing started with the weekly The Madras Courier.",
+   "quote": "Newspaper publishing started with the launch of the weekly The Madras Courier in 1785.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 1917,
+   "theme": "culture",
+   "event": "Keechaka Vadham, the first film in South India, was produced.",
+   "quote": "Keechaka Vadham, the first film in South India, was produced in the city and released in 1917.",
+   "stage": "verification",
+   "why": "The quote states it was produced in the city and released in 1917, but does not explicitly state it was produced in 1917."
+  }
+ ]
+}

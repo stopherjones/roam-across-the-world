@@ -1,0 +1,130 @@
+{
+ "id": "bom",
+ "town": "Mumbai",
+ "source": "https://en.wikipedia.org/wiki/Mumbai",
+ "pool": [
+  {
+   "year": 1431,
+   "text": "The Haji Ali Dargah in Worli was erected honoring the Sufi saint.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "culture"
+  },
+  {
+   "year": 1535,
+   "text": "The islands were ceded to the Portuguese by the treaty.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1661,
+   "text": "The islands were transferred to the British Crown as dowry.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1668,
+   "text": "The English Crown leased these islands to the East India Company.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1687,
+   "text": "The East India Company transferred its headquarters from Surat to Bombay.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1782,
+   "text": "Mumbai underwent major transformation through the Hornby Vellard project reclamation.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "environment"
+  },
+  {
+   "year": 1947,
+   "text": "Bombay became the capital of Bombay State after independence.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1960,
+   "text": "Bombay State was reorganized along linguistic lines creating Maharashtra.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "civic"
+  },
+  {
+   "year": 1966,
+   "text": "The Shiv Sena was formed out of resentment about marginalisation.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1975,
+   "text": "The government established the Bombay Metropolitan Region Development Authority.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "civic"
+  },
+  {
+   "year": 1979,
+   "text": "New Bombay was established as a planned satellite township.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "civic"
+  },
+  {
+   "year": 1989,
+   "text": "Jawaharlal Nehru Port was commissioned on May 26 as a major port.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1989,
+   "text": "The Jawaharlal Nehru Port was commissioned at Nhava Sheva.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "civic"
+  },
+  {
+   "year": 1995,
+   "text": "The Government of India officially changed the English name.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "civic"
+  },
+  {
+   "year": 1998,
+   "text": "BEST introduced air-conditioned buses to its fleet.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The Mumbai–Pune Expressway opened as the first expressway in India.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "MTNL held a monopoly over fixed line and cellular services until this time.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2006,
+   "text": "The Conditional Access System started by the Union Government met a poor response.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "Mumbai employed a large percentage of the nation's factory workforce.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2009,
+   "text": "The city required a daily supply of 3.5 billion litres of water.",
+   "url": "https://en.wikipedia.org/wiki/Mumbai",
+   "theme": "environment"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

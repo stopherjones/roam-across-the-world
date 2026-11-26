@@ -1,0 +1,29 @@
+{
+ "stats": {
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "calls": 6,
+  "promptTokens": 10036,
+  "completionTokens": 6674,
+  "chunksRead": 2,
+  "chunksAvailable": 2
+ },
+ "rejects": [
+  {
+   "year": 2009,
+   "theme": "culture",
+   "event": "The fashion capital hosted the annual Karachi Fashion Week for the first time.",
+   "quote": "The city is also considered to be Pakistan's fashion capital, and has hosted the annual Karachi Fashion Week since 2009.",
+   "stage": "code check",
+   "why": "quote is not in the article"
+  },
+  {
+   "year": 2023,
+   "theme": "civic",
+   "event": "The total population of the metropolis was recorded at 20.3 million.",
+   "quote": "According to the 2023 Pakistani census, its total population was 20.3 million.",
+   "stage": "code check",
+   "why": "vague wording in the event text"
+  }
+ ]
+}

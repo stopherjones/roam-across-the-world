@@ -1,0 +1,130 @@
+{
+ "id": "maa",
+ "town": "Chennai",
+ "source": "https://en.wikipedia.org/wiki/Chennai",
+ "pool": [
+  {
+   "year": 1264,
+   "text": "Jatavarman Sundara Pandyan brought the region under the Pandya rule.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1367,
+   "text": "A Vijayanagara-era inscription mentions the port of Mādarasanpattanam.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "culture"
+  },
+  {
+   "year": 1522,
+   "text": "The Portuguese arrived and built the port of São Tomé.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1612,
+   "text": "The Dutch established themselves near Pulicat to the north.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1639,
+   "text": "The British East India Company obtained a grant for coastal land.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1683,
+   "text": "Madras Bank was established as the first European-style bank.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1927,
+   "text": "Madras Music Season was initiated by the Madras Music Academy.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "culture"
+  },
+  {
+   "year": 1928,
+   "text": "A suburban railway network operated by Southern railway was established.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "civic"
+  },
+  {
+   "year": 1930,
+   "text": "Madras University introduced a course of music in curriculum.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "culture"
+  },
+  {
+   "year": 1947,
+   "text": "Madras became the capital city of the Madras State after independence.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "Potti Sreeramulu's hunger strike resulted in the formation of Andhra State.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "civic"
+  },
+  {
+   "year": 1959,
+   "text": "The completion of the LIC Building marked a structural transition.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "culture"
+  },
+  {
+   "year": 1965,
+   "text": "Agitations against the imposition of Hindi arose in the city.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "culture"
+  },
+  {
+   "year": 1972,
+   "text": "A split in the DMK resulted in the formation of AIADMK.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "culture"
+  },
+  {
+   "year": 1980,
+   "text": "State Express Transport Corporation Limited was established to run long distance express services.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1996,
+   "text": "The city of Madras was officially renamed as Chennai by the government.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "Tidel Park was established as an early and large IT park.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2004,
+   "text": "A tsunami lashed the shores of Chennai and killed people.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "environment"
+  },
+  {
+   "year": 2012,
+   "text": "Chennai has a total of 120 cinema screens and multiplexes operating.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "Chennai was ranked among National Geographic's top food cities.",
+   "url": "https://en.wikipedia.org/wiki/Chennai",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

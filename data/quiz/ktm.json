@@ -1,0 +1,130 @@
+{
+ "id": "ktm",
+ "town": "Kathmandu",
+ "source": "https://en.wikipedia.org/wiki/Kathmandu",
+ "pool": [
+  {
+   "year": 1381,
+   "text": "An ancient Sanskrit-Nepal Bhasa dictionary from the year was found in the area.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "culture"
+  },
+  {
+   "year": 1596,
+   "text": "The Maru Satta public pavilion was rebuilt by Biseth during King Lakshmi Narasimha Malla's reign.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "culture"
+  },
+  {
+   "year": 1628,
+   "text": "Portuguese Jesuit Father Joao Cabral passed through the valley and met the local king.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "culture"
+  },
+  {
+   "year": 1670,
+   "text": "King Pratap Malla built a structure for his queen after the loss of their son.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "culture"
+  },
+  {
+   "year": 1768,
+   "text": "The Gorkha Kingdom ended the Malla confederation following the Battle of Kathmandu.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1846,
+   "text": "Rana rule over Nepal began with the Kot massacre near Hanuman Dhoka Durbar.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1937,
+   "text": "The Barun Yantra Karyalaya fire service opened its first station in Kathmandu.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "civic"
+  },
+  {
+   "year": 1956,
+   "text": "Air transportation was established and the construction of Tribhuvan Highway was started.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1962,
+   "text": "Sajha Yatayat was established to provide regular bus services throughout Kathmandu and the valley.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1979,
+   "text": "Boudhanath officially became a designated UNESCO World Heritage Site.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "culture"
+  },
+  {
+   "year": 1984,
+   "text": "Nepal Television was established and became the oldest and most-watched television channel in Nepal.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "culture"
+  },
+  {
+   "year": 1985,
+   "text": "The city has hosted the headquarters of the South Asian Association for Regional Cooperation.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1995,
+   "text": "The Municipality of Kathmandu was officially upgraded to the status of a metropolitan city.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "civic"
+  },
+  {
+   "year": 2000,
+   "text": "The Firefighters Volunteer Association of Nepal was established to raise public safety awareness.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "The Nepalese royal massacre at Narayanhiti Palace claimed the lives of several royals.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2006,
+   "text": "Kathmandu became the center of the People's Movement forcing the king to restore parliament.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2008,
+   "text": "The Constituent Assembly meeting in Kathmandu voted to abolish the monarchy and declare a republic.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2011,
+   "text": "Nepal Republic Media joined a publishing alliance to publish an international edition from Kathmandu.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "culture"
+  },
+  {
+   "year": 2015,
+   "text": "A magnitude 7.8 earthquake struck Nepal, causing massive destruction and fatalities.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "environment"
+  },
+  {
+   "year": 2017,
+   "text": "Trishna Shakya was installed as the new Kumari of Kathmandu succeeding the previous one.",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu",
+   "theme": "culture"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

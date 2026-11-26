@@ -1,0 +1,130 @@
+{
+ "id": "ovb",
+ "town": "Novosibirsk",
+ "source": "https://en.wikipedia.org/wiki/Novosibirsk",
+ "pool": [
+  {
+   "year": 1696,
+   "text": "Bolshoye Krivoshchyokovo village on the Ob River was founded",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1893,
+   "text": "The Russian town originated at the future site of a bridge",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1897,
+   "text": "The bridge was completed and made the settlement a transport hub",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1906,
+   "text": "The first bank opened in the growing settlement",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1907,
+   "text": "Novonikolayevsk was granted town status with full self-government rights",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1913,
+   "text": "Novonikolayevsk instituted compulsory primary education in Russia",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1926,
+   "text": "The city received its present name of Novosibirsk",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1930,
+   "text": "Novosibirsk Academic Youth Theatre Globe was established",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1932,
+   "text": "Novosibirsk State Academic Drama Theatre Red Torch was founded",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1934,
+   "text": "Tram rails were laid down and population reached 287,000",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1937,
+   "text": "Novosibirsk State Philharmonic Society was founded",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1945,
+   "text": "Novosibirsk Opera and Ballet Theatre was established",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1952,
+   "text": "Small Novosibirsk Planetarium was established",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1957,
+   "text": "The trolleybus system was launched in the city",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1962,
+   "text": "The population of Novosibirsk officially reached one million",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1964,
+   "text": "The old Novosibirsk Bus Station on Krasny Avenue was opened",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "civic"
+  },
+  {
+   "year": 1971,
+   "text": "The modern building of the Novosibirsk Circus was built",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "culture"
+  },
+  {
+   "year": 1974,
+   "text": "The building of the river passenger terminal on the Ob opened",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2008,
+   "text": "Novosibirsk was in the center of a solar eclipse path",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "environment"
+  },
+  {
+   "year": 2014,
+   "text": "Anatoly Lokot held the mayor position from this year",
+   "url": "https://en.wikipedia.org/wiki/Novosibirsk",
+   "theme": "power_conflict"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

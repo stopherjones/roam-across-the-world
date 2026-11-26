@@ -1,0 +1,130 @@
+{
+ "id": "ccu",
+ "town": "Kolkata",
+ "source": "https://en.wikipedia.org/wiki/Kolkata",
+ "pool": [
+  {
+   "year": 1495,
+   "text": "The first mention of the Kalikata village was found in Bipradas Pipilai's Manasa Vijay.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "culture"
+  },
+  {
+   "year": 1712,
+   "text": "The British completed the construction of Fort William to protect their trading factory.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1780,
+   "text": "The first newspaper in India, the Bengal Gazette started publishing from the city.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "culture"
+  },
+  {
+   "year": 1814,
+   "text": "Established as the nation's oldest museum, the Indian Museum houses large collections.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "culture"
+  },
+  {
+   "year": 1835,
+   "text": "The Calcutta Medical College was founded as the first institution in Asia.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "civic"
+  },
+  {
+   "year": 1864,
+   "text": "A typhoon struck the city and killed about 60,000 in Kolkata.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "environment"
+  },
+  {
+   "year": 1870,
+   "text": "The Port of Kolkata was established as India's oldest river port.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1883,
+   "text": "Calcutta was host to the first national conference of the Indian National Association.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1943,
+   "text": "Millions starved to death during the Bengal famine due to multiple factors.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "food_daily"
+  },
+  {
+   "year": 1946,
+   "text": "Demands for a Muslim state led to an episode of communal violence.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1971,
+   "text": "The city hosted the government-in-exile of Bangladesh during the war.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1984,
+   "text": "The Kolkata Metro became the oldest underground mass transit system in India.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "civic"
+  },
+  {
+   "year": 1985,
+   "text": "Prime Minister Rajiv Gandhi dubbed Kolkata a dying city.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "The official name Calcutta was changed to Kolkata to match pronunciation.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The Calcutta High Court ruled that the city does not have a founder.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2009,
+   "text": "Cyclone Aila caused widespread damage to Kolkata with torrential rainfall.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "environment"
+  },
+  {
+   "year": 2011,
+   "text": "Left Front was succeeded by the Trinamool Congress in the election.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 2013,
+   "text": "The airport was upgraded to handle increased air traffic in the city.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "civic"
+  },
+  {
+   "year": 2014,
+   "text": "The Kolkata Municipal Corporation was ranked first for best governance practices.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "civic"
+  },
+  {
+   "year": 2020,
+   "text": "Part of the second line of the metro was inaugurated in the area.",
+   "url": "https://en.wikipedia.org/wiki/Kolkata",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

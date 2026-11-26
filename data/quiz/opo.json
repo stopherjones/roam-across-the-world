@@ -1,0 +1,130 @@
+{
+ "id": "opo",
+ "town": "Porto",
+ "source": "https://en.wikipedia.org/wiki/Porto",
+ "pool": [
+  {
+   "year": 1093,
+   "text": "Teresa of Leon married Henry of Burgundy who received the County of Portugal as dowry",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1387,
+   "text": "Porto hosted the marriage of John I and Philippa cementing the Anglo-Portuguese alliance",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "civic"
+  },
+  {
+   "year": 1415,
+   "text": "Prince Henry the Navigator launched the Conquest of Ceuta from Porto",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1703,
+   "text": "The Methuen Treaty strengthened commercial and military ties with England",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1717,
+   "text": "English firms established trading posts and began dominating the port wine trade",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1757,
+   "text": "The revolt of the drunkards occurred during which company buildings were attacked",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1780,
+   "text": "Queen Mary I established a drawing class that originated the fine arts school",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "culture"
+  },
+  {
+   "year": 1820,
+   "text": "The Liberal Revolution began advocating a constitutional monarchy and return of the king",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1938,
+   "text": "Kadoorie Synagogue was inaugurated as one of the largest in Europe",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "culture"
+  },
+  {
+   "year": 1996,
+   "text": "The historic core was named a World Heritage Site by UNESCO",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "civic"
+  },
+  {
+   "year": 2001,
+   "text": "Porto shared the designation European Culture Capital with Rotterdam",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "culture"
+  },
+  {
+   "year": 2003,
+   "text": "The newest bridge Infante Dom Henrique Bridge was finished",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "civic"
+  },
+  {
+   "year": 2005,
+   "text": "The municipality funded a public sculpture to be built in Matosinhos",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "civic"
+  },
+  {
+   "year": 2011,
+   "text": "A new highway the A32 was completed to connect the metropolitan area",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "civic"
+  },
+  {
+   "year": 2015,
+   "text": "A new cruise terminal was opened at the port of Leixões",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2020,
+   "text": "The state-owned development bank Banco Português de Fomento was established",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2023,
+   "text": "Porto was named City of the Year by Food and Travel magazine",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "culture"
+  },
+  {
+   "year": 2024,
+   "text": "The city was named World's Leading Seaside Metropolitan Destination at awards",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "culture"
+  },
+  {
+   "year": 2025,
+   "text": "Pedro Duarte took office as the current mayor of Porto",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "civic"
+  },
+  {
+   "year": 2026,
+   "text": "A Bus rapid transit managed by Porto Metro has been operating",
+   "url": "https://en.wikipedia.org/wiki/Porto",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "cmb",
+ "town": "Colombo",
+ "source": "https://en.wikipedia.org/wiki/Colombo",
+ "pool": [
+  {
+   "year": 1505,
+   "text": "Portuguese explorers led by Dom Lourenço de Almeida first arrived in Sri Lanka.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1517,
+   "text": "The Portuguese expelled the Muslim inhabitants of Colombo and began to build a fort.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1593,
+   "text": "Following the fall of the kingdom, the Portuguese established complete control over the coastal area.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1638,
+   "text": "The Dutch signed a treaty with King Rajasinha II of Kandy.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1656,
+   "text": "The Dutch captured Colombo after an epic siege against the Portuguese.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1796,
+   "text": "The British captured Colombo and it remained a military outpost.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1815,
+   "text": "Colombo was made the capital of the island when ceded to the British.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1833,
+   "text": "The Government Agent of the Western Province was charged with administering the city.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "civic"
+  },
+  {
+   "year": 1848,
+   "text": "St Paul's Church, Milagiriya was rebuilt by the British.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "culture"
+  },
+  {
+   "year": 1864,
+   "text": "The colonial styled Galle Face Hotel became known as Asia's Emerald.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1865,
+   "text": "The British conceived a Municipal Council to train locals in self-governance.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "civic"
+  },
+  {
+   "year": 1866,
+   "text": "The Colombo Municipal Council met for the first time.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "civic"
+  },
+  {
+   "year": 1935,
+   "text": "The country's first international airport commenced operating.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 1948,
+   "text": "Ceylon gained independence from Britain, retaining Colombo as its capital.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1978,
+   "text": "Colombo was designated as the commercial capital after administrative functions moved.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "civic"
+  },
+  {
+   "year": 1997,
+   "text": "The adjacent Bank of Ceylon tower was completed, having been the tallest structure.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "The Port of Colombo handled millions of twenty-foot equivalent units.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2011,
+   "text": "The Nelum Pokuna Mahinda Rajapaksa Theatre opened as a world-class theatre.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "culture"
+  },
+  {
+   "year": 2013,
+   "text": "The Colombo–Katunayake Expressway was opened in the metropolitan area.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2025,
+   "text": "The National People's Power won local elections and Vraîe Cally Balthazaar became mayor.",
+   "url": "https://en.wikipedia.org/wiki/Colombo",
+   "theme": "civic"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}

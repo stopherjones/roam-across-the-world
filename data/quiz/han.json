@@ -1,0 +1,100 @@
+{
+ "id": "han",
+ "town": "Hanoi",
+ "source": "https://en.wikipedia.org/wiki/Hanoi",
+ "pool": [
+  {
+   "year": 1010,
+   "text": "Emperor Lý Thái Tổ established the imperial capital named Thăng Long.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1428,
+   "text": "King Lê Lợi renamed the city to Đông Kinh.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1831,
+   "text": "The Nguyễn dynasty changed the city name to Hanoi.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1902,
+   "text": "The city became the capital of French Indochina.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1945,
+   "text": "Ho Chi Minh proclaimed the independence of Vietnam, establishing the capital.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1953,
+   "text": "Free municipal elections of the State of Vietnam were held in Hanoi.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "civic"
+  },
+  {
+   "year": 1976,
+   "text": "Hanoi became the capital of the unified Socialist Republic of Vietnam.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "power_conflict"
+  },
+  {
+   "year": 1997,
+   "text": "The Vietnam Museum of Ethnology opened northwest of the historic center.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "culture"
+  },
+  {
+   "year": 1999,
+   "text": "UNESCO presented the title City for Peace to Hanoi.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "culture"
+  },
+  {
+   "year": 2004,
+   "text": "A part of the ancient Hanoi Citadel was discovered in central Hanoi.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "culture"
+  },
+  {
+   "year": 2006,
+   "text": "A census counted rural produce vendors operating within Hanoi.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "food_daily"
+  },
+  {
+   "year": 2008,
+   "text": "Hà Tây Province and other districts were merged into the metropolitan area.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "environment"
+  },
+  {
+   "year": 2008,
+   "text": "The city government devised a policy to partially ban street vendors.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "civic"
+  },
+  {
+   "year": 2023,
+   "text": "Hanoi achieved the second-highest gross regional domestic product among provinces.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "commerce_industry"
+  },
+  {
+   "year": 2025,
+   "text": "City officials planned to replace traditional food markets with supermarkets.",
+   "url": "https://en.wikipedia.org/wiki/Hanoi",
+   "theme": "food_daily"
+  }
+ ],
+ "generated": "2026-11-26",
+ "prompt": "quiz-v4",
+ "model": "gemini-3.5-flash-lite"
+}
