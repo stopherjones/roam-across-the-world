@@ -97,6 +97,52 @@ setTimeout(async () => {
   ok("sightings log deduplicates per town but keeps sightings from other towns",
     w.S.camp.sightings.length === 3 && w.S.camp.sightings.filter(s => s.taxonId === "1").length === 2);
   w.fetch = natureFetch;
+  const londonStay = w.S.camp.stays.find(stay => stay.cityId === "lon");
+  const originalActiveStayId = w.S.camp.activeStayId;
+  const originalFavoritePaintings = londonStay && londonStay.favoritePaintings;
+  const originalVisitedHeritage = londonStay && londonStay.visitedHeritage;
+  const originalLondonPaintings = w.PAINTINGS.lon;
+  const originalLondonHeritage = w.UNESCO_MAP.lon;
+  if (londonStay) {
+    w.S.camp.activeStayId = londonStay.id;
+    w.PAINTINGS.lon = [
+      { title: "Test painting one", artist: "Artist A", url: "https://example.com/painting-one",
+        image: "https://example.com/painting-one.jpg", image_source: "https://example.com/source" },
+      { title: "Test painting two", artist: "Artist B", url: "https://example.com/painting-two" },
+      { title: "Unselected painting", artist: "Artist C", url: "https://example.com/painting-three" }
+    ];
+    w.UNESCO_MAP.lon = [
+      { name: "Test heritage site one", year: "2001", category: "Cultural", url: "https://example.com/site-one" },
+      { name: "Test heritage site two", year: "2002", category: "Natural", url: "https://example.com/site-two" },
+      { name: "Unselected heritage site", year: "2003", category: "Cultural", url: "https://example.com/site-three" }
+    ];
+    w.paintingsOpen("lon");
+    const paintingChecks = D.querySelectorAll("#paint-modal input[name='saved-collection']");
+    if (paintingChecks[0]) paintingChecks[0].checked = true;
+    if (paintingChecks[1]) paintingChecks[1].checked = true;
+    w.saveCityCollection("paintings", "lon", londonStay.id);
+    ok("multiple paintings can be saved as favourites from results",
+      paintingChecks.length === 3 && londonStay.favoritePaintings.length === 2);
+    w.unescoOpen("lon");
+    const heritageChecks = D.querySelectorAll("#paint-modal input[name='saved-collection']");
+    if (heritageChecks[0]) heritageChecks[0].checked = true;
+    if (heritageChecks[1]) heritageChecks[1].checked = true;
+    w.saveCityCollection("heritage", "lon", londonStay.id);
+    const savedCollections = w.journalPanelHtml();
+    const savedStayHtml = w.cityStayContentHtml(londonStay, w.FOOD_SPECIALTIES, null);
+    ok("multiple UNESCO sites can be saved and displayed in both journals",
+      heritageChecks.length === 3 && londonStay.visitedHeritage.length === 2 &&
+      savedCollections.includes("Test painting one") && savedCollections.includes("Test heritage site one") &&
+      !savedCollections.includes("Unselected painting") && !savedCollections.includes("Unselected heritage site") &&
+      savedStayHtml.includes("Favourite paintings") && savedStayHtml.includes("UNESCO sites visited") &&
+      savedStayHtml.includes("Test painting one") && savedStayHtml.includes("Test heritage site one"));
+    londonStay.favoritePaintings = originalFavoritePaintings;
+    londonStay.visitedHeritage = originalVisitedHeritage;
+    w.S.camp.activeStayId = originalActiveStayId;
+    if (originalLondonPaintings === undefined) delete w.PAINTINGS.lon; else w.PAINTINGS.lon = originalLondonPaintings;
+    if (originalLondonHeritage === undefined) delete w.UNESCO_MAP.lon; else w.UNESCO_MAP.lon = originalLondonHeritage;
+    w.save();
+  }
   const savedJournalStays = w.S.camp.stays;
   w.S.camp.stays = [{ id: "smoke-dish-stay", cityId: "lon", at: "Day 1, 08:00",
     eatenDish: { name: "Jellied eels", description: "A London dish.", url: "https://example.com/eels",
@@ -108,7 +154,6 @@ setTimeout(async () => {
     journalHtml.includes("Jellied eels") && !journalHtml.includes("Pie and mash") &&
     journalHtml.includes("sighting-grid"));
   w.S.camp.stays = savedJournalStays;
-  const londonStay = w.S.camp.stays.find(stay => stay.cityId === "lon");
   const originalMeal = londonStay && londonStay.eatenDish;
   const originalStays = w.S.camp.stays.slice();
   w.S.camp.stays.push({ id: "smoke-liverpool-stay", cityId: "liv", at: "Day 2", eatenDish: null });

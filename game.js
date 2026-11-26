@@ -522,7 +522,30 @@ function dishesEatenHtml(){
  }).filter(function(card){return!!card});
  return"<details class='panel journal-section sighting-panel' data-journal-section='dishes'"+journalSectionOpenAttr("dishes")+"><summary>Dishes eaten ("+cards.length+")</summary>"+(cards.length?"<div class='sighting-grid' role='list'>"+cards.join("")+"</div>":"<p class='mute'>No dishes eaten yet. Choose one from Local dishes during a city stay.</p>")+"</details>"
 }
-function journalPanelHtml(){return journalHtml()+dishesEatenHtml()+sightingsHtml()+countriesPanelHtml()+achHtml()}
+function savedCityCollectionJournalHtml(kind){
+ var field=kind==="paintings"?"favoritePaintings":"visitedHeritage",stays=S.camp&&Array.isArray(S.camp.stays)?S.camp.stays:[],seen=Object.create(null),cards=[];
+ stays.forEach(function(stay){
+  var items=stay&&Array.isArray(stay[field])?stay[field]:[];
+  items.forEach(function(item){
+   var name=kind==="paintings"?item&&item.title:item&&item.name;
+   if(typeof name!=="string"||!name.trim())return;
+   var itemKey=String(item.url||name).trim().toLowerCase(),key=String(stay.cityId||"").toLowerCase()+"|"+itemKey;
+   if(seen[key])return;
+   seen[key]=true;
+   var image=kind==="paintings"?item.image:(item.image&&item.image.src);
+   var imageUrl=typeof image==="string"&&image.indexOf("https://")===0?image:"";
+   var url=typeof item.url==="string"&&item.url.indexOf("https://")===0?item.url:"";
+   var detail=kind==="paintings"?item.artist:[item.year,item.category].filter(Boolean).join(" · ");
+   var context=[journeyName(stay.cityId),stay.at].filter(Boolean).join(" · ");
+   var imageHtml=imageUrl?"<img src='"+esc(imageUrl)+"' alt='' loading='lazy'>":"";
+   var thumb=imageUrl?(url?"<a class='sighting-thumb' href='"+esc(url)+"' target='_blank' rel='noopener' aria-label='Open "+esc(name)+"'>"+imageHtml+"</a>":"<span class='sighting-thumb'>"+imageHtml+"</span>"):"<span class='sighting-thumb journal-collection-placeholder' aria-hidden='true'></span>";
+   cards.push("<article class='sighting-card' role='listitem'>"+thumb+"<div class='sighting-info'><b>"+esc(name)+"</b>"+(context?"<small>"+esc(context)+"</small>":"")+(detail?"<small>"+esc(detail)+"</small>":"")+(url?"<a href='"+esc(url)+"' target='_blank' rel='noopener'>"+(kind==="paintings"?"View painting":"View UNESCO site")+"</a>":"")+"</div></article>")
+  })
+ });
+ var title=kind==="paintings"?"Paintings":"Heritage",empty=kind==="paintings"?"No favourite paintings saved yet. Choose paintings from the Paintings tile during a city stay.":"No UNESCO sites saved yet. Mark sites visited from the Heritage tile during a city stay.";
+ return"<details class='panel journal-section sighting-panel' data-journal-section='"+kind+"'"+journalSectionOpenAttr(kind)+"><summary>"+title+" ("+cards.length+")</summary>"+(cards.length?"<div class='sighting-grid' role='list'>"+cards.join("")+"</div>":"<p class='mute'>"+empty+"</p>")+"</details>"
+}
+function journalPanelHtml(){return journalHtml()+dishesEatenHtml()+savedCityCollectionJournalHtml("paintings")+savedCityCollectionJournalHtml("heritage")+sightingsHtml()+countriesPanelHtml()+achHtml()}
 function inventoryPanelHtml(){
  var h="<div class='panel'><h2>Money &amp; inventory</h2><div class='inventory-stats'><div><small>Available</small><b>\u00a3"+Math.round(S.cash)+"</b></div><div><small>Spent this leg</small><b>\u00a3"+Math.round(S.spent)+"</b></div><div><small>Leg budget</small><b>\u00a3"+Math.round(S.budget)+"</b></div></div><p class='mute'>Campaign leg "+S.camp.legs+". You receive \u00a3"+INCOME+" at the start of each leg.</p></div>";
   if(S.camp.pack&&S.camp.pack.length)h+="<div class='panel'><h2>Goods for trade ("+S.camp.pack.length+"/"+MK_CAP+")</h2><ul class='log'>"+S.camp.pack.map(function(x){return"<li>"+esc(x.name)+" (paid \u00a3"+Math.round(x.ask)+")</li>"}).join("")+"</ul></div>";

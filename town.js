@@ -342,21 +342,7 @@ function paintCss(){
  }
 }
 function unescoOpen(pid){
- var list=(UNESCO_MAP||{})[pid]||[];
- if(!list.length)return;
- paintCss();
- var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
- paintingsClose();
- var items=list.map(function(x){
-  var km=x.km!=null?(x.km<1?"under 1 km":Math.round(x.km)+" km")+" away":"";
-  var img=x.image&&x.image.src?"<img src='"+x.image.src+"' alt='"+esc(x.name)+"' loading='lazy' style='max-width:100%;border-radius:6px;display:block;margin:8px 0'><div class='paint-credit'>Photo from Wikimedia Commons. <a href='"+x.image.page+"' target='_blank' rel='noopener'>Photographer and licence</a>.</div>":"";
-  return "<div class='paint-item'><strong>"+esc(x.name)+"</strong><br><span class='mute'>"+esc([x.year,x.category,km].filter(Boolean).join(" · "))+"</span>"+img+
-   "<p><a href='"+x.url+"' target='_blank' rel='noopener'>Read on the UNESCO World Heritage site</a></p></div>";
- }).join("");
- var back=document.createElement('div');back.id='paint-modal';back.className='paint-back';
- back.innerHTML="<div class='paint-box'><button type='button' class='paint-close' onclick='paintingsClose()'>Close</button><h2>World Heritage near "+esc(name)+"</h2>"+items+"</div>";
- back.addEventListener('click',function(e){if(e.target===back)paintingsClose();});
- document.body.appendChild(back);
+ openCityCollection(pid,"heritage");
 }
 function foodSpecialtiesLoad(){
  if(FOOD_SPECIALTIES)return Promise.resolve(FOOD_SPECIALTIES);
@@ -387,6 +373,79 @@ function foodSpecialtiesFor(pid,data){
 }
 function cityStayAction(fn,args){
  return esc(fn+"("+args.map(function(value){return typeof value==="string"?JSON.stringify(value):String(value)}).join(",")+")")
+}
+function cityCollectionField(kind){return kind==="paintings"?"favoritePaintings":"visitedHeritage"}
+function cityCollectionList(pid,kind){return kind==="paintings"?((typeof PAINTINGS!=="undefined"&&PAINTINGS[pid])||[]):((UNESCO_MAP||{})[pid]||[])}
+function cityCollectionKey(item,kind){
+ if(!item)return"";
+ var url=String(item.url||"").trim(),name=kind==="paintings"?item.title:item.name;
+ return url||String(name||"").trim().toLowerCase()
+}
+function cityCollectionSnapshot(item,kind){
+ if(kind==="paintings"){
+  if(!item||!item.title)return null;
+  return{title:String(item.title),artist:String(item.artist||""),url:typeof item.url==="string"&&item.url.indexOf("https://")===0?item.url:"",image:typeof item.image==="string"&&item.image.indexOf("https://")===0?item.image:"",image_source:String(item.image_source||""),km:typeof item.km==="number"?item.km:null}
+ }
+ if(!item||!item.name)return null;
+ var image=item.image&&typeof item.image.src==="string"&&item.image.src.indexOf("https://")===0?item.image.src:"";
+ var page=item.image&&typeof item.image.page==="string"&&item.image.page.indexOf("https://")===0?item.image.page:"";
+ return{name:String(item.name),year:String(item.year||""),category:String(item.category||""),url:typeof item.url==="string"&&item.url.indexOf("https://")===0?item.url:"",km:typeof item.km==="number"?item.km:null,image:{src:image,page:page}}
+}
+function cityCollectionResultHtml(item,kind,index,stay){
+ var name=kind==="paintings"?item.title:item.name,field=cityCollectionField(kind);
+ var saved=stay&&Array.isArray(stay[field])?stay[field]:[];
+ var checked=saved.some(function(entry){return cityCollectionKey(entry,kind)===cityCollectionKey(item,kind)});
+ var image=kind==="paintings"?item.image:(item.image&&item.image.src);
+ var km=item.km!=null?(item.km<1?"under 1 km":Math.round(item.km)+" km")+" away":"";
+ var details=kind==="paintings"?[item.artist,km].filter(Boolean).join(" · "):[item.year,item.category,km].filter(Boolean).join(" · ");
+ var url=typeof item.url==="string"&&item.url.indexOf("https://")===0?item.url:"";
+ var imageUrl=typeof image==="string"&&image.indexOf("https://")===0?image:"";
+ var source=kind==="paintings"?item.image_source:(item.image&&item.image.page);
+ var sourceHtml=source&&String(source).indexOf("https://")===0?"<div class='paint-credit'><a href='"+esc(source)+"' target='_blank' rel='noopener'>Image source</a></div>":(source?"<div class='paint-credit'>Image: "+esc(source)+"</div>":"");
+ var checkbox=stay?"<label class='city-collection-toggle'><input type='checkbox' name='saved-collection' value='"+index+"'"+(checked?" checked":"")+"><span>"+(kind==="paintings"?"Add to favourites":"Mark as visited")+"</span></label>":"";
+ var img=imageUrl?"<img src='"+esc(imageUrl)+"' alt='' loading='lazy'>":"";
+ return"<div class='paint-item'>"+checkbox+"<strong>"+esc(name)+"</strong>"+(details?"<br><span class='mute'>"+esc(details)+"</span>":"")+(img?img+sourceHtml:"")+(url?"<p><a href='"+esc(url)+"' target='_blank' rel='noopener'>"+(kind==="paintings"?"View painting details":"Read on the UNESCO World Heritage site")+"</a></p>":"")+"</div>"
+}
+function cityCollectionModal(pid,kind,stay,message){
+ var list=cityCollectionList(pid,kind),name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
+ var paintings=kind==="paintings",title=paintings?"Paintings of "+name:"World Heritage near "+name;
+ var status=message?"<p class='city-collection-feedback' role='status'>"+esc(message)+"</p>":"";
+ var content=stay?"<p class='mute'>"+(paintings?"Select any paintings you want to save as favourites.":"Select any UNESCO sites you have visited.")+"</p><fieldset class='city-collection-list'><legend class='sr-only'>"+(paintings?"Favourite paintings":"UNESCO sites visited")+"</legend>"+list.map(function(item,index){return cityCollectionResultHtml(item,kind,index,stay)}).join("")+"</fieldset><button type='button' class='btn' onclick='"+cityStayAction("saveCityCollection",[kind,pid,stay.id])+"'>"+(paintings?"Save favourites":"Save sites visited")+"</button>"+status:
+  "<p class='mute'>Start a campaign stay to save selections.</p>"+list.map(function(item,index){return cityCollectionResultHtml(item,kind,index,null)}).join("");
+ paintingsClose();
+ paintCss();
+ var back=document.createElement("div");back.id="paint-modal";back.className="paint-back";
+ back.innerHTML="<div class='paint-box'><button type='button' class='paint-close' onclick='paintingsClose()'>Close</button><h2>"+esc(title)+"</h2>"+content+"</div>";
+ back.addEventListener("click",function(e){if(e.target===back)paintingsClose()});
+ document.body.appendChild(back)
+}
+function openCityCollection(pid,kind){
+ var list=cityCollectionList(pid,kind);
+ if(!list.length)return;
+ visitPlace(pid,"activity");
+ cityCollectionModal(pid,kind,recordCityStay(pid),"")
+}
+function saveCityCollection(kind,pid,stayId){
+ var c=campAch(),modal=document.getElementById("paint-modal"),list=cityCollectionList(pid,kind),field=cityCollectionField(kind);
+ if(!c||!modal)return;
+ var stay=ensureCityStays(c).filter(function(item){return item&&item.id===stayId})[0];
+ if(!stay||stay.cityId!==pid)return;
+ var chosen=Array.prototype.map.call(modal.querySelectorAll("input[name='saved-collection']:checked"),function(input){return Number(input.value)});
+ stay[field]=chosen.map(function(index){return cityCollectionSnapshot(list[index],kind)}).filter(function(item){return!!item});
+ save();
+ var count=stay[field].length,message=kind==="paintings"?"Saved "+count+" "+(count===1?"painting":"paintings")+" as favourites.":"Saved "+count+" heritage "+(count===1?"site":"sites")+" as visited.";
+ cityCollectionModal(pid,kind,stay,message)
+}
+function citySavedCollectionHtml(items,kind){
+ if(!Array.isArray(items)||!items.length)return"<p class='mute'>None saved for this stay yet.</p>";
+ return"<div class='sighting-grid'>"+items.map(function(item){
+  var name=kind==="paintings"?item.title:item.name,image=kind==="paintings"?item.image:(item.image&&item.image.src);
+  var details=kind==="paintings"?item.artist:[item.year,item.category].filter(Boolean).join(" · ");
+  var url=typeof item.url==="string"&&item.url.indexOf("https://")===0?item.url:"";
+  var imageUrl=typeof image==="string"&&image.indexOf("https://")===0?image:"";
+  var thumb=imageUrl?"<span class='sighting-thumb'><img src='"+esc(imageUrl)+"' alt='' loading='lazy'></span>":"<span class='sighting-thumb stay-saved-placeholder' aria-hidden='true'></span>";
+  return"<article class='sighting-card'>"+thumb+"<div class='sighting-info'><b>"+esc(name||"")+"</b>"+(details?"<small>"+esc(details)+"</small>":"")+(url?"<a href='"+esc(url)+"' target='_blank' rel='noopener'>"+(kind==="paintings"?"View painting":"View UNESCO site")+"</a>":"")+"</div></article>"
+ }).join("")+"</div>"
 }
 function cityJournalModal(title,body,backAction,stayId){
  paintingsClose();
@@ -449,6 +508,7 @@ function cityStayContentHtml(stay,data,error){
   }).join("")+"</fieldset><button type='button' class='btn' onclick='"+cityStayAction("saveStayDish",[stay.id])+"'>Save as eaten</button><p class='stay-dish-feedback' id='stay-dish-feedback' role='status'></p>";
  }
  var c=campAch(),sightings=uniqueSightings((c&&Array.isArray(c.sightings)?c.sightings:[]).filter(function(s){return s&&s.locationId===stay.cityId&&s.id&&s.name&&typeof s.imageUrl==="string"&&s.imageUrl.indexOf("https://")===0}));
+ var paintings=Array.isArray(stay.favoritePaintings)?stay.favoritePaintings:[],heritage=Array.isArray(stay.visitedHeritage)?stay.visitedHeritage:[];
  var natureBody="<p class='stay-saved-note' role='status'>Nature sightings are saved here automatically; you do not need to select or save them.</p>"+
   (sightings.length?"<div class='sighting-grid stay-nature-list' role='list'>"+sightings.map(function(s){
    var url="https://www.inaturalist.org/observations/"+encodeURIComponent(s.id);
@@ -456,7 +516,9 @@ function cityStayContentHtml(stay,data,error){
   }).join("")+"</div>":"<p class='mute'>No sightings recorded in this city yet. Use Nature while exploring to add them.</p>");
  return"<p class='mute stay-date'>"+esc(stay.at||"Recorded stay")+"</p><div class='stay-interactions'>"+
   "<section class='stay-interaction-card'><h3>Local dishes</h3>"+localBody+"</section>"+
-  "<section class='stay-interaction-card'><h3>Nature</h3>"+natureBody+"</section></div>";
+  "<section class='stay-interaction-card'><h3>Nature</h3>"+natureBody+"</section>"+
+  "<section class='stay-interaction-card'><h3>Favourite paintings</h3>"+citySavedCollectionHtml(paintings,"paintings")+"</section>"+
+  "<section class='stay-interaction-card'><h3>UNESCO sites visited</h3>"+citySavedCollectionHtml(heritage,"heritage")+"</section></div>";
 }
 function openCityStay(stayId,backAction){
  var c=campAch();if(!c)return;
@@ -584,19 +646,7 @@ function awardTimeline(city,pts,max){
 }
 
 function paintingsOpen(pid){
- var list=(typeof PAINTINGS!=="undefined"&&PAINTINGS[pid])||[];
- if(!list.length)return;
- var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
- paintingsClose();
- paintCss();
- var items=list.map(function(p){
-  var img=p.image?"<img src='"+String(p.image).replace(/'/g,"%27")+"' alt='"+esc(p.title)+"' loading='lazy'><div class='paint-credit'>Image: "+esc(p.image_source||"")+"</div>":"";
-  return "<div class='paint-item'><strong>"+esc(p.title)+"</strong><br><span class='mute'>"+esc(p.artist)+"</span>"+img+"<p><a href='"+p.url+"' target='_blank' rel='noopener'>View on paintinglocations.com</a></p></div>";
- }).join("");
- var back=document.createElement('div');back.id='paint-modal';back.className='paint-back';
- back.innerHTML="<div class='paint-box'><button type='button' class='paint-close' onclick='paintingsClose()'>Close</button><h2>Paintings of "+esc(name)+"</h2>"+items+"</div>";
- back.addEventListener('click',function(e){if(e.target===back)paintingsClose();});
- document.body.appendChild(back);
+ openCityCollection(pid,"paintings");
 }
 function paintingsClose(){var m=document.getElementById('paint-modal');if(m)m.remove();}
 

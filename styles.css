@@ -392,6 +392,12 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .sighting-info .sighting-credit{font-size:.68rem}
 .dish-eaten-placeholder{aspect-ratio:1;border-radius:6px;background:var(--line)}
 .dish-eaten-description{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.journal-collection-placeholder{aspect-ratio:1;border-radius:6px;background:var(--line)}
+.city-collection-list{margin:0 0 10px;padding:0;border:0}
+.city-collection-list .paint-item:first-child{border-top:0}
+.city-collection-toggle{display:flex;align-items:center;gap:8px;color:#e8eef2;cursor:pointer}
+.city-collection-toggle input{width:16px;height:16px;margin:0;accent-color:#5cc2b0}
+.city-collection-feedback{min-height:1.2em;font-size:.85rem}
 .paint-box.city-journal-box{max-width:740px}
 .city-journal-heading{display:flex;align-items:center;gap:8px;min-height:40px;margin-bottom:12px}
 .city-journal-heading h2{flex:1;margin:0;color:inherit}
@@ -406,6 +412,8 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .stay-interaction-card{min-width:0;padding:10px;border:1px solid #2c3a45;border-radius:8px;background:#202e39}
 .stay-interaction-card h3{margin:0 0 8px;color:#e8eef2}
 .stay-interaction-card p{margin:6px 0}
+.stay-interaction-card .sighting-thumb img{width:100%;height:88px;object-fit:cover;margin:0}
+.stay-saved-placeholder{display:block;width:100%;aspect-ratio:1;border-radius:6px;background:#2c3a45}
 .stay-eaten{color:#a7e3d3}
 .stay-saved-note{padding:8px;border-radius:6px;background:rgba(92,194,176,.12);font-size:.88rem}
 .stay-dish-options{margin:0 0 10px;padding:0;border:0}
