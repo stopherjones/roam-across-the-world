@@ -1,7 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T13:48:54.119Z",
+  "generated_at": "2026-11-26T15:14:04.323Z",
   "cities": [
+    {
+      "city": "San Marino",
+      "country": "",
+      "specialties": [
+        {
+          "name": "Torta tre monti",
+          "description": "Torta Tre Monti ('Three Mountains Cake') is a traditional Sammarinese cake made of layers of thin waffled wafers adhered together by chocolate or hazelnut crème. The final product is covered in chocolate fondant. It is representative of the Three Towers of San Marino.",
+          "url": "https://www.tasteatlas.com/san-marino",
+          "description_source": "Wikipedia",
+          "thumbnail": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/La_Serenissima_Torta_Tre_Monti.jpg/500px-La_Serenissima_Torta_Tre_Monti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "source": "Wikimedia Commons",
+            "author": "Mooonswimmer",
+            "license": "CC BY 4.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:La_Serenissima_Torta_Tre_Monti.jpg"
+          },
+          "tasteatlas_url": "https://www.tasteatlas.com/san-marino",
+          "status": "approved"
+        }
+      ]
+    },
     {
       "city": "London",
       "country": "United Kingdom",
