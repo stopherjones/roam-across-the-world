@@ -97,6 +97,17 @@ setTimeout(async () => {
   ok("sightings log deduplicates per town but keeps sightings from other towns",
     w.S.camp.sightings.length === 3 && w.S.camp.sightings.filter(s => s.taxonId === "1").length === 2);
   w.fetch = natureFetch;
+  const savedJournalStays = w.S.camp.stays;
+  w.S.camp.stays = [{ id: "smoke-dish-stay", cityId: "lon", at: "Day 1, 08:00",
+    eatenDish: { name: "Jellied eels", description: "A London dish.", url: "https://example.com/eels",
+      thumbnail: { url: "https://example.com/eels.jpg" } } }];
+  const journalHtml = w.journalPanelHtml();
+  ok("Dishes eaten lists saved choices between journey and sightings",
+    journalHtml.indexOf("Your journey") < journalHtml.indexOf("Dishes eaten (1)") &&
+    journalHtml.indexOf("Dishes eaten (1)") < journalHtml.indexOf("Sightings (") &&
+    journalHtml.includes("Jellied eels") && !journalHtml.includes("Pie and mash") &&
+    journalHtml.includes("sighting-grid"));
+  w.S.camp.stays = savedJournalStays;
   const londonStay = w.S.camp.stays.find(stay => stay.cityId === "lon");
   const originalMeal = londonStay && londonStay.eatenDish;
   const originalStays = w.S.camp.stays.slice();

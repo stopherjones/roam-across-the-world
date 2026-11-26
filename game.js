@@ -508,7 +508,21 @@ function sightingsHtml(){
  }).filter(function(card){return!!card});
  return"<details class='panel journal-section sighting-panel' data-journal-section='sightings'"+journalSectionOpenAttr("sightings")+"><summary>Sightings ("+cards.length+")</summary>"+(cards.length?"<div class='sighting-grid' role='list'>"+cards.join("")+"</div>":"<p class='mute'>No sightings recorded yet. Use Nature while exploring a town to add local wildlife sightings.</p>")+"</details>"
 }
-function journalPanelHtml(){return journalHtml()+sightingsHtml()+countriesPanelHtml()+achHtml()}
+function dishesEatenHtml(){
+ var stays=S.camp&&Array.isArray(S.camp.stays)?S.camp.stays:[];
+ var cards=stays.map(function(stay){
+  var dish=stay&&stay.eatenDish;
+  if(!dish||typeof dish.name!=="string"||!dish.name.trim())return"";
+  var image=dish.thumbnail&&typeof dish.thumbnail.url==="string"&&dish.thumbnail.url.indexOf("https://")===0?dish.thumbnail.url:"";
+  var url=typeof dish.url==="string"&&dish.url.indexOf("https://")===0?dish.url:"";
+  var context=[journeyName(stay.cityId),stay.at].filter(Boolean).join(" · ");
+  var imageHtml=image?"<img src='"+esc(image)+"' alt='' loading='lazy'>":"";
+  var thumb=image?(url?"<a class='sighting-thumb' href='"+esc(url)+"' target='_blank' rel='noopener' aria-label='Read about "+esc(dish.name)+"'>"+imageHtml+"</a>":"<span class='sighting-thumb'>"+imageHtml+"</span>"):"<span class='sighting-thumb dish-eaten-placeholder' aria-hidden='true'></span>";
+  return"<article class='sighting-card' role='listitem'>"+thumb+"<div class='sighting-info'><b>"+esc(dish.name)+"</b>"+(context?"<small>"+esc(context)+"</small>":"")+(typeof dish.description==="string"&&dish.description?"<small class='dish-eaten-description'>"+esc(dish.description)+"</small>":"")+(url?"<a href='"+esc(url)+"' target='_blank' rel='noopener'>Read about this dish</a>":"")+"</div></article>";
+ }).filter(function(card){return!!card});
+ return"<details class='panel journal-section sighting-panel' data-journal-section='dishes'"+journalSectionOpenAttr("dishes")+"><summary>Dishes eaten ("+cards.length+")</summary>"+(cards.length?"<div class='sighting-grid' role='list'>"+cards.join("")+"</div>":"<p class='mute'>No dishes eaten yet. Choose one from Local dishes during a city stay.</p>")+"</details>"
+}
+function journalPanelHtml(){return journalHtml()+dishesEatenHtml()+sightingsHtml()+countriesPanelHtml()+achHtml()}
 function inventoryPanelHtml(){
  var h="<div class='panel'><h2>Money &amp; inventory</h2><div class='inventory-stats'><div><small>Available</small><b>\u00a3"+Math.round(S.cash)+"</b></div><div><small>Spent this leg</small><b>\u00a3"+Math.round(S.spent)+"</b></div><div><small>Leg budget</small><b>\u00a3"+Math.round(S.budget)+"</b></div></div><p class='mute'>Campaign leg "+S.camp.legs+". You receive \u00a3"+INCOME+" at the start of each leg.</p></div>";
   if(S.camp.pack&&S.camp.pack.length)h+="<div class='panel'><h2>Goods for trade ("+S.camp.pack.length+"/"+MK_CAP+")</h2><ul class='log'>"+S.camp.pack.map(function(x){return"<li>"+esc(x.name)+" (paid \u00a3"+Math.round(x.ask)+")</li>"}).join("")+"</ul></div>";

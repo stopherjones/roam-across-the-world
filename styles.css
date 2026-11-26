@@ -390,6 +390,8 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .sighting-info small{color:var(--mute)}
 .sighting-info a{color:var(--acc);font-size:.82rem}
 .sighting-info .sighting-credit{font-size:.68rem}
+.dish-eaten-placeholder{aspect-ratio:1;border-radius:6px;background:var(--line)}
+.dish-eaten-description{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}
 .paint-box.city-journal-box{max-width:740px}
 .city-journal-heading{display:flex;align-items:center;gap:8px;min-height:40px;margin-bottom:12px}
 .city-journal-heading h2{flex:1;margin:0;color:inherit}
