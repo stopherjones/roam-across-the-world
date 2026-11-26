@@ -481,9 +481,27 @@ function naturePhotoCredit(attribution,representative){
  var name=natureCreditName(attribution);
  return(representative?"Representative photo: ":"Observation photo: ")+(name==="Photographer not credited"?name:"(c) "+name)
 }
+function sightingSpeciesKey(s){
+ if(!s)return"";
+ var species=s.taxonId?"taxon:"+String(s.taxonId):String(s.scientificName||s.name||"").trim().toLowerCase().replace(/\s+/g," ");
+ if(!species)return"";
+ return JSON.stringify([String(s.locationId||s.locationName||"").trim().toLowerCase(),species])
+}
+function uniqueSightings(list){
+ var seenIds=Object.create(null),seenSpecies=Object.create(null),unique=[];
+ (Array.isArray(list)?list:[]).forEach(function(s){
+  if(!s||!s.id)return;
+  var id=String(s.id),key=sightingSpeciesKey(s);
+  if(seenIds[id]||(key&&seenSpecies[key]))return;
+  seenIds[id]=true;
+  if(key)seenSpecies[key]=true;
+  unique.push(s)
+ });
+ return unique
+}
 function sightingsHtml(){
  var list=S.camp&&Array.isArray(S.camp.sightings)?S.camp.sightings:[];
- var cards=list.map(function(s){
+ var cards=uniqueSightings(list).map(function(s){
   if(!s||!s.id||!s.name||typeof s.imageUrl!=="string"||s.imageUrl.indexOf("https://")!==0)return"";
   var url="https://www.inaturalist.org/observations/"+encodeURIComponent(s.id);
   return"<article class='sighting-card' role='listitem'><a class='sighting-thumb' href='"+url+"' target='_blank' rel='noopener' aria-label='View "+esc(s.name)+" on iNaturalist'><img src='"+esc(s.imageUrl)+"' alt='Photo of "+esc(s.name)+"' loading='lazy'></a><div class='sighting-info'><b>"+esc(s.name)+"</b><small>"+esc(s.locationName||s.locationId||"")+"</small><a href='"+url+"' target='_blank' rel='noopener'>View on iNaturalist</a><small class='sighting-credit'>"+esc(naturePhotoCredit(s.credit||s.attribution,s.representative))+"</small></div></article>"

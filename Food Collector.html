@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)chrome-extension://ohonalaemifghpjngbicmlobbklmnala/dashboard.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Food Collector</title><link rel="stylesheet" href="chrome-extension://ohonalaemifghpjngbicmlobbklmnala/styles.css"></head>
+<body>
+<header><div><h1>Food Collector</h1><p>Collect dishes manually; enrich from Wikipedia and Wikimedia Commons.</p></div>
+<div class="header-actions"><button id="export">Export JSON</button><button class="secondary" id="importBtn">Import JSON</button><input id="importFile" type="file" accept=".json,application/json" hidden=""></div></header>
+<main>
+<section class="panel">
+  <div class="section-head"><h2>Collection</h2><span id="count" class="pill">1 dishes</span></div>
+  <div class="form-grid">
+    <label>City<input id="city" placeholder="e.g. Porto"></label>
+    <label>Country<input id="country" placeholder="e.g. Portugal"></label>
+    <label class="wide">Add a dish manually<input id="manualName" placeholder="Dish name"></label>
+    <button id="addManual">Add dish</button>
+  </div>
+  <p class="muted">On TasteAtlas, highlight a dish name, right-click and choose “Save to Food Collector”. The city is filled from simple TasteAtlas city URLs (for example /tokyo). Country is entered by you. The extension stores only selected text and the tab URL; it does not inspect the page.</p>
+</section>
+<section class="panel">
+  <div class="section-head"><h2>Saved dishes</h2><div class="filters"><input id="filter" placeholder="Filter dishes or cities"><select id="statusFilter"><option value="all">All statuses</option><option value="needs-review">Needs review</option><option value="suggested">Suggestions found</option><option value="approved">Approved</option></select></div></div>
+  <div id="entries"><article class="entry" data-item-id="47e764cd-718e-4b3b-90c9-b83901132165">
+ <div class="entry-top"><div><h3 class="dish-name">Nigiri</h3><p class="source muted">Tokyo, Japan · <a href="https://www.tasteatlas.com/tokyo" target="_blank" rel="noreferrer">Original page</a> · suggested</p></div><button class="danger delete">Delete</button></div>
+ <div class="entry-meta"><label>City<input class="entry-city"></label><label>Country<input class="entry-country"></label></div>
+ <div class="suggestions"><div class="suggestion-grid">
+      <div class="suggestion"><img src="./Food Collector_files/Sushi_platter.jpg" alt=""><div><b>Wikipedia suggestion</b><p>Sushi</p><p>Sushi (すし, 寿司, 鮨, 鮓; pronounced [sɯɕiꜜ] or [sɯꜜɕi] ) is a traditional Japanese dish made with vinegared rice (鮨飯, sushi-meshi), typically seasoned with sugar and salt, and combined with a variety of ingredients (ねた, neta), such as seafood, vegetables, or meat; raw seafood is the most common, although some may be cooked. While sushi has numerous styles and presentations, the current defining component is the vinegared rice, also known as shari (しゃり), or sumeshi (酢飯).
+The modern form of sushi is believed to have been created by Hanaya Yohei, who invented nigiri-zushi, the most commonly recognized type today, in which seafood is placed on hand-pressed, vinegared rice. This innovation occurred around 1824 in the Edo period (1603–1867).</p><a href="https://en.wikipedia.org/?curid=28271" target="_blank" rel="noreferrer">View article</a><button class="small use-wiki">Use description</button></div></div>
+      <div class="suggestion"><img src="./Food Collector_files/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt=""><div><b>Wikimedia Commons suggestion</b><p>File:Various sushi, beautiful October night at midnight.jpg</p><p>Yumi Kimura · CC BY-SA 2.0</p><a href="https://commons.wikimedia.org/wiki/File:Various_sushi,_beautiful_October_night_at_midnight.jpg" target="_blank" rel="noreferrer">View file page</a><button class="small use-image">Use image</button></div></div></div></div>
+ <div class="entry-actions"><button class="enrich">Find Wikipedia &amp; image suggestions</button><button class="secondary approve">Mark ready for JSON</button><span class="saved-note muted"></span></div>
+ <details class="manual" open=""><summary>Edit description and image details manually</summary>
+  <label>Description<textarea class="description" rows="3"></textarea></label>
+  <label>Description source URL<input class="description-url"></label>
+  <label>Thumbnail URL<input class="image-url"></label>
+  <label>Image source / author / licence<input class="image-credit" placeholder="Commons · Author · CC BY-SA 4.0"></label>
+ </details>
+</article></div>
+</section>
+</main>
+<template id="entryTemplate"></template>
+<script src="chrome-extension://ohonalaemifghpjngbicmlobbklmnala/dashboard.js"></script>
+</body></html>

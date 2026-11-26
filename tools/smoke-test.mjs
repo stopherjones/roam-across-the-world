@@ -55,6 +55,26 @@ setTimeout(async () => {
   w.S.loc = w.S.goal; w.S.arrH = w.S.h; w.S.lmOn = false; w.S.phase = "arrive"; w.render();
   ok("arrival card renders", !!D.querySelector(".arrive"));
 
+  const observation = (id, taxonId, name) => ({
+    id, taxon: { id: taxonId, name: "Species " + taxonId, preferred_common_name: name,
+      default_photo: { medium_url: "https://example.com/" + id + ".jpg", attribution: "Photographer" } },
+    photos: [{ medium_url: "https://example.com/" + id + ".jpg" }]
+  });
+  const natureFetch = w.fetch;
+  w.fetch = () => Promise.resolve({ ok: true, json: () => Promise.resolve({ results: [
+    observation(101, 1, "Eurasian Jay"), observation(102, 1, "Eurasian Jay"),
+    observation(103, 2, "Egyptian Goose")
+  ] }) });
+  const localSightings = await w.natureLoad("lon");
+  ok("Nature results list each species once per town", localSightings.length === 2);
+  const duplicateJay = w.natureSightingRecord(observation(104, 1, "Eurasian Jay"), "lon");
+  const jayElsewhere = w.natureSightingRecord(observation(105, 1, "Eurasian Jay"), "par");
+  w.S.camp.sightings = [localSightings[0], duplicateJay];
+  w.recordNatureSightings([localSightings[1], jayElsewhere]);
+  ok("sightings log deduplicates per town but keeps sightings from other towns",
+    w.S.camp.sightings.length === 3 && w.S.camp.sightings.filter(s => s.taxonId === "1").length === 2);
+  w.fetch = natureFetch;
+
   w.S.phase = "rest"; w.S.camp.marketOpen = false; w.render();
   ok("rest page renders with things to do", D.querySelectorAll(".tiles a.btn").length >= 5 && [...D.querySelectorAll(".tiles a.btn")].some(a => a.textContent.includes("Atlas Obscura")) && [...D.querySelectorAll("button")].some(b => b.textContent === "City Timeline"));
 

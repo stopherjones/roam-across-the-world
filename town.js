@@ -527,7 +527,7 @@ function natureLoad(pid){
  if(NATURE_CACHE[pid])return NATURE_CACHE[pid];
  var place=N[pid];
  if(!place||typeof place.la!=="number"||!isFinite(place.la)||typeof place.lo!=="number"||!isFinite(place.lo))return Promise.reject(new Error("Town coordinates unavailable"));
- var sightings=[],seen={};
+ var sightings=[],seen=Object.create(null);
  function radiusSearch(index){
   if(index>=NATURE_RADII.length||sightings.length>=NATURE_LIMIT)return Promise.resolve(sightings);
   var url="https://api.inaturalist.org/v1/observations?lat="+encodeURIComponent(place.la)+
@@ -540,8 +540,9 @@ function natureLoad(pid){
    data.results.forEach(function(o){
     if(sightings.length>=NATURE_LIMIT)return;
     var sighting=natureSightingRecord(o,pid);
-    if(!sighting||seen[sighting.id])return;
-    seen[sighting.id]=true;
+    var key=sightingSpeciesKey(sighting);
+    if(!sighting||!key||seen[key])return;
+    seen[key]=true;
     sightings.push(sighting);
    });
    return radiusSearch(index+1);
@@ -570,7 +571,7 @@ function natureSightingRecord(o,pid){
  if(!imageUrl||!name)return null;
  var location=N[pid];
  return{
-  id:String(o.id),name:name,imageUrl:imageUrl,
+  id:String(o.id),taxonId:String(taxon.id),name:name,imageUrl:imageUrl,
   url:"https://www.inaturalist.org/observations/"+encodeURIComponent(o.id),
   locationId:pid,locationName:location?location.n:pid,
   credit:natureCreditName(photo.attribution),
@@ -578,17 +579,11 @@ function natureSightingRecord(o,pid){
  };
 }
 function recordNatureSightings(list){
- if(!S||!S.camp||!list.length)return;
- var sightings=Array.isArray(S.camp.sightings)?S.camp.sightings:(S.camp.sightings=[]),seen={};
- sightings.forEach(function(s){if(s&&s.id)seen[String(s.id)]=true});
- var changed=false;
- list.forEach(function(s){
-  if(seen[s.id])return;
-  seen[s.id]=true;
-  sightings.push(s);
-  changed=true;
- });
- if(changed)save();
+ if(!S||!S.camp)return;
+ var sightings=Array.isArray(S.camp.sightings)?S.camp.sightings:[],combined=sightings.concat(Array.isArray(list)?list:[]);
+ var unique=uniqueSightings(combined);
+ S.camp.sightings=unique;
+ if(unique.length!==sightings.length||unique.length!==combined.length)save();
 }
 function natureHtml(list){
  if(!list.length)return "<p class='mute'>No research-grade animal photos found within 25 km.</p>";
