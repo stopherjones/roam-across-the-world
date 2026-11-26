@@ -708,7 +708,7 @@ function hop(i,dep){
  var from=S.loc;
  var tr=S.tired?1:0;S.tired=false;S.pend=null;S.pendOpt=null;S.phase="move";
  if(tr){say("Tired after a poor night: 1 h lost.");S.legNotes.push("Tired after a poor night: 1 h lost.")}
- S.h=dep+o.h+tr;S.cash-=o.c;S.spent+=o.c;S.loc=o.to;S.interimUsed=0;S.path.push(o.to);S.modes.push(o.m);
+ S.h=dep+o.h+tr;S.cash-=o.c;S.spent+=o.c;S.camp.activeStayId=null;S.loc=o.to;S.interimUsed=0;S.path.push(o.to);S.modes.push(o.m);
  (S.times=S.times||[0]).push(S.h);S.nights.push(S.slept?1:0);S.slept=0;
  var r=S.ev&&!o.noev?roll():null,x=eventFor(o,r||12,from);
  hopAnimate(from,o.to,o,r,x,function(){settleHop(o,x)});
@@ -735,12 +735,13 @@ function eveningBack(){ if(S.phase==="evening"){S.phase="stay";render()} }
 function stay(k){
  var i=S.pend,o=S.pendOpt,rm=k<0?{n:"the station",c:0,q:2}:S.rooms[k],c=rm.c,sc=sched(o,S.loc,S.h);
  if(c>S.cash)return;
+ visitPlace(S.loc,"stay");
  S.cash-=c;S.spent+=c;var poor=k<0||(rm.q==0&&roll()<=2);S.tired=poor;
  say((k<0?"No room found: you spent the night at the station in ":"Stayed in a "+rm.n.toLowerCase()+" in ")+N[S.loc].n+(c?" (\u00a3"+c+")":"")+"."+(poor?" You slept badly.":""));
  S.legNotes.push((k<0?"Spent the night at the station in ":"Stayed a night in ")+N[S.loc].n+(poor?", slept badly":"")+".");
  S.slept=1;hop(i,sc.dep)
 }
-function look(){S.h+=.3;S.rev[S.loc+S.term]=1;say(clk(S.h)+": You ask around and check timetables at "+N[S.loc].n+".");render()}
+function look(){visitPlace(S.loc,"activity");S.h+=.3;S.rev[S.loc+S.term]=1;say(clk(S.h)+": You ask around and check timetables at "+N[S.loc].n+".");render()}
 // Campaign: each new leg gives a fixed income on top of any money carried over from the last leg. Tune here.
 var INCOME=50,BONUS=150,PLAN_ALLOW=1.5,LM_ALLOW=1.5,NEXT_CAMP=null;
 // Target: the median of the reasonable routes plus a planning allowance. Arriving by then earns BONUS on top of INCOME.
@@ -983,7 +984,7 @@ function nextLeg(){
  var from=S.loc,dirs=((S.camp.dirs||[]).concat([unitVec(S.start,from)])).slice(-HEAD_LEGS);
  var entry={leg:S.camp.legs,to:N[from].n,arrived:stamp(S.arrH||0),stranded:!!S.stranded,fromId:S.start,from:N[S.start].n,fromDay:journeyDay(0,S.camp.start),toId:from,toDay:journeyDay(S.arrH||S.h,S.camp.start),stops:(S.path||[]).slice(1,-1).map(function(id,i){return{id:id,day:journeyDay((S.times||[])[i+1]||0,S.camp.start)}})};
  var log=(S.camp.log||[]).concat([entry]),start=(arrDay()+1)*24;
- var camp={itin:S.camp.itin||null,origin:S.camp.origin|| (S.camp.legs===1?S.start:(!S.camp.tour&&!S.camp.itin?"lon":null)),ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],sightings:S.camp.sightings||[],waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
+ var camp={itin:S.camp.itin||null,origin:S.camp.origin|| (S.camp.legs===1?S.start:(!S.camp.tour&&!S.camp.itin?"lon":null)),ach:S.camp.ach||{},countries:S.camp.countries||[],continents:S.camp.continents||[],sightings:S.camp.sightings||[],stays:S.camp.stays||[],nextStayId:S.camp.nextStayId||0,waited:S.camp.waited||0,visited:S.camp.visited||[],heard:S.camp.heard||{},income:S.stranded?STRANDED_INCOME:INCOME,money:Math.max(0,S.cash),legs:S.camp.legs+1,start:start,log:log,dirs:dirs,paid:S.camp.paid||[],pack:(S.camp.pack||[]).map(function(x){return Object.assign({},x,{buyer:null})}),seed:S.camp.seed,sales:S.camp.sales||{},seen:S.camp.seen||{},nextUid:S.camp.nextUid||0};
  var st=S.setup||{air:false,evn:true,lm:{on:true,clue:"off",level:"mixed",plan:true}},tries=0;
  var fixedTo=null;
  if(S.camp.itin){fixedTo=itinTake(S.camp.itin,from,S.camp.chosen,S.camp.visited||[]);S.camp.chosen=null;if(!fixedTo){S=null;return render("Your itinerary has no further stops.")}}

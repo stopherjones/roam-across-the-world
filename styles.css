@@ -360,10 +360,21 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .tl-track::-webkit-scrollbar-track{background:var(--line);border-radius:6px}
 .tl-track::-webkit-scrollbar-thumb{background:var(--acc);border-radius:6px}
 
-#app .ach li{display:flex;align-items:center}
+.achievement-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px;list-style:none;margin:0;padding:0}
+.achievement-card{display:grid;grid-template-columns:38px minmax(0,1fr);gap:10px;align-items:start;min-width:0;padding:10px;background:var(--bg);border:1px solid var(--line);border-radius:8px}
+.achievement-card.locked{filter:grayscale(1);opacity:.58}
+.achievement-card.unlocked{background:color-mix(in srgb,var(--acc) 12%,var(--card));border-color:var(--acc);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--acc) 24%,transparent)}
+.achievement-mark{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--line);font-size:1.2rem}
+.achievement-card.unlocked .achievement-mark{background:color-mix(in srgb,var(--acc) 20%,var(--card))}
+.achievement-info{display:flex;flex-direction:column;gap:3px;min-width:0}
+.achievement-info b{overflow-wrap:anywhere}
+.achievement-info>span,.achievement-info small{color:var(--mute);font-size:.82rem}
+.achievement-card.unlocked .achievement-info b{color:var(--acc)}
 .country-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px}
 .country-card{display:flex;align-items:center;gap:10px;min-width:0;padding:10px;background:var(--bg);border:1px solid var(--line);border-radius:8px}
 .country-card.visited{border-color:var(--acc)}
+.country-journal{width:100%;color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+.country-journal:hover{background:color-mix(in srgb,var(--acc) 10%,var(--card))}
 .country-flag{flex:0 0 auto;font-size:1.55rem;line-height:1}
 .country-card:not(.visited) .country-flag{filter:grayscale(1);opacity:.45}
 .country-info{min-width:0}
@@ -379,6 +390,31 @@ a.btn{display:inline-block;text-decoration:none;text-align:center;box-sizing:bor
 .sighting-info small{color:var(--mute)}
 .sighting-info a{color:var(--acc);font-size:.82rem}
 .sighting-info .sighting-credit{font-size:.68rem}
+.paint-box.city-journal-box{max-width:740px}
+.city-journal-heading{display:flex;align-items:center;gap:8px;min-height:40px;margin-bottom:12px}
+.city-journal-heading h2{flex:1;margin:0;color:inherit}
+.city-journal-heading .paint-close{position:static;float:none;flex:0 0 auto}
+.city-journal-back{flex:0 0 auto;padding:6px 10px}
+.city-journal-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.city-journal-choice{display:flex;flex-direction:column;gap:4px;min-width:0;padding:12px;text-align:left;font:inherit;color:#e8eef2;background:#24333f;border:1px solid #405461;border-radius:8px;cursor:pointer}
+.city-journal-choice:hover{border-color:#7bbfae}
+.city-journal-choice small{font-size:.8rem;opacity:.8}
+.stay-date{margin:0 0 10px}
+.stay-interactions{display:grid;gap:10px}
+.stay-interaction-card{min-width:0;padding:10px;border:1px solid #2c3a45;border-radius:8px;background:#202e39}
+.stay-interaction-card h3{margin:0 0 8px;color:#e8eef2}
+.stay-interaction-card p{margin:6px 0}
+.stay-eaten{color:#a7e3d3}
+.stay-saved-note{padding:8px;border-radius:6px;background:rgba(92,194,176,.12);font-size:.88rem}
+.stay-dish-options{margin:0 0 10px;padding:0;border:0}
+.stay-dish-options legend{margin-bottom:6px}
+.stay-dish-option{position:relative;grid-template-columns:88px minmax(0,1fr);align-items:start;margin:0;color:#e8eef2;cursor:pointer}
+.stay-dish-option input{position:absolute;z-index:1;top:12px;left:12px;margin:0;accent-color:#5cc2b0}
+.stay-dish-option .sighting-thumb>img{width:100%;height:88px;object-fit:cover}
+.stay-dish-option .sighting-info small{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.stay-dish-placeholder{display:block;width:100%;aspect-ratio:1;border-radius:6px;background:#2c3a45}
+.stay-eaten-card .sighting-info small{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.stay-dish-feedback{min-height:1.3em;font-size:.85rem}
 
 /* Settings: your own links */
 .custom-form{display:grid;gap:8px;margin:10px 0}

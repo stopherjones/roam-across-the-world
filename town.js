@@ -325,7 +325,7 @@ function tileHtml(t){
 // UNESCO sites by town id. Loaded once; if the file is missing or empty, no Heritage tiles appear.
 var UNESCO_MAP={};
 var NATURE_CACHE={};
-var CUISINE_INDEX=null,CUISINE_INDEX_PROMISE=null;
+var FOOD_SPECIALTIES=null,FOOD_SPECIALTIES_PROMISE=null;
 var NATURE_RADII=[5,10,25],NATURE_LIMIT=4;
 var UNESCO_READY=fetch("data/unesco.json").then(function(r){if(!r.ok)throw new Error("unesco "+r.status);return r.json()}).catch(function(){return {}}).then(function(m){
  UNESCO_MAP=m||{};
@@ -358,65 +358,142 @@ function unescoOpen(pid){
  back.addEventListener('click',function(e){if(e.target===back)paintingsClose();});
  document.body.appendChild(back);
 }
-function cuisineIndexLoad(){
- if(CUISINE_INDEX)return Promise.resolve(CUISINE_INDEX);
- if(!CUISINE_INDEX_PROMISE){
-  CUISINE_INDEX_PROMISE=fetch("data/cuisine/index.json").then(function(r){
-   if(!r.ok)throw new Error("Cuisine data request failed ("+r.status+")");
+function foodSpecialtiesLoad(){
+ if(FOOD_SPECIALTIES)return Promise.resolve(FOOD_SPECIALTIES);
+ if(!FOOD_SPECIALTIES_PROMISE){
+  FOOD_SPECIALTIES_PROMISE=fetch("data/cuisine/food-specialties.json").then(function(r){
+   if(!r.ok)throw new Error("Food specialties request failed ("+r.status+")");
    return r.json();
   }).then(function(data){
-   if(!data||!data.townAreas||!data.areas)throw new Error("Cuisine data has an unexpected format");
-   CUISINE_INDEX=data;
+   if(!data||!Array.isArray(data.cities))throw new Error("Food specialties data has an unexpected format");
+   FOOD_SPECIALTIES=data;
    return data;
   }).catch(function(error){
-   CUISINE_INDEX_PROMISE=null;
+   FOOD_SPECIALTIES_PROMISE=null;
    throw error;
   });
  }
- return CUISINE_INDEX_PROMISE;
+ return FOOD_SPECIALTIES_PROMISE;
 }
-function cuisineHtml(pid,index){
- var area=index.townAreas[pid],dishes=area?(index.areas[area]||[]):[];
- var attribution="<p class='paint-credit'>Town-area mapping: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank' rel='noopener'>OpenStreetMap contributors</a> (Nominatim).</p>";
- if(!dishes.length)return attribution+"<p class='mute'>No local dishes were found for "+esc(N[pid]?N[pid].n:pid)+".</p>";
- return "<p class='mute'>Dishes associated with "+esc(area)+": "+dishes.length+".</p>"+attribution+dishes.map(function(d){
-  if(!d||!d.name||typeof d.url!=="string"||d.url.indexOf("https://")!==0)return"";
-  var image=typeof d.imageUrl==="string"&&d.imageUrl.indexOf("https://")===0
-   ?"<a href='"+esc(d.url)+"' target='_blank' rel='noopener' aria-label='Read about "+esc(d.name)+" on Wikipedia'><img src='"+esc(d.imageUrl)+"' alt='"+esc(d.name)+"' loading='lazy'></a>"
-   :"<p class='paint-credit'>No Wikipedia lead photo available.</p>";
-  var description=d.description?"<p class='mute'>"+esc(d.description)+"</p>":"";
-  var license=d.license?(typeof d.licenseUrl==="string"&&d.licenseUrl.indexOf("https://")===0
-   ?"<a href='"+esc(d.licenseUrl)+"' target='_blank' rel='noopener'>"+esc(d.license)+"</a>"
-   :esc(d.license)):"";
-  var creditParts=[];
-  if(d.imageUrl||d.photoCredit||license||d.photoUrl)creditParts.push(d.photoCredit?esc(d.photoCredit):"Photographer not credited");
-  if(license)creditParts.push(license);
-  if(typeof d.photoUrl==="string"&&d.photoUrl.indexOf("https://")===0)creditParts.push("<a href='"+esc(d.photoUrl)+"' target='_blank' rel='noopener'>Image details</a>");
-  var photoCredit=creditParts.length?"<div class='paint-credit'>Photo: "+creditParts.join(" · ")+"</div>":"";
-  return "<div class='paint-item'><a href='"+esc(d.url)+"' target='_blank' rel='noopener'><strong>"+esc(d.name)+"</strong></a>"+description+image+photoCredit+
-   "<a href='"+esc(d.url)+"' target='_blank' rel='noopener'>Read about this dish on Wikipedia</a></div>";
- }).join("");
+function foodSpecialtiesFor(pid,data){
+ var place=N[pid]||placeOf(pid),country=PLACE_COUNTRY[pid];
+ if(!place||!country||!data||!Array.isArray(data.cities))return[];
+ var city=String(place.n).trim().toLowerCase(),countryName=String(country).trim().toLowerCase();
+ for(var i=0;i<data.cities.length;i++){
+  var entry=data.cities[i];
+  if(entry&&String(entry.city||"").trim().toLowerCase()===city&&String(entry.country||"").trim().toLowerCase()===countryName&&Array.isArray(entry.specialties)&&entry.specialties.length)return entry.specialties;
+ }
+ return[];
 }
-function cuisineOpen(pid){
+function cityStayAction(fn,args){
+ return esc(fn+"("+args.map(function(value){return typeof value==="string"?JSON.stringify(value):String(value)}).join(",")+")")
+}
+function cityJournalModal(title,body,backAction,stayId){
  paintingsClose();
  paintCss();
- var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
  var back=document.createElement("div");back.id="paint-modal";back.className="paint-back";
- back.innerHTML="<div class='paint-box'><button type='button' class='paint-close' onclick='paintingsClose()'>Close</button>"+
-  "<h2>Local dishes in "+esc(name)+"</h2><div id='cuisine-results' role='status' aria-live='polite'><p class='mute'>Loading local dishes\u2026</p></div></div>";
+ back.setAttribute("data-city-stay",stayId||"");
+ back.setAttribute("data-back-action",backAction||"");
+ back.innerHTML="<div class='paint-box city-journal-box' role='dialog' aria-modal='true' aria-label='"+esc(title)+"'>"+
+  "<div class='city-journal-heading'>"+(backAction?"<button type='button' class='btn alt city-journal-back' onclick='"+esc(backAction)+"'>Back</button>":"")+"<button type='button' class='paint-close' onclick='paintingsClose()'>Close</button><h2>"+esc(title)+"</h2></div>"+body+"</div>";
  back.addEventListener("click",function(e){if(e.target===back)paintingsClose()});
  document.body.appendChild(back);
- cuisineIndexLoad().then(function(index){
-  var el=document.getElementById("cuisine-results");
-  if(el)el.innerHTML=cuisineHtml(pid,index);
+ var close=back.querySelector(".paint-close");if(close)close.focus();
+}
+function countryCityStays(country){
+ var c=campAch();if(!c)return[];
+ return ensureCityStays(c).filter(function(stay){return stay&&PLACE_COUNTRY[stay.cityId]===country})
+}
+function openCountryStays(country){
+ var stays=countryCityStays(country),cities=[];
+ stays.forEach(function(stay){if(cities.indexOf(stay.cityId)<0)cities.push(stay.cityId)});
+ if(cities.length===1){openCityStays(cities[0],country,false);return}
+ if(!cities.length){
+  cityJournalModal(country,"<p class='mute'>No recorded city stays in this country yet.</p>",null);
+  return;
+ }
+ var body="<p class='mute'>Choose a city you have spent time in.</p><div class='city-journal-list'>"+cities.map(function(id){
+  var count=stays.filter(function(stay){return stay.cityId===id}).length;
+  return"<button type='button' class='city-journal-choice' onclick='"+cityStayAction("openCityStays",[id,country,true])+"'><b>"+esc(journeyName(id))+"</b><small>"+count+" "+(count===1?"stay":"stays")+"</small></button>";
+ }).join("")+"</div>";
+ cityJournalModal("Cities visited in "+country,body,null);
+}
+function openCityStays(cityId,country,hasCityList){
+ var stays=countryCityStays(country||PLACE_COUNTRY[cityId]).filter(function(stay){return stay.cityId===cityId});
+ var backAction=hasCityList?("openCountryStays("+JSON.stringify(country)+")"):"";
+ if(stays.length===1){openCityStay(stays[0].id,backAction);return}
+ if(!stays.length){
+  cityJournalModal(journeyName(cityId),"<p class='mute'>No recorded stays for this city yet.</p>",backAction);
+  return;
+ }
+ var body="<p class='mute'>Choose which stay to view. You can mark one local dish eaten on each stay.</p><div class='city-journal-list'>"+stays.map(function(stay,index){
+  return"<button type='button' class='city-journal-choice' onclick='"+cityStayAction("openCityStay",[stay.id,"openCityStays("+JSON.stringify(cityId)+","+JSON.stringify(country)+","+!!hasCityList+")"])+"'><b>Stay "+(index+1)+(stay.eatenDish?" · Dish eaten":"")+"</b><small>"+esc(stay.at||"Recorded visit")+"</small></button>";
+ }).join("")+"</div>";
+ cityJournalModal(journeyName(cityId),body,backAction);
+}
+function cityStayContentHtml(stay,data,error){
+ var dishes=foodSpecialtiesFor(stay.cityId,data),meal=stay.eatenDish,localBody="";
+ if(meal){
+  var mealUrl=typeof meal.url==="string"&&meal.url.indexOf("https://")===0?meal.url:"";
+  var mealImage=meal.thumbnail&&typeof meal.thumbnail.url==="string"&&meal.thumbnail.url.indexOf("https://")===0?meal.thumbnail.url:"";
+  localBody="<div class='sighting-card stay-eaten-card'>"+(mealImage?"<span class='sighting-thumb'><img src='"+esc(mealImage)+"' alt=''></span>":"<span class='sighting-thumb stay-dish-placeholder' aria-hidden='true'></span>")+"<div class='sighting-info'><b>"+esc(meal.name)+"</b>"+(meal.description?"<small>"+esc(meal.description)+"</small>":"")+(mealUrl?"<a href='"+esc(mealUrl)+"' target='_blank' rel='noopener'>Read about this dish</a>":"")+"</div></div><p class='mute'>One dish can be recorded per stay.</p>";
+ }else if(error){
+  localBody="<p class='mute'>Local dishes could not be loaded: "+esc(error.message||error)+".</p>";
+ }else if(!dishes.length){
+  localBody="<p class='mute'>No local dish choices are available for this city.</p>";
+ }else{
+  localBody="<p class='mute'>Choose one dish you ate during this stay. This choice can only be saved once.</p><fieldset class='stay-dish-options sighting-grid'><legend class='sr-only'>Local dishes</legend>"+dishes.map(function(d,index){
+   if(!d||!d.name)return"";
+   var img=d.thumbnail&&typeof d.thumbnail.url==="string"&&d.thumbnail.url.indexOf("https://")===0?"<img src='"+esc(d.thumbnail.url)+"' alt='' loading='lazy'>":"";
+   return"<label class='stay-dish-option sighting-card'><input type='radio' name='stay-dish' value='"+index+"'><span class='sighting-thumb'>"+(img||"<span class='stay-dish-placeholder' aria-hidden='true'></span>")+"</span><span class='sighting-info'><b>"+esc(d.name)+"</b>"+(d.description?"<small>"+esc(d.description)+"</small>":"")+"</span></label>";
+  }).join("")+"</fieldset><button type='button' class='btn' onclick='"+cityStayAction("saveStayDish",[stay.id])+"'>Save as eaten</button><p class='stay-dish-feedback' id='stay-dish-feedback' role='status'></p>";
+ }
+ var c=campAch(),sightings=uniqueSightings((c&&Array.isArray(c.sightings)?c.sightings:[]).filter(function(s){return s&&s.locationId===stay.cityId&&s.id&&s.name&&typeof s.imageUrl==="string"&&s.imageUrl.indexOf("https://")===0}));
+ var natureBody="<p class='stay-saved-note' role='status'>Nature sightings are saved here automatically; you do not need to select or save them.</p>"+
+  (sightings.length?"<div class='sighting-grid stay-nature-list' role='list'>"+sightings.map(function(s){
+   var url="https://www.inaturalist.org/observations/"+encodeURIComponent(s.id);
+   return"<article class='sighting-card' role='listitem'><a class='sighting-thumb' href='"+url+"' target='_blank' rel='noopener' aria-label='View "+esc(s.name)+" on iNaturalist'><img src='"+esc(s.imageUrl)+"' alt='Photo of "+esc(s.name)+"' loading='lazy'></a><div class='sighting-info'><b>"+esc(s.name)+"</b><small>"+esc(s.locationName||s.locationId||"")+"</small><a href='"+url+"' target='_blank' rel='noopener'>View on iNaturalist</a><small class='sighting-credit'>"+esc(naturePhotoCredit(s.credit||s.attribution,s.representative))+"</small></div></article>";
+  }).join("")+"</div>":"<p class='mute'>No sightings recorded in this city yet. Use Nature while exploring to add them.</p>");
+ return"<p class='mute stay-date'>"+esc(stay.at||"Recorded stay")+"</p><div class='stay-interactions'>"+
+  "<section class='stay-interaction-card'><h3>Local dishes</h3>"+localBody+"</section>"+
+  "<section class='stay-interaction-card'><h3>Nature</h3>"+natureBody+"</section></div>";
+}
+function openCityStay(stayId,backAction){
+ var c=campAch();if(!c)return;
+ var stay=ensureCityStays(c).filter(function(item){return item&&item.id===stayId})[0];
+ if(!stay)return;
+ var title=journeyName(stay.cityId);
+ cityJournalModal(title,"<div id='city-stay-content'><p class='mute'>Loading stay journal\u2026</p></div>",backAction,stay.id);
+ foodSpecialtiesLoad().then(function(data){
+  var modal=document.getElementById("paint-modal");
+  if(modal&&modal.getAttribute("data-city-stay")===String(stay.id))modal.querySelector("#city-stay-content").innerHTML=cityStayContentHtml(stay,data,null);
  },function(error){
-  var el=document.getElementById("cuisine-results");
-  if(!el)return;
-  el.setAttribute("role","alert");
-  el.innerHTML="<p class='mute'>Could not load local dishes: "+esc(error&&error.message||error)+"</p><button type='button' class='btn' id='cuisine-retry'>Try again</button>";
-  document.getElementById("cuisine-retry").addEventListener("click",function(){cuisineOpen(pid)});
+  var modal=document.getElementById("paint-modal");
+  if(modal&&modal.getAttribute("data-city-stay")===String(stay.id))modal.querySelector("#city-stay-content").innerHTML=cityStayContentHtml(stay,null,error);
  });
 }
+function saveStayDish(stayId){
+ var feedback=document.getElementById("stay-dish-feedback"),modal=document.getElementById("paint-modal");
+ var selected=modal&&modal.querySelector("input[name='stay-dish']:checked");
+ if(!selected){if(feedback)feedback.textContent="Choose a dish before saving.";return}
+ var c=campAch();if(!c)return;
+ var stay=ensureCityStays(c).filter(function(item){return item&&item.id===stayId})[0];
+ if(!stay||stay.eatenDish)return;
+ var dishes=foodSpecialtiesFor(stay.cityId,FOOD_SPECIALTIES),dish=dishes[Number(selected.value)];
+ if(!dish||!dish.name){if(feedback)feedback.textContent="That dish is no longer available.";return}
+ var thumbnail=dish.thumbnail||{};
+ stay.eatenDish={name:String(dish.name),description:String(dish.description||""),url:typeof dish.url==="string"?dish.url:"",thumbnail:{url:typeof thumbnail.url==="string"?thumbnail.url:""}};
+ save();
+ openCityStay(stay.id,modal.getAttribute("data-back-action"));
+}
+function cuisineOpen(pid){
+ visitPlace(pid,"activity");
+ var stay=recordCityStay(pid);
+ if(stay)openCityStay(stay.id);
+}
+var FOOD_SPECIALTIES_READY=foodSpecialtiesLoad().then(function(data){
+ if(S&&S.loc&&foodSpecialtiesFor(S.loc,data).length&&document.querySelector(".tiles")&&!document.querySelector(".tile-local-dishes")&&!document.getElementById("paint-modal"))render();
+},function(error){console.error("Could not load local food specialties",error)});
 function thingsHtml(){
  tileCss();
  var q=function(s){return encodeURIComponent(s).replace(/%20/g,"+")},c=q(N[S.loc].n);
@@ -432,7 +509,7 @@ function thingsHtml(){
  // UNESCO World Heritage sites near this town (data/unesco.json, built by tools/gen-unesco.mjs).
  if(((UNESCO_MAP||{})[S.loc]||[]).length)extra.push({emoji:"🏛️",title:"Heritage",onclick:"unescoOpen('"+S.loc+"')",cls:"tile-heritage"});
  extra.push({emoji:"🌿",title:"Nature",onclick:"natureOpen('"+S.loc+"')"});
- extra.push({emoji:"🍽️",title:"Local dishes",onclick:"cuisineOpen('"+S.loc+"')"});
+ if(FOOD_SPECIALTIES&&foodSpecialtiesFor(S.loc,FOOD_SPECIALTIES).length)extra.push({emoji:"🍽️",title:"Local dishes",onclick:"cuisineOpen('"+S.loc+"')",cls:"tile-local-dishes"});
  // Link-out search tiles. They open the site's own search for the town name; nothing is fetched or stored.
  // The search addresses are not checked against the live sites, so confirm them in a browser and edit here if they change.
  if(atlasTile())extra.push({emoji:"🧭",title:"Atlas Obscura",ext:true,href:atlasHref()});
@@ -462,7 +539,7 @@ function waitHtml(){
 function boardWaiting(){
  S.timelineOpen=false;
  if(S.phase!=="wait")return;
- var i=S.pend,dep=S.waitDep,c=campAch();if(c){c.waited+=Math.max(0,dep-S.h);if(c.waited>=12)unlockAch("timewaster")}
+ var i=S.pend,dep=S.waitDep,c=campAch();visitPlace(S.loc,"stay");if(c){c.waited+=Math.max(0,dep-S.h);if(c.waited>=12)unlockAch("timewaster")}
  S.pend=null;S.pendOpt=null;S.waitDep=null;S.camp.marketOpen=false;S.phase="move";
  hop(i,dep);
 }
@@ -597,6 +674,7 @@ function natureHtml(list){
  }).join("");
 }
 function natureOpen(pid){
+ visitPlace(pid,"activity");
  var name=(typeof N!=="undefined"&&N[pid]&&N[pid].n)||pid;
  paintingsClose();
  paintCss();

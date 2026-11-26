@@ -27,7 +27,13 @@ const dom = new JSDOM(fs.readFileSync(path.join(root, "index.html"), "utf8"), {
     w.onerror = e => errs.push(String(e).slice(0, 160));
     w.matchMedia = q => ({ matches: false, media: q, addListener() {}, removeListener() {}, addEventListener() {}, removeEventListener() {} });
     w.fetch = (url, opts) => {
-      if (!opts) return Promise.resolve({ ok: false, status: 404, json: () => Promise.resolve({}) }); // static files such as data/intros.json
+      if (!opts) {
+        if (String(url).indexOf("data/cuisine/food-specialties.json") >= 0) {
+          const data = JSON.parse(fs.readFileSync(path.join(root, "data/cuisine/food-specialties.json"), "utf8"));
+          return Promise.resolve({ ok: true, json: () => Promise.resolve(data) });
+        }
+        return Promise.resolve({ ok: false, status: 404, json: () => Promise.resolve({}) }); // static files such as data/intros.json
+      }
       const p = JSON.parse(opts.body).messages[0].content;
       const r = JSON.parse(JSON.stringify(reply));
       const m = p.match(/Items: (\[.*\])\n?/);
@@ -54,6 +60,23 @@ setTimeout(async () => {
 
   w.S.loc = w.S.goal; w.S.arrH = w.S.h; w.S.lmOn = false; w.S.phase = "arrive"; w.render();
   ok("arrival card renders", !!D.querySelector(".arrive"));
+  const savedAchievements = w.S.camp.ach;
+  w.S.camp.ach = { pinpoint: { at: "Day 1" } };
+  const achievementCards = w.achHtml();
+  ok("achievements render as locked and unlocked cards",
+    achievementCards.includes("achievement-card unlocked") && achievementCards.includes("achievement-card locked"));
+  w.S.camp.ach = savedAchievements;
+  await w.FOOD_SPECIALTIES_READY;
+  const savedLocation = w.S.loc;
+  const savedTokyo = w.N.tyo;
+  if (!w.N.tyo) w.N.tyo = { n: "Tokyo" };
+  const hasLocalDishes = id => { w.S.loc = id; return w.thingsHtml().includes("tile-local-dishes"); };
+  ok("Local dishes tile only appears for cities with specialties",
+    hasLocalDishes("lon") && hasLocalDishes("tyo") && !hasLocalDishes(savedLocation));
+  w.S.loc = savedLocation;
+  if (!savedTokyo) delete w.N.tyo;
+  ok("Local dishes data is matched to its city and country",
+    w.foodSpecialtiesFor("lon", w.FOOD_SPECIALTIES).some(d => d.name === "Jellied eels"));
 
   const observation = (id, taxonId, name) => ({
     id, taxon: { id: taxonId, name: "Species " + taxonId, preferred_common_name: name,
@@ -74,6 +97,29 @@ setTimeout(async () => {
   ok("sightings log deduplicates per town but keeps sightings from other towns",
     w.S.camp.sightings.length === 3 && w.S.camp.sightings.filter(s => s.taxonId === "1").length === 2);
   w.fetch = natureFetch;
+  const londonStay = w.S.camp.stays.find(stay => stay.cityId === "lon");
+  const originalMeal = londonStay && londonStay.eatenDish;
+  const originalStays = w.S.camp.stays.slice();
+  w.S.camp.stays.push({ id: "smoke-liverpool-stay", cityId: "liv", at: "Day 2", eatenDish: null });
+  w.openCountryStays("United Kingdom");
+  ok("country journal offers a city choice when multiple cities were visited",
+    D.querySelectorAll("#paint-modal .city-journal-choice").length === 2);
+  w.S.camp.stays = originalStays;
+  w.openCountryStays("United Kingdom"); await wait(50);
+  const dishRadio = D.querySelector("#paint-modal input[name='stay-dish'][value='0']");
+  ok("city stay journal shows automatic nature records and dish choices",
+    !!dishRadio && D.querySelector("#paint-modal .stay-saved-note").textContent.includes("saved here automatically") &&
+    !!D.querySelector("#paint-modal .stay-dish-option.sighting-card") &&
+    !!D.querySelector("#paint-modal .stay-nature-list .sighting-card"));
+  if (dishRadio && londonStay) {
+    dishRadio.checked = true;
+    w.saveStayDish(londonStay.id);
+    ok("one local dish can be saved as eaten for a stay",
+      !!londonStay.eatenDish && londonStay.eatenDish.name === "Jellied eels");
+    londonStay.eatenDish = originalMeal;
+    w.save();
+  }
+  w.paintingsClose();
 
   w.S.phase = "rest"; w.S.camp.marketOpen = false; w.render();
   ok("rest page renders with things to do", D.querySelectorAll(".tiles a.btn").length >= 5 && [...D.querySelectorAll(".tiles a.btn")].some(a => a.textContent.includes("Atlas Obscura")) && [...D.querySelectorAll("button")].some(b => b.textContent === "City Timeline"));

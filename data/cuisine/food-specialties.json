@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-26T13:48:54.119Z",
+  "cities": [
+    {
+      "city": "London",
+      "country": "United Kingdom",
+      "specialties": [
+        {
+          "name": "Jellied eels",
+          "description": "Jellied eels is a traditional English dish that originated in the 18th century, primarily in the East End of London. The dish consists of chopped eels boiled in a spiced stock that is allowed to cool and set, forming a jelly. It is usually served cold.",
+          "url": "https://en.wikipedia.org/wiki/Jellied_eels",
+          "description_source": "Wikipedia",
+          "thumbnail": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Eels_1385.JPG/500px-Eels_1385.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "source": "Wikimedia Commons",
+            "author": "JanesDaddy (Ensglish User)",
+            "license": "CC BY-SA 3.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Eels_1385.JPG"
+          },
+          "tasteatlas_url": "https://www.tasteatlas.com/london",
+          "status": "suggested"
+        },
+        {
+          "name": "Pie and mash",
+          "description": "Pie and mash is a British working-class food, originating in the docks of London, considered \"a Cockney classic\". It typically consists of a minced beef pie (formerly also eel pie) served with mashed potato and a parsley sauce known as liquor, with malt vinegar as a condiment.",
+          "url": "https://en.wikipedia.org/wiki/Pie_and_mash",
+          "description_source": "Wikipedia",
+          "thumbnail": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Goddards_pie_mash_and_liquor.jpg/500px-Goddards_pie_mash_and_liquor.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "source": "",
+            "author": "",
+            "license": "",
+            "source_url": ""
+          },
+          "tasteatlas_url": "https://www.tasteatlas.com/london",
+          "status": "suggested"
+        }
+      ]
+    },
+    {
+      "city": "Tokyo",
+      "country": "Japan",
+      "specialties": [
+        {
+          "name": "Abura soba",
+          "description": "Aburasoba is a dry noodle dish made with a sauce of soy sauce and lard.[1] Traditional ingredients include shoyu tare base, aroma oil, menma, shredded nori, and green onions.",
+          "url": "https://en.wikipedia.org/wiki/Aburasoba",
+          "description_source": "Wikipedia",
+          "thumbnail": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Abura_soba_by_shibainu_in_Kichijoji%2C_Tokyo.jpg/500px-Abura_soba_by_shibainu_in_Kichijoji%2C_Tokyo.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "source": "CC BY 2.0",
+            "author": "",
+            "license": "",
+            "source_url": ""
+          },
+          "tasteatlas_url": "https://www.tasteatlas.com/tokyo",
+          "status": "approved"
+        },
+        {
+          "name": "Tsukemen",
+          "description": "Tsukemen, \"dipping noodles\", is a ramen dish in Japanese cuisine consisting of noodles that are eaten after being dipped in a separate bowl of soup or broth. The dish was invented in 1961 by Kazuo Yamagishi, a restaurateur in Tokyo, Japan.",
+          "url": "https://en.wikipedia.org/wiki/Tsukemen",
+          "description_source": "Wikipedia",
+          "thumbnail": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Tsuke-men_001.jpg/500px-Tsuke-men_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "source": "Wikimedia Commons",
+            "author": "Ocdp",
+            "license": "CC0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Tsuke-men_001.jpg"
+          },
+          "tasteatlas_url": "https://www.tasteatlas.com/tokyo",
+          "status": "approved"
+        },
+        {
+          "name": "Gunkanmaki",
+          "description": "Gunkanmaki, \"warship roll\", was developed in Tokyo and is a special type of nigirizushi: an oval, hand-formed clump of sushi rice that has a strip of nori wrapped around its perimeter to form a vessel that is filled with some soft, loose or fine-chopped ingredients.",
+          "url": "https://en.wikipedia.org/wiki/Sushi#Nigirizushi",
+          "description_source": "Wikipedia",
+          "thumbnail": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Firefly_squid_gunkan_sushi.jpg/500px-Firefly_squid_gunkan_sushi.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "source": "",
+            "author": "",
+            "license": "",
+            "source_url": ""
+          },
+          "tasteatlas_url": "https://www.tasteatlas.com/tokyo",
+          "status": "approved"
+        },
+        {
+          "name": "Nigiri",
+          "description": "Nigirizushi, \"hand-pressed sushi\", was developed in Tokyo and consists of an oblong mound of sushi rice that a chef typically presses between the palms of the hands to form an oval-shaped ball and a topping (the neta) draped over the ball.",
+          "url": "https://en.wikipedia.org/wiki/Sushi#Nigirizushi",
+          "description_source": "Wikipedia",
+          "thumbnail": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Sushi_Saito_IMG_1737_%2823776728486%29.jpg/500px-Sushi_Saito_IMG_1737_%2823776728486%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "source": "",
+            "author": "",
+            "license": "",
+            "source_url": ""
+          },
+          "tasteatlas_url": "https://www.tasteatlas.com/tokyo",
+          "status": "approved"
+        }
+      ]
+    }
+  ]
+}
