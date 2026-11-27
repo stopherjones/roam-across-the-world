@@ -338,7 +338,7 @@ function paintCss(){
  if(!document.getElementById('paint-css')){
   var st=document.createElement('style');st.id='paint-css';
   st.textContent=".paint-back{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:999;display:flex;align-items:center;justify-content:center;padding:12px;box-sizing:border-box}.paint-box{background:#1b2630;color:#e8eef2;border-radius:10px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:16px;box-sizing:border-box}.paint-box img{max-width:100%;height:auto;border-radius:6px;display:block;margin:8px 0}.paint-item{border-top:1px solid #2c3a45;padding:12px 0}.paint-close{float:right;background:#7bbfae;color:#0d1419;border:0;border-radius:6px;padding:6px 12px;font-size:1em;cursor:pointer}.paint-credit{font-size:.8em;opacity:.7}.paint-icon{background:none;border:0;font-size:1.2em;cursor:pointer;padding:0 0 0 .4em;margin-left:auto}";
-  st.textContent+=".paint-box a:link,.paint-box a:visited{color:#5cc2b0;text-decoration-thickness:.08em;text-underline-offset:2px}.paint-box a:hover,.paint-box a:active{color:#a5e8dc}.search-modal-term{width:100%;box-sizing:border-box;min-height:9em;margin:8px 0 12px;font:inherit;resize:vertical}.search-modal-provider{display:block;width:100%;box-sizing:border-box;margin:6px 0 12px;padding:8px;font:inherit}";
+  st.textContent+=".paint-box a:link,.paint-box a:visited{color:#5cc2b0;text-decoration-thickness:.08em;text-underline-offset:2px}.paint-box a:hover,.paint-box a:active{color:#a5e8dc}.search-modal-term{width:100%;box-sizing:border-box;min-height:9em;margin:8px 0 12px;font:inherit;resize:vertical}.city-notes-input{display:block;width:100%;min-height:12em;box-sizing:border-box;margin:8px 0 12px;font:inherit;resize:vertical}.search-modal-provider{display:block;width:100%;box-sizing:border-box;margin:6px 0 12px;padding:8px;font:inherit}";
   document.head.appendChild(st);
  }
 }
@@ -690,7 +690,6 @@ function mountTimeline(){
 // Points from the City Timeline are paid as pounds, once for each town in each leg
 function awardTimeline(city,pts,max){
  timelineFullMarks(pts,max);
- visitPlace(S.loc,"timeline");
  S.camp.timelinePaid=S.camp.timelinePaid||{};
  if(S.camp.timelinePaid[city])return "You have already earned from "+city+" this leg.";
  S.camp.timelinePaid[city]=1;

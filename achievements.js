@@ -32,7 +32,7 @@ function unlockAch(id){
 // Taiwan is included by choice, though it is not a UN member.
 var COUNTRY_LIST=["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo","Costa Rica","Croatia","Cuba","Cyprus","Czechia","Democratic Republic of the Congo","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Ivory Coast","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Korea","North Macedonia","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe","Kosovo"];
 // Where a visit can come from. Set a source to false to stop it ticking a country. Travel agent visits never count.
-var VISIT_SOURCES={start:true,rest:true,cruise:true,merchant:true,timeline:true,checkpoint:true,stay:true,activity:true};
+var VISIT_SOURCES={start:true,rest:true,cruise:true,merchant:true,stay:true,activity:true};
 function ensureCityStays(c){
  if(!Array.isArray(c.stays)){
   c.stays=(c.visited||[]).map(function(id,i){return{id:"legacy-"+i,cityId:id,at:"",eatenDish:null}});
@@ -50,8 +50,7 @@ function recordCityStay(id){
  stays.push(stay);c.activeStayId=stay.id;
  return stay
 }
-// Records a visit to a place. Only a campaign start, a rest day, a cruise stop, the market or a finished City Timeline
-// count. Passing through on a journey, including changing trains, does not.
+// Records a visit to a place. Passing through on a journey, including changing trains, does not.
 function visitPlace(id,src){
  var c=campAch();if(!c||!N[id]||!VISIT_SOURCES[src])return;
  recordCityStay(id);
@@ -96,7 +95,7 @@ function countriesPanelHtml(){
  var c=campAch()||{countries:[]};
  var list=COUNTRY_LIST.slice().sort(function(x,y){var gx=ticked(c,x),gy=ticked(c,y);if(gx!==gy)return gx?-1:1;return x.localeCompare(y)});
  var n=countriesVisited(c);
- return"<details class='panel journal-section country-panel' data-journal-section='countries'"+journalSectionOpenAttr("countries")+"><summary>Countries visited ("+n+"/"+COUNTRY_LIST.length+")</summary><p class='mute'>A country counts once you rest there, visit its market, finish its City Timeline, stop on a cruise, or start a campaign there. Passing through on a journey does not count.</p><div class='country-grid' role='list'>"+list.map(function(k){
+ return"<details class='panel journal-section country-panel' data-journal-section='countries'"+journalSectionOpenAttr("countries")+"><summary>Countries visited ("+n+"/"+COUNTRY_LIST.length+")</summary><p class='mute'>A country counts once you rest there, visit its market or town activities while waiting for transport, stop on a cruise, or start a campaign there. City Timeline work, checkpoint work, and passing through on a journey do not count.</p><div class='country-grid' role='list'>"+list.map(function(k){
   var g=ticked(c,k),content="<span class='country-flag' aria-hidden='true'>"+flagOf(k)+"</span><span class='country-info'><b>"+esc(k)+"</b><small>"+(g?"Visited · View city journal":"Not visited")+"</small></span>";
   return g?"<button type='button' class='country-card visited country-journal' role='listitem' aria-label='View "+esc(k)+" city journal' onclick='"+esc("openCountryStays("+JSON.stringify(k)+")")+"'>"+content+"</button>":"<article class='country-card' role='listitem'>"+content+"</article>"
  }).join("")+"</div></details>";
