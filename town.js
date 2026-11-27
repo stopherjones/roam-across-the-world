@@ -459,6 +459,42 @@ function cityJournalModal(title,body,backAction,stayId){
  document.body.appendChild(back);
  var close=back.querySelector(".paint-close");if(close)close.focus();
 }
+function cityNotesHtml(stay){
+ var text=String(stay.notes||""),html="",last=0,match,re=/https?:\/\/[^\s<>\"']+/g;
+ while((match=re.exec(text))){
+  var url=match[0],link=url;
+  while(/[.,!?;:)\]}]$/.test(link))link=link.slice(0,-1);
+  html+=esc(text.slice(last,match.index));
+  if(link){
+   html+="<a href='"+esc(link)+"' target='_blank' rel='noopener noreferrer'>"+esc(link)+"</a>"+esc(url.slice(link.length));
+  }else html+=esc(url);
+  last=match.index+url.length;
+ }
+ html+=esc(text.slice(last));
+ return text.trim()?"<p class='stay-notes-text'>"+html+"</p>":"<p class='mute'>No notes for this stay yet.</p>";
+}
+function openStayNotes(stayId,returnToJournal){
+ var c=campAch();if(!c)return;
+ var stay=ensureCityStays(c).filter(function(item){return item&&item.id===stayId})[0];
+ if(!stay)return;
+ var backAction="";
+ if(returnToJournal){
+  var current=document.getElementById("paint-modal"),previousAction=current?current.getAttribute("data-back-action"):"";
+  backAction="openCityStay("+JSON.stringify(stay.id)+","+JSON.stringify(previousAction||"")+")";
+ }
+ var body="<label class='city-notes-label' for='city-stay-notes'>Notes for "+esc(journeyName(stay.cityId))+"</label><textarea id='city-stay-notes' class='city-notes-input' rows='8'>"+esc(stay.notes||"")+"</textarea><button type='button' class='btn' onclick='"+cityStayAction("saveStayNotes",[stay.id])+"'>Save notes</button><p id='city-notes-feedback' class='mute' role='status'></p>";
+ cityJournalModal("Notes · "+journeyName(stay.cityId),body,backAction,stay.id);
+}
+function saveStayNotes(stayId){
+ var modal=document.getElementById("paint-modal"),input=modal&&modal.querySelector("#city-stay-notes");
+ if(!input)return;
+ var c=campAch();if(!c)return;
+ var stay=ensureCityStays(c).filter(function(item){return item&&item.id===stayId})[0];
+ if(!stay)return;
+ stay.notes=input.value;
+ save();
+ var feedback=modal.querySelector("#city-notes-feedback");if(feedback)feedback.textContent="Notes saved.";
+}
 function countryCityStays(country){
  var c=campAch();if(!c)return[];
  return ensureCityStays(c).filter(function(stay){return stay&&PLACE_COUNTRY[stay.cityId]===country})
@@ -515,6 +551,7 @@ function cityStayContentHtml(stay,data,error){
    return"<article class='sighting-card' role='listitem'><a class='sighting-thumb' href='"+url+"' target='_blank' rel='noopener' aria-label='View "+esc(s.name)+" on iNaturalist'><img src='"+esc(s.imageUrl)+"' alt='Photo of "+esc(s.name)+"' loading='lazy'></a><div class='sighting-info'><b>"+esc(s.name)+"</b><small>"+esc(s.locationName||s.locationId||"")+"</small><a href='"+url+"' target='_blank' rel='noopener'>View on iNaturalist</a><small class='sighting-credit'>"+esc(naturePhotoCredit(s.credit||s.attribution,s.representative))+"</small></div></article>";
   }).join("")+"</div>":"<p class='mute'>No sightings recorded in this city yet. Use Nature while exploring to add them.</p>");
  return"<p class='mute stay-date'>"+esc(stay.at||"Recorded stay")+"</p><div class='stay-interactions'>"+
+  "<section class='stay-interaction-card'><h3>Notes</h3>"+cityNotesHtml(stay)+"<button type='button' class='btn alt' onclick='"+cityStayAction("openStayNotes",[stay.id,true])+"'>Edit notes</button></section>"+
   "<section class='stay-interaction-card'><h3>Local dishes</h3>"+localBody+"</section>"+
   "<section class='stay-interaction-card'><h3>Nature</h3>"+natureBody+"</section>"+
   "<section class='stay-interaction-card'><h3>Favourite paintings</h3>"+citySavedCollectionHtml(paintings,"paintings")+"</section>"+
@@ -548,6 +585,11 @@ function saveStayDish(stayId){
  save();
  openCityStay(stay.id,modal.getAttribute("data-back-action"));
 }
+function notesOpen(pid){
+ visitPlace(pid,"activity");
+ var stay=recordCityStay(pid);
+ if(stay)openStayNotes(stay.id,false);
+}
 function cuisineOpen(pid){
  visitPlace(pid,"activity");
  var stay=recordCityStay(pid);
@@ -580,7 +622,7 @@ function thingsHtml(){
  extra.push({emoji:"🎬",title:"A day in... videos",ext:true,href:"https://www.youtube.com/results?search_query="+encodeURIComponent(N[S.loc].n+" Must See").replace(/%20/g,"+")});
  // Your own search links from Settings, as tiles too.
  customLinks(N[S.loc].n).forEach(function(l){extra.push({emoji:"🔗",title:l[0],href:l[2]})});
- var tiles=core.concat(extra);
+ var tiles=[{emoji:"📝",title:"Notes",onclick:"notesOpen('"+S.loc+"')"}].concat(core,extra);
  if(!tiles.length)return "<div class='panel'><h2>Things to do</h2><p class='mute'>All the things to do links are turned off. Turn them back on in Settings.</p></div>";
  return "<div class='panel'><h2>Things to do</h2><div class='tiles'>"+tiles.map(tileHtml).join("")+"</div></div>";
 }
