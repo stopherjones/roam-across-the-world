@@ -319,6 +319,7 @@ function tileCss(){
 var EXT_ICON="<svg class='ext' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round' aria-label='Opens in an external website' role='img'><path d='M14 4h6v6'/><path d='M20 4l-9 9'/><path d='M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5'/></svg>";
 function tileHtml(t){
  var inner=(t.ext?EXT_ICON:"")+"<span class='em' aria-hidden='true'>"+t.emoji+"</span><span>"+esc(t.title)+"</span>";
+ if(t.searchTerm!==undefined)return "<button type='button' class='btn tile' title='"+esc(t.title)+"' onclick='"+cityStayAction("searchModalOpen",[t.title,t.searchTerm])+"'>"+inner+"</button>";
  if(t.onclick)return "<button type='button' class='btn tile"+(t.cls?" "+t.cls:"")+"' title='"+esc(t.title)+"' onclick=\""+t.onclick+"\">"+inner+"</button>";
  return "<a class='btn tile' href='"+t.href+"' target='_blank' rel='noopener' title='"+esc(t.title)+"'>"+inner+"</a>";
 }
@@ -337,7 +338,7 @@ function paintCss(){
  if(!document.getElementById('paint-css')){
   var st=document.createElement('style');st.id='paint-css';
   st.textContent=".paint-back{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:999;display:flex;align-items:center;justify-content:center;padding:12px;box-sizing:border-box}.paint-box{background:#1b2630;color:#e8eef2;border-radius:10px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:16px;box-sizing:border-box}.paint-box img{max-width:100%;height:auto;border-radius:6px;display:block;margin:8px 0}.paint-item{border-top:1px solid #2c3a45;padding:12px 0}.paint-close{float:right;background:#7bbfae;color:#0d1419;border:0;border-radius:6px;padding:6px 12px;font-size:1em;cursor:pointer}.paint-credit{font-size:.8em;opacity:.7}.paint-icon{background:none;border:0;font-size:1.2em;cursor:pointer;padding:0 0 0 .4em;margin-left:auto}";
-  st.textContent+=".paint-box a:link,.paint-box a:visited{color:#5cc2b0;text-decoration-thickness:.08em;text-underline-offset:2px}.paint-box a:hover,.paint-box a:active{color:#a5e8dc}";
+  st.textContent+=".paint-box a:link,.paint-box a:visited{color:#5cc2b0;text-decoration-thickness:.08em;text-underline-offset:2px}.paint-box a:hover,.paint-box a:active{color:#a5e8dc}.search-modal-term{width:100%;box-sizing:border-box;min-height:9em;margin:8px 0 12px;font:inherit;resize:vertical}.search-modal-provider{display:block;width:100%;box-sizing:border-box;margin:6px 0 12px;padding:8px;font:inherit}";
   document.head.appendChild(st);
  }
 }
@@ -458,6 +459,19 @@ function cityJournalModal(title,body,backAction,stayId){
  back.addEventListener("click",function(e){if(e.target===back)paintingsClose()});
  document.body.appendChild(back);
  var close=back.querySelector(".paint-close");if(close)close.focus();
+}
+function searchModalOpen(title,term){
+ var body="<label for='search-modal-provider'>Search with</label><select id='search-modal-provider' class='search-modal-provider'><option value='google'>Google</option><option value='ecosia'>Ecosia</option><option value='duckduckgo'>DuckDuckGo</option></select><label for='search-modal-term'>Search term</label><textarea id='search-modal-term' class='search-modal-term'>"+esc(term)+"</textarea><button type='button' class='btn' onclick='launchSearch()'>Search</button><p id='search-modal-feedback' class='mute' role='status'></p>";
+ cityJournalModal(title+" search",body,null);
+ var input=document.getElementById("search-modal-term");if(input)input.focus();
+}
+function launchSearch(){
+ var modal=document.getElementById("paint-modal"),input=modal&&modal.querySelector("#search-modal-term"),provider=modal&&modal.querySelector("#search-modal-provider"),term=input?input.value.trim():"";
+ if(!term){var feedback=modal&&modal.querySelector("#search-modal-feedback");if(feedback)feedback.textContent="Enter a search term first.";return}
+ var searchUrls={google:"https://www.google.com/search?q=",ecosia:"https://www.ecosia.org/search?q=",duckduckgo:"https://duckduckgo.com/?q="};
+ var base=searchUrls[provider&&provider.value]||searchUrls.google;
+ window.open(base+encodeURIComponent(term),"_blank","noopener,noreferrer");
+ paintingsClose();
 }
 function cityNotesHtml(stay){
  var text=String(stay.notes||""),html="",last=0,match,re=/https?:\/\/[^\s<>\"']+/g;
@@ -602,9 +616,9 @@ function thingsHtml(){
  tileCss();
  var q=function(s){return encodeURIComponent(s).replace(/%20/g,"+")},c=q(N[S.loc].n);
  var core=[
-  {full:"Discover the local music scene",emoji:"🎵",title:"Music",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+music+scene+in+"+c+".+Give+me+examples+of+artists+covering+traditional%2C+mainstream+and+more+locally+unique+music+where+applicable"},
-  {full:"Discover the local sports scene",emoji:"⚽",title:"Sport",ext:true,href:"https://www.google.com/search?q=tell+me+about+the+sports+scene+in+"+c+".+Give+me+examples+covering+traditional%2C+mainstream+and+more+locally+unique+sports+where+applicable"},
-  {full:"Explore local folklore and legends",emoji:"📜",title:"Folklore",ext:true,href:"https://www.google.com/search?q="+c+"%3A+tell+me+about+local+folklore%2C+myths+and+unusual+histories"}
+  {full:"Discover the local music scene",emoji:"🎵",title:"Music",ext:true,searchTerm:"tell me about the music scene in "+N[S.loc].n+". Give me examples of artists covering traditional, mainstream and more locally unique music where applicable"},
+  {full:"Discover the local sports scene",emoji:"⚽",title:"Sport",ext:true,searchTerm:"tell me about the sports scene in "+N[S.loc].n+". Give me examples covering traditional, mainstream and more locally unique sports where applicable"},
+  {full:"Explore local folklore and legends",emoji:"📜",title:"Folklore",ext:true,searchTerm:N[S.loc].n+": tell me about local folklore, myths and unusual histories"}
  ].filter(function(t){return thingOn(t.full)});
  // Themes with data for this town. Paintings always comes from the paintings data; other themes (e.g. UNESCO) go here too.
  var pics=(typeof PAINTINGS!=="undefined"&&PAINTINGS[S.loc])||[];
