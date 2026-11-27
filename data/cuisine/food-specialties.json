@@ -4,7 +4,7 @@
   "cities": [
     {
       "city": "San Marino",
-      "country": "",
+      "country": "San Marino",
       "specialties": [
         {
           "name": "Torta tre monti",
