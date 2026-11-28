@@ -43835,12 +43835,12 @@
     "search": "Torta Tre Monti San Marino"
    },
    {
-    "name": "Balsamic Condiment of San Marino",
-    "kind": "food",
-    "what_and_why": "An aged balsamic vinegar produced in the hilly microclimate of the republic following ancient local traditions.",
+    "name": "Samarinese artisanal ceramics",
+    "kind": "useful",
+    "what_and_why": "Locally crafted mid-century modern ceramics, often used by local liqueur makers, and prized among collectors.",
     "rarity": "uncommon",
     "tier": "luxury",
-    "search": "balsamic vinegar San Marino local product"
+    "search": "San Marino mid century ceramics"
    },
    {
     "name": "Sammarinese Postage Stamps",
@@ -43859,14 +43859,6 @@
     "search": "San Marino euro coin set"
    },
    {
-    "name": "Dama di San Marino Red Wine",
-    "kind": "food",
-    "what_and_why": "A structured red wine made from grapes grown on the limestone slopes of Mount Titano within the Consorzio Vini Tipici.",
-    "rarity": "common",
-    "tier": "routine",
-    "search": "Dama di San Marino wine"
-   },
-   {
     "name": "Artisanal Ceramic Crest of San Marino",
     "kind": "useful",
     "what_and_why": "Hand-painted ceramic plates and wall plaques bearing the official coat of arms of the Most Serene Republic.",
@@ -43875,12 +43867,12 @@
     "search": "San Marino ceramics hand painted"
    },
    {
-    "name": "Bratot Herbal Liqueur",
+    "name": "Samarinese Herbal Liqueur",
     "kind": "food",
     "what_and_why": "A traditional digestif infused with alpine herbs gathered from the rocky cliffs surrounding the capital.",
     "rarity": "uncommon",
     "tier": "routine",
-    "search": "Bratot liqueur San Marino"
+    "search": "Samarinese herbal liqueur"
    },
    {
     "name": "Handmade Leather Goods",
